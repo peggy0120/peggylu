@@ -4,22 +4,103 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Projects | Peggy Lu</title>
+    <meta name="description" content="">
+    <meta name="author" content="Peggy Pei-Ying Lu">
+
+    <title>Projects | Pei-Ying Lu</title>
+
+    <link rel="stylesheet" href="style.css" type='text/css'>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:900' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-    
-        <ul>
-            <li><a href="http://homepage.ntu.edu.tw/~b00106031/lisguide/"  target='_blank'>LIS Guide</a></li>
-            <li><a href="http://www.bicd.ntu.edu.tw/2014nscfood/food-crisis.html" target='_blank'>Food Crisis Website</a></li>
-            <li>
-                <a href='http://homepage.ntu.edu.tw/~b00106031/cropgs/'  target='_blank'>Grains Growing Stage</a>
-            </li>
-            <li><a href="https://8e26p2.axshare.com/#p=home"  target='_blank'>NTU LIS IA framework</a></li>
-            <li><a href="http://www.lis.ntu.edu.tw/?page_id=152"  target='_blank'>NTU LIS Course Schedule</a></li>
-        </ul>
-   
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+           
+                <div class="sidebar-head">
+                    <a href="#">
+                        Pei-Ying Lu
+                    </a>
+                </div>
+             <ul class="sidebar-nav">
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a class='active'>Projects</a>
+                </li>
+                <li>
+                    <a href="">Blog</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4 proj-grid">
+                        <div class="proj-img"></div>
+                        <div class="proj-title"></div>
+ 
+                    </div>
+                    <div class="col-lg-4 proj-grid">
+                        <div class="proj-img"></div>
+                        <div class="proj-title"></div>
+                        
+                    </div>
+                    <div class="col-lg-4 proj-grid">
+                        <div class="proj-img"></div>
+                        <div class="proj-title"></div>
+                        
+                    </div>
+                    <div class="col-lg-4 proj-grid">
+                        <div class="proj-img"></div>
+                        <div class="proj-title"></div>
+                        
+                    </div>
+                    <div class="col-lg-4 proj-grid">
+                        <div class="proj-img"></div>
+                        <div class="proj-title"></div>
+                        
+                    </div>
+                    <div class="col-lg-4 proj-grid">
+                        <div class="proj-img"></div>
+                        <div class="proj-title"></div>
+                        
+                    </div>
+                    <div class="col-lg-4 proj-grid">
+                        <div class="proj-img"></div>
+                        <div class="proj-title"></div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+        $("#menu-toggle").click(function (e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
 
 </body>
 
