@@ -4,16 +4,73 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Peggy Lu</title>
+    <meta name="description" content="">
+    <meta name="author" content="Peggy Pei-Ying Lu">
+
+    <title>Pei-Ying Lu</title>
+
     <link rel="stylesheet" href="style.css" type='text/css'>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
     <link href='https://fonts.googleapis.com/css?family=Roboto:900' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-    <div id='wrapper'>
-        <div id='main'>Peggy Lu </div>
-        <a href='about.html'>ABOUT</a>
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+           
+                <div class="sidebar-head">
+                    <a href="#">
+                        Pei-Ying Lu
+                    </a>
+                </div>
+             <ul class="sidebar-nav">
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="projects.html">Projects</a>
+                </li>
+                <li>
+                    <a href="">Blog</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        
+                        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
     </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+        $("#menu-toggle").click(function (e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
 
 </body>
 
