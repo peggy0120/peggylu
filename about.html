@@ -27,9 +27,21 @@
                         Pei-Ying Lu
                     </a>
             </div>
+            <div class="sidebar-search">
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search this site">
+                        <span class="input-group-btn">
+                        <button type="submit" class="btn btn-default">
+                        <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                        </span>
+                    </div>
+                </form>
+            </div>
             <ul class="sidebar-nav">
                 <li>
-                    <a  class="active">About</a>
+                    <a class="active">About</a>
                 </li>
                 <li>
                     <a href="projects.html">Projects</a>
@@ -69,6 +81,13 @@
             e.preventDefault();
             $("#wrapper").toggleClass("toggled");
         });
+        $(window).resize(function () {
+                var width = $(window).width();
+                if (width > 767) {
+                    $('#wrapper').removeClass('toggled');
+                }
+            })
+            .resize();
     </script>
 
 </body>

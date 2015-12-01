@@ -21,13 +21,25 @@
 
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
-           
-                <div class="sidebar-head">
-                    <a href="#">
+
+            <div class="sidebar-head">
+                <a href="#">
                         Pei-Ying Lu
                     </a>
-                </div>
-             <ul class="sidebar-nav">
+            </div>
+            <div class="sidebar-search">
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search this site">
+                        <span class="input-group-btn">
+                        <button type="submit" class="btn btn-default">
+                        <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                        </span>
+                    </div>
+                </form>
+            </div>
+            <ul class="sidebar-nav">
                 <li>
                     <a href="about.html">About</a>
                 </li>
@@ -44,41 +56,42 @@
         <!-- Page Content -->
         <div id="page-content-wrapper">
             <div class="container-fluid">
+                <a href="#menu-toggle" class="btn btn-default" id="menu-toggle"></a>
                 <div class="row">
-                    <div class="col-lg-4 proj-grid">
+                    <div class="col-lg-4 col-md-6 col-sm-6 proj-grid">
                         <div class="proj-img"></div>
                         <div class="proj-title"></div>
- 
+
                     </div>
-                    <div class="col-lg-4 proj-grid">
+                    <div class="col-lg-4 col-md-6 col-sm-6 proj-grid">
                         <div class="proj-img"></div>
                         <div class="proj-title"></div>
-                        
+
                     </div>
-                    <div class="col-lg-4 proj-grid">
+                    <div class="col-lg-4 col-md-6 col-sm-6 proj-grid">
                         <div class="proj-img"></div>
                         <div class="proj-title"></div>
-                        
+
                     </div>
-                    <div class="col-lg-4 proj-grid">
+                    <div class="col-lg-4 col-md-6 col-sm-6 proj-grid">
                         <div class="proj-img"></div>
                         <div class="proj-title"></div>
-                        
+
                     </div>
-                    <div class="col-lg-4 proj-grid">
+                    <div class="col-lg-4 col-md-6 col-sm-6 proj-grid">
                         <div class="proj-img"></div>
                         <div class="proj-title"></div>
-                        
+
                     </div>
-                    <div class="col-lg-4 proj-grid">
+                    <div class="col-lg-4 col-md-6 col-sm-6 proj-grid">
                         <div class="proj-img"></div>
                         <div class="proj-title"></div>
-                        
+
                     </div>
-                    <div class="col-lg-4 proj-grid">
+                    <div class="col-lg-4 col-md-6 col-sm-6 proj-grid">
                         <div class="proj-img"></div>
                         <div class="proj-title"></div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -100,6 +113,13 @@
             e.preventDefault();
             $("#wrapper").toggleClass("toggled");
         });
+        $(window).resize(function () {
+                var width = $(window).width();
+                if (width > 768) {
+                    $('#wrapper').removeClass('toggled');
+                }
+            })
+            .resize();
     </script>
 
 </body>
