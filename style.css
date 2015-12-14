@@ -1,9 +1,14 @@
 html,
 body {
-    font-family: "acumin-pro", sans-serif;
+    
     background: #f3f3f3;
     height: 100%;
 }
+
+body {
+    font-family: "acumin-pro", sans-serif;
+}
+    
 
 #wrapper {
     height: 100%;
