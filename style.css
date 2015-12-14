@@ -1,19 +1,17 @@
 html,
 body {
-    
     background: #f3f3f3;
     height: 100%;
+    font-size: 100%
 }
 
 body {
     font-family: "acumin-pro", sans-serif;
 }
-    
 
 #wrapper {
     height: 100%;
     padding-left: 0;
-    background: #f3f3f3;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -33,26 +31,48 @@ header {
 
 .navbar .container .navbar-brand {
     padding: 10px 15px;
+    font-family: "acumin-pro-semi-condensed", sans-serif;
+    font-size: 1.5rem;
 }
 
-.navbar .container .nav {
-    float: right;
+.navbar .navbar-form .form-control {}
+
+.navbar .navbar-form button {
+    background-color: transparent;
+    border: none;
+}
+
+.navbar .navbar-form button span.glyphicon:hover {
+    color: #33b599;
+}
+
+.navbar .nav {
+    /*    float: right;*/
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    /*    overflow: hidden;*/
 }
 
 .navbar .nav>li {
     float: left;
-    margin-left: 25px;
+    padding: 0px;
+    margin: 5px 10px 5px 35px;
 }
 
 .navbar .nav>li:hover {
     border-bottom: 1px solid #33b599;
 }
 
+.navbar .nav li.search:hover {
+    border: none;
+}
+
 .navbar a {
     color: #222222;
+}
+
+.navbar .nav li>a {
+    padding: 5px;
 }
 
 .navbar .nav li>a:hover {
