@@ -28,14 +28,28 @@
     <div id="wrapper">
 
         <header id="header">
-            <div class="title">
-                <h1>Pei-Ying Lu</h1>
-            </div>
-            <nav>
-                <ul>
-                    <li><a>Resume</a></li>
-                    <li><a class="active">Portfolio</a></li>
-                </ul>
+            <nav class="navbar">
+                <div class="navbar-inner">
+                    <div class="container">
+                        <!-- Logo -->
+                        <a class="navbar-brand" href="index.html">
+						Pei-Ying Lu
+					</a>
+                        <form class="navbar-form navbar-right" role="search">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search">
+                            </div>
+                            <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+                            <button class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+
+                        </form>
+                        <ul class="nav navbar-right">
+                            <!--                            <li><a href="index.html" title="Home">Home</a></li>-->
+                            <li><a href="resume.html" title="Resume">Resume</a></li>
+                            <li class="active"><a href="projects.html" title="Projects">Projects</a></li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </header>
 

@@ -1,6 +1,6 @@
 html,
 body {
-    background: #f3f3f3;
+    background: #ffffff;
     height: 100%;
     font-size: 100%
 }
@@ -22,60 +22,46 @@ body {
 
 header {
     padding-top: 30px;
+    font-family: "acumin-pro-extra-condensed";
+    text-transform: uppercase;
+    text-align: center;
+    height: 150px;
 }
 
-.navbar container {
-    width: 940px;
-    padding: 20px;
+header div.title {
+    height: 75px;
 }
 
-.navbar .container .navbar-brand {
-    padding: 10px 15px;
-    font-family: "acumin-pro-semi-condensed", sans-serif;
-    font-size: 1.5rem;
+header h1 {
+    border-bottom: 1px solid #000;
+    padding: 10px 50px 10px 50px;
+    display: inline;
 }
 
-.navbar .navbar-form .form-control {}
-
-.navbar .navbar-form button {
-    background-color: transparent;
-    border: none;
-}
-
-.navbar .navbar-form button span.glyphicon:hover {
-    color: #33b599;
-}
-
-.navbar .nav {
-    margin: 0;
-    padding: 0;
-}
-
-.navbar .nav>li {
-    float: left;
+nav ul {
+    list-style: none;
     padding: 0px;
-    margin: 5px 10px 5px 25px;
 }
 
-.navbar a {
-    color: #222222;
-}
-
-.navbar .nav li>a {
-    padding: 5px;
-}
-
-.navbar .nav li>a:hover {
-    background-color: transparent;
-    color: #33b599;
-}
-
-.navbar .nav li.active a {
-    color: #33b599;
-}
-
-.navbar .navbar-form {
+nav ul li {
+    display: inline;
     margin-left: 20px;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: dimgrey;
+    cursor: pointer;
+}
+
+nav ul li a.active {
+    color: #33b599;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: #33b599;
 }
 
 .grid-proj {
@@ -85,7 +71,7 @@ header {
 
 .grid-inner {
     height: 100%;
-    background-color: #ffffff;
+    background-color: #f3f3f3;
 }
     
 

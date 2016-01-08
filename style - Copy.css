@@ -1,0 +1,93 @@
+html,
+body {
+    background: #f3f3f3;
+    height: 100%;
+    font-size: 100%
+}
+
+body {
+    font-family: "acumin-pro", sans-serif;
+}
+
+#wrapper {
+    height: 100%;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+header {
+    padding-top: 30px;
+    font-family: "acumin-pro-extra-condensed";
+    text-transform: capitalize;
+}
+
+.navbar container {
+    width: 940px;
+    padding: 20px;
+}
+
+.navbar .container .navbar-brand {
+    padding: 10px 15px;
+    font-size: 1.5rem;
+}
+
+.navbar .navbar-form .form-control {}
+
+.navbar .navbar-form button {
+    background-color: transparent;
+    border: none;
+}
+
+.navbar .navbar-form button span.glyphicon:hover {
+    color: #33b599;
+}
+
+.navbar .nav {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .nav>li {
+    float: left;
+    padding: 0px;
+    margin: 5px 10px 5px 25px;
+}
+
+.navbar a {
+    color: #222222;
+}
+
+.navbar .nav li>a {
+    padding: 5px;
+}
+
+.navbar .nav li>a:hover {
+    background-color: transparent;
+    color: #33b599;
+}
+
+.navbar .nav li.active a {
+    color: #33b599;
+}
+
+.navbar .navbar-form {
+    margin-left: 20px;
+}
+
+.grid-proj {
+    padding: 15px;
+    height: 280px;
+}
+
+.grid-inner {
+    height: 100%;
+    background-color: #ffffff;
+}
+    
+
+@media(min-width:768px) {}
