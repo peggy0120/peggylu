@@ -79,6 +79,7 @@ nav ul li a:hover {
     padding: 15px;
     height: 320px;
     text-align: center;
+    font-family: "acumin-pro"
 }
 
 .grid-inner {
@@ -91,7 +92,7 @@ nav ul li a:hover {
 }
 .grid-desc {
     height: 30px;
-    padding:5px;
+    
     color: dimgray;
     font-family: "acumin-pro-extra-condensed";
 }
