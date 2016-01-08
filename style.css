@@ -26,6 +26,7 @@ header {
     text-transform: uppercase;
     text-align: center;
     height: 150px;
+    position: relative;
 }
 
 header div.title {
@@ -70,6 +71,11 @@ nav ul li a:hover {
     text-decoration: none;
     color: #33b599;
 }
+div.search {
+    top: 20px;
+    right: 10px;
+    position: absolute;
+}
 
 #main div.container {
     padding: 40px;
@@ -95,6 +101,9 @@ nav ul li a:hover {
     
     color: #acacac;
     font-family: "acumin-pro-extra-condensed";
+}
+footer {
+    border-top: 1px solid #000;
 }
 
 

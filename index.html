@@ -28,6 +28,7 @@
     <div id="wrapper">
 
         <header id="header">
+
             <div class="title">
                 <h1>Pei-Ying Lu</h1>
             </div>
@@ -35,8 +36,17 @@
                 <ul>
                     <li><a>Resume</a></li>
                     <li><a class="active">Portfolio</a></li>
+                    <li><a>Contact</a></li>
                 </ul>
             </nav>
+            <div class="search">
+                <form class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </div>
         </header>
 
         <section id="main">
@@ -67,10 +77,12 @@
                         <div class='grid-name'>Growth Stages of Grains</div>
                         <div class='grid-desc'>Interactive Exhibit</div>
                     </div>
+                    <!--
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 grid-proj">
                         <div class="grid-inner"></div>
                         <div class='grid-name'></div>
                     </div>
+-->
                 </div>
                 <div class="row">
 
@@ -78,28 +90,30 @@
 
             </div>
         </section>
-        <!-- /#wrapper -->
 
-        <!-- jQuery -->
-        <script src="js/jquery-1.11.3.min.js"></script>
+        <footer></footer>
+    </div>
 
-        <!-- Bootstrap Core JavaScript -->
-        <script src="js/bootstrap.min.js"></script>
+    <!-- jQuery -->
+    <script src="js/jquery-1.11.3.min.js"></script>
 
-        <!-- Menu Toggle Script -->
-        <script>
-            $("#menu-toggle").click(function (e) {
-                e.preventDefault();
-                $("#wrapper").toggleClass("toggled");
-            });
-            $(window).resize(function () {
-                    var width = $(window).width();
-                    if (width > 767) {
-                        $('#wrapper').removeClass('toggled');
-                    }
-                })
-                .resize();
-        </script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+        $("#menu-toggle").click(function (e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+        $(window).resize(function () {
+                var width = $(window).width();
+                if (width > 767) {
+                    $('#wrapper').removeClass('toggled');
+                }
+            })
+            .resize();
+    </script>
 
 
 
