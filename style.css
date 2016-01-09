@@ -33,10 +33,21 @@ header div.title {
 }
 
 header h1 {
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #acacac;
     padding: 10px 50px 10px 50px;
     display: inline;
     font-size: 2.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: #acacac;
+    cursor: pointer;
+}
+
+header a:hover {
+    text-decoration: none;
+    color: #33b599;
 }
 
 nav {
@@ -55,19 +66,11 @@ nav ul li {
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: #acacac;
-    cursor: pointer;
     font-weight: bold;
     font-size: 1.2em;
 }
 
 nav ul li a.active {
-    color: #33b599;
-}
-
-nav ul li a:hover {
-    text-decoration: none;
     color: #33b599;
 }
 
@@ -93,15 +96,22 @@ div.search button {}
 .grid-inner {
     height: 210px;
     background-color: #f3f3f3;
-/*    padding: 5px;*/
+    overflow: hidden;
 }
 
 .grid-thumb {
     background-size: cover;
     background-repeat: no-repeat;
-/*    background-position: center;*/
     width: 100%;
     height: 100%;
+    transition: all .5s ease-in-out;
+}
+
+.grid-thumb:hover {
+    opacity: .8;
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .grid-name {
@@ -114,15 +124,19 @@ div.search button {}
     color: #acacac;
     font-family: "acumin-pro-extra-condensed";
 }
+
 #recipe_app .grid-thumb {
     background-image: url(image/recipe_app_thumb.png);
 }
+
 #ntulis_ia .grid-thumb {
     background-image: url(image/NTULISIA_sitemap.jpg);
 }
+
 #course_sche .grid-thumb {
     background-image: url(image/Course_screencap.png);
 }
+
 #foodcrisis .grid-thumb {
     background-image: url(image/FoodCrisis_homepage.png);
 }

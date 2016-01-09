@@ -25,102 +25,11 @@
 </head>
 
 <body>
-    <div id="wrapper">
-
-        <header id="header">
-
-            <div class="title">
-                <h1>Pei-Ying Lu</h1>
-            </div>
-            <nav>
-                <ul>
-                    <li><a>Resume</a></li>
-                    <li><a class="active">Portfolio</a></li>
-                    <li><a>Contact</a></li>
-                </ul>
-            </nav>
-            <div class="search">
-                <form class="navbar-form navbar-left" role="search">
-                    <button id='search-button' class='btn btn-default '><span class='glyphicon glyphicon-search'></span></button>
-                    <div id='search-form' class="form-group">
-                        <div class="input-group">
-
-                            <input type="text" class="form-control" placeholder="Search"><span id='search-icon' class="input-group-addon"><span class='glyphicon glyphicon-search'></span>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </header>
-
-        <section id="main">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 grid-proj" id='recipe_app'>
-                        <div class="grid-inner">
-                            <a href="">
-                                <div class="grid-thumb"></div>
-
-                            </a>
-                        </div>
-                        <div class='grid-name'>Recipe App for the Elderly</div>
-                        <div class='grid-desc'>Prototype &middot; Mobile App</div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 grid-proj" id='ntulis_ia'>
-                        <div class="grid-inner">
-                            <a href="">
-                                <div class="grid-thumb"></div>
-
-                            </a>
-                        </div>
-                        <div class='grid-name'>NTULIS IA Redesign</div>
-                        <div class='grid-desc'>Information Architecture</div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 grid-proj" id='course_sche'>
-                        <div class="grid-inner">
-                            <a href="">
-                                <div class="grid-thumb"></div>
-
-                            </a>
-                        </div>
-                        <div class='grid-name'>NTULIS Course Schedule</div>
-                        <div class='grid-desc'>Web Design &middot; jQuery</div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 grid-proj" id='foodcrisis'>
-                        <div class="grid-inner">
-                            <a href="">
-                                <div class="grid-thumb"></div>
-
-                            </a>
-                        </div>
-                        <div class='grid-name'>Food Crisis Website</div>
-                        <div class='grid-desc'>Web Design</div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 grid-proj" id='grains_gs'>
-                        <div class="grid-inner">
-                            <a href="">
-                                <div class="grid-thumb"></div>
-
-                            </a>
-                        </div>
-                        <div class='grid-name'>Growth Stages of Grains</div>
-                        <div class='grid-desc'>Interactive Exhibit</div>
-                    </div>
-                    <!--
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 grid-proj">
-                        <div class="grid-inner"></div>
-                        <div class='grid-name'></div>
-                    </div>
--->
-                </div>
-                <div class="row">
-
-                </div>
-
-            </div>
-        </section>
-
-        <footer></footer>
-    </div>
+    <script>
+        $(document).ready(function () {
+            window.location.assign("http://www.peiyinglu.com/portfolio.html");
+        });
+    </script>
 
     <!-- jQuery -->
     <script src="js/jquery-1.11.3.min.js"></script>
@@ -128,30 +37,7 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
-    <!-- Menu Toggle Script -->
-    <script>
-        $("#menu-toggle").click(function (e) {
-            e.preventDefault();
-            $("#wrapper").toggleClass("toggled");
-        });
-        $(window).resize(function () {
-                var width = $(window).width();
-                if (width > 767) {
-                    $('#wrapper').removeClass('toggled');
-                }
-            })
-            .resize();
-    </script>
-    <script type='text/javascript'>
-        // When your page loads
-        $(function () {
-            // When the toggle areas in your navbar are clicked, toggle them
-            $("#search-button, #search-icon").click(function (e) {
-                e.preventDefault();
-                $("#search-button, #search-form").toggle();
-            });
-        })
-    </script>
+
 
 
 
