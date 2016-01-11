@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Peggy Pei-Ying Lu">
+
+    <title>Recipe App for the Elderly | Pei-Ying Lu</title>
+
+    <script src="https://use.typekit.net/hvp2krz.js"></script>
+    <script>
+        try {
+            Typekit.load({
+                async: true
+            });
+        } catch (e) {}
+    </script>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style.css">
+
+    <body>
+        <div id="wrapper">
+
+            <header id="header">
+
+                <div class="logo">
+                    <h1><a href="index.html">Pei-Ying Lu</a></h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="search">
+                    <form class="navbar-form navbar-left" role="search">
+                        <button id='search-button' class='btn btn-default '><span class='glyphicon glyphicon-search'></span></button>
+                        <div id='search-form' class="form-group">
+                            <div class="input-group">
+
+                                <input type="text" class="form-control" placeholder="Search"><span id='search-icon' class="input-group-addon"><span class='glyphicon glyphicon-search'></span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </header>
+
+            <article id="main">
+                <h2 class="title">Recipe App for the Elderly</h2>
+                <img class="title-img" src='../image/recipe_app_thumb.png' />
+                <p class="desc">Team Project</p>
+                <p class="desc">Human and Computer Interaction course (Fall 2014) at National Taiwan University</p>
+                
+                <button class='demo'>Demo</button>
+                <section>
+                    <h3 class="sec-title">Role</h3>
+                    <p></p>
+                </section>
+            </article>
+
+            <footer></footer>
+        </div>
+
+        <!-- jQuery -->
+        <script src="js/jquery-1.11.3.min.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+
+
+        <script type='text/javascript'>
+            // When your page loads
+            $(function () {
+                // When the toggle areas in your navbar are clicked, toggle them
+                $("#search-button, #search-icon").click(function (e) {
+                    e.preventDefault();
+                    $("#search-button, #search-form").toggle();
+                });
+            })
+        </script>
+
+    </body>
+
+</html>

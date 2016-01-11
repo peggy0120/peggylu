@@ -28,7 +28,7 @@ header {
     position: relative;
 }
 
-header div.title {
+header div.logo {
     height: 75px;
 }
 
@@ -82,15 +82,72 @@ div.search {
 
 div.search button {}
 
+#main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 #main div.container {
     padding: 40px;
+    text-align: center;
 }
+
+#main img.title-img {
+    margin-top: 20px;
+    min-width: 380px;
+    max-width: 70%;
+    height: auto;
+}
+
+#main h2.title {
+/*    color: #33b599;*/
+    text-align: center;
+    height: 40px;
+    margin: 20px;
+    font-family: "acumin-pro-extra-condensed";
+    font-size: 2em;
+}
+
+#main p.desc {
+    text-align: center;
+    margin: 0px;
+}
+
+#main button.demo {
+    padding: 10px;
+    border-radius: 25px;
+    color: #ffffff;
+    background-color: #33b599;
+}
+
+#main section {
+    text-align: center;
+}
+
+h3.sec-title {
+    text-align: center;
+/*    border-top: 1px solid;*/
+    border-bottom: 1px solid;
+    height: 40px;
+    display: inline;
+    padding: 15px 40px 5px 40px;
+    font-family: "acumin-pro-extra-condensed";
+    color: #33b599;
+}
+
+
+/*portfolio start*/
 
 .grid-proj {
     padding: 15px;
     height: 340px;
     text-align: center;
     font-family: "acumin-pro-semi-condensed"
+}
+
+.grid-proj a {
+    text-decoration: none;
 }
 
 .grid-inner {
@@ -115,8 +172,14 @@ div.search button {}
 }
 
 .grid-name {
+    color: dimgray;
     height: 40px;
     padding: 5px;
+    margin: 0px;
+}
+
+.grid-name:hover {
+    color: #33b599;
 }
 
 .grid-desc {
@@ -144,6 +207,9 @@ div.search button {}
 #grains_gs .grid-thumb {
     background-image: url(image/grains_gs_thumb.png);
 }
+
+
+/*portfolio end*/
 
 footer {
     border-top: 1px solid #000;
