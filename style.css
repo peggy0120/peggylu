@@ -94,7 +94,7 @@ div.search button {}
     text-align: center;
 }
 
-#main img.title-img {
+#main img.proj-img {
     margin-top: 20px;
     min-width: 350px;
     max-width: 550px;
@@ -127,18 +127,21 @@ div.search button {}
 #main section {
     max-width: 980px;
     text-align: center;
-    margin:0 auto;
+    margin:20px auto;
 }
 
 #main section ul {
-    padding-left: 20px;
+    padding-left: 0px;
     padding-bottom: 10px;
-    list-style: circle;
+    list-style: disc;
 }
 
 #main section ul li {
-    display: block;
-    
+    display: block;  
+}
+
+#main section ul li ul {
+    padding-left: 30px;
 }
 
 #main h3.sec-title {
@@ -155,6 +158,10 @@ div.search button {}
 
 #main div.sec-cont {
     line-height: 1.5em;
+}
+
+#main div.sec-cont img {
+    margin-top: 40px;
 }
 
 #main .normal {
