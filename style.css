@@ -84,7 +84,7 @@ div.search button {}
 
 #main {
     margin-top: 20px;
-    margin-bottom: 20px;
+/*    margin-bottom: 20px;*/
     text-align: center;
 }
 
@@ -224,6 +224,13 @@ h3.sec-title {
 
 footer {
     border-top: 1px solid #000;
+    padding: 10px;
+    margin: 0px 20px 0px 20px;
+    
+}
+
+footer p {
+    text-align: center;
 }
 
 @media(min-width:768px) {}
