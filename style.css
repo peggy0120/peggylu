@@ -95,8 +95,9 @@ div.search button {}
 
 #main img.title-img {
     margin-top: 20px;
-    min-width: 380px;
-    max-width: 70%;
+    min-width: 350px;
+    max-width: 550px;
+    width: 100%;
     height: auto;
 }
 
@@ -119,10 +120,19 @@ div.search button {}
     border-radius: 25px;
     color: #ffffff;
     background-color: #33b599;
+    display: block;
 }
 
 #main section {
     text-align: center;
+}
+
+#main section ul {
+    padding: 0px;
+}
+
+#main section ul li {
+    display: block;
 }
 
 h3.sec-title {
@@ -134,6 +144,7 @@ h3.sec-title {
     padding: 15px 40px 5px 40px;
     font-family: "acumin-pro-extra-condensed";
     color: #33b599;
+    font-size: 1.5em;
 }
 
 
