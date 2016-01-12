@@ -86,7 +86,6 @@ div.search button {}
 
 #main {
     margin-top: 20px;
-/*    margin-bottom: 20px;*/
     text-align: center;
 }
 
@@ -126,27 +125,40 @@ div.search button {}
 }
 
 #main section {
+    max-width: 980px;
     text-align: center;
+    margin:0 auto;
 }
 
 #main section ul {
-    padding: 0px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    list-style: circle;
 }
 
 #main section ul li {
     display: block;
+    
 }
 
-h3.sec-title {
+#main h3.sec-title {
     text-align: center;
 /*    border-top: 1px solid;*/
     border-bottom: 1px solid;
     height: 40px;
     display: inline;
-    padding: 15px 40px 5px 40px;
+    padding: 20px 40px 5px 40px;
     font-family: "acumin-pro-extra-condensed";
     color: #33b599;
     font-size: 1.5em;
+}
+
+#main div.sec-cont {
+    line-height: 1.5em;
+}
+
+#main .normal {
+    text-align: left;
 }
 
 
