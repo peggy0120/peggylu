@@ -127,7 +127,8 @@ div.search button {}
 #main section {
     max-width: 980px;
     text-align: center;
-    margin:20px auto;
+    margin: 0px auto;
+    padding: 20px;
 }
 
 #main section ul {
