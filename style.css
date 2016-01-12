@@ -72,6 +72,8 @@ nav ul li a {
 
 nav ul li a.active {
     color: #33b599;
+    pointer-events: none;
+    cursor: default;
 }
 
 div.search {
