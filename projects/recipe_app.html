@@ -21,22 +21,40 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="../style.css">
 
-    <body>
-        <div id="wrapper">
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-            <header id="header">
+        ga('create', 'UA-61994680-2', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
 
-                <div class="logo">
-                    <h1><a href="../index.html">Pei-Ying Lu</a></h1>
-                </div>
-                <nav>
-                    <ul>
-                        <li><a href="../resume.html">Resume</a></li>
-                        <li><a href="../portfolio.html" class="active">Portfolio</a></li>
-                        <li><a href="../contact.html">Contact</a></li>
-                    </ul>
-                </nav>
-<!--
+<body>
+    <div id="wrapper">
+
+        <header id="header">
+
+            <div class="logo">
+                <h1><a href="../index.html">Pei-Ying Lu</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../resume.html">Resume</a></li>
+                    <li><a href="../portfolio.html" class="active">Portfolio</a></li>
+                    <li><a href="../contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <!--
                 <div class="search">
                     <form class="navbar-form navbar-left" role="search">
                         <button id='search-button' class='btn btn-default '><span class='glyphicon glyphicon-search'></span></button>
@@ -49,88 +67,88 @@
                     </form>
                 </div>
 -->
-            </header>
+        </header>
 
-            <article id="main">
-                <h2 class="title">Recipe App for the Elderly</h2>
-                <p class="desc">Team Project - Prototype</p>
-                <p class="desc">Human Computer Interaction course (Fall 2014) at National Taiwan University</p>
-                <img class="proj-img" src='../image/recipe_app_thumb.png' />
+        <article id="main">
+            <h2 class="title">Recipe App for the Elderly</h2>
+            <p class="desc">Team Project - Prototype</p>
+            <p class="desc">Human Computer Interaction course (Fall 2014) at National Taiwan University</p>
+            <img class="proj-img" src='../image/recipe_app_thumb.png' />
 
-                <a  class='demo'href="recipe_app/"><button>Demo</button></a>
-                <section>
-                    <h3 class="sec-title">Role</h3>
-                    <div class="sec-cont">
-                        <ul>
-                            <li>Literature review </li>
-                            <li>Prototyping in powerpoint</li>
-                            <li>Moderate usability testing</li>
-                        </ul>
-                    </div>
-                </section>
-                <section>
-                    <h3 class="sec-title">Goal</h3>
-                    <div class="sec-cont">
-                        <p>With the population aging in Taiwan, we hoped to create a recipe app for the elderly to help them eat more healthier.</p>
-                    </div>
-                </section>
-                <section>
-                    <h3 class="sec-title">Process</h3>
-                    <div class="sec-cont">
-                        <ul class="normal">
-                            <li>We created 2 personas after conducting literature review on user needs & behavior of the elderly, which includes:
-                                <ul>
-                                    <li>High needs in health concern and social interaction</li>
-                                    <li>Preferred an interface with rich instructions</li>
-                                    <li>Preferred tablets to traditional pc</li>
-                                </ul>
-                            </li>
-                            <li>To rapidly generate and put together everyone's idea, we had design sessions to create sketches</li>
-                            <li>We created the prototype in powerpoint for the usability testing</li>
-                        </ul>
-                    </div>
-                </section>
-                <section>
-                    <h3 class="sec-title">App Information Architecture</h3>
-                    <div class="sec-cont">
-                        <img class="proj-img" src='../image/RecipeApp_IA.jpg' />
-                    </div>
-                </section>
-                <section>
-                    <h3 class="sec-title">Usability Testing</h3>
-                    <div class="sec-cont">
-                        <ul class="normal">
-                            <li>We had a 65-year-old user to test the prototype on an iPad2 with 6 tasks, including different scenario such as asking him to find a recipe suited for people with hypertension</li>
-                            <li>We recorded the process and how long it took for him to complete the tasks, and had a questionnaire after the testing</li>
-                            <li>The feeback we got was really valuable for the app development, including to simplifly the navigation experience and to add the recommendation feature</li>
-                        </ul>
-                    </div>
-                </section>
-            </article>
+            <!--                <a  class='demo'href="recipe_app/"><button>Demo</button></a>-->
+            <section>
+                <h3 class="sec-title">Role</h3>
+                <div class="sec-cont">
+                    <ul>
+                        <li>Literature review </li>
+                        <li>Prototyping in powerpoint</li>
+                        <li>Moderate usability testing</li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <h3 class="sec-title">Goal</h3>
+                <div class="sec-cont">
+                    <p>With the population aging in Taiwan, we hoped to create a recipe app for the elderly to help them eat more healthier.</p>
+                </div>
+            </section>
+            <section>
+                <h3 class="sec-title">Process</h3>
+                <div class="sec-cont">
+                    <ul class="normal">
+                        <li>We created 2 personas after conducting literature review on user needs & behavior of the elderly, which includes:
+                            <ul>
+                                <li>High needs in health concern and social interaction</li>
+                                <li>Preferred an interface with rich instructions</li>
+                                <li>Preferred tablets to traditional pc</li>
+                            </ul>
+                        </li>
+                        <li>To rapidly generate and put together everyone's idea, we had design sessions to create sketches</li>
+                        <li>We created the prototype in powerpoint for the usability testing</li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <h3 class="sec-title">App Information Architecture</h3>
+                <div class="sec-cont">
+                    <img class="proj-img" src='../image/RecipeApp_IA.jpg' />
+                </div>
+            </section>
+            <section>
+                <h3 class="sec-title">Usability Testing</h3>
+                <div class="sec-cont">
+                    <ul class="normal">
+                        <li>We had a 65-year-old user to test the prototype on an iPad2 with 6 tasks, including different scenario such as asking him to find a recipe suited for people with hypertension</li>
+                        <li>We recorded the process and how long it took for him to complete the tasks, and had a questionnaire after the testing</li>
+                        <li>The feeback we got was really valuable for the app development, including to simplifly the navigation experience and to add the recommendation feature</li>
+                    </ul>
+                </div>
+            </section>
+        </article>
 
-            <footer>
-                <p>© Pei-Ying Lu 2016 All rights reserved.</p>
-            </footer>
-        </div>
+        <footer>
+            <p>© Pei-Ying Lu 2016 All rights reserved.</p>
+        </footer>
+    </div>
 
-        <!-- jQuery -->
-        <script src="js/jquery-1.11.3.min.js"></script>
+    <!-- jQuery -->
+    <script src="js/jquery-1.11.3.min.js"></script>
 
-        <!-- Bootstrap Core JavaScript -->
-        <script src="js/bootstrap.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 
 
-        <script type='text/javascript'>
-            // When your page loads
-            $(function () {
-                // When the toggle areas in your navbar are clicked, toggle them
-                $("#search-button, #search-icon").click(function (e) {
-                    e.preventDefault();
-                    $("#search-button, #search-form").toggle();
-                });
-            })
-        </script>
+    <script type='text/javascript'>
+        // When your page loads
+        $(function () {
+            // When the toggle areas in your navbar are clicked, toggle them
+            $("#search-button, #search-icon").click(function (e) {
+                e.preventDefault();
+                $("#search-button, #search-form").toggle();
+            });
+        })
+    </script>
 
-    </body>
+</body>
 
 </html>
