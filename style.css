@@ -164,6 +164,7 @@ div.search button {}
 
 #main div.sec-cont {
     line-height: 1.5em;
+    margin-top: 20px;
 }
 
 #main div.sec-cont>ul>li {
