@@ -89,10 +89,10 @@ div.search button {}
 #main {
     margin-top: 20px;
     text-align: center;
+    padding: 40px;
 }
 
 #main div.container {
-    padding: 40px;
     text-align: center;
 }
 
