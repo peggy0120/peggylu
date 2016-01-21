@@ -9,6 +9,9 @@ body {
     font-family: "acumin-pro", sans-serif;
 }
 
+a {
+    color: #33b599;
+}
 #wrapper {
     height: 100%;
     max-width: 1280px;
@@ -96,7 +99,7 @@ div.search button {}
 #main img.proj-img {
     margin-top: 20px;
     min-width: 350px;
-    max-width: 550px;
+    max-width: 680px;
     width: 100%;
     height: auto;
 }
@@ -115,17 +118,31 @@ div.search button {}
     margin: 0px;
 }
 
+#main a.demo {
+    width: 100%;
+    margin: 20px auto;
+}
+
+#main a.demo:hover {
+    
+    text-decoration: none;
+}
+
 #main a.demo button{
-    width: 80px;
+    
     padding: 15px;
     border: none;
-    border-radius: 15px;
+    border-radius: 5px;
     color: #ffffff;
     background-color: #33b599;
     display: block;
     text-align: center;
-    margin: 0px auto;
+    margin: 20px auto;
     font-size: 1em;
+}
+
+#main a.demo button:hover {
+    opacity: 0.8;
 }
 
 #main section {
