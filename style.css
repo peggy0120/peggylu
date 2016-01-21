@@ -70,12 +70,12 @@ nav ul li a {
 }
 
 nav ul li a.active {
-    color: #33b599;
-    pointer-events: none;
+    color: #33b599;   
 }
 
 nav ul li a.unclick {
     cursor: default;
+    pointer-events: none;
 }
 
 div.search {
@@ -89,7 +89,7 @@ div.search button {}
 #main {
     margin-top: 20px;
     text-align: center;
-    padding: 40px;
+    padding: 30px;
 }
 
 #main div.container {
@@ -98,7 +98,7 @@ div.search button {}
 
 #main img.proj-img {
     margin-top: 20px;
-    min-width: 350px;
+    min-width: 300px;
     max-width: 680px;
     width: 100%;
     height: auto;
