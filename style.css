@@ -101,6 +101,7 @@ ol.breadcrumb {
 
 ol.breadcrumb > li > a {
     color: #000000;
+    font-family: "acumin-pro-extra-condensed";
 }
 
 ol.breadcrumb > li > a:hover {
@@ -210,7 +211,7 @@ ol.breadcrumb > li > a:hover {
     text-align: center;
     font-family: "acumin-pro-extra-condensed";
     color: #33b599;
-    font-size: 1.5em;
+    font-size: 1.8em;
     margin: 0 0 10px 0;
 }
 
