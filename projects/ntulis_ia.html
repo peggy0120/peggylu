@@ -20,6 +20,7 @@
 
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../materialize.css">
 
     <script>
         (function (i, s, o, g, r, a, m) {
@@ -42,7 +43,7 @@
 <body>
     <div id="wrapper">
 
-        <header id="header">
+        <header id="header" class="card">
 
             <div class="logo">
                 <h1><a href="../index.html">Pei-Ying Lu</a></h1>
@@ -50,8 +51,8 @@
             <nav>
                 <ul>
                     <li><a href="../resume.html">Resume</a></li>
-                    <li><a href="../portfolio.html" class="active">Portfolio</a></li>
-<!--                    <li><a href="../contact.html">Contact</a></li>-->
+                    <li><a href="../portfolio.html">Portfolio</a></li>
+                    <!--                    <li><a href="../contact.html">Contact</a></li>-->
                 </ul>
             </nav>
             <!--
@@ -68,57 +69,97 @@
                 </div>
 -->
         </header>
-
+        <div class="breadcrumb card">
+            <ol class="breadcrumb">
+                <li><a href="../index.html">Pei-Ying Lu</a></li>
+                <li><a href="../portfolio.html">Portfolio</a></li>
+                <li class="active">NTULIS IA Redesign</li>
+            </ol>
+        </div>
         <article id="main">
-            <h2 class="title">NTULIS IA Redesign</h2>
-            <p class="desc">Team Project - Wireframe</p>
-            <p class="desc">Information Architecture & Web Design course (Spring 2014) at National Taiwan University (NTU)</p>
-            <img class="proj-img" src='../image/NTULISIA_homepage.png' />
-
-                            <a class='demo'href="ntulis_ia/demo.html" target="_blank"><button>Click to see online demo</button></a>
-            <section>
-                <h3 class="sec-title">Role</h3>
-                <div class="sec-cont">
-                    <p>Research: Benchmark, User Questionnaire</p>
-                    <p>Planning: Cardsorting, Sitemap</p>
-                    <p>Design: Making wireframe in Axure RP</p>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 grid">
+                        <div class="grid-wrapper card">
+                            <div class="grid-cont">
+                                <h2 class="title">NTULIS IA Redesign</h2>
+                                <ul class="desc">
+                                    <li>Wireframe</li>
+                                    <li>Team Project of Information Architecture & Web Design course (Spring 2014) at National Taiwan University (NTU)</li>
+                                    <li>Role:
+                                        <ul>
+                                            <li>Research - Benchmark, User Questionnaire</li>
+                                            <li>Planning - Cardsorting, Sitemap</li>
+                                            <li>Design - Making wireframe in Axure RP</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <a class='demo' href="ntulis_ia/demo.html" target="_blank">
+                                    <button>Demo</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 grid">
+                        <div class="grid-wrapper card">
+                            <img class="proj-img" src='../image/NTULISIA_homepage.png' />
+                        </div>
+                    </div>
                 </div>
-            </section>
-            <section>
-                <h3 class="sec-title">Problem</h3>
-                <div class="sec-cont">
-                    <p>The old website of the Department of Library & Information Science at NTU was built several years ago, and users had been having problems with finding relevent information.</p>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 grid">
+                        <div class="grid-wrapper card">
+                            <div class="grid-cont">
+                                <h3 class="sec-title">Problem</h3>
+                                <div class="sec-cont">
+                                    <p>The old website of the Department of Library & Information Science at NTU was built several years ago, and users had been having problems with finding relevent information.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 grid">
+                        <div class="grid-wrapper card">
+                            <div class="grid-cont">
+                                <h3 class="sec-title">Process</h3>
+                                <div class="sec-cont">
+                                    <ul class="normal">
+                                        <li>We first conducted website benchmarking of information architecture with 5 distinguished US iSchool website.</li>
+                                        <li>Before creating a student persona, we conducted questionnaire with NTULIS students, and interview with the department chairperson .
+                                        </li>
+                                        <li>We used cardsorting to reorganize the structure, and later created the wireframe with Axure RP.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 grid">
+                        <div class="grid-wrapper card">
+                            <div class="grid-cont">
+                                <h3 class="sec-title">Result</h3>
+                                <div class="sec-cont">
+                                    <ul class="normal">
+                                        <li>Our presentation had received positive feedback in terms of the navigation and labeling from the class</li>
+                                        <li>The wireframe had provided a solid foundation for the later founded NTULIS Website Design Team</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </section>
-            <section>
-                <h3 class="sec-title">Process</h3>
-                <div class="sec-cont">
-                    <ul class="normal">
-                        <li>We first conducted website benchmarking of information architecture with 5 distinguished US iSchool website.</li>
-                        <li>Before creating a student persona, we conducted questionnaire with NTULIS students, and interview with the department chairperson
-.</li>
-                        <li>We used cardsorting to reorganize the structure, and later created the wireframe with Axure RP.</li>
-                    </ul>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 grid">
+                        <div class="grid-wrapper card">
+                            <div class="grid-cont">
+                                <h3 class="sec-title">Sitemap</h3>
+                                <div class="sec-cont"><img class="proj-img" src='../image/NTULISIA_sitemap.jpg' /></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </section>
-            <section>
-                <h3 class="sec-title">Sitemap</h3>
-                <div class="sec-cont">
-                    <img class="proj-img" src='../image/NTULISIA_sitemap.jpg' />
-                </div>
-            </section>
-            <section>
-                <h3 class="sec-title">Result</h3>
-                <div class="sec-cont">
-                    <ul class="normal">
-                        <li>Our presentation had received positive feedback in terms of the navigation and labeling from the class</li>
-                        <li>The wireframe had provided a solid foundation for the later founded NTULIS Website Design Team</li>
-                    </ul>
-                </div>
-            </section>
+            </div>
         </article>
 
-        <footer>
+        <footer id='footer' class="card">
             <p>© Pei-Ying Lu 2016 All rights reserved.</p>
             <p>email: <a href="mailto:peggy820120@gmail.com">peggy820120@gmail.com</a></p>
         </footer>

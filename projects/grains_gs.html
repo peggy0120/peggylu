@@ -20,6 +20,7 @@
 
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../materialize.css">
 
     <script>
         (function (i, s, o, g, r, a, m) {
@@ -42,7 +43,7 @@
 <body>
     <div id="wrapper">
 
-        <header id="header">
+        <header id="header" class="card">
 
             <div class="logo">
                 <h1><a href="../index.html">Pei-Ying Lu</a></h1>
@@ -50,8 +51,8 @@
             <nav>
                 <ul>
                     <li><a href="../resume.html">Resume</a></li>
-                    <li><a href="../portfolio.html" class="active">Portfolio</a></li>
-<!--                    <li><a href="../contact.html">Contact</a></li>-->
+                    <li><a href="../portfolio.html">Portfolio</a></li>
+                    <!--                    <li><a href="../contact.html">Contact</a></li>-->
                 </ul>
             </nav>
             <!--
@@ -68,46 +69,86 @@
                 </div>
 -->
         </header>
-
+        <div class="breadcrumb card">
+            <ol class="breadcrumb">
+                <li><a href="../index.html">Pei-Ying Lu</a></li>
+                <li><a href="../portfolio.html">Portfolio</a></li>
+                <li class="active">Growth Stages of Grains</li>
+            </ol>
+        </div>
         <article id="main">
-            <h2 class="title">Growth Stages of Grains</h2>
-            <p class="desc">Designed for the "2014 Food x Production x Consumption Exhibition" at NTU Agricultural Exhibit Hall</p>
-            <img class="proj-img" src='../image/cropgs_prototype.png' />
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 grid">
+                        <div class="grid-wrapper card">
+                            <div class="grid-cont">
+                                <h2 class="title">Growth Stages of Grains</h2>
+                                <p class="desc">Interactive exhibit designed for the "2014 Food x Production x Consumption Exhibition" at NTU Agricultural Exhibit Hall</p>
+                                <a class='demo' href="grains_gs/demo.html" target="_blank">
+                                    <button>Demo</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 grid">
+                        <div class="grid-wrapper card">
+                            <img class="proj-img" src='../image/cropgs_prototype.png' />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 grid">
+                        <div class="grid-wrapper card">
+                            <div class="grid-cont">
+                                <h3 class="sec-title">Overview</h3>
+                                <div class="sec-cont">
+                                    <ul class="normal">
+                                        <li>The exhibition was aimed to introduce food education to elementary school and kindergarden students.</li>
+                                        <li>We used three iPads to showcase different growing stages of rice, wheat and millet respectively, in order to attract the kids' attention with the interactivity.</li>
+                                        <li>Swiping up and down or clicking the up/down arrows would show names and images of different stages.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 grid">
+                        <div class="grid-wrapper card">
+                            <div class="grid-cont">
+                                <h3 class="sec-title">Result</h3>
+                                <div class="sec-cont">
+                                    <ul class="normal">
+                                        <li>The parents at the exhibition that day thought the design was helpful for the learning.</li>
+                                        <li>The video embeded below shows how the children and their parents interact with the design</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 grid">
+                        <div class="grid-wrapper card">
+                            <div class="grid-cont">
+                                <iframe src="https://player.vimeo.com/video/148757613" width="100%" height="350px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--
+            
+            <section>
+                
+            </section>
+            <section>
+                
 
-            <a class='demo' href="grains_gs/demo.html" target="_blank">
-                <button>Click to see online demo</button>
-            </a>
-            <!--<section>
-                <h3 class="sec-title">Role</h3>
-                <div class="sec-cont">
+                    
                     
                 </div>
-            </section>-->
-            <section>
-                <h3 class="sec-title">Overview</h3>
-                <div class="sec-cont">
-                    <ul class="normal">
-                        <li>The exhibition was aimed to introduce food education to elementary school and kindergarden students.</li>
-                        <li>We used three iPads to showcase different growing stages of rice, wheat and millet respectively, in order to attract the kids' attention with the interactivity.</li>
-                        <li>Swiping up and down or clicking the up/down arrows would show names and images of different stages.</li>
-                    </ul>
-                </div>
             </section>
-            <section>
-                <h3 class="sec-title">Result</h3>
-                <div class="sec-cont">
-                    <ul class="normal">
-                        <li>The parents at the exhibition that day thought the design was helpful for the learning.</li>
-                        <li>The video embeded below shows how the children and their parents interact with the design</li>
-                    </ul>
-
-                    <iframe src="https://player.vimeo.com/video/148757613" width="100%" height="350px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                    <!--<p><a href="https://vimeo.com/148757613">Growth Stages of Grains - Interactive Exhibit at &ldquo;2014 Food x Production x Consumption Exhibition&rdquo;</a> from <a href="https://vimeo.com/user29306616">Peggy Lu</a> on <a href="https://vimeo.com">Vimeo</a>.</p>-->
-                </div>
-            </section>
+-->
         </article>
 
-        <footer>
+        <footer id='footer' class="card">
             <p>© Pei-Ying Lu 2016 All rights reserved.</p>
             <p>email: <a href="mailto:peggy820120@gmail.com">peggy820120@gmail.com</a></p>
         </footer>
