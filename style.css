@@ -5,13 +5,45 @@ body {
     font-size: 100%
 }
 
-body, p, footer{
+body,
+p,
+footer {
     font-family: "acumin-pro", sans-serif;
 }
 
 a {
     color: #33b599;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "acumin-pro-extra-condensed";
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.8em;
+}
+
+h4 {
+    font-size: 1.6em;
+}
+
+h5 {
+    font-size: 1.4em;
+}
+
+h6 {
+    font-size: 1.2em;
+}
+
 #wrapper {
     height: 100%;
     max-width: 1280px;
@@ -24,10 +56,9 @@ header {
     font-family: "acumin-pro-extra-condensed";
     text-transform: uppercase;
     text-align: center;
-/*    height: 180px;*/
+    /*    height: 180px;*/
     position: relative;
     margin-bottom: 20px;
-    
 }
 
 header div.logo {
@@ -73,7 +104,7 @@ nav ul li a {
 }
 
 nav ul li a.active {
-    color: #33b599;   
+    color: #33b599;
 }
 
 nav ul li a.unclick {
@@ -116,28 +147,6 @@ ol.breadcrumb > li > a:hover {
     margin-bottom: 20px;
 }
 
-#main section {
-    max-width: 780px;
-    text-align: center;
-    margin: 0px auto;
-    padding: 20px;
-}
-
-#main section ul {
-    padding-left: 0px;
-    padding-bottom: 10px;
-    list-style: disc;
-}
-
-#main section ul li {
-/*    display: block;*/
-}
-
-#main section ul li ul {
-    padding-left: 30px;
-}
-
-
 #main div.sec-cont>ul>li {
     padding-bottom: 10px;
 }
@@ -146,13 +155,9 @@ ol.breadcrumb > li > a:hover {
     margin-top: 40px;
 }
 
-#main .normal {
-    text-align: left;
-}
-
 #main .row .grid {
     padding: 10px 20px 10px 20px;
-/*    height: 350px;*/
+    /*    height: 350px;*/
 }
 
 #main .grid-cont {
@@ -162,31 +167,26 @@ ol.breadcrumb > li > a:hover {
     margin: 0px;
 }
 
-#main h2.title {
+#main .title {
     color: #33b599;
     height: 40px;
     margin: 0 0 10px 0;
-    font-family: "acumin-pro-extra-condensed";
-    font-size: 2em;
 }
-
 
 #main .desc {
     margin: 10px 0px;
     font-family: "acumin-pro-semi-condensed";
 }
 
-#main a.demo {
+#main a.button {
     width: 100%;
-    margin: 20px 0px;
 }
 
-#main a.demo:hover {  
+#main a.button:hover {
     text-decoration: none;
 }
 
-#main a.demo button{
-    margin-top: 20px;
+#main a.button button {
     width: 100%;
     height: 100%;
     padding: 15px;
@@ -198,8 +198,12 @@ ol.breadcrumb > li > a:hover {
     font-size: 1em;
 }
 
-#main a.demo button:hover {
+#main a.button button:hover {
     opacity: 0.8;
+}
+
+#main a.demo button {
+    margin-top: 20px;
 }
 
 #main img.proj-img {
@@ -207,11 +211,9 @@ ol.breadcrumb > li > a:hover {
     height: auto;
 }
 
-#main h3.sec-title {
+#main .sec-title {
     text-align: center;
-    font-family: "acumin-pro-extra-condensed";
     color: #33b599;
-    font-size: 1.8em;
     margin: 0 0 10px 0;
 }
 
@@ -220,8 +222,76 @@ ol.breadcrumb > li > a:hover {
     margin-top: 20px;
 }
 
+#main .item {
+    position: relative;
+}
 
+#main .item + .item {
+    border-top: 1px solid #000000;
+    margin-top: 30px;
+    padding-top: 20px;
+}
 
+#main .item-title {
+    margin-bottom: 0px;
+    display: inline;
+}
+
+#main .item-date,
+#main .item-place {
+    font-size: 0.8em;
+}
+
+#main .item-date,
+#main .item-place,
+#main .item-desc,
+#main .item-cont {
+    font-family: "acumin-pro-semi-condensed";
+}
+
+#main .item-date {
+    position: absolute;
+    right: 0px;
+    display: inline;
+}
+
+#main .item-place {
+    margin-bottom: 0px;
+}
+
+#main .item-desc {
+    /*    font-style: italic;*/
+    margin-left: 10px;
+    color: #777777;
+}
+
+#main .item-cont {
+    margin-top: 10px;
+    font-size: 0.8em;
+    line-height: 1.4;
+}
+
+#main .item-cont li {
+    margin-bottom: 5px;
+}
+
+#skill h4.sec-title {
+    margin: 0px 15px 15px 15px;
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
+}
+
+#skill ul {
+    padding: 0px;
+    font-size: 0.8em;
+}
+
+#skill ul li {
+    margin-left: 0px;
+    margin-bottom: 5px;
+    text-align: center;
+    list-style: none;
+}
 
 /*portfolio start*/
 
@@ -230,13 +300,13 @@ ol.breadcrumb > li > a:hover {
     height: 350px;
     text-align: center;
     font-family: "acumin-pro-semi-condensed";
-/*    background-color: #e3e3e3;*/
+    /*    background-color: #e3e3e3;*/
 }
 
 .grid-wrapper {
     width: 100%;
     height: 100%;
-/*    background-color: #ffffff;*/
+    /*    background-color: #ffffff;*/
 }
 
 .grid-proj a {
@@ -245,7 +315,7 @@ ol.breadcrumb > li > a:hover {
 
 .grid-inner {
     height: 250px;
-/*    background-color: #f3f3f3;*/
+    /*    background-color: #f3f3f3;*/
     overflow: hidden;
 }
 
@@ -304,8 +374,7 @@ ol.breadcrumb > li > a:hover {
 
 /*portfolio end*/
 
-footer {
-}
+footer {}
 
 footer p {
     text-align: center;
