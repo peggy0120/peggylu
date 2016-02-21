@@ -140,6 +140,10 @@ ol.breadcrumb > li > a:hover {
     text-decoration: none;
 }
 
+ol.breadcrumb > li.active {
+    font-family: "acumin-pro-extra-condensed";
+}
+
 #main {
     margin-left: -20px;
     margin-right: -20px;
