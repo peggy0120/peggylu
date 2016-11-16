@@ -1,387 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900');
+
 html,
 body {
-    background: #e3e3e3;
     height: 100%;
     font-size: 100%
 }
 
-body,
-p,
-footer {
-    font-family: "acumin-pro", sans-serif;
+a:hover {
+    text-decoration: none;
 }
 
-a {
-    color: #33b599;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: "acumin-pro-extra-condensed";
-}
-
-h2 {
-    font-size: 2em;
-}
-
-h3 {
-    font-size: 1.8em;
-}
-
-h4 {
-    font-size: 1.6em;
-}
-
-h5 {
-    font-size: 1.4em;
-}
-
-h6 {
-    font-size: 1.2em;
-}
-
+/* Wrapper */
 #wrapper {
     height: 100%;
-    max-width: 1280px;
+/*    max-width: 1280px;*/
     margin: 0 auto;
-    padding-left: 40px;
-    padding-right: 40px;
 }
 
-header {
-    font-family: "acumin-pro-extra-condensed";
-    text-transform: uppercase;
+
+	#wrapper > * > .inner {
+		width: 100%;
+		max-width: 68em;
+		margin: 0 auto;
+		padding: 0 2.5em;
+	}
+
+		@media screen and (max-width: 736px) {
+
+			#wrapper > * > .inner {
+				padding: 0 1.25em;
+			}
+
+		}
+
+
+/* Header */
+
+    #header {
+        padding: 2em 0 2em 0;
+        text-align: center;
+        margin: 0 0 2.5em 0;
+        background-color: #f6f6f6;
+    }
+
+    #header .logo {
+        display: block;
+        border-bottom: 0;
+        color: inherit;
+        font-weight: 900;
+        letter-spacing: 0.35em;
+        margin-bottom: 1em;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+        #header .logo > * {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        #header .logo .symbol {
+            margin-right: 0.65em;
+        }
+
+            #header .logo .symbol img {
+                display: block;
+                width: 2em;
+                height: 2em;
+            }
+
+        #header .logo .title {
+            font-size: 2em;
+        }
+
+        #header .logo .subtitle {
+        }
+
+/* Menu */
+
+#header #menu {
     text-align: center;
-    /*    height: 180px;*/
-    position: relative;
-    margin-bottom: 20px;
+    margin-top: 2em;
+    display: block
+        
 }
 
-header div.logo {
-    height: 75px;
-}
+   #header #menu ul {
+        list-style: none;
+        padding: 0px;
+        display: block;
+    }
 
-header h1 {
-    border-bottom: 1px solid #acacac;
-    padding: 10px;
-    display: inline;
-    font-size: 2.5em;
-}
+       #header #menu ul li {
+            display: inline;
+            margin-left: 0.8em;
+            margin-right: 0.8em;
+            
+        }
 
-header a {
-    text-decoration: none;
-    color: #000000;
-    cursor: pointer;
-}
+            #header #menu ul li a {
+                border: 0.5px solid;
+                border-radius: 4px;
+                height: 3em;
+                line-height: 3em;
+                padding: 0.5em 1.2em;
+                background-color: transparent;
+/*                background-color: rgba(255, 255, 255, 0.5);*/
+                font-size: 1em;
+                font-weight: 900;
+            }
 
-header a:hover {
-    text-decoration: none;
-    color: #33b599;
-}
+                #header #menu ul li a .dropdown-menu {
+                    border-radius: 0px;
+                }
 
-nav {
-    padding-top: 10px;
-}
+/* Main */
 
-nav ul {
-    list-style: none;
-    padding: 0px;
-}
-
-nav ul li {
-    display: inline;
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
-nav ul li a {
-    font-weight: bold;
-    font-size: 1.2em;
-}
-
-nav ul li a.active {
-    color: #33b599;
-}
-
-nav ul li a.unclick {
-    cursor: default;
-    pointer-events: none;
-}
-
-div.search {
-    top: 20px;
-    right: 20px;
-    position: absolute;
-}
-
-div.search button {}
-
-div.breadcrumb {
-    padding: 0px;
-    border-radius: 0px;
-}
-
-ol.breadcrumb {
-    background-color: transparent;
-    margin-left: 15px;
-}
-
-ol.breadcrumb > li > a {
-    color: #000000;
-    font-family: "acumin-pro-semi-condensed";
-}
-
-ol.breadcrumb > li > a:hover {
-    color: #33b599;
-    text-decoration: none;
-}
-
-ol.breadcrumb > li.active {
-    font-family: "acumin-pro-semi-condensed";
-}
 
 #main {
-    margin-left: -20px;
-    margin-right: -20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-#main div.sec-cont>ul>li {
-    padding-bottom: 10px;
-}
-
-#main div.sec-cont img {
-    margin-top: 40px;
-}
-
-#main .row .grid {
-    padding: 10px 20px 10px 20px;
-    /*    height: 350px;*/
-}
-
-#main .grid-cont {
-    padding: 20px 30px;
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-}
-
-#main .title {
-    color: #33b599;
-    height: 40px;
-    margin: 0 0 10px 0;
-}
-
-#main .desc {
-    margin: 10px 0px;
-    font-family: "acumin-pro-semi-condensed";
-}
-
-#main a.button {
-    width: 100%;
-}
-
-#main a.button:hover {
-    text-decoration: none;
-}
-
-#main a.button button {
-    width: 100%;
-    height: 100%;
-    padding: 15px;
-    border: none;
-    color: #ffffff;
-    background-color: #33b599;
-    display: block;
     text-align: center;
-    font-size: 1em;
+    padding: 0em 0 6em 0;
 }
 
-#main a.button button:hover {
-    opacity: 0.8;
+@media screen and (max-width: 736px) {
+    #main {
+        padding: 0em 0 4em 0;
+    }
 }
 
-#main a.demo button {
-    margin-top: 20px;
+#main header {
+    margin-top: 2em;
+    padding: 0.5em 0 0 0;
+    
 }
 
-#main img.proj-img {
-    width: 100%;
-    height: auto;
+#main header h1 {
+    font-weight: 300;
 }
 
-#main .sec-title {
+#main .space {
+    height: 2em;
+}
+
+
+/* Footer */
+
+footer {
     text-align: center;
-    color: #33b599;
-    margin: 0 0 10px 0;
+    padding: 5em 0 6em 0 ;
+    background-color: #f6f6f6;
 }
-
-#main div.sec-cont {
-    line-height: 1.5em;
-    margin-top: 20px;
-}
-
-#main .item {
-    position: relative;
-}
-
-#main .item + .item {
-    border-top: 1px solid #000000;
-    margin-top: 30px;
-    padding-top: 20px;
-}
-
-#main .item-title {
-    margin-bottom: 0px;
-    display: inline;
-}
-
-#main .item-date,
-#main .item-place {
-    font-size: 0.8em;
-}
-
-#main .item-date,
-#main .item-place,
-#main .item-desc,
-#main .item-cont {
-    font-family: "acumin-pro-semi-condensed";
-}
-
-#main .item-date {
-    position: absolute;
-    right: 0px;
-    display: inline;
-}
-
-#main .item-place {
-    margin-bottom: 0px;
-}
-
-#main .item-desc {
-    /*    font-style: italic;*/
-    margin-left: 10px;
-    color: #777777;
-}
-
-#main .item-cont {
-    margin-top: 10px;
-    font-size: 0.8em;
-    line-height: 1.4;
-}
-
-#main .item-cont li {
-    margin-bottom: 5px;
-}
-
-#skill h4.sec-title {
-    margin: 0px 15px 15px 15px;
-    border-bottom: 1px solid;
-    padding-bottom: 5px;
-}
-
-#skill ul {
-    padding: 0px;
-    font-size: 0.8em;
-}
-
-#skill ul li {
-    margin-left: 0px;
-    margin-bottom: 5px;
-    text-align: center;
-    list-style: none;
-}
-
-/*portfolio start*/
-
-.grid-proj {
-    padding: 10px 20px 10px 20px;
-    height: 350px;
-    text-align: center;
-    font-family: "acumin-pro-semi-condensed";
-    /*    background-color: #e3e3e3;*/
-}
-
-.grid-wrapper {
-    width: 100%;
-    height: 100%;
-    /*    background-color: #ffffff;*/
-}
-
-.grid-proj a {
-    text-decoration: none;
-}
-
-.grid-inner {
-    height: 250px;
-    /*    background-color: #f3f3f3;*/
-    overflow: hidden;
-}
-
-.grid-thumb {
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-    transition: all .5s ease-in-out;
-}
-
-.grid-thumb:hover {
-    opacity: .8;
-    -ms-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-}
-
-.grid-name {
-    color: dimgray;
-    height: 40px;
-    padding: 5px;
-    margin: 0px;
-}
-
-.grid-name:hover {
-    color: #33b599;
-}
-
-.grid-desc {
-    height: 30px;
-    color: #acacac;
-    font-family: "acumin-pro-extra-condensed";
-}
-
-#recipe_app .grid-thumb {
-    background-image: url(image/recipe_app_thumb.png);
-}
-
-#ntulis_ia .grid-thumb {
-    background-image: url(image/NTULISIA_homepage.png);
-}
-
-#course_sche .grid-thumb {
-    background-image: url(image/Course_screencap.png);
-}
-
-#foodcrisis .grid-thumb {
-    background-image: url(image/FoodCrisis_homepage.png);
-}
-
-#grains_gs .grid-thumb {
-    background-image: url(image/grains_gs_thumb.png);
-}
-
-
-/*portfolio end*/
-
-footer {}
-
-footer p {
-    text-align: center;
+footer #follow {
+    font-size: 2em;
 }
 
 @media(min-width:768px) {}
