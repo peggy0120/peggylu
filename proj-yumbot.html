@@ -29,15 +29,19 @@
         ga('create', 'UA-61994680-2', 'auto');
         ga('send', 'pageview');
     </script>
+    
+    <style>
+       
+    </style>
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".scrollspy" data-offset="30">
     
     <!-- Wrapper -->
     <div id="wrapper">
                 
         <!-- Header -->
-        <header id="header">
+        <header id="header" class="collapsed">
             <div class="inner">
                 <!-- Logo -->
                 <a href="index.html" class="logo">
@@ -47,7 +51,7 @@
 <!--                <div class="subtitle">UX Designer </div>-->
                 
             </div>
-            <nav id="menu">
+            <nav id="menu" class="top">
                 <ul>
                     <li class="dropdown"> 
                     <a href="" class="dropdown-toggle" data-toggle="dropdown">
@@ -65,8 +69,130 @@
             </nav>
             
         </header>
+        
+        <!-- Banner --> 
+        <div id="banner">
+			<div class="container">
+				<section>
+                    <header>
+                        <h1>Yumbot</h1>
+                        <h4>Find the specific dish you want quickly </h4>
+                        <span class="pj-time">Duration: 3 weeks</span>
+                        <span class="team">Team: Brian O'Connor, Peggy Lu, Misheal Sedas, Ashley Smith</p>
+                    </header>
+                </section>
+            </div>
+        </div>
 
         
         <!-- Main -->
         <div id="main">
+            <div class="container">
+                <div class="row">
+                    <nav class="col-sm-3 hidden-xs scrollspy">
+                      <ul class="nav sidebar">
+                        <li class="active"><a href="#pj-role">Role</a></li>
+                        <li><a href="#pj-prob">Problem</a></li>
+                        <li><a href="#pj-proc">Process</a></li>
+                        <li><a href="#pj-res">Research</a></li>
+                        <li><a href="#pj-inst">Insight</a></li>
+                        <li><a href="#pj-cep">Concept</a></li>
+                        <li><a href="#pj-test">Testing</a></li>
+                        <li><a href="#pj-take">Key Takeway</a></li>
+                      </ul>
+                    </nav>
+                    <div class="col-sm-9" id="pj-cont">
+                        <section id="pj-role">
+                            <h2>Role</h2>
+                            <article></article>
+                        </section>
+                        <section id="pj-prob">
+                            <h2>Problem</h2>
+                            <article></article>
+                        </section>
+                        <section id="pj-proc">
+                            <h2>Process</h2>
+                            <article></article>
+                        </section>
+                        <section id="pj-res">
+                            <h2>Research</h2>
+                            <article></article>
+                        </section>
+                        <section id="pj-inst">
+                            <h2>Insight</h2>
+                            <article></article>
+                        </section>
+                        <section id="pj-cep">
+                            <h2>Concept</h2>
+                            <article></article>
+                        </section>
+                        <section id="pj-test">
+                            <h2>Testing</h2>
+                            <article></article>
+                        </section>
+                        <section id="pj-take">
+                            <h2>Key Takeaway</h2>
+                            <article></article>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+   
+    <!-- Footer -->
+        <footer id="footer">
             <div class="inner">
+                <!--
+                <section>
+                    <h2>Get in touch</h2>
+                    <form method="post" action="#">
+                        <div class="field half first">
+                            <input type="text" name="name" id="name" placeholder="Name" /> </div>
+                        <div class="field half">
+                            <input type="email" name="email" id="email" placeholder="Email" /> </div>
+                        <div class="field">
+                            <textarea name="message" id="message" placeholder="Message"></textarea>
+                        </div>
+                        <ul class="actions">
+                            <li>
+                                <input type="submit" value="Send" class="special" />
+                            </li>
+                        </ul>
+                    </form>
+                </section>
+-->
+                <section id="follow">
+<!--                    <h2>Follow</h2>-->
+                    <ul class="icons">
+<!--                        <li><a href="#" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>-->
+                        <li><a href="#" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
+                        <li><a href="https://www.linkedin.com/in/peggy-lu" class="icon style2 fa-linkedin"><span class="label">Linkedin</span></a></li>
+                        <li><a href="#" class="icon style2 fa-medium"><span class="label">Medium</span></a></li>
+                        <li><a href="mailto:peggy.py.lu@gmail.com" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
+                    </ul>
+                </section>
+                <ul class="copyright">
+                    <li>&copy; Peggy Lu. All rights reserved</li>
+                </ul>
+            </div>
+        </footer>
+        </div>
+        <!-- Scripts -->
+        <script src="t_phantom/assets/js/skel.min.js"></script>
+        <script src="t_phantom/assets/js/util.js"></script>
+        <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+        <script src="t_phantom/assets/js/main.js"></script>
+    
+        <script>
+            $(document).ready(function(){
+                $('.sidebar').affix({
+                    offset: {
+                        top: $('#header').outerHeight() + $('#banner').outerHeight() + 20,
+//                        bottom: $('#footer').outerHeight()
+                    }
+                });
+            });
+            
+        </script>
+    </body>
+</html>
