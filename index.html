@@ -37,7 +37,7 @@
     <div id="wrapper">
                 
         <!-- Header -->
-        <header id="header">
+        <header id="header" class="collapsed">
             <div class="inner">
                 <!-- Logo -->
                 <a href="index.html" class="logo">
@@ -72,9 +72,10 @@
                     <h1>Interaction Design</h1> 
                 </header>
                 <section class="tiles">
-                    <article class="style1"> 
+                    <article class=""> 
                         <span class="image">
-				            <img src="t_phantom/images/pic01.jpg" alt="" />
+                            <object type="image/svg+xml" data="image/yumbot_thumb.svg"></object>
+<!--				            <img src="image/yumbot_thumb.svg" alt="" />-->
 				        </span>
                         <a href="proj-yumbot.html">
                             <h2>Yumbot</h2>
@@ -83,39 +84,45 @@
                             </div>
                         </a>
                     </article>
-                    <article class="style2"> 
+                    <article class=""> 
                         <span class="image">
-				            <img src="t_phantom/images/pic02.jpg" alt="" />
+                            <object type="image/svg+xml" data="image/BRT_thumb.svg"></object>
+<!--				            <img src="t_phantom/images/pic02.jpg" alt="" />-->
 				        </span>
-                        <a href="generic.html">
-                            <h2>Lorem</h2>
+                        <a href="" class="disabled">
+                            <h2>Bus Rapid Transit</h2>
                             <div class="content">
-                                <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+                                <p>Autonomous Prioritization</p>
                             </div>
                         </a>
                     </article>
-                    <article class="style3"> <span class="image">
-										<img src="t_phantom/images/pic03.jpg" alt="" />
-									</span>
-                        <a href="generic.html">
-                            <h2>Feugiat</h2>
+                    <article class=""> 
+                        <span class="image">
+                            <object type="image/svg+xml" data="image/vcp_thumb.svg"></object>
+<!--								<img src="t_phantom/images/pic03.jpg" alt="" />-->
+				        </span>
+                        <a href="" class="disabled">
+                            <h2>VCP</h2>
                             <div class="content">
-                                <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+                                <p>Transitioning veterans by connecting them to the campus community</p>
                             </div>
                         </a>
                     </article>
                 </section>
                 <div class="space"></div>
                 <header id="ED">
-                    <h1>Exhibit Design</h1> </header>
+                    <h1>Exhibit Design</h1> 
+                </header>
                 <section class="tiles">
-                    <article class="style5"> <span class="image">
-										<img src="t_phantom/images/pic05.jpg" alt="" />
-									</span>
-                        <a href="generic.html">
-                            <h2>Magna</h2>
+                    <article class=""> 
+                        <span class="image">
+                            <object type="image/svg+xml" data="image/foodedu_thumb.svg"></object>
+<!--				            <img src="t_phantom/images/pic05.jpg" alt="" />-->
+				        </span>
+                        <a href="" class="disabled">
+                            <h2>Food-edu Exhibition</h2>
                             <div class="content">
-                                <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+                                <p>for kindergarden and elementary school students</p>
                             </div>
                         </a>
                     </article>
@@ -123,13 +130,15 @@
                 <header id="ED">
                     <h1>Information Architecture</h1> </header>
                 <section class="tiles">
-                    <article class="style6"> <span class="image">
-										<img src="t_phantom/images/pic06.jpg" alt="" />
-									</span>
-                        <a href="generic.html">
-                            <h2>Magna</h2>
+                    <article class=""> 
+                        <span class="image">
+                            <object type="image/svg+xml" data="image/NTULIS_thumb.svg"></object>
+<!--				            <img src="t_phantom/images/pic06.jpg" alt="" />-->
+                        </span>
+                        <a href="" class="disabled">
+                            <h2>IA Redesign</h2>
                             <div class="content">
-                                <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+                                <p>Dept. Library &amp; Information Science at National Taiwan University</p>
                             </div>
                         </a>
                     </article>
@@ -165,9 +174,9 @@
 <!--                    <h2>Follow</h2>-->
                     <ul class="icons">
 <!--                        <li><a href="#" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>-->
-                        <li><a href="#" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
-                        <li><a href="https://www.linkedin.com/in/peggy-lu" class="icon style2 fa-linkedin"><span class="label">Linkedin</span></a></li>
-                        <li><a href="#" class="icon style2 fa-medium"><span class="label">Medium</span></a></li>
+                        <li><a href="#" class="icon style2 fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+                        <li><a href="https://www.linkedin.com/in/peggy-lu" class="icon style2 fa-linkedin" target="_blank"><span class="label">Linkedin</span></a></li>
+                        <li><a href="#" class="icon style2 fa-medium" target="_blank"><span class="label">Medium</span></a></li>
                         <li><a href="mailto:peggy.py.lu@gmail.com" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
                     </ul>
                 </section>
@@ -178,20 +187,57 @@
         </footer>
         </div>
         <!-- Scripts -->
-        <script src="t_phantom/assets/js/jquery.min.js"></script>
         <script src="t_phantom/assets/js/skel.min.js"></script>
         <script src="t_phantom/assets/js/util.js"></script>
         <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
         <script src="t_phantom/assets/js/main.js"></script>
-        <!--
-            <script src="js/jquery.dropotron.min.js"></script>
-    
-            <script>
-                $(function() {
-                    $('#menu > ul').dropotron();
+        
+        <script>
+            $(document).ready(function(){ 
+                // From: https://medium.com/@mariusc23/hide-header-on-scroll-down-show-on-scroll-up-67bbaae9a78c#.lg9xealkz
+                // Hide Header on on scroll down
+                var didScroll;
+                var lastScrollTop = 0;
+                var delta = 5;
+                var navbarHeight = $('#header').outerHeight();
+
+                $(window).scroll(function(event){
+                    didScroll = true;
                 });
-            </script>
--->
+
+                setInterval(function() {
+                    if (didScroll) {
+                        hasScrolled();
+                        didScroll = false;
+                    }
+                }, 250);
+
+                function hasScrolled() {
+                    var st = $(this).scrollTop();
+
+                    // Make sure they scroll more than delta
+                    if(Math.abs(lastScrollTop - st) <= delta)
+                        return;
+
+                    // If they scrolled down and are past the navbar, add class .nav-show.
+                    // This is necessary so you never see what is "behind" the navbar.
+                    if ($(document).scrollTop() < navbarHeight) {
+                        $('#header').removeClass('nav-show nav-hide');
+                    } else {
+                        if (st > lastScrollTop && st > navbarHeight){
+                            // Scroll Down
+                            $('#header').removeClass('nav-show').addClass('nav-hide');
+                        } else {
+                            // Scroll Up
+                            if(st + $(window).height() < $(document).height()) {
+                                $('#header').removeClass('nav-hide').addClass('nav-show');
+                            }
+                        }
+                    }
+                    lastScrollTop = st;
+                }
+            });
+        </script>
 </body>
 
 </html>

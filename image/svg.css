@@ -1,0 +1,7 @@
+svg {
+    background-color: #f6f6f6;
+}
+
+svg:hover g.colored {
+    fill: #33b599;
+}

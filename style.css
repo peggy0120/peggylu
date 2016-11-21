@@ -6,8 +6,20 @@ body {
     font-size: 100%
 }
 
-a:hover {
+a:hover, a:visited {
     text-decoration: none;
+}
+
+a.disabled {
+    pointer-events: none;
+    cursor: default;
+}
+
+
+@media (min-width: 1200px) {
+    .container {
+        width: 68em;
+    }
 }
 
 /* Wrapper */
@@ -111,16 +123,25 @@ a:hover {
                     border-radius: 0px;
                 }
 
+    #header.nav-show {
+        position: fixed;
+        transition: 0.5s;
+    }
+
+    #header.nav-hide {
+        position: absolute;
+        top: -80px;
+    }
+
 /* Header-collapsed */
 
 
 #header.collapsed {
-    position: sticky;
     top: 0px;
     z-index: 100;
     width: 100%;
     padding: 15px 0;
-    box-shadow: 0px 5px rgba(88, 88, 88, 0.5); 
+    transition: top 0.5s ease-in-out;
 }
 
     #header.collapsed .inner {
@@ -140,6 +161,12 @@ a:hover {
         display: inline-block;
         margin-top: 0;
     }
+
+/*
+#header.homepage {
+    position: fixed; 
+}
+*/
 
 /* Main */
 
@@ -195,17 +222,22 @@ a:hover {
     }
 
         #main #pj-cont section {
-            border-bottom: solid 1px #585858;
+            text-align: left;
             padding: 1em 0 0.5em 0;
 
         }
 
             #main #pj-cont section h2 {
-                text-align: left;
                 text-transform: none;
                 font-weight: 300;
                 font-size: 2em;
                 letter-spacing: inherit;
+                border-bottom: 1px solid #585858;
+                padding: 5px 0.5em;
+            }
+
+            #main #pj-cont section article {
+                padding: 0 0 0 2em;
             }
 
 /* Banner */
@@ -292,6 +324,6 @@ a:hover {
 
 @media (min-width: 1200px) {
     .affix.sidebar {
-        width: calc(1170px * 0.25);
+        width: calc(68em * 0.25);
         padding-right: 2em;}
 }

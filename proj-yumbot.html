@@ -35,7 +35,7 @@
     </style>
 </head>
 
-<body data-spy="scroll" data-target=".scrollspy" data-offset="30">
+<body data-spy="scroll" data-target=".scrollspy" data-offset="50">
     
     <!-- Wrapper -->
     <div id="wrapper">
@@ -104,35 +104,37 @@
                     <div class="col-sm-9" id="pj-cont">
                         <section id="pj-role">
                             <h2>Role</h2>
-                            <article></article>
+                            <article>
+                                <p>User Research, Sketching, Wireframing, Documentation</p>
+                            </article>
                         </section>
                         <section id="pj-prob">
                             <h2>Problem</h2>
-                            <article></article>
+                            <article><p></p></article>
                         </section>
                         <section id="pj-proc">
                             <h2>Process</h2>
-                            <article></article>
+                            <article><p></p></article>
                         </section>
                         <section id="pj-res">
                             <h2>Research</h2>
-                            <article></article>
+                            <article><p></p></article>
                         </section>
                         <section id="pj-inst">
                             <h2>Insight</h2>
-                            <article></article>
+                            <article><p></p></article>
                         </section>
                         <section id="pj-cep">
                             <h2>Concept</h2>
-                            <article></article>
+                            <article><p></p></article>
                         </section>
                         <section id="pj-test">
                             <h2>Testing</h2>
-                            <article></article>
+                            <article><p></p></article>
                         </section>
                         <section id="pj-take">
                             <h2>Key Takeaway</h2>
-                            <article></article>
+                            <article><p></p></article>
                         </section>
                     </div>
                 </div>
@@ -165,9 +167,9 @@
 <!--                    <h2>Follow</h2>-->
                     <ul class="icons">
 <!--                        <li><a href="#" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>-->
-                        <li><a href="#" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
-                        <li><a href="https://www.linkedin.com/in/peggy-lu" class="icon style2 fa-linkedin"><span class="label">Linkedin</span></a></li>
-                        <li><a href="#" class="icon style2 fa-medium"><span class="label">Medium</span></a></li>
+                        <li><a href="#" class="icon style2 fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+                        <li><a href="https://www.linkedin.com/in/peggy-lu" class="icon style2 fa-linkedin" target="_blank"><span class="label">Linkedin</span></a></li>
+                        <li><a href="#" class="icon style2 fa-medium" target="_blank"><span class="label">Medium</span></a></li>
                         <li><a href="mailto:peggy.py.lu@gmail.com" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
                     </ul>
                 </section>
@@ -191,8 +193,23 @@
 //                        bottom: $('#footer').outerHeight()
                     }
                 });
+                
+            /* Smooth Scrolling from https://css-tricks.com/snippets/jquery/smooth-scrolling/ */
+                $(function() {
+                    $('a[href*="#"]:not([href="#"])').click(function() {
+                        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                            var target = $(this.hash);
+                                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                            if (target.length) {
+                                $('html, body').animate({
+                                    scrollTop: target.offset().top
+                                }, 200);
+                                return false;
+                            }
+                        }
+                    });
+                });
             });
-            
         </script>
     </body>
 </html>

@@ -1722,7 +1722,7 @@
 	h2, h3, h4, h5, h6 {
 		font-weight: 900;
 		line-height: 1.5;
-		margin: 0 0 2em 0;
+		margin: 0 0 0.5em 0;
 		text-transform: uppercase;
 		letter-spacing: 0.35em;
 	}
@@ -2590,7 +2590,7 @@
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		postiion: relative;
+		position: relative;
 		margin: -2.5em 0 0 -2.5em;
 	}
 
@@ -2616,11 +2616,11 @@
 				overflow: hidden;
 			}
 
-				.tiles article > .image img {
+				.tiles article > .image object {
 					display: block;
 					width: 100%;
 				}
-
+/*
 				.tiles article > .image:before {
 					-moz-pointer-events: none;
 					-webkit-pointer-events: none;
@@ -2665,6 +2665,7 @@
 					opacity: 0.25;
 					z-index: 2;
 				}
+*/
 
 			.tiles article > a {
 				display: -moz-flex;
@@ -2683,10 +2684,10 @@
 				-webkit-justify-content: center;
 				-ms-justify-content: center;
 				justify-content: center;
-				-moz-transition: background-color 0.5s ease, -moz-transform 0.5s ease;
-				-webkit-transition: background-color 0.5s ease, -webkit-transform 0.5s ease;
-				-ms-transition: background-color 0.5s ease, -ms-transform 0.5s ease;
-				transition: background-color 0.5s ease, transform 0.5s ease;
+				-moz-transition:  0.5s ease;
+				-webkit-transition:  0.5s ease;
+				-ms-transition:  0.5s ease;
+				transition: 0.5s ease;
 				position: absolute;
 				top: 0;
 				left: 0;
@@ -2710,69 +2711,59 @@
 				}
 
 				.tiles article > a h2 {
-					margin: 0;
+					margin: 0 auto;
+                    position: absolute;
+                    bottom: 22%;
+                    left: 0;
+                    width: 100%;
+                    padding: 0 5%;
+                    -webkit-transition: ease 0.5s; 
+                    -moz-transition: ease 0.5s;
+                    -ms-transition: ease 0.5s;
+                    transition: ease 0.5s;
 				}
 
 				.tiles article > a .content {
-					-moz-transition: max-height 0.5s ease, opacity 0.5s ease;
-					-webkit-transition: max-height 0.5s ease, opacity 0.5s ease;
-					-ms-transition: max-height 0.5s ease, opacity 0.5s ease;
-					transition: max-height 0.5s ease, opacity 0.5s ease;
 					width: 100%;
-					max-height: 0;
 					line-height: 1.5;
 					margin-top: 0.35em;
-					opacity: 0;
+                    padding: 0 10%;
+                    position: absolute;
+                    top: 78%;
+                    left: 0;
+                    opacity: 0;
+                    -webkit-transition: ease 0.5s; 
+                    transition: ease 0.5s;
 				}
 
 					.tiles article > a .content > :last-child {
 						margin-bottom: 0;
 					}
 
-			.tiles article.style1 > .image:before {
-				background-color: #f2849e;
-			}
-
-			.tiles article.style2 > .image:before {
-				background-color: #7ecaf6;
-			}
-
-			.tiles article.style3 > .image:before {
-				background-color: #7bd0c1;
-			}
-
-			.tiles article.style4 > .image:before {
-				background-color: #c75b9b;
-			}
-
-			.tiles article.style5 > .image:before {
-				background-color: #ae85ca;
-			}
-
-			.tiles article.style6 > .image:before {
-				background-color: #8499e7;
-			}
-
-			body:not(.is-touch) .tiles article:hover > .image {
-				-moz-transform: scale(1.1);
-				-webkit-transform: scale(1.1);
-				-ms-transform: scale(1.1);
-				transform: scale(1.1);
-			}
-
-				body:not(.is-touch) .tiles article:hover > .image:before {
-					background-color: #333333;
+                body:not(.is-touch) .tiles article:hover > .image {
+                    background-color: #000000;
 					opacity: 0.35;
-				}
+                }
 
-				body:not(.is-touch) .tiles article:hover > .image:after {
-					opacity: 0;
-				}
+                .tiles article:hover a {
+                    padding-top: 50%;
+                    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.60));
+                }
 
-			body:not(.is-touch) .tiles article:hover .content {
-				max-height: 15em;
-				opacity: 1;
-			}
+                .tiles article:hover a > h2 {
+                    bottom: 50%;
+                }
+
+                .tiles article:hover a > .content {
+                    top: 50%;
+                    opacity: 1;
+                }
+
+                .tiles article:hover object {
+                    filter:blur(1px);
+                }
+
+
 
 		* + .tiles {
 			margin-top: 2em;
@@ -2788,7 +2779,7 @@
 
 		body.is-touch .tiles article .content {
 			max-height: 15em;
-			opacity: 1;
+/*			opacity: 1;*/
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -2827,13 +2818,6 @@
 					width: calc(50% - 1.25em);
 					margin: 1.25em 0 0 1.25em;
 				}
-
-					.tiles article:hover > .image {
-						-moz-transform: scale(1.0);
-						-webkit-transform: scale(1.0);
-						-ms-transform: scale(1.0);
-						transform: scale(1.0);
-					}
 
 		}
 
