@@ -529,7 +529,7 @@
 
 	}
 
-	@media screen and (max-width: 1280px) {
+	@media screen and (max-width: 1200px) {
 
 		.row > * {
 			padding: 0 0 0 2em;
@@ -744,7 +744,7 @@
 
 	}
 
-	@media screen and (max-width: 980px) {
+	@media screen and (max-width: 992px) {
 
 		.row > * {
 			padding: 0 0 0 1.5em;
@@ -959,7 +959,7 @@
 
 	}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 768px) {
 
 		.row > * {
 			padding: 0 0 0 1em;
@@ -1614,6 +1614,7 @@
 		-ms-overflow-style: scrollbar;
 	}
 
+/*
 	@media screen and (max-width: 480px) {
 
 		html, body {
@@ -1621,6 +1622,7 @@
 		}
 
 	}
+*/
 
 	body {
 		background: #ffffff;
@@ -1655,7 +1657,7 @@
 
 		}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 1200px) {
 
 			body, input, select, textarea {
 				font-size: 12pt;
@@ -1670,10 +1672,10 @@
 		transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		text-decoration: none;
 		color: #585858;
-		border-bottom: dotted 1px rgba(88, 88, 88, 0.5);
+/*		border-bottom: dotted 1px rgba(88, 88, 88, 0.5);*/
 	}
 
-		a:hover {
+		a:hover, a:focus {
 			border-bottom-color: transparent;
 			color: #33b599 !important;
 		}
@@ -1702,7 +1704,7 @@
 			color: inherit;
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 768px) {
 
 			h1 {
 				font-size: 2em;
@@ -1751,7 +1753,7 @@
 		font-size: 0.8em;
 	}
 
-	@media screen and (max-width: 980px) {
+	@media screen and (max-width: 992px) {
 
 		h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
 			display: none;
@@ -1759,7 +1761,7 @@
 
 	}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 768px) {
 
 		h2 {
 			font-size: 1em;
@@ -1846,7 +1848,7 @@
 		margin-top: -1em;
 	}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 768px) {
 
 		header p {
 			margin-top: 0;
@@ -1922,9 +1924,11 @@
 		padding-left: 1em;
 	}
 
+/*
 		ul li {
 			padding-left: 0.5em;
 		}
+*/
 
 		ul.alt {
 			list-style: none;
@@ -2375,7 +2379,7 @@
 				width: 100%;
 			}
 
-			@media screen and (max-width: 736px) {
+			@media screen and (max-width: 768px) {
 
 				.image.main {
 					margin: 0 0 2em 0;
@@ -2591,7 +2595,7 @@
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
 		position: relative;
-		margin: -2.5em 0 0 -2.5em;
+		margin: 0 2.5em 0 0;
 	}
 
 		.tiles article {
@@ -2782,10 +2786,10 @@
 /*			opacity: 1;*/
 		}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 1200px) {
 
 			.tiles {
-				margin: -1.25em 0 0 -1.25em;
+				margin: 0 0 0 -1.25em;
 			}
 
 				.tiles article {
@@ -2795,10 +2799,10 @@
 
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 992px) {
 
 			.tiles {
-				margin: -2.5em 0 0 -2.5em;
+				margin: 0 0 0 -2.5em;
 			}
 
 				.tiles article {
@@ -2808,7 +2812,7 @@
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 768px) {
 
 			.tiles {
 				margin: -1.25em 0 0 -1.25em;
@@ -2844,7 +2848,7 @@
 			z-index: 10000;*/
 		}
 
-			#header nav ul {
+			#header nav >ul {
 				display: -moz-flex;
 				display: -webkit-flex;
 				display: -ms-flex;
@@ -2858,12 +2862,12 @@
 				padding: 0;
 			}
 
-				#header nav ul li {
+				#header nav > ul > li {
 /*					display: inline-block;*/
 					padding: 0;
 				}
 
-					#header nav ul li a {
+					#header nav > ul > li > a {
 /*						display: block;*/
 						position: relative;
 						height: 3em;
@@ -2921,7 +2925,7 @@
 							opacity: 0;
 						}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 768px) {
 
 			#header {
 				padding: 4em 0 0.1em 0 ;
@@ -3001,7 +3005,7 @@
 						margin-left: 0;
 					}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 1200px) {
 
 			#footer {
 				padding: 5em 0 3em 0 ;
@@ -3019,7 +3023,7 @@
 
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 992px) {
 
 			#footer > .inner section:nth-child(1) {
 				width: 66%;
@@ -3033,7 +3037,7 @@
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 768px) {
 
 			#footer {
 				padding: 3em 0 1em 0 ;
