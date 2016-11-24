@@ -54,13 +54,16 @@
                     <li class="dropdown"> 
                     <a href="" class="dropdown-toggle" data-toggle="dropdown">
                         Project <span class="caret"></span>
-                            <!--<ul class="dropdown-menu">
-                                <li><a href="#ID">Interaction Design</a></li>
-                                <li><a href="#ED">Exhibit Design</a></li>
-                            </ul>-->
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuDivider">
+                            <li><a href="proj-yumbot.html">Yumbot</a></li>
+                            <li><a href="">Bus Rapid Transit</a></li>
+                            <li role="separator" class="divider"></li>  
+                            <li><a href="">Food-Edu Exhibit</a></li>
+                            <li><a href="">IA Redesign</a></li>
+                        </ul>
                     </a>
                 </li>
-                    <li><a href="">Resume</a></li>
+                    <li><a href="https://iu.app.box.com/v/peggylu-ux-resume" target="_blank">Resume</a></li>
                     <li><a href="about.html">About me</a></li>
                     <li><a href="">Contact</a></li>
                 </ul>
@@ -74,7 +77,7 @@
 				<section>
                     <header>
                         <h1>Yumbot</h1>
-                        <h4>A chatbot to find the specific dish you want quickly </h4>
+                        <h4>A chatbot to find the specific dish you want quickly</h4>
                     </header>
                     <span class="pj-time">Time: Sep. 2016 (3 weeks)</span>
                     <span class="pj-team">Team: Brian O'Connor, Peggy Lu, Misheal Sedas, Ashley Smith</span>
@@ -164,11 +167,11 @@
                 <section id="follow">
 <!--                    <h2>Follow</h2>-->
                     <ul class="icons">
-<!--                        <li><a href="#" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>-->
-                        <li><a href="#" class="icon style2 fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
-                        <li><a href="https://www.linkedin.com/in/peggy-lu" class="icon style2 fa-linkedin" target="_blank"><span class="label">Linkedin</span></a></li>
-                        <li><a href="#" class="icon style2 fa-medium" target="_blank"><span class="label">Medium</span></a></li>
-                        <li><a href="mailto:peggy.py.lu@gmail.com" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
+<!--                        <li><a href="#" class="icon  fa-twitter"><span class="label">Twitter</span></a></li>-->
+                        <li><a href="#" class="icon  fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+                        <li><a href="https://www.linkedin.com/in/peggy-lu" class="icon  fa-linkedin" target="_blank"><span class="label">Linkedin</span></a></li>
+                        <li><a href="#" class="icon  fa-medium" target="_blank"><span class="label">Medium</span></a></li>
+                        <li><a href="mailto:peggy.py.lu@gmail.com" class="icon  fa-envelope-o"><span class="label">Email</span></a></li>
                     </ul>
                 </section>
                 <ul class="copyright">
@@ -187,8 +190,7 @@
             $(document).ready(function(){
                 $('.sidebar').affix({
                     offset: {
-                        top: $('#header').outerHeight() + $('#banner').outerHeight() + 20,
-//                        bottom: $('#footer').outerHeight()
+                        top: $('#header').outerHeight() + $('#banner').outerHeight() + 20
                     }
                 });
                 

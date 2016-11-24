@@ -16,13 +16,6 @@ a.disabled {
     cursor: default;
 }
 
-
-@media (min-width: 1200px) {
-    .container {
-        width: 68em;
-    }
-}
-
 /* Wrapper */
 #wrapper {
     height: 100%;
@@ -32,7 +25,7 @@ a.disabled {
 
 	#wrapper > * > .inner {
 		width: 100%;
-		max-width: 68em;
+		max-width: 1170px;
 		margin: 0 auto;
 		padding: 0 2.5em;
 	}
@@ -136,7 +129,8 @@ a.disabled {
                 }
             }
 
-            #header #menu > ul > li > a:hover {
+            #header #menu > ul > li > a:hover, 
+            #header #menu > ul > li > a.active {
                 border: 0.5px solid;
             }
 
@@ -285,11 +279,35 @@ a.disabled {
 
     #banner {
 		position: relative;
-		padding: 5em 4em;
+        padding: 3em 0;
 		background: url(image/bannerbg.jpg) no-repeat;
 		background-size: cover;
         color: #fff;
 	}
+
+    #banner .container {
+        padding: 0 7em;
+        margin: 0 auto;
+    }
+
+    @media screen and (max-width: 1200px) {
+        #banner .container {    
+            padding: 0 5em;
+        }
+    }
+
+    @media screen and (max-width: 992px) {
+        #banner .container {    
+            padding: 0 4em;        
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        #banner .container {
+            padding: 0 5em;
+        }
+    }
+  
         #banner header {
             margin: 0 0 2em 0;
         }
@@ -336,10 +354,63 @@ a.disabled {
     padding: 5em 0;
     background-color: #f6f6f6;
 }
-#footer #follow {
-    font-size: 2em;
-    margin: 0 auto;
-}
+    #footer #follow {
+        font-size: 2em;
+        margin: 0 auto;
+    }
+
+    #footer .icon {
+			-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+			-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+			-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+			transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+			background-color: transparent;
+			border: solid 1px #c9c9c9;
+			border-radius: 4px;
+			width: 2.65em;
+			height: 2.65em;
+			display: inline-block;
+			text-align: center;
+			line-height: 2.65em;
+			color: inherit;
+		}
+
+    @media screen and (max-width: 992px) {       
+        #footer .icon {
+            width: 2.25em;
+            height: 2.25em;
+            line-height: 2.25em;
+        }
+    }
+
+    @media screen and (max-width: 768px) {       
+        #footer .icon {
+            width: 2em;
+            height: 2em;
+            line-height: 2em;
+        }
+    }
+
+    @media screen and (max-width: 480px) {       
+        #footer .icon {
+            width: 1.5em;
+            height: 1.5em;
+            line-height: 1.5em;
+        }
+    }
+
+        #footer .icon:before {
+            font-size: 1.1em;
+        }
+
+        #footer .icon:hover {
+            color: #33b599;
+            border-color: #33b599;
+        }
+
+        #footer .icon:active {
+            background-color: rgba(242, 132, 158, 0.1);
+        }
 
 /* affix */
 .affix.sidebar {
@@ -360,7 +431,7 @@ a.disabled {
 
 @media (min-width: 1200px) {
     .affix.sidebar {
-        width: calc(68em * 0.25);
+        width: calc(1170px * 0.25);
         padding-right: 2em;}
 }
 
