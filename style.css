@@ -318,6 +318,10 @@ a.disabled {
                 margin: 0 0 0.5em 0;
             }
 
+            #banner header h4 {
+                width: 50%;
+            }
+
         #banner .pj-time {
             display: block;
             color: #fff;
@@ -344,7 +348,6 @@ a.disabled {
     background-color: #585858;
     padding: 3em 7em;
     color: #f6f6f6;
-    
 }
 
 /* Footer */
@@ -446,7 +449,7 @@ a.disabled {
         display: inline-flex;
         align-items: center;
         width: auto;
-        text-align: left;
+/*        text-align: left;*/
     }
 
 	#intro .image {
@@ -479,6 +482,11 @@ a.disabled {
 		-ms-transition-delay: 0.35s;
 		transition-delay: 0.35s;
 	}
+
+        #intro .content ul {
+            list-style: none;
+            padding: 0;
+        }
 
 	body.is-loading #intro .image {
 		opacity: 0;
@@ -527,4 +535,29 @@ div.full-sec > .inner li, div.full-sec > .inner p {
     div.full-sec > .inner li, div.full-sec > .inner p {
         font-size: 1em;
     }
+}
+
+
+#character {
+    background-color: #f6f6f6;
+    text-align: center;
+    padding: 2em 0;
+}
+
+#character .container {
+    max-width: 960px;
+}
+
+#character .char-icon {
+    width: 156px;
+    height: 156px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 100%;
+    
+}
+
+#issues {
+    background-color: #585858;
+    height: 300px;
 }
