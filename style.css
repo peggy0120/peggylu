@@ -577,18 +577,18 @@ div.full-sec {
 
 div.full-sec > .inner li, div.full-sec > .inner p {
     margin: 0;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 @media screen and (max-width: 992px) {
     div.full-sec > .inner li, div.full-sec > .inner p {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 }
 
 @media screen and (max-width: 768px) {
     div.full-sec > .inner li, div.full-sec > .inner p {
-        font-size: 1.2em;
+        font-size: 1em;
     }
 }
 
