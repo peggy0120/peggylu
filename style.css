@@ -333,10 +333,12 @@ a.disabled {
         color: #fff;
 	}
 
+/*
     #banner.yumbot {
         background: url(projects/yumbot/header-bg.png);
         background-position: right;
     }
+*/
 
     #banner .container {
         padding: 0 7em;

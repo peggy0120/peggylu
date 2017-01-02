@@ -374,7 +374,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
+<!--                                                </div>-->
                                                 
                                                 <!-- main slider carousel nav controls --> 
 <!--
@@ -406,7 +406,7 @@
             </div>
         </div>
    
-    <!-- Footer -->
+        <!-- Footer -->
         <footer id="footer">
             <div class="inner">
                 <!--
@@ -443,40 +443,42 @@
                 </ul>
             </div>
         </footer>
-        </div>
-        <!-- Scripts -->
-        <script src="t_phantom/assets/js/skel.min.js"></script>
-        <script src="t_phantom/assets/js/util.js"></script>
-        <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-        <script src="t_phantom/assets/js/main.js"></script>
+    </div>
     
-        <script>
-            $(document).ready(function(){
-                $('.sidebar').affix({
-                    offset: {
-                        top: $('#header').outerHeight() + $('#banner').outerHeight() + 20,
-                        bottom: $("footer").outerHeight(true) + $('#main').innerHeight() - $('#main').height()
+    <!-- Scripts -->
+    <script src="t_phantom/assets/js/skel.min.js"></script>
+    <script src="t_phantom/assets/js/util.js"></script>
+    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="t_phantom/assets/js/main.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.sidebar').affix({
+                offset: {
+                    top: $('#header').outerHeight() + $('#banner').outerHeight() + 20,
+                    bottom: $("footer").outerHeight(true) + $('#main').innerHeight() - $('#main').height()
+                }
+            });
+
+        /* Smooth Scrolling from https://css-tricks.com/snippets/jquery/smooth-scrolling/ */
+            $(function() {
+                $('a[href*="#"]:not([href="#"])').click(function() {
+                    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                        var target = $(this.hash);
+                            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                        if (target.length) {
+                            $('html, body').animate({
+                                scrollTop: target.offset().top
+                            }, 200);
+                            return false;
+                        }
                     }
                 });
-                
-            /* Smooth Scrolling from https://css-tricks.com/snippets/jquery/smooth-scrolling/ */
-                $(function() {
-                    $('a[href*="#"]:not([href="#"])').click(function() {
-                        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-                            var target = $(this.hash);
-                                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-                            if (target.length) {
-                                $('html, body').animate({
-                                    scrollTop: target.offset().top
-                                }, 200);
-                                return false;
-                            }
-                        }
-                    });
-                });
-
-
             });
-        </script>
+
+
+        });
+    </script>
+
     </body>
 </html>
