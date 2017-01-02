@@ -1677,7 +1677,7 @@
 
 		a:hover, a:focus {
 			border-bottom-color: transparent;
-			color: #33b599 !important;
+			color: #33b599;
 		}
 
 	strong, b {

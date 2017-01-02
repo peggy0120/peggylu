@@ -72,7 +72,7 @@
         </header>
         
         <!-- Banner --> 
-        <div id="banner">
+        <div id="banner" class="yumbot">
 			<div class="container">
 				<section>
                     <header>
@@ -93,49 +93,305 @@
                     <nav class="col-sm-3 hidden-xs scrollspy">
                       <ul class="nav sidebar">
                         <li class="active"><a href="#pj-role">Role</a></li>
-                        <li><a href="#pj-prob">Problem</a></li>
-                        <li><a href="#pj-proc">Process</a></li>
+                        <li><a href="#pj-bg">Background</a></li>
+<!--                        <li><a href="#pj-proc">Process</a></li>-->
                         <li><a href="#pj-res">Research</a></li>
-                        <li><a href="#pj-inst">Insight</a></li>
-                        <li><a href="#pj-cep">Concept</a></li>
-                        <li><a href="#pj-test">Testing</a></li>
-                        <li><a href="#pj-take">Key Takeway</a></li>
+                        <li><a href="#pj-ins">Insight</a></li>
+                        <li><a href="#pj-cep">Design Concepts</a></li>
+                        <li><a href="#pj-sk">Initial Sketches</a></li>
+<!--                        <li><a href="#pj-test">User Feedback</a></li>-->
+                        <li><a href="#pj-desg">Solution: Yumbot</a></li>
+<!--                        <li><a href="#pj-take">Key Takeaway</a></li>-->
                       </ul>
                     </nav>
                     <div class="col-sm-9" id="pj-cont">
                         <section id="pj-role">
                             <h2>Role</h2>
                             <article>
-                                <p>User Research, Sketching, Wireframing, Documentation</p>
+                                <p>User Research, Competitive Analysis, Sketching, Wireframing, Documentation</p>
                             </article>
                         </section>
-                        <section id="pj-prob">
-                            <h2>Problem</h2>
-                            <article><p></p></article>
+                        <section id="pj-bg">
+                            <h2>Background</h2>
+                            <article>
+                                <div>
+                                    <h3>Challenge</h3>
+                                    <p>Creating a <span class="highlight">conversational UI</span> for <a href="http://www.yelp.com" target="_blank">Yelp</a>* leveraging their implementation of Machine Learning system to improve user's experience when ordering food online, especially getting food recommendations. </p>
+                                </div>
+                                <div>
+                                    <h3>Problem</h3>
+                                    <p>It is <span class="highlight">labor intensive and time-consuming</span> to use Yelp's current platform. Instead of being able to search using nonspecific words for individual dishes, such as “spicy” or “soupy” they are <span class="highlight">forced to use a convoluted search process and navigate through reviews</span> to find information specific to the dishes they may be considering.</p>
+                                </div>
+                                <div>
+                                    <h3>Constraints</h3>
+                                    <ul>
+                                        <li>Using BTown Menu* as an entry point</li>
+                                        <li>Focusing on college student only</li>
+                                    </ul>
+                                    <p class="disclaimer">*Disclaimer: This is a class project with simulated scenarios. We have no affiliation with either Yelp or BTown Menu.</p>
+                                </div>
+                            </article>
                         </section>
+<!--
                         <section id="pj-proc">
                             <h2>Process</h2>
                             <article><p></p></article>
                         </section>
+-->
                         <section id="pj-res">
                             <h2>Research</h2>
-                            <article><p></p></article>
+                            <article>
+                                <div>
+                                    <h3>To better understand our target users </h3>
+                                    <p>We spoke with several Indiana University Students and sent out an online survey to general college students to get responses on following issues:</p>
+                                    <ul>
+                                        <li>What's the usual process they went through when finding food recommendations online?</li>
+                                        <li>What is lacking from current Yelp platform?</li>
+                                        <li>What's their priorities when making food orders?</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h3>To better understand finding/ordering food online</h3>
+                                    <p>We examined both Yelp &amp; BTown Menu's current platform and their potential competitors such as zomato and foodpanda to gain more knowledge on:</p>
+                                    <ul>
+                                        <li>What's the possible processs of getting food recommendations online currently?</li>
+                                        <li>What's Yelp's advantage over other competitors?</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h3>To better understand existing solutions</h3>
+                                    <p>We looked at a few conUI for food delivery such as Ozlo and Marsbot to know:</p>
+                                    <ul>
+                                        <li>What information and how is it provided to the users?</li>
+                                        <li>How is the search / filtering process shown in a conversational format?</li>
+                                    </ul>
+                                </div>
+                            </article>
                         </section>
-                        <section id="pj-inst">
+                        <section id="pj-ins">
                             <h2>Insight</h2>
-                            <article><p></p></article>
+                            <article>
+                                <p>From our research, we gathered following insights:</p>
+                                <div>
+                                    <h3>User Behavior </h3>
+                                    <ul>
+                                        <li>Users do not always know exactly what food or dish they want to order, but may have an idea, such as something "soupy".</li>
+                                        <li>Users who regularly use online food ordering platform tend to make repeated order.</li>
+                                        <li>Price is the top priority to corcern for most users.</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h3>Current Platform</h3>
+                                    <ul>
+                                        <li>Yelp is at best with its huge amount of user ratings and reviews, and it is something we should keep in mind of and take advantage of with our conUI solution.</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h3>conUI</h3>
+                                    <ul>
+                                        <li>Using conUI ordering food is indeed more efficient than using other platforms.</li>
+                                        <li>A more personalized conversation would give users a better and more engaging experience.</li>
+                                    </ul>
+                                </div>
+                            </article>
                         </section>
                         <section id="pj-cep">
-                            <h2>Concept</h2>
-                            <article><p></p></article>
+                            <h2>Design Concepts</h2>
+                            <article>
+                                <p>Based on the given prompt and our insights from research, we came down to some main concepts with our conUI solution.</p>
+                                <div>
+                                    <h3>Providing Specific Dish Information</h3>
+                                    <p>This is a direct response to users' frustration toward current platform which shows restaurant-based choices. By showing specific dishes, it saves users the tiring process of going through each restaurant's data and the abundance of reviews to find something specifically matching their needs.</p>
+                                    <p class="disclaimer">**Note: Under the <span class="highlight">assumption</span> that dish-specific information can be extracted from user reviews through Yelp's machine learning algorithm.</p>
+                                </div>
+                                <div>
+                                    <h3>Suggested Responses &amp; Open-Ended Input</h3>
+                                    <p>With suggested responses, one one hand it improves the personalization of the bot by showing options pertinent to the user. The messages shown would be customized for each user, and change time by time based on user's past decisions. On the other hand, it provides guidance for the user and therefore is able to simply the onboarding process.</p>
+                                    <p>Meanwhile, leaving the option for user to manually input messages gives the user control and ensures the "conversation-feel" with the bot.</p>
+                                </div>
+                                <div class="hidden">
+                                    <h3>Simplifying process with conUI &amp; past orders</h3>
+                                    <ul>
+                                        <li></li>
+                                        <li></li>
+                                        <li class="disclaimer">Note: Under the <span class="highlight">assumption</span> that dish-specific information can be extracted from user reviews through Yelp's machine learning algorithm.</li>
+                                    </ul>
+                                </div>
+                            </article>
                         </section>
+                        <section id="pj-sk">
+                            <h2>Initial Sketches</h2>
+                            <article>
+                                <p>Below are a few workflow chart we came up with during the initial ideation. They showed how the conversation between the bot and the user would unfold.</p>
+                                <div>
+                                    <h3>Workflow 1</h3>
+                                    <div class="row">
+                                        <div class="col-sm-8 col-xs-12 cont-img">
+                                            <img src='projects/yumbot/flowchart_Yandy.jpg'/>
+                                        </div>
+                                        <div class="col-sm-4 col-xs-12 cont-img-desc">
+                                            <p>Scenario: The user has just started using the bot for the first time.</p>
+                                            <p>We once considered asking for users’ preferences when they first start the app, but later decided it’s unnecessary to do so, as the bot can learn their preferences based on previous choices/orders.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h3>Workflow 2</h3>
+                                    <div class="row">
+                                        <div class="col-sm-8 col-xs-12 cont-img">
+                                            <img src='projects/yumbot/flowchart_scott.jpg'>
+                                        </div>
+                                        <div class="col-sm-4 col-xs-12 cont-img-desc">
+                                            <p>Scenario: The user has ordered before, and the bot would ask him/her if he/she wants to make the same order again.</p>
+                                            <p>We first only focused on the scenario where the user does not want to order the same dish but something else from the same restaurant, but later also considered other alternatives.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </section>
+<!--
                         <section id="pj-test">
-                            <h2>Testing</h2>
-                            <article><p></p></article>
+                            <h2>User Feedback</h2>
+                            <article>
+                                <div>
+                                    <h3>Usability Testing</h3>
+                                </div>
+                                <div>
+                                    <h3>Critique from Class Presentation</h3>
+                                </div>
+                            </article>
                         </section>
-                        <section id="pj-take">
+-->
+                        <section id="pj-desg">
+                            <h2>Solution: Yumbot</h2>
+                            <article>
+                                <p>Below is our solution, <span class="highlight">Yumbot, presented with a scenario</span> which a college student, Yandy, returns to the app trying to find something with low calories to order.</p>
+                                <!-- thumb navigation carousel -->
+<!--                                <div class="col-md-12 hidden-sm hidden-xs" id="slider-thumbs"> -->
+
+                                    <!-- thumb navigation carousel items -->
+<!--
+                                    <ul class="list-inline">
+                                        <li> <a id="carousel-selector-0" class="selected">
+                                            <img src="projects/yumbot/page_1.png" class="img-responsive">
+                                        </a></li>
+                                        <li> <a id="carousel-selector-1">
+                                            <img src="projects/yumbot/page_2.png" class="img-responsive">
+                                        </a></li>
+                                        <li> <a id="carousel-selector-2">
+                                            <img src="projects/yumbot/page_3.png" class="img-responsive">
+                                        </a></li>
+                                        <li> <a id="carousel-selector-3">
+                                            <img src="projects/yumbot/page_4.png" class="img-responsive">
+                                        </a></li>
+                                        <li> <a id="carousel-selector-4">
+                                            <img src="projects/yumbot/page_5.png" class="img-responsive">
+                                        </a></li>
+                                        <li> <a id="carousel-selector-5">
+                                            <img src="projects/yumbot/page_6.png" class="img-responsive">
+                                        </a></li>
+                                    </ul>
+-->
+<!--                                </div>-->
+                                
+                                <!-- main slider carousel -->
+                                <div class="row">
+                                    <div class="col-sm-12" id="slider">
+                                        <div class="col-sm-12" id="carousel-bounding-box">
+                                            <div id="myCarousel" class="carousel slide" data-interval="false">
+                                                
+                                                <!-- main slider carousel items -->
+                                                <div class="carousel-inner">
+                                                    <div class="active item" data-slide-number="0">
+                                                        <div class="row">
+                                                            <div class="col-xs-6">
+                                                                <img src="projects/yumbot/page_1.png" class="img-responsive">
+                                                            </div>
+                                                            <div class="col-xs-6">
+                                                                <h3>1: Returned User</h3>
+                                                                <p>Upon Yandy returing to the app, Yumbot would first check if the she wants to make repeated order as before with <span class="highlight">suggested responses</span> provided and the option of <span class="highlight">manual input</span>.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item" data-slide-number="1">
+                                                        <div class="row">
+                                                            <div class="col-xs-6">
+                                                                <img src="projects/yumbot/page_2.png" class="img-responsive">
+                                                            </div>
+                                                            <div class="col-xs-6">
+                                                                <h3>2: Manual Input</h3>
+                                                                <p>Yandy can either chooses from one of the suggested responses, or as shown in this case, manually input "low calorie food"</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item" data-slide-number="2">
+                                                        <div class="row">
+                                                            <div class="col-xs-6">
+                                                                <img src="projects/yumbot/page_3.png" class="img-responsive">
+                                                            </div>
+                                                            <div class="col-xs-6">
+                                                                <h3>3: Specificity</h3>
+                                                                <p>Here it shows how the bot would handle the cases where it doesn't entirely understand a user's manual input. By providing suggested responses, it not only allows the bot to </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item" data-slide-number="3">
+                                                        <div class="row">
+                                                            <div class="col-xs-6">
+                                                                <img src="projects/yumbot/page_4.png" class="img-responsive">
+                                                            </div>
+                                                            <div class="col-xs-6">
+                                                                <h3>4: Price Range</h3>
+                                                                <p>Upon the user returing to the app, YumBot would first check if the user wants to make repeated order as before with suggested responses provided and the option of manual input.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item" data-slide-number="4">
+                                                        <div class="row">
+                                                            <div class="col-xs-6">
+                                                                <img src="projects/yumbot/page_5.png" class="img-responsive">
+                                                            </div>
+                                                            <div class="col-xs-6">
+                                                                <h3>5: Specific Dish</h3>
+                                                                <p>Upon the user returing to the app, YumBot would first check if the user wants to make repeated order as before with suggested responses provided and the option of manual input.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item" data-slide-number="5">
+                                                        <div class="row">
+                                                            <div class="col-xs-6">
+                                                                <img src="projects/yumbot/page_6.png" class="img-responsive">
+                                                            </div>
+                                                            <div class="col-xs-6">
+                                                                <h3>6: Review</h3>
+                                                                <p>Upon the user returing to the app, YumBot would first check if the user wants to make repeated order as before with suggested responses provided and the option of manual input.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                <!-- main slider carousel nav controls --> 
+                                                <a class="carousel-control left" href="#myCarousel" data-slide="prev">prev</a>
+                                                <a class="carousel-control right" href="#myCarousel" data-slide="next">next</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--/main slider carousel-->
+                            </article>
+                        </section>
+                        <section id="pj-take" class="hidden">
                             <h2>Key Takeaway</h2>
-                            <article><p></p></article>
+                            <article>
+                                <div>
+                                    <h3>Understanding your stakeholder</h3>
+                                    <p></p>
+                                </div>
+                                <div>
+                                    <h3>Constraining </h3>
+                                    <p></p>
+                                </div>
+                            </article>
                         </section>
                     </div>
                 </div>
@@ -190,7 +446,8 @@
             $(document).ready(function(){
                 $('.sidebar').affix({
                     offset: {
-                        top: $('#header').outerHeight() + $('#banner').outerHeight() + 20
+                        top: $('#header').outerHeight() + $('#banner').outerHeight() + 20,
+                        bottom: $("footer").outerHeight(true) + $('#main').innerHeight() - $('#main').height()
                     }
                 });
                 
@@ -209,6 +466,8 @@
                         }
                     });
                 });
+
+
             });
         </script>
     </body>

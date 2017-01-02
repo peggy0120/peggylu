@@ -1,0 +1,55 @@
+-----------------------BACKGROUND----------------------------------
+Challenge: 
+Creating a conversational UI for Yelp* leveraging their implementation of Machine Learning system to improve user's experience when ordering food online, especially getting recommendations. 
+
+Problem:
+It is labor intensive and time-consuming to use Yelp's current platform. Instead of being able to search using nonspecific words for individual dishes, such as “spicy” or “soupy” they are forced to use a convoluted search process and navigate through reviews to find information specific to the dishes they may be considering.
+
+Constraints: 
+- Using BTown Menu* as an entry point
+- Focusing on college student only
+
+
+*Disclaimer: This is a class project with simulated scenarios. We have no affiliation with either Yelp or BTown Menu.
+
+-----------------------RESEARCH----------------------------------
+
+To better understand our users (college students):
+
+We spoke with several Indiana University Students and sent out an online survey to general college students to get responses on following issues:
+
+- What's the usual process they went through when finding food recommendations online?
+- What is lacking from current Yelp platform?
+- What's their priorities when making food orders?
+
+
+To better understand finding/ordering food online
+
+We examined both Yelp & BTown Menu's current platform and their potential competitors such as zomato and foodpanda to gain more knowledge on:
+
+- What's the possible processs of getting food recommendations online currently?
+- What's Yelp's advantage over other competitors?
+
+To better understand existing solutions 
+
+We looked at a few conUI for food delivery such as Ozlo and Marsbot to know: 
+
+- What information and how is it provided to the users?
+- How is the search / filtering process shown in a conversational format?
+
+-----------------------INSIGHT----------------------------------
+
+From our research, we gathered following insights:
+
+User Behavior
+- Users do not always know exactly what food or dish they want to order, but may have an idea, such as something "soupy". 
+- Users who regularly use online food ordering platform tend to make repeated order.
+- Price is the top priority to corcern for most users.
+
+Current Platform
+- Yelp is at best with its huge amount of user ratings and reviews, and it is something we should keep in mind of and take advantage of with our conUI solution.
+
+ConUI
+- Using conUI ordering food is indeed more efficient than using other platforms.
+- A more personalized conversation would give users a better and more engaging experience.
+
