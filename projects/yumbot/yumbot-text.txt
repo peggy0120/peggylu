@@ -53,3 +53,31 @@ ConUI
 - Using conUI ordering food is indeed more efficient than using other platforms.
 - A more personalized conversation would give users a better and more engaging experience.
 
+
+-----------------------FEEDBACK & ITERATION----------------------------------
+
+Usability Testing
+
+After ideation and sketching, we tested our low-fidelity prototype made with notecards with two college students. The goal is to see if any part of the conversation may cause confusion to the users. A few issues we noted during testing: 
+- Our original design does not put enough emphasis on price or ratings, and users would like to see those information prominently featured.
+- Users usaully only type very few words in respons to the bot, which is different than our assumptions.
+- While the users appreciate seeing dishes as the result, once they see the restaurant, they would still like to see the menu from the restaurants.
+
+Further Constraints
+
+Due to time limitation and the complexity of the nature of conUI, we decided with our final design, we would like to set further constrains other than the ones given by the prompt. 
+
+First, our design would only deal with the process of the bot identifying a specific dish for the users. Any other tasks involved within ordering food online, such as reading through menus or entering payment information, would not be in the scope of our design.
+
+Second, with our presentation, we would only focus on the experience of an returning user. For the reason that is the scenario that can best illustrate our idea of taking advantage of a user's past orders information to acheive personalization.
+
+
+Iteration
+
+After receving feedback from potential users and our peers after presentation, we gathered as a team and discussed where we wanted to move forward. The most significant issue we tried to address during the itration phase (one week) of the project was the display of dish information, including price, rating, review, etc. Below are some of the alternatives we came up with.
+
+
+
+
+
+

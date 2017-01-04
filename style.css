@@ -643,7 +643,7 @@ div.carousel-inner div.item p{
     margin-left: -1em;
 }
 
-div.carousel-inner div.item img {
+#Carousel_sol div.carousel-inner div.item img {
     width: 300px;
     margin: 0 auto;
 }
@@ -666,4 +666,19 @@ div.carousel a.carousel-control:hover {
 
 div.carousel a.carousel-control.left {
     left: 50%;
+}
+
+/* Buuton */ 
+
+.btn {
+    background-color: #33b599 !important;
+    color: #ffffff !important;
+    border: none !important;
+    box-shadow: none;
+}
+
+.btn:hover {
+    color: #ffffff !important;
+    background: rgba(51, 181, 153, 0.8) !important;
+    box-shadow: none;
 }
