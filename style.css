@@ -382,6 +382,17 @@ a.disabled {
             color: #fff;
         }
 
+        #banner a {
+            color: inherit;
+            border-bottom: 1px solid;
+            border-color: inherit;
+        }
+
+        #banner a:hover {
+            color: #33b599;
+            border-bottom: 1px dotted;
+        }
+
 		#banner .image {
 			margin-bottom: 2em;
 			padding: 1em;
