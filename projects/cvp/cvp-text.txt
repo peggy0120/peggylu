@@ -1,0 +1,18 @@
+---------------Design Concept------------------
+
++++Being Connected+++
+
+Following the affinity diagram and research, we came to some initial conclusion that among all the issues mentioned by the veterans, we would like to focus on faciliating them being connected to each other and the university. We believed being connected is the very basic step to solve other problems such as academic or mental issues. Without the student veterans being connected to his peers and the university, it is nearly impossible for any other resources and services to reach them.
+
++++Centralized Information+++
+
+We aimed to provide a centralized location for all the information that is specifically for veterans. In other words, everything in the portal is specific to student veterans, and everything for student veterans are in one place.
+
+Our portal would consist of the student veteran's profile and four sections: Network, Resources, Map, and Events. More detailed explaination for each section would be presented along with our final solution below.
+
+
++++Not Another Facebook+++
+We made the decision early on that we did not want to build another social media that pushes interactions to happen. On the contrary, we would like to provide opportunities of connection for those who are in need of. Our later conversations with the student veterans of IU also supported this idea.
+
+---------------Solution------------------
+
