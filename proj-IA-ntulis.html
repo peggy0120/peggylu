@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Peggy Pei-Ying Lu">
     
-    <title>Campus Veteran Portal | Peggy Lu | UX Design</title>
+    <title>NTULIS IA Redesign | Peggy Lu | UX Design</title>
     
     <!-- Stylesheet -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -59,11 +59,11 @@
                             Project <span class="caret"></span>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuDivider">
                                 <li><a href="proj-yumbot.html">Yumbot</a></li>
-                                <li><a href="proj-cvp.html" class="disabled">Campus Veteran Portal</a></li>
+                                <li><a href="proj-cvp.html">Campus Veteran Portal</a></li>
 <!--                                <li><a href="">Bus Rapid Transit</a></li>-->
 <!--                                <li role="separator" class="divider"></li>  -->
 <!--                                <li><a href="">Food-Edu Exhibit</a></li>-->
-                                <li><a href="">IA Redesign</a></li>
+                                <li><a href="" class="disabled"> NTULIS IA Redesign</a></li>
                             </ul>
                         </a>
                     </li>
@@ -76,15 +76,15 @@
         </header>
         
         <!-- Banner --> 
-        <div id="banner" class="cvp">
+        <div id="banner" class="ntulis">
 			<div class="container">
 				<section>
                     <header>
-                        <h1>Campus Veteran Portal</h1>
-                        <h4>Transitioning student veterans by connecting them to relevant resources and community</h4>
+                        <h1>NTULIS IA Redesign</h1>
+                        <h4>Redesigning information architecture for National Taiwan University, Department of Library &amp; Information Science</h4>
                     </header>
-                    <span class="pj-time">Time: Nov. - Dec. 2016 (3 weeks)</span>
-                    <span class="pj-team">Team: <a href="http://www.alexandermhoffmann.com/" target="_blank">Alexandar Hoffmann</a>, <a href="http://ryandgriggs.com/" target="_blank">Ryan Griggs</a>, Peggy Lu, <a href="https://www.miringuk.com/" target="_blank">Miringu Kiarie</a></span>
+                    <span class="pj-time">Time: Spring 2014</span>
+                    <span class="pj-team">Team: Y. Hsiao, C.Y. Huang, Y.T. Lin, Peggy Lu &amp; E.L. Wang</span>
                 </section>
             </div>
         </div>
@@ -99,13 +99,14 @@
                         <li class="active"><a href="#pj-role">Role</a></li>
                         <li><a href="#pj-bg">Background</a></li>
 <!--                        <li><a href="#pj-proc">Process</a></li>-->
-                        <li><a href="#pj-res">Research</a></li>
-                        <li><a href="#pj-ins">Insight</a></li>
-                        <li><a href="#pj-cep">Design Concepts</a></li>
+                        <li><a href="#pj-res">Needs Analysis</a></li>
+                        <li><a href="#pj-ins">Insight from Benchmarking</a></li>
+                        <li><a href="#pj-sort">Cardsorting</a></li>
+                        <li><a href="#pj-smap">Sitemap</a></li>
 <!--                        <li><a href="#pj-sk">Initial Sketches</a></li>-->
 <!--                        <li><a href="#pj-test">Usability Test</a></li>-->
-                        <li><a href="#pj-desg">Solution: CVP</a></li>
-<!--                        <li><a href="#pj-fut">Future Strategy</a></li>-->
+                        <li><a href="#pj-desg">Wireframs</a></li>
+                        <li><a href="#pj-fut">Result</a></li>
 <!--                        <li><a href="#pj-take">Key Takeaway</a></li>-->
                       </ul>
                     </nav>
@@ -113,48 +114,15 @@
                         <section id="pj-role">
                             <h2>Role</h2>
                             <article>
-                                <p>User Interview, Ideation, Sketching, Wireframing, Documentation</p>
+                                <p>Website Benchmarking, Survey, Cardsorting, Wireframing</p>
                             </article>
                         </section>
                         <section id="pj-bg">
                             <h2>Background</h2>
                             <article>
                                 <div>
-                                    <h3>Challenge</h3>
-                                    <p>We were given the prompt based on <a href="https://chi2017.acm.org/designcompetition.html" target="_blank">CHI 2017 Design Competition: Leveling the Playing Field</a> to identify <span class="highlight">a design target that's often excluded or left behind</span> and create a design intervention accordingly.</p>
-<!--
-                                    <p>Besides the CHI brief, we were also constrained to work on the project through the following two lenses: </p>
-                                    <ul>
-                                        <li>The Unexotic Underclass by C.Z. Nnaemeka</li>
-                                        <li>The Hillbilly Elegy</li>
-                                    </ul>
--->
-                                </div>
-                                <div>
-                                    <h3>Picking a User Group: Student Veterans</h3>
-                                    <p>The foremost difficulty of this project was for us to pick a user group in a very limited time frame. To efficiently acomplish the task while ensuring everyone on the team was on the same page, we adopted the <span class="highlight">affinity diagram</span> method after having an in-depth discussion about the prompt.</p>
-                                    <div class="row">
-                                         <div class="col-sm-6 col-xs-12 cont-img">
-                                            <img src='projects/cvp/cardsorting_01.jpg'>
-                                        </div>
-                                        <div class="col-sm-6 col-xs-12 ">
-                                            <h4>How we did affinity diagram</h4>
-                                            <p>We each wrote down our understanding, interpretation, or questions toward the challenge, and potential user groups on a stack of post-it-notes. Later organized them into different categories: demographic groups, problems, questions (about the prompt) and solutions.</p>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                         <div class="col-sm-6 col-xs-12 cont-img">
-                                            <img src='projects/cvp/cardsorting_05.jpg'>
-                                        </div>
-                                        <div class="col-sm-6 col-xs-12 ">
-                                            <h4>Why Student Veterans</h4>
-                                            <p>Some of the user groups other than student veterans that we were initially interested were foster child, single-mother, and mentally disordered. However, with what the CHI brief emphasized: "<span class="highlight">where ongoing access and engagement is possible</span>" in mind, we came to the decision of addressing student veterans with our design.</p>
-                                        </div>
-                                    </div>                        
-                                </div>
-                                <div>
                                     <h3>Problem</h3>
-                                    <p>For student veterans, it is very difficult <span class="highlight">to connect within a community</span> after transitioning from active duty to civilian student.</p>
+                                    <p>The old website of the Department of Library &amp; Information Science at NTU was built several years ago, and users had been having problems with finding relevent information.</p>
                                 </div>
                             </article>
                         </section>
@@ -165,94 +133,41 @@
                         </section>
 -->
                         <section id="pj-res">
-                            <h2>Research</h2>
+                            <h2>Needs Analysis</h2>
                             <article>
+                                <p>To better understand what was causing the problem for the users and what are the user needs, we conducted a series of <span class="highlight">interview with the department director</span> and the staff managing the website.</p>
+                                <p>We also sent out surveys to 64 undergraduate students in the department.</p>
                                 <div>
-                                    <h3>To better understand student veterans</h3>
-                                    <p>We spoke with several student veterans at Indiana University Students face-to-face and two student veterans ar other university on the phone to get insights on following issues:</p>
-                                    <ul>
-                                        <li>What are some difficulties they faced while finding school?</li>
-                                        <li>What are some difficulties they faced first coming to [current university]?</li>
-                                        <li>What are some of the veteran services offering by the university? Are they helpful? Anything that they wish to have?</li>
-                                        <li>What are some differences between them and normal students in terms of needs and problems?</li>
-                                    </ul>
+                                    <h3>Interview</h3>
+                                    <p></p>
                                 </div>
                                 <div>
-                                    <h3>To better understand current veteran services</h3>
-                                    <p>We talked to John Summerlot, Director of Veteran Support Services (VSS) at Indiana University, and Mary Elftman, Veteran Services Officer at the Monroe County Veterans Affairs. Our goal for these conversation is to identify where we can intervene and to seek for potential support. Some of the questions we asked are:</p>
-                                    <ul>
-                                        <li>What are some veteran services that's currently being offered?</li>
-                                        <li>What are some limitation they faced when assisting veterans?</li>
-                                        <li>Is there any problem they observed yet being addressed under current system?</li>
-                                        
-                                    </ul>
-                                </div>
-                                <div>
-                                    <h3>To better understand the problem on a larger scale</h3>
-                                    <p>We went through information provided by U.S. Department of Veterans Affairs and referred to several reports and research articles* to gain deeper knowledge on veterans as a whole. This also validated our assumptions that the problems we found through previous conversations were not specific to Indiana University but a serious issue on a national level.</p>
+                                    <h3>Survey</h3>
+                                    <p></p>
                                 </div>
                             </article>
                         </section>
                         <section id="pj-ins">
-                            <h2>Insights</h2>
+                            <h2>Insight from Benchmarking</h2>
                             <article>
-                               <div>
-                                    <p>From our research, we gathered following key insights on student veterans:</p>
-                                    <ul>
-                                        <li>Student veterans need to <span class="highlight">be connected</span> with university, each other, community in order to be more successful.</li>
-                                        <li>Currently, there are <span class="highlight">little to no veteran network</span> at the university beyond Veteran Support Services on campus and miscellany self-organized Facebook groups.</li>
-                                        <li><span class="highlight">Resources</span> are vital to the transition period. However, most veterans <span class="highlight">are unaware of what is provided</span> for them by the university or local veteran affairs.</li>
-                                    </ul>
-                                </div>
+                               
                             </article>
                         </section>
-                        <section id="pj-cep">
-                            <h2>Design Concepts</h2>
+                        <section id="pj-sort">
+                            <h2>Cardsorting</h2>
                             <article>
-                                <p>Based on the given prompt and our insights from research, we came down to some main concepts with our design intervention for student veterans.</p>
-                                <div>
-                                    <h3>Being Connected</h3>
-                                    <p>Following the affinity diagram and research, we came to some initial conclusion that among all the issues mentioned by the veterans, we would like to focus on <span class="highlight">facilitating them being connected to each other and the university</span>. We believed being connected is <span class="highlight">the very basic step to solve other problems</span> such as academic or mental issues. Without the student veterans being connected to his peers and the university, it is nearly impossible for any other resources and services to reach them.</p>
-                                </div>
-                                <div>
-                                    <h3>Centralized Information</h3>
-                                    <div class="row">
-                                        <div class="col-xs-4 cont-img">
-                                            <img src='projects/cvp/orgchart.svg'/>
-                                        </div>
-                                        <div class="col-xs-8">
-                                            <p>We aimed to provide a centralized location for all the information that is specifically for veterans. In other words, <span class="highlight">everything in the portal is specific to student veterans, and everything for student veterans are in one place</span>.</p>
-                                            <p>Our portal would consist of the student veteran's profile and four sections: Network, Resources, Map, and Events. More detailed explanation for each section would be presented along with our final solution below.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>
-                                    <h3>Not Another Facebook</h3>
-                                    <p>We made the decision early on that we did not want to build another social media that pushes interactions to happen. On the contrary, we would like to provide opportunities of connection for those who are in need of. Our later conversations with the student veterans of IU also supported this idea.</p>
-                                </div>
-                            </article>
-                        </section>
-                        
-                        <section id="pj-test" class="hidden">
-                            <h2>Usability Test</h2>
-                            <article>
-                                <p>After ideation and sketching, we tested our hi-fidelity prototype made in Axure with four student veterans at IU. The goal is to see if any part of interface may cause confusion to the users, and if they find our design addressing problems they had experienced.</p>
-                                <div>
-                                    <h3>How We Tested</h3>
-                                    <p>We first asked the user to take a first look over our prototype and see if he has any initial comments after we briefly explained to him what our project is. Then he was given five different tasks to perform </p>
-                                    <p></p>
-                                </div>
-                                <div>
-                                   <h3>Issues Found</h3>
-                                    <ul>
-                                        <li></li>
-                                    </ul>
-                                </div>
                                 
                             </article>
                         </section>
+                        <section id="pj-smap">
+                            <h2>Sitemap</h2>
+                            <article>
+                                
+                            </article>
+                        </section>
+                        
                         <section id="pj-desg">
-                            <h2>Solution: CVP</h2>
+                            <h2>Wireframes</h2>
                             <article>
                                 <p>Below is our solution, <span class="highlight">Campus Veterans Portal</span>, a centralized portal with information specifically for student veterans, with the veteran's profile showing on the top, and below are the four sections: Network, Resources, Map, and Events.</p>
                                 <h3>1: Profile</h3>
@@ -303,22 +218,9 @@
                                 <a href="http://qkx4l0.axshare.com/campus_veteran_portal.html" class="btn"><h5>Click to see our interactive prototype made in Axure</h5></a>
                             </article>
                         </section>
-                        <section id="pj-fut" class="hidden">
-                            <h2>Future Strategy</h2>
+                        <section id="pj-fut">
+                            <h2>Result</h2>
                             <article>
-                            </article>
-                        </section>
-                        <section id="pj-take" class="hidden">
-                            <h2>Key Takeaway</h2>
-                            <article>
-                                <div>
-                                    <h3>Understanding your stakeholder</h3>
-                                    <p></p>
-                                </div>
-                                <div>
-                                    <h3>Constraining </h3>
-                                    <p></p>
-                                </div>
                             </article>
                         </section>
                     </div>
