@@ -68,7 +68,7 @@
                         </a>
                     </li>
                     <li><a href="https://iu.app.box.com/v/peggylu-ux-resume" target="_blank">Resume</a></li>
-                    <li><a href="about.html">About me</a></li>
+<!--                    <li><a href="about.html">About me</a></li>-->
 <!--                    <li><a href="">Contact</a></li>-->
                 </ul>
             </nav>
@@ -96,6 +96,7 @@
                 <div class="row">
                     <nav class="col-sm-3 hidden-xs scrollspy">
                       <ul class="nav sidebar">
+<!--                        <h4>NTULIS IA Redesign</h4>-->
                         <li class="active"><a href="#pj-role">Role</a></li>
                         <li><a href="#pj-bg">Background</a></li>
 <!--                        <li><a href="#pj-proc">Process</a></li>-->
@@ -106,8 +107,9 @@
 <!--                        <li><a href="#pj-sk">Initial Sketches</a></li>-->
 <!--                        <li><a href="#pj-test">Usability Test</a></li>-->
                         <li><a href="#pj-desg">Wireframs</a></li>
-                        <li><a href="#pj-fut">Result</a></li>
+<!--                        <li><a href="#pj-fut">After the Project</a></li>-->
 <!--                        <li><a href="#pj-take">Key Takeaway</a></li>-->
+                         <li><a id="back-to-top" href="#" class="btn back-to-top">Back to top</a></li>
                       </ul>
                     </nav>
                     <div class="col-sm-9" id="pj-cont">
@@ -122,7 +124,20 @@
                             <article>
                                 <div>
                                     <h3>Problem</h3>
-                                    <p>The old website of the Department of Library &amp; Information Science at NTU was built several years ago, and users had been having problems with finding relevent information.</p>
+                                    <p>The old website of the Department of Library &amp; Information Science at National Taiwan University (台灣大學圖書資訊學系) was built several years ago, and users had been having problems with finding relevent information.</p>
+                                </div>
+<!--
+                                <div>
+                                    <h3>Goal</h3>
+                                    <p></p>
+                                </div>
+-->
+                                <div>
+                                    <h3>The Old Website</h3>
+                                    <p>Below is how the website looked like at the time in June, 2014.</p>
+                                    <div class="cont-img"> 
+                                        <img src="projects/ntulis_ia/old_annotated.png">
+                                    </div>
                                 </div>
                             </article>
                         </section>
@@ -135,91 +150,188 @@
                         <section id="pj-res">
                             <h2>Needs Analysis</h2>
                             <article>
-                                <p>To better understand what was causing the problem for the users and what are the user needs, we conducted a series of <span class="highlight">interview with the department director</span> and the staff managing the website.</p>
-                                <p>We also sent out surveys to 64 undergraduate students in the department.</p>
+                                <p>To dig deeper into what the problem was and what the user needs are, we conducted a series of <span class="highlight">interview with the department director</span> and the staff managing the website. We also sent out surveys to 64 undergraduate students in the department.</p>
+                                <div class="panel panel-default">
+                                    <div class="panel-body">
+                                        <i>Hi! I'm still in the middle of translating results into English! Please check back later to see them. Meanwhile, you can scroll down and check out other things we did leading to our solution.</i>
+                                    </div>
+                                </div>
+<!--
                                 <div>
                                     <h3>Interview</h3>
-                                    <p></p>
+                                    <p>To understand the director's expectation and vision for the department website.</p>
                                 </div>
                                 <div>
                                     <h3>Survey</h3>
                                     <p></p>
                                 </div>
+-->
                             </article>
                         </section>
                         <section id="pj-ins">
                             <h2>Insight from Benchmarking</h2>
                             <article>
-                               
+                                <p>To observe current trends in web design and to draw ideas from others, we <span class="highlight">looked at five renowned library &amp; information science departments' website</span> to conduct website benchmarking from four aspects: Navigation, Purpose, About, and Content.</p>
+                                <p>The websites we looked at are:</p>
+                                    <ul>
+                                        <li>University of Washington Information Schoo (UW iSchool)</li>
+                                        <li>University of Michigen School of Information (UMSI)</li>
+                                        <li>Rutgers University School of Communication and Information (Rutgers SC&amp;I)</li>
+                                        <li>Graduate Institute of Library and Information Science at National Taiwan Normal University (NTNU GLIS)</li>
+                                        <li>Department of Information and Library Science at Tamkang University</li>
+                                    </ul> 
+                               <p>The detailed analysis with screencaps can be read <a href="">here [In Chinese]</a>. Below are synthesized insights from the report:</p>
+                               <div>
+                                    <h3>Navigation</h3>
+                                    <ol>
+                                        <li><span class="highlight">Audience Segmentation</span>: 
+                                         <ul>
+                                            <li>All three US iSchool (UW, UM, Rutgers) websites are segmented with audience, and provided specific page with information for that specific user groups.</li>
+                                            <li>The user groups that these websites have in common are "Future Students, Current Students, Faculty, and Alumini".</li>
+                                            <li>They <span class="highlight">reflect the program's mission and vision for the website</span>. For example, UW iSchool, being the founder of iSchool consortium, has the "Partners" in their segmentation in particular.</li>
+                                         </ul> </li>
+                                        <li>Navigation Bar: Most of the navigation bars list similar items. One thing that stand out to us is that both UMSI &amp; Rutgers has "Directory" showing their faculties and students, which is something that's not common with Taiwan's university website.</li>
+                                    </ol>
+                                </div>
+                                <div>
+                                    <h3>Purpose / Branding</h3>
+                                    <p>"Purpose" implys the first impression a user has with the website, which usually has great influence on how the user percieve the organization.</p>
+                                    <ol>
+                                        <li>Elements on Homepage: 
+                                            <ul>
+                                                <li>Most of the websites we looked at have similar homepage style with the title / logo on the top left corner, the horizontal navigation bar, and the carousel. Below the carousel, there are ususally grids showing other contents, and the footer with contact information</li>
+                                                <li>Carousel: the items that are commonly shown on the carousel include news, student or faculty achievement. </li>
+<!--                                                <li>Grids: </li>-->
+                                            </ul>
+                                        </li>
+                                        <li><span class="highlight">Order of Navigation Categories</span>: 
+                                            <ul>
+                                                <li>We found that for all the navigation bars we looked at, the number of categories falls between 6 to eight, and the categories are similar among them.</li>
+                                                <li>However, there is a <span class="highlight">difference between the US and Taiwanese websites</span> that for the American ones, they usually prioritize the program and research, while the Taiwaneses ones usually have news and about as the first two categories.</li>
+                                            </ul>
+                                        </li>
+                                    </ol>
+                                </div>
+                                <div class="hidden">
+                                    <h3>About</h3>
+                                    <p>"About" refers to if it is easy enough for the user to get a basic undersatnding of the organization while skimming through the website. It serves as the connection between the user and the organization.</p>
+                                    <ol>
+                                        <li>"About": 
+                                            
+                                        </li>
+                                        <li>Contact: </li>
+                                        <li>News / Event: </li>
+                                    </ol>
+                                </div>
+                                <div class="hidden">
+                                    <h3>Content</h3>
+                                    <p></p>
+                                    <ol>
+                                        <li>Writing Style: </li>
+                                        <li>News / Event: </li>
+                                    </ol>
+                                </div>
                             </article>
                         </section>
                         <section id="pj-sort">
                             <h2>Cardsorting</h2>
                             <article>
-                                
+                                <div class="row">
+                                    <div class="col-lg-6 col-xs-12 cont-img" >
+                                        <img src="projects/ntulis_ia/cardsorting.jpg">
+                                    </div>
+                                    <div class="col-sm-6 col-xs-12">
+                                        <h4>How we did cardsorting</h4>
+                                        <p>We started by writing down the categories and items we found the website should contain individually onto the post-it notes. After that, we first put the categories (the pink post-it notes) into the order in terms of importance for the website, and later we reorganize all the items under the categories.</p>
+                                    </div>
+                                </div>
                             </article>
                         </section>
                         <section id="pj-smap">
                             <h2>Sitemap</h2>
                             <article>
-                                
+                                <p>Below is the sitemap we came up with after doing cardsorting (translated from the original work into English).</p>
+                                <div class="cont-img">
+                                    <img src="projects/ntulis_ia/NTULISIA_sitemap.png">
+                                </div>
+                                <div>
+                                    <h3>Major changes made</h3>
+                                    <p>Here are the most significant changes we made from the old website with our solution. The detailed changes can be seen below with our <a href="#pj-desg">wireframes</a></p>
+                                    <ul>
+                                        <li><span class="highlight">Audience Segmentation</span></li>
+                                        <p>We decided to add audience segmentation (Perspective Students, Current Students, Facultys, Alumini &amp; Visitors) to our website's structure to address to the specific needs of different user groups. What are included in each audience segmentation page can be seen below with our wireframes.</p>
+                                        <li><span class="highlight">Simplifying Structure</span></li>
+                                        <p>One of the major problems students have with the old website is there were too many layers and categories in terms of structure, and the information was not organized in an easy-to-understand way. Therefore, we decided to keep the number of categories on navigation bar to 7, following the convention we observed in other websites.</p>
+                                        <li><span class="highlight">Reordering the Categories</span></li>
+                                        <p>We reordered the categories according survey results and the director's vision for the new website. At the same, we try to group categories that have related purpose next to each other to save user's time in finding information. For example, for "Course" and "Resource", the targeted audience are mainly current students, so we put the two next to each other on the navigation bar. The same also applies to "About" and "Admission" that are more directed at perspective students.</p>
+                                    </ul>
+                                </div>
                             </article>
                         </section>
                         
                         <section id="pj-desg">
                             <h2>Wireframes</h2>
                             <article>
-                                <p>Below is our solution, <span class="highlight">Campus Veterans Portal</span>, a centralized portal with information specifically for student veterans, with the veteran's profile showing on the top, and below are the four sections: Network, Resources, Map, and Events.</p>
-                                <h3>1: Profile</h3>
+                                <p>Below are selected pages from the low-fidelity wireframes of our solution created in Axure.</p>
+                                <h3>1: Homepage</h3>
                                 <div class="row">   
-                                    <div class="col-lg-7 col-md-12 cont-img">
-                                        <img src="projects/cvp/cvp-profile.png">
+                                    <div class="col-xs-12 cont-img">
+                                        <img src="projects/ntulis_ia/wireframes_home.png">
                                     </div>
-                                    <div class="col-lg-5 col-md-12 cont-img-desc">
-                                        <p>The profile gives veterans the opportunity to identify themselves with school and military related information. It will be connected with the university's system, showing one's basic information and veteran-specific information. The veterans would have control over what information they would like to make public to other veterans on campus.</p>
+                                    <div class="col-xs-12 cont-img-desc">
+                                        <p></p>
                                     </div>
                                 </div>
-                                <h3>2: Network</h3>
+                                <h3>2: Navigation</h3>
                                 <div class="row">   
-                                    <div class="col-lg-7 col-md-12 cont-img">
-                                        <img src="projects/cvp/CVP-network.png">
+                                    <div class="col-xs-12 cont-img">
+                                        <img src="projects/ntulis_ia/wireframes_nav.png">
                                     </div>
-                                    <div class="col-lg-5 col-md-12 cont-img-desc">
-                                        <p>Network provides veterans the opportunity to connect with other veterans on campus and they can filter to find other veterans that served in the same branch as well as veterans who are faculty, alumni, and students.</p>
+                                    <div class="col-xs-12 cont-img-desc">
+                                        <p></p>
                                     </div>
                                 </div>
-                                <h3>3: Resources</h3>
+                                <h3>3: Perspective Student</h3>
                                 <div class="row">   
-                                    <div class="col-lg-7 col-md-12 cont-img">
-                                        <img src="projects/cvp/CVP-resource.png">
+                                    <div class="col-xs-12 cont-img">
+                                        <img src="projects/ntulis_ia/wireframes_aud_ps.png">
                                     </div>
-                                    <div class="col-lg-5 col-md-12 cont-img-desc">
-                                        <p>Resources contains veteran specific information and all of the info provided is directed at the veterans. This section is designed in reponse of the problem that the veterans may not aware of the what or how they can access the resources and benefits provided at the local, regional, and national level.</p>
+                                    <div class="col-xs-12 cont-img-desc">
+                                        <p></p>
                                     </div>
                                 </div>
-                                <h3>4: Map</h3>
+                                <h3>4: Current Students</h3>
                                 <div class="row">   
-                                    <div class="col-lg-7 col-md-12 cont-img">
-                                        <img src="projects/cvp/CVP-map.png">
+                                    <div class="col-xs-12 cont-img">
+                                        <img src="projects/ntulis_ia/wireframes_aud_cs.png">
                                     </div>
-                                    <div class="col-lg-5 col-md-12 cont-img-desc">
-                                        <p>It was mentioned by the director of VSS that knowing about military related locations helps provide connections between the university, the veterans, and their military background. Besides, when a veteran is new to a campus, he/she may not know exactly where everything is. This Map section would serve as an aid to the Resources section that provide veteran-specific location information.</p>
+                                    <div class="col-xs-12 cont-img-desc">
+                                        <p></p>
                                     </div>
                                 </div>
-                                <h3>5: Events</h3>
+                                <h3>5: Alumini &amp; Visitors</h3>
                                 <div class="row">   
-                                    <div class="col-lg-7 col-md-12 cont-img">
-                                        <img src="projects/cvp/CVP-event.png">
+                                    <div class="col-xs-12 cont-img">
+                                        <img src="projects/ntulis_ia/wireframes_aud_alum.png">
                                     </div>
-                                    <div class="col-lg-5 col-md-12 cont-img-desc">
-                                        <p>Events is where it takes the network a step forward to connect veterans with opportunities they might not be aware of otherwise. It connects with the Network, and the veteran can see who is going to the events from the connections that was made.</p>
+                                    <div class="col-xs-12 cont-img-desc">
+                                        <p></p>
+                                    </div>
+                                </div>
+                                <h3>6: Admission</h3>
+                                <div class="row">   
+                                    <div class="col-xs-12 cont-img">
+                                        <img src="projects/ntulis_ia/wireframes_admission.png">
+                                    </div>
+                                    <div class="col-xs-12 cont-img-desc">
+                                        <p></p>
                                     </div>
                                 </div>
                                 <a href="http://qkx4l0.axshare.com/campus_veteran_portal.html" class="btn"><h5>Click to see our interactive prototype made in Axure</h5></a>
                             </article>
                         </section>
-                        <section id="pj-fut">
-                            <h2>Result</h2>
+                        <section id="pj-fut" class="hidden">
+                            <h2>After the Project</h2>
                             <article>
                             </article>
                         </section>
@@ -282,6 +394,14 @@
                 }
             });
 
+        // scroll body to 0px on click
+        $('#back-to-top').click(function () {
+            $('body,html').animate({
+                scrollTop: 0
+            }, 800);
+            return false;
+        });
+        
         /* Smooth Scrolling from https://css-tricks.com/snippets/jquery/smooth-scrolling/ */
             $(function() {
                 $('a[href*="#"]:not([href="#"])').click(function() {
