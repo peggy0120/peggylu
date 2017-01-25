@@ -79,6 +79,10 @@ a.disabled {
             font-size: 2.5em;
         }
 
+        #header .logo:hover .title {
+            color: #33b599;
+        }
+
         #header .logo .subtitle {
         }
 
