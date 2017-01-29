@@ -194,13 +194,16 @@ a.disabled {
 */
 
 #desc {
-/*    background-color: #f6f6f6;*/
-    margin-top: 5px;
+    padding-top: 1em;
 }
 
 #desc a {
     color: #33b599;
     border-bottom: 2px dotted;
+}
+
+#desc a:hover {
+    border-bottom: solid;
 }
 
 /* Main */
@@ -209,6 +212,10 @@ a.disabled {
 #main {
     text-align: center;
     padding: 0 0 6em 0;
+/*    background-color: #f6f6f6;*/
+}
+
+#main.homepage {
     background-color: #f6f6f6;
 }
 
@@ -299,7 +306,7 @@ a.disabled {
                     border-bottom: 2px dotted;
                 }
 
-                #main #pj-cont section article .highlight {
+                span.highlight {
                     background-color: rgba(242, 216, 106, 0.31);
                 }
 
@@ -327,9 +334,9 @@ a.disabled {
     #banner {
 		position: relative;
         padding: 3em 0;
-		background: url(image/bannerbg.jpg) no-repeat;
+/*		background: url(image/bannerbg.jpg) no-repeat;*/
 		background-size: cover;
-        color: #fff;
+/*        color: #fff;*/
 	}
 
 /*
@@ -342,6 +349,7 @@ a.disabled {
     #banner .container {
         padding: 0 7em;
         margin: 0 auto;
+        text-align: center;
     }
 
     @media screen and (max-width: 1200px) {
@@ -368,17 +376,17 @@ a.disabled {
 
             #banner header h1 {
                 font-size: 2.8em;
-                color: #fff;
                 margin: 0 0 0.5em 0;
             }
 
             #banner header h4 {
-                width: 50%;
+                margin: 0 auto;
+                text-transform: none;
+                width: 70%;
             }
 
         #banner .pj-time {
             display: block;
-            color: #fff;
         }
 
         #banner a {
