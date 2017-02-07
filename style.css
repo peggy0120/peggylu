@@ -333,7 +333,7 @@ a.disabled {
 
     #banner {
 		position: relative;
-        padding: 3em 0;
+        padding: 3em 0 0 0;
 /*		background: url(image/bannerbg.jpg) no-repeat;*/
 		background-size: cover;
 /*        color: #fff;*/
