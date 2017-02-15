@@ -398,7 +398,7 @@ a.disabled {
         background-position: center;
         background-size: cover;
         filter:blur(5px);
-        -webkit-filter: blur(5px);
+/*        -webkit-filter: blur(5px);*/
         filter: brightness(40%);
     }
 
