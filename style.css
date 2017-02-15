@@ -265,6 +265,13 @@ a.disabled {
         padding-left: 3em;
     }
 
+    @media screen and (max-width: 768px) {
+        #main #pj-cont {
+            padding-left: 2em;
+            padding-right: 2em;
+        }
+    }
+
         #main #pj-cont section {
             text-align: left;
             padding: 1em 0 0.5em 0;
@@ -318,6 +325,10 @@ a.disabled {
                 #main #pj-cont section article div.row {
                     padding-top: 1em;
                 }
+
+                    #main #pj-cont section article div.row.no-btmargin div {
+                        margin-bottom: 0;
+                    }
 
 
                     #main #pj-cont section article div.cont-img img{
