@@ -12,7 +12,7 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="t_phantom/assets/css/main.css" />
+<!--    <link rel="stylesheet" href="t_phantom/assets/css/main.css" />-->
     
     <!-- jQuery -->
     <script src="js/jquery-1.11.3.min.js"></script>
@@ -44,33 +44,30 @@
     <div id="wrapper">
                 
         <!-- Header -->
-        <header id="header" class="collapsed">
+        <header id="header">
             <div class="inner">
-                <!-- Logo -->
-                <a href="index.html" class="logo">
-                    <!--<span class="symbol"><img src="t_phantom/images/logo.svg" alt="" /></span>-->
-                    <div class="title">Peggy Lu</div>
-                </a>                
+                <div class="title">
+                    <a href="index.html">Peggy Lu</a>
+                </div>
+                <nav id="menu">
+                    <ul>
+                        <li class="dropdown"> 
+                            <a href="" class="dropdown-toggle block" data-toggle="dropdown">Project</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuDivider">
+                                    <li>
+                                        <a href="proj-IA-ntulis.html">NTULIS Redesign</a>
+                                    </li>
+                                    <li><a href="proj-yumbot.html">Yumbot</a></li>
+                                    <li class="active"><a href="proj-cvp.html" class="disabled">Campus Veteran Portal</a></li>
+                                    <li class="disabled"><a href="" class="disabled">Go Green Edu</a></li>
+                                </ul>
+                        </li>
+                        <li><a href="https://iu.app.box.com/v/peggylu-ux-resume" target="_blank" class="block">Resume</a></li>
+    <!--                    <li><a href="about.html">About me</a></li>-->
+    <!--                    <li><a href="">Contact</a></li>-->
+                    </ul>
+                </nav>
             </div>
-            <nav id="menu" class="top">
-                <ul>
-                    <li class="dropdown"> 
-                        <a href="" class="dropdown-toggle" data-toggle="dropdown">
-                            Project <span class="caret"></span></a>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuDivider">
-                                <li><a href="proj-IA-ntulis.html">NTULIS Redesign</a></li>
-                                <li><a href="proj-yumbot.html">Yumbot</a></li>
-                                <li class="active"><a href="proj-cvp.html" class="disabled">Campus Veteran Portal</a></li>
-<!--                                <li><a href="">Bus Rapid Transit</a></li>-->
-<!--                                <li><a href="">Food-Edu Exhibit</a></li>-->
-                            </ul>
-                    </li>
-                    <li><a href="https://iu.app.box.com/v/peggylu-ux-resume" target="_blank">Resume</a></li>
-<!--                    <li><a href="about.html">About me</a></li>-->
-<!--                    <li><a href="">Contact</a></li>-->
-                </ul>
-            </nav>
-            
         </header>
         
         <!-- Banner --> 
@@ -86,29 +83,25 @@
                     <span class="pj-time">Time: Nov. - Dec. 2016 (3 weeks)</span>
                     <span class="pj-team">Team: <a href="http://www.alexandermhoffmann.com/" target="_blank">Alexandar Hoffmann</a>, <a href="http://ryandgriggs.com/" target="_blank">Ryan Griggs</a>, Peggy Lu, <a href="https://www.miringuk.com/" target="_blank">Miringu Kiarie</a></span>
                 </section>
-                <hr>
             </div>
         </div>
 
         
         <!-- Main -->
         <div id="main">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <nav class="col-sm-3 hidden-xs scrollspy">
                       <ul class="nav sidebar">
                         <li class="active"><a href="#pj-role">Role</a></li>
                         <li><a href="#pj-bg">Background</a></li>
-<!--                        <li><a href="#pj-proc">Process</a></li>-->
                         <li><a href="#pj-res">Research</a></li>
-                        <li><a href="#pj-ins">Insight</a></li>
+                        <li><a href="#pj-ins">Insights</a></li>
                         <li><a href="#pj-cep">Design Concepts</a></li>
-<!--                        <li><a href="#pj-sk">Initial Sketches</a></li>-->
                         <li><a href="#pj-test">Usability Test</a></li>
                         <li><a href="#pj-desg">Solution: CVP</a></li>
                         <li><a href="#pj-fut">Future Strategy</a></li>
-<!--                        <li><a href="#pj-take">Key Takeaway</a></li>-->
-                     <li><a id="back-to-top" href="#" class="btn back-to-top">Back to top</a></li>
+                         <li><a id="back-to-top" href="#" class="btn back-to-top">Back to top</a></li>
                       </ul>
                     </nav>
                     <div class="col-sm-9" id="pj-cont">
@@ -306,26 +299,13 @@
                                         <p>Events is where it takes the network a step forward to connect veterans with opportunities they might not be aware of otherwise. It connects with the Network, and the veteran can see who is going to the events from the connections that was made.</p>
                                     </div>
                                 </div>
-                                <a href="http://qkx4l0.axshare.com/campus_veteran_portal.html" class="btn"><h5>Click to see our interactive prototype made in Axure</h5></a>
+                                <a href="http://qkx4l0.axshare.com/campus_veteran_portal.html" class="block">Click to see our interactive prototype made in Axure</a>
                             </article>
                         </section>
                         <section id="pj-fut">
                             <h2>Future Strategy</h2>
                             <article><p>Our vision for the portal is for it to be implemented first at IU as a starting point. Once there is enough support from the institution and community, it can be expanded to other universities. Eventually, it would form a student veteran community among the universities across the country.</p>
                             <p>For now, we are in the process of contacing the Monroe County Veterans Affairs and Veteran Support Services here at IU to seek opportunities to turn our design into reality.</p>
-                            </article>
-                        </section>
-                        <section id="pj-take" class="hidden">
-                            <h2>Key Takeaway</h2>
-                            <article>
-                                <div>
-                                    <h3>Understanding your stakeholder</h3>
-                                    <p></p>
-                                </div>
-                                <div>
-                                    <h3>Constraining </h3>
-                                    <p></p>
-                                </div>
                             </article>
                         </section>
                     </div>
@@ -358,16 +338,12 @@
                 <section id="follow">
 <!--                    <h2>Follow</h2>-->
                     <ul class="icons">
-<!--                        <li><a href="#" class="icon  fa-twitter"><span class="label">Twitter</span></a></li>-->
-                        <li><a href="#" class="icon  fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
                         <li><a href="https://www.linkedin.com/in/peggy-lu" class="icon  fa-linkedin" target="_blank"><span class="label">Linkedin</span></a></li>
-                        <li><a href="#" class="icon  fa-medium" target="_blank"><span class="label">Medium</span></a></li>
+                        <li><a href="https://dribbble.com/peggylu" class="icon  fa-dribbble" target="_blank"><span class="label">Medium</span></a></li>
                         <li><a href="mailto:peggy.py.lu@gmail.com" class="icon  fa-envelope-o"><span class="label">Email</span></a></li>
                     </ul>
                 </section>
-                <ul class="copyright">
-                    <li>&copy; Peggy Lu. All rights reserved</li>
-                </ul>
+                <p>&copy; Peggy Lu. All rights reserved.</p>
             </div>
         </footer>
     </div>
@@ -383,7 +359,8 @@
             $('.sidebar').affix({
                 offset: {
                     top: $('#header').outerHeight() + $('#banner').outerHeight() + 20,
-                    bottom: $("footer").outerHeight(true) + $('#main').innerHeight() - $('#main').height()
+                    bottom: $('#header').outerHeight() + $('#banner').outerHeight() + $('main').outerHeight()
+//                    bottom: $("footer").outerHeight(true) + $('#main').innerHeight() - $('#main').height()
                 }
             });
 
