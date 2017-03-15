@@ -12,7 +12,6 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="t_phantom/assets/css/main.css" />
     
     <!-- jQuery -->
     <script src="js/jquery-1.11.3.min.js"></script>
@@ -35,7 +34,6 @@
         ga('create', 'UA-61994680-2', 'auto');
         ga('send', 'pageview');
     </script>
-
 </head>
 
 <body data-spy="scroll" data-target=".scrollspy" data-offset="50">
@@ -44,33 +42,28 @@
     <div id="wrapper">
                 
         <!-- Header -->
-        <header id="header" class="collapsed">
+        <header id="header">
             <div class="inner">
-                <!-- Logo -->
-                <a href="index.html" class="logo">
-                    <!--<span class="symbol"><img src="t_phantom/images/logo.svg" alt="" /></span>-->
-                    <div class="title">Peggy Lu</div>
-                </a>                
-            </div>
-            <nav id="menu" class="top">
-                <ul>
-                    <li class="dropdown"> 
-                        <a href="" class="dropdown-toggle" data-toggle="dropdown">
-                            Project <span class="caret"></span></a>
+                <div class="title">
+                    <a href="index.html">Peggy Lu</a>
+                </div>
+                <nav id="menu">
+                    <ul>
+                        <li class="dropdown"> 
+                            <a href="" class="dropdown-toggle block" data-toggle="dropdown">Project</a>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuDivider">
-                                <li><a href="proj-IA-ntulis.html">NTULIS Redesign</a></li>
+                                <li>
+                                    <a href="proj-IA-ntulis.html">NTULIS Redesign</a>
+                                </li>
                                 <li class="active"><a href="proj-yumbot.html" class="disabled">Yumbot</a></li>
                                 <li><a href="proj-cvp.html">Campus Veteran Portal</a></li>
-<!--                                <li><a href="">Bus Rapid Transit</a></li>-->
-<!--                                <li><a href="">Food-Edu Exhibit</a></li>-->
+                                <li class="disabled"><a href="" class="disabled">Go Green Edu</a></li>
                             </ul>
-                    </li>
-                    <li><a href="https://iu.app.box.com/v/peggylu-ux-resume" target="_blank">Resume</a></li>
-<!--                    <li><a href="about.html">About me</a></li>-->
-<!--                    <li><a href="">Contact</a></li>-->
-                </ul>
-            </nav>
-            
+                        </li>
+                        <li><a href="https://iu.app.box.com/v/peggylu-ux-resume" target="_blank" class="block">Resume</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
         
         <!-- Banner --> 
@@ -86,29 +79,26 @@
                     <span class="pj-time">Time: Sep. 2016 (3 weeks)</span>
                     <span class="pj-team">Team: Brian O'Connor, Peggy Lu, Misheal Sedas, Ashley Smith</span>
                 </section>
-                <hr>
             </div>
         </div>
 
         
         <!-- Main -->
         <div id="main">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <nav class="col-sm-3 hidden-xs scrollspy">
-                      <ul class="nav sidebar">
-                        <li class="active"><a href="#pj-role">Role</a></li>
-                        <li><a href="#pj-bg">Background</a></li>
-<!--                        <li><a href="#pj-proc">Process</a></li>-->
-                        <li><a href="#pj-res">Research</a></li>
-                        <li><a href="#pj-ins">Insight</a></li>
-                        <li><a href="#pj-cep">Design Concepts</a></li>
-                        <li><a href="#pj-sk">Initial Sketches</a></li>
-                        <li><a href="#pj-test">Feedback &amp; Iteration</a></li>
-                        <li><a href="#pj-desg">Solution: Yumbot</a></li>
-<!--                        <li><a href="#pj-take">Key Takeaway</a></li>-->
-                     <li><a id="back-to-top" href="#" class="btn back-to-top">Back to top</a></li>
-                      </ul>
+                        <ul class="nav sidebar">
+                            <li class="active"><a href="#pj-role">Role</a></li>
+                            <li><a href="#pj-bg">Background</a></li>
+                            <li><a href="#pj-res">Research</a></li>
+                            <li><a href="#pj-ins">Insight</a></li>
+                            <li><a href="#pj-cep">Design Concepts</a></li>
+                            <li><a href="#pj-sk">Initial Sketches</a></li>
+                            <li><a href="#pj-test">Feedback &amp; Iteration</a></li>
+                            <li><a href="#pj-desg">Solution: Yumbot</a></li>
+                            <li><a id="back-to-top" href="#" class="btn back-to-top">Back to top</a></li>
+                        </ul>
                     </nav>
                     <div class="col-sm-9" id="pj-cont">
                         <section id="pj-role">
@@ -138,12 +128,6 @@
                                 </div>
                             </article>
                         </section>
-<!--
-                        <section id="pj-proc">
-                            <h2>Process</h2>
-                            <article><p></p></article>
-                        </section>
--->
                         <section id="pj-res">
                             <h2>Research</h2>
                             <article>
@@ -346,134 +330,63 @@
                             <h2>Solution: Yumbot</h2>
                             <article>
                                 <p>Below is our solution, <span class="highlight">Yumbot, presented with a scenario</span> which a college student, Yandy, returns to the app trying to find something with low calories to order.</p>
-                                <!-- thumb navigation carousel -->
-<!--                                <div class="col-md-12 hidden-sm hidden-xs" id="slider-thumbs"> -->
-
-                                    <!-- thumb navigation carousel items -->
-<!--
-                                    <ul class="list-inline">
-                                        <li> <a id="carousel-selector-0" class="selected">
-                                            <img src="projects/yumbot/page_1.png" class="img-responsive">
-                                        </a></li>
-                                        <li> <a id="carousel-selector-1">
-                                            <img src="projects/yumbot/page_2.png" class="img-responsive">
-                                        </a></li>
-                                        <li> <a id="carousel-selector-2">
-                                            <img src="projects/yumbot/page_3.png" class="img-responsive">
-                                        </a></li>
-                                        <li> <a id="carousel-selector-3">
-                                            <img src="projects/yumbot/page_4.png" class="img-responsive">
-                                        </a></li>
-                                        <li> <a id="carousel-selector-4">
-                                            <img src="projects/yumbot/page_5.png" class="img-responsive">
-                                        </a></li>
-                                        <li> <a id="carousel-selector-5">
-                                            <img src="projects/yumbot/page_6.png" class="img-responsive">
-                                        </a></li>
-                                    </ul>
-                                </div>
--->
-                                
-                                <!-- main slider carousel -->
-                                <div class="row">
-                                    <div class="col-sm-12" id="slider">
-                                        <div class="col-sm-12" id="carousel-bounding-box">
-                                            <div id="Carousel_sol" class="carousel slide" data-interval="false">
-                                                
-                                                <!-- main slider carousel items -->
-                                                <div class="carousel-inner">
-                                                    <div class="active item" data-slide-number="0">
-                                                        <div class="row">
-                                                            <div class="col-xs-6">
-                                                                <img src="projects/yumbot/page_1.png" class="img-responsive">
-                                                            </div>
-                                                            <div class="col-xs-6">
-                                                                <h3>1: Returned User</h3>
-                                                                <p>Upon Yandy returing to the app, Yumbot would first check if the she wants to make repeated order as before with <span class="highlight">suggested responses</span> provided and the option of <span class="highlight">manual input</span>.</p> 
-                                                                <p>The suggested responses are based on her past orders, and personalized to her being a student or preferences shown in past decisions.</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="item" data-slide-number="1">
-                                                        <div class="row">
-                                                            <div class="col-xs-6">
-                                                                <img src="projects/yumbot/page_2.png" class="img-responsive">
-                                                            </div>
-                                                            <div class="col-xs-6">
-                                                                <h3>2: Manual Input</h3>
-                                                                <p>Yandy can either chooses from one of the suggested responses, or as shown in this case, manually input "low calorie food"</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="item" data-slide-number="2">
-                                                        <div class="row">
-                                                            <div class="col-xs-6">
-                                                                <img src="projects/yumbot/page_3.png" class="img-responsive">
-                                                            </div>
-                                                            <div class="col-xs-6">
-                                                                <h3>3: Clarification</h3>
-                                                                <p>Here it shows how the bot would handle the cases where it doesn't entirely understand a user's manual input.</p> 
-                                                                <p>By providing suggested responses, it allows the bot to clarify and find something that matches Yandy's criteria more specifically.</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="item" data-slide-number="3">
-                                                        <div class="row">
-                                                            <div class="col-xs-6">
-                                                                <img src="projects/yumbot/page_4.png" class="img-responsive">
-                                                            </div>
-                                                            <div class="col-xs-6">
-                                                                <h3>4: Price Range</h3>
-                                                                <p>From our research, we found that college students care most about price.</p>
-                                                                <p>Therefore, after clarifying what Yandy wants, Yumbot would then check the price range she would like to spend on this order with suggested responses to faciliate her making the decisions.</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="item" data-slide-number="4">
-                                                        <div class="row">
-                                                            <div class="col-xs-6">
-                                                                <img src="projects/yumbot/page_5.png" class="img-responsive">
-                                                            </div>
-                                                            <div class="col-xs-6">
-                                                                <h3>5: Specific Dish</h3>
-                                                                <p>Yumbot would then show a list of dishes matching Yandy's criteria that she can swipe through to see. </p>
-                                                                <p>Here the information shown to a user would put emphasis on the price and the dish itself rather than the restaurants.</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="item" data-slide-number="5">
-                                                        <div class="row">
-                                                            <div class="col-xs-6">
-                                                                <img src="projects/yumbot/page_6.png" class="img-responsive">
-                                                            </div>
-                                                            <div class="col-xs-6">
-                                                                <h3>6: Review</h3>
-                                                                <p>Once Yandy chooses a dish, she would see user review on the dish from Yelp and further decide if she wants to go into the ordering process or keep looking through other options.</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                
-                                                <!-- main slider carousel nav controls --> 
-                                                <a class="carousel-control left btn" href="#Carousel_sol" data-slide="prev" onclick="$('#Carousel_sol').carousel('prev')">prev</a>
-                                                <a class="carousel-control right btn" href="#Carousel_sol" data-slide="next" onclick="$('#Carousel_sol').carousel('next')">next</a>
-                                            </div>
-                                        </div>
+                                <div class="row">   
+                                    <div class="col-sm-4 col-xs-6 cont-img">
+                                        <img src="projects/yumbot/page_1.png">
+                                    </div>
+                                    <div class="col-sm-8 col-xs-6 cont-img-desc">
+                                        <h3>1: Returned User</h3>
+                                        <p>Upon Yandy returing to the app, Yumbot would first check if the she wants to make repeated order as before with <span class="highlight">suggested responses</span> provided and the option of <span class="highlight">manual input</span>.</p> 
+                                        <p>The suggested responses are based on her past orders, and personalized to her being a student or preferences shown in past decisions.</p>
                                     </div>
                                 </div>
-                                <!--/main slider carousel-->
-                            </article>
-                        </section>
-                        <section id="pj-take" class="hidden">
-                            <h2>Key Takeaway</h2>
-                            <article>
-                                <div>
-                                    <h3>Understanding your stakeholder</h3>
-                                    <p></p>
+                                <div class="row">   
+                                    <div class="col-sm-4 col-xs-6 cont-img">
+                                        <img src="projects/yumbot/page_2.png">
+                                    </div>
+                                    <div class="col-sm-8 col-xs-6 cont-img-desc">
+                                        <h3>2: Manual Input</h3>
+                                        <p>Yandy can either chooses from one of the suggested responses, or as shown in this case, manually input "low calorie food"</p>
+                                    </div>
                                 </div>
-                                <div>
-                                    <h3>Constraining </h3>
-                                    <p></p>
+                                <div class="row">   
+                                    <div class="col-sm-4 col-xs-6 cont-img">
+                                        <img src="projects/yumbot/page_3.png">
+                                    </div>
+                                    <div class="col-sm-8 col-xs-6 cont-img-desc">
+                                        <h3>3: Clarification</h3>
+                                        <p>Here it shows how the bot would handle the cases where it doesn't entirely understand a user's manual input.</p> 
+                                        <p>By providing suggested responses, it allows the bot to clarify and find something that matches Yandy's criteria more specifically.</p>
+                                    </div>
+                                </div>
+                                <div class="row">   
+                                    <div class="col-sm-4 col-xs-6 cont-img">
+                                        <img src="projects/yumbot/page_4.png">
+                                    </div>
+                                    <div class="col-sm-8 col-xs-6 cont-img-desc">
+                                        <h3>4: Price Range</h3>
+                                        <p>From our research, we found that college students care most about price.</p>
+                                        <p>Therefore, after clarifying what Yandy wants, Yumbot would then check the price range she would like to spend on this order with suggested responses to faciliate her making the decisions.</p>
+                                    </div>
+                                </div>
+                                <div class="row">   
+                                    <div class="col-sm-4 col-xs-6 cont-img">
+                                        <img src="projects/yumbot/page_5.png">
+                                    </div>
+                                    <div class="col-sm-8 col-xs-6 cont-img-desc">
+                                        <h3>5: Specific Dish</h3>
+                                        <p>Yumbot would then show a list of dishes matching Yandy's criteria that she can swipe through to see. </p>
+                                        <p>Here the information shown to a user would put emphasis on the price and the dish itself rather than the restaurants.</p>
+                                    </div>
+                                </div>
+                                <div class="row">   
+                                    <div class="col-sm-4 col-xs-6 cont-img">
+                                        <img src="projects/yumbot/page_6.png">
+                                    </div>
+                                    <div class="col-sm-8 col-xs-6 cont-img-desc">
+                                        <h3>6: Review</h3>
+                                        <p>Once Yandy chooses a dish, she would see user review on the dish from Yelp and further decide if she wants to go into the ordering process or keep looking through other options.</p>
+                                    </div>
                                 </div>
                             </article>
                         </section>
@@ -484,40 +397,14 @@
    
         <!-- Footer -->
         <footer id="footer">
-            <div class="inner">
-                <!--
-                <section>
-                    <h2>Get in touch</h2>
-                    <form method="post" action="#">
-                        <div class="field half first">
-                            <input type="text" name="name" id="name" placeholder="Name" /> </div>
-                        <div class="field half">
-                            <input type="email" name="email" id="email" placeholder="Email" /> </div>
-                        <div class="field">
-                            <textarea name="message" id="message" placeholder="Message"></textarea>
-                        </div>
-                        <ul class="actions">
-                            <li>
-                                <input type="submit" value="Send" class="special" />
-                            </li>
-                        </ul>
-                    </form>
-                </section>
--->
-                <section id="follow">
-<!--                    <h2>Follow</h2>-->
-                    <ul class="icons">
-<!--                        <li><a href="#" class="icon  fa-twitter"><span class="label">Twitter</span></a></li>-->
-                        <li><a href="#" class="icon  fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
-                        <li><a href="https://www.linkedin.com/in/peggy-lu" class="icon  fa-linkedin" target="_blank"><span class="label">Linkedin</span></a></li>
-                        <li><a href="#" class="icon  fa-medium" target="_blank"><span class="label">Medium</span></a></li>
-                        <li><a href="mailto:peggy.py.lu@gmail.com" class="icon  fa-envelope-o"><span class="label">Email</span></a></li>
-                    </ul>
-                </section>
-                <ul class="copyright">
-                    <li>&copy; Peggy Lu. All rights reserved</li>
+            <section id="follow">
+                <ul class="icons">
+                    <li><a href="https://www.linkedin.com/in/peggy-lu" class="icon  fa-linkedin" target="_blank"><span class="label">Linkedin</span></a></li>
+                    <li><a href="https://dribbble.com/peggylu" class="icon  fa-dribbble" target="_blank"><span class="label">Medium</span></a></li>
+                    <li><a href="mailto:peggy.py.lu@gmail.com" class="icon  fa-envelope-o"><span class="label">Email</span></a></li>
                 </ul>
-            </div>
+            </section>
+            <p>&copy; Peggy Lu. All rights reserved.</p>
         </footer>
     </div>
     
@@ -532,7 +419,7 @@
             $('.sidebar').affix({
                 offset: {
                     top: $('#header').outerHeight() + $('#banner').outerHeight() + 20,
-                    bottom: $("footer").outerHeight(true) + $('#main').innerHeight() - $('#main').height()
+                    bottom: $('#header').outerHeight() + $('#banner').outerHeight() + $('main').outerHeight()
                 }
             });
 
