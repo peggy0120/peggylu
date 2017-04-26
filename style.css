@@ -8,6 +8,7 @@ body {
     min-width: 480px;
     margin: 0 auto;
     font-family: "Roboto";
+    position: relative;
 }
 
 a:hover, a:visited, a:focus {
@@ -209,23 +210,22 @@ h3 {
         margin-left: 0;
         margin-right: 0;
     }
-        #main.homepage .row div.thumb {
+        .row div.thumb {
             display: block;
             overflow: hidden;
             padding: 0;
-            border: 0.5px solid;
         }
-            #main.homepage .row div.thumb > a {
+            .row div.thumb > a {
                 padding-top: 10px;
                 height: auto;
                 color: #ffffff;
             }
-                #main.homepage .row div.thumb > a > img {
+                .row div.thumb > a > img {
                     width: 100%;
                     position: relative;
                     transition: all .3s ease-in-out;
                 }
-                #main.homepage .row div.thumb > a > div {
+                .row div.thumb > a > div {
                     position: absolute;
                     z-index: 100;
                     top: 0;
@@ -233,29 +233,34 @@ h3 {
                     padding: 30px;
                 }
                 @media screen and (max-width: 992px) {
-                    #main.homepage .row div.thumb > a > div {
+                    .row div.thumb > a > div {
                         font-size: 80%;
                     }
                 }
-                    #main.homepage .row div.thumb > a > div > h2 {
+                @media screen and (max-width: 768px) {
+                    .row div.thumb > a > div {
+                        padding: 20px;
+                    }
+                }
+                    .row div.thumb > a > div > h2 {
                         z-index: 100;
                         font-weight: 700;
                         letter-spacing: 2px;
                     }
                     @media screen and (min-width: 992px) {
-                        #main.homepage .row div.thumb > a > div > h2 {
+                        .row div.thumb > a > div > h2 {
                             font-size: 2em;
                         }
                     }
-                    #main.homepage .row div.thumb > a > div > h6 {
+                    .row div.thumb > a > div > h6 {
                         color: #f6f6f6;
                         bottom: 10px;
                     }
-                #main.homepage .row div.thumb:not(.disabled):hover > a > img {
+                .row div.thumb:not(.disabled):hover > a > img {
                     filter: brightness(60%);
                     transform: scale(1.1);
                 }
-                #main.homepage .row div.thumb:not(.disabled):hover > a > div {
+                .row div.thumb:not(.disabled):hover > a > div {
                     text-shadow: 1px 1px 4px #3d3d3d;
                 }
 
@@ -280,22 +285,45 @@ h3 {
         padding: 0;
     }
 
-    #main .sidebar {
+    #main #sidebar {
         text-align: right;
         padding-top: 20px;
+        padding-left: 15px;
     }
-        #main .sidebar li a {
+        #main #sidebar li a {
             border: none;
             margin: 2px 0;
             color: inherit;
             font-size: 1.2em;
         }
 
-        #main .sidebar li.active a {
+        #main #sidebar li a.btn {
+            margin: 1em 0;
+        }
+
+        #main #sidebar li.active a {
             color: #33b599;
             font-weight: 700;
             border-right: 5px solid;
             background-color: #eee;
+        }
+
+        /* affix */
+        #sidebar.affix {
+            top: 0px;
+            width: calc(25% - 10px);
+            /* Minus container's margin to get row's width */
+        }
+
+        @media screen and (max-width: 992px) {
+            #sidebar.affix {
+                width: calc(100% / 3 - 10px);
+            }
+        }
+
+        #sidebar.affix-bottom {
+            position: absolute;
+            width: 100%;
         }
 
     #main #pj-cont {
@@ -305,7 +333,7 @@ h3 {
 
     @media screen and (max-width: 768px) {
         #main #pj-cont {
-            padding-left: 0;
+            padding-left: 15px;
         }
     }
 
@@ -418,6 +446,14 @@ h3 {
         background-image: url(projects/cvp/banner-img.png);
     }
 
+    #banner.gikes .banner-bg {
+        background-image: url(projects/gikes/banner-img.png);
+    }
+
+    #banner.btown2050 .banner-bg {
+        background-image: url(projects/btown2050/banner-img.png);
+    }
+
     #banner .container {
         padding: 0 7em;
         margin: 0 auto;
@@ -481,7 +517,7 @@ h3 {
 
 #footer {
     text-align: center;
-    padding: 2em 0;
+    padding: 1em 0 2em 0;
     background-color: #f6f6f6;
     color: #1e1e1e;
 }
@@ -550,22 +586,33 @@ h3 {
             background-color: rgba(242, 132, 158, 0.1);
         }
 
-/* affix */
-.affix.sidebar {
-    top: 0px;
-    width: calc(25% - 10px);
-    /* Minus container's margin to get row's width */
+/* More */
+
+#more {
+    padding: 2em 0 4em 0;
+    background-color: #1e1e1e;
 }
 
-@media screen and (max-width: 992px) {
-    .affix.sidebar {
-        width: calc(100% / 3 - 10px);
-    }
+#more > * > .row {
 }
 
-.affix-bottom.sidebar {
-    position: relative;
+#more .title {
+    text-align: center;
+    height: 100%;
+    color: #ffffff;
+    margin-bottom: 1em;
 }
+
+#more .title h1 {
+    font-weight: 300;
+    font-size: 2em;
+    
+}
+
+#more .thumb {
+    border: 1px solid #1e1e1e;
+}
+
 
 /* Intro */
 
@@ -691,50 +738,7 @@ div.full-sec > .inner li, div.full-sec > .inner p.banner-text {
     height: 300px;
 }
 
-/* Carousel */
-
-#slider-thumbs ul.list-inline img {
-    width: 110px;
-}
-
-#slider {
-    padding: 0;
-}
-
-#main #pj-cont section article #slider div {
-    margin-bottom: 0;
-}
-
-div.carousel-inner div.item p{
-    margin-left: -1em;
-}
-
-#Carousel_sol div.carousel-inner div.item img {
-    width: 300px;
-    margin: 0 auto;
-}
-
-div.carousel a.carousel-control {
-    background: #33b599;
-    text-shadow: none;
-    font-size: 1.5em;
-    opacity: 1;
-    width: 15%;
-    height: 10%;
-    top: 85%;
-}
-
-div.carousel a.carousel-control:hover {
-    color: #ffffff;
-    background: rgba(51, 181, 153, 0.8);
-   
-}
-
-div.carousel a.carousel-control.left {
-    left: 50%;
-}
-
-/* Buuton */ 
+/* Button */ 
 
 .btn {
     background-color: #33b599 !important;
@@ -748,4 +752,33 @@ div.carousel a.carousel-control.left {
     color: #ffffff !important;
     background: rgba(51, 181, 153, 0.8) !important;
     box-shadow: none;
+}
+
+/* Carousel */
+.carousel-caption {
+    position: relative;
+    height: 90px;
+    color: #000000;
+    text-shadow: none;
+    left: 0;
+    right: 0;
+    font-size: 0.8em;
+    bottom: 0;
+    padding-top: 10px;
+    text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+    .carousel-caption {
+        left: 0;
+        right: 0;
+    }
+}
+
+.carousel-control {
+    bottom: 90px;
+}
+
+.carousel-indicators {
+    bottom: 110px;
 }

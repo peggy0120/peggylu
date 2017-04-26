@@ -57,7 +57,8 @@
                                 </li>
                                 <li class="active"><a href="proj-yumbot.html" class="disabled">Yumbot</a></li>
                                 <li><a href="proj-cvp.html">Campus Veteran Portal</a></li>
-                                <li class="disabled"><a href="" class="disabled">Go Green Edu</a></li>
+<!--                                <li class="disabled"><a href="" class="disabled">Go Green Edu</a></li>-->
+                                <li><a href="proj-btown2050.html" class="">Bloomington 2050</a></li>
                             </ul>
                         </li>
                         <li><a href="https://iu.app.box.com/v/peggylu-ux-resume" target="_blank" class="block">Resume</a></li>
@@ -77,7 +78,7 @@
                     </header>
                     <span class="pj-type">Type: Class Project</span>
                     <span class="pj-time">Time: Sep. 2016 (3 weeks)</span>
-                    <span class="pj-team">Team: Brian O'Connor, Peggy Lu, Misheal Sedas, Ashley Smith</span>
+                    <span class="pj-team">Team: <a href="https://www.briano.co/" target="_blank">Brian O'Connor</a>, Peggy Lu, Misheal Sedas, <a href="http://www.ashleyrsmith.com/" target="_blank">Ashley Smith</a></span>
                 </section>
             </div>
         </div>
@@ -87,8 +88,8 @@
         <div id="main">
             <div class="container-fluid">
                 <div class="row">
-                    <nav class="col-sm-3 hidden-xs scrollspy">
-                        <ul class="nav sidebar">
+                    <nav class="col-lg-3 col-md-3 col-sm-4 hidden-xs scrollspy">
+                        <ul id="sidebar" class="nav" data-spy="affix">
                             <li class="active"><a href="#pj-role">Role</a></li>
                             <li><a href="#pj-bg">Background</a></li>
                             <li><a href="#pj-res">Research</a></li>
@@ -100,7 +101,7 @@
                             <li><a id="back-to-top" href="#" class="btn back-to-top">Back to top</a></li>
                         </ul>
                     </nav>
-                    <div class="col-sm-9" id="pj-cont">
+                    <div class="col-lg-9 col-md-9 col-sm-8" id="pj-cont">
                         <section id="pj-role">
                             <h2>Role</h2>
                             <article>
@@ -394,13 +395,58 @@
                 </div>
             </div>
         </div>
-   
+
+        <div id="more">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3 col-md-12 title">
+                        <h1>More Projects</h1>
+                    </div>
+                    <div class="col-lg-9 col-md-12">
+                        <div class="row">
+                            <div class="col-xs-4 thumb">
+                                <a href="proj-IA-ntulis.html">
+                                    <img src="image/NTULIS_thumb.png">
+                                    <div>
+                                        <h6>Information Architecture | Web Development</h6>
+                                        <h2>NTULIS Redesign</h2>
+                                        <p>Redesign university website addressing student needs &amp; the organization's vision</p>
+                                    </div>
+                                </a>
+                            </div>
+                           <div class="col-xs-4 thumb">
+                               <a href="proj-cvp.html">
+                                    <img src="image/cvp_thumb.png">
+                                    <div>
+                                        <h6>Interaction Design</h6>
+                                        <h2>Campus Veteran Portal</h2>
+                                        <p>Transitioning student veterans by connecting them to relevant resources and community</p>
+                                    </div>
+                                </a>
+                           </div>
+                           <div class="col-xs-4 thumb disabled">
+                               <a href="" class="disabled">
+                                    <img src="image/gogreen_thumb.png">
+                                    <div>
+                                        <h6>Service Design</h6>
+                                        <h2>GoGreen Education System</h2>
+                                        <p>Coming Soon!</p>
+                                    </div>
+                                </a>
+                           </div>
+                        </div>
+                    </div>
+               </div>
+            </div>
+        </div>
+       
         <!-- Footer -->
         <footer id="footer">
             <section id="follow">
                 <ul class="icons">
                     <li><a href="https://www.linkedin.com/in/peggy-lu" class="icon  fa-linkedin" target="_blank"><span class="label">Linkedin</span></a></li>
-                    <li><a href="https://dribbble.com/peggylu" class="icon  fa-dribbble" target="_blank"><span class="label">Medium</span></a></li>
+                    <li><a href="https://dribbble.com/peggylu" class="icon  fa-dribbble" target="_blank"><span class="label">Dribbble</span></a></li>
+                    <li><a href="https://vimeo.com/user29306616" class="icon  fa-vimeo-square" target="_blank"><span class="label">Vimeo</span></a></li>
                     <li><a href="mailto:peggy.py.lu@gmail.com" class="icon  fa-envelope-o"><span class="label">Email</span></a></li>
                 </ul>
             </section>
@@ -416,10 +462,10 @@
 
     <script>
         $(document).ready(function(){
-            $('.sidebar').affix({
+            $('#sidebar').affix({
                 offset: {
                     top: $('#header').outerHeight() + $('#banner').outerHeight() + 20,
-                    bottom: $('#header').outerHeight() + $('#banner').outerHeight() + $('main').outerHeight()
+                    bottom: $('footer').outerHeight() + $('#more').outerHeight() + 64
                 }
             });
 

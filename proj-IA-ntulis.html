@@ -58,7 +58,8 @@
                                     </li>
                                     <li><a href="proj-yumbot.html">Yumbot</a></li>
                                     <li><a href="proj-cvp.html">Campus Veteran Portal</a></li>
-                                    <li class="disabled"><a href="" class="disabled">Go Green Edu</a></li>
+<!--                                    <li class="disabled"><a href="" class="disabled">Go Green Edu</a></li>-->
+                                    <li><a href="proj-btown2050.html" class="">Bloomington 2050</a></li>
                                 </ul>
                         </li>
                         <li><a href="https://iu.app.box.com/v/peggylu-ux-resume" target="_blank" class="block">Resume</a></li>
@@ -90,7 +91,7 @@
                    
                     <!-- Sidebar -->
                     <nav class="col-lg-3 col-md-3 col-sm-4 hidden-xs scrollspy">
-                        <ul class="nav sidebar">
+                        <ul id="sidebar" class="nav" data-spy="affix">
                             <li class="active"><a href="#pj-role">Role</a></li>
                             <li><a href="#pj-bg">Background</a></li>
                             <li><a href="#pj-res">Needs Analysis</a></li>
@@ -374,7 +375,8 @@
                 <section id="follow">
                     <ul class="icons">
                         <li><a href="https://www.linkedin.com/in/peggy-lu" class="icon  fa-linkedin" target="_blank"><span class="label">Linkedin</span></a></li>
-                        <li><a href="https://dribbble.com/peggylu" class="icon  fa-dribbble" target="_blank"><span class="label">Medium</span></a></li>
+                        <li><a href="https://dribbble.com/peggylu" class="icon  fa-dribbble" target="_blank"><span class="label">Dribbble</span></a></li>
+                        <li><a href="https://vimeo.com/user29306616" class="icon  fa-vimeo-square" target="_blank"><span class="label">Vimeo</span></a></li>
                         <li><a href="mailto:peggy.py.lu@gmail.com" class="icon  fa-envelope-o"><span class="label">Email</span></a></li>
                     </ul>
                 </section>
@@ -392,7 +394,7 @@
 
     <script>
         $(document).ready(function(){
-            $('.sidebar').affix({
+            $('#sidebar').affix({
                 offset: {
                     top: $('#header').outerHeight() + $('#banner').outerHeight() + 20,
                     bottom: $('#header').outerHeight() + $('#banner').outerHeight() + $('main').outerHeight()
