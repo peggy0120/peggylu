@@ -440,6 +440,28 @@
                 });
             });
             
+            /* Fixing Carousel Controls from http://stackoverflow.com/questions/19122958/bootstrap-3-carousel-controls-and-indicator-links-not-working */
+            
+            $('#myCarousel .carousel-control').click(function(e){
+                e.stopPropagation();
+                var goTo = $(this).data('slide');
+                if(goTo=="prev") {
+                    $('#myCarousel').carousel('prev'); 
+                } else {
+                    $('#myCarousel').carousel('next'); 
+                }
+            });
+            
+            $('#Carousel2 .carousel-control').click(function(e){
+                e.stopPropagation();
+                var goTo = $(this).data('slide');
+                if(goTo=="prev") {
+                    $('#Carousel2').carousel('prev'); 
+                } else {
+                    $('#Carousel2').carousel('next'); 
+                }
+            });
+            
 
         });
     </script>
