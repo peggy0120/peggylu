@@ -5,11 +5,17 @@ html,
 body {
     height: 100%;
     font-size: 100%;
-    min-width: 480px;
+    min-width: 576px;
     margin: 0 auto;
     font-family: "Roboto";
     position: relative;
     background-color: #0a231e;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        width: 100%;
+    }
 }
 
 a {
@@ -121,7 +127,7 @@ nav div.menu {
     }
     
     nav .nav-item {
-        font-size: 1.4rem;
+        font-size: 1.25rem;
     }    
 }
 
