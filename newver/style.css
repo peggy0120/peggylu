@@ -100,7 +100,7 @@ nav .navbar-brand {
 }
 
 nav div.menu {
-    width: 50%;
+    width: auto;
     display: inline-block;
     margin-left: 100px;
     position: relative;
