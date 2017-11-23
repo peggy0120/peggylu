@@ -198,19 +198,21 @@ nav .dropdown-item:hover {
 
 #main .project-item:hover .project-url {
 /*    border-top: 6px solid var(--secondary);*/
-    box-shadow: 8px 8px 8px var(--bgDarkgrey);
-    -moz-box-shadow: 8px 8px 8px var(--bgDarkgrey);
-    -webkit-box-shadow: 8px 8px 8px var(--bgDarkgrey);
+    
 }
 
 #main .project-item:hover .project-img, 
 #main .project-item:hover .project-meta {
-    box-shadow: 4px 2px 15px var(--secondary);
-    -moz-box-shadow: 4px 2px 15px var(--secondary);
-    -webkit-box-shadow: 4px 2px 15px var(--secondary);
+    box-shadow: 2px 5px 2px var(--bgDarkgrey);
+    -moz-box-shadow: 2px 5px 2px var(--bgDarkgrey);
+    -webkit-box-shadow: 2px 5px 2px var(--bgDarkgrey);
     transform: translate(0,-3px);
     -moz-transform: translate(0,-3px);
     -webkit-transform: translate(0,-3px);    
+}
+
+#main .project-item:hover .project-title {
+    color: var(--secondary);
 }
 
 #main a.project-url {
@@ -248,16 +250,17 @@ nav .dropdown-item:hover {
 
 #main .project-label {
     font-size: 11px;
+    font-weight: 300;
     color: #888888;
 }
 
 #main .project-title {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 700;
     margin: 0.5rem 0;
     overflow: auto;
     white-space: nowrap;
-/*    color: var(--primary);*/
+    color: var(--primary);
 }
 
 #main .project-desc {
@@ -284,6 +287,66 @@ nav .dropdown-item:hover {
     }
     #main .project-title {
         font-size: 1.5rem;
+    }
+}
+
+footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 3rem 2rem;
+    padding-bottom: 5rem;
+}
+
+footer .icons {
+    margin-bottom: 2rem;
+}
+
+footer .icon {
+    background-color: transparent;
+    width: 100%;
+    height: 3rem;
+    display: inline-block;
+    text-align: center;
+    line-height: 3em;
+    color: var(--primary);
+}
+
+footer .icon:before {
+    font-size: 2rem;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none !important;
+}
+
+footer .icon:hover {
+    color: var(--secondary);
+}
+
+footer .icon > .label {
+    font-size: 0.5rem;
+    white-space: nowrap;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    line-height: 0.5rem;
+/*    display: none;*/
+}
+
+footer .copyright {
+    margin-top: 1rem;
+    font-size: 0.75rem;
+}
+
+@media screen and (min-width: 992px) {
+    footer .icon:before {
+        font-size: 3rem;
+    }
+    footer .icon > .label {
+        font-size: 0.75rem;
+        line-height: 0.75rem;
     }
 }
 
