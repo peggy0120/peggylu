@@ -153,6 +153,9 @@ nav .nav-item {
     width: 200px;
     height: 100%;
     background-color: #dddddd;
+    box-shadow: 3px 3px 3px #dddddd;
+    -moz-box-shadow: 3px 3px 3px #dddddd;
+    -webkit-box-shadow: 3px 3px 3px #dddddd;
 }
 
 #main .project-img img {
@@ -163,6 +166,9 @@ nav .nav-item {
 #main .project-meta {
     padding: 1.5rem 1.5rem;
     background-color: #ffffff;
+    box-shadow: 3px 3px 3px #dddddd;
+    -moz-box-shadow: 3px 3px 3px #dddddd;
+    -webkit-box-shadow: 3px 3px 3px #dddddd;
 }
 
 #main .project-label {
@@ -171,12 +177,14 @@ nav .nav-item {
 }
 
 #main .project-title {
-    font-size: 1.5rem;
-    font-weight: 700
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0.5rem 0;
 }
 
 #main .project-desc {
     font-size: 0.8rem;
+    line-height: 1.25;
 }
 
 @media screen and (min-width: 992px) {
@@ -195,6 +203,9 @@ nav .nav-item {
     }
     #main .project-img img {
         width: 230px;
+    }
+    #main .project-title {
+        font-size: 1.5rem;
     }
 }
 
