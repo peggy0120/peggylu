@@ -2,6 +2,13 @@
 @import url(css/font-awesome.min.css);
 
 
+:root {
+    --primary: #33b599;
+    --secondary: #fac339;
+    --bgLightgrey: #f7f7f7;
+    --bgDarkgrey: #dddddd;
+}
+
 body {
     height: 100%;
     font-size: 100%;
@@ -13,11 +20,15 @@ body {
 }
 
 a {
-    color: #33b599;
+    color: var(--primary);
 }
 
 a:hover, a:visited, a:focus {
     text-decoration: none;
+}
+
+a:hover {
+    color: var(--secondary);
 }
 
 .disabled {
@@ -50,7 +61,7 @@ h3 {
 .page {
     z-index: 105;
     position: relative;
-    background-color: #f7f7f7;
+    background-color: var(--bgLightgrey);
     margin: 0 auto;
     width: 100%;
     transition: transform 0.2s 0.3s;
@@ -62,7 +73,7 @@ h3 {
 
 #header {
     background-color: #ffffff;
-    border-bottom: solid 1px #dddddd;
+    border-bottom: solid 1px var(--bgDarkgrey);
 }
 
 .header-inner {
@@ -94,6 +105,7 @@ h3 {
 nav.navbar {
     width: 100%;
     padding: 1rem 2rem;
+    padding-bottom: 1rem;
 }
 
 nav .navbar-brand {
@@ -107,7 +119,7 @@ nav div.menu {
     position: relative;
     margin-top: 0.5rem;
     padding-top: 0.5rem;
-    border-top: 1px solid #dddddd;
+    border-top: 1px solid var(--bgDarkgrey);
 }
 
 @media screen and (min-width: 768px) {
@@ -137,8 +149,38 @@ nav .nav-item {
 /*    font-weight: 300;*/
 }
 
+nav .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+nav .dropdown-menu {
+/*    display: block;*/
+    border: none;
+    border-radius: 0px;
+    padding: 0;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.9) 0%, #ffffff 60%);
+    padding-top: calc(1rem - 3px);
+}
+
+nav .dropdown-item {
+    font-weight: 300;
+    padding: 0.75rem 1.5rem;
+    border-bottom: 1px solid var(--bgDarkgrey);
+}
+
+nav .dropdown-item:first-child {
+    border-top: 3px solid  var(--secondary);
+}
+
+nav .dropdown-item:hover {
+    color: #fac339;
+/*    font-weight: 400;*/
+    background-color: #fff;
+/*    background-color: var(--bgLightgrey);*/
+}
+
 #main {
-    background-color: #f7f7f7;
+    background-color: var(--bgLightgrey);
     width: 100%;
     padding: 32px 40px; 
 }
@@ -152,10 +194,10 @@ nav .nav-item {
 #main .project-img {
     width: 200px;
     height: 100%;
-    background-color: #dddddd;
-    box-shadow: 3px 3px 3px #dddddd;
-    -moz-box-shadow: 3px 3px 3px #dddddd;
-    -webkit-box-shadow: 3px 3px 3px #dddddd;
+    background-color: var(--bgDarkgrey);
+    box-shadow: 3px 3px 3px var(--bgDarkgrey);
+    -moz-box-shadow: 3px 3px 3px var(--bgDarkgrey);
+    -webkit-box-shadow: 3px 3px 3px var(--bgDarkgrey);
 }
 
 #main .project-img img {
@@ -166,9 +208,9 @@ nav .nav-item {
 #main .project-meta {
     padding: 1.5rem 1.5rem;
     background-color: #ffffff;
-    box-shadow: 3px 3px 3px #dddddd;
-    -moz-box-shadow: 3px 3px 3px #dddddd;
-    -webkit-box-shadow: 3px 3px 3px #dddddd;
+    box-shadow: 3px 3px 3px var(--bgDarkgrey);
+    -moz-box-shadow: 3px 3px 3px var(--bgDarkgrey);
+    -webkit-box-shadow: 3px 3px 3px var(--bgDarkgrey);
 }
 
 #main .project-label {
@@ -180,6 +222,8 @@ nav .nav-item {
     font-size: 1.2rem;
     font-weight: 700;
     margin: 0.5rem 0;
+    overflow: auto;
+    white-space: nowrap;
 }
 
 #main .project-desc {
