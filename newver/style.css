@@ -80,7 +80,6 @@ h3 {
     padding: 0.5rem 0;
 }
 
-
 #header .name {
     font-size: 32px;
     font-weight: 700;
@@ -88,6 +87,8 @@ h3 {
 
 #header .subtitle {
     font-size: 18px;
+/*    font-weight: 300;*/
+    color: #888888;
 }
 
 nav.navbar {
@@ -109,9 +110,10 @@ nav div.menu {
     border-top: 1px solid #dddddd;
 }
 
-
-
 @media screen and (min-width: 768px) {
+    nav.navbar {
+        padding: 1rem 3rem;
+    }
     .navbar div.menu {
         width: 50%;
         height: 100%;
@@ -132,6 +134,68 @@ nav .navbar-nav {
 
 nav .nav-item {
     margin: 0 0.5rem;
+/*    font-weight: 300;*/
+}
+
+#main {
+    background-color: #f7f7f7;
+    width: 100%;
+    padding: 32px 40px; 
+}
+
+#main .project-item {
+    margin: 15px auto;
+    padding: 0;
+    height: 200px;
+}
+
+#main .project-img {
+    width: 200px;
+    height: 100%;
+    background-color: #dddddd;
+}
+
+#main .project-img img {
+    width: 200px;
+    height: 100%;
+}
+
+#main .project-meta {
+    padding: 1.5rem 1.5rem;
+    background-color: #ffffff;
+}
+
+#main .project-label {
+    font-size: 11px;
+    color: #888888;
+}
+
+#main .project-title {
+    font-size: 1.5rem;
+    font-weight: 700
+}
+
+#main .project-desc {
+    font-size: 0.8rem;
+}
+
+@media screen and (min-width: 992px) {
+    #main .project-item {
+        padding: 0 15px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #main .project-item {
+        height: 230px;
+        padding: 0 20px;
+    }
+    #main .project-img {
+        width: 230px;
+    }
+    #main .project-img img {
+        width: 230px;
+    }
 }
 
 
