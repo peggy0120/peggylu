@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
 @import url(css/font-awesome.min.css);
 
 
@@ -82,34 +82,40 @@ h3 {
     display: inline;
 }
 
-#header .logo {
-    margin-right: 1rem;
-}
-
-#header .title-inner {
-    height: 100px;
-    padding: 0.5rem 0;
-}
-
-#header .name {
-    font-size: 32px;
-    font-weight: 700;
-}
-
-#header .subtitle {
-    font-size: 18px;
-/*    font-weight: 300;*/
-    color: #888888;
-}
-
 nav.navbar {
     width: 100%;
     padding: 1rem 2rem;
     padding-bottom: 1rem;
 }
 
+@media screen and (min-width: 992px) {
+    nav.navbar {
+        padding: 1rem 3rem;
+    }
+}
+
 nav .navbar-brand {
     height: 100px;
+}
+
+nav .logo {
+    margin-right: 1rem;
+}
+
+nav .title-inner {
+    height: 100px;
+    padding: 0.5rem 0;
+}
+
+nav .name {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+nav .subtitle {
+    font-size: 18px;
+/*    font-weight: 300;*/
+    color: #888888;
 }
 
 nav div.menu {
@@ -122,10 +128,16 @@ nav div.menu {
     border-top: 1px solid var(--bgDarkgrey);
 }
 
+nav .navbar-nav {
+    width: 100%;
+}
+
+nav .nav-item {
+    margin: 0 0.5rem;
+/*    font-weight: 300;*/
+}
+
 @media screen and (min-width: 768px) {
-    nav.navbar {
-        padding: 1rem 3rem;
-    }
     .navbar div.menu {
         width: 50%;
         height: 100%;
@@ -138,15 +150,6 @@ nav div.menu {
     nav .nav-item {
         font-size: 1.25rem;
     }    
-}
-
-nav .navbar-nav {
-    width: 100%;
-}
-
-nav .nav-item {
-    margin: 0 0.5rem;
-/*    font-weight: 300;*/
 }
 
 nav .dropdown:hover .dropdown-menu {
@@ -164,6 +167,8 @@ nav .dropdown-menu {
 
 nav .dropdown-item {
     font-weight: 300;
+    overflow: hidden;
+    white-space: nowrap;
     padding: 0.75rem 1.5rem;
     border-bottom: 1px solid var(--bgDarkgrey);
 }
@@ -191,13 +196,31 @@ nav .dropdown-item:hover {
     height: 200px;
 }
 
+#main .project-item:hover .project-url {
+/*    border-top: 6px solid var(--secondary);*/
+    box-shadow: 8px 8px 8px var(--bgDarkgrey);
+    -moz-box-shadow: 8px 8px 8px var(--bgDarkgrey);
+    -webkit-box-shadow: 8px 8px 8px var(--bgDarkgrey);
+}
+
+#main .project-item:hover .project-img, 
+#main .project-item:hover .project-meta {
+    box-shadow: 4px 2px 15px var(--secondary);
+    -moz-box-shadow: 4px 2px 15px var(--secondary);
+    -webkit-box-shadow: 4px 2px 15px var(--secondary);
+    transform: translate(0,-3px);
+    -moz-transform: translate(0,-3px);
+    -webkit-transform: translate(0,-3px);    
+}
+
+#main a.project-url {
+    
+}
+
 #main .project-img {
     width: 200px;
     height: 100%;
     background-color: var(--bgDarkgrey);
-    box-shadow: 3px 3px 3px var(--bgDarkgrey);
-    -moz-box-shadow: 3px 3px 3px var(--bgDarkgrey);
-    -webkit-box-shadow: 3px 3px 3px var(--bgDarkgrey);
 }
 
 #main .project-img img {
@@ -208,9 +231,19 @@ nav .dropdown-item:hover {
 #main .project-meta {
     padding: 1.5rem 1.5rem;
     background-color: #ffffff;
-    box-shadow: 3px 3px 3px var(--bgDarkgrey);
-    -moz-box-shadow: 3px 3px 3px var(--bgDarkgrey);
-    -webkit-box-shadow: 3px 3px 3px var(--bgDarkgrey);
+    color: #000;
+}
+
+#main .project-url, #main .project-img, #main .project-meta {
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    -moz-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    -webkit-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+#main .project-img, #main .project-meta {
+    box-shadow: 2px 2px 2px var(--bgDarkgrey);
+    -moz-box-shadow: 2px 2px 2px var(--bgDarkgrey);
+    -webkit-box-shadow: 2px 2px 2px var(--bgDarkgrey);
 }
 
 #main .project-label {
@@ -224,6 +257,7 @@ nav .dropdown-item:hover {
     margin: 0.5rem 0;
     overflow: auto;
     white-space: nowrap;
+/*    color: var(--primary);*/
 }
 
 #main .project-desc {
