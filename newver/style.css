@@ -7,6 +7,7 @@
     --secondary: #fac339;
     --bgLightgrey: #f7f7f7;
     --bgDarkgrey: #dddddd;
+    --txGrey: #888888;
 }
 
 body {
@@ -95,33 +96,48 @@ nav.navbar {
 }
 
 nav .navbar-brand {
-    height: 100px;
+    height: 80px;
 }
 
 nav .logo {
     margin-right: 1rem;
+    width: 80px;
+    height: 80px;
 }
 
 nav .title-inner {
-    height: 100px;
+    height: 80px;
     padding: 0.5rem 0;
 }
 
 nav .name {
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 700;
+    margin-right: 1rem;
 }
 
 nav .subtitle {
-    font-size: 18px;
-/*    font-weight: 300;*/
-    color: #888888;
+    font-size: 16px;
+    color: var(--txGrey);
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        height: 140px;
+    }
+    nav .title-inner {
+        height: auto;
+    }
+    nav .name, nav .subtitle {
+        height: 40px;
+    }
 }
 
 nav div.menu {
     width: auto;
     display: inline-block;
-    margin-left: 100px;
+    top: -25px;
+    margin-left: 80px;
     position: relative;
     margin-top: 0.5rem;
     padding-top: 0.5rem;
@@ -134,22 +150,28 @@ nav .navbar-nav {
 
 nav .nav-item {
     margin: 0 0.5rem;
+    font-size: 1rem;
 /*    font-weight: 300;*/
+}
+
+nav .nav-item a.nav-link {
+    color: var(--txGrey);
+}
+
+nav .nav-item a.nav-link:hover {
+    color: var(--secondary);
 }
 
 @media screen and (min-width: 768px) {
     .navbar div.menu {
         width: 50%;
         height: 100%;
+        top: auto;
         margin-left: auto;
         margin-top: 0;
         padding-top: 0;
         border: none;
     }
-    
-    nav .nav-item {
-        font-size: 1.25rem;
-    }    
 }
 
 nav .dropdown:hover .dropdown-menu {
@@ -158,23 +180,31 @@ nav .dropdown:hover .dropdown-menu {
 
 nav .dropdown-menu {
 /*    display: block;*/
+    font-size: 0.75rem;
     border: none;
     border-radius: 0px;
     padding: 0;
     background: linear-gradient(to bottom, rgba(255,255,255,0.9) 0%, #ffffff 60%);
-    padding-top: calc(1rem - 3px);
+    padding-top: 8px;
+    box-shadow: 2px 2px 2px var(--bgDarkgrey);
+    -moz-box-shadow: 2px 2px 2px var(--bgDarkgrey);
+    -webkit-box-shadow: 2px 2px 2px var(--bgDarkgrey);
 }
 
 nav .dropdown-item {
     font-weight: 300;
     overflow: hidden;
     white-space: nowrap;
-    padding: 0.75rem 1.5rem;
+    padding: 0.75rem 1rem;
     border-bottom: 1px solid var(--bgDarkgrey);
 }
 
 nav .dropdown-item:first-child {
     border-top: 3px solid  var(--secondary);
+}
+
+nav .dropdown-item:last-child {
+    border: none;
 }
 
 nav .dropdown-item:hover {
@@ -183,6 +213,8 @@ nav .dropdown-item:hover {
     background-color: #fff;
 /*    background-color: var(--bgLightgrey);*/
 }
+
+
 
 #main {
     background-color: var(--bgLightgrey);
@@ -198,6 +230,7 @@ nav .dropdown-item:hover {
 
 #main .project-item:hover .project-url {
 /*    border-top: 6px solid var(--secondary);*/
+    border-bottom: 1px solid var(--bdDarkgrey);
     
 }
 
@@ -206,9 +239,9 @@ nav .dropdown-item:hover {
     box-shadow: 2px 5px 2px var(--bgDarkgrey);
     -moz-box-shadow: 2px 5px 2px var(--bgDarkgrey);
     -webkit-box-shadow: 2px 5px 2px var(--bgDarkgrey);
-    transform: translate(0,-3px);
-    -moz-transform: translate(0,-3px);
-    -webkit-transform: translate(0,-3px);    
+    transform: translate(0,-2px);
+    -moz-transform: translate(0,-2px);
+    -webkit-transform: translate(0,-2px);    
 }
 
 #main .project-item:hover .project-title {
@@ -251,7 +284,7 @@ nav .dropdown-item:hover {
 #main .project-label {
     font-size: 11px;
     font-weight: 300;
-    color: #888888;
+    color: var(--txGrey);
 }
 
 #main .project-title {
@@ -260,12 +293,14 @@ nav .dropdown-item:hover {
     margin: 0.5rem 0;
     overflow: auto;
     white-space: nowrap;
-    color: var(--primary);
+    color: black;
 }
 
 #main .project-desc {
     font-size: 0.8rem;
     line-height: 1.25;
+    font-weight: 300;
+    color: var(--txGrey);
 }
 
 @media screen and (min-width: 992px) {
@@ -308,7 +343,7 @@ footer .icon {
     display: inline-block;
     text-align: center;
     line-height: 3em;
-    color: var(--primary);
+    color: var(--txGrey);
 }
 
 footer .icon:before {
