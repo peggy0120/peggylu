@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Peggy Pei-Ying Lu">
+    <title>Campus Veteran Portal | Peggy Lu | UX Design</title>
+
+    <!-- jQuery -->
+    <script src="../js/jquery-1.11.3.min.js"></script>
+
+    <!-- Load Header & Footer-->
+    <script>
+        $(function() {
+            $('#footer').load('../reuseFooter.html');
+        });
+
+    </script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style.css">
+
+    <!-- Google Analytics -->
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-61994680-2', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+</head>
+
+<body data-spy="scroll" data-target="#sidenav" data-offset="0">
+
+    <div id="wrapper">
+        <div class="page">
+
+            <!-- Header -->
+            <header id="header"></header>
+
+            <!-- Main -->
+            <div id="main" class="project proj-cvp">
+                <header class="proj-header">
+                    <div class="container">
+                        <h1>Campus Veteran Portal</h1>
+                        <span class="proj-label">Interaction Design | User Research</span>
+                    </div>
+                </header>
+                <div class="proj-meta">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-md-9 col-sm-12 row">
+                                <div class="col-lg-8 col-md-12 col-sm-12">
+                                    <div class="proj-overview">
+                                        <h2>Overview</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet dolor hendrerit, sollicitudin lorem vitae, laoreet lorem. Sed velit tortor, laoreet eget aliquam vel, iaculis at dolor. Nunc ligula erat, commodo nec suscipit sed, fringilla eu diam.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-12 col-sm-12 row">
+                                    <div class="proj-type col-lg-12 col-sm">
+                                        <h2>Type</h2>
+                                        <p>Class Project<br>(Interaction Design Practice)</p>
+                                    </div>
+                                    <div class="proj-time col-lg-12 col-sm">
+                                        <h2>Duration</h2>
+                                        <p>3 weeks<br>(Nov. - Dec. 2016)</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-3 co-sm-12 row">
+                                <div class="proj-role col-lg-6 col-md-12 col-sm">
+                                    <h2>Role</h2>
+                                    <ul>
+                                        <li>User Interview</li>
+                                        <li>Wireframing</li>
+                                        <li>Documentation</li>
+                                    </ul>
+                                </div>
+                                <div class="proj-team col-lg-6 col-md-12 col-sm">
+                                    <h2>Team</h2>
+                                    <ul>
+                                        <li><a href="http://amhoffmann.com/" target="_blank">Alexandar Hoffmann</a></li>
+                                        <li><a href="http://ryandgriggs.com/" target="_blank">Ryan Griggs</a></li>
+                                        <li><a href="https://www.miringuk.com/" target="_blank">Miringu Kiarie</a></li>
+                                        <li>Peggy Lu</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="proj-cont">
+                    <div class="container">
+                        <div class="row d-flex">
+                            <div class="col-md-3 d-md-block d-sm-none">
+                                <nav id="sidenav">
+                                    <span class="sn-header">Campus Veteran Portal</span>
+                                    <ul class="nav">
+                                        <li><a href="#pj-bkgd" class="active nav-link">Background</a></li>
+                                        <li><a href="#pj-res" class="nav-link">Research</a></li>
+                                        <li ><a href="#pj-desg" class="nav-link">Design</a></li>
+                                        <li ><a href="#pj-refl" class="nav-link">Reflection</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <article class="cont col-md-9 col-sm-12">
+                                <section class="proj-sect" id="pj-bkgd">
+                                    <h2>Background</h2>
+                                    <div></div>
+                                </section>
+                                <section class="proj-sect" id="pj-res">
+                                    <h2>Research &amp; Insights</h2>
+                                    <div></div>
+                                </section>
+                                <section class="proj-sect" id="pj-desg">
+                                    <h2>Design</h2>
+                                    <div></div>
+                                </section>
+                                <section class="proj-sect" id="pj-refl">
+                                    <h2>Reflection</h2>
+                                    <div></div>
+                                </section>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <footer id="footer"></footer>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function() {
+            $('#header').load('../reuseNav.html', function() {
+                //disable dropdown item
+            });
+            $('[data-spy="scroll"]').each(function() {
+                var $spy = $(this).scrollspy('refresh');
+            })
+        });
+
+    </script>
+</body>
+
+</html>

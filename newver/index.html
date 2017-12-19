@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -7,15 +7,27 @@
     <meta name="description" content="">
     <meta name="author" content="Peggy Pei-Ying Lu">
     <title>Peggy Lu | UX Design</title>
+
     <!-- jQuery -->
     <script src="js/jquery-1.11.3.min.js"></script>
+
+    <!-- Load Header-->
+    <script>
+        $(function() {
+
+            $('#footer').load('reuseFooter.html');
+        });
+    </script>
+
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+
+
     <!-- Stylesheet -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <!--    <link rel="stylesheet" href="t_phantom/assets/css/main.css" />-->
+
     <!-- Google Analytics -->
     <script>
         (function (i, s, o, g, r, a, m) {
@@ -39,36 +51,7 @@
         <div class="page">
            
             <!-- Header -->
-            <header id="header">
-                <div class="header-inner d-flex">
-                    <nav class="navbar navbar-expand flex-column align-items-start flex-md-row justify-content-md-between"> 
-                        <a class="navbar-brand disabled d-flex" href="#">
-                            <img src="/image/Artboard%201.png" class="logo" alt="">
-                            <div class="title-inner d-flex justify-content-around flex-md-column align-items-center align-items-md-start">
-                                <h1 class="name"> Peggy Lu</h1>
-                                <span class="subtitle">UX Designer | Library Enthusiast</span>
-                            </div>
-                        </a>
-                        <div class="menu d-flex justify-content-md-end" id="navbarSupportedContent">
-                            <ul class="navbar-nav align-self-center justify-content-md-around">
-                                <li class="nav-item dropdown"> 
-                                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Project</a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                       <a class="dropdown-item" href="#">Blackbaud Internship</a>
-                                       <a class="dropdown-item" href="#">NTULIS Redesign</a>
-                                       <a class="dropdown-item" href="#">GoGreen Edu System</a> 
-                                       <a class="dropdown-item" href="#">Campus Veteran Portal</a>
-                                       <a class="dropdown-item" href="#">Equi-table</a>
-                                       
-                                    </div>
-                                </li>
-                                <li class="nav-item"> <a class="nav-link" href="https://iu.app.box.com/v/peggylu-ux-resume" target="_blank">Resume</a> </li>
-                                <li class="nav-item"> <a class="nav-link" href="#">About</a> </li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
-            </header>
+            <header id="header"></header>
             
             <!-- Main -->
             <div id="main" class="homepage">
@@ -98,18 +81,20 @@
                                 </div>
                             </a>
                         </div>
+<!--
                         <div class="col-xs-12 col-lg-6 project-item d-flex justify-content-center">
                            <a href="#" class="project-url d-flex">
                                 <div class="project-img">
                                     <img src="image/gogreen_thumb.png">
                                 </div>
                                 <div class="project-meta d-flex flex-column justify-content-around">
-                                    <span class="project-label">Design Strategy | </span>
-                                    <h2 class="project-title">Sustainability</h2>
+                                    <span class="project-label">Design Strategy | Research</span>
+                                    <h2 class="project-title">Waste Education Competition</h2>
                                     <p class="project-desc">Redesign university website addressing student needs &amp; the organization's vision</p>
                                 </div>
                             </a>
                         </div>
+-->
                         <div class="col-xs-12 col-lg-6 project-item d-flex justify-content-center">
                            <a href="#" class="project-url d-flex">
                                 <div class="project-img">
@@ -134,6 +119,7 @@
                                 </div>
                             </a>
                         </div>
+<!--
                         <div class="col-xs-12 col-lg-6 project-item d-flex justify-content-center">
                            <a href="#" class="project-url d-flex">
                                 <div class="project-img">
@@ -146,27 +132,21 @@
                                 </div>
                             </a>
                         </div>
-                        
+-->
                     </div>
                 </div>
             </div>
             
             <!-- Footer -->
-            <footer id="footer">
-               <div class="container">
-                   <div class="row icons">
-                      <div class="col-4"><a href="mailto:peggy.py.lu@gmail.com" class="icon fa-envelope"><p class="label">peggy.py.lu@gmail.com</p></a></div>
-                       <div class="col-4"><a href="https://www.linkedin.com/in/peggy-lu" class="icon  fa-linkedin-square" target="_blank"><p class="label">https://www.linkedin.com/in/peggy-lu</p></a></div>
-                       <div class="col-4"><a href="https://vimeo.com/user29306616" class="icon fa-vimeo-square" target="_blank"><p class="label">https://vimeo.com/user29306616</p></a></div>
-                    </div>
-                    <span class="copyright">&copy; Peggy Lu. All rights reserved.</span>
-                </div>
-            </footer>
+            <footer id="footer"></footer>
         </div>
     </div>
     <script>
         $(document).ready(function () {
             $('.dropdown-toggle').dropdown();
+            $('#header').load('reuseNav.html', function(){
+                $('a.navbar-brand').addClass('disabled');
+            });
         });
     </script>
 </body>
