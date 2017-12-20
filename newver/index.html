@@ -57,10 +57,10 @@
             <div id="main" class="homepage">
                 <div class="container">
                     <div class="row justify-content-start no-gutters">
-                       <div class="col-xs-12 col-lg-6 project-item justify-content-center">
+                       <div class="col-xs-12 col-lg-6 project-item justify-content-center blackbaud">
                            <a href="#" class="project-url d-flex">
                                 <div class="project-img">
-                                    <img src="image/blackbaud.jpg">
+                                    <img src="/newver/image/blackbaud.jpg">
                                 </div>
                                 <div class="project-meta d-flex flex-column justify-content-around">
                                     <span class="project-label">Interaction Design | Research</span>
@@ -69,10 +69,10 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-xs-12 col-lg-6 project-item d-flex justify-content-center">
+                        <div class="col-xs-12 col-lg-6 project-item justify-content-center ntulis">
                            <a href="#" class="project-url d-flex">
                                 <div class="project-img">
-                                    <img src="image/NTULIS_thumb.png">
+                                    <img src="/newver/image/NTULIS_thumb.png">
                                 </div>
                                 <div class="project-meta d-flex flex-column justify-content-around">
                                     <span class="project-label">Information Architecture | Content Strategy</span>
@@ -81,36 +81,34 @@
                                 </div>
                             </a>
                         </div>
-<!--
-                        <div class="col-xs-12 col-lg-6 project-item d-flex justify-content-center">
+                        <div class="col-xs-12 col-lg-6 project-item justify-content-center iuos d-none">
                            <a href="#" class="project-url d-flex">
                                 <div class="project-img">
-                                    <img src="image/gogreen_thumb.png">
+                                    <img src="/newver/image/gogreen_thumb.png">
                                 </div>
                                 <div class="project-meta d-flex flex-column justify-content-around">
                                     <span class="project-label">Design Strategy | Research</span>
-                                    <h2 class="project-title">Waste Education Competition</h2>
+                                    <h2 class="project-title">Prioritization Strategy for IUOS</h2>
                                     <p class="project-desc">Redesign university website addressing student needs &amp; the organization's vision</p>
                                 </div>
                             </a>
                         </div>
--->
-                        <div class="col-xs-12 col-lg-6 project-item d-flex justify-content-center">
+                        <div class="col-xs-12 col-lg-6 project-item justify-content-center gogreen">
                            <a href="#" class="project-url d-flex">
                                 <div class="project-img">
-                                    <img src="image/gogreen_thumb.png">
+                                    <img src="/newver/image/gogreen_thumb.png">
                                 </div>
                                 <div class="project-meta d-flex flex-column justify-content-around">
                                     <span class="project-label">Service Design | User Research</span>
-                                    <h2 class="project-title">GoGreen Education</h2>
+                                    <h2 class="project-title">Community Waste Education</h2>
                                     <p class="project-desc">Waste Management Information &amp; Knonwledge Exchange System for Bloomington Residents</p>
                                 </div>
                             </a>
                         </div>
-                        <div class="col-xs-12 col-lg-6 project-item d-flex justify-content-center">
+                        <div class="col-xs-12 col-lg-6 project-item justify-content-center cvp">
                            <a href="#" class="project-url d-flex">
                                 <div class="project-img">
-                                    <img src="image/cvp_thumb.png">
+                                    <img src="/newver/image/cvp_thumb.png">
                                 </div>
                                 <div class="project-meta d-flex flex-column justify-content-around">
                                     <span class="project-label">Interaction Design | User Research</span>
@@ -119,11 +117,10 @@
                                 </div>
                             </a>
                         </div>
-<!--
-                        <div class="col-xs-12 col-lg-6 project-item d-flex justify-content-center">
+                        <div class="col-xs-12 col-lg-6 project-item justify-content-center equi d-none">
                            <a href="#" class="project-url d-flex">
                                 <div class="project-img">
-                                    <img src="image/Equi-table_thumb.png">
+                                    <img src="/newver/image/Equi-table_thumb.png">
                                 </div>
                                 <div class="project-meta d-flex flex-column justify-content-around">
                                     <span class="project-label">Interaction Design | User Research</span>
@@ -132,20 +129,27 @@
                                 </div>
                             </a>
                         </div>
--->
                     </div>
                 </div>
             </div>
             
             <!-- Footer -->
             <footer id="footer"></footer>
+
         </div>
+        <div class="copyright">&copy; Peggy (Pei-Ying) Lu, 2017. All rights reserved.</div>
     </div>
     <script>
         $(document).ready(function () {
             $('.dropdown-toggle').dropdown();
             $('#header').load('reuseNav.html', function(){
                 $('a.navbar-brand').addClass('disabled');
+                $('.dropdown-menu').mouseenter(function() {
+                   $('.dropdown-toggle').addClass('active');
+                });
+                $('.dropdown-menu').mouseleave(function() {
+                   $('.dropdown-toggle').removeClass('active');
+                });
             });
         });
     </script>

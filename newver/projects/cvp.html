@@ -46,15 +46,13 @@
 </head>
 
 <body data-spy="scroll" data-target="#sidenav" data-offset="0">
-
     <div id="wrapper">
-        <div class="page">
-
+        <div class="page project">
             <!-- Header -->
             <header id="header"></header>
 
             <!-- Main -->
-            <div id="main" class="project proj-cvp">
+            <div id="main" class="proj-cvp">
                 <header class="proj-header">
                     <div class="container">
                         <h1>Campus Veteran Portal</h1>
@@ -74,11 +72,11 @@
                                 <div class="col-lg-4 col-md-12 col-sm-12 row">
                                     <div class="proj-type col-lg-12 col-sm">
                                         <h2>Type</h2>
-                                        <p>Class Project<br>(Interaction Design Practice)</p>
+                                        <p>Class Project<br><span>(Interaction Design Practice)</span></p>
                                     </div>
                                     <div class="proj-time col-lg-12 col-sm">
                                         <h2>Duration</h2>
-                                        <p>3 weeks<br>(Nov. - Dec. 2016)</p>
+                                        <p>3 weeks<br><span>(Nov. - Dec. 2016)</span></p>
                                     </div>
                                 </div>
                             </div>
@@ -87,16 +85,16 @@
                                     <h2>Role</h2>
                                     <ul>
                                         <li>User Interview</li>
-                                        <li>Wireframing</li>
-                                        <li>Documentation</li>
+                                        <li>Prototyping<br><span>(with Axure)</span></li>
+                                        <li>Usability Testing</li>
                                     </ul>
                                 </div>
                                 <div class="proj-team col-lg-6 col-md-12 col-sm">
                                     <h2>Team</h2>
                                     <ul>
-                                        <li><a href="http://amhoffmann.com/" target="_blank">Alexandar Hoffmann</a></li>
-                                        <li><a href="http://ryandgriggs.com/" target="_blank">Ryan Griggs</a></li>
-                                        <li><a href="https://www.miringuk.com/" target="_blank">Miringu Kiarie</a></li>
+                                        <li><a href="http://amhoffmann.com/" target="_blank" class="ext-link">Alexandar Hoffmann</a></li>
+                                        <li><a href="http://ryandgriggs.com/" target="_blank" class="ext-link">Ryan Griggs</a></li>
+                                        <li><a href="https://www.miringuk.com/" target="_blank" class="ext-link">Miringu Kiarie</a></li>
                                         <li>Peggy Lu</li>
                                     </ul>
                                 </div>
@@ -113,26 +111,34 @@
                                     <ul class="nav">
                                         <li><a href="#pj-bkgd" class="active nav-link">Background</a></li>
                                         <li><a href="#pj-res" class="nav-link">Research</a></li>
-                                        <li ><a href="#pj-desg" class="nav-link">Design</a></li>
-                                        <li ><a href="#pj-refl" class="nav-link">Reflection</a></li>
+                                        <li><a href="#pj-desg" class="nav-link">Concept</a></li>
+                                        <li><a href="#pj-test" class="nav-link">Testing</a></li>
+                                        <li><a href="#pj-refl" class="nav-link">Takeaway</a></li>
                                     </ul>
+                                    <a href="#wrapper" class="sn-top">back to top</a>
                                 </nav>
                             </div>
                             <article class="cont col-md-9 col-sm-12">
                                 <section class="proj-sect" id="pj-bkgd">
                                     <h2>Background</h2>
-                                    <div></div>
+                                    <div>
+                                        <div class="quote"><p></p></div>
+                                    </div>
                                 </section>
                                 <section class="proj-sect" id="pj-res">
                                     <h2>Research &amp; Insights</h2>
                                     <div></div>
                                 </section>
                                 <section class="proj-sect" id="pj-desg">
-                                    <h2>Design</h2>
+                                    <h2>Concept</h2>
+                                    <div></div>
+                                </section>
+                                <section class="proj-sect" id="pj-test">
+                                    <h2>Testing &amp; Iteration</h2>
                                     <div></div>
                                 </section>
                                 <section class="proj-sect" id="pj-refl">
-                                    <h2>Reflection</h2>
+                                    <h2>Takeaway</h2>
                                     <div></div>
                                 </section>
                             </article>
@@ -141,18 +147,59 @@
                 </div>
             </div>
 
+            <!-- More Projects -->
+            <div id="more">
+                <div class="container">
+                    <h1>More Projects</h1>
+                    <div id="more-content"></div>
+                </div>
+            </div>
+
             <!-- Footer -->
             <footer id="footer"></footer>
         </div>
+        <div class="copyright">
+            <span>&copy; Peggy (Pei-Ying) Lu, 2017. All rights reserved.</span>
+            <a href="#wrapper" class="btm-top">back to top<span class="fas fa-angle-up"></span></a>
+        </div>
+
     </div>
     <script>
         $(document).ready(function() {
             $('#header').load('../reuseNav.html', function() {
-                //disable dropdown item
+                $('.dropdown-item').eq(3).addClass('active');
+                $('.dropdown-menu').mouseenter(function() {
+                   $('.dropdown-toggle').addClass('active');
+                });
+                $('.dropdown-menu').mouseleave(function() {
+                   $('.dropdown-toggle').removeClass('active');
+                });
             });
+
+            $('#more-content').load('/newver/index.html #main.homepage', function() {
+                $('.cvp').addClass('d-none');
+                $('.ntulis').addClass('d-none');
+            });
+
             $('[data-spy="scroll"]').each(function() {
                 var $spy = $(this).scrollspy('refresh');
             })
+
+            /* Smooth Scrolling from https://css-tricks.com/snippets/jquery/smooth-scrolling/ */
+            $(function() {
+                $('a[href*="#"]:not([href="#"])').click(function() {
+                    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                        var target = $(this.hash);
+                        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                        if (target.length) {
+                            $('html, body').animate({
+                                scrollTop: target.offset().top
+                            }, 200);
+                            return false;
+                        }
+                    }
+                });
+            });
         });
 
     </script>
