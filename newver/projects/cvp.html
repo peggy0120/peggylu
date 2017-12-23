@@ -45,7 +45,7 @@
     </script>
 </head>
 
-<body data-spy="scroll" data-target="#sidenav" data-offset="0">
+<body data-spy="scroll" data-target="#sidenav" data-offset="60">
     <div id="wrapper">
         <div class="page project">
             <!-- Header -->
@@ -70,18 +70,18 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-12 col-sm-12 row">
-                                    <div class="proj-type col-lg-12 col-sm">
+                                    <div class="proj-type col-lg-12 col-6">
                                         <h2>Type</h2>
                                         <p>Class Project<br><span>(Interaction Design Practice)</span></p>
                                     </div>
-                                    <div class="proj-time col-lg-12 col-sm">
+                                    <div class="proj-time col-lg-12 col-6">
                                         <h2>Duration</h2>
                                         <p>3 weeks<br><span>(Nov. - Dec. 2016)</span></p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-3 co-sm-12 row">
-                                <div class="proj-role col-lg-6 col-md-12 col-sm">
+                                <div class="proj-role col-lg-6 col-md-12 col-6">
                                     <h2>Role</h2>
                                     <ul>
                                         <li>User Interview</li>
@@ -89,7 +89,7 @@
                                         <li>Usability Testing</li>
                                     </ul>
                                 </div>
-                                <div class="proj-team col-lg-6 col-md-12 col-sm">
+                                <div class="proj-team col-lg-6 col-md-12 col-6">
                                     <h2>Team</h2>
                                     <ul>
                                         <li><a href="http://amhoffmann.com/" target="_blank" class="ext-link">Alexandar Hoffmann</a></li>
@@ -105,8 +105,9 @@
                 <div class="proj-cont">
                     <div class="container">
                         <div class="row d-flex">
-                            <div class="col-md-3 d-md-block d-sm-none">
+                            <div class="col-md-3 d-md-block d-sm-none d-xs-none">
                                 <nav id="sidenav">
+                                    <span class="sn-breadcrumb"><a href="../index.html">peggylu</a>&nbsp;· projects /</span>
                                     <span class="sn-header">Campus Veteran Portal</span>
                                     <ul class="nav">
                                         <li><a href="#pj-bkgd" class="active nav-link">Background</a></li>
@@ -121,24 +122,47 @@
                             <article class="cont col-md-9 col-sm-12">
                                 <section class="proj-sect" id="pj-bkgd">
                                     <h2>Background</h2>
+                                    <a href="#wrapper" class="sect-top">back to top &nbsp;<span class="fa-caret-up"></span></a>
                                     <div>
-                                        <div class="quote"><p></p></div>
+                                        <div class="quote">
+                                            <p>It's extremly difficult for <span class="highlight">student veterans</span> to connect within a community after transitioning from active duty to civilian student.</p>
+                                        </div>
+                                        <p>How do we empower and give back to a group that has made a significant contribution to the nation but their transition has remained a struggle? </p>
+                                        <p>We were given the prompt based on <a href="https://chi2017.acm.org/designcompetition.html" target="_blank" class="ext-link">CHI 2017 Design Competition: Leveling the Playing Field</a> to identify <span class="">a design target that's often excluded or left behind</span> and create a design intervention accordingly.</p>
+                                        <div class="card">
+                                            <a href="#collapse1" class="collapse-btn" data-toggle="collapse" area-expanded="true" aria-controls="collapse1">
+                                                <h3>Problem Framing: Why Student Veterans?</h3>
+                                                <span class="fa-angle-up"></span>
+                                                <span class="fa-angle-down"></span>
+                                            </a>
+                                            <div class="row" id="collapse1">
+                                                <div class="col-6">
+                                                    <p>Some of the user groups other than student veterans that we were initially interested were foster child, single-mother, and mentally disordered. However, with what the CHI brief emphasized: "where ongoing access and engagement is possible" in mind, we came to the decision of addressing student veterans with our design.</p>
+                                                </div>
+                                                <div class="col-6 card-img">
+                                                    <img src="../image/cvp_cardsorting_05.jpg"></div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </section>
                                 <section class="proj-sect" id="pj-res">
                                     <h2>Research &amp; Insights</h2>
+                                    <a href="#wrapper" class="sect-top">back to top &nbsp;<span class="fa-caret-up"></span></a>
                                     <div></div>
                                 </section>
                                 <section class="proj-sect" id="pj-desg">
                                     <h2>Concept</h2>
+                                    <a href="#wrapper" class="sect-top">back to top &nbsp;<span class="fa-caret-up"></span></a>
                                     <div></div>
                                 </section>
                                 <section class="proj-sect" id="pj-test">
                                     <h2>Testing &amp; Iteration</h2>
+                                    <a href="#wrapper" class="sect-top">back to top &nbsp;<span class="fa-caret-up"></span></a>
                                     <div></div>
                                 </section>
                                 <section class="proj-sect" id="pj-refl">
                                     <h2>Takeaway</h2>
+                                    <a href="#wrapper" class="sect-top">back to top &nbsp;<span class="fa-caret-up"></span></a>
                                     <div></div>
                                 </section>
                             </article>
@@ -166,26 +190,34 @@
     </div>
     <script>
         $(document).ready(function() {
+
+            /* Loading Header & Add dropdown hover state*/
+
             $('#header').load('../reuseNav.html', function() {
                 $('.dropdown-item').eq(3).addClass('active');
                 $('.dropdown-menu').mouseenter(function() {
-                   $('.dropdown-toggle').addClass('active');
+                    $('.dropdown-toggle').addClass('active');
                 });
                 $('.dropdown-menu').mouseleave(function() {
-                   $('.dropdown-toggle').removeClass('active');
+                    $('.dropdown-toggle').removeClass('active');
                 });
             });
+
+            /* Loading & Choosing which projs to show in More */
 
             $('#more-content').load('/newver/index.html #main.homepage', function() {
                 $('.cvp').addClass('d-none');
                 $('.ntulis').addClass('d-none');
             });
 
+            /* Implementing Scrollspy */
+
             $('[data-spy="scroll"]').each(function() {
                 var $spy = $(this).scrollspy('refresh');
             })
 
             /* Smooth Scrolling from https://css-tricks.com/snippets/jquery/smooth-scrolling/ */
+
             $(function() {
                 $('a[href*="#"]:not([href="#"])').click(function() {
                     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -200,6 +232,16 @@
                     }
                 });
             });
+
+            /* Preventing widows from https://webdevdoor.com/jquery/preventing-widows-websites-jquery */
+
+            $('#main p').each(function() {
+                var string = $(this).html();
+                string = string.replace(/ ([^ ]*)$/, '&nbsp;$1');
+                $(this).html(string);
+            });
+
+            $('.collapse').collapse();
         });
 
     </script>
