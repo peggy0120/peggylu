@@ -250,6 +250,7 @@ nav .dropdown {
 }
 
 nav .dropdown:hover .dropdown-menu {
+    border-radius: 2px;
     display: block;
 }
 
@@ -292,6 +293,7 @@ nav .dropdown-item.active {
 
 #main > .container {
     margin: 32px auto;
+/*    max-width: 540px;*/
 }
 
 #main .project-item {
@@ -326,17 +328,20 @@ nav .dropdown-item.active {
 }
 
 #main .project-img {
+    background-color: transparent;
     height: 100%;
     width: 200px;
 }
 
 #main .project-img img {
+    border-radius: 2px 0 0 2px;
     height: 100%;
     width: 200px;
 }
 
 #main .project-meta {
     background-color: #ffffff;
+    border-radius: 0 2px 2px 0;
     color: #000;
     height: 200px;
     padding: 1.5rem 1.5rem;
