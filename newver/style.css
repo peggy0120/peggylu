@@ -634,6 +634,11 @@ nav .dropdown-item.active {
     line-height: 1.75;
 }
 
+.project #main .proj-cont article object {
+    margin-top: 1.5em;
+    margin-right: 0.5em;
+}
+
 .project #main .proj-cont .proj-sect {
     margin-bottom: 2.5em;
     padding-top: 0.5em;
@@ -681,6 +686,7 @@ nav .dropdown-item.active {
 
 .project #main .proj-cont .proj-sect .quote {
     border-left: 2px solid;
+    border-radius: 2px;
     margin: 1.5em 15px 1.5em 0.5em;
     padding: 15px 0 15px 15px;
     color: var(--primary);
@@ -755,7 +761,7 @@ nav .dropdown-item.active {
 }
 
 .project #main .proj-cont .proj-sect .card p {
-/*    line-height: 1.5;*/
+    /*    line-height: 1.5;*/
     font-size: 0.8em;
 }
 
@@ -771,6 +777,9 @@ nav .dropdown-item.active {
     height: 100%;
 }
 
+.project #main .proj-cont .proj-sect .chart {
+}
+
 
 @media screen and (min-width: 1200px) {
     .project #main .proj-cont .proj-sect {
@@ -779,6 +788,9 @@ nav .dropdown-item.active {
 }
 
 @media screen and (min-width: 768px) {
+    .project #main .proj-cont article object {
+        margin-right: 0;
+    }
     .project #main .proj-cont .proj-sect {
         padding-left: 30px;
     }
@@ -809,6 +821,10 @@ nav .dropdown-item.active {
 
     .project #main .proj-cont .proj-sect .card .collapse-btn span:nth-of-type(2) {
         display: none;
+    }
+
+    .project #main .proj-cont .proj-sect .chart {
+        max-width: 40em;
     }
 }
 
@@ -924,4 +940,32 @@ footer .icon > .label {
     color: #fff;
 }
 
-.btm-top span {}
+#cvp_concept {
+    margin-top: 1.5em;
+}
+
+
+#cvp_concept > g {
+    display: none;
+    -webkit-transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+#cvp_concept > #cvp_cpt-profile {
+    display: block;
+    -webkit-transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+[id^='control_'] > g > circle {
+    -webkit-transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    fill: var(--primary);
+}
+[id^='control_'] circle:hover {
+    fill: var(--secondary);
+    cursor:pointer;
+    r: 7;
+}
+
+

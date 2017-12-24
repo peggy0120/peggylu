@@ -9,7 +9,7 @@
     <title>Campus Veteran Portal | Peggy Lu | UX Design</title>
 
     <!-- jQuery -->
-    <script src="../js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
 
     <!-- Load Header & Footer-->
     <script>
@@ -20,8 +20,8 @@
     </script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="../js/bootstrap.js"></script>
-    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.bundle.min.js"></script>
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="../css/bootstrap.min.css">
@@ -135,7 +135,7 @@
                                                 <span class="fa-angle-up"></span>
                                                 <span class="fa-angle-down"></span>
                                             </a>
-                                            <div class="row" id="collapse1">
+                                            <div class="row collapse show d-md-flex d-sm-none" id="collapse1">
                                                 <div class="col-6">
                                                     <p>Some of the user groups other than student veterans that we were initially interested were foster child, single-mother, and mentally disordered. However, with what the CHI brief emphasized: "where ongoing access and engagement is possible" in mind, we came to the decision of addressing student veterans with our design.</p>
                                                 </div>
@@ -148,12 +148,22 @@
                                 <section class="proj-sect" id="pj-res">
                                     <h2>Research &amp; Insights</h2>
                                     <a href="#wrapper" class="sect-top">back to top &nbsp;<span class="fa-caret-up"></span></a>
-                                    <div></div>
+                                    <div class="chart">
+                                        <object type="image/svg+xml" data="../image/cvp_R-I.svg"></object>
+                                    </div>
                                 </section>
                                 <section class="proj-sect" id="pj-desg">
                                     <h2>Concept</h2>
                                     <a href="#wrapper" class="sect-top">back to top &nbsp;<span class="fa-caret-up"></span></a>
-                                    <div></div>
+                                    <div id="cvp_concept">
+                                        <!--
+                                        <div id="cvp_cpt-profile"></div>
+                                        <div id="cvp_cpt-network"></div>
+                                        <div id="cvp_cpt-resources"></div>
+                                        <div id="cvp_cpt-map"></div>
+                                        <div id="cvp_cpt-events"></div>
+-->
+                                    </div>
                                 </section>
                                 <section class="proj-sect" id="pj-test">
                                     <h2>Testing &amp; Iteration</h2>
@@ -219,14 +229,14 @@
             /* Smooth Scrolling from https://css-tricks.com/snippets/jquery/smooth-scrolling/ */
 
             $(function() {
-                $('a[href*="#"]:not([href="#"])').click(function() {
+                $('a[href*="#"]:not([href*=#collapse])').click(function() {
                     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
                         var target = $(this.hash);
                         target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
                         if (target.length) {
                             $('html, body').animate({
                                 scrollTop: target.offset().top
-                            }, 200);
+                            }, 300);
                             return false;
                         }
                     }
@@ -241,7 +251,46 @@
                 $(this).html(string);
             });
 
-            $('.collapse').collapse();
+            /* Toggle card controls */
+
+            $('#collapse1').on('hide.bs.collapse', function() {
+                $(".fa-angle-up").hide();
+                $(".fa-angle-down").show();
+                $('#collapse1').addClass('d-sm-none');
+                $('#collapse1').removeClass('d-md-flex');
+            })
+            $('#collapse1').on('show.bs.collapse', function() {
+                $(".fa-angle-up").show();
+                $(".fa-angle-down").hide();
+                $('#collapse1').removeClass('d-sm-none');
+                $('#collapse1').addClass('d-md-flex');
+            })
+
+            /* Load Concept SVG & interactivity */
+
+            $('#cvp_concept').load('../image/cvp_concept.svg', function() {
+                $("[id^=ctrl-n]").mouseup(function() {
+                    $("[id^=cvp_cpt-]").hide();
+                    $("#cvp_cpt-network").show();
+                });
+                $("[id^=ctrl-r]").mouseup(function() {
+                    $("[id^=cvp_cpt-]").hide();
+                    $("#cvp_cpt-resources").show();
+                });
+                $("[id^=ctrl-m]").mouseup(function() {
+                    $("[id^=cvp_cpt-]").hide();
+                    $("#cvp_cpt-map").show();
+                });
+                $("[id^=ctrl-e]").mouseup(function() {
+                    $("[id^=cvp_cpt-]").hide();
+                    $("#cvp_cpt-events").show();
+                });
+                $("[id^=ctrl-p]").mouseup(function() {
+                    $("[id^=cvp_cpt-]").hide();
+                    $("#cvp_cpt-profile").show();
+                });
+            });
+
         });
 
     </script>
