@@ -1,0 +1,348 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="1368.75 11302 540.5 229.622">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #aaa;
+      }
+
+      .cls-2 {
+        fill: #888;
+      }
+
+      .cls-10, .cls-11, .cls-12, .cls-2 {
+        font-size: 12px;
+        font-family: Roboto-Regular, Roboto;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #ddd;
+        stroke-width: 0.5px;
+      }
+
+      .cls-10, .cls-4, .cls-7 {
+        fill: #33b599;
+      }
+
+      .cls-11, .cls-5, .cls-8 {
+        fill: #fac339;
+      }
+
+      .cls-12, .cls-6 {
+        fill: #51a6df;
+      }
+
+      .cls-7, .cls-8, .cls-9 {
+        font-size: 14px;
+      }
+
+      .cls-13, .cls-7, .cls-8, .cls-9 {
+        font-family: Roboto-Light, Roboto;
+        font-weight: 300;
+      }
+
+      .cls-9 {
+        fill: #fff;
+      }
+
+      .cls-13 {
+        font-size: 10px;
+      }
+
+      .cls-14 {
+        filter: url(#Rectangle_44);
+      }
+
+      .cls-15 {
+        filter: url(#Rectangle_46);
+      }
+
+      .cls-16 {
+        filter: url(#Rectangle_48);
+      }
+
+      .cls-17 {
+        filter: url(#Rectangle_47);
+      }
+
+      .cls-18 {
+        filter: url(#Rectangle_45);
+      }
+
+      .cls-19 {
+        filter: url(#Rectangle_43);
+      }
+
+      .cls-20 {
+        filter: url(#Rectangle_42-13);
+      }
+
+      .cls-21 {
+        filter: url(#Rectangle_42-12);
+      }
+
+      .cls-22 {
+        filter: url(#Rectangle_42-11);
+      }
+
+      .cls-23 {
+        filter: url(#Rectangle_42-10);
+      }
+
+      .cls-24 {
+        filter: url(#Rectangle_42-9);
+      }
+
+      .cls-25 {
+        filter: url(#Rectangle_42-8);
+      }
+
+      .cls-26 {
+        filter: url(#Rectangle_42-7);
+      }
+
+      .cls-27 {
+        filter: url(#Rectangle_42-6);
+      }
+
+      .cls-28 {
+        filter: url(#Rectangle_42-5);
+      }
+
+      .cls-29 {
+        filter: url(#Rectangle_42-4);
+      }
+
+      .cls-30 {
+        filter: url(#Rectangle_42-3);
+      }
+
+      .cls-31 {
+        filter: url(#Rectangle_42-2);
+      }
+
+      .cls-32 {
+        filter: url(#Rectangle_42);
+      }
+    </style>
+    <filter id="Rectangle_42" x="1411.75" y="11317.25" width="47.5" height="13.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="0.5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.75" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_42-2" x="1368.75" y="11317.25" width="45.5" height="13.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="0.5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.75" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_42-3" x="1456.75" y="11317.25" width="47.5" height="13.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="0.5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.75" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_42-4" x="1501.75" y="11317.25" width="47.5" height="13.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="0.5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.75" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_42-5" x="1546.75" y="11317.25" width="47.5" height="13.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="0.5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.75" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_42-6" x="1591.75" y="11317.25" width="47.5" height="13.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="0.5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.75" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_42-7" x="1636.75" y="11317.25" width="47.5" height="13.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="0.5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.75" result="blur-7"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_42-8" x="1681.75" y="11317.25" width="47.5" height="13.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="0.5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.75" result="blur-8"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_42-9" x="1726.75" y="11317.25" width="47.5" height="13.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="0.5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.75" result="blur-9"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_42-10" x="1771.75" y="11317.25" width="47.5" height="13.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="0.5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.75" result="blur-10"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-10"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_42-11" x="1816.75" y="11317.25" width="47.5" height="13.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="0.5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.75" result="blur-11"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-11"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_42-12" x="1861.75" y="11317.25" width="47.5" height="13.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="0.5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.75" result="blur-12"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-12"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_42-13" x="1431" y="11350" width="95" height="27" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-13"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-13"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_43" x="1453" y="11387" width="118" height="27" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-14"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-14"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_45" x="1533" y="11415" width="74" height="27" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-15"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-15"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_47" x="1561" y="11451" width="341.8" height="27" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-16"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-16"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_48" x="1612.358" y="11479" width="290.442" height="27" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-17"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-17"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_46" x="1796.06" y="11415" width="106.74" height="27" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-18"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-18"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_44" x="1742.727" y="11387" width="160.073" height="27" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-19"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-19"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="bb_timeline-2" transform="translate(1033 11182)">
+    <g id="heading" transform="translate(3 16)">
+      <g id="Group_79" data-name="Group 79">
+        <g class="cls-32" transform="matrix(1, 0, 0, 1, -1036, -11198)">
+          <rect id="Rectangle_42-14" data-name="Rectangle 42" class="cls-1" width="43" height="9" rx="1" transform="translate(1414 11319)"/>
+        </g>
+        <g class="cls-31" transform="matrix(1, 0, 0, 1, -1036, -11198)">
+          <rect id="Rectangle_42-15" data-name="Rectangle 42" class="cls-1" width="41" height="9" rx="1" transform="translate(1371 11319)"/>
+        </g>
+        <g class="cls-30" transform="matrix(1, 0, 0, 1, -1036, -11198)">
+          <rect id="Rectangle_42-16" data-name="Rectangle 42" class="cls-1" width="43" height="9" rx="1" transform="translate(1459 11319)"/>
+        </g>
+        <g class="cls-29" transform="matrix(1, 0, 0, 1, -1036, -11198)">
+          <rect id="Rectangle_42-17" data-name="Rectangle 42" class="cls-1" width="43" height="9" rx="1" transform="translate(1504 11319)"/>
+        </g>
+        <g class="cls-28" transform="matrix(1, 0, 0, 1, -1036, -11198)">
+          <rect id="Rectangle_42-18" data-name="Rectangle 42" class="cls-1" width="43" height="9" rx="1" transform="translate(1549 11319)"/>
+        </g>
+        <g class="cls-27" transform="matrix(1, 0, 0, 1, -1036, -11198)">
+          <rect id="Rectangle_42-19" data-name="Rectangle 42" class="cls-1" width="43" height="9" rx="1" transform="translate(1594 11319)"/>
+        </g>
+        <g class="cls-26" transform="matrix(1, 0, 0, 1, -1036, -11198)">
+          <rect id="Rectangle_42-20" data-name="Rectangle 42" class="cls-1" width="43" height="9" rx="1" transform="translate(1639 11319)"/>
+        </g>
+        <g class="cls-25" transform="matrix(1, 0, 0, 1, -1036, -11198)">
+          <rect id="Rectangle_42-21" data-name="Rectangle 42" class="cls-1" width="43" height="9" rx="1" transform="translate(1684 11319)"/>
+        </g>
+        <g class="cls-24" transform="matrix(1, 0, 0, 1, -1036, -11198)">
+          <rect id="Rectangle_42-22" data-name="Rectangle 42" class="cls-1" width="43" height="9" rx="1" transform="translate(1729 11319)"/>
+        </g>
+        <g class="cls-23" transform="matrix(1, 0, 0, 1, -1036, -11198)">
+          <rect id="Rectangle_42-23" data-name="Rectangle 42" class="cls-1" width="43" height="9" rx="1" transform="translate(1774 11319)"/>
+        </g>
+        <g class="cls-22" transform="matrix(1, 0, 0, 1, -1036, -11198)">
+          <rect id="Rectangle_42-24" data-name="Rectangle 42" class="cls-1" width="43" height="9" rx="1" transform="translate(1819 11319)"/>
+        </g>
+        <g class="cls-21" transform="matrix(1, 0, 0, 1, -1036, -11198)">
+          <rect id="Rectangle_42-25" data-name="Rectangle 42" class="cls-1" width="43" height="9" rx="1" transform="translate(1864 11319)"/>
+        </g>
+      </g>
+      <g id="Group_80" data-name="Group 80" transform="translate(0 -1)">
+        <text id="June" class="cls-2" transform="translate(407 116)"><tspan x="-13.269" y="0">June</tspan></text>
+        <text id="July" class="cls-2" transform="translate(602 116)"><tspan x="-11.203" y="0">July</tspan></text>
+        <text id="Aug" class="cls-2" transform="translate(782 116)"><tspan x="-10.731" y="0">Aug</tspan></text>
+      </g>
+    </g>
+    <g id="Group_79-2" data-name="Group 79" transform="translate(-0.5)">
+      <line id="Line_48" data-name="Line 48" class="cls-3" y2="42" transform="translate(515.5 131.5)"/>
+      <line id="Line_48-2" data-name="Line 48" class="cls-3" y2="88" transform="translate(515.5 261.5)"/>
+      <line id="Line_49" data-name="Line 49" class="cls-3" y2="14" transform="translate(515.5 189.5)"/>
+    </g>
+    <g id="Group_80-2" data-name="Group 80">
+      <line id="Line_49-2" data-name="Line 49" class="cls-3" y2="102" transform="translate(695 131.5)"/>
+      <line id="Line_50" data-name="Line 50" class="cls-3" y2="12" transform="translate(695 256)"/>
+      <line id="Line_51" data-name="Line 51" class="cls-3" y2="25" transform="translate(695 324.622)"/>
+    </g>
+    <g class="cls-20" transform="matrix(1, 0, 0, 1, -1033, -11182)">
+      <rect id="Rectangle_42-26" data-name="Rectangle 42" class="cls-4" width="89" height="21" rx="1" transform="translate(1434 11352)"/>
+    </g>
+    <g class="cls-19" transform="matrix(1, 0, 0, 1, -1033, -11182)">
+      <rect id="Rectangle_43-2" data-name="Rectangle 43" class="cls-5" width="112" height="21" rx="1" transform="translate(1456 11389)"/>
+    </g>
+    <g class="cls-18" transform="matrix(1, 0, 0, 1, -1033, -11182)">
+      <rect id="Rectangle_45-2" data-name="Rectangle 45" class="cls-5" width="68" height="21" rx="1" transform="translate(1536 11417)"/>
+    </g>
+    <g class="cls-17" transform="matrix(1, 0, 0, 1, -1033, -11182)">
+      <rect id="Rectangle_47-2" data-name="Rectangle 47" class="cls-6" width="335.8" height="21" rx="1" transform="translate(1564 11453)"/>
+    </g>
+    <g class="cls-16" transform="matrix(1, 0, 0, 1, -1033, -11182)">
+      <rect id="Rectangle_48-2" data-name="Rectangle 48" class="cls-6" width="284.442" height="21" rx="1" transform="translate(1615.36 11481)"/>
+    </g>
+    <g class="cls-15" transform="matrix(1, 0, 0, 1, -1033, -11182)">
+      <rect id="Rectangle_46-2" data-name="Rectangle 46" class="cls-5" width="100.74" height="21" rx="1" transform="translate(1799.06 11417)"/>
+    </g>
+    <g class="cls-14" transform="matrix(1, 0, 0, 1, -1033, -11182)">
+      <rect id="Rectangle_44-2" data-name="Rectangle 44" class="cls-5" width="154.073" height="21" rx="1" transform="translate(1745.73 11389)"/>
+    </g>
+    <text id="Customer_Journey_Map" data-name="Customer Journey Map" class="cls-7" transform="translate(497 186)"><tspan x="0" y="0">Customer Journey Map</tspan></text>
+    <text id="Competitive_Analysis" data-name="Competitive Analysis" class="cls-8" transform="translate(542 222)"><tspan x="0" y="0">Competitive Analysis</tspan></text>
+    <text id="B2B_User_Onboarding" data-name="B2B User Onboarding" class="cls-8" transform="translate(578 250)"><tspan x="0" y="0">B2B User Onboarding</tspan></text>
+    <text id="Marketing_Automation_Dashboard" data-name="Marketing Automation Dashboard" class="cls-9" transform="translate(536 286)"><tspan x="0" y="0">Marketing Automation Dashboard</tspan></text>
+    <text id="VisionType_on_New_Marketing_Solution" data-name="VisionType on New Marketing Solution" class="cls-9" transform="translate(588 314.5)"><tspan x="0" y="0">VisionType on New Marketing Solution</tspan></text>
+    <text id="User_Research" data-name="UserResearch" class="cls-10" transform="translate(341 179)"><tspan x="0" y="0">User</tspan><tspan x="0" y="12">Research</tspan></text>
+    <text id="Desk_Research" data-name="DeskResearch" class="cls-11" transform="translate(341 234)"><tspan x="0" y="0">Desk</tspan><tspan x="0" y="12">Research</tspan></text>
+    <text id="Design_User_Research_Desk_Research" data-name="Design+User Research+Desk Research" class="cls-12" transform="translate(341 288)"><tspan x="0" y="0">Design</tspan><tspan class="cls-13"><tspan x="0" y="12">+User Research</tspan><tspan x="0" y="24">+Desk Research</tspan></tspan></text>
+  </g>
+</svg>
