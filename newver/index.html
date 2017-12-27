@@ -59,7 +59,7 @@
                 <div class="container">
                     <div class="row justify-content-start no-gutters">
 
-                       <div class="project-item blackbaud col-lg-6 col-12 justify-content-center">
+                       <div class="project-item blackbaud col-lg-6 col-12 justify-content-center" on-click="void(0)">
                            <a href="/newver/projects/bb-ux-intern.html" class="project-url d-flex">
                                 <div class="project-img">
                                     <img src="/newver/image/blackbaud.jpg">
@@ -72,7 +72,7 @@
                             </a>
                         </div>
 
-                        <div class="project-item ntulis col-lg-6 col-12 justify-content-center">
+                        <div class="project-item ntulis col-lg-6 col-12 justify-content-center" on-click="void(0)">
                            <a href="/newver/projects/ntulis-IA.html" class="project-url d-flex">
                                 <div class="project-img">
                                     <img src="/newver/image/NTULIS_thumb.jpg">
@@ -85,7 +85,7 @@
                             </a>
                         </div>
 
-                        <div class="project-item iuos col-lg-6 col-12 justify-content-center">
+                        <div class="project-item iuos col-lg-6 col-12 justify-content-center" on-click="void(0)">
                            <a href="/newver/projects/iuhcid-iuos.html" class="project-url d-flex">
                                 <div class="project-img">
                                     <img src="/newver/image/iuos_thumb.jpg">
@@ -98,7 +98,7 @@
                             </a>
                         </div>
 
-                        <div class="project-item gogreen col-lg-6 col-12 justify-content-center">
+                        <div class="project-item gogreen col-lg-6 col-12 justify-content-center" on-click="void(0)">
                            <a href="/newver/projects/iuhcid-gogreen.html" class="project-url d-flex">
                                 <div class="project-img">
                                     <img src="/newver/image/gogreen_thumb.jpg">
@@ -111,7 +111,7 @@
                             </a>
                         </div>
 
-                        <div class="project-item cvp col-lg-6 col-12 justify-content-center">
+                        <div class="project-item cvp col-lg-6 col-12 justify-content-center" on-click="void(0)">
                            <a href="/newver/projects/iuhcid-cvp.html" class="project-url d-flex">
                                 <div class="project-img">
                                     <img src="/newver/image/cvp_thumb.jpg">
@@ -124,7 +124,7 @@
                             </a>
                         </div>
 
-                        <div class="project-item equi col-lg-6 col-12 justify-content-center d-none">
+                        <div class="project-item equi col-lg-6 col-12 justify-content-center d-none" on-click="void(0)">
                            <a href="#" class="project-url d-flex">
                                 <div class="project-img">
                                     <img src="/newver/image/Equi-table_thumb.png">
@@ -158,7 +158,9 @@
 
     <script>
         $(document).ready(function () {
+
             $('.dropdown-toggle').dropdown();
+
             $('#header').load('reuseNav.html', function(){
                 $('a.navbar-brand').addClass('disabled');
                 $('.dropdown-menu').mouseenter(function() {
@@ -168,6 +170,32 @@
                    $('.dropdown-toggle').removeClass('active');
                 });
             });
+
+            /* Smooth Scrolling from https://css-tricks.com/snippets/jquery/smooth-scrolling/ */
+
+            $(function() {
+                $('a[href*="#"]:not([href*=#collapse])').click(function() {
+                    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                        var target = $(this.hash);
+                        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                        if (target.length) {
+                            $('html, body').animate({
+                                scrollTop: target.offset().top
+                            }, 300);
+                            return false;
+                        }
+                    }
+                });
+            });
+
+            /* Preventing widows from https://webdevdoor.com/jquery/preventing-widows-websites-jquery */
+
+            $('#main p').each(function() {
+                var string = $(this).html();
+                string = string.replace(/ ([^ ]*)$/, '&nbsp;$1');
+                $(this).html(string);
+            });
+
         });
     </script>
 </body>
