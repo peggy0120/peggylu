@@ -423,7 +423,7 @@ nav .dropdown-item.dd-active {
 .project #main p,
 .project #main ul,
 .project #main a,
-.project #main span {
+.project #main p span {
     font-weight: 300;
 }
 
@@ -704,6 +704,10 @@ nav .dropdown-item.dd-active {
     z-index: 101;
 }
 
+.project #main .proj-cont .proj-sect > .sect-top span {
+    font-weight: inherit;
+}
+
 .project #main .proj-cont .proj-sect > .sect-top:hover {
     color: var(--primary);
 }
@@ -768,6 +772,7 @@ nav .dropdown-item.dd-active {
 
 .project #main .proj-cont .proj-sect .card .collapse-btn span {
     font-size: 2em;
+    line-height: 1.5;
     position: absolute;
     right: 30px;
     top: 0;
