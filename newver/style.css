@@ -704,10 +704,6 @@ nav .dropdown-item.dd-active {
     z-index: 101;
 }
 
-.project #main .proj-cont .proj-sect > .sect-top span {
-    font-weight: inherit;
-}
-
 .project #main .proj-cont .proj-sect > .sect-top:hover {
     color: var(--primary);
 }
@@ -968,6 +964,8 @@ footer .icon > .label {
     color: #fff;
 }
 
+/* SVG Interactivity */
+
 #cvp_concept {
     margin-top: 1.5em;
 }
@@ -994,4 +992,21 @@ footer .icon > .label {
     cursor: pointer;
     fill: var(--secondary);
     r: 7;
+}
+
+/* Mobile Readibility */
+
+@media screen and (max-width: 768px) {
+    .project #main .proj-cont article p {
+        font-size: 20px;
+        font-weight: normal;
+    }
+    .project #main .proj-cont .proj-sect .quote {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .project #main .proj-cont .proj-sect .quote > p {
+        font-weight: 300;
+        line-height: 1.5;
+    }
 }
