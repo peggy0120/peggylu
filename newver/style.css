@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
-@import url(css/fontawesome-all.css);
 
 /*
     -- BASICS --
@@ -905,13 +904,12 @@ footer .footer-links {
 footer .icon {
     background-color: transparent;
     color: var(--txGrey);
+    line-height: 1.5;
 }
 
 footer .icon:before {
-    font-family: FontAwesome;
     font-size: 2rem;
     font-style: normal;
-    font-weight: normal;
     text-transform: none !important;
 }
 
@@ -923,6 +921,7 @@ footer .icon:hover {
 footer .icon > .label {
     font-size: 12px;
     display: block;
+    font-family: Roboto;
     font-weight: 300;
     white-space: nowrap;
     width: 100%;
