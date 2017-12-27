@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1520" height="350" viewBox="0 0 1520 350">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c142 79.160924, 2017/07/13-01:06:39        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1 {
+        opacity: 0.9;
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        opacity: 0.1;
+        mix-blend-mode: overlay;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="757.5" y1="372" x2="757.5" y2="-22" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6cbe4d"/>
+      <stop offset="0.401" stop-color="#50bc77"/>
+      <stop offset="0.752" stop-color="#30b9a7"/>
+      <stop offset="1" stop-color="#0fb5d9"/>
+    </linearGradient>
+  </defs>
+  <rect class="cls-1" x="-27" y="-22" width="1569" height="394"/>
+  <rect id="Rectangle_1_copy" data-name="Rectangle 1 copy" class="cls-2" x="-27" y="-22" width="1569" height="394"/>
+</svg>
