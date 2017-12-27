@@ -176,7 +176,7 @@ nav .subtitle {
     font-weight: 300;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     header {
         height: 130px;
     }
@@ -234,7 +234,7 @@ nav .nav-item a.nav-link.active {
     font-weight: 700;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     nav div.menu {
         margin-top: 0;
     }
@@ -324,9 +324,9 @@ nav .dropdown-item.dd-active {
 #main .project-item:hover .project-url {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-    transform: translate(0, -2px);
-    -moz-transform: translate(0, -2px);
-    -webkit-transform: translate(0, -2px);
+    transform: translate(0, -2px) scale(1.005);
+    -moz-transform: translate(0, -2px) scale(1.005);
+    -webkit-transform: translate(0, -2px) scale(1.005);
 }
 
 #main .project-item:hover .project-img {
@@ -550,7 +550,7 @@ nav .dropdown-item.dd-active {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .project #main .proj-meta .proj-overview {
         background: -webkit-gradient(linear, left top, left bottom, from(#0a231e), to(#45635c));
         -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.64), inset 0 1px 2px rgba(0, 0, 0, 0.76), inset 0 -1px 3px rgba(0, 0, 0, 0.24), inset 0 -1px 2px rgba(0, 0, 0, 0.36);
@@ -915,6 +915,9 @@ div[class^='more-subtitle'] {
 }
 
 @media screen and (max-width: 992px) {
+    .project #more .container {
+        padding-bottom: 3em;
+    }
     div.more-subtitle-2 {
         margin-top: 1em;
     }
@@ -1032,7 +1035,7 @@ footer .icon > .label {
 
 /* Mobile Readibility */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .project #main .proj-cont article p {
         font-size: 20px;
         font-weight: normal;
