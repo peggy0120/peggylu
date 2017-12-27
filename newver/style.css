@@ -178,10 +178,10 @@ nav .subtitle {
 
 @media screen and (max-width: 768px) {
     header {
-        height: 140px;
+        height: 130px;
     }
     nav .title-inner {
-        height: auto;
+        height: 65px;
     }
 }
 
@@ -205,7 +205,7 @@ nav a.navbar-brand:hover .subtitle {
 nav div.menu {
     border-top: 0.5px solid var(--borderGrey);
     display: inline-block;
-    margin-left: 80px;
+    margin-left: 85px;
     margin-top: 0.5rem;
     padding-top: 0.5rem;
     position: relative;
@@ -214,6 +214,7 @@ nav div.menu {
 }
 
 nav .navbar-nav {
+    margin-left: -5px;
     width: 100%;
 }
 
@@ -233,6 +234,12 @@ nav .nav-item a.nav-link.active {
     font-weight: 700;
 }
 
+@media screen and (max-width: 768px) {
+    nav div.menu {
+        margin-top: 0;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .navbar div.menu {
         border: none;
@@ -249,7 +256,7 @@ nav .nav-item a.nav-link.active {
 }
 
 nav .dropdown {
-    padding-bottom: 0.75rem;
+    padding-bottom: 10px;
 }
 
 nav .dropdown:hover .dropdown-menu {
@@ -378,7 +385,7 @@ nav .dropdown-item.dd-active {
 }
 
 #main .project-desc {
-/*    color: var(--txGrey);*/
+    /*    color: var(--txGrey);*/
     font-size: 0.8rem;
     font-weight: 300;
     line-height: 1.25;
@@ -543,6 +550,18 @@ nav .dropdown-item.dd-active {
     }
 }
 
+@media screen and (max-width: 768px) {
+    .project #main .proj-meta .proj-overview {
+        background: -webkit-gradient(linear, left top, left bottom, from(#0a231e), to(#45635c));
+        -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.64), inset 0 1px 2px rgba(0, 0, 0, 0.76), inset 0 -1px 3px rgba(0, 0, 0, 0.24), inset 0 -1px 2px rgba(0, 0, 0, 0.36);
+        box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.64), inset 0 1px 2px rgba(0, 0, 0, 0.76), inset 0 -1px 3px rgba(0, 0, 0, 0.24), inset 0 -1px 2px rgba(0, 0, 0, 0.36);
+        color: #fff;
+        margin: -1.5em auto 1em -45px;
+        padding: 1em 45px;
+        width: calc( 100% + 90px);
+    }
+}
+
 .project #main .proj-cont {
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.72), 0 2px 2px rgba(0, 0, 0, 0.84);
     -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.72), 0 2px 2px rgba(0, 0, 0, 0.84);
@@ -583,6 +602,7 @@ nav .dropdown-item.dd-active {
 
 .project #main .proj-cont #sidenav .sn-breadcrumb {
     font-size: 0.8em;
+    font-weight: 300;
 }
 
 .project #main .proj-cont #sidenav .sn-breadcrumb > a {
@@ -596,6 +616,7 @@ nav .dropdown-item.dd-active {
 
 .project #main .proj-cont #sidenav .sn-header {
     display: block;
+    font-weight: 300;
     line-height: 1.5;
     margin-top: 5px;
     margin-bottom: -5px;
@@ -882,6 +903,21 @@ nav .dropdown-item.dd-active {
 .project #more #main {
     box-shadow: none;
     -webkit-box-shadow: none;
+}
+
+div[class^='more-subtitle'] {
+    color: var(--borderGrey);
+    font-weight: 300;
+    font-size: 0.8em;
+    margin-top: -2em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+    div.more-subtitle-2 {
+        margin-top: 1em;
+    }
 }
 
 footer {

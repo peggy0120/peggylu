@@ -257,9 +257,11 @@
             /* Loading & Choosing which projs to show in More */
 
             $('#more-content').load('/newver/index.html #main.homepage', function() {
-                $('.cvp').addClass('d-none');
-                $('.ntulis').addClass('d-none');
+                $('.blackbaud').addClass('d-none');
                 $('.iuos').addClass('d-none');
+                $('.cvp').addClass('d-none');
+                $('<div class="more-subtitle">... about working with the university</div>').insertBefore('.ntulis a.project-url');
+                $('<div class="more-subtitle-2">... about empowering users</div>').insertBefore('.gogreen a.project-url');
             });
 
             /* Implementing Scrollspy */
