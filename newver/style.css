@@ -184,10 +184,6 @@ nav .subtitle {
     nav .title-inner {
         height: auto;
     }
-    nav .name,
-    nav .subtitle {
-        height: 40px;
-    }
 }
 
 nav a.navbar-brand:hover {
@@ -439,6 +435,8 @@ nav .dropdown-item.dd-active {
 }
 
 .project #main .proj-header {
+    background: linear-gradient(to bottom, #0a231e 0%, #45635c 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#0a231e), to(#45635c));
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
