@@ -1,0 +1,891 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="7323.5 8452 720.5 533">
+  <defs>
+    <style>
+      .cls-1, .cls-13, .cls-7 {
+        fill: none;
+      }
+
+      .cls-2, .cls-21, .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        font-size: 14px;
+      }
+
+      .cls-3, .cls-6, .cls-9 {
+        font-family: Roboto-Light, Roboto;
+        font-weight: 300;
+      }
+
+      .cls-4, .cls-6 {
+        font-size: 12px;
+      }
+
+      .cls-5 {
+        fill: #999;
+      }
+
+      .cls-10, .cls-5 {
+        font-size: 10px;
+      }
+
+      .cls-10, .cls-11, .cls-5 {
+        font-family: Roboto-Regular, Roboto;
+      }
+
+      .cls-11, .cls-6 {
+        fill: #33b599;
+      }
+
+      .cls-13, .cls-7, .cls-8 {
+        stroke: #aaa;
+      }
+
+      .cls-9 {
+        font-size: 11px;
+      }
+
+      .cls-10 {
+        fill: #888;
+      }
+
+      .cls-11 {
+        font-weight: 400;
+      }
+
+      .cls-12 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-13 {
+        stroke-width: 2px;
+      }
+
+      .cls-14 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-15 {
+        clip-path: url(#clip-path-3);
+      }
+
+      .cls-16 {
+        clip-path: url(#clip-path-4);
+      }
+
+      .cls-17 {
+        clip-path: url(#clip-path-5);
+      }
+
+      .cls-18 {
+        clip-path: url(#clip-path-6);
+      }
+
+      .cls-19 {
+        clip-path: url(#clip-path-7);
+      }
+
+      .cls-20 {
+        clip-path: url(#clip-path-8);
+      }
+
+      .cls-21 {
+        stroke: #33b599;
+        stroke-width: 1.5px;
+      }
+
+      .cls-22 {
+        filter: url(#node-bg-9);
+      }
+
+      .cls-23 {
+        filter: url(#node-bg-8);
+      }
+
+      .cls-24 {
+        filter: url(#node-bg-7);
+      }
+
+      .cls-25 {
+        filter: url(#node-bg-6);
+      }
+
+      .cls-26 {
+        filter: url(#node-bg-5);
+      }
+
+      .cls-27 {
+        filter: url(#node-bg-4);
+      }
+
+      .cls-28 {
+        filter: url(#node-bg-3);
+      }
+
+      .cls-29 {
+        filter: url(#node-bg-2);
+      }
+
+      .cls-30 {
+        filter: url(#node-bg);
+      }
+    </style>
+    <filter id="node-bg" x="7324" y="8452" width="190" height="99" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="node-bg-2" x="7323.5" y="8585.5" width="167" height="101" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-2"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="node-bg-3" x="7507.5" y="8585.5" width="167" height="77" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-3"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="node-bg-4" x="7692" y="8585.5" width="167" height="101" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-4"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="node-bg-5" x="7877" y="8585.5" width="167" height="77" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-5"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect class="cls-1" width="2" height="223"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect class="cls-1" width="2" height="201"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect class="cls-1" width="2" height="123"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <rect class="cls-1" width="2" height="181"/>
+    </clipPath>
+    <clipPath id="clip-path-5">
+      <rect class="cls-1" width="2" height="168"/>
+    </clipPath>
+    <clipPath id="clip-path-6">
+      <rect class="cls-1" width="2" height="328"/>
+    </clipPath>
+    <clipPath id="clip-path-7">
+      <rect class="cls-1" width="2" height="122"/>
+    </clipPath>
+    <clipPath id="clip-path-8">
+      <rect class="cls-1" width="2" height="101"/>
+    </clipPath>
+    <filter id="node-bg-6" x="7324.25" y="8717.25" width="271.5" height="130.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-6"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="node-bg-7" x="7508" y="8880" width="166" height="104" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-7"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="node-bg-8" x="7693" y="8881" width="166" height="104" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-8"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="node-bg-9" x="7878" y="8880" width="166" height="104" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-9"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="cvp_T-I" transform="translate(6956 8366)">
+    <g id="node-1-1" transform="translate(0 -20)">
+      <g class="cls-30" transform="matrix(1, 0, 0, 1, -6956, -8346)">
+        <rect id="node-bg-10" data-name="node-bg" class="cls-2" width="184" height="93" rx="2" transform="translate(7327 8454)"/>
+      </g>
+      <g id="node-cont">
+        <text id="node-tx" class="cls-3" transform="translate(463 146)"><tspan x="-42.058" y="0">Task Analysis</tspan><tspan x="-67.662" y="21">Retrospective Probing</tspan><tspan class="cls-4"><tspan x="-76.866" y="42">(with hi-fi wireframe in </tspan><tspan class="cls-2" y="42">Axure</tspan><tspan y="42">)</tspan></tspan></text>
+        <text id="node-label" class="cls-5" transform="translate(463 126)"><tspan x="-37.087" y="0">Usability Testing</tspan></text>
+        <text id="link" class="cls-6" transform="translate(506 188)"><tspan x="0" y="0">Axure</tspan></text>
+      </g>
+    </g>
+    <g id="connector-a">
+      <line id="Line_47" data-name="Line 47" class="cls-7" y2="20" transform="translate(451.5 181.5)"/>
+      <line id="Line_48" data-name="Line 48" class="cls-7" x2="553" transform="translate(451.5 201.5)"/>
+      <line id="Line_49" data-name="Line 49" class="cls-7" y2="21" transform="translate(451.5 201.5)"/>
+      <line id="Line_50" data-name="Line 50" class="cls-7" y2="21" transform="translate(635.5 201.5)"/>
+      <line id="Line_51" data-name="Line 51" class="cls-7" y2="21" transform="translate(819.5 201.5)"/>
+      <line id="Line_52" data-name="Line 52" class="cls-7" y2="21" transform="translate(1004.5 201.5)"/>
+    </g>
+    <g id="node-2-1" transform="translate(0 113)">
+      <g class="cls-29" transform="matrix(1, 0, 0, 1, -6956, -8479)">
+        <rect id="node-bg-11" data-name="node-bg" class="cls-8" width="160" height="94" rx="2" transform="translate(7327 8588)"/>
+      </g>
+      <g id="node-cont-2" data-name="node-cont">
+        <text id="node-tx-2" data-name="node-tx" class="cls-9" transform="translate(374 133)"><tspan x="7.892" y="10">Positive reaction overall with </tspan><tspan x="5.019" y="25">having a centralized portal for </tspan><tspan x="3.617" y="40">resources &amp; the opportunity of </tspan><tspan x="25.442" y="55">a veteran community</tspan></text>
+        <text id="node-label-2" data-name="node-label" class="cls-10" transform="translate(451 126)"><tspan x="-33.318" y="0">User Feedback</tspan></text>
+      </g>
+    </g>
+    <g id="node-2-2" transform="translate(184 113)">
+      <g class="cls-28" transform="matrix(1, 0, 0, 1, -7140, -8479)">
+        <rect id="node-bg-12" data-name="node-bg" class="cls-8" width="160" height="70" rx="2" transform="translate(7511 8588)"/>
+      </g>
+      <g id="node-cont-3" data-name="node-cont">
+        <text id="node-tx-3" data-name="node-tx" class="cls-9" transform="translate(377 133)"><tspan x="10.009" y="10">More </tspan><tspan class="cls-11" y="10">personal connection </tspan><tspan x="22.843" y="27.5">with other individuals</tspan></text>
+        <text id="node-label-3" data-name="node-label" class="cls-10" transform="translate(451 126)"><tspan x="-33.318" y="0">User Feedback</tspan></text>
+      </g>
+    </g>
+    <g id="node-2-3" transform="translate(368 113)">
+      <g class="cls-27" transform="matrix(1, 0, 0, 1, -7324, -8479)">
+        <rect id="node-bg-13" data-name="node-bg" class="cls-8" width="160" height="94" rx="2" transform="translate(7695.5 8588)"/>
+      </g>
+      <g id="node-cont-4" data-name="node-cont" transform="translate(1)">
+        <text id="node-tx-4" data-name="node-tx" class="cls-9" transform="translate(377 133)"><tspan x="4.187" y="10">More guidance on navigating </tspan><tspan x="14.794" y="27.5">through files required for </tspan><tspan x="23.206" y="45">different applications</tspan></text>
+        <text id="node-label-4" data-name="node-label" class="cls-10" transform="translate(451 126)"><tspan x="-33.318" y="0">User Feedback</tspan></text>
+      </g>
+    </g>
+    <g id="node-2-4" transform="translate(553 113)">
+      <g class="cls-26" transform="matrix(1, 0, 0, 1, -7509, -8479)">
+        <rect id="node-bg-14" data-name="node-bg" class="cls-8" width="160" height="70" rx="2" transform="translate(7880.5 8588)"/>
+      </g>
+      <g id="node-cont-5" data-name="node-cont" transform="translate(1)">
+        <text id="node-tx-5" data-name="node-tx" class="cls-9" transform="translate(377 133)"><tspan x="16.274" y="10">Integration with existing </tspan><tspan x="35.068" y="27.5">social platforms</tspan></text>
+        <text id="node-label-5" data-name="node-label" class="cls-10" transform="translate(451 126)"><tspan x="-33.318" y="0">User Feedback</tspan></text>
+      </g>
+    </g>
+    <g id="connector-b">
+      <line id="Line_53" data-name="Line 53" class="cls-7" y2="16" transform="translate(486.5 316.5)"/>
+      <line id="Line_54" data-name="Line 54" class="cls-7" y2="41" transform="translate(635.5 293.5)"/>
+      <line id="Line_55" data-name="Line 55" class="cls-7" y2="22" transform="translate(486.5 332.5)"/>
+      <line id="Line_56" data-name="Line 56" class="cls-7" x2="149" transform="translate(486.5 334.5)"/>
+    </g>
+    <g id="connector-c">
+      <g id="Repeat_Grid_1" data-name="Repeat Grid 1" class="cls-12" transform="translate(587.5 295.5)">
+        <g transform="translate(-777.5 -484.5)">
+          <line id="Line_47-2" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -476.5)">
+          <line id="Line_47-3" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -468.5)">
+          <line id="Line_47-4" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -460.5)">
+          <line id="Line_47-5" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -452.5)">
+          <line id="Line_47-6" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -444.5)">
+          <line id="Line_47-7" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -436.5)">
+          <line id="Line_47-8" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -428.5)">
+          <line id="Line_47-9" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -420.5)">
+          <line id="Line_47-10" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -412.5)">
+          <line id="Line_47-11" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -404.5)">
+          <line id="Line_47-12" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -396.5)">
+          <line id="Line_47-13" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -388.5)">
+          <line id="Line_47-14" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -380.5)">
+          <line id="Line_47-15" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -372.5)">
+          <line id="Line_47-16" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -364.5)">
+          <line id="Line_47-17" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -356.5)">
+          <line id="Line_47-18" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -348.5)">
+          <line id="Line_47-19" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -340.5)">
+          <line id="Line_47-20" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -332.5)">
+          <line id="Line_47-21" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -324.5)">
+          <line id="Line_47-22" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -316.5)">
+          <line id="Line_47-23" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -308.5)">
+          <line id="Line_47-24" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -300.5)">
+          <line id="Line_47-25" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -292.5)">
+          <line id="Line_47-26" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -284.5)">
+          <line id="Line_47-27" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -276.5)">
+          <line id="Line_47-28" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -268.5)">
+          <line id="Line_47-29" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+      </g>
+      <g id="Repeat_Grid_4" data-name="Repeat Grid 4" class="cls-14" transform="translate(822.5 516.5) rotate(180)">
+        <g transform="translate(-777.5 -484.5)">
+          <line id="Line_47-30" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -476.5)">
+          <line id="Line_47-31" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -468.5)">
+          <line id="Line_47-32" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -460.5)">
+          <line id="Line_47-33" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -452.5)">
+          <line id="Line_47-34" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -444.5)">
+          <line id="Line_47-35" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -436.5)">
+          <line id="Line_47-36" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -428.5)">
+          <line id="Line_47-37" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -420.5)">
+          <line id="Line_47-38" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -412.5)">
+          <line id="Line_47-39" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -404.5)">
+          <line id="Line_47-40" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -396.5)">
+          <line id="Line_47-41" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -388.5)">
+          <line id="Line_47-42" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -380.5)">
+          <line id="Line_47-43" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -372.5)">
+          <line id="Line_47-44" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -364.5)">
+          <line id="Line_47-45" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -356.5)">
+          <line id="Line_47-46" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -348.5)">
+          <line id="Line_47-47" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -340.5)">
+          <line id="Line_47-48" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -332.5)">
+          <line id="Line_47-49" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -324.5)">
+          <line id="Line_47-50" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -316.5)">
+          <line id="Line_47-51" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -308.5)">
+          <line id="Line_47-52" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -300.5)">
+          <line id="Line_47-53" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -292.5)">
+          <line id="Line_47-54" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -284.5)">
+          <line id="Line_47-55" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+      </g>
+      <g id="Repeat_Grid_5" data-name="Repeat Grid 5" class="cls-15" transform="translate(1004.5 294.5)">
+        <g transform="translate(-777.5 -484.5)">
+          <line id="Line_47-56" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -476.5)">
+          <line id="Line_47-57" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -468.5)">
+          <line id="Line_47-58" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -460.5)">
+          <line id="Line_47-59" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -452.5)">
+          <line id="Line_47-60" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -444.5)">
+          <line id="Line_47-61" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -436.5)">
+          <line id="Line_47-62" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -428.5)">
+          <line id="Line_47-63" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -420.5)">
+          <line id="Line_47-64" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -412.5)">
+          <line id="Line_47-65" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -404.5)">
+          <line id="Line_47-66" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -396.5)">
+          <line id="Line_47-67" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -388.5)">
+          <line id="Line_47-68" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -380.5)">
+          <line id="Line_47-69" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -372.5)">
+          <line id="Line_47-70" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -364.5)">
+          <line id="Line_47-71" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+      </g>
+      <g id="Repeat_Grid_2" data-name="Repeat Grid 2" class="cls-16" transform="translate(419.5 318.5)">
+        <g transform="translate(-777.5 -484.5)">
+          <line id="Line_47-72" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -476.5)">
+          <line id="Line_47-73" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -468.5)">
+          <line id="Line_47-74" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -460.5)">
+          <line id="Line_47-75" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -452.5)">
+          <line id="Line_47-76" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -444.5)">
+          <line id="Line_47-77" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -436.5)">
+          <line id="Line_47-78" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -428.5)">
+          <line id="Line_47-79" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -420.5)">
+          <line id="Line_47-80" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -412.5)">
+          <line id="Line_47-81" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -404.5)">
+          <line id="Line_47-82" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -396.5)">
+          <line id="Line_47-83" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -388.5)">
+          <line id="Line_47-84" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -380.5)">
+          <line id="Line_47-85" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -372.5)">
+          <line id="Line_47-86" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -364.5)">
+          <line id="Line_47-87" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -356.5)">
+          <line id="Line_47-88" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -348.5)">
+          <line id="Line_47-89" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -340.5)">
+          <line id="Line_47-90" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -332.5)">
+          <line id="Line_47-91" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -324.5)">
+          <line id="Line_47-92" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -316.5)">
+          <line id="Line_47-93" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -308.5)">
+          <line id="Line_47-94" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+      </g>
+      <g id="Repeat_Grid_3" data-name="Repeat Grid 3" class="cls-17" transform="translate(420 499) rotate(-90)">
+        <g transform="translate(-777.5 -484.5)">
+          <line id="Line_47-95" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -476.5)">
+          <line id="Line_47-96" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -468.5)">
+          <line id="Line_47-97" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -460.5)">
+          <line id="Line_47-98" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -452.5)">
+          <line id="Line_47-99" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -444.5)">
+          <line id="Line_47-100" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -436.5)">
+          <line id="Line_47-101" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -428.5)">
+          <line id="Line_47-102" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -420.5)">
+          <line id="Line_47-103" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -412.5)">
+          <line id="Line_47-104" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -404.5)">
+          <line id="Line_47-105" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -396.5)">
+          <line id="Line_47-106" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -388.5)">
+          <line id="Line_47-107" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -380.5)">
+          <line id="Line_47-108" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -372.5)">
+          <line id="Line_47-109" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -364.5)">
+          <line id="Line_47-110" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -356.5)">
+          <line id="Line_47-111" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -348.5)">
+          <line id="Line_47-112" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -340.5)">
+          <line id="Line_47-113" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -332.5)">
+          <line id="Line_47-114" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -324.5)">
+          <line id="Line_47-115" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+      </g>
+      <g id="Repeat_Grid_7" data-name="Repeat Grid 7" class="cls-18" transform="translate(677 417) rotate(-90)">
+        <g transform="translate(-777.5 -484.5)">
+          <line id="Line_47-116" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -476.5)">
+          <line id="Line_47-117" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -468.5)">
+          <line id="Line_47-118" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -460.5)">
+          <line id="Line_47-119" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -452.5)">
+          <line id="Line_47-120" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -444.5)">
+          <line id="Line_47-121" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -436.5)">
+          <line id="Line_47-122" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -428.5)">
+          <line id="Line_47-123" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -420.5)">
+          <line id="Line_47-124" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -412.5)">
+          <line id="Line_47-125" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -404.5)">
+          <line id="Line_47-126" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -396.5)">
+          <line id="Line_47-127" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -388.5)">
+          <line id="Line_47-128" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -380.5)">
+          <line id="Line_47-129" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -372.5)">
+          <line id="Line_47-130" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -364.5)">
+          <line id="Line_47-131" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -356.5)">
+          <line id="Line_47-132" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -348.5)">
+          <line id="Line_47-133" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -340.5)">
+          <line id="Line_47-134" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -332.5)">
+          <line id="Line_47-135" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -324.5)">
+          <line id="Line_47-136" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -316.5)">
+          <line id="Line_47-137" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -308.5)">
+          <line id="Line_47-138" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -300.5)">
+          <line id="Line_47-139" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -292.5)">
+          <line id="Line_47-140" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -284.5)">
+          <line id="Line_47-141" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -276.5)">
+          <line id="Line_47-142" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -268.5)">
+          <line id="Line_47-143" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -260.5)">
+          <line id="Line_47-144" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -252.5)">
+          <line id="Line_47-145" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -244.5)">
+          <line id="Line_47-146" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -236.5)">
+          <line id="Line_47-147" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -228.5)">
+          <line id="Line_47-148" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -220.5)">
+          <line id="Line_47-149" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -212.5)">
+          <line id="Line_47-150" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -204.5)">
+          <line id="Line_47-151" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -196.5)">
+          <line id="Line_47-152" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -188.5)">
+          <line id="Line_47-153" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -180.5)">
+          <line id="Line_47-154" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -172.5)">
+          <line id="Line_47-155" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -164.5)">
+          <line id="Line_47-156" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+      </g>
+      <g id="Repeat_Grid_6" data-name="Repeat Grid 6" class="cls-19" transform="translate(676.5 294.5)">
+        <g transform="translate(-777.5 -484.5)">
+          <line id="Line_47-157" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -476.5)">
+          <line id="Line_47-158" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -468.5)">
+          <line id="Line_47-159" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -460.5)">
+          <line id="Line_47-160" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -452.5)">
+          <line id="Line_47-161" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -444.5)">
+          <line id="Line_47-162" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -436.5)">
+          <line id="Line_47-163" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -428.5)">
+          <line id="Line_47-164" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -420.5)">
+          <line id="Line_47-165" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -412.5)">
+          <line id="Line_47-166" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -404.5)">
+          <line id="Line_47-167" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -396.5)">
+          <line id="Line_47-168" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -388.5)">
+          <line id="Line_47-169" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -380.5)">
+          <line id="Line_47-170" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -372.5)">
+          <line id="Line_47-171" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -364.5)">
+          <line id="Line_47-172" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+      </g>
+      <g id="Repeat_Grid_8" data-name="Repeat Grid 8" class="cls-20" transform="translate(968.5 415.5)">
+        <g transform="translate(-777.5 -484.5)">
+          <line id="Line_47-173" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -476.5)">
+          <line id="Line_47-174" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -468.5)">
+          <line id="Line_47-175" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -460.5)">
+          <line id="Line_47-176" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -452.5)">
+          <line id="Line_47-177" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -444.5)">
+          <line id="Line_47-178" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -436.5)">
+          <line id="Line_47-179" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -428.5)">
+          <line id="Line_47-180" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -420.5)">
+          <line id="Line_47-181" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -412.5)">
+          <line id="Line_47-182" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -404.5)">
+          <line id="Line_47-183" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -396.5)">
+          <line id="Line_47-184" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+        <g transform="translate(-777.5 -388.5)">
+          <line id="Line_47-185" data-name="Line 47" class="cls-13" y2="4" transform="translate(777.5 484.5)"/>
+        </g>
+      </g>
+    </g>
+    <g id="node-3-1" transform="translate(1 246)">
+      <g class="cls-25" transform="matrix(1, 0, 0, 1, -6957, -8612)">
+        <rect id="node-bg-15" data-name="node-bg" class="cls-21" width="264" height="123" rx="2" transform="translate(7328 8720)"/>
+      </g>
+      <g id="node-cont-6" data-name="node-cont">
+        <text id="node-tx-6" data-name="node-tx" class="cls-3" transform="translate(383 133)"><tspan x="3.506" y="13">Adding </tspan><tspan class="cls-11" y="13">military badges </tspan><tspan x="0.731" y="34">signifying achievements </tspan><tspan x="12.974" y="55">and further facilitate </tspan><tspan x="8.985" y="76">personal connections</tspan></text>
+        <text id="node-label-6" data-name="node-label" class="cls-5" transform="translate(458 126)"><tspan x="-34.739" y="0">Initial Iterations</tspan></text>
+      </g>
+      <image id="cvp_testing_militaryBadges" width="93" height="93" transform="translate(534 133)" xlink:href="cvp_testing_militaryBadges.png"/>
+    </g>
+    <g id="node-4-1" transform="translate(184 407)">
+      <g class="cls-24" transform="matrix(1, 0, 0, 1, -7140, -8773)">
+        <rect id="node-bg-16" data-name="node-bg" class="cls-2" width="160" height="98" rx="2" transform="translate(7511 8882)"/>
+      </g>
+      <g id="node-cont-7" data-name="node-cont">
+        <text id="node-tx-7" data-name="node-tx" class="cls-9" transform="translate(377 133)"><tspan x="8.838" y="10">Starting at IU, expanding to </tspan><tspan x="5.118" y="27.5">universities in the region and </tspan><tspan x="12.936" y="45">eventually expanding to a </tspan><tspan x="42.536" y="62.5">national level</tspan></text>
+        <text id="node-label-7" data-name="node-label" class="cls-10" transform="translate(451 126)"><tspan x="-35.771" y="0">Future Direction</tspan></text>
+      </g>
+    </g>
+    <g id="node-4-2" transform="translate(369 408)">
+      <g class="cls-23" transform="matrix(1, 0, 0, 1, -7325, -8774)">
+        <rect id="node-bg-17" data-name="node-bg" class="cls-2" width="160" height="98" rx="2" transform="translate(7696 8883)"/>
+      </g>
+      <g id="node-cont-8" data-name="node-cont">
+        <text id="node-tx-8" data-name="node-tx" class="cls-9" transform="translate(377 133)"><tspan x="14.23" y="10">Collaborating with VSS &amp; </tspan><tspan x="14.343" y="27.5">Veteran Affairs to further </tspan><tspan x="18.463" y="45">understand the lengthy </tspan><tspan x="24.411" y="62.5">paperworks involved </tspan></text>
+        <text id="node-label-8" data-name="node-label" class="cls-10" transform="translate(451 126)"><tspan x="-35.771" y="0">Future Direction</tspan></text>
+      </g>
+    </g>
+    <g id="node-4-3" transform="translate(554 407)">
+      <g class="cls-22" transform="matrix(1, 0, 0, 1, -7510, -8773)">
+        <rect id="node-bg-18" data-name="node-bg" class="cls-2" width="160" height="98" rx="2" transform="translate(7881 8882)"/>
+      </g>
+      <g id="node-cont-9" data-name="node-cont">
+        <text id="node-tx-9" data-name="node-tx" class="cls-9" transform="translate(377 133)"><tspan x="14.644" y="10">Integration with LinkedIn </tspan><tspan x="16.588" y="27.5">profile to strengthen the </tspan><tspan x="11.534" y="45">professional aspect of the </tspan><tspan x="46.532" y="62.5">community</tspan></text>
+        <text id="node-label-9" data-name="node-label" class="cls-10" transform="translate(451 126)"><tspan x="-35.771" y="0">Future Direction</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

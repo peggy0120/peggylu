@@ -54,6 +54,10 @@ a:hover {
     pointer-events: none;
 }
 
+.hidden {
+    display: none!important;
+}
+
 h1 {
     font-size: 2.5em;
     font-weight: 700;
@@ -97,6 +101,10 @@ h3 {
 @media screen and (min-width: 1512px) {
     .page {
         width: 90%;
+    }
+    .page,
+    footer {
+        border-radius: 0 0 2px 2px;
     }
 }
 
@@ -250,13 +258,13 @@ nav .dropdown {
 }
 
 nav .dropdown:hover .dropdown-menu {
-    border-radius: 2px;
     display: block;
 }
 
 nav .dropdown-menu {
-    border: none;
-    border-radius: 0px;
+    border: 0.5px solid var(--borderGrey);
+    border-left: none;
+    border-radius: 2px;
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.12), 0 1px 0px rgba(0, 0, 0, 0.24);
     -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.12), 0 1px 0px rgba(0, 0, 0, 0.24);
     font-size: 0.8em;
@@ -272,6 +280,14 @@ nav .dropdown-item {
     padding: 1.25rem 1rem;
 }
 
+nav .dropdown-item:first-of-type {
+    border-radius: 2px 2px 0 0;
+}
+
+nav .dropdown-item:last-of-type {
+    border-radius: 0 0 2px 2px;
+}
+
 nav .dropdown-item:hover {
     background-color: var(--bgLightgrey);
     border-color: var(--primary);
@@ -279,7 +295,7 @@ nav .dropdown-item:hover {
     font-weight: 700;
 }
 
-nav .dropdown-item.active {
+nav .dropdown-item.dd-active {
     background-color: inherit;
     border-color: #000;
     color: #000;
@@ -293,13 +309,13 @@ nav .dropdown-item.active {
 
 #main > .container {
     margin: 32px auto;
-/*    max-width: 540px;*/
+    /*    max-width: 540px;*/
 }
 
 #main .project-item {
     border-radius: 2px;
     height: 200px;
-    margin: 15px auto;
+    margin: 15px 0;
     padding: 0;
 }
 
@@ -321,10 +337,6 @@ nav .dropdown-item.active {
     border-radius: 2px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-}
-
-#main a.project-url:hover {
-    border: none;
 }
 
 #main .project-img {
@@ -365,12 +377,13 @@ nav .dropdown-item.active {
     color: black;
     font-size: 1rem;
     font-weight: 700;
+    line-height: 1.25;
     margin: 0.5rem 0;
     text-transform: capitalize;
 }
 
 #main .project-desc {
-    color: var(--txGrey);
+/*    color: var(--txGrey);*/
     font-size: 0.8rem;
     font-weight: 300;
     line-height: 1.25;
@@ -436,10 +449,33 @@ nav .dropdown-item.active {
     text-align: center;
 }
 
+.project #main.proj-bb .proj-header {
+    background-image: url(image/bb_banner.jpg);
+    background-position: 50% 25%;
+}
+
 .project #main.proj-cvp .proj-header {
     background-image: url(image/cvp_banner.png);
 }
 
+.project #main.proj-gogreen .proj-header {
+    background-image: url(image/gogreen_banner.jpg);
+    background-position: 50% 30%;
+}
+
+.project #main.proj-gogreen .proj-header h1 {
+    text-shadow: 0 0 15px #000;
+}
+
+.project #main.proj-iuos .proj-header {
+    background-image: url(image/iuos_banner.jpg);
+    background-position: 50% 35%;
+}
+
+.project #main.proj-ntulis .proj-header {
+    background-image: url(image/ntulis_banner.jpg);
+    background-position: 50% 22%;
+}
 
 .project #main .proj-header .container {
     padding: 2.5em 0px;
@@ -477,6 +513,11 @@ nav .dropdown-item.active {
 .project #main .proj-meta span {
     font-size: 0.8em;
     margin-top: -5px;
+}
+
+.project #main .proj-meta span.highlight {
+    font-size: inherit;
+    font-weight: normal;
 }
 
 @media screen and (min-width: 1200px) {

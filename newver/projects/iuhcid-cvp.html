@@ -60,18 +60,18 @@
                 <header class="proj-header">
                     <div class="container">
                         <h1>Campus Veteran Portal</h1>
-                        <span class="proj-label">Interaction Design | User Research</span>
+                        <span class="proj-label">User Research | Prototyping</span>
                     </div>
                 </header>
 
                 <div class="proj-meta">
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-8 col-md-9 col-12 row">
+                            <div class="col-lg-7 col-md-9 col-12 row">
                                 <div class="col-lg-8 col-12">
                                     <div class="proj-overview">
                                         <h2>Overview</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet dolor hendrerit, sollicitudin lorem vitae, laoreet lorem. Sed velit tortor, laoreet eget aliquam vel, iaculis at dolor. Nunc ligula erat, commodo nec suscipit sed, fringilla eu diam.</p>
+                                        <p>A web portal with centralized information embedded within the university system to empower <span class="highlight">student veterans</span> by connecting them to relevant resources and community during transitions.</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-12 row">
@@ -85,7 +85,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-3 col-12 row">
+                            <div class="col-lg-5 col-md-3 col-12 row">
                                 <div class="proj-role col-lg-6 col-md-12 col-6">
                                     <h2>Role</h2>
                                     <ul>
@@ -123,7 +123,7 @@
                                         <li><a href="#pj-res" class="nav-link">Research</a></li>
                                         <li><a href="#pj-desg" class="nav-link">Concept</a></li>
                                         <li><a href="#pj-test" class="nav-link">Testing</a></li>
-                                        <li><a href="#pj-refl" class="nav-link">Takeaway</a></li>
+<!--                                        <li><a href="#pj-refl" class="nav-link">Takeaway</a></li>-->
                                     </ul>
                                     <a href="#wrapper" class="sn-top">
                                         back to top &nbsp;
@@ -190,9 +190,12 @@
                                         back to top &nbsp;
                                         <span class="fa-caret-up"></span>
                                     </a>
-                                    <div></div>
+                                    <div class="chart">
+                                        <object type="image/svg+xml" data="../image/cvp_T-I.svg"></object>
+                                    </div>
                                 </section>
 
+<!--
                                 <section class="proj-sect" id="pj-refl">
                                     <h2>Takeaway</h2>
                                     <a href="#wrapper" class="sect-top">
@@ -201,6 +204,7 @@
                                     </a>
                                     <div></div>
                                 </section>
+-->
 
                             </article>
                         </div>
@@ -238,7 +242,7 @@
             /* Loading Header & Add dropdown hover state*/
 
             $('#header').load('../reuseNav.html', function() {
-                $('.dropdown-item').eq(4).addClass('active');
+                $('.dropdown-item').eq(4).addClass('dd-active');
                 $('.dropdown-menu').mouseenter(function() {
                     $('.dropdown-toggle').addClass('active');
                 });
@@ -252,6 +256,7 @@
             $('#more-content').load('/newver/index.html #main.homepage', function() {
                 $('.cvp').addClass('d-none');
                 $('.ntulis').addClass('d-none');
+                $('.iuos').addClass('d-none');
             });
 
             /* Implementing Scrollspy */
