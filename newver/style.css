@@ -1138,6 +1138,7 @@ footer .icon > .label {
         /*        font-family: 'Open Sans';*/
         font-size: 24px;
         /*        font-weight: normal;*/
+        line-height: 1.5;
     }
     .project #main .proj-cont article object {
         margin-left: -15px;
@@ -1161,6 +1162,11 @@ footer .icon > .label {
     .project #main .proj-cont .proj-sect .quote > p {
         font-weight: 300;
         line-height: 1.5;
+    }
+    .project #main .proj-cont .proj-sect div.chart {
+        background-color: #fff;
+        border-radius: 1px;
+        padding-top: 0.5em;
     }
 
 }
