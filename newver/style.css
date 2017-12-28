@@ -662,7 +662,7 @@ nav .dropdown-item.dd-active {
 }
 
 .project #main .proj-cont #sidenav ul.nav ul.nav {
-    border-left: solid 0.5px;
+    border-left: solid 0.5px var(--txGrey);
     margin-top: -5px;
     margin-bottom: 0;
     padding-left: 0;
