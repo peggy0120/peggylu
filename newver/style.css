@@ -553,13 +553,13 @@ nav .dropdown-item.dd-active {
 
 @media screen and (max-width: 767px) {
     .project #main .proj-meta .proj-overview {
-        background: -webkit-gradient(linear, left top, left bottom, from(#0a231e), to(#45635c));
+        background-color: var(--bgDarkgreen);
         -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.64), inset 0 1px 2px rgba(0, 0, 0, 0.76), inset 0 -1px 3px rgba(0, 0, 0, 0.24), inset 0 -1px 2px rgba(0, 0, 0, 0.36);
         box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.64), inset 0 1px 2px rgba(0, 0, 0, 0.76), inset 0 -1px 3px rgba(0, 0, 0, 0.24), inset 0 -1px 2px rgba(0, 0, 0, 0.36);
         color: #fff;
         margin: -1.5em auto 1em -45px;
         padding: 1em 45px;
-        width: calc( 100% + 90px);
+        width: calc(100% + 90px);
     }
 }
 
@@ -663,7 +663,7 @@ nav .dropdown-item.dd-active {
 
 .project #main .proj-cont #sidenav ul.nav ul.nav {
     border-left: solid 0.5px;
-    margin-top: 0;
+    margin-top: -5px;
     margin-bottom: 0;
     padding-left: 0;
 }
@@ -760,7 +760,7 @@ nav .dropdown-item.dd-active {
     z-index: 100;
 }
 
-.project #main .proj-cont .proj-sect  h3 {
+.project #main .proj-cont .proj-sect h3 {
     font-weight: 300;
     font-stretch: condensed;
 }
@@ -787,7 +787,7 @@ nav .dropdown-item.dd-active {
 
 .project #main .proj-cont .proj-sect > div {
     margin: 15px 0;
-/*    min-height: 120px;*/
+    /*    min-height: 120px;*/
 }
 
 .project #main .proj-cont .proj-sect > div:first-of-type {
@@ -805,7 +805,7 @@ nav .dropdown-item.dd-active {
 
 .project #main .proj-cont .proj-sect img {
     border-radius: 2px;
-/*    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.12);*/
+    /*    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.12);*/
     padding: 0;
     width: 100%;
 }
@@ -814,8 +814,7 @@ nav .dropdown-item.dd-active {
     font-size: 0.8em;
     font-weight: 300;
     margin: 5px auto;
-/*    text-align: center;*/
-
+    /*    text-align: center;*/
 }
 
 .project #main .proj-cont .proj-sect .cont-meta {
@@ -1023,6 +1022,11 @@ footer {
     z-index: 100;
 }
 
+#resume footer {
+    -webkit-box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.06), 0 -1px 2px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.06), 0 -1px 2px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.12);
+}
+
 .project footer {
     box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.64), 0 -1px 2px rgba(0, 0, 0, 0.76), 0 1px 3px rgba(0, 0, 0, 0.64), 0 1px 2px rgba(0, 0, 0, 0.76);
     -webkit-box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.64), 0 -1px 2px rgba(0, 0, 0, 0.76);
@@ -1131,18 +1135,24 @@ footer .icon > .label {
         text-align: center;
     }
     .project #main .proj-cont article p {
-        font-family: 'Open Sans';
-        font-size: 20px;
-        font-weight: normal;
+        /*        font-family: 'Open Sans';*/
+        font-size: 24px;
+        /*        font-weight: normal;*/
     }
     .project #main .proj-cont article object {
         margin-left: -15px;
         width: calc(100% + 30px);
     }
     .project #main .proj-cont .proj-sect h2 {
+        font-size: 20px;
         margin-left: -15px;
+        padding-top: 1em;
         padding-left: 15px;
         width: calc(100% + 30px);
+    }
+    .project #main .proj-cont .proj-sect > .sect-top {
+        margin-top: -3em;
+        top: calc(1.5em + 8px);
     }
     .project #main .proj-cont .proj-sect .quote {
         padding-top: 5px;
