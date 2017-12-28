@@ -1130,9 +1130,12 @@ footer .icon > .label {
 
 /* Mobile Readibility */
 
-@media screen and (max-width: 767px) {
+@media screen and (max-device-width: 767px) {
     .project #main .proj-meta {
         text-align: center;
+    }
+    .project #main .proj-cont .container > .row {
+        padding: 0 15px;
     }
     .project #main .proj-cont article p {
         /*        font-family: 'Open Sans';*/
@@ -1154,6 +1157,10 @@ footer .icon > .label {
     .project #main .proj-cont .proj-sect > .sect-top {
         margin-top: -3em;
         top: calc(1.5em + 8px);
+    }
+    .project #main .proj-cont .proj-sect h3 {
+        color: var(--primary);
+        font-size: 24px;
     }
     .project #main .proj-cont .proj-sect .quote {
         padding-top: 5px;
