@@ -633,6 +633,7 @@ nav .dropdown-item.dd-active {
 
 .project #main .proj-cont #sidenav ul > li {
     max-width: 150px;
+    white-space: nowrap;
 }
 
 .project #main .proj-cont #sidenav li > a {
@@ -658,6 +659,52 @@ nav .dropdown-item.dd-active {
 
 .project #main .proj-cont #sidenav li:hover > a.active {
     color: #000;
+}
+
+.project #main .proj-cont #sidenav ul.nav ul.nav {
+    border-left: solid 0.5px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+
+.project #main .proj-cont #sidenav ul.nav ul.nav:hover,
+.project #main .proj-cont #sidenav li > a:hover + ul.nav {
+    border-left: 1.5px solid var(--primary);
+}
+
+.project #main .proj-cont #sidenav li > a.active + ul.nav {
+    border-left: 1.5px solid;
+}
+
+.project #main .proj-cont #sidenav li > a.active + ul.nav:hover {
+    border-color: #000;
+}
+
+.project #main .proj-cont #sidenav ul.nav ul.nav li {
+
+    font-size: 0.9em;
+}
+
+.project #main .proj-cont #sidenav ul.nav ul.nav li a {
+    border-left: solid 0.5px;
+    margin-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.project #main .proj-cont #sidenav ul.nav ul.nav li a.active {
+    border-width: 1.5px;
+}
+
+.project #main .proj-cont #sidenav ul.nav ul.nav li:hover a {
+    border-color: var(--primary);
+    border-width: 1.5px;
+}
+
+.project #main .proj-cont #sidenav ul.nav ul.nav li:hover a.active {
+    border-color: #000;
 }
 
 .project #main .proj-cont #sidenav a.sn-top {
@@ -716,6 +763,10 @@ nav .dropdown-item.dd-active {
 .project #main .proj-cont .proj-sect  h3 {
     font-weight: 300;
     font-stretch: condensed;
+}
+
+.project #main .proj-cont .proj-sect div[id^='pj-proc-'] > h3 {
+    padding-top: 2em;
 }
 
 .project #main .proj-cont .proj-sect > .sect-top {
@@ -1076,6 +1127,9 @@ footer .icon > .label {
 /* Mobile Readibility */
 
 @media screen and (max-width: 767px) {
+    .project #main .proj-meta {
+        text-align: center;
+    }
     .project #main .proj-cont article p {
         font-family: 'Open Sans';
         font-size: 20px;
