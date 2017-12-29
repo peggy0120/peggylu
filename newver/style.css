@@ -740,6 +740,10 @@ nav .dropdown-item.dd-active {
     margin-right: 0.5em;
 }
 
+.project #main .proj-cont article .timeline object {
+    margin-top: 15px;
+}
+
 .project #main .proj-cont .proj-sect {
     margin-bottom: 2.5em;
     padding-top: 0.5em;
@@ -761,12 +765,21 @@ nav .dropdown-item.dd-active {
 }
 
 .project #main .proj-cont .proj-sect h3 {
+    font-size: 1.25em;
     font-weight: 300;
-    font-stretch: condensed;
 }
 
 .project #main .proj-cont .proj-sect div[id^='pj-proc-'] > h3 {
     padding-top: 2em;
+}
+
+.project #main .proj-cont .proj-sect .timeline h4 {
+    color: var(--txGrey);
+    font-size: 1.25em;
+    font-weight: 300;
+    margin-top: 0.5em;
+    margin-bottom: 0;
+    text-align: center;
 }
 
 .project #main .proj-cont .proj-sect > .sect-top {
@@ -925,7 +938,6 @@ nav .dropdown-item.dd-active {
 
 @media screen and (min-width: 768px) {
     .project #main .proj-cont article object {
-        margin-top: 15px;
         margin-right: 0;
     }
     .project #main .proj-cont .proj-sect {
@@ -962,6 +974,7 @@ nav .dropdown-item.dd-active {
 
     .project #main .proj-cont .proj-sect .chart,
     .project #main .proj-cont .proj-sect .images {
+        margin-top: 2em;
         max-width: 40em;
     }
 }
@@ -1131,9 +1144,12 @@ footer .icon > .label {
 /* Mobile Readibility */
 
 @media screen and (max-device-width: 767px) {
+    nav .title-inner {
+        margin-top: -.25em;
+    }
     nav .nav-item a.nav-link {
         font-size: 1.25rem;
-        margin-bottom: -0.25rem;
+        margin-top: -.25em;
     }
     nav .dropdown-item {
         font-size: 1rem;
@@ -1194,7 +1210,13 @@ footer .icon > .label {
         margin-left: -30px;
         overflow-x: scroll;
         padding-top: 0.5em;
+        position: relative;
         width: calc(100% + 60px);
+    }
+    .project #main .proj-cont .proj-sect div.timeline h4 {
+        font-size: 20px;
+        margin: 15px 30px;
+        text-align: left;
     }
     .project #main .proj-cont .proj-sect div.timeline object {
         margin: 15px;
