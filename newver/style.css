@@ -587,7 +587,7 @@ nav .dropdown-item.dd-active {
     background-color: #fff;
     box-shadow: 1px 0px 4px -1px rgba(0, 0, 0, 0.24);
     -webkit-box-shadow: 1px 0px 4px -1px rgba(0, 0, 0, 0.24);
-    display: none;
+    /*    display: none;*/
     margin-left: -30px;
 }
 
@@ -663,6 +663,7 @@ nav .dropdown-item.dd-active {
 
 .project #main .proj-cont #sidenav ul.nav ul.nav {
     border-left: solid 0.5px var(--txGrey);
+    height: calc(100% + 10px);
     margin-top: -5px;
     margin-bottom: 0;
     padding-left: 0;
@@ -683,8 +684,11 @@ nav .dropdown-item.dd-active {
 }
 
 .project #main .proj-cont #sidenav ul.nav ul.nav li {
-
     font-size: 0.9em;
+}
+
+.project #main .proj-cont #sidenav ul.nav ul.nav li:last-of-type {
+    margin-bottom: 10px;
 }
 
 .project #main .proj-cont #sidenav ul.nav ul.nav li a {
@@ -727,8 +731,68 @@ nav .dropdown-item.dd-active {
     }
 }
 
+@media screen and (max-width: 767px) {
+    .project #main .proj-cont .container > .row > div {
+        -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), inset 0 1px 3px rgba(0, 0, 0, 0.12);
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), inset 0 1px 3px rgba(0, 0, 0, 0.12);
+        -webkit-box-flex: 0;
+        -ms-flex: none;
+        flex: none;
+        margin-right: -30px;
+        max-width: calc(100% + 60px);
+        padding: 15px;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        width: calc(100% + 60px);
+        z-index: 101;
+    }
+    .project #main .proj-cont #sidenav {
+        margin-top: 0px;
+        position: relative;
+        top: 0;
+    }
+    .project #main .proj-cont #sidenav .sn-breadcrumb {
+        display: none;
+    }
+    .project #main .proj-cont #sidenav .sn-header {
+        display: inline;
+        font-size: 0.8em;
+    }
+    .project #main .proj-cont #sidenav ul.nav {
+        display: inline;
+    }
+    .project #main .proj-cont #sidenav ul > li,
+    .project #main .proj-cont #sidenav li > a {
+        display: inline;
+        font-size: 14px;
+        line-height: 1.25;
+    }
+    .project #main .proj-cont #sidenav li > a {
+        border-left: none;
+        border-bottom: 0.5px solid;
+        margin: 0 5px;
+        padding: 5px;
+    }
+    .project #main .proj-cont #sidenav li > a.active,
+    .project #main .proj-cont #sidenav li:hover > a {
+        border-left: none;
+        border-bottom: 1.5px solid;
+    }
+    .project #main .proj-cont #sidenav ul.nav ul.nav {
+        display: none;
+    }
+    .project #main .proj-cont #sidenav a.sn-top {
+        display: inline;
+        line-height: 1.25;
+        position: absolute;
+        top: calc(50% - 0.5em);
+        right: 15px;
+    }
+}
+
 .project #main .proj-cont article {
-    margin-top: -2.5em;
+    margin-top: -4.5em;
     position: relative;
 }
 
@@ -750,16 +814,20 @@ nav .dropdown-item.dd-active {
 }
 
 .project #main .proj-cont .proj-sect > h2 {
+    /*
     background-color: var(--bgLightgrey);
     border-bottom: 0.5px solid var(--borderGrey);
     box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.12);
     -webkit-box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.12);
+*/
     margin-left: -5px;
-    padding-top: 2em;
-    padding-bottom: 0.5em;
+    padding-top: 4em;
+    /*    padding-bottom: 0.5em;*/
     padding-left: 5px;
+    /*
     position: sticky;
     position: -webkit-sticky;
+*/
     top: 0;
     z-index: 100;
 }
@@ -773,6 +841,13 @@ nav .dropdown-item.dd-active {
     padding-top: 2em;
 }
 
+.project #main .proj-cont .proj-sect h3 > span {
+    color: var(--txGrey);
+    display: block;
+    font-size: 0.8em;
+    margin-bottom: 5px;
+}
+
 .project #main .proj-cont .proj-sect .timeline h4 {
     color: var(--txGrey);
     font-size: 1.25em;
@@ -784,14 +859,17 @@ nav .dropdown-item.dd-active {
 
 .project #main .proj-cont .proj-sect > .sect-top {
     color: var(--txGrey);
+    display: none;
     float: right;
     font-size: 0.8em;
     margin-top: -2.5em;
     margin-right: 15px;
+    /*
     position: sticky;
     position: -webkit-sticky;
+*/
     top: calc(2em + 8px);
-    z-index: 101;
+    /*    z-index: 101;*/
 }
 
 .project #main .proj-cont .proj-sect > .sect-top:hover {
@@ -818,7 +896,6 @@ nav .dropdown-item.dd-active {
 
 .project #main .proj-cont .proj-sect img {
     border-radius: 2px;
-    /*    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.12);*/
     padding: 0;
     width: 100%;
 }
@@ -866,7 +943,6 @@ nav .dropdown-item.dd-active {
     margin: 2em 0.5em 0 0.5em;
     padding: 15px;
 }
-
 
 .project #main .proj-cont .proj-sect .card .collapse-btn {
     color: var(--txGrey);
@@ -937,6 +1013,9 @@ nav .dropdown-item.dd-active {
 }
 
 @media screen and (min-width: 768px) {
+    .project #main .proj-cont article {
+        margin-top: -2.5em;
+    }
     .project #main .proj-cont article object {
         margin-right: 0;
     }
@@ -944,11 +1023,14 @@ nav .dropdown-item.dd-active {
         padding-left: 30px;
     }
     .project #main .proj-cont .proj-sect > h2 {
+        /*
         border: none;
         box-shadow: none;
         -webkit-box-shadow: none;
+*/
+        padding-top: 2em;
         padding-bottom: 0;
-        position: relative;
+        /*        position: relative;*/
     }
     .project #main .proj-cont .proj-sect > .sect-top {
         display: none;
@@ -975,8 +1057,52 @@ nav .dropdown-item.dd-active {
     .project #main .proj-cont .proj-sect .chart,
     .project #main .proj-cont .proj-sect .images {
         margin-top: 2em;
-        max-width: 40em;
+        max-width: 35em;
     }
+}
+
+
+
+.project #main section[id^='cv-'] .row {
+    margin-left: 0;
+    margin-bottom: 30px;
+}
+
+.project #main section[id^='cv-'] h3 {
+    color: var(--primary);
+}
+
+.project #main section[id^='cv-'] span {
+    line-height: 1.25;
+    margin-right: -45px;
+    margin-bottom: 5px;
+}
+
+.project #main section[id^='cv-'] .cv-org {
+    display: inline-block;
+    line-height: 1.25;
+}
+
+.project #main section[id^='cv-'] .cv-loc {
+    display: inline;
+    font-weight: 300;
+    line-height: 1.25;
+}
+
+.project #main section[id^='cv-'] .cv-time {
+    font-weight: 300;
+    line-height: 1.25;
+    margin-top: 3px;
+}
+
+.project #main section[id^='cv-'] ul {
+    line-height: 1.5;
+    list-style: square;
+    padding-left: 15px;
+}
+
+.project #main section[id^='cv-'] .cv-desc li {
+    margin-bottom: 0.5em;
 }
 
 .project #more {
@@ -1169,6 +1295,15 @@ footer .icon > .label {
     .project #main .proj-cont .container > .row {
         padding: 0 15px;
     }
+    .project #main .proj-cont .container > .row > div {
+        width: calc(100% + 45px);
+    }
+    .project #main .proj-cont #sidenav a.sn-top {
+        right: 0;
+    }
+    .project #main .proj-cont article {
+        margin-top: -6em;
+    }
     .project #main .proj-cont article p {
         /*        font-family: 'Open Sans';*/
         font-size: 24px;
@@ -1182,7 +1317,7 @@ footer .icon > .label {
     .project #main .proj-cont .proj-sect h2 {
         font-size: 20px;
         margin-left: -15px;
-        padding-top: 1em;
+        padding-top: 3.5em;
         padding-left: 15px;
         width: calc(100% + 30px);
     }
@@ -1205,8 +1340,8 @@ footer .icon > .label {
     .project #main .proj-cont .proj-sect div.chart.timeline {
         background-color: #fff;
         border-radius: 1px;
-        -webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,0.12);
-        box-shadow: inset 0 1px 3px rgba(0,0,0,0.12);
+        -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+        box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
         margin-left: -30px;
         overflow-x: scroll;
         padding-top: 0.5em;
@@ -1222,6 +1357,9 @@ footer .icon > .label {
         margin: 15px;
         margin-left: 30px;
         min-width: 768px;
+    }
+    .project #main section[id^='cv-'].proj-sect h3 {
+        font-size: 20px;
     }
 
 }
