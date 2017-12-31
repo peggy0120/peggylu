@@ -1298,6 +1298,12 @@ footer .icon > .label {
     .project #main .proj-cont .container > .row > div {
         width: calc(100% + 45px);
     }
+    .project #main .proj-cont #sidenav .sn-header {
+        display: none;
+    }
+    .project #main .proj-cont #sidenav li > a {
+        font-size: 16px;
+    }
     .project #main .proj-cont #sidenav a.sn-top {
         right: 0;
     }
@@ -1350,7 +1356,10 @@ footer .icon > .label {
     }
     .project #main .proj-cont .proj-sect div.timeline h4 {
         font-size: 20px;
+        left: 30px;
         margin: 15px 30px;
+        position: -webkit-sticky;
+        position: sticky;
         text-align: left;
     }
     .project #main .proj-cont .proj-sect div.timeline object {
