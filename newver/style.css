@@ -667,6 +667,8 @@ nav .dropdown-item.dd-active {
     margin-top: -5px;
     margin-bottom: 0;
     padding-left: 0;
+    padding-bottom: 1px;
+    /* for Firefox & Edge */
 }
 
 
@@ -692,7 +694,7 @@ nav .dropdown-item.dd-active {
 }
 
 .project #main .proj-cont #sidenav ul.nav ul.nav li a {
-    border-left: solid 0.5px;
+    border-left: solid 0.5 px;
     margin-left: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -740,6 +742,7 @@ nav .dropdown-item.dd-active {
         flex: none;
         margin-right: -30px;
         max-width: calc(100% + 60px);
+        opacity: 0.95;
         padding: 15px;
         position: -webkit-sticky;
         position: sticky;
@@ -837,7 +840,12 @@ nav .dropdown-item.dd-active {
     font-weight: 300;
 }
 
+.project #main .proj-cont .proj-sect div[id^='pj-proc-'] {
+    margin-bottom: 4em;
+}
+
 .project #main .proj-cont .proj-sect div[id^='pj-proc-'] > h3 {
+    margin-bottom: 1.5em;
     padding-top: 2em;
 }
 
@@ -848,13 +856,21 @@ nav .dropdown-item.dd-active {
     margin-bottom: 5px;
 }
 
-.project #main .proj-cont .proj-sect .timeline h4 {
+.project #main .proj-cont .proj-sect h4 {
     color: var(--txGrey);
     font-size: 1.25em;
     font-weight: 300;
     margin-top: 0.5em;
     margin-bottom: 0;
+}
+
+.project #main .proj-cont .proj-sect .timeline h4 {
     text-align: center;
+}
+
+.project #main .proj-cont .proj-sect h5 {
+    font-size: inherit;
+    font-weight: inherit;
 }
 
 .project #main .proj-cont .proj-sect > .sect-top {
@@ -896,6 +912,7 @@ nav .dropdown-item.dd-active {
 
 .project #main .proj-cont .proj-sect img {
     border-radius: 2px;
+    margin-bottom: 1.5em;
     padding: 0;
     width: 100%;
 }
@@ -905,11 +922,6 @@ nav .dropdown-item.dd-active {
     font-weight: 300;
     margin: 5px auto;
     /*    text-align: center;*/
-}
-
-.project #main .proj-cont .proj-sect .cont-meta {
-    font-size: 0.8em;
-    font-weight: 300;
 }
 
 .project #main .proj-cont .proj-sect p span.highlight {
@@ -1006,6 +1018,29 @@ nav .dropdown-item.dd-active {
     width: 100%;
 }
 
+.project #main .proj-cont .proj-sect .timeline span {
+    color: var(--txGrey);
+    display: inline-block;
+    font-size: 0.8em;
+    font-weight: 300;
+    text-align: center;
+    width: 100%;
+}
+
+.project #main .proj-cont .proj-sect .collage {
+    margin-left: 0;
+}
+
+
+.project #main .proj-cont .proj-sect .collage .cont-meta {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.project #main .proj-cont .proj-sect .collage .cont-desc {
+    margin-top: 1em;
+}
+
 @media screen and (min-width: 1200px) {
     .project #main .proj-cont .proj-sect {
         padding-left: 30px;
@@ -1035,7 +1070,10 @@ nav .dropdown-item.dd-active {
     .project #main .proj-cont .proj-sect > .sect-top {
         display: none;
     }
-    .project #main .proj-cont .proj-sect p {
+    .project #main .proj-cont .proj-sect p,
+    .project #main .proj-cont .proj-sect ol,
+    .project #main .proj-cont .proj-sect img {
+        margin-bottom: 1.5em;
         max-width: 33em;
     }
     .project #main .proj-cont .proj-sect .quote {
@@ -1055,9 +1093,14 @@ nav .dropdown-item.dd-active {
     }
 
     .project #main .proj-cont .proj-sect .chart,
-    .project #main .proj-cont .proj-sect .images {
+    .project #main .proj-cont .proj-sect .images,
+    .project #main .proj-cont .proj-sect .collage {
         margin-top: 2em;
         max-width: 35em;
+    }
+
+    .project #main .proj-cont .proj-sect .timeline span {
+
     }
 }
 
@@ -1310,7 +1353,8 @@ footer .icon > .label {
     .project #main .proj-cont article {
         margin-top: -6em;
     }
-    .project #main .proj-cont article p {
+    .project #main .proj-cont article p,
+    .project #main .proj-cont article ol {
         /*        font-family: 'Open Sans';*/
         font-size: 24px;
         /*        font-weight: normal;*/
@@ -1335,6 +1379,9 @@ footer .icon > .label {
         color: var(--primary);
         font-size: 24px;
     }
+    .project #main .proj-cont .proj-sect h4 {
+        font-size: 20px;
+    }
     .project #main .proj-cont .proj-sect .quote {
         padding-top: 5px;
         padding-bottom: 5px;
@@ -1349,18 +1396,22 @@ footer .icon > .label {
         -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
         box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
         margin-left: -30px;
+        margin-bottom: 3em;
         overflow-x: scroll;
         padding-top: 0.5em;
         position: relative;
         width: calc(100% + 60px);
     }
-    .project #main .proj-cont .proj-sect div.timeline h4 {
-        font-size: 20px;
+    .project #main .proj-cont .proj-sect div.timeline h4,
+    .project #main .proj-cont .proj-sect div.timeline span {
         left: 30px;
         margin: 15px 30px;
         position: -webkit-sticky;
         position: sticky;
         text-align: left;
+    }
+    .project #main .proj-cont .proj-sect div.timeline span {
+        font-size: 1em;
     }
     .project #main .proj-cont .proj-sect div.timeline object {
         margin: 15px;
@@ -1368,6 +1419,12 @@ footer .icon > .label {
         min-width: 768px;
     }
     .project #main section[id^='cv-'].proj-sect h3 {
+        font-size: 20px;
+    }
+    .project #main .proj-cont .proj-sect .collage div{
+        margin-bottom: 15px;
+    }
+    .project #main .proj-cont .proj-sect .collage .cont-desc {
         font-size: 20px;
     }
 

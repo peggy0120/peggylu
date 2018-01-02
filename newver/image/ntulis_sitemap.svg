@@ -1,0 +1,376 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="4064 14261 501 295">
+  <defs>
+    <style>
+      .cls-1, .cls-10 {
+        fill: #888;
+      }
+
+      .cls-1 {
+        font-size: 14px;
+      }
+
+      .cls-1, .cls-4, .cls-7 {
+        font-family: Roboto-Light, Roboto;
+        font-weight: 300;
+      }
+
+      .cls-11, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #aaa;
+        stroke-width: 0.5px;
+      }
+
+      .cls-3, .cls-5 {
+        fill: #51a6df;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-10, .cls-4, .cls-5, .cls-8 {
+        font-size: 12px;
+      }
+
+      .cls-10, .cls-5, .cls-8 {
+        font-family: Roboto-Regular, Roboto;
+      }
+
+      .cls-6, .cls-7, .cls-8 {
+        fill: #33b599;
+      }
+
+      .cls-7 {
+        font-size: 10px;
+      }
+
+      .cls-9 {
+        fill: #aaa;
+      }
+
+      .cls-11 {
+        stroke: rgba(249,249,249,0);
+      }
+
+      .cls-12 {
+        filter: url(#Rectangle_53-16);
+      }
+
+      .cls-13 {
+        filter: url(#Rectangle_53-15);
+      }
+
+      .cls-14 {
+        filter: url(#Rectangle_53-14);
+      }
+
+      .cls-15 {
+        filter: url(#Rectangle_53-13);
+      }
+
+      .cls-16 {
+        filter: url(#Rectangle_53-12);
+      }
+
+      .cls-17 {
+        filter: url(#Rectangle_53-11);
+      }
+
+      .cls-18 {
+        filter: url(#Rectangle_53-10);
+      }
+
+      .cls-19 {
+        filter: url(#Rectangle_53-9);
+      }
+
+      .cls-20 {
+        filter: url(#Rectangle_53-8);
+      }
+
+      .cls-21 {
+        filter: url(#Rectangle_53-7);
+      }
+
+      .cls-22 {
+        filter: url(#Rectangle_53-6);
+      }
+
+      .cls-23 {
+        filter: url(#Rectangle_53-5);
+      }
+
+      .cls-24 {
+        filter: url(#Rectangle_53-4);
+      }
+
+      .cls-25 {
+        filter: url(#Rectangle_53-3);
+      }
+
+      .cls-26 {
+        filter: url(#Rectangle_53-2);
+      }
+
+      .cls-27 {
+        filter: url(#Rectangle_53);
+      }
+    </style>
+    <filter id="Rectangle_53" x="4078" y="14293" width="81" height="41" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_53-2" x="4078" y="14338" width="81" height="41" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_53-3" x="4078" y="14383" width="81" height="27" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_53-4" x="4078" y="14414" width="81" height="41" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_53-5" x="4178" y="14293" width="56" height="27" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_53-6" x="4178" y="14322" width="56" height="27" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_53-7" x="4178" y="14351" width="66" height="27" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-7"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_53-8" x="4178" y="14380" width="56" height="27" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-8"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_53-9" x="4178" y="14409" width="66" height="27" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-9"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_53-10" x="4178" y="14438" width="56" height="27" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-10"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-10"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_53-11" x="4178" y="14467" width="76" height="27" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-11"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-11"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_53-12" x="4464" y="14293" width="101" height="27" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-12"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-12"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_53-13" x="4464" y="14322" width="81" height="27" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-13"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-13"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_53-14" x="4464" y="14351" width="61" height="27" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-14"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-14"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_53-15" x="4464" y="14380" width="61" height="27" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-15"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-15"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_53-16" x="4464" y="14409" width="61" height="27" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-16"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-16"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="ntulis_sitemap" transform="translate(3686 14167)">
+    <text id="NTULIS_Homepage" data-name="NTULIS Homepage" class="cls-1" transform="translate(378 107)"><tspan x="0" y="0">NTULIS Homepage</tspan></text>
+    <g id="Group_106" data-name="Group 106">
+      <line id="Line_62" data-name="Line 62" class="cls-2" y2="148" transform="translate(385.5 117.5)"/>
+      <line id="Line_63" data-name="Line 63" class="cls-2" x2="10" transform="translate(385.5 145.5)"/>
+      <line id="Line_64" data-name="Line 64" class="cls-2" x2="10" transform="translate(385.5 190.5)"/>
+      <line id="Line_65" data-name="Line 65" class="cls-2" x2="10" transform="translate(385.5 228.5)"/>
+      <line id="Line_66" data-name="Line 66" class="cls-2" x2="10" transform="translate(385.5 265.5)"/>
+    </g>
+    <g id="Group_108" data-name="Group 108">
+      <g id="Group_101" data-name="Group 101" transform="translate(15)">
+        <g class="cls-27" transform="matrix(1, 0, 0, 1, -3701, -14167)">
+          <rect id="Rectangle_53-17" data-name="Rectangle 53" class="cls-3" width="75" height="35" rx="1" transform="translate(4081 14295)"/>
+        </g>
+        <text id="Prospective_Students" data-name="ProspectiveStudents" class="cls-4" transform="translate(384 142)"><tspan x="0" y="0">Prospective</tspan><tspan x="0" y="14">Students</tspan></text>
+      </g>
+      <g id="Group_102" data-name="Group 102" transform="translate(15 45)">
+        <g class="cls-26" transform="matrix(1, 0, 0, 1, -3701, -14212)">
+          <rect id="Rectangle_53-18" data-name="Rectangle 53" class="cls-3" width="75" height="35" rx="1" transform="translate(4081 14340)"/>
+        </g>
+        <text id="Current_Students" data-name="CurrentStudents" class="cls-4" transform="translate(384 142)"><tspan x="0" y="0">Current</tspan><tspan x="0" y="14">Students</tspan></text>
+      </g>
+      <g id="Group_103" data-name="Group 103" transform="translate(15 90)">
+        <g class="cls-25" transform="matrix(1, 0, 0, 1, -3701, -14257)">
+          <rect id="Rectangle_53-19" data-name="Rectangle 53" class="cls-3" width="75" height="21" rx="1" transform="translate(4081 14385)"/>
+        </g>
+        <text id="Faculty" class="cls-4" transform="translate(384 143)"><tspan x="0" y="0">Faculty</tspan></text>
+      </g>
+      <g id="Group_104" data-name="Group 104" transform="translate(15 121)">
+        <g class="cls-24" transform="matrix(1, 0, 0, 1, -3701, -14288)">
+          <rect id="Rectangle_53-20" data-name="Rectangle 53" class="cls-3" width="75" height="35" rx="1" transform="translate(4081 14416)"/>
+        </g>
+        <text id="Alumni_Visitors" data-name="Alumni &amp; Visitors" class="cls-4" transform="translate(384 142)"><tspan x="0" y="0">Alumni &amp; </tspan><tspan x="0" y="14">Visitors</tspan></text>
+      </g>
+    </g>
+    <text id="Side_Navigation" data-name="Side Navigation" class="cls-5" transform="translate(395 310)"><tspan x="0" y="0">Side </tspan><tspan x="0" y="14">Navigation</tspan></text>
+    <g id="Group_109" data-name="Group 109">
+      <line id="Line_62-2" data-name="Line 62" class="cls-2" y2="196" transform="translate(485.5 117.5)"/>
+      <line id="Line_63-2" data-name="Line 63" class="cls-2" x2="10" transform="translate(485.5 138.5)"/>
+      <line id="Line_64-2" data-name="Line 64" class="cls-2" x2="10" transform="translate(485.5 167.5)"/>
+      <line id="Line_65-2" data-name="Line 65" class="cls-2" x2="10" transform="translate(485.5 196.5)"/>
+      <line id="Line_67" data-name="Line 67" class="cls-2" x2="10" transform="translate(485.5 254.5)"/>
+      <line id="Line_68" data-name="Line 68" class="cls-2" x2="10" transform="translate(485.5 282.5)"/>
+      <line id="Line_69" data-name="Line 69" class="cls-2" x2="10" transform="translate(485.5 313.5)"/>
+      <line id="Line_66-2" data-name="Line 66" class="cls-2" x2="10" transform="translate(485.5 225.5)"/>
+    </g>
+    <g id="Group_110" data-name="Group 110">
+      <g id="Group_105" data-name="Group 105" transform="translate(115)">
+        <g class="cls-23" transform="matrix(1, 0, 0, 1, -3801, -14167)">
+          <rect id="Rectangle_53-21" data-name="Rectangle 53" class="cls-6" width="50" height="21" rx="1" transform="translate(4181 14295)"/>
+        </g>
+        <text id="News" class="cls-4" transform="translate(384 142)"><tspan x="0" y="0">News</tspan></text>
+      </g>
+      <text id="Announcement_Awards_Student_Activities" data-name="Announcement | Awards | Student Activities" class="cls-7" transform="translate(550 142)"><tspan x="0" y="0">Announcement | Awards | Student Activities</tspan></text>
+      <g id="Group_105-2" data-name="Group 105" transform="translate(115 29)">
+        <g class="cls-22" transform="matrix(1, 0, 0, 1, -3801, -14196)">
+          <rect id="Rectangle_53-22" data-name="Rectangle 53" class="cls-6" width="50" height="21" rx="1" transform="translate(4181 14324)"/>
+        </g>
+        <text id="Course" class="cls-4" transform="translate(384 142)"><tspan x="0" y="0">Course</tspan></text>
+      </g>
+      <text id="CourseMap_Undergrad_Master_PhD_" data-name="CourseMap | Undergrad | Master | PhD " class="cls-7" transform="translate(550 171)"><tspan x="0" y="0">CourseMap | Undergrad | Master | PhD </tspan></text>
+      <g id="Group_105-3" data-name="Group 105" transform="translate(115 58)">
+        <g class="cls-21" transform="matrix(1, 0, 0, 1, -3801, -14225)">
+          <rect id="Rectangle_53-23" data-name="Rectangle 53" class="cls-6" width="60" height="21" rx="1" transform="translate(4181 14353)"/>
+        </g>
+        <text id="Resource" class="cls-4" transform="translate(384 142)"><tspan x="0" y="0">Resource</tspan></text>
+      </g>
+      <text id="LIS_Subject_Guide_Student_Handbook" data-name="LIS Subject Guide | Student Handbook" class="cls-7" transform="translate(562 200)"><tspan x="0" y="0">LIS Subject Guide | Student Handbook</tspan></text>
+      <g id="Group_105-4" data-name="Group 105" transform="translate(115 87)">
+        <g class="cls-20" transform="matrix(1, 0, 0, 1, -3801, -14254)">
+          <rect id="Rectangle_53-24" data-name="Rectangle 53" class="cls-6" width="50" height="21" rx="1" transform="translate(4181 14382)"/>
+        </g>
+        <text id="Faculty-2" data-name="Faculty" class="cls-4" transform="translate(384 142)"><tspan x="0" y="0">Faculty</tspan></text>
+      </g>
+      <g id="Group_105-5" data-name="Group 105" transform="translate(115 116)">
+        <g class="cls-19" transform="matrix(1, 0, 0, 1, -3801, -14283)">
+          <rect id="Rectangle_53-25" data-name="Rectangle 53" class="cls-6" width="60" height="21" rx="1" transform="translate(4181 14411)"/>
+        </g>
+        <text id="Research" class="cls-4" transform="translate(384 142)"><tspan x="0" y="0">Research</tspan></text>
+      </g>
+      <text id="Projects_Publications_Thesis_Conferences" data-name="Projects | Publications | Thesis | Conferences" class="cls-7" transform="translate(560 258)"><tspan x="0" y="0">Projects | Publications | Thesis | Conferences</tspan></text>
+      <g id="Group_105-6" data-name="Group 105" transform="translate(115 145)">
+        <g class="cls-18" transform="matrix(1, 0, 0, 1, -3801, -14312)">
+          <rect id="Rectangle_53-26" data-name="Rectangle 53" class="cls-6" width="50" height="21" rx="1" transform="translate(4181 14440)"/>
+        </g>
+        <text id="About" class="cls-4" transform="translate(384 142)"><tspan x="0" y="0">About</tspan></text>
+      </g>
+      <text id="History_Objective_Equipment_Future_Contact" data-name="History | Objective | Equipment | Future | Contact" class="cls-7" transform="translate(550 287)"><tspan x="0" y="0">History | Objective | Equipment | Future | Contact</tspan></text>
+      <g id="Group_105-7" data-name="Group 105" transform="translate(115 174)">
+        <g class="cls-17" transform="matrix(1, 0, 0, 1, -3801, -14341)">
+          <rect id="Rectangle_53-27" data-name="Rectangle 53" class="cls-6" width="70" height="21" rx="1" transform="translate(4181 14469)"/>
+        </g>
+        <text id="Admission" class="cls-4" transform="translate(384 142)"><tspan x="0" y="0">Admission</tspan></text>
+      </g>
+      <text id="Undergrad_Master_PhD" data-name="Undergrad | Master | PhD" class="cls-7" transform="translate(570 316)"><tspan x="0" y="0">Undergrad | Master | PhD</tspan></text>
+    </g>
+    <text id="Main_Navigation" data-name="Main Navigation" class="cls-8" transform="translate(495 349)"><tspan x="0" y="0">Main </tspan><tspan x="0" y="14">Navigation</tspan></text>
+    <g id="Group_116" data-name="Group 116" transform="translate(286)">
+      <line id="Line_62-3" data-name="Line 62" class="cls-2" y2="151" transform="translate(485.5 103.5)"/>
+      <line id="Line_63-3" data-name="Line 63" class="cls-2" x2="10" transform="translate(485.5 138.5)"/>
+      <line id="Line_64-3" data-name="Line 64" class="cls-2" x2="10" transform="translate(485.5 167.5)"/>
+      <line id="Line_65-3" data-name="Line 65" class="cls-2" x2="10" transform="translate(485.5 196.5)"/>
+      <line id="Line_67-2" data-name="Line 67" class="cls-2" x2="10" transform="translate(485.5 254.5)"/>
+      <line id="Line_66-3" data-name="Line 66" class="cls-2" x2="10" transform="translate(485.5 225.5)"/>
+      <line id="Line_70" data-name="Line 70" class="cls-2" x2="266" transform="translate(219.5 103.5)"/>
+    </g>
+    <g id="Group_117" data-name="Group 117" transform="translate(-18)">
+      <g id="Group_112" data-name="Group 112" transform="translate(419)">
+        <g class="cls-16" transform="matrix(1, 0, 0, 1, -4087, -14167)">
+          <rect id="Rectangle_53-28" data-name="Rectangle 53" class="cls-9" width="95" height="21" rx="1" transform="translate(4467 14295)"/>
+        </g>
+        <text id="NTU_Homepage" data-name="NTU Homepage" class="cls-4" transform="translate(384 142)"><tspan x="0" y="0">NTU Homepage</tspan></text>
+      </g>
+      <g id="Group_113" data-name="Group 113" transform="translate(419 29)">
+        <g class="cls-15" transform="matrix(1, 0, 0, 1, -4087, -14196)">
+          <rect id="Rectangle_53-29" data-name="Rectangle 53" class="cls-9" width="75" height="21" rx="1" transform="translate(4467 14324)"/>
+        </g>
+        <text id="NTU_Library" data-name="NTU Library" class="cls-4" transform="translate(384 142)"><tspan x="0" y="0">NTU Library</tspan></text>
+      </g>
+      <g id="Group_114" data-name="Group 114" transform="translate(419 58)">
+        <g class="cls-14" transform="matrix(1, 0, 0, 1, -4087, -14225)">
+          <rect id="Rectangle_53-30" data-name="Rectangle 53" class="cls-9" width="55" height="21" rx="1" transform="translate(4467 14353)"/>
+        </g>
+        <text id="myNTU" class="cls-4" transform="translate(384 142)"><tspan x="0" y="0">myNTU</tspan></text>
+      </g>
+      <g id="Group_115" data-name="Group 115" transform="translate(419 87)">
+        <g class="cls-13" transform="matrix(1, 0, 0, 1, -4087, -14254)">
+          <rect id="Rectangle_53-31" data-name="Rectangle 53" class="cls-9" width="55" height="21" rx="1" transform="translate(4467 14382)"/>
+        </g>
+        <text id="Contact" class="cls-4" transform="translate(384 142)"><tspan x="0" y="0">Contact</tspan></text>
+      </g>
+      <g id="Group_111" data-name="Group 111" transform="translate(419 116)">
+        <g class="cls-12" transform="matrix(1, 0, 0, 1, -4087, -14283)">
+          <rect id="Rectangle_53-32" data-name="Rectangle 53" class="cls-9" width="55" height="21" rx="1" transform="translate(4467 14411)"/>
+        </g>
+        <text id="Sitemap" class="cls-4" transform="translate(384 142)"><tspan x="0" y="0">Sitemap</tspan></text>
+      </g>
+    </g>
+    <text id="Top_Navigation" data-name="TopNavigation" class="cls-10" transform="translate(781 291)"><tspan x="0" y="0">Top</tspan><tspan x="0" y="14">Navigation</tspan></text>
+    <line id="Line_62-4" data-name="Line 62" class="cls-11" x2="456" transform="translate(394.5 388.5)"/>
+  </g>
+</svg>
