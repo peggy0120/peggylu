@@ -1412,6 +1412,7 @@ footer .icon > .label {
     }
     .project #main .proj-cont .proj-sect div.timeline span {
         font-size: 1em;
+        margin-top: 0;
     }
     .project #main .proj-cont .proj-sect div.timeline object {
         margin: 15px;
