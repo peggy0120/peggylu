@@ -1462,7 +1462,7 @@ footer .icon > .label {
 }
 
 .bar {
-  height: 4px;
+  height: 6px;
   background: -webkit-gradient(linear, left top, right top, from(var(--teritary)), color-stop(var(--primary)), to(var(--secondary)));
   background: linear-gradient(to right, var(--teritary), var(--primary), var(--secondary));
   position: fixed;

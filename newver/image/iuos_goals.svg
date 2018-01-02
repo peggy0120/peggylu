@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="1356.5 15909 509 163">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #707070;
+        opacity: 0;
+      }
+
+      .cls-2 {
+        stroke: rgba(51,181,153,0.6);
+        stroke-width: 0.5px;
+      }
+
+      .cls-3 {
+        fill: rgba(51,181,153,0.6);
+      }
+
+      .cls-4 {
+        fill: #fff;
+        font-size: 14px;
+        font-family: Roboto-Light, Roboto;
+        font-weight: 300;
+      }
+
+      .cls-5 {
+        fill: rgba(51,181,153,0.8);
+      }
+
+      .cls-6 {
+        fill: #33b599;
+      }
+
+      .cls-7 {
+        filter: url(#Ellipse_24-3);
+      }
+
+      .cls-8 {
+        filter: url(#Ellipse_24-2);
+      }
+
+      .cls-9 {
+        filter: url(#Ellipse_24);
+      }
+    </style>
+    <filter id="Ellipse_24" x="1426" y="15945" width="91" height="91" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_24-2" x="1548" y="15930" width="121" height="121" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_24-3" x="1699" y="15909" width="163" height="163" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="iuos_goals" transform="translate(986 15753)">
+    <line id="Line_74" data-name="Line 74" class="cls-1" x2="509" transform="translate(370.5 157.5)"/>
+    <line id="Line_72" data-name="Line 72" class="cls-2" y1="36" x2="309" transform="translate(478.5 158.5)"/>
+    <line id="Line_73" data-name="Line 73" class="cls-2" x2="308" y2="36" transform="translate(481.5 278.5)"/>
+    <g id="Group_125" data-name="Group 125" transform="translate(38 9)">
+      <g class="cls-9" transform="matrix(1, 0, 0, 1, -1024, -15762)">
+        <circle id="Ellipse_24-4" data-name="Ellipse 24" class="cls-3" cx="42.5" cy="42.5" r="42.5" transform="translate(1429 15947)"/>
+      </g>
+      <text id="Increase_visibility_of_IUOS" data-name="Increase
+visibility of
+IUOS" class="cls-4" transform="translate(448 215)"><tspan x="-26.13" y="0">Increase</tspan><tspan x="-32.149" y="17.5">visibility of</tspan><tspan x="-15.347" y="35">IUOS</tspan></text>
+    </g>
+    <g id="Group_126" data-name="Group 126" transform="translate(175 9)">
+      <g class="cls-8" transform="matrix(1, 0, 0, 1, -1161, -15762)">
+        <circle id="Ellipse_24-5" data-name="Ellipse 24" class="cls-5" cx="57.5" cy="57.5" r="57.5" transform="translate(1551 15932)"/>
+      </g>
+      <text id="Engage_the_IU_campus" data-name="Engage the
+IU campus" class="cls-4" transform="translate(448 223)"><tspan x="-34.368" y="0">Engage the</tspan><tspan x="-32.994" y="17.5">IU campus</tspan></text>
+    </g>
+    <g id="Group_127" data-name="Group 127" transform="translate(347 9)">
+      <g class="cls-7" transform="matrix(1, 0, 0, 1, -1333, -15762)">
+        <circle id="Ellipse_24-6" data-name="Ellipse 24" class="cls-6" cx="78.5" cy="78.5" r="78.5" transform="translate(1702 15911)"/>
+      </g>
+      <text id="Change_on-campus_behavior" data-name="Change
+on-campus
+behavior" class="cls-4" transform="translate(448 215)"><tspan x="-23.481" y="0">Change</tspan><tspan x="-34.597" y="17.5">on-campus</tspan><tspan x="-26.247" y="35">behavior</tspan></text>
+    </g>
+  </g>
+</svg>
