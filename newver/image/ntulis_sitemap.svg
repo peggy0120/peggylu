@@ -264,7 +264,7 @@
         <g class="cls-24" transform="matrix(1, 0, 0, 1, -3701, -14288)">
           <rect id="Rectangle_53-20" data-name="Rectangle 53" class="cls-3" width="75" height="35" rx="1" transform="translate(4081 14416)"/>
         </g>
-        <text id="Alumni_Visitors" data-name="Alumni &amp; Visitors" class="cls-4" transform="translate(384 142)"><tspan x="0" y="0">Alumni &amp; </tspan><tspan x="0" y="14">Visitors</tspan></text>
+        <text id="Alumni_Visitors" data-name="Alumni &amp; Visitors" class="cls-4" transform="translate(384 142)"><tspan x="0" y="0">Alumni</tspan><tspan x="0" y="14" xml:space="preserve"> &amp; Visitors</tspan></text>
       </g>
     </g>
     <text id="Side_Navigation" data-name="Side Navigation" class="cls-5" transform="translate(395 310)"><tspan x="0" y="0">Side </tspan><tspan x="0" y="14">Navigation</tspan></text>
