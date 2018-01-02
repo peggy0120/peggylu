@@ -785,6 +785,23 @@ nav .dropdown-item.dd-active {
     .project #main .proj-cont #sidenav ul.nav ul.nav {
         display: none;
     }
+    .project #main .proj-cont #sidenav ul.nav a.active + ul.nav {
+        background-color: #fff;
+        -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), inset 0 1px 3px rgba(0, 0, 0, 0.12);
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), inset 0 1px 3px rgba(0, 0, 0, 0.12);
+        border-left: none;
+        display: block;
+        height: calc(100% + 10px);
+        padding: 8px;
+        position: absolute;
+        top: calc(100% + 20px);
+/*        right: 0;*/
+/*        margin-left: -15px;*/
+
+    }
+    .project #main .proj-cont #sidenav ul.nav ul.nav a {
+        font-size: 0.9em;
+    }
     .project #main .proj-cont #sidenav a.sn-top {
         display: inline;
         line-height: 1.25;
@@ -1098,9 +1115,12 @@ nav .dropdown-item.dd-active {
         margin-top: 2em;
         max-width: 35em;
     }
+}
 
-    .project #main .proj-cont .proj-sect .timeline span {
-
+@media screen and (max-width: 767px) {
+    .project #main .proj-cont .proj-sect div[id^='pj-proc-'] > h3 {
+        margin-top: -3em;
+        padding-top: 5em;
     }
 }
 
