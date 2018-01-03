@@ -149,7 +149,7 @@
                                         <span class="fas fa-caret-up"></span>
                                     </a>
                                     <div>
-                                        <p>In the summer of 2017, I had the opportunity to spend 12 weeks with the UX team from <a href="https://www.blackbaud.com/" class="ext-link">Blackbaud</a>, the world-leading software provider for non-profit organization, at Austin TX. As an intern, I was fortunate to be involved in various projects ranging from user research, desk research and interaction design in marketing solutions and B2B onboarding experience.</p>
+                                        <p>In the summer of 2017, I had the opportunity to spend 12 weeks with the UX team from <a href="https://www.blackbaud.com/" class="ext-link">Blackbaud</a>, the world-leading software provider for nonprofit organizations, at Austin TX. As an intern, I was fortunate to be involved in various projects ranging from user research, desk research and interaction design in marketing solutions and B2B onboarding experience.</p>
                                     </div>
                                     <div class="chart timeline">
                                         <h4>Internship Timeline</h4>
@@ -239,7 +239,10 @@
                 $('.dropdown-menu').mouseleave(function() {
                     $('.dropdown-toggle').removeClass('active');
                 });
+                $(this).children().children().fadeTo(600, 1);
             });
+
+            $('#main').fadeTo(600, 1);
 
             /* Loading & Choosing which projs to show in More */
 

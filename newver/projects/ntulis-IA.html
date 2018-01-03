@@ -243,7 +243,7 @@
                                         <div>
                                             <p>Once the website team was established, we were divided into sub-teams of two and each worked on a different section. My partner &amp; I chose to work on Course, which according to the survey we did before, was the section that students used and cared about the most.</p>
                                             <p>The goal with Course was to provide a clear but comprehensive view on what the programs offered and what were required for graduation, and the foremost challenge with that was the <span class="highlight">great amount and variety of information</span> needed to be presented to both current and prospective students.</p>
-                                            <p>To identify what has been the weakness and where the design opportunities were with this section, we conducted <span class="highlight">content audit</span> in collaboration with department staffs to determine if something needs to be regrouped, rewritten or would require different visual material to present them.</p>
+                                            <p>To identify what has been the weakness and where the design opportunities were with this section, we conducted <span class="highlight">content audit</span> in colla&shy;boration with department staffs to determine if something needs to be regrouped, rewritten or would require different visual material to present them.</p>
                                             <div class="chart timeline">
                                                 <h4>Content Inventory</h4>
                                                 <object type="image/svg+xml" data="../image/ntulis_contAudit.svg"></object>
@@ -341,14 +341,18 @@
                 $('.dropdown-menu').mouseleave(function() {
                     $('.dropdown-toggle').removeClass('active');
                 });
+                $(this).children().children().fadeTo(600, 1);
             });
+
 
             /* Loading & Choosing which projs to show in More */
 
             $('#more-content').load('/newver/index.html #main.homepage', function() {
+                $('.project-item').fadeTo(100,1);
                 $('.cvp').addClass('d-none');
                 $('.ntulis').addClass('d-none');
                 $('.gogreen').addClass('d-none');
+
             });
 
             /* Implementing Scrollspy */

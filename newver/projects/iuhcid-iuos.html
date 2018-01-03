@@ -160,7 +160,7 @@
                                     <div class="chart timeline">
                                         <h4>Goals</h4>
                                         <object type="image/svg+xml" data="../image/iuos_goals.svg" class="d-md-block d-none"></object>
-                                        <object type="image/svg+xml" data="../image/iuos_goals_mobile.svg" class="d-md-none d-sm-block"></object>
+                                        <object type="image/svg+xml" data="../image/iuos_goals_mobile.svg" class="d-md-none d-sm-block full-width"></object>
                                     </div>
                                 </section>
 
@@ -172,7 +172,7 @@
                                     </a>
                                     <div class="chart timeline">
                                         <h4>Project Timeline</h4>
-                                        <object type="image/svg+xml" data="../image/iuos_timeline.svg"></object>
+                                        <object type="image/svg+xml" data="../image/iuos_timeline.svg" class="full-width"></object>
 
                                     </div>
 
@@ -275,7 +275,10 @@
                 $('.dropdown-menu').mouseleave(function() {
                     $('.dropdown-toggle').removeClass('active');
                 });
+                $(this).children().children().fadeTo(600, 1);
             });
+
+            $('#main').fadeTo(600, 1);
 
             /* Loading & Choosing which projs to show in More */
 
