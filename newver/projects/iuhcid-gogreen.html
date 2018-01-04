@@ -10,6 +10,8 @@
 
     <!-- jQuery -->
     <script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
 
     <!-- Load Header & Footer-->
     <script>
@@ -128,8 +130,9 @@
                                     <span class="sn-header">Community Waste Education</span>
                                     <ul class="nav">
                                         <li><a href="#pj-bkgd" class="active nav-link">Background</a></li>
-                                        <li><a href="#pj-desg" class="nav-link">Concept</a></li>
+                                        <li><a href="#pj-user" class="nav-link">Stakeholders</a></li>
                                         <li><a href="#pj-res" class="nav-link">Research</a></li>
+                                        <li><a href="#pj-desg" class="nav-link">Concept</a></li>
                                         <li><a href="#pj-refl" class="nav-link">Takeaway</a></li>
                                     </ul>
                                     <a href="#wrapper" class="sn-top">
@@ -150,24 +153,15 @@
 
                                 </section>
 
-                                <section class="proj-sect" id="pj-desg">
-                                    <h2>Concept</h2>
+                                <section id="pj-user" class="proj-sect">
+                                    <h2>Stakeholders</h2>
                                     <a href="#wrapper" class="sect-top">
                                         back to top &nbsp;
                                         <span class="fas fa-caret-up"></span>
                                     </a>
-                                    <div></div>
                                     <div class="chart timeline scrollable">
                                         <h4>Stakeholder Map</h4>
                                         <object type="image/svg+xml" data="../image/gogreen_stakeholder.svg" style="width: 768px;"></object>
-                                    </div>
-                                    <div class="chart timeline scrollable">
-                                        <h4>Service Blueprint</h4>
-                                        <object type="image/svg+xml" data="../image/gogreen_serviceBlueprint.svg"></object>
-                                    </div>
-                                    <div class="chart timeline scrollable">
-                                        <h4>User Journey Map</h4>
-                                        <object type="image/svg+xml" data="../image/gogreen_journey.svg"></object>
                                     </div>
                                 </section>
 
@@ -202,6 +196,29 @@
                                         </div>
                                     </div>
                                 </section>
+
+                                <section class="proj-sect" id="pj-desg">
+                                    <h2>Concept</h2>
+                                    <a href="#wrapper" class="sect-top">
+                                        back to top &nbsp;
+                                        <span class="fas fa-caret-up"></span>
+                                    </a>
+                                    <div></div>
+                                    <div class="chart timeline">
+                                        <h4>KIP + GIKES</h4>
+                                        <object type="image/svg+xml" data="../image/gogreen_hierachy.svg"></object>
+                                    </div>
+                                    <div class="chart timeline scrollable">
+                                        <h4>Service Blueprint</h4>
+                                        <object type="image/svg+xml" data="../image/gogreen_serviceBlueprint.svg"></object>
+                                    </div>
+                                    <div class="chart timeline scrollable">
+                                        <h4>User Journey Map</h4>
+                                        <object type="image/svg+xml" data="../image/gogreen_journey.svg"></object>
+                                    </div>
+                                </section>
+
+
 
                                 <section class="proj-sect" id="pj-refl">
                                     <h2>Takeaway</h2>
@@ -255,10 +272,11 @@
                 $('.dropdown-menu').mouseleave(function() {
                     $('.dropdown-toggle').removeClass('active');
                 });
-                $(this).children().children().fadeTo(600, 1);
+                $('nav.navbar').css({'opacity': '0'});
+                $('nav.navbar').delay(300).animate({opacity: 1}, 1200, 'easeInOutBack');
+                $('#main').delay(300).animate({opacity: 1,}, 1200, 'easeInOutBack');
             });
 
-            $('#main').fadeTo(600, 1);
 
             /* Loading & Choosing which projs to show in More */
 
@@ -266,6 +284,8 @@
                 $('.cvp').addClass('d-none');
                 $('.ntulis').addClass('d-none');
                 $('.gogreen').addClass('d-none');
+                $('.project-item').css({'opacity': '1', 'top': '0'});
+
             });
 
             /* Implementing Scrollspy */

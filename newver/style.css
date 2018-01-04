@@ -87,7 +87,7 @@ a:hover {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.24), 0 6px 6px rgba(0, 0, 0, 0.36);
     -webkit-transform: translate(0, -1px) scale(1.005);
     transform: translate(0, -1px) scale(1.005);
-/*
+    /*
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 
@@ -386,7 +386,9 @@ nav .dropdown-item.dd-active {
     border-radius: 2px;
     height: 200px;
     margin: 15px 0;
+    opacity: 0;
     padding: 0;
+    top: 2vh;
 }
 
 #main .project-item:hover .project-url {
@@ -484,10 +486,11 @@ nav .dropdown-item.dd-active {
     }
 }
 
-.project #main {
+.project > #main {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.72), 0 1px 2px rgba(0, 0, 0, 0.84);
     -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.64), 0 1px 2px rgba(0, 0, 0, 0.76);
     line-height: 1.75;
+    opacity: 0;
     z-index: 101;
 }
 
@@ -525,7 +528,7 @@ nav .dropdown-item.dd-active {
 
 .project #main.proj-bb .proj-header {
     background-image: url(image/bb_banner.svg);
-    background-position: 50% 25%;
+    background-position: bottom;
 }
 
 .project #main.proj-cvp .proj-header {
@@ -562,6 +565,10 @@ nav .dropdown-item.dd-active {
 .project #main .proj-meta {
     position: relative;
     z-index: 120;
+}
+
+.project #main.proj-bb .proj-meta {
+    background-color: #fff;
 }
 
 .project #main .proj-meta .container {
@@ -614,6 +621,9 @@ nav .dropdown-item.dd-active {
 }
 
 @media screen and (min-width: 768px) {
+    .project #main.proj-bb .proj-meta {
+        background-color: transparent;
+    }
     .project #main .proj-meta .container > .row > .row:nth-of-type(2) {
         margin-left: -30px;
         padding-left: 0;
@@ -621,11 +631,26 @@ nav .dropdown-item.dd-active {
 }
 
 @media screen and (max-width: 767px) {
+    .project.page {
+        background-color: #fff;
+    }
+    .project #main .proj-header {
+        height: calc(160px + 180px);
+        /* Header height + Meta offset */
+    }
+    .project #main .proj-meta {
+
+        margin-top: -180px;
+    }
+    .project #main .proj-meta .container {
+        background-color: transparent;
+    }
     .project #main .proj-meta .proj-overview {
-        background-color: var(--bgDarkgreen);
-        -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.64), inset 0 1px 2px rgba(0, 0, 0, 0.76), inset 0 -1px 3px rgba(0, 0, 0, 0.24), inset 0 -1px 2px rgba(0, 0, 0, 0.36);
-        box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.64), inset 0 1px 2px rgba(0, 0, 0, 0.76), inset 0 -1px 3px rgba(0, 0, 0, 0.24), inset 0 -1px 2px rgba(0, 0, 0, 0.36);
+        background-color: rgba(0, 0, 0, .4);
+        -webkit-box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.12), 0 -1px 2px rgba(0, 0, 0, 0.24), inset 0 -1px 3px rgba(0, 0, 0, 0.24), inset 0 -1px 2px rgba(0, 0, 0, 0.36);
+        box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.12), 0 -1px 2px rgba(0, 0, 0, 0.24), inset 0 -1px 3px rgba(0, 0, 0, 0.24), inset 0 -1px 2px rgba(0, 0, 0, 0.36);
         color: #fff;
+        height: 180px;
         margin: -1.5em auto 1em -45px;
         padding: 1em 45px;
         width: calc(100% + 90px);
@@ -633,6 +658,7 @@ nav .dropdown-item.dd-active {
 }
 
 .project #main .proj-cont {
+    background-color: var(--bgLightgrey);
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.72), 0 2px 2px rgba(0, 0, 0, 0.84);
     -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.72), 0 2px 2px rgba(0, 0, 0, 0.84);
     z-index: 110;
@@ -1377,7 +1403,8 @@ footer .icon > .label {
     color: #fff;
     font-size: 0.8rem;
     font-weight: 300;
-    height: 150PX;
+    height: 150px;
+    max-width: 1512px;
     padding: 3rem 15px;
     position: fixed;
     text-align: center;
@@ -1432,7 +1459,7 @@ footer .icon > .label {
     r: 7;
 }
 
-/* Mobile Readibility */
+/* MOBILE only for readibility & styling */
 
 @media screen and (max-device-width: 767px) {
     nav .title-inner {
@@ -1478,7 +1505,7 @@ footer .icon > .label {
     .project #main .proj-cont article p,
     .project #main .proj-cont article ol {
         /*        font-family: 'Open Sans';*/
-        font-size: 24px;
+        font-size: 22px;
         /*        font-weight: normal;*/
         line-height: 1.5;
     }
@@ -1498,11 +1525,24 @@ footer .icon > .label {
         top: calc(1.5em + 8px);
     }
     .project #main .proj-cont .proj-sect h3 {
-        color: var(--primary);
-        font-size: 24px;
+        border-bottom: 1px solid var(--shadowGrey);
+        /*        color: var(--primary);*/
+        font-size: 26px;
+        margin-left: -30px;
+        margin-right: 80px;
+        padding-left: 30px;
+        padding-bottom: .5em;
     }
     .project #main .proj-cont .proj-sect h4 {
         font-size: 20px;
+    }
+    .project #main .proj-cont .proj-sect img {
+        margin-left: -30px;
+        width: calc(100% + 60px);
+    }
+    .project #main .proj-cont .proj-sect .images.row img {
+        margin-left: 0px;
+        width: 100%;
     }
     .project #main .proj-cont .proj-sect .quote {
         padding-top: 5px;
@@ -1546,6 +1586,7 @@ footer .icon > .label {
         width: calc(100% - 45px);
     }
     .project #main section[id^='cv-'].proj-sect h3 {
+        border: none;
         font-size: 20px;
     }
     .project #main .proj-cont .proj-sect .collage div {
@@ -1568,9 +1609,10 @@ footer .icon > .label {
 }
 
 .bar {
-    height: 6px;
-    background: -webkit-gradient(linear, left top, right top, from(var(--teritary)), color-stop(var(--primary)), to(var(--secondary)));
-    background: linear-gradient(to right, var(--teritary), var(--primary), var(--secondary));
+    /*    background: -webkit-gradient(linear, left top, right top, from(var(--teritary)), color-stop(var(--primary)), to(var(--secondary)));*/
+    /*    background: linear-gradient(to right, var(--teritary), var(--primary), var(--secondary));*/
+    background-color: var(--primary);
+    height: 5px;
     position: fixed;
     top: 0px;
     z-index: 299;

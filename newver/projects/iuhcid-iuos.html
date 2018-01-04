@@ -10,6 +10,8 @@
 
     <!-- jQuery -->
     <script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
 
     <!-- Load Header & Footer-->
     <script>
@@ -275,10 +277,10 @@
                 $('.dropdown-menu').mouseleave(function() {
                     $('.dropdown-toggle').removeClass('active');
                 });
-                $(this).children().children().fadeTo(600, 1);
+                $('nav.navbar').css({'opacity': '0'});
+                $('nav.navbar').delay(300).animate({opacity: 1}, 1200, 'easeInOutBack');
+                $('#main').delay(300).animate({opacity: 1,}, 1200, 'easeInOutBack');
             });
-
-            $('#main').fadeTo(600, 1);
 
             /* Loading & Choosing which projs to show in More */
 
@@ -286,6 +288,8 @@
                 $('.cvp').addClass('d-none');
                 $('.ntulis').addClass('d-none');
                 $('.iuos').addClass('d-none');
+                $('.project-item').css({'opacity': '1', 'top': '0'});
+
             });
 
             /* Implementing Scrollspy */

@@ -10,6 +10,7 @@
 
     <!-- jQuery -->
     <script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 
     <!-- Load Header & Footer-->
     <script>
@@ -68,7 +69,7 @@
                     </div>
                 </header>
 
-                <div class="proj-meta">
+                <div class="proj-meta" style="">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-6 col-12 row">
@@ -239,10 +240,10 @@
                 $('.dropdown-menu').mouseleave(function() {
                     $('.dropdown-toggle').removeClass('active');
                 });
-                $(this).children().children().fadeTo(600, 1);
+                $('nav.navbar').css({'opacity': '0'});
+                $('nav.navbar').delay(300).animate({opacity: 1}, 1200, 'easeInOutBack');
+                $('#main').delay(300).animate({opacity: 1,}, 1200, 'easeInOutBack');
             });
-
-            $('#main').fadeTo(600, 1);
 
             /* Loading & Choosing which projs to show in More */
 
@@ -250,6 +251,7 @@
                 $('.cvp').addClass('d-none');
                 $('.blackbaud').addClass('d-none');
                 $('.gogreen').addClass('d-none');
+                $('.project-item').css({'opacity': '1', 'top': '0'});
                 $('<div class="more-subtitle">... about working with real-world client</div>').insertBefore('.ntulis a.project-url');
                 $('<div class="more-subtitle-2">... about designing for social good</div>').insertBefore('.iuos a.project-url');
             });

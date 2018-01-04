@@ -10,6 +10,8 @@
 
     <!-- jQuery -->
     <script src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
 
     <!-- Load Header-->
     <script>
@@ -308,10 +310,10 @@
                     $('.dropdown-toggle').removeClass('active');
                 });
 
-                $(this).children().children().fadeTo(600, 1);
+                $('nav.navbar').css({'opacity': '0'});
+                $('nav.navbar').delay(300).animate({opacity: 1}, 1200, 'easeInOutBack');
+                $('#main').delay(300).animate({opacity: 1,}, 1200, 'easeInOutBack');
             });
-
-            $('#main').fadeTo(600, 1);
 
             /* Smooth Scrolling from https://css-tricks.com/snippets/jquery/smooth-scrolling/ */
 

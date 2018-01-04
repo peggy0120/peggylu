@@ -64,138 +64,50 @@
       }
 
       .cls-21 {
-        filter: url(#Line_66-2);
-      }
-
-      .cls-22 {
         filter: url(#Ellipse_23-4);
       }
 
-      .cls-23 {
-        filter: url(#Line_63-4);
-      }
-
-      .cls-24 {
+      .cls-22 {
         filter: url(#Ellipse_23-3);
       }
 
-      .cls-25 {
-        filter: url(#Line_63-3);
-      }
-
-      .cls-26 {
-        filter: url(#Line_66);
-      }
-
-      .cls-27 {
+      .cls-23 {
         filter: url(#Ellipse_23-2);
       }
 
-      .cls-28 {
-        filter: url(#Line_63-2);
-      }
-
-      .cls-29 {
-        filter: url(#Line_71);
-      }
-
-      .cls-30 {
-        filter: url(#Line_67);
-      }
-
-      .cls-31 {
+      .cls-24 {
         filter: url(#Ellipse_23);
-      }
-
-      .cls-32 {
-        filter: url(#Line_63);
       }
     </style>
     <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 1920 1800">
       <image width="1920" height="1800" xlink:href="ntulis_wireframe-home-image.png"/>
     </pattern>
-    <filter id="Line_63" x="4181.5" y="14737.75" width="29" height="6.5" filterUnits="userSpaceOnUse">
+    <filter id="Ellipse_23" x="4201" y="14734.5" width="13" height="13" filterUnits="userSpaceOnUse">
       <feOffset dy="1" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="1" result="blur"/>
       <feFlood flood-opacity="0.161"/>
       <feComposite operator="in" in2="blur"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="Ellipse_23" x="4201" y="14734.5" width="13" height="13" filterUnits="userSpaceOnUse">
+    <filter id="Ellipse_23-2" x="4201" y="14755" width="13" height="13" filterUnits="userSpaceOnUse">
       <feOffset dy="1" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="1" result="blur-2"/>
       <feFlood flood-opacity="0.161"/>
       <feComposite operator="in" in2="blur-2"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="Line_67" x="4169.5" y="14699.75" width="19" height="6.5" filterUnits="userSpaceOnUse">
+    <filter id="Ellipse_23-3" x="4318" y="14696.5" width="13" height="13" filterUnits="userSpaceOnUse">
       <feOffset dy="1" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="1" result="blur-3"/>
       <feFlood flood-opacity="0.161"/>
       <feComposite operator="in" in2="blur-3"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="Line_71" x="4181.75" y="14700" width="6.5" height="44" filterUnits="userSpaceOnUse">
+    <filter id="Ellipse_23-4" x="4386" y="14755" width="13" height="13" filterUnits="userSpaceOnUse">
       <feOffset dy="1" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="1" result="blur-4"/>
       <feFlood flood-opacity="0.161"/>
       <feComposite operator="in" in2="blur-4"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <filter id="Line_63-2" x="4181.5" y="14758.25" width="29" height="6.5" filterUnits="userSpaceOnUse">
-      <feOffset dy="1" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="1" result="blur-5"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur-5"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <filter id="Ellipse_23-2" x="4201" y="14755" width="13" height="13" filterUnits="userSpaceOnUse">
-      <feOffset dy="1" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="1" result="blur-6"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur-6"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <filter id="Line_66" x="4169.5" y="14758.25" width="18" height="6.5" filterUnits="userSpaceOnUse">
-      <feOffset dy="1" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="1" result="blur-7"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur-7"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <filter id="Line_63-3" x="4321.5" y="14699.75" width="122" height="6.5" filterUnits="userSpaceOnUse">
-      <feOffset dy="1" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="1" result="blur-8"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur-8"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <filter id="Ellipse_23-3" x="4318" y="14696.5" width="13" height="13" filterUnits="userSpaceOnUse">
-      <feOffset dy="1" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="1" result="blur-9"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur-9"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <filter id="Line_63-4" x="4389.5" y="14758.25" width="48" height="6.5" filterUnits="userSpaceOnUse">
-      <feOffset dy="1" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="1" result="blur-10"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur-10"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <filter id="Ellipse_23-4" x="4386" y="14755" width="13" height="13" filterUnits="userSpaceOnUse">
-      <feOffset dy="1" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="1" result="blur-11"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur-11"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <filter id="Line_66-2" x="4431.5" y="14758.25" width="12" height="6.5" filterUnits="userSpaceOnUse">
-      <feOffset dy="1" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="1" result="blur-12"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur-12"/>
       <feComposite in="SourceGraphic"/>
     </filter>
   </defs>
@@ -206,18 +118,10 @@
         <rect class="cls-19" width="216" height="10"/>
         <rect class="cls-20" x="0.25" y="0.25" width="215.5" height="9.5"/>
       </g>
-      <g class="cls-32" transform="matrix(1, 0, 0, 1, -3615, -14114.5)">
-        <line id="Line_63-5" data-name="Line 63" class="cls-2" x1="23" transform="translate(4184.5 14740)"/>
-      </g>
-      <g class="cls-31" transform="matrix(1, 0, 0, 1, -3615, -14114.5)">
+      <g class="cls-24" transform="matrix(1, 0, 0, 1, -3615, -14114.5)">
         <circle id="Ellipse_23-5" data-name="Ellipse 23" class="cls-3" cx="3.5" cy="3.5" r="3.5" transform="translate(4204 14736.5)"/>
       </g>
-      <g class="cls-30" transform="matrix(1, 0, 0, 1, -3615, -14114.5)">
-        <line id="Line_67-2" data-name="Line 67" class="cls-2" x1="13" transform="translate(4172.5 14702)"/>
-      </g>
-      <g class="cls-29" transform="matrix(1, 0, 0, 1, -3615, -14114.5)">
-        <line id="Line_71-2" data-name="Line 71" class="cls-2" y1="38" transform="translate(4185 14702)"/>
-      </g>
+      <path id="Path_81" data-name="Path 81" class="cls-2" d="M557.5,587.5H566v38h26.533"/>
       <line id="Line_64" data-name="Line 64" class="cls-4" y2="15" transform="translate(557.5 579.5)"/>
       <text id="Main_Navigation" data-name="Main Navigation" class="cls-5" transform="translate(455 592)"><tspan x="0" y="0">Main Navigation</tspan></text>
     </g>
@@ -226,23 +130,17 @@
         <rect class="cls-19" width="38" height="48"/>
         <rect class="cls-20" x="0.25" y="0.25" width="37.5" height="47.5"/>
       </g>
-      <g class="cls-28" transform="matrix(1, 0, 0, 1, -3498, -14140)">
-        <line id="Line_63-6" data-name="Line 63" class="cls-6" x1="23" transform="translate(4184.5 14760.5)"/>
-      </g>
-      <g class="cls-27" transform="matrix(1, 0, 0, 1, -3498, -14140)">
+      <line id="Line_63" data-name="Line 63" class="cls-6" x1="23" transform="translate(686.5 620.5)"/>
+      <g class="cls-23" transform="matrix(1, 0, 0, 1, -3498, -14140)">
         <circle id="Ellipse_23-6" data-name="Ellipse 23" class="cls-7" cx="3.5" cy="3.5" r="3.5" transform="translate(4204 14757)"/>
       </g>
-      <g class="cls-26" transform="matrix(1, 0, 0, 1, -3498, -14140)">
-        <line id="Line_66-3" data-name="Line 66" class="cls-6" x1="12" transform="translate(4172.5 14760.5)"/>
-      </g>
+      <line id="Line_66" data-name="Line 66" class="cls-6" x1="12" transform="translate(674.5 620.5)"/>
       <line id="Line_64-2" data-name="Line 64" class="cls-8" y2="30" transform="translate(674.5 605.5)"/>
       <text id="Audience_Segmentation" data-name="AudienceSegmentation" class="cls-9" transform="translate(671 618)"><tspan x="-56.643" y="0">Audience</tspan><tspan x="-85.784" y="14">Segmentation</tspan></text>
     </g>
     <g id="Group_102" data-name="Group 102" transform="translate(0 -58.5)">
-      <g class="cls-25" transform="matrix(1, 0, 0, 1, -3683, -14081.5)">
-        <line id="Line_63-7" data-name="Line 63" class="cls-10" x2="116" transform="translate(4324.5 14702)"/>
-      </g>
-      <g class="cls-24" transform="matrix(1, 0, 0, 1, -3683, -14081.5)">
+      <line id="Line_63-2" data-name="Line 63" class="cls-10" x2="116" transform="translate(641.5 620.5)"/>
+      <g class="cls-22" transform="matrix(1, 0, 0, 1, -3683, -14081.5)">
         <circle id="Ellipse_23-7" data-name="Ellipse 23" class="cls-11" cx="3.5" cy="3.5" r="3.5" transform="translate(4321 14698.5)"/>
       </g>
       <line id="Line_64-3" data-name="Line 64" class="cls-12" y2="15" transform="translate(757.5 612.5)"/>
@@ -250,15 +148,11 @@
       <text id="Providing_frequently_used_external_links" data-name="Providing frequently used external links" class="cls-14" transform="translate(762 630.5)"><tspan x="0" y="10">Providing frequently used </tspan><tspan x="0" y="22.5">external links</tspan></text>
     </g>
     <g id="Group_101" data-name="Group 101">
-      <g class="cls-23" transform="matrix(1, 0, 0, 1, -3683, -14140)">
-        <line id="Line_63-8" data-name="Line 63" class="cls-15" x2="42" transform="translate(4392.5 14760.5)"/>
-      </g>
-      <g class="cls-22" transform="matrix(1, 0, 0, 1, -3683, -14140)">
+      <line id="Line_63-3" data-name="Line 63" class="cls-15" x2="42" transform="translate(709.5 620.5)"/>
+      <g class="cls-21" transform="matrix(1, 0, 0, 1, -3683, -14140)">
         <circle id="Ellipse_23-8" data-name="Ellipse 23" class="cls-16" cx="3.5" cy="3.5" r="3.5" transform="translate(4389 14757)"/>
       </g>
-      <g class="cls-21" transform="matrix(1, 0, 0, 1, -3683, -14140)">
-        <line id="Line_66-4" data-name="Line 66" class="cls-15" x1="6" transform="translate(4434.5 14760.5)"/>
-      </g>
+      <line id="Line_66-2" data-name="Line 66" class="cls-15" x1="6" transform="translate(751.5 620.5)"/>
       <line id="Line_64-4" data-name="Line 64" class="cls-17" y2="15" transform="translate(757.5 613.5)"/>
       <text id="Carousel" class="cls-18" transform="translate(762 626)"><tspan x="0" y="0">Carousel</tspan></text>
       <text id="Showcasing_latest_news_and_student_achievements_to_provide_a_strong_first_impression_on_what_the_program_can_offer." data-name="Showcasing latest news and student achievements to provide a strong first impression on what the program can offer." class="cls-14" transform="translate(762 631.5)"><tspan x="0" y="10">Showcasing latest news </tspan><tspan x="0" y="22.5">and student achievements </tspan><tspan x="0" y="35">to provide a strong first </tspan><tspan x="0" y="47.5">impression on what the </tspan><tspan x="0" y="60">program can offer.</tspan></text>
