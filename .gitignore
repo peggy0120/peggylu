@@ -3,6 +3,9 @@
 .ai
 /assets/
 
+.db
+
+
 # Compiled source #
 ###################
 *.com

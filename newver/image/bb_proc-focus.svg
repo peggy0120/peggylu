@@ -1,0 +1,204 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="4056 12627 493 303">
+  <defs>
+    <style>
+      .cls-1, .cls-5, .cls-8, .cls-9 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #33b599;
+      }
+
+      .cls-2 {
+        fill: #888;
+        font-size: 16px;
+      }
+
+      .cls-10, .cls-11, .cls-2, .cls-4 {
+        font-family: Roboto-Light, Roboto;
+        font-weight: 300;
+      }
+
+      .cls-3 {
+        fill: #51a6df;
+      }
+
+      .cls-4 {
+        fill: #fff;
+        font-size: 14px;
+      }
+
+      .cls-5 {
+        stroke: #51a6df;
+      }
+
+      .cls-11, .cls-6 {
+        fill: #33b599;
+      }
+
+      .cls-10, .cls-7 {
+        fill: #aaa;
+      }
+
+      .cls-8 {
+        stroke: #707070;
+      }
+
+      .cls-8, .cls-9 {
+        stroke-width: 0.5px;
+      }
+
+      .cls-9 {
+        stroke: #aaa;
+      }
+
+      .cls-10, .cls-11 {
+        font-size: 12px;
+      }
+
+      .cls-12 {
+        filter: url(#Rectangle_59-7);
+      }
+
+      .cls-13 {
+        filter: url(#Rectangle_59-6);
+      }
+
+      .cls-14 {
+        filter: url(#Rectangle_59-5);
+      }
+
+      .cls-15 {
+        filter: url(#Rectangle_59-4);
+      }
+
+      .cls-16 {
+        filter: url(#Rectangle_59-3);
+      }
+
+      .cls-17 {
+        filter: url(#Rectangle_59-2);
+      }
+
+      .cls-18 {
+        filter: url(#Rectangle_59);
+      }
+    </style>
+    <filter id="Rectangle_59" x="4102" y="12692" width="260" height="33" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.322"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_59-2" x="4081" y="12657" width="195" height="33" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_59-3" x="4081" y="12731" width="184" height="33" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_59-4" x="4081" y="12768" width="201" height="33" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_59-5" x="4081" y="12805" width="185" height="33" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_59-6" x="4081" y="12842" width="185" height="33" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_59-7" x="4082" y="12879" width="184" height="33" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-7"/>
+      <feFlood flood-opacity="0.322"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="bb_proc-focus" transform="translate(3680 12511)">
+    <line id="Line_75" data-name="Line 75" class="cls-1" y2="241" transform="translate(387.5 142.5)"/>
+    <text id="New_Marketing_Solution" data-name="New Marketing Solution" class="cls-2" transform="translate(376 131)"><tspan x="0" y="0">New Marketing Solution</tspan></text>
+    <g id="Group_158" data-name="Group 158" transform="translate(-23 32)">
+      <g class="cls-18" transform="matrix(1, 0, 0, 1, -3657, -12543)">
+        <rect id="Rectangle_59-8" data-name="Rectangle 59" class="cls-3" width="254" height="27" rx="1" transform="translate(4105 12694)"/>
+      </g>
+      <text id="Campaign_regulations_best_practices" data-name="Campaign regulations &amp; best practices" class="cls-4" transform="translate(456 169)"><tspan x="0" y="0">Campaign regulations &amp; best practices</tspan></text>
+      <line id="Line_75-2" data-name="Line 75" class="cls-5" x1="16" transform="translate(433.5 164.5)"/>
+      <line id="Line_76" data-name="Line 76" class="cls-5" y2="23" transform="translate(433.5 141.5)"/>
+    </g>
+    <g id="Group_159" data-name="Group 159" transform="translate(-52)">
+      <g class="cls-17" transform="matrix(1, 0, 0, 1, -3628, -12511)">
+        <rect id="Rectangle_59-9" data-name="Rectangle 59" class="cls-6" width="189" height="27" rx="1" transform="translate(4084 12659)"/>
+      </g>
+      <text id="Creating_marketing_contents" data-name="Creating marketing contents" class="cls-4" transform="translate(464 166)"><tspan x="0" y="0">Creating marketing contents</tspan></text>
+      <line id="Line_80" data-name="Line 80" class="cls-1" x1="16.7" transform="translate(439.5 161.5)"/>
+    </g>
+    <g id="Group_160" data-name="Group 160" transform="translate(-52 71)">
+      <g class="cls-16" transform="matrix(1, 0, 0, 1, -3628, -12582)">
+        <rect id="Rectangle_59-10" data-name="Rectangle 59" class="cls-7" width="178" height="27" rx="1" transform="translate(4084 12733)"/>
+      </g>
+      <text id="Managing_past_campaigns" data-name="Managing past campaigns" class="cls-4" transform="translate(464 169)"><tspan x="0" y="0">Managing past campaigns</tspan></text>
+      <line id="Line_79" data-name="Line 79" class="cls-8" x1="16.7" transform="translate(439.5 164.5)"/>
+    </g>
+    <g id="Group_161" data-name="Group 161" transform="translate(-52 108)">
+      <g class="cls-15" transform="matrix(1, 0, 0, 1, -3628, -12619)">
+        <rect id="Rectangle_59-11" data-name="Rectangle 59" class="cls-7" width="195" height="27" rx="1" transform="translate(4084 12770)"/>
+      </g>
+      <text id="Tracking_ongoing_campaigns" data-name="Tracking ongoing campaigns" class="cls-4" transform="translate(464 169)"><tspan x="0" y="0">Tracking ongoing campaigns</tspan></text>
+      <line id="Line_78" data-name="Line 78" class="cls-8" x1="16.7" transform="translate(439.5 164.5)"/>
+    </g>
+    <g id="Group_162" data-name="Group 162" transform="translate(-52 145)">
+      <g class="cls-14" transform="matrix(1, 0, 0, 1, -3628, -12656)">
+        <rect id="Rectangle_59-12" data-name="Rectangle 59" class="cls-7" width="179" height="27" rx="1" transform="translate(4084 12807)"/>
+      </g>
+      <text id="Monitoring_campaign_stats" data-name="Monitoring campaign stats" class="cls-4" transform="translate(464 169)"><tspan x="0" y="0">Monitoring campaign stats</tspan></text>
+      <line id="Line_77" data-name="Line 77" class="cls-8" x1="16.7" transform="translate(439.5 164.5)"/>
+    </g>
+    <g id="Group_159-2" data-name="Group 159" transform="translate(-52 182)">
+      <g class="cls-13" transform="matrix(1, 0, 0, 1, -3628, -12693)">
+        <rect id="Rectangle_59-13" data-name="Rectangle 59" class="cls-7" width="179" height="27" rx="1" transform="translate(4084 12844)"/>
+      </g>
+      <text id="Cross-channel_campaigns" data-name="Cross-channel campaigns" class="cls-4" transform="translate(464 169)"><tspan x="0" y="0">Cross-channel campaigns</tspan></text>
+      <line id="Line_77-2" data-name="Line 77" class="cls-8" x1="16.7" transform="translate(439.5 164.5)"/>
+    </g>
+    <g id="Group_163" data-name="Group 163" transform="translate(-51 219)">
+      <g class="cls-12" transform="matrix(1, 0, 0, 1, -3629, -12730)">
+        <rect id="Rectangle_59-14" data-name="Rectangle 59" class="cls-6" width="178" height="27" rx="1" transform="translate(4085 12881)"/>
+      </g>
+      <text id="Two-way_communications" data-name="Two-way communications" class="cls-4" transform="translate(464 169)"><tspan x="0" y="0">Two-way communications</tspan></text>
+      <line id="Line_76-2" data-name="Line 76" class="cls-1" x1="18" transform="translate(438 164.5)"/>
+    </g>
+    <line id="Line_81" data-name="Line 81" class="cls-9" x2="44.369" transform="translate(595.5 235.5)"/>
+    <line id="Line_82" data-name="Line 82" class="cls-9" x2="44.369" transform="translate(595.5 309.5)"/>
+    <line id="Line_83" data-name="Line 83" class="cls-9" x2="50" transform="translate(612.5 272.5)"/>
+    <line id="Line_84" data-name="Line 84" class="cls-9" y2="74" transform="translate(639.5 235.5)"/>
+    <line id="Line_85" data-name="Line 85" class="cls-9" x2="42.864" transform="translate(595.599 346.5)"/>
+    <path id="Path_152" data-name="Path 152" class="cls-1" d="M0,0H21.432V13.421H42" transform="translate(595.599 383.5)"/>
+    <path id="Path_153" data-name="Path 153" class="cls-1" d="M0,0H79.2" transform="translate(603.599 160.5)"/>
+    <text id="Depended_a_lot_on_the_development_of_other_products_and_should_not_be_the_focus_of_an_earlier_stage" data-name="Depended a lot on the development of
+other products and should not be the
+focus of an earlier stage" class="cls-10" transform="translate(652 337)"><tspan x="0" y="0">Depended a lot on the development of </tspan><tspan x="0" y="14">other products and should not be the </tspan><tspan x="0" y="28">focus of an earlier stage</tspan></text>
+    <text id="Brand_new_area_Have_most_impact_on_engagement_and_generated_most_user_interests_during_discovery_calls" data-name="Brand new area; Have most impact on engagement and generated most user interests during discovery calls" class="cls-11" transform="translate(652 375)"><tspan x="0" y="11">Brand new area; Have most impact on </tspan><tspan x="0" y="25">engagement and generated most user </tspan><tspan x="0" y="39">interests during discovery calls</tspan></text>
+    <text id="The_starting_point_Had_lots_of_regulations_to_follow_and_were_the_area_the_users_were_most_concerned_of" data-name="The starting point; Had lots of regulations to follow, and were the area the users were most concerned of" class="cls-11" transform="translate(696 140)"><tspan x="0" y="11">The starting point; Had lots of </tspan><tspan x="0" y="25">regulations to follow, and were </tspan><tspan x="0" y="39">the area the users were most </tspan><tspan x="0" y="53">concerned of</tspan></text>
+    <text id="Similar_forms_existed_in_other_products_and_it_s_better_to_follow_the_convention_at_the_moment" data-name="Similar forms existed in other products, and it&apos;s better to follow the convention at the moment" class="cls-10" transform="translate(675 263)"><tspan x="0" y="0">Similar forms existed in other </tspan><tspan x="0" y="14">products, and it&apos;s better to follow the </tspan><tspan x="0" y="28">convention at the moment</tspan></text>
+  </g>
+</svg>

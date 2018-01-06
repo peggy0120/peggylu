@@ -1,0 +1,249 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="2700.567 12686 517.433 178">
+  <defs>
+    <style>
+      .cls-1, .cls-8 {
+        fill: #33b599;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 14px;
+        font-family: Roboto-Light, Roboto;
+        font-weight: 300;
+      }
+
+      .cls-10, .cls-3, .cls-6 {
+        fill: #51a6df;
+      }
+
+      .cls-4 {
+        fill: #aaa;
+      }
+
+      .cls-5, .cls-7 {
+        fill: none;
+      }
+
+      .cls-6 {
+        font-size: 12px;
+      }
+
+      .cls-6, .cls-8 {
+        font-family: Roboto-Regular, Roboto;
+      }
+
+      .cls-7 {
+        stroke: #33b599;
+        stroke-width: 0.5px;
+      }
+
+      .cls-8 {
+        font-size: 11px;
+      }
+
+      .cls-10, .cls-9 {
+        stroke: none;
+      }
+
+      .cls-11 {
+        filter: url(#Rectangle_60-11);
+      }
+
+      .cls-12 {
+        filter: url(#Rectangle_60-10);
+      }
+
+      .cls-13 {
+        filter: url(#Rectangle_60-9);
+      }
+
+      .cls-14 {
+        filter: url(#Rectangle_60-8);
+      }
+
+      .cls-15 {
+        filter: url(#Rectangle_60-7);
+      }
+
+      .cls-16 {
+        filter: url(#Rectangle_60-6);
+      }
+
+      .cls-17 {
+        filter: url(#Rectangle_60-5);
+      }
+
+      .cls-18 {
+        filter: url(#Rectangle_60-4);
+      }
+
+      .cls-19 {
+        filter: url(#Rectangle_60-3);
+      }
+
+      .cls-20 {
+        filter: url(#Rectangle_60-2);
+      }
+
+      .cls-21 {
+        filter: url(#Rectangle_60);
+      }
+    </style>
+    <filter id="Rectangle_60" x="2719" y="12711" width="118" height="33" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_60-2" x="2844" y="12711" width="195" height="33" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_60-3" x="2719" y="12756" width="95" height="33" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_60-4" x="2827" y="12756" width="102" height="33" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_60-5" x="2933" y="12756" width="106" height="33" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_60-6" x="2719" y="12810" width="136" height="33" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_60-7" x="2868" y="12810" width="116" height="33" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-7"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_60-8" x="2988" y="12810" width="88" height="33" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-8"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_60-9" x="3047" y="12756" width="159" height="33" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-9"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_60-10" x="3047" y="12711" width="153" height="33" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-10"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-10"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_60-11" x="3080" y="12810" width="138" height="33" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-11"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-11"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="bb_proc-usecase" transform="translate(2325 12580)">
+    <g id="Group_164" data-name="Group 164" transform="translate(512 30)">
+      <g class="cls-21" transform="matrix(1, 0, 0, 1, -2837, -12610)">
+        <rect id="Rectangle_60-12" data-name="Rectangle 60" class="cls-1" width="112" height="27" rx="1" transform="translate(2722 12713)"/>
+      </g>
+      <text id="Welcome_Msgs" data-name="Welcome Msgs" class="cls-2" transform="translate(-107 121)"><tspan x="0" y="0">Welcome Msgs</tspan></text>
+    </g>
+    <g id="Group_171" data-name="Group 171" transform="translate(637 30)">
+      <g class="cls-20" transform="matrix(1, 0, 0, 1, -2962, -12610)">
+        <rect id="Rectangle_60-13" data-name="Rectangle 60" class="cls-1" width="189" height="27" rx="1" transform="translate(2847 12713)"/>
+      </g>
+      <text id="Education_Awareness_Info" data-name="Education / Awareness Info" class="cls-2" transform="translate(-105 121)"><tspan x="0" y="0">Education / Awareness Info</tspan></text>
+    </g>
+    <g id="Group_167" data-name="Group 167" transform="translate(512 75)">
+      <g class="cls-19" transform="matrix(1, 0, 0, 1, -2837, -12655)">
+        <rect id="Rectangle_60-14" data-name="Rectangle 60" class="cls-3" width="89" height="27" rx="1" transform="translate(2722 12758)"/>
+      </g>
+      <text id="Fundraising" class="cls-2" transform="translate(-107 121)"><tspan x="0" y="0">Fundraising</tspan></text>
+    </g>
+    <g id="Group_166" data-name="Group 166" transform="translate(620 75)">
+      <g class="cls-18" transform="matrix(1, 0, 0, 1, -2945, -12655)">
+        <rect id="Rectangle_60-15" data-name="Rectangle 60" class="cls-1" width="96" height="27" rx="1" transform="translate(2830 12758)"/>
+      </g>
+      <text id="Call-to-action" class="cls-2" transform="translate(-107 121)"><tspan x="0" y="0">Call-to-action</tspan></text>
+    </g>
+    <g id="Group_169" data-name="Group 169" transform="translate(726 75)">
+      <g class="cls-17" transform="matrix(1, 0, 0, 1, -3051, -12655)">
+        <rect id="Rectangle_60-16" data-name="Rectangle 60" class="cls-1" width="100" height="27" rx="1" transform="translate(2936 12758)"/>
+      </g>
+      <text id="News_Update" data-name="News Update" class="cls-2" transform="translate(-107 121)"><tspan x="0" y="0">News Update</tspan></text>
+    </g>
+    <g id="Group_175" data-name="Group 175" transform="translate(512 129)">
+      <g class="cls-16" transform="matrix(1, 0, 0, 1, -2837, -12709)">
+        <rect id="Rectangle_60-17" data-name="Rectangle 60" class="cls-3" width="130" height="27" rx="1" transform="translate(2722 12812)"/>
+      </g>
+      <text id="Personal_Outreach" data-name="Personal Outreach" class="cls-2" transform="translate(-107 121)"><tspan x="0" y="0">Personal Outreach</tspan></text>
+    </g>
+    <g id="Group_170" data-name="Group 170" transform="translate(661 129)">
+      <g class="cls-15" transform="matrix(1, 0, 0, 1, -2986, -12709)">
+        <rect id="Rectangle_60-18" data-name="Rectangle 60" class="cls-4" width="110" height="27" rx="1" transform="translate(2871 12812)"/>
+      </g>
+      <text id="Data_Collection" data-name="Data Collection" class="cls-2" transform="translate(-107 121)"><tspan x="0" y="0">Data Collection</tspan></text>
+    </g>
+    <g id="Group_172" data-name="Group 172" transform="translate(781 129)">
+      <g class="cls-14" transform="matrix(1, 0, 0, 1, -3106, -12709)">
+        <rect id="Rectangle_60-19" data-name="Rectangle 60" class="cls-4" width="82" height="27" rx="1" transform="translate(2991 12812)"/>
+      </g>
+      <text id="Reminders" class="cls-2" transform="translate(-107 121)"><tspan x="0" y="0">Reminders</tspan></text>
+    </g>
+    <g id="Group_168" data-name="Group 168" transform="translate(840 75)">
+      <g class="cls-13" transform="matrix(1, 0, 0, 1, -3165, -12655)">
+        <rect id="Rectangle_60-20" data-name="Rectangle 60" class="cls-4" width="153" height="27" rx="1" transform="translate(3050 12758)"/>
+      </g>
+      <text id="Volunteer_Recruitment" data-name="Volunteer Recruitment" class="cls-2" transform="translate(-107 121)"><tspan x="0" y="0">Volunteer Recruitment</tspan></text>
+    </g>
+    <g id="Group_174" data-name="Group 174" transform="translate(840 30)">
+      <g class="cls-12" transform="matrix(1, 0, 0, 1, -3165, -12610)">
+        <rect id="Rectangle_60-21" data-name="Rectangle 60" class="cls-4" width="147" height="27" rx="1" transform="translate(3050 12713)"/>
+      </g>
+      <text id="Emergency_Outreach" data-name="Emergency Outreach" class="cls-2" transform="translate(-107 121)"><tspan x="0" y="0">Emergency Outreach</tspan></text>
+    </g>
+    <g id="Group_173" data-name="Group 173" transform="translate(873 129)">
+      <g class="cls-11" transform="matrix(1, 0, 0, 1, -3198, -12709)">
+        <rect id="Rectangle_60-22" data-name="Rectangle 60" class="cls-4" width="132" height="27" rx="1" transform="translate(3083 12812)"/>
+      </g>
+      <text id="Event_Coordinating" data-name="Event Coordinating" class="cls-2" transform="translate(-107 121)"><tspan x="0" y="0">Event Coordinating</tspan></text>
+    </g>
+    <g id="Group_177" data-name="Group 177">
+      <g id="Path_150" data-name="Path 150" class="cls-5" transform="translate(-2328.634 -12496)">
+        <path class="cls-9" d="M2704.7,12665h120.133v54.134h40.8v44.534l-150.72.054v-44.588H2704.7Z"/>
+        <path class="cls-10" d="M 2714.91357421875 12763.720703125 L 2865.6337890625 12763.6669921875 L 2865.6337890625 12719.1328125 L 2824.83349609375 12719.1328125 L 2824.83349609375 12664.9990234375 L 2705.346435546875 12664.9990234375 L 2704.7001953125 12664.9990234375 L 2704.7001953125 12719.1328125 L 2714.91357421875 12719.1328125 L 2714.91357421875 12763.720703125 M 2714.41357421875 12764.220703125 L 2714.41357421875 12763.720703125 L 2714.41357421875 12719.6328125 L 2704.7001953125 12719.6328125 L 2704.2001953125 12719.6328125 L 2704.2001953125 12719.1328125 L 2704.2001953125 12664.9990234375 L 2704.2001953125 12664.4990234375 L 2704.7001953125 12664.4990234375 L 2705.346435546875 12664.4990234375 L 2824.83349609375 12664.4990234375 L 2825.33349609375 12664.4990234375 L 2825.33349609375 12664.9990234375 L 2825.33349609375 12718.6328125 L 2865.6337890625 12718.6328125 L 2866.1337890625 12718.6328125 L 2866.1337890625 12719.1328125 L 2866.1337890625 12763.6669921875 L 2866.1337890625 12764.1669921875 L 2865.634033203125 12764.1669921875 L 2714.913818359375 12764.220703125 L 2714.41357421875 12764.220703125 Z"/>
+      </g>
+      <text id="Have_Most_User_Interests" data-name="Have Most User Interests" class="cls-6" transform="translate(398.5 281)"><tspan x="0" y="0">Have Most User Interests</tspan></text>
+    </g>
+    <g id="Group_178" data-name="Group 178" transform="translate(13)">
+      <path id="Path_151" data-name="Path 151" class="cls-7" d="M.962,0H331.038A.961.961,0,0,1,332,.959V90.174a.961.961,0,0,1-.962.959H.962A.961.961,0,0,1,0,90.174V.959A.961.961,0,0,1,.962,0Z" transform="translate(373 122.867)"/>
+      <text id="Most_Frequently_Seen" data-name="Most Frequently Seen" class="cls-8" transform="translate(385.51 116)"><tspan x="0" y="0">Most Frequently Seen</tspan></text>
+    </g>
+  </g>
+</svg>
