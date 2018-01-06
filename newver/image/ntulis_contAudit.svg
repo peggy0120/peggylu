@@ -33,7 +33,7 @@
 
       .cls-11, .cls-7 {
         font-size: 14px;
-        font-family: Roboto-Light, Roboto;
+        font-family: Roboto-Light, Roboto, Sans-Serif;
         font-weight: 300;
       }
 

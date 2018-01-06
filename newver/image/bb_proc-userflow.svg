@@ -54,7 +54,7 @@
       .cls-12 {
         fill: #fff;
         font-size: 14px;
-        font-family: Roboto-Regular, Roboto;
+        font-family: Roboto-Light, Roboto, Sans-Serif;
       }
     </style>
     <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 896 893">

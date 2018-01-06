@@ -11,7 +11,7 @@
 
       .cls-2, .cls-5 {
         font-size: 12px;
-        font-family: Roboto-Regular, Roboto;
+        font-family: Roboto-Light, Roboto, Sans-Serif;
       }
 
       .cls-3 {
@@ -30,7 +30,7 @@
 
       .cls-6, .cls-9 {
         font-size: 14px;
-        font-family: Roboto-Light, Roboto;
+        font-family: Roboto-Light, Roboto, Sans-Serif;
         font-weight: 300;
       }
 
