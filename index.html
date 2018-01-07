@@ -1,26 +1,35 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="Peggy Pei-Ying Lu">
-    
     <title>Peggy Lu | UX Design</title>
-    
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    <!-- Load Header-->
+    <script>
+        $(function() {
+            $('#footer').load('reuseFooter.html');
+        });
+    </script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+
     <!-- Stylesheet -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-<!--    <link rel="stylesheet" href="t_phantom/assets/css/main.css" />-->
-   
-    
-    <!-- jQuery -->
-    <script src="js/jquery-1.11.3.min.js"></script>
-    
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.js"></script>
-    
+
+    <!-- FontAwesome -->
+    <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet">
+
     <!-- Google Analytics -->
     <script>
         (function (i, s, o, g, r, a, m) {
@@ -36,204 +45,165 @@
         ga('create', 'UA-61994680-2', 'auto');
         ga('send', 'pageview');
     </script>
-
 </head>
 
 <body>
-    
     <!-- Wrapper -->
-    <div id="wrapper">               
-        <!-- Header -->
-        <header id="header" class="homepage">
-            <div class="inner">
-                <div class="title">
-                    <a href="index.html" class="disabled">Peggy Lu</a>
+    <div id="wrapper">
+        <div class="page">
+
+            <!-- Header -->
+            <header id="header"></header>
+
+            <!-- Main -->
+            <div id="main" class="homepage">
+                <div class="container">
+                    <div class="row justify-content-start no-gutters">
+
+                       <div class="project-item blackbaud col-lg-6 col-12 justify-content-center" onclick="">
+                           <a onclick="" href="/projects/bb-ux-intern.html" class="project-url d-flex">
+                                <div class="project-img">
+                                    <img src="/image/blackbaud.jpg">
+                                </div>
+                                <div class="project-meta d-flex flex-column justify-content-around">
+                                    <span class="project-label">Interaction Design | Research</span>
+                                    <h2 class="project-title">UX Intern @ Blackbaud</h2>
+                                    <p class="project-desc">Envision &amp; design future marketing solution for nonprofit organizations to power social good</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div onclick="" class="project-item ntulis col-lg-6 col-12 justify-content-center" on-click="void(0)">
+                           <a onclick="" href="/projects/ntulis-IA.html" class="project-url d-flex">
+                                <div class="project-img">
+                                    <img src="/image/NTULIS_thumb.jpg">
+                                </div>
+                                <div class="project-meta d-flex flex-column justify-content-around">
+                                    <span class="project-label">Information Architecture <span style="white-space: nowrap;">| Front-end Dev</span></span>
+                                    <h2 class="project-title">NTULIS Redesign</h2>
+                                    <p class="project-desc">Redesign university website addressing student needs &amp; the organization's vision</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div onclick="" class="project-item iuos col-lg-6 col-12 justify-content-center d-none" on-click="void(0)">
+                           <a onclick="" href="/projects/iuhcid-iuos.html" class="project-url d-flex">
+                                <div class="project-img">
+                                    <img src="/image/iuos_thumb.jpg">
+                                </div>
+                                <div class="project-meta d-flex flex-column justify-content-around">
+                                    <span class="project-label">Design Strategy | Research</span>
+                                    <h2 class="project-title">Prioritization Strategy for IUOS</h2>
+                                    <p class="project-desc">A strategic design process for the sustainability office on campus to prioritize initiatives and resources</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div onclick="" class="project-item gogreen col-lg-6 col-12 justify-content-center d-none" on-click="void(0)">
+                           <a onclick="" href="/projects/iuhcid-gogreen.html" class="project-url d-flex">
+                                <div class="project-img">
+                                    <img src="/image/gogreen_thumb.jpg">
+                                </div>
+                                <div class="project-meta d-flex flex-column justify-content-around">
+                                    <span class="project-label">Service Design | User Research</span>
+                                    <h2 class="project-title">Community Waste Education</h2>
+                                    <p class="project-desc">Informing &amp; promoting waste management practices in a smart &amp; connected community</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div onclick="" class="project-item cvp col-lg-6 col-12 justify-content-center" on-click="void(0)">
+                           <a onclick="" href="/projects/iuhcid-cvp.html" class="project-url d-flex">
+                                <div class="project-img">
+                                    <img src="/image/cvp_thumb.jpg">
+                                </div>
+                                <div class="project-meta d-flex flex-column justify-content-around">
+                                    <span class="project-label">User Research | Prototyping</span>
+                                    <h2 class="project-title">Campus Veteran Portal</h2>
+                                    <p class="project-desc">Empowering student veterans by connecting them to relevant resources and community during transitions</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div onclick="" class="project-item equi col-lg-6 col-12 justify-content-center d-none" on-click="void(0)">
+                           <a onclick="" href="#" class="project-url d-flex">
+                                <div class="project-img">
+<!--                                    <img src="/image/Equi-table_thumb.png">-->
+                                </div>
+                                <div class="project-meta d-flex flex-column justify-content-around">
+                                    <span class="project-label"></span>
+                                    <h2 class="project-title">Equi-table</h2>
+                                    <p class="project-desc">Redesign university website addressing student needs &amp; the organization's vision</p>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
                 </div>
-                <div class="subtitle">UX Designer | Library &amp; Museum Enthusiast</div>
-                <nav id="menu">
-                    <ul>
-                        <li class="dropdown"> 
-                            <a href="" class="dropdown-toggle block" data-toggle="dropdown">Project</a>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuDivider">
-                                    <li><a href="proj-IA-ntulis.html">NTULIS Redesign</a></li>
-                                    <li><a href="proj-yumbot.html">Yumbot</a></li>
-                                    <li><a href="proj-cvp.html">Campus Veteran Portal</a></li>
-                                    <li><a href="proj-btown2050.html">Bloomington 2050</a></li>
-<!--                                    <li class="disabled"><a href="" class="disabled">Go Green Edu</a></li>-->
-                                </ul>
-                        </li>
-                        <li>
-                            <a href="https://iu.app.box.com/v/peggylu-ux-resume" target="_blank" class="block">Resume</a>
-                        </li>
-                    </ul>
-                </nav>
             </div>
-        </header>
-        
-        <!-- Main -->
-        <div id="main" class="homepage">
-            <div class="row">
-                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 thumb">
-                    <a href="proj-IA-ntulis.html">
-                        <img src="image/NTULIS_thumb.png">
-                        <div>
-                            <h6>Information Architecture | Web Development</h6>
-                            <h2>NTULIS Redesign</h2>
-                            <p>Redesign university website addressing student needs &amp; the organization's vision</p>
-                        </div>
-                    </a>
 
-                </div>
-               <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 thumb">
-                   <a href="proj-yumbot.html">
-                        <img src="image/yumbot_thumb.png">
-                        <div>
-                            <h6>Interaction Design</h6>
-                            <h2>Yumbot</h2>
-                            <p>A chatbot to find the specific dish you want quickly</p>
-                        </div>
-                    </a>
-               </div>
-               <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 thumb">
-                   <a href="proj-cvp.html">
-                        <img src="image/cvp_thumb.png">
-                        <div>
-                            <h6>Interaction Design</h6>
-                            <h2>Campus Veteran Portal</h2>
-                            <p>Transitioning student veterans by connecting them to relevant resources and community</p>
-                        </div>
-                    </a>
-               </div>
-               <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 thumb">
-                    <a href="proj-btown2050.html" class="">
-                        <img src="image/btown2050_thumb.png">
-                        <div>
-                            <h6>Design Fiction</h6>
-                            <h2>Bloomington 2050</h2>
-                            <p>A design fiction on future smart &amp; connected community for visitors.</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 thumb disabled">
-                    <a href="" class="disabled">
-                        <img src="image/Equi-table_thumb.png">
-                        <div>
-                            <h6>Interaction Design</h6>
-                            <h2>Equi-table</h2>
-                            <p>Coming Soon!</p>
-                        </div>
-                    </a>
-                </div>
+            <!-- Footer -->
+            <footer id="footer"></footer>
 
-               <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 thumb disabled">
-                   <a href="" class="disabled">
-                        <img src="image/gogreen_thumb.png">
-                        <div>
-                            <h6>Service Design</h6>
-                            <h2>GIKES</h2>
-                            <p>Waste Management Information &amp; Knonwledge Exchange System for Bloomington Residents</p>
-                            <p>Coming Soon!</p>
-                        </div>
-                    </a>
-               </div>
-
-           </div>
-            
         </div>
-        <div id="quote" class="full-sec hidden">
-            <div class="inner">
-                <p class="banner-text">Design is a way to connect people with <i>relevant information</i> in an efficient and effective manner.</p>
-            </div>
-        </div>
-        <!-- Footer -->
-        <footer id="footer">
-            <div class="inner">
-                <!--
-                <section>
-                    <h2>Get in touch</h2>
-                    <form method="post" action="#">
-                        <div class="field half first">
-                            <input type="text" name="name" id="name" placeholder="Name" /> </div>
-                        <div class="field half">
-                            <input type="email" name="email" id="email" placeholder="Email" /> </div>
-                        <div class="field">
-                            <textarea name="message" id="message" placeholder="Message"></textarea>
-                        </div>
-                        <ul class="actions">
-                            <li>
-                                <input type="submit" value="Send" class="special" />
-                            </li>
-                        </ul>
-                    </form>
-                </section>
--->
-                <section id="follow">
-<!--                    <h2>Follow</h2>-->
-                    <ul class="icons">
-                        <li><a href="https://www.linkedin.com/in/peggy-lu" class="icon  fa-linkedin" target="_blank"><span class="label">Linkedin</span></a></li>
-                        <li><a href="https://dribbble.com/peggylu" class="icon  fa-dribbble" target="_blank"><span class="label">Dribbble</span></a></li>
-                        <li><a href="https://vimeo.com/user29306616" class="icon  fa-vimeo-square" target="_blank"><span class="label">Vimeo</span></a></li>
-                        <li><a href="mailto:peggy.py.lu@gmail.com" class="icon  fa-envelope-o"><span class="label">Email</span></a></li>
-                    </ul>
-                </section>
-                <p>&copy; Peggy Lu. All rights reserved.</p>
-            </div>
-        </footer>
-        </div>
-        <!-- Scripts -->
-        <script src="t_phantom/assets/js/skel.min.js"></script>
-        <script src="t_phantom/assets/js/util.js"></script>
-        <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-        <script src="t_phantom/assets/js/main.js"></script>
-        
-<!--
-        <script>
-            $(document).ready(function(){ 
-                // From: https://medium.com/@mariusc23/hide-header-on-scroll-down-show-on-scroll-up-67bbaae9a78c#.lg9xealkz
-                // Hide Header on on scroll down
-                var didScroll;
-                var lastScrollTop = 0;
-                var delta = 5;
-                var navbarHeight = $('#header').outerHeight();
 
-                $(window).scroll(function(event){
-                    didScroll = true;
+        <div class="copyright">
+            <span>&copy; Peggy (Pei-Ying) Lu, 2017. All rights reserved.</span>
+            <a href="#wrapper" class="btm-top">
+                back to top &nbsp;
+                <span class="fas fa-caret-up"></span>
+            </a>
+        </div>
+
+    </div>
+
+    <script>
+        $(document).ready(function () {
+
+            $('.dropdown-toggle').dropdown();
+
+            $('#header').load('reuseNav.html', function(){
+                $('a.navbar-brand').addClass('disabled');
+                $('.dropdown-menu').mouseenter(function() {
+                   $('.dropdown-toggle').addClass('active');
                 });
+                $('.dropdown-menu').mouseleave(function() {
+                   $('.dropdown-toggle').removeClass('active');
+                });
+                $('nav.navbar').css({'opacity': '0', 'top': '-1vh'});
+                $('nav.navbar').delay(300).animate({opacity: 1, top:'+=1vh'}, 1200, 'easeInOutBack');
+                $('.project-item').delay(300).animate({opacity: 1, top:'-=2vh'}, 1200, 'easeInOutBack');
+            });
 
-                setInterval(function() {
-                    if (didScroll) {
-                        hasScrolled();
-                        didScroll = false;
-                    }
-                }, 250);
 
-                function hasScrolled() {
-                    var st = $(this).scrollTop();
 
-                    // Make sure they scroll more than delta
-                    if(Math.abs(lastScrollTop - st) <= delta)
-                        return;
+            /* Smooth Scrolling from https://css-tricks.com/snippets/jquery/smooth-scrolling/ */
 
-                    // If they scrolled down and are past the navbar, add class .nav-show.
-                    // This is necessary so you never see what is "behind" the navbar.
-                    if ($(document).scrollTop() < navbarHeight) {
-                        $('#header').removeClass('nav-show nav-hide');
-                    } else {
-                        if (st > lastScrollTop && st > navbarHeight){
-                            // Scroll Down
-                            $('#header').removeClass('nav-show').addClass('nav-hide');
-                        } else {
-                            // Scroll Up
-                            if(st + $(window).height() < $(document).height()) {
-                                $('#header').removeClass('nav-hide').addClass('nav-show');
-                            }
+            $(function() {
+                $('a[href*="#"]:not([href*=#collapse])').click(function() {
+                    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                        var target = $(this.hash);
+                        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                        if (target.length) {
+                            $('html, body').animate({
+                                scrollTop: target.offset().top
+                            }, 300);
+                            return false;
                         }
                     }
-                    lastScrollTop = st;
-                }
+                });
             });
-        </script>
--->
+
+            /* Preventing widows from https://webdevdoor.com/jquery/preventing-widows-websites-jquery */
+
+            $('#main p').each(function() {
+                var string = $(this).html();
+                string = string.replace(/ ([^ ]*)$/, '&nbsp;$1');
+                $(this).html(string);
+            });
+
+        });
+    </script>
 </body>
 
 </html>
