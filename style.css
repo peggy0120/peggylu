@@ -391,7 +391,13 @@ nav .dropdown-item.dd-active {
 
 #main > .container {
     margin: 32px auto;
-    /*    max-width: 540px;*/
+}
+
+@media screen and (max-width: 768px) {
+    #main > .container {
+        max-width: none;
+        padding: 0 30px;
+    }
 }
 
 #main .project-item {
