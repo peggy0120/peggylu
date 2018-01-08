@@ -151,20 +151,23 @@
                                         <span class="fas fa-caret-up"></span>
                                     </a>
                                     <div>
-                                        <div class="quote">
-                                            <p>It's extremly difficult for <span class="highlight">student veterans</span> to connect within a community after transitioning from active duty to civilian student.</p>
+                                        <p>How do we empower and give back to a group that has made a significant contribution to the nation, but their transition has remained a struggle? <span class="highlight">For student veterans, it’s extremely difficult to connect within a community after transitioning from active duty to civilian student</span>. They often feel isolated and have difficulties finding support.</p>
+                                        <p>This was the final project in our introductory course for interaction design, of which we were given the prompt based on <a href="https://chi2017.acm.org/designcompetition.html" target="_blank" class="ext-link">CHI 2017 Design Competition: Leveling the Playing Field</a> to identify a design target that's often excluded or left behind, and to create a design intervention accordingly.</p>
+                                        <div id="pj-bg-0" class="d-none">
+                                            <h3><span>Problem Framing</span>Why Student Veterans?</h3>
+                                            <div>
+                                                <p>Some of the user groups other than student veterans that we were initially interested were foster child, single-mother, and mentally disordered. However, with what the CHI brief emphasized: "where ongoing access and engagement is possible" in mind, we came to the decision of addressing student veterans with our design.</p>
+                                            </div>
                                         </div>
-                                        <p>How do we empower and give back to a group that has made a significant contribution to the nation but their transition has remained a struggle? </p>
-                                        <p>We were given the prompt based on <a href="https://chi2017.acm.org/designcompetition.html" target="_blank" class="ext-link">CHI 2017 Design Competition: Leveling the Playing Field</a> to identify a design target that's often excluded or left behindand create a design intervention accordingly.</p>
-                                        <div class="card">
+                                        <div class="card d-none">
                                             <a href="#collapse1" class="collapse-btn" data-toggle="collapse" area-expanded="true" aria-controls="collapse1">
-                                                <h3>Problem Framing: Why Student Veterans?</h3>
+                                                <h3>Problem Framing: </h3>
                                                 <span class="fas fa-angle-up"></span>
                                                 <span class="fas fa-angle-down"></span>
                                             </a>
                                             <div class="row d-md-flex d-sm-none collapse show " id="collapse1">
                                                 <div class="col-6">
-                                                    <p>Some of the user groups other than student veterans that we were initially interested were foster child, single-mother, and mentally disordered. However, with what the CHI brief emphasized: "where ongoing access and engagement is possible" in mind, we came to the decision of addressing student veterans with our design.</p>
+                                                    <p></p>
                                                 </div>
                                                 <div class="col-6 card-img">
                                                     <img src="../image/cvp_cardsorting_05.jpg">
@@ -265,9 +268,15 @@
                 $('.dropdown-menu').mouseleave(function() {
                     $('.dropdown-toggle').removeClass('active');
                 });
-                $('nav.navbar').css({'opacity': '0'});
-                $('nav.navbar').delay(300).animate({opacity: 1}, 1200, 'easeInOutBack');
-                $('#main').delay(300).animate({opacity: 1,}, 1200, 'easeInOutBack');
+                $('nav.navbar').css({
+                    'opacity': '0'
+                });
+                $('nav.navbar').delay(300).animate({
+                    opacity: 1
+                }, 1200, 'easeInOutBack');
+                $('#main').delay(300).animate({
+                    opacity: 1,
+                }, 1200, 'easeInOutBack');
             });
 
             /* Loading & Choosing which projs to show in More */
@@ -276,7 +285,10 @@
                 $('.gogreen').addClass('d-none');
                 $('.iuos').addClass('d-none');
                 $('.cvp').addClass('d-none');
-                $('.project-item').css({'opacity': '1', 'top': '0'});
+                $('.project-item').css({
+                    'opacity': '1',
+                    'top': '0'
+                });
                 $('<div class="more-subtitle">... about working with the university</div>').insertBefore('.ntulis a.project-url');
                 $('<div class="more-subtitle-2">... about empowering users with information</div>').insertBefore('.gogreen a.project-url');
             });

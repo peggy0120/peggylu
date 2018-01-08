@@ -1059,8 +1059,8 @@ nav .dropdown-item.dd-active {
 
 .project #main .proj-cont .proj-sect p span.highlight {
     background-color: rgba(51,181,153, .20);
-    border-bottom: .5px solid rgba(51,181,153, .58);
-    border-radius: .25em;
+    border-bottom: .5px solid rgba(51,181,153, .30);
+    border-radius: .125em;
     padding: 2px 5px;
 }
 
@@ -1090,6 +1090,10 @@ nav .dropdown-item.dd-active {
     -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.12);
     margin: 2em 0.5em 0 0.5em;
     padding: 15px;
+}
+
+.project #main .proj-cont .proj-sect .card .collapse {
+    margin-left: 0;
 }
 
 .project #main .proj-cont .proj-sect .card .collapse-btn {
