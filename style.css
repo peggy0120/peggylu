@@ -65,6 +65,26 @@ a:hover {
     color: var(--secondary);
 }
 
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-link.active:hover {
+    background-color: transparent;
+    border-top-color: #ddd;
+    border-right-color: #ddd;
+    border-bottom-color: var(--bgLightgrey);
+    border-left-color: #ddd;
+}
+
+.nav-tabs .nav-link.active:hover {
+    pointer-events: none;
+}
+
+.nav-tabs .nav-link:hover {
+    border-top-color: var(--bgLightgrey);
+    border-right-color: var(--bgLightgrey);
+    border-left-color: var(--bgLightgrey);
+}
+
 .disabled {
     color: var(--txBlack);
     cursor: default;
@@ -975,7 +995,7 @@ nav .dropdown-item.dd-active {
     margin-bottom: 4em;
 }
 
-.project #main .proj-cont .proj-sect div[id^='pj-proc-'] > h3 {
+.project #main .proj-cont .proj-sect div[id^='pj-'] > h3 {
     margin-bottom: 1.5em;
     padding-top: 2em;
 }
@@ -1053,13 +1073,13 @@ nav .dropdown-item.dd-active {
 .project #main .proj-cont .proj-sect p.footnote {
     color: var(--txGrey);
     font-size: .8em;
-/*    font-style: italic;*/
+    /*    font-style: italic;*/
     max-width: 40em;
 }
 
 .project #main .proj-cont .proj-sect p span.highlight {
-    background-color: rgba(51,181,153, .20);
-    border-bottom: .5px solid rgba(51,181,153, .30);
+    background-color: rgba(51, 181, 153, .20);
+    border-bottom: .5px solid rgba(51, 181, 153, .30);
     border-radius: .125em;
     padding: 2px 5px;
 }
@@ -1172,6 +1192,7 @@ nav .dropdown-item.dd-active {
     margin-bottom: 3em;
     overflow-x: scroll;
     padding-top: 0.5em;
+    padding-bottom: 15px;
     position: relative;
     width: calc(100% + 30px);
 }
@@ -1259,6 +1280,11 @@ nav .dropdown-item.dd-active {
         margin-top: 2em;
         max-width: 35em;
     }
+
+    .project #main .proj-cont .proj-sect .tab-content > .tab-pane {
+        margin-top: -2em;
+    }
+
     .project #main .proj-cont .proj-sect .scrollable {
         max-width: none;
     }
@@ -1472,7 +1498,7 @@ footer .icon > .label {
 
 .btm-top:hover {
     color: #fff;
-    text-shadow: 0 1px 2px rgba(0,0,0,.48);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .48);
 }
 
 /* SVG Interactivity */
