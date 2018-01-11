@@ -65,6 +65,10 @@ a:hover {
     color: var(--secondary);
 }
 
+.nav-tabs {
+    margin-top: 30px;
+}
+
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-link.active:hover {
@@ -593,7 +597,10 @@ nav .dropdown-item.dd-active {
 }
 
 #about.project #main .proj-header {
-    background-image: url(image/About_banner.jpg);
+    background-image: url(image/about_banner.jpg);
+    background-position: right top;
+    -webkit-box-shadow: inset 0 -1px 3px rgba(0, 0, 0, 0.12), inset 0 -1px 2px rgba(0, 0, 0, 0.24);
+    box-shadow: inset 0 -1px 3px rgba(0, 0, 0, 0.12), inset 0 -1px 2px rgba(0, 0, 0, 0.24);
 }
 
 @media screen and (max-device-width: 1024px) {
@@ -907,7 +914,7 @@ nav .dropdown-item.dd-active {
         display: none;
     }
     .project #main .proj-cont #sidenav .sn-header {
-        display: inline;
+        display: none;
         font-size: 0.8em;
     }
     .project #main .proj-cont #sidenav ul.nav {
@@ -1047,6 +1054,11 @@ nav .dropdown-item.dd-active {
     margin-top: 30px;
 }
 
+.project #main .proj-cont .proj-sect div.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
 .project #main .proj-cont .proj-sect div[class^='col'] {
     margin-left: -5px;
     padding-left: 5px;
@@ -1082,100 +1094,6 @@ nav .dropdown-item.dd-active {
     border-bottom: .5px solid rgba(51, 181, 153, .30);
     border-radius: .125em;
     padding: 2px 5px;
-}
-
-.project #main .proj-cont .proj-sect .quote {
-    border-left: 2px solid;
-    border-radius: 2px;
-    color: var(--primary);
-    margin: 1.5em 15px 1.5em 0.5em;
-    padding: 15px 0 15px 15px;
-}
-
-.project #main .proj-cont .proj-sect .quote > p {
-    font-size: 1.25rem;
-    line-height: 1.75;
-    margin-bottom: 0;
-}
-
-.project #main .proj-cont .proj-sect .quote span.highlight {
-    color: var(--primary);
-}
-
-.project #main .proj-cont .proj-sect .card {
-    border: none;
-    border-left: 2px solid var(--txGrey);
-    border-radius: 2px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.12);
-    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.12);
-    margin: 2em 0.5em 0 0.5em;
-    padding: 15px;
-}
-
-.project #main .proj-cont .proj-sect .card .collapse {
-    margin-left: 0;
-}
-
-.project #main .proj-cont .proj-sect .card .collapse-btn {
-    color: var(--txGrey);
-    margin-right: 30px;
-    width: 100%;
-}
-
-.project #main .proj-cont .proj-sect .card .collapse-btn:hover {
-    color: var(--primary);
-}
-
-.project #main .proj-cont .proj-sect .card h3 {
-    font-size: 1.25rem;
-    font-weight: 300;
-    margin-bottom: 0;
-}
-
-.project #main .proj-cont .proj-sect .card h3:hover {
-    color: var(--primary);
-}
-
-.project #main .proj-cont .proj-sect .card .collapse-btn span {
-    font-size: 2em;
-    line-height: 1.5;
-    position: absolute;
-    right: 30px;
-    top: 0;
-}
-
-.project #main .proj-cont .proj-sect .card .collapse-btn span:nth-of-type(1) {
-    display: none;
-}
-
-.project #main .proj-cont .proj-sect .card .collapse-btn span:nth-of-type(2) {
-    display: block;
-}
-
-.project #main .proj-cont .proj-sect .card .row {
-    margin-top: 1em;
-    margin-right: 0;
-}
-
-.project #main .proj-cont .proj-sect .card .row.show {
-    display: flex;
-    display: -webkit-box;
-    display: -ms-flexbox;
-}
-
-.project #main .proj-cont .proj-sect .card p {
-    font-size: 0.8em;
-}
-
-.project #main .proj-cont .proj-sect .card .card-img {
-    border-radius: 0;
-    height: 100%;
-    width: 100%;
-}
-
-.project #main .proj-cont .proj-sect .card .card-img img {
-    height: 100%;
-    width: 100%;
 }
 
 .project #main .proj-cont .proj-sect .timeline span {
@@ -1256,23 +1174,9 @@ nav .dropdown-item.dd-active {
         margin-bottom: 1.5em;
         max-width: 33em;
     }
+    .project #main .proj-cont .proj-sect div.row,
     .project #main .proj-cont .proj-sect img {
         max-width: 35em;
-    }
-    .project #main .proj-cont .proj-sect .quote {
-        margin-right: 0;
-        max-width: 29em;
-    }
-    .project #main .proj-cont .proj-sect .card {
-        max-width: 33em;
-    }
-
-    .project #main .proj-cont .proj-sect .card .collapse-btn span:nth-of-type(1) {
-        display: block;
-    }
-
-    .project #main .proj-cont .proj-sect .card .collapse-btn span:nth-of-type(2) {
-        display: none;
     }
     .project #main .proj-cont .proj-sect .chart,
     .project #main .proj-cont .proj-sect .images,
@@ -1649,7 +1553,8 @@ footer .icon > .label {
         font-size: 1em;
         margin-top: 0;
     }
-    .project #main .proj-cont .proj-sect div.timeline object {
+    .project #main .proj-cont .proj-sect div.timeline object,
+    .project #main .proj-cont .proj-sect div.timeline img {
         margin: 15px;
         margin-left: 30px;
         min-width: 768px;
@@ -1657,6 +1562,12 @@ footer .icon > .label {
     .project #main .proj-cont .proj-sect div.timeline .full-width {
         min-width: inherit;
         width: calc(100% - 45px);
+    }
+    .nav-tabs .nav-item.show .nav-link,
+    .nav-tabs .nav-link.active,
+    .nav-tabs .nav-link.active:hover {
+        background-color: #fff;
+        border-bottom-color: #fff;
     }
     .project #main section[id^='cv-'].proj-sect h3 {
         border: none;
