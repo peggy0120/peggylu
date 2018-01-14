@@ -48,6 +48,53 @@
         ga('send', 'pageview');
 
     </script>
+
+    <style type="text/css">
+        .project #main .proj-cont .proj-sect #tab_Toolkit_Content .collage {
+            border-bottom: 1px solid var(--borderGrey);
+            border-radius: 0 0 2px 2px;
+            margin-left: 0;
+            padding-top: 1.5em;
+            padding-bottom: 1em;
+        }
+
+        .project #main .proj-cont .proj-sect #tab_Toolkit_Content .collage div.row {
+            margin-bottom: 0;
+            padding-left: 1em;
+        }
+
+        .project #main .proj-cont .proj-sect #tab_Toolkit_Content .collage div[class^="col-"] {
+            padding-right: 0;
+        }
+
+        .project #main .proj-cont .proj-sect #tab_Toolkit_Content .collage p {
+            margin-bottom: 0;
+        }
+
+        .project #main .proj-cont .proj-sect #tab_Toolkit_Content .collage img {
+            margin-bottom: 10px;
+        }
+
+        @media screen and (max-device-width: 767px) {
+            .project #main .proj-cont .proj-sect #tab_Toolkit_Content .collage {
+                background-color: #fff;
+                margin-left: -30px;
+                width: calc(100% + 60px);
+            }
+            .project #main .proj-cont .proj-sect #tab_Toolkit_Content .collage div.row {
+                padding-left: calc(1em + 30px);
+                padding-right: calc(1em + 30px);
+            }
+            .project #main .proj-cont .proj-sect #tab_Toolkit_Content .collage p {
+                font-size: 16px;
+            }
+            .project #main .proj-cont .proj-sect #tab_Toolkit_Content img {
+                margin-bottom: 0;
+                width: calc(100% + 30px);
+            }
+        }
+
+    </style>
 </head>
 
 <body data-spy="scroll" data-target="#sidenav" data-offset="60">
@@ -76,7 +123,7 @@
                                 <div class="col-lg-8 col-12">
                                     <div class="proj-overview">
                                         <h2>Overview</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet dolor hendrerit, sollicitudin lorem vitae, laoreet lorem. Sed velit tortor, laoreet eget aliquam vel, iaculis at dolor. Nunc ligula erat, commodo nec suscipit sed, fringilla eu diam.</p>
+                                        <p>Collaborated with the community to design a service informing and promoting waste management practices in a smart and connected community. Our process involved different research methods to further probe and elicit insights from the participants.</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-12 row">
@@ -202,7 +249,7 @@
                                     </p>
 
                                     <div>
-                                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                        <ul class="nav nav-tabs" id="tab_Artifact" role="tablist">
                                             <li class="nav-item">
                                                 <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Service Blueprint</a>
                                             </li>
@@ -210,7 +257,7 @@
                                                 <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Customer Journey Map</a>
                                             </li>
                                         </ul>
-                                        <div class="tab-content" id="myTabContent">
+                                        <div class="tab-content" id="tab_Artifact_Content">
                                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                                                 <div class="chart timeline scrollable">
                                                     <object type="image/svg+xml" data="../image/gogreen_service.svg"></object>
@@ -222,7 +269,6 @@
                                                 </div>
                                             </div>
                                         </div>
-
                                     </div>
 
                                     <p>Through KIP, GIKES would learn from data gathered and present relevant information to people. <span class="highlight">Aggregated search queries in the knowledge base and overall interaction would shape the entire system and allow further analysis for Go Green to better inform and communicate with the community.</span> In addition to creating a more informed and connected community, the service was also created in benefit of Go Green to lessen the workload of responding to general inquiries about recycling in Bloomington. </p>
@@ -245,42 +291,143 @@
                                     </div>
 
                                     <div id="pj-proc-0">
-                                        <h3><span>User Interview</span>Getting the First Impression</h3>
+                                        <h3><span>User Interview</span>Learning from the Experts</h3>
                                         <div>
-                                            <p></p>
+                                            <p>Going into the project with the goal of collaborating with the community but very little knowledge on local waste management practices, we considered it <span class="highlight">essential for us to talk to domain experts that were actually in service of the field</span>. While in Bloomington, outside city government and the University, Go Green was the one that serve most residents and offer the widest range of services.</p>
+                                            <p>The first meeting with the director Tom was extremely valuable in learning about issues in waste management such as their struggles with policy, funding, outreach, etc. Out of all initiatives, <span class="highlight">education and public awareness were the areas which Go Green believe to have the most potentials</span>. The session also allowed us to conduct on-site observation of the recycling center and establish a collaborative relationship with them. </p>
                                             <img src="../image/gogreen_field.jpg">
                                         </div>
                                     </div>
                                     <div id="pj-proc-1">
-                                        <h3><span>Ideation</span>Probing the Future</h3>
-                                        <div>
-                                            <p></p>
-                                            <img src="../image/gogreen_cept.jpg">
-                                        </div>
-                                    </div>
-                                    <div id="pj-proc-2">
                                         <h3><span>Toolkits</span>Co-design with the Community</h3>
                                         <div>
-                                            <p></p>
-                                            <img src="../image/gogreen_session.jpg">
+                                            <p>From the first session with Tom, we narrowed down our focus more specifically on community outreach and education. The next-level goals were to <span class="highlight">elicit more underlying information about their interactions with different stakeholders</span>, more detailed workflows of the programs, etc. To achieve so, we created a number of <span class="highlight">toolkits with varying goals and methods</span> to facilitate our upcoming sessions with participants.
+                                            </p>
                                         </div>
+                                        <!--                                        <h4>Toolkits</h4>-->
+                                        <div>
+                                            <ul class="nav nav-tabs" id="tab_Toolkit" role="tablist">
+                                                <li class="nav-item">
+                                                    <a class="nav-link active" id="exp-tab" data-toggle="tab" href="#exp" role="tab" aria-controls="home" aria-selected="true">Experience Mapping</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" id="cgn-tab" data-toggle="tab" href="#cgn" role="tab" aria-controls="profile" aria-selected="false">Cognitive</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" id="emt-tab" data-toggle="tab" href="#emt" role="tab" aria-controls="profile" aria-selected="false">Emotional</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" id="stl-tab" data-toggle="tab" href="#stl" role="tab" aria-controls="profile" aria-selected="false">Storyline</a>
+                                                </li>
+                                            </ul>
+                                            <div class="tab-content" id="tab_Toolkit_Content">
+                                                <div class="tab-pane fade show active" id="exp" role="tabpanel" aria-labelledby="exp-tab">
+                                                    <div class="collage row">
+                                                        <div class="col-7 row">
+                                                            <div class="col-12">
+                                                                <h5>Goal</h5>
+                                                                <p>Getting a better sense of Elisa's <span class="highlight">experience interacting with different audience</span></p>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <h5>Method</h5>
+                                                                <p>Have participant gone through her highs and lows of interactions she had while running different programs</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-5 row">
+                                                            <div class="col-12">
+                                                                <img src="/image/gogreen_toolkit_exp_02.jpg">
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <img src="/image/gogreen_toolkit_exp_03.jpg">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade" id="cgn" role="tabpanel" aria-labelledby="cgn-tab">
+                                                    <div class="collage row">
+                                                        <div class="col-7 row">
+                                                            <div class="col-12">
+                                                                <h5>Goal</h5>
+                                                                <p>To <span class="highlight">understand current infrastructure</span> by visualizing interactions between Go Green and different organizations</p>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <h5>Method</h5>
+                                                                <p>Have participants drawing out the connections Go Green has around the county and describe those relationships with relevant keywords</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-5 row">
+                                                            <div class="col-12">
+                                                                <img src="/image/gogreen_toolkit_cgn_01.jpg">
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <img src="/image/gogreen_toolkit_cgn_02.JPG">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade" id="emt" role="tabpanel" aria-labelledby="emt-tab">
+                                                    <div class="collage row">
+                                                        <div class="col-7 row">
+                                                            <div class="col-12">
+                                                                <h5>Goal</h5>
+                                                                <p>Learning about Tom’s experience dealing with different issues and scenarios that would not come up through conventional interview methods</p>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <h5>Method</h5>
+                                                                <p>Present a series of pictures related to waste management, and probe him to write down what kinds of thoughts and emotions they conjure up</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-5 row">
+                                                            <div class="col-12">
+                                                                <img src="/image/gogreen_toolkit_emt_01.jpg">
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <img src="/image/gogreen_toolkit_emt_02.jpg">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade" id="stl" role="tabpanel" aria-labelledby="stl-tab">
+                                                    <div class="collage row">
+                                                        <div class="col-7 row">
+                                                            <div class="col-12">
+                                                                <h5>Goal</h5>
+                                                                <p>To <span class="highlight">visualize the recycling process</span> and the struggles that may happen at different point</p>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <h5>Method</h5>
+                                                                <p>Place items in front of our participants and ask them to explain the story of how an object goes from being used to being recycled with storyboard materials</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-5 row">
+                                                            <div class="col-12">
+                                                                <img src="/image/gogreen_toolkit_stl_01.jpg">
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <img src="/image/gogreen_toolkit_stl_02.JPG">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
                                     </div>
-                                    <div id="pj-proc-3">
+                                    <div id="pj-proc-2">
                                         <h3><span>Insights</span>Identify Touch Points &amp; Design Opportunities</h3>
                                         <div>
-                                            <p></p>
+                                            <p>To get a systematic view of how Go Green’s current education and public awareness campaign looked like, we mapped out their interaction with the community at different touchpoints. Among them, we identified <span class="highlight">school education, public libraries, on-site help desk and calls/online to be the primary ones</span> which offered most potential for intervention.</p>
+                                            <div class="chart timeline">
+                                                <h4>Mapping of Stakeholders &amp; Existing Interactions</h4>
+                                                <img src="/image/gogreen_stakeholder.png">
+                                            </div>
+                                            <p>On top of that, <span class="highlight">information was distributed sporadically with old-school methods</span> of pamphlets, flyers and posters that were near impossible to assess their effectiveness. At the same time, lots of resources they provided were under-used, and they received inquiries of basic information on a daily basis.</p>
                                         </div>
-                                        <div class="chart timeline">
-                                            <h4>Mapping of Stakeholders &amp; Existing Interactions</h4>
-                                            <img src="/image/gogreen_stakeholder.png">
-                                        </div>
+
 
                                     </div>
                                 </section>
-
-
-
-
 
                                 <section class="proj-sect d-none" id="pj-refl">
                                     <h2>Takeaway</h2>
@@ -355,7 +502,7 @@
             /* Loading & Choosing which projs to show in More */
 
             $('#more-content').load('../index.html #main.homepage', function() {
-                $('.cvp').addClass('d-none');
+//                $('.cvp').addClass('d-none');
                 $('.ntulis').addClass('d-none');
                 $('.gogreen').addClass('d-none');
                 $('.project-item').css({
@@ -399,7 +546,11 @@
 
             /* Activate Tabs */
 
-            $('#myTab a').on('click', function(e) {
+            $('#tab_Artifact a').on('click', function(e) {
+                e.preventDefault()
+                $(this).tab('show')
+            })
+            $('#tab_Toolkit a').on('click', function(e) {
                 e.preventDefault()
                 $(this).tab('show')
             })
