@@ -286,15 +286,15 @@
             /* Loading & Choosing which projs to show in More */
 
             $('#more-content').load('../index.html #main.homepage', function() {
-                $('.iuos').addClass('d-none');
-                $('.blackbaud').addClass('d-none');
-                $('.cvp').addClass('d-none');
+                $('.project-item').addClass('d-none');
+                $('.ntulis').removeClass('d-none');
+                $('.gogreen').removeClass('d-none');
                 $('.project-item').css({
                     'opacity': '1',
                     'top': '0'
                 });
                 $('<div class="more-subtitle">... about working with real-world client</div>').insertBefore('.ntulis a.project-url');
-                $('<div class="more-subtitle-2">... about designing for social good</div>').insertBefore('.iuos a.project-url');
+                $('<div class="more-subtitle-2">... about designing for social good</div>').insertBefore('.gogreen a.project-url');
             });
 
             /* Implementing Scrollspy */
