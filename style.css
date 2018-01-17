@@ -437,16 +437,32 @@ nav .dropdown-item.dd-active {
 
 #main .project-item {
     border-radius: 2px;
-    height: 200px;
-    margin: 15px 0;
+/*    height: 200px;*/
     opacity: 0;
-    padding: 0;
+    overflow: hidden;
+    margin-bottom: 15px;
+    padding: 3px 5px 15px 5px;
     top: 2vh;
 }
 
+#main .project-item.disabled {
+    left: 2px;
+    padding-left: 3px;
+    padding-right: 7px;
+
+}
+
+#main .project-item.disabled .project-url * {
+    opacity: 0.7;
+}
+
+#main .project-item.disabled .project-meta {
+    background-color: var(--bgLightgrey);
+}
+
 #main .project-item:hover .project-url {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    -webkit-box-shadow: 0 6px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     transform: translate(0, -2px) scale(1.005);
     -moz-transform: translate(0, -2px) scale(1.005);
     -webkit-transform: translate(0, -2px) scale(1.005);
@@ -462,6 +478,29 @@ nav .dropdown-item.dd-active {
     border-radius: 2px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+#main .project-ribbon {
+    background-color: var(--primary);
+    border-radius: 2px;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.24), 0 1px 2px rgba(0, 0, 0, 0.36);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.24), 0 1px 2px rgba(0, 0, 0, 0.36);
+    color: #fff;
+    font-weight: 300;
+/*    line-height: 40px;*/
+    padding: 8px 20px;
+    position: absolute;
+    opacity: 1!important;
+/*    text-align: center;*/
+/*    transform: rotate(-45deg);*/
+/*    width: 200px;*/
+    top: 20px;
+    left: -5px;
+    z-index: 101;
+}
+
+#main .project-ribbon * {
+    opacity: 1!important;
 }
 
 #main .project-img {
@@ -494,7 +533,7 @@ nav .dropdown-item.dd-active {
 
 #main .project-label {
     color: var(--txGrey);
-    font-size: 11px;
+    font-size: .75em;
     font-weight: 300;
 }
 
@@ -516,14 +555,24 @@ nav .dropdown-item.dd-active {
 
 @media screen and (min-width: 992px) {
     #main .project-item {
-        padding: 0 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #main .project-item.disabled {
+        left: 12px;
+        padding-right: 27px;
     }
 }
 
 @media screen and (min-width: 1200px) {
     #main .project-item {
-        height: 230px;
-        padding: 0 20px;
+/*        height: 230px;*/
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #main .project-item.disabled {
+        left: 17px;
+        padding-right: 37px;
     }
     #main .project-img {
         width: 230px;
