@@ -488,7 +488,7 @@ nav .dropdown-item.dd-active {
     color: #fff;
     font-weight: 300;
 /*    line-height: 40px;*/
-    padding: 8px 20px;
+    padding: 8px 12px 8px 20px;
     position: absolute;
     opacity: 1!important;
 /*    text-align: center;*/
@@ -497,6 +497,19 @@ nav .dropdown-item.dd-active {
     top: 20px;
     left: -5px;
     z-index: 101;
+}
+
+#main .project-ribbon:after {
+    content: "";
+    border-style: solid;
+/*    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.24), 0 1px 2px rgba(0, 0, 0, 0.36);*/
+    height: calc(1.5em + 16px);
+    position: absolute;
+    width: 0;
+    border-color: transparent var(--primary);
+    top: 0px;
+    right: -19px;
+    border-width: 19px 0 19px 19px;
 }
 
 #main .project-ribbon * {
@@ -588,9 +601,10 @@ nav .dropdown-item.dd-active {
     }
 }
 
-.project > #main {
+.project > #main,
+#about > #main {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.72), 0 1px 2px rgba(0, 0, 0, 0.84);
-    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.64), 0 1px 2px rgba(0, 0, 0, 0.76);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.72), 0 1px 2px rgba(0, 0, 0, 0.84);
     line-height: 1.75;
     opacity: 0;
     z-index: 101;
