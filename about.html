@@ -1,29 +1,42 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="Peggy Pei-Ying Lu">
-    
-    <title>About me | Peggy Lu | UX Design</title>
-    
+    <title>About | Peggy Lu | UX Design</title>
+
+    <!-- jQuery -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+
+    <!-- Load Header-->
+    <script>
+        $(function() {
+
+            $('#footer').load('reuseFooter.html');
+        });
+
+    </script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+
     <!-- Stylesheet -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    
-    <!-- jQuery -->
-    <script src="js/jquery-1.11.3.min.js"></script>
-    
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-    
+
+    <!-- FontAwesome -->
+    <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet">
+
     <!-- Google Analytics -->
     <script>
-        (function (i, s, o, g, r, a, m) {
+        (function(i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function () {
+            i[r] = i[r] || function() {
                 (i[r].q = i[r].q || []).push(arguments)
             }, i[r].l = 1 * new Date();
             a = s.createElement(o), m = s.getElementsByTagName(o)[0];
@@ -33,171 +46,148 @@
         })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
         ga('create', 'UA-61994680-2', 'auto');
         ga('send', 'pageview');
+
     </script>
 
+    <style type="text/css">
+        #about #main .proj-header {
+            height: auto;
+        }
+
+        #about #main .proj-header hr {
+            border-color: var(--borderGrey);
+            border-radius: 2px;
+            border-width: .5px;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, .64);
+            margin: 2em auto 0 auto;
+            max-width: 20em;
+        }
+
+        #about #main .proj-header section#intro {
+            color: #fff;
+            text-align: left;
+        }
+
+        #about #main .proj-header section#intro p {
+            margin: 1.5em auto;
+            max-width: 25em;
+        }
+
+        #about #main .proj-header section#intro .highlight {
+            background-color: rgba(51, 181, 153, .35);
+/*            border-bottom: .5px solid rgba(51, 181, 153, .30);*/
+            border-radius: .125em;
+            margin: 0 2px;
+            padding: 1px 2px;
+        }
+
+    </style>
 </head>
 
-<body>
-    
+<body data-spy="scroll" data-target="#sidenav" data-offset="60">
     <!-- Wrapper -->
     <div id="wrapper">
-                
-        <!-- Header -->
-        <header id="header">
-            <div class="inner">
-                <div class="title">
-                    <a href="index.html">Peggy Lu</a>
-                </div>
-                <nav id="menu">
-                    <ul>
-                        <li class="dropdown"> 
-                            <a href="" class="dropdown-toggle block" data-toggle="dropdown">Project</a>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuDivider">
-                                    <li>
-                                        <a href="proj-IA-ntulis.html">NTULIS Redesign</a>
-                                    </li>
-                                    <li><a href="proj-yumbot.html">Yumbot</a></li>
-                                    <li class="active"><a href="proj-cvp.html" class="disabled">Campus Veteran Portal</a></li>
-                                    <li class="disabled"><a href="" class="disabled">Go Green Edu</a></li>
-                                </ul>
-                        </li>
-                        <li><a href="https://iu.app.box.com/v/peggylu-ux-resume" target="_blank" class="block">Resume</a></li>
-    <!--                    <li><a href="about.html">About me</a></li>-->
-    <!--                    <li><a href="">Contact</a></li>-->
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        
-<!--        <div id="main">-->
-        <!-- Intro -->
-            <section id="intro" class="featured">
-                <div class="inner">
-                    <span class="image"><img src="image/Artboard%201.png" alt="Peggy Lu" /></span>
-                    <div class="content">
-                        <header>
-                            <h2>Peggy Lu</h2>
-                            <h4>(Pei-Ying Lu)</h4>
-                            <ul>
-                                <li>UX Designer</li>
-                                <li>Library &amp; Museum Enthusiastic</li>
-                            </ul>
-                        </header>
+        <div class="page project" id="about">
+
+            <!-- Header -->
+            <header id="header"></header>
+
+            <!-- Main -->
+            <div id="main" class="">
+                <header class="proj-header">
+                    <div class="container">
+                        <h1>About</h1>
+                        <hr>
+                        <section id="intro" class="">
+                            <p style="text-align: center">Hello,</p>
+                            <p>By coming to this page, I’m assuming you would like to learn a bit more about who I am. Thank you for the interest!</p>
+                            <p> The short version is that I’m a <span class="highlight">UX designer from Taiwan with a detail-oriented and analytical mind</span>, and is passionate about how design can have an impact on a systematic level. I’ll be graduating from the HCI/d master program at Indiana University this May, and am currently looking for a UX full-time position. </p>
+                            <p>You can read on to get a better sense about my interests, personality and competence, or check out my <a href="/resume/">resume</a> to learn about my past experiences.  </p>
+                        </section>
+                    </div>
+                </header>
+                <div class="proj-cont d-none">
+                    <div class="container">
+                        <div class="row d-flex">
+
+                            <article class="cont col-12">
+
+
+
+                            </article>
+                        </div>
                     </div>
                 </div>
-            </section>
-        <section id="character" class="featured">
-            <div class="container">
-                <div class="row">
-                    <article class="col-sm-4">
-                        <div class="char-icon hidden-xs"></div>
-                    </article>
-                    <article class="col-sm-4">
-                        <div class="char-icon hidden-xs"></div>
-                    </article>
-                    <article class="col-sm-4">
-                        <div class="char-icon hidden-xs"></div>
-                    </article>
-                </div>
-            </div>
-        </section>
-        <section id="issues" class="featured">
-            <div class="container">
-            </div>
-        </section>
-<!--        </div>-->
 
-    <!-- Footer -->
-        <footer id="footer">
-            <div class="inner">
-                <!--
-                <section>
-                    <h2>Get in touch</h2>
-                    <form method="post" action="#">
-                        <div class="field half first">
-                            <input type="text" name="name" id="name" placeholder="Name" /> </div>
-                        <div class="field half">
-                            <input type="email" name="email" id="email" placeholder="Email" /> </div>
-                        <div class="field">
-                            <textarea name="message" id="message" placeholder="Message"></textarea>
-                        </div>
-                        <ul class="actions">
-                            <li>
-                                <input type="submit" value="Send" class="special" />
-                            </li>
-                        </ul>
-                    </form>
-                </section>
--->
-                <section id="follow">
-<!--                    <h2>Follow</h2>-->
-                    <ul class="icons">
-<!--                        <li><a href="#" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>-->
-                        <li><a href="#" class="icon style2 fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
-                        <li><a href="https://www.linkedin.com/in/peggy-lu" class="icon style2 fa-linkedin" target="_blank"><span class="label">Linkedin</span></a></li>
-                        <li><a href="#" class="icon style2 fa-medium" target="_blank"><span class="label">Medium</span></a></li>
-                        <li><a href="mailto:peggy.py.lu@gmail.com" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
-                    </ul>
-                </section>
-                <ul class="copyright">
-                    <li>&copy; Peggy Lu. All rights reserved</li>
-                </ul>
             </div>
-        </footer>
+
+            <!-- Footer -->
+            <footer id="footer"></footer>
+
         </div>
-        <!-- Scripts -->
-        <script src="t_phantom/assets/js/skel.min.js"></script>
-        <script src="t_phantom/assets/js/util.js"></script>
-        <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-        <script src="t_phantom/assets/js/main.js"></script>
-        
-<!--
-        <script>
-            $(document).ready(function(){ 
-                // From: https://medium.com/@mariusc23/hide-header-on-scroll-down-show-on-scroll-up-67bbaae9a78c#.lg9xealkz
-                // Hide Header on on scroll down
-                var didScroll;
-                var lastScrollTop = 0;
-                var delta = 5;
-                var navbarHeight = $('#header').outerHeight();
 
-                $(window).scroll(function(event){
-                    didScroll = true;
+        <div class="copyright">
+            <span>&copy; Peggy (Pei-Ying) Lu, 2017. All rights reserved.</span>
+            <a href="#wrapper" class="btm-top">
+                back to top &nbsp;
+                <span class="fas fa-caret-up"></span>
+            </a>
+        </div>
+
+    </div>
+
+    <script>
+        //window.location.replace("https://iu.app.box.com/v/peggylu-ux-resume");
+
+        $(document).ready(function() {
+
+            $('.dropdown-toggle').dropdown();
+
+            $('#header').load('reuseNav.html', function() {
+                $('.dropdown-menu').mouseenter(function() {
+                    $('.dropdown-toggle').addClass('active');
                 });
+                $('.dropdown-menu').mouseleave(function() {
+                    $('.dropdown-toggle').removeClass('active');
+                });
+                $(this).children().children().fadeTo(600, 1);
+            });
 
-                setInterval(function() {
-                    if (didScroll) {
-                        hasScrolled();
-                        didScroll = false;
-                    }
-                }, 250);
+            $('#main').fadeTo(600, 1);
 
-                function hasScrolled() {
-                    var st = $(this).scrollTop();
+            /* Smooth Scrolling from https://css-tricks.com/snippets/jquery/smooth-scrolling/ */
 
-                    // Make sure they scroll more than delta
-                    if(Math.abs(lastScrollTop - st) <= delta)
-                        return;
-
-                    // If they scrolled down and are past the navbar, add class .nav-show.
-                    // This is necessary so you never see what is "behind" the navbar.
-                    if ($(document).scrollTop() < navbarHeight) {
-                        $('#header').removeClass('nav-show nav-hide');
-                    } else {
-                        if (st > lastScrollTop && st > navbarHeight){
-                            // Scroll Down
-                            $('#header').removeClass('nav-show').addClass('nav-hide');
-                        } else {
-                            // Scroll Up
-                            if(st + $(window).height() < $(document).height()) {
-                                $('#header').removeClass('nav-hide').addClass('nav-show');
-                            }
+            $(function() {
+                $('a[href*="#"]:not([href*=#collapse])').click(function() {
+                    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                        var target = $(this.hash);
+                        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                        if (target.length) {
+                            $('html, body').animate({
+                                scrollTop: target.offset().top
+                            }, 300);
+                            return false;
                         }
                     }
-                    lastScrollTop = st;
-                }
+                });
             });
-        </script>
--->
-    </body>
+
+            /* Preventing widows from https://webdevdoor.com/jquery/preventing-widows-websites-jquery */
+
+            $('#main p').each(function() {
+                var string = $(this).html();
+                string = string.replace(/ ([^ ]*)$/, '&nbsp;$1');
+                $(this).html(string);
+            });
+
+            $('article li').each(function() {
+                var string = $(this).html();
+                string = string.replace(/ ([^ ]*)$/, '&nbsp;$1');
+                $(this).html(string);
+            });
+        });
+
+    </script>
+</body>
+
 </html>
