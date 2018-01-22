@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="2704 10940 640.75 645.75">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="2704 10940 599.75 645.75">
   <defs>
     <style>
       .cls-1, .cls-12, .cls-5, .cls-9 {
@@ -10,7 +10,7 @@
       }
 
       .cls-14, .cls-2, .cls-6 {
-        font-family: Roboto-Light, Roboto, Sans-Serif;
+        font-family: Roboto-Light, Roboto, sans-serif;
         font-weight: 300;
       }
 
@@ -20,7 +20,7 @@
       }
 
       .cls-10, .cls-13, .cls-15, .cls-3 {
-        font-family: Roboto-Regular, Roboto, Sans-Serif;
+        font-family: Roboto-Regular, Roboto, sans-serif;
       }
 
       .cls-11, .cls-4, .cls-7, .cls-8 {
@@ -126,14 +126,14 @@
       <feComposite operator="in" in2="blur"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="node-bg-2" x="2928" y="10940" width="190" height="93" filterUnits="userSpaceOnUse">
+    <filter id="node-bg-2" x="2908" y="10940" width="190" height="93" filterUnits="userSpaceOnUse">
       <feOffset dy="1" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="1" result="blur-2"/>
       <feFlood flood-opacity="0.239"/>
       <feComposite operator="in" in2="blur-2"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="node-bg-3" x="3152" y="10940" width="190" height="74" filterUnits="userSpaceOnUse">
+    <filter id="node-bg-3" x="3112" y="10940" width="190" height="74" filterUnits="userSpaceOnUse">
       <feOffset dy="1" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="1" result="blur-3"/>
       <feFlood flood-opacity="0.239"/>
@@ -147,14 +147,14 @@
       <feComposite operator="in" in2="blur-4"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="node-bg-5" x="2927.5" y="11093.5" width="191" height="75" filterUnits="userSpaceOnUse">
+    <filter id="node-bg-5" x="2908.5" y="11093.5" width="191" height="75" filterUnits="userSpaceOnUse">
       <feOffset dy="1" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="1" result="blur-5"/>
       <feFlood flood-opacity="0.239"/>
       <feComposite operator="in" in2="blur-5"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="node-bg-6" x="3152.5" y="11093.5" width="191" height="75" filterUnits="userSpaceOnUse">
+    <filter id="node-bg-6" x="3111.5" y="11093.5" width="191" height="75" filterUnits="userSpaceOnUse">
       <feOffset dy="1" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="1" result="blur-6"/>
       <feFlood flood-opacity="0.239"/>
@@ -168,28 +168,28 @@
       <feComposite operator="in" in2="blur-7"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="node-bg-8" x="2928.25" y="11251.25" width="191.5" height="128.5" filterUnits="userSpaceOnUse">
+    <filter id="node-bg-8" x="2908.25" y="11251.25" width="191.5" height="128.5" filterUnits="userSpaceOnUse">
       <feOffset dy="1" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="1" result="blur-8"/>
       <feFlood flood-opacity="0.239"/>
       <feComposite operator="in" in2="blur-8"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="node-bg-9" x="3153.25" y="11251.25" width="191.5" height="110.5" filterUnits="userSpaceOnUse">
+    <filter id="node-bg-9" x="3112.25" y="11251.25" width="191.5" height="110.5" filterUnits="userSpaceOnUse">
       <feOffset dy="1" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="1" result="blur-9"/>
       <feFlood flood-opacity="0.239"/>
       <feComposite operator="in" in2="blur-9"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="node-bg-10" x="2766.25" y="11437.25" width="241.5" height="148.5" filterUnits="userSpaceOnUse">
+    <filter id="node-bg-10" x="2758.25" y="11437.25" width="241.5" height="148.5" filterUnits="userSpaceOnUse">
       <feOffset dy="1" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="1" result="blur-10"/>
       <feFlood flood-opacity="0.122"/>
       <feComposite operator="in" in2="blur-10"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="node-bg-11" x="3040.75" y="11437.25" width="241.5" height="147.5" filterUnits="userSpaceOnUse">
+    <filter id="node-bg-11" x="3012.75" y="11437.25" width="241.5" height="147.5" filterUnits="userSpaceOnUse">
       <feOffset dy="1" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="1" result="blur-11"/>
       <feFlood flood-opacity="0.122"/>
@@ -207,18 +207,18 @@
         <text id="node-label" class="cls-3" transform="translate(463 126)"><tspan x="-36.104" y="0">Research Focus</tspan></text>
       </g>
     </g>
-    <g id="node-2-2" transform="translate(224 106)">
-      <g class="cls-25" transform="matrix(1, 0, 0, 1, -2560, -10833)">
-        <rect id="node-bg-13" data-name="node-bg" class="cls-1" width="184" height="87" rx="2" transform="translate(2931 10942)"/>
+    <g id="node-2-2" transform="translate(204 106)">
+      <g class="cls-25" transform="matrix(1, 0, 0, 1, -2540, -10833)">
+        <rect id="node-bg-13" data-name="node-bg" class="cls-1" width="184" height="87" rx="2" transform="translate(2911 10942)"/>
       </g>
       <g id="node-cont-2" data-name="node-cont">
         <text id="node-tx-2" data-name="node-tx" class="cls-2" transform="translate(378 133)"><tspan x="24.931" y="13">What are available? </tspan><tspan x="8.278" y="30.5">How are they addressing </tspan><tspan x="40.923" y="48">the struggles?</tspan></text>
         <text id="node-label-2" data-name="node-label" class="cls-3" transform="translate(463 126)"><tspan x="-36.104" y="0">Research Focus</tspan></text>
       </g>
     </g>
-    <g id="node-2-3" transform="translate(448 106)">
-      <g class="cls-24" transform="matrix(1, 0, 0, 1, -2784, -10833)">
-        <rect id="node-bg-14" data-name="node-bg" class="cls-1" width="184" height="68" rx="2" transform="translate(3155 10942)"/>
+    <g id="node-2-3" transform="translate(408 106)">
+      <g class="cls-24" transform="matrix(1, 0, 0, 1, -2744, -10833)">
+        <rect id="node-bg-14" data-name="node-bg" class="cls-1" width="184" height="68" rx="2" transform="translate(3115 10942)"/>
       </g>
       <g id="node-cont-3" data-name="node-cont">
         <text id="node-tx-3" data-name="node-tx" class="cls-2" transform="translate(378 133)"><tspan x="40.862" y="13">Where can we </tspan><tspan x="18.3" y="30.5">intervene or improve?</tspan></text>
@@ -226,15 +226,15 @@
       </g>
     </g>
     <g id="connector-b" transform="translate(0 -16)">
-      <line id="Line_26" data-name="Line 26" class="cls-4" x2="448" transform="translate(463.5 331.928)"/>
+      <line id="Line_26" data-name="Line 26" class="cls-4" x2="415.073" transform="translate(463.5 331.928)"/>
       <line id="Line_27" data-name="Line 27" class="cls-4" y2="30.428" transform="translate(463.5 301.5)"/>
-      <line id="Line_28" data-name="Line 28" class="cls-4" y2="13.428" transform="translate(687.5 318.5)"/>
-      <line id="Line_29" data-name="Line 29" class="cls-4" y2="30.428" transform="translate(912.5 301.5)"/>
-      <line id="Line_30" data-name="Line 30" class="cls-4" y2="45.288" transform="translate(687.5 326.267)"/>
-      <line id="Line_31" data-name="Line 31" class="cls-4" x2="449" transform="translate(463.5 368.017)"/>
+      <line id="Line_28" data-name="Line 28" class="cls-4" y2="13.428" transform="translate(669.5 318.5)"/>
+      <line id="Line_29" data-name="Line 29" class="cls-4" y2="30.428" transform="translate(879.5 301.5)"/>
+      <line id="Line_30" data-name="Line 30" class="cls-4" y2="45.288" transform="translate(669.5 326.267)"/>
+      <line id="Line_31" data-name="Line 31" class="cls-4" x2="416" transform="translate(463.5 368.017)"/>
       <line id="Line_32" data-name="Line 32" class="cls-4" y1="17.806" transform="translate(463.5 367.194)"/>
-      <line id="Line_33" data-name="Line 33" class="cls-4" y1="22.149" transform="translate(687.5 362.851)"/>
-      <line id="Line_34" data-name="Line 34" class="cls-4" y1="17.691" transform="translate(912.5 367.309)"/>
+      <line id="Line_33" data-name="Line 33" class="cls-4" y1="22.149" transform="translate(669.5 362.851)"/>
+      <line id="Line_34" data-name="Line 34" class="cls-4" y1="17.691" transform="translate(879.5 367.309)"/>
     </g>
     <g id="node-3-1" transform="translate(1 260)">
       <g class="cls-23" transform="matrix(1, 0, 0, 1, -2337, -10987)">
@@ -245,18 +245,18 @@
         <text id="node-label-4" data-name="node-label" class="cls-3" transform="translate(463 126)"><tspan x="-60.967" y="0">User Interview, Observation</tspan></text>
       </g>
     </g>
-    <g id="node-3-2" transform="translate(224 260)">
-      <g class="cls-22" transform="matrix(1, 0, 0, 1, -2560, -10987)">
-        <rect id="node-bg-16" data-name="node-bg" class="cls-5" width="184" height="68" rx="2" transform="translate(2931 11096)"/>
+    <g id="node-3-2" transform="translate(205 260)">
+      <g class="cls-22" transform="matrix(1, 0, 0, 1, -2541, -10987)">
+        <rect id="node-bg-16" data-name="node-bg" class="cls-5" width="184" height="68" rx="2" transform="translate(2912 11096)"/>
       </g>
       <g id="node-cont-5" data-name="node-cont">
         <text id="node-tx-5" data-name="node-tx" class="cls-6" transform="translate(366 133)"><tspan x="14.751" y="11">Veteran Support Services @ IU, </tspan><tspan x="12.246" y="28.5">Monroe County Veterans Affairs</tspan></text>
         <text id="node-label-5" data-name="node-label" class="cls-3" transform="translate(463 126)"><tspan x="-32.012" y="0">User Interview</tspan></text>
       </g>
     </g>
-    <g id="node-3-3" transform="translate(449 260)">
-      <g class="cls-21" transform="matrix(1, 0, 0, 1, -2785, -10987)">
-        <rect id="node-bg-17" data-name="node-bg" class="cls-5" width="184" height="68" rx="2" transform="translate(3156 11096)"/>
+    <g id="node-3-3" transform="translate(408 260)">
+      <g class="cls-21" transform="matrix(1, 0, 0, 1, -2744, -10987)">
+        <rect id="node-bg-17" data-name="node-bg" class="cls-5" width="184" height="68" rx="2" transform="translate(3115 11096)"/>
       </g>
       <g id="node-cont-6" data-name="node-cont">
         <text id="node-tx-6" data-name="node-tx" class="cls-2" transform="translate(378 133)"><tspan x="11.604" y="13">National reports &amp; stats </tspan><tspan x="59.138" y="30.5">from VA</tspan></text>
@@ -265,20 +265,20 @@
     </g>
     <g id="connector-c" transform="translate(0 -50)">
       <g id="Group_75" data-name="Group 75">
-        <line id="Line_36" data-name="Line 36" class="cls-7" y2="72" transform="translate(866.5 488.5)"/>
-        <line id="Line_37" data-name="Line 37" class="cls-7" x2="465" transform="translate(401.5 560.5)"/>
+        <line id="Line_36" data-name="Line 36" class="cls-7" y2="72" transform="translate(821.5 488.5)"/>
+        <line id="Line_37" data-name="Line 37" class="cls-7" x2="420" transform="translate(401.5 560.5)"/>
         <line id="Line_38" data-name="Line 38" class="cls-7" y2="16" transform="translate(462.5 560.5)"/>
         <line id="Line_39" data-name="Line 39" class="cls-7" y2="73" transform="translate(401.5 487.5)"/>
       </g>
       <g id="Group_76" data-name="Group 76">
         <line id="Line_40" data-name="Line 40" class="cls-4" y2="48" transform="translate(463.5 487.5)"/>
-        <line id="Line_41" data-name="Line 41" class="cls-4" y2="89" transform="translate(688.5 487.5)"/>
-        <line id="Line_42" data-name="Line 42" class="cls-4" x2="225" transform="translate(463.5 535.5)"/>
+        <line id="Line_41" data-name="Line 41" class="cls-4" y2="89" transform="translate(670.5 487.5)"/>
+        <line id="Line_42" data-name="Line 42" class="cls-4" x2="207" transform="translate(463.5 535.5)"/>
       </g>
       <g id="Group_77" data-name="Group 77">
         <line id="Line_43" data-name="Line 43" class="cls-8" y2="22" transform="translate(523.5 487.5)"/>
-        <line id="Line_44" data-name="Line 44" class="cls-8" x1="387" transform="translate(523.5 509.5)"/>
-        <line id="Line_45" data-name="Line 45" class="cls-8" y1="66" transform="translate(910.5 509.5)"/>
+        <line id="Line_44" data-name="Line 44" class="cls-8" x1="355" transform="translate(523.5 509.5)"/>
+        <line id="Line_45" data-name="Line 45" class="cls-8" y1="66" transform="translate(878.5 509.5)"/>
         <line id="Line_46" data-name="Line 46" class="cls-8" y2="21" transform="translate(734.5 488.5)"/>
       </g>
     </g>
@@ -291,18 +291,18 @@
         <text id="node-label-7" data-name="node-label" class="cls-3" transform="translate(463 126)"><tspan x="-19.321" y="0">Findings</tspan></text>
       </g>
     </g>
-    <g id="node-4-2" transform="translate(225 418)">
-      <g class="cls-19" transform="matrix(1, 0, 0, 1, -2561, -11145)">
-        <rect id="node-bg-19" data-name="node-bg" class="cls-9" width="184" height="121" rx="2" transform="translate(2932 11254)"/>
+    <g id="node-4-2" transform="translate(205 418)">
+      <g class="cls-19" transform="matrix(1, 0, 0, 1, -2541, -11145)">
+        <rect id="node-bg-19" data-name="node-bg" class="cls-9" width="184" height="121" rx="2" transform="translate(2912 11254)"/>
       </g>
       <g id="node-cont-8" data-name="node-cont">
         <text id="node-tx-8" data-name="node-tx" class="cls-6" transform="translate(378 133)"><tspan x="8.842" y="11">There are </tspan><tspan class="cls-10" y="11">little to no existing </tspan><tspan class="cls-10" x="24.601" y="28.5">veteran network</tspan><tspan y="28.5" xml:space="preserve"> at the </tspan><tspan x="17.912" y="46">university beyond VSS on </tspan><tspan x="15.524" y="63.5">campus &amp; miscellany self-</tspan><tspan x="11.3" y="81">organized Facebook groups</tspan></text>
         <text id="node-label-8" data-name="node-label" class="cls-3" transform="translate(463 126)"><tspan x="-19.321" y="0">Findings</tspan></text>
       </g>
     </g>
-    <g id="node-4-3" transform="translate(450 418)">
-      <g class="cls-18" transform="matrix(1, 0, 0, 1, -2786, -11145)">
-        <rect id="node-bg-20" data-name="node-bg" class="cls-9" width="184" height="103" rx="2" transform="translate(3157 11254)"/>
+    <g id="node-4-3" transform="translate(409 418)">
+      <g class="cls-18" transform="matrix(1, 0, 0, 1, -2745, -11145)">
+        <rect id="node-bg-20" data-name="node-bg" class="cls-9" width="184" height="103" rx="2" transform="translate(3116 11254)"/>
       </g>
       <g id="node-cont-9" data-name="node-cont">
         <text id="node-tx-9" data-name="node-tx" class="cls-6" transform="translate(378 133)"><tspan x="5.355" y="11">Most veterans are </tspan><tspan class="cls-10" y="11">unaware of </tspan><tspan class="cls-10" x="16.119" y="28.5">what is provided</tspan><tspan y="28.5" xml:space="preserve"> for them </tspan><tspan x="0.059" y="46">by the university or local veteran </tspan><tspan x="67.198" y="63.5">affairs</tspan></text>
@@ -311,21 +311,21 @@
     </g>
     <g id="connector-d">
       <g id="Group_76-2" data-name="Group 76">
-        <line id="Line_33-2" data-name="Line 33" class="cls-11" y2="18" transform="translate(551.5 693.5)"/>
+        <line id="Line_33-2" data-name="Line 33" class="cls-11" y2="18" transform="translate(548.5 693.5)"/>
         <line id="Line_34-2" data-name="Line 34" class="cls-11" y2="45" transform="translate(426.5 648.5)"/>
-        <line id="Line_35" data-name="Line 35" class="cls-11" x1="229" transform="translate(426.5 693.5)"/>
-        <line id="Line_36-2" data-name="Line 36" class="cls-11" y2="45" transform="translate(655.5 648.5)"/>
+        <line id="Line_35" data-name="Line 35" class="cls-11" x1="244" transform="translate(426.5 693.5)"/>
+        <line id="Line_36-2" data-name="Line 36" class="cls-11" y2="45" transform="translate(670 648.5)"/>
       </g>
       <g id="Group_77-2" data-name="Group 77" transform="translate(0 128)">
         <line id="Line_37-2" data-name="Line 37" class="cls-4" y2="26" transform="translate(488.5 519.5)"/>
-        <line id="Line_38-2" data-name="Line 38" class="cls-4" y2="39" transform="translate(828.5 545.5)"/>
-        <line id="Line_39-2" data-name="Line 39" class="cls-4" x1="424" transform="translate(488.5 545.5)"/>
-        <line id="Line_40-2" data-name="Line 40" class="cls-4" y2="43" transform="translate(912.5 502.5)"/>
+        <line id="Line_38-2" data-name="Line 38" class="cls-4" y2="39" transform="translate(799.5 545.5)"/>
+        <line id="Line_39-2" data-name="Line 39" class="cls-4" x1="391" transform="translate(488.5 545.5)"/>
+        <line id="Line_40-2" data-name="Line 40" class="cls-4" y2="43" transform="translate(879.5 502.5)"/>
       </g>
     </g>
-    <g id="node-5-1" transform="translate(88 604)">
-      <g class="cls-17" transform="matrix(1, 0, 0, 1, -2424, -11331)">
-        <rect id="node-bg-21" data-name="node-bg" class="cls-12" width="234" height="141" rx="2" transform="translate(2770 11440)"/>
+    <g id="node-5-1" transform="translate(80 604)">
+      <g class="cls-17" transform="matrix(1, 0, 0, 1, -2416, -11331)">
+        <rect id="node-bg-21" data-name="node-bg" class="cls-12" width="234" height="141" rx="2" transform="translate(2762 11440)"/>
       </g>
       <g id="node-cont-10" data-name="node-cont">
         <text id="node-title" class="cls-13" transform="translate(378 134)"><tspan x="30.816" y="13">Being Connected</tspan></text>
@@ -333,9 +333,9 @@
         <text id="node-tx-10" data-name="node-tx" class="cls-14" transform="translate(360 156)"><tspan x="6.745" y="11">Being connected</tspan><tspan class="cls-15" y="11"> </tspan><tspan y="11">with each other, the </tspan><tspan x="10.823" y="26">campus &amp; the community is vital to </tspan><tspan x="3.364" y="41">their success, and we believed it is the </tspan><tspan x="0.584" y="56">very basic step to solve other problems </tspan><tspan x="9.165" y="71">such as academic or mental issues.</tspan></text>
       </g>
     </g>
-    <g id="node-5-2" transform="translate(362 604)">
-      <g class="cls-16" transform="matrix(1, 0, 0, 1, -2698, -11331)">
-        <rect id="node-bg-22" data-name="node-bg" class="cls-12" width="234" height="140" rx="2" transform="translate(3044.5 11440)"/>
+    <g id="node-5-2" transform="translate(334 604)">
+      <g class="cls-16" transform="matrix(1, 0, 0, 1, -2670, -11331)">
+        <rect id="node-bg-22" data-name="node-bg" class="cls-12" width="234" height="140" rx="2" transform="translate(3016.5 11440)"/>
       </g>
       <g id="node-cont-11" data-name="node-cont" transform="translate(-2)">
         <text id="node-title-2" data-name="node-title" class="cls-13" transform="translate(381 134)"><tspan x="10.459" y="13">Centralized Information</tspan></text>
