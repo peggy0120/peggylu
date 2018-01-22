@@ -10,6 +10,8 @@
 
     <!-- jQuery -->
     <script src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
 
     <!-- Load Header-->
     <script>
@@ -86,6 +88,92 @@
             color: #3afcd2;
         }
 
+        #about #main article {
+            margin-top: 0;
+            padding-top: 2em;
+        }
+
+        #about #main article section {
+            max-width: 33em;
+            margin: 0 auto;
+            position: relative;
+            min-height: 50vh;
+
+        }
+
+        #about #main article section h2 {
+            color: var(--txGrey);
+            font-size: 1.25em;
+            font-weight: 300;
+            left: -180px;
+            line-height: 1.75;
+            margin-top: 1em;
+            padding: 0;
+            position: absolute;
+            text-align: right;
+            text-transform: none;
+            top: 0;
+            width: 180px;
+        }
+
+        #about #main article p {
+            margin: 1em auto 1.5em auto;
+        }
+
+        #about #main article p.footnote {
+            padding: 0;
+        }
+
+
+
+        #about #main article hr {
+            border-color: var(--txBlack);
+            border-radius: 2px;
+            border-width: .5px;
+            margin: 6em auto 3em auto;
+            max-width: 25em;
+        }
+
+        #about .about-time {
+            color: var(--txGrey);
+            font-size: .8em;
+            font-weight: 300;
+            margin: 0em auto 2em auto;
+            text-align: center;
+        }
+
+        @media screen and (max-width: 991px) {
+            #about #main article section {
+                max-width: 25em;
+                padding-left: 0;
+            }
+            #about #main article section h2 {
+                left: auto;
+                margin-bottom: 2em;
+                position: relative;
+                text-align: center;
+                top: auto;
+                width: auto;
+            }
+            #about .about-time {
+                margin-top: 4em;
+            }
+        }
+
+        @media screen and (max-device-width: 767px) {
+            #about #main article {
+                margin-top: inherit;
+            }
+            #about #main article section {
+                max-width: 33em;
+            }
+            #about #main article section h2 {
+                font-size: 26px;
+            }
+
+
+        }
+
     </style>
 </head>
 
@@ -111,12 +199,48 @@
                         </section>
                     </div>
                 </header>
-                <div class="proj-cont d-none">
+                <div class="proj-cont">
                     <div class="container">
                         <div class="row d-flex">
 
                             <article class="cont col-12">
+                                <section class="proj-sect">
+                                    <h2>All those below the&nbsp;surface</h2>
+                                    <p>I love observation.</p>
+                                    <p>Especially when it comes to <span class="highlight">looking for patterns,  speculating what are the thoughts and decisions went behind the scenes, and how that affect the person interacting with them</span>. For example, supermarkets are a lot more fascinating than what most people think with their layout, labeling and shelving.</p>
+                                    <p>Such obsession has certainly been manifested in how I approach designs. When faced with a new design space, I would usually <span class="highlight">examine what already existed with careful analysis, ponder and speculate how and why they are what they are today.</span> Those analysis would provide the direction for the subsequent researches and ideation. Following that, different types of <span class="highlight">research would be deployed to validate and uncover those underlying reasons, motivations, goals</span> you can’t really see on the surface.</p>
+                                    <p class="footnote">Here’s a <a href="projects/bb-ux-intern.html" target="_blank">project</a> I had that actually demonstrated what I was referring to with my process, feel free to give it a read if you’re interested. </p>
+                                    <p></p>
+                                </section>
+                                <hr>
+                                <section class="proj-sect">
+                                    <h2>Library!</h2>
+                                    <p><span class="highlight/">You probably noticed the “Library Enthusiast” from the top left corner and wondered how and why.</span></p>
+                                    <p> That stemmed from a passion of reading in childhood, which later led into a B.A. in Library &amp; Information Science, and eventually to an HCI capstone about rethinking Discovery and/or Delivery in academic libraries. While I’ve jumped from one field to another throughout the years, the passion has remained the same, that is <span class="highlight">connecting people to relevant information appropriately</span>.
+                                    </p>
+                                    <p>One of the design space I care about and love to work on the most is to <span class="highlight">improve people’s experience of interacting with information</span>. Whether it is about helping patrons navigating through a library in real world, any sort of digital reading experience, or systems dealing with great amount of data, I enjoy deliberating on what flow, pattern, and placement of information support different purposes and offer distinct experiences. </p>
+                                    <div class="d-none">
+                                        <div class="img-caption">Isn't library just facinating?</div>
+                                        <img src="/image/gogreen_field.jpg">
+                                    </div>
+                                </section>
+                                <hr>
+                                <section class="proj-sect">
+                                    <h2>Design is always Political</h2>
+                                    <p>Let’s now get into something a bit more serious.</p>
+                                    <p>Growing up in a post-authoritarian society that is still fighting to construct an identity it owns and belongs to, I learnt early on that something seemed trivial may have a profound impact on someone else’s life. That <span class="highlight">critical reflection on what intention one has and what impacts one may cause was first manifested in my interests in critical librarianship, and recently transformed into a deep concern of design ethics</span>.</p>
+                                    <div class="row">
+                                        <p class="footnote col-7">I elaborated a lot more on this in my final essay for the course Design Theory, which you can read <a href="docs/I604_final_paper_peggylu.pdf" target="_blank" class="ext-link">here</a> if you're interested.</p>
+                                        <div class="col-5"><img src="image/about_philo.svg" style="max-height: 180px; text-align: center;"></div>
+                                    </div>
 
+                                </section>
+                                <hr>
+                                <section class="proj-sect">
+                                    <p>Thank you for sticking to the end! (Or if you’ve just scrolled down here, that’s fine, too.) If you’re also into reading, some stuff I’ve been reading recently are <i>Technically Wrong: Sexist Apps, Biased Algorithms, and Other Threats of Toxic Tech</i>, and <i>The Space between Us: Social Geography and Politics</i>. </p>
+                                    <p>I hope what I have on this page is helpful for you in any way. You can find my contact information below if there’s something that sparked your interests for us to talk about more.</p>
+                                </section>
+                                <div class="about-time">Last Updated: 1/21/2018</div>
 
 
                             </article>
@@ -153,16 +277,27 @@
             $('.dropdown-toggle').dropdown();
 
             $('#header').load('reuseNav.html', function() {
+
+                $('.nav-link').eq(2).addClass('active disabled');
+
                 $('.dropdown-menu').mouseenter(function() {
                     $('.dropdown-toggle').addClass('active');
                 });
                 $('.dropdown-menu').mouseleave(function() {
                     $('.dropdown-toggle').removeClass('active');
                 });
-                $(this).children().children().fadeTo(600, 1);
+
+                $('nav.navbar').css({
+                    'opacity': '0'
+                });
+                $('nav.navbar').delay(300).animate({
+                    opacity: 1
+                }, 1200, 'easeInOutBack');
+                $('#main').delay(300).animate({
+                    opacity: 1,
+                }, 1200, 'easeInOutBack');
             });
 
-            $('#main').fadeTo(600, 1);
 
             /* Smooth Scrolling from https://css-tricks.com/snippets/jquery/smooth-scrolling/ */
 

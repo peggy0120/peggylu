@@ -49,7 +49,7 @@ a.ext-link:after {
     font-style: normal;
     font-size: 0.5em;
     font-weight: 900;
-    display: inline-block;
+    display: inline;
     margin-left: 3px;
     text-decoration: inherit;
     text-rendering: optimizeLegibility;
@@ -647,6 +647,10 @@ nav .dropdown-item.dd-active {
 .project #main.proj-bb .proj-header {
     background-image: url(image/bb_banner.svg);
     background-position: bottom;
+}
+
+.project #main.proj-capstone .proj-header {
+    background-image: url(image/capstone_banner.jpg);
 }
 
 .project #main.proj-cvp .proj-header {
@@ -1397,7 +1401,7 @@ footer {
     background-color: #fff;
     box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.06), 0 -1px 2px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.12);
     -webkit-box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.06), 0 -1px 2px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.12);
-    margin-bottom: 170px;
+    margin-bottom: 12em;
     padding: 3rem 15px;
     text-align: center;
     z-index: 201;
@@ -1453,7 +1457,7 @@ footer .icon > .label {
     color: #fff;
     font-size: 0.8rem;
     font-weight: 300;
-    height: 170px;
+    height: 15em;
     max-width: 1512px;
     padding: 3rem 15px;
     position: fixed;
@@ -1474,8 +1478,7 @@ footer .icon > .label {
 .btm-top {
     color: var(--borderGrey);
     display: inline-block;
-    margin: 1.5em;
-    margin-bottom: 0;
+    margin: 2.5em 1.5em 0 1.5em;
 }
 
 .btm-top:hover {
