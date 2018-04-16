@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="../../js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="../../js/jquery.scrollTo.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script type="text/javascript" src="../../js/bootstrap.js"></script>
+    <script type="text/javascript" src="../../js/bootstrap.bundle.min.js"></script>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="browsing.css">
+
+    <style type="text/css">
+
+
+    </style>
+
+    <script type="text/javascript" src="faker.js"></script>
+
+    <!-- FontAwesome -->
+    <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <div class="nav-left">
+                    <h1 id="">Young Adult + Mystery + Family + Immigration</h1>
+                    <!--
+                <a class="icon-btn">
+                    <span class="far fa-edit"></span>
+                </a>
+                <a class="icon-btn">
+                    <span class="fas fa-random"></span>
+                </a>
+-->
+                    <a href="">change filter</a>
+                    <a href="">randomize</a>
+                </div>
+                <div class="nav-right">
+                    <a class="icon-btn"><span class="fas fa-user-circle"></span></a>
+                </div>
+            </nav>
+        </header>
+        <div id="stack">
+            <div class="ctrl ctrl-left">
+                <a class="icon-btn backward"><span class="fas fa-angle-double-left"></span></a>
+            </div>
+            <div class="ctrl ctrl-right">
+                <a class="icon-btn forward"><span class="fas fa-angle-double-right"></span></a>
+            </div>
+
+            <div id="stack-container">
+                <div class="placeholder">
+                    <p>You've reached the start of shelf</p>
+                </div>
+                <div class="item item-w-1 item-h-1">
+                    <div class=item-title>
+                        <h4>Eons and Rabbit</h4>
+                        <span class="author"></span>
+                    </div>
+                    <!--                <span class="item-index"></span>-->
+                </div>
+                <div class="item item-w-2 item-h-2">
+                    <div class=item-title>
+                        <h4>The Vermorid Castle</h4><span class="author"></span>
+                    </div>
+                    <!--                <span class="item-index"></span>-->
+                </div>
+                <div class="item item-w-3 item-h-3">
+                    <div class=item-title>
+                        <h4>The Drapes for the Guest</h4><span class="author"></span>
+                    </div>
+                </div>
+                <div class="item item-w-1 item-h-2">
+                    <div class=item-title>
+                        <h4>Dimensional Things</h4><span class="author"></span>
+                    </div>
+                </div>
+                <div class="item item-w-2 item-h-3">
+                    <div class=item-title>
+                        <h4>Watcherborn</h4><span class="author"></span>
+                    </div>
+                </div>
+                <div class="item item-w-3 item-h-1">
+                    <div class=item-title>
+                        <h4>Swindlers Of The Stars</h4><span class="author"></span>
+                    </div>
+                </div>
+                <div class="item item-w-1 item-h-3">
+                    <div class=item-title>
+                        <h4>Death At The South</h4><span class="author"></span>
+                    </div>
+                </div>
+                <div class="item item-w-3 item-h-1">
+                    <div class=item-title>
+                        <h4>Lights In My Street</h4><span class="author"></span>
+                    </div>
+                </div>
+                <div class="item item-w-3 item-h-2">
+                    <div class=item-title>
+                        <h4>Branches</h4><span class="author"></span>
+                    </div>
+                </div>
+                <div class="item item-w-3 item-h-2">
+                    <div class=item-title>
+                        <h4>Fixed In Solar Flares</h4><span class="author"></span>
+                    </div>
+                </div>
+                <div class="item item-w-3 item-h-1">
+                    <div class=item-title>
+                        <h4>Scared Of The End</h4><span class="author"></span>
+                    </div>
+                </div>
+                <div class="item item-w-2 item-h-2">
+                    <div class=item-title>
+                        <h4>Supporter Without Honor</h4><span class="author"></span>
+                    </div>
+                </div>
+                <div class="item item-w-1 item-h-1" style="background-color: #0D3248;">
+                    <div class=item-title style="color: #fff;">
+                        <h4>Everything I Never Told You</h4><span class="author">Celest Ng</span>
+                    </div>
+                    <div class="item-content">
+                        <div class="item-det">
+                            <div class="row d-flex">
+                                <div class="col-3 item-img">
+                                    <img src="Image%201.png">
+                                </div>
+                                <div class="col-9"></div>
+                            </div>
+                        </div>
+                        <div class="item-avl">
+                            <p>Availability</p>
+                        </div>
+                        <div class="item-rev">
+                            <p>Review</p>
+                        </div>
+                        <div class="item-prv">
+                            <p>Preview</p>
+                        </div>
+                        <div class="item-exp">
+                            <p>Explore</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item item-w-3 item-h-3">
+                    <div class=item-title>
+                        <h4>Armies And Assassins</h4><span class="author"></span>
+                    </div>
+                </div>
+                <div class="item item-w-3 item-h-1">
+                    <div class=item-title>
+                        <h4>Birth Of Twilight</h4><span class="author"></span>
+                    </div>
+                </div>
+                <div class="item item-w-1 item-h-3">
+                    <div class=item-title>
+                        <h4>Fireflies</h4><span class="author"></span>
+                    </div>
+                </div>
+                <div class="item item-w-2 item-h-1">
+                    <div class=item-title>
+                        <h4>Roots of the Star</h4><span class="author"></span>
+                    </div>
+                </div>
+                <div class="item item-w-3 item-h-1">
+                    <div class=item-title>
+                        <h4>The Curious Incident of the Wolf from the North</h4><span class="author"></span>
+                    </div>
+                </div>
+                <div class="item item-w-3 item-h-2">
+                    <div class=item-title>
+                        <h4>First in Town</h4><span class="author"></span>
+                    </div>
+                </div>
+                <div class="item item-w-3 item-h-1">
+                    <div class=item-title>
+                        <h4>Tracing</h4><span class="author"></span>
+                    </div>
+                </div>
+                <div class="item item-w-3 item-h-1">
+                    <div class=item-title>
+                        <h4>Street Stray</h4><span class="author"></span>
+                    </div>
+                </div>
+                <div class="item item-w-3 item-h-1">
+                    <div class=item-title>
+                        <h4>Noah and the Moon</h4><span class="author"></span>
+                    </div>
+                </div>
+                <div class="item item-w-3 item-h-1">
+                    <div class=item-title>
+                        <h4>The Dawn Hospital</h4><span class="author"></span>
+                    </div>
+                </div>
+                <div class="item item-w-3 item-h-3">
+                    <div class=item-title>
+                        <h4>Fate Undercover</h4><span class="author"></span>
+                    </div>
+                </div>
+                <div class="item item-w-3 item-h-1">
+                    <div class=item-title>
+                        <h4>Shattered Numbers</h4><span class="author"></span>
+                    </div>
+                </div>
+                <div class="placeholder">
+                    <p>You've reached the end of shelf</p>
+                </div>
+            </div>
+
+
+        </div>
+        <div id="pop-up">
+            <header>
+                <h2></h2>
+                <a href=""><span class="author"></span></a>
+                <span class="year"></span>
+                <a class="icon-btn close"><span class="far fa-times-circle"></span></a>
+            </header>
+            <ul class="nav nav-tabs" id="item_tab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#detail" data-toggle="tab" role="tab" aria-controls="detail" area-selected='true'>Detail</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#avail" data-toggle="tab" role="tab" aria-controls="avail" area-selected='false'>Availability</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#review" data-toggle="tab" role="tab" aria-controls="review" area-selected='false'>Reviews</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#preview" data-toggle="tab" role="tab" aria-controls="preview" area-selected='false'>Preview</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#explore" data-toggle="tab" role="tab" aria-controls="explore" area-selected='false'>Explore</a>
+                </li>
+            </ul>
+            <div class="item-content tab-content" id=item_tab_Content>
+                <div class="tab-pane fade show active" id="detail" role="tabpanel" aria-labelledby="detail-tab">
+                    <div class="row d-flex">
+                        <div class="col-3 item-img">
+                        </div>
+                        <div class="col-9"></div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="avail" role="tabpanel" aria-labelledby="avail-tab">
+                    <p>avail</p>
+                </div>
+                <div class="tab-pane fade" id="review" role="tabpanel" aria-labelledby="review-tab">
+                    <p>review</p>
+                </div>
+                <div class="tab-pane fade" id="preview" role="tabpanel" aria-labelledby="preview-tab">
+                    <p>preview</p>
+                </div>
+                <div class="tab-pane fade" id="explore" role="tabpanel" aria-labelledby="explore-tab">
+                    <p>explore</p>
+                </div>
+            </div>
+        </div>
+        <div id="bottom" class="d-none">
+
+            <a class="icon-btn prev"><span class="fas fa-angle-left"></span></a>
+
+            <a class="icon-btn next"><span class="fas fa-angle-right"></span></a>
+        </div>
+    </div>
+</body>
+
+</html>
+<script type="text/javascript">
+    function getRandomColor() {
+        var letters = 'ABCDEF';
+        var color = '#';
+        //        for (var i = 0; i < 4; i++) {
+        //            color += letters[Math.floor(Math.random() * 6)];
+        //        }
+        color += 'AB' [Math.floor(Math.random() * 2)]
+        color += '6789AB' [Math.floor(Math.random() * 6)]
+        color += 'CD' [Math.floor(Math.random() * 2)]
+        color += '6789AB' [Math.floor(Math.random() * 6)]
+        color += 'E5';
+        return color;
+    }
+
+    $(document).ready(function() {
+
+        //Initiate stack and get item positions
+        var stack = $('#stack-container');
+        var items = $('.item');
+        var positLeft = new Array();
+        var activeIndex = 0
+
+        for (var i = 0; i < items.length; i++) {
+            positLeft.push(items.eq(i).position().left);
+            if (i != 12) {
+                items.eq(i).css('background-color', getRandomColor());
+                items.eq(i).find('.author').text(
+                    'ABCDEFGHIJKLMNOPQRSTUVWXYZ' [Math.floor(Math.random() * 26)] +
+                    '. ' +
+                    faker.name.lastName()
+                );
+            }
+            items.eq(i).append('<span class="item-index">' + (i + 1) + '</span>');
+        }
+
+        stack.scrollTo(items.eq(0));
+
+        //Buttons
+        var btnBkwd = $('.ctrl > .backward'),
+            btnPrev = $('#bottom > .prev'),
+            btnNext = $('#bottom > .next'),
+            btnFrwd = $('.ctrl > .forward');
+
+        //Variables for
+        var toPosition;
+        var rmScrollDuration = false;
+        var itemActive = false;
+
+        var stackScrollLeft = stack.scrollLeft();
+
+        var scrollOffset = 0;
+        var nativeScroll = true;
+
+
+        $('.item').click(function() {
+
+            itemActive = false;
+            nativeScroll = false;
+            scrollOffset = 0;
+
+            $('.nav-left').addClass('shrink');
+
+            $('#pop-up').show();
+
+            activeIndex = jQuery.inArray(this, items);
+            toPosition = positLeft[activeIndex] - 292;
+
+            if (toPosition < 0) {
+                $('.placeholder').first().width(Math.abs(toPosition));
+            } else {
+                $('.placeholder').first().width(0);
+            }
+
+            var stackWidth = positLeft[items.length - 1] + 576;
+            if (stackWidth - toPosition < 1160) {
+                $('.placeholder').last().width(1160 - stackWidth + toPosition);
+            } else {
+                $('.placeholder').last().width(0);
+            }
+
+            stack.scrollTo(toPosition, rmScrollDuration ? 0 : 100, {
+                axis: 'x',
+                easing: 'easeInCubic',
+                limit: false,
+                onAfter: function() {
+                    $('.item_selected').removeClass('item_selected');
+                    items.eq(activeIndex).addClass('item_selected');
+                    itemActive = true;
+                    rmScrollDuration = false;
+                    nativeScroll = true;
+                    stackScrollLeft = stack.scrollLeft();
+                }
+            });
+
+
+
+            if ($(this).prev().hasClass('placeholder')) {
+                $('#bottom > .prev > span').addClass('disable');
+            } else {
+                $('#bottom > .prev > span').removeClass('disable');
+            }
+            if ($(this).next().hasClass('placeholder')) {
+                $('#bottom > .next > span').addClass('disable');
+            } else {
+                $('#bottom > .next > span').removeClass('disable');
+            }
+
+            $('#pop-up h2').text($(this).find('h4').text());
+            $('#pop-up span.author').text($(this).find('span.author').text());
+            $('#pop-up span.year').text(activeIndex == 12 ? 2014 : Math.floor(Math.random() * 28) + 1990);
+            $('#pop-up #detail').html($(this).find('.item-det').html());
+            $('#pop-up .item-img').css('background-color', $(this).css('background-color'));
+            $('#pop-up #avail').html($(this).find('.item-avl').html());
+            $('#pop-up #review').html($(this).find('.item-rev').html());
+            $('#pop-up #preview').html($(this).find('.item-prv').html());
+            $('#pop-up #explore').html($(this).find('.item-exp').html());
+
+
+        });
+
+        $('.close').click(function() {
+
+            $(this).parent().parent().hide('slow');
+            btnPrev.hide()
+            btnNext.hide();
+            $('.nav-left').removeClass('shrink');
+            $('.placeholder').each(function() {
+                $(this).width(0);
+            });
+
+
+            $('.item_selected').removeClass('item_selected');
+
+            itemActive = false;
+
+            //            stack.scrollTo(items.eq(activeIndex)-580, 100);
+
+            if (items.first().position().left > 0) {
+                stack.scrollTo(items.eq(0), 100);
+            }
+
+            if (items.last().position().left < (1160 - items.last().width())) {
+
+                stack.scrollTo(
+                    '-=' + (1160 - $('.placeholder').last().position().left).toString + 'px', 100)
+            }
+
+        });
+
+        btnBkwd.click(function() {
+            if (itemActive) {
+                if (activeIndex <= 4) {
+                    items.eq(0).trigger('click');
+                } else {
+                    items.eq(activeIndex - 5).trigger('click');
+                }
+            } else {
+                stack.scrollTo("-=640px", 500, {
+                    axis: 'x',
+                    easing: 'easeInOutCubic'
+                });
+            }
+        });
+        btnFrwd.click(function() {
+            if (itemActive) {
+                if (activeIndex + 5 >= items.length) {
+                    items.last().trigger('click');
+                } else {
+                    items.eq(activeIndex + 5).trigger('click');
+
+                }
+            } else {
+                stack.scrollTo("+=640px", 500, {
+                    axis: 'x',
+                    easing: 'easeInOutCubic'
+                });
+            }
+
+        });
+        btnPrev.click(function() {
+            $('.item_selected').prev().trigger("click");
+        });
+        btnNext.click(function() {
+            $('.item_selected').next().trigger("click");
+        });
+
+        $(document).keydown(function(e) {
+            switch (e.which) {
+                case 37:
+                    if (itemActive) {
+                        $('.item_selected').prev().trigger("click");
+                    }
+                    break;
+                case 39:
+                    if (itemActive) {
+                        $('.item_selected').next().trigger("click");
+                    }
+                    break;
+
+            }
+        });
+
+
+        stack.scroll(function(e) {
+            if (itemActive) {
+                if (nativeScroll) {
+                    scrollOffset = $(this).scrollLeft() - stackScrollLeft;
+                    if (activeIndex == 0 && scrollOffset < 0) {
+                        //                        stack.scrollLeft(items.first().position().left);
+                        e.preventDefault();
+                        return false;
+                    } else {
+                        if (scrollOffset > 10) {
+                            rmScrollDuration = true;
+                            switched = true;
+                            $('.item_selected').next().trigger("click");
+                        } else if (scrollOffset < -10) {
+                            rmScrollDuration = true;
+                            switched = true;
+                            $('.item_selected').prev().trigger("click");
+                        } else {}
+                    }
+
+                }
+
+            }
+
+        });
+    });
+
+</script>
