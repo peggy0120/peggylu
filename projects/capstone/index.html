@@ -15,19 +15,17 @@
     <script type="text/javascript" src="../../js/bootstrap.js"></script>
     <script type="text/javascript" src="../../js/bootstrap.bundle.min.js"></script>
 
+    <!-- Javascript Libraries -->
+    <script type="text/javascript" src="faker.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
     <!-- Stylesheet -->
     <link rel="stylesheet" href="../../css/bootstrap.min.css">
     <link rel="stylesheet" href="browsing.css">
 
-    <style type="text/css">
-
-
-    </style>
-
-    <script type="text/javascript" src="faker.js"></script>
-
     <!-- FontAwesome -->
     <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -44,8 +42,7 @@
                     <span class="fas fa-random"></span>
                 </a>
 -->
-                    <a href="">change filter</a>
-                    <a href="">randomize</a>
+                    <a href="">edit</a>
                 </div>
                 <div class="nav-right">
                     <a class="icon-btn"><span class="fas fa-user-circle"></span></a>
@@ -54,10 +51,12 @@
         </header>
         <div id="stack">
             <div class="ctrl ctrl-left">
-                <a class="icon-btn backward"><span class="fas fa-angle-double-left"></span></a>
+                <a class="icon-btn start"><span class="fas fa-step-backward"></span><span class="btn-text">Start</span></a>
+                <a class="icon-btn backward"><span class="fas fa-angle-double-left"></span><span class="btn-text">Last 5</span></a>
             </div>
             <div class="ctrl ctrl-right">
-                <a class="icon-btn forward"><span class="fas fa-angle-double-right"></span></a>
+                <a class="icon-btn end"><span class="fas fa-step-forward"></span><span class="btn-text">End</span></a>
+                <a class="icon-btn forward"><span class="fas fa-angle-double-right"></span><span class="btn-text">Next 5</span></a>
             </div>
 
             <div id="stack-container">
@@ -133,12 +132,7 @@
                     </div>
                     <div class="item-content">
                         <div class="item-det">
-                            <div class="row d-flex">
-                                <div class="col-3 item-img">
-                                    <img src="Image%201.png">
-                                </div>
-                                <div class="col-9"></div>
-                            </div>
+                            <img src="detail-mockup@2x.png">
                         </div>
                         <div class="item-avl">
                             <p>Availability</p>
@@ -150,7 +144,8 @@
                             <p>Preview</p>
                         </div>
                         <div class="item-exp">
-                            <p>Explore</p>
+                            <h5>Others Also Explored...</h5>
+                            <div id="sankey_multiple" style="width: 480px; height: 300px;"></div>
                         </div>
                     </div>
                 </div>
@@ -247,11 +242,6 @@
             </ul>
             <div class="item-content tab-content" id=item_tab_Content>
                 <div class="tab-pane fade show active" id="detail" role="tabpanel" aria-labelledby="detail-tab">
-                    <div class="row d-flex">
-                        <div class="col-3 item-img">
-                        </div>
-                        <div class="col-9"></div>
-                    </div>
                 </div>
                 <div class="tab-pane fade" id="avail" role="tabpanel" aria-labelledby="avail-tab">
                     <p>avail</p>
@@ -268,9 +258,7 @@
             </div>
         </div>
         <div id="bottom" class="d-none">
-
             <a class="icon-btn prev"><span class="fas fa-angle-left"></span></a>
-
             <a class="icon-btn next"><span class="fas fa-angle-right"></span></a>
         </div>
     </div>
@@ -294,12 +282,16 @@
 
     $(document).ready(function() {
 
+        var stackWidth = 1160;
+
         //Initiate stack and get item positions
         var stack = $('#stack-container');
         var items = $('.item');
         var positLeft = new Array();
-        var activeIndex = 0
+        var activeIndex = 0;
+        var stackScrollLeft = stack.scrollLeft();
 
+        // Loop through items to get each position, and generate bg-color, author, index.
         for (var i = 0; i < items.length; i++) {
             positLeft.push(items.eq(i).position().left);
             if (i != 12) {
@@ -311,23 +303,24 @@
                 );
             }
             items.eq(i).append('<span class="item-index">' + (i + 1) + '</span>');
+            items.eq(i).append('<span class="year">' + (i == 12 ? 2014 : Math.floor(Math.random() * 28) + 1990) + '</span>');
         }
 
         stack.scrollTo(items.eq(0));
 
         //Buttons
-        var btnBkwd = $('.ctrl > .backward'),
+        var btnStar = $('.ctrl > .start'),
+            btnBkwd = $('.ctrl > .backward'),
             btnPrev = $('#bottom > .prev'),
             btnNext = $('#bottom > .next'),
-            btnFrwd = $('.ctrl > .forward');
+            btnFrwd = $('.ctrl > .forward'),
+            btnEnd = $('.ctrl > .end');
 
         //Variables for
-        var toPosition;
+        var toPosition = 0; // Length for the stack to scroll to
+        var collWidth;
         var rmScrollDuration = false;
         var itemActive = false;
-
-        var stackScrollLeft = stack.scrollLeft();
-
         var scrollOffset = 0;
         var nativeScroll = true;
 
@@ -335,14 +328,32 @@
         $('.item').click(function() {
 
             itemActive = false;
-            nativeScroll = false;
             scrollOffset = 0;
-
-            $('.nav-left').addClass('shrink');
-
-            $('#pop-up').show();
+            nativeScroll = false;
 
             activeIndex = jQuery.inArray(this, items);
+
+            if (activeIndex == items.length - 1) {
+                btnFrwd.addClass('disable');
+                btnEnd.addClass('disable');
+            } else {
+                btnFrwd.removeClass('disable');
+                btnEnd.removeClass('disable');
+            }
+
+            if (activeIndex == 0) {
+                btnBkwd.addClass('disable');
+                btnStar.addClass('disable');
+            } else {
+                btnBkwd.removeClass('disable');
+                btnStar.removeClass('disable');
+            }
+
+            $('.nav-left').addClass('shrink');
+            $('.item_selected').removeClass('item_selected');
+            items.eq(activeIndex).addClass('item_selected');
+            $('#pop-up').show().css('display', 'flex');
+
             toPosition = positLeft[activeIndex] - 292;
 
             if (toPosition < 0) {
@@ -351,9 +362,9 @@
                 $('.placeholder').first().width(0);
             }
 
-            var stackWidth = positLeft[items.length - 1] + 576;
-            if (stackWidth - toPosition < 1160) {
-                $('.placeholder').last().width(1160 - stackWidth + toPosition);
+            collWidth = positLeft[items.length - 1] + 576;
+            if (collWidth - toPosition < stackWidth) {
+                $('.placeholder').last().width(stackWidth - collWidth + toPosition);
             } else {
                 $('.placeholder').last().width(0);
             }
@@ -363,16 +374,12 @@
                 easing: 'easeInCubic',
                 limit: false,
                 onAfter: function() {
-                    $('.item_selected').removeClass('item_selected');
-                    items.eq(activeIndex).addClass('item_selected');
                     itemActive = true;
                     rmScrollDuration = false;
                     nativeScroll = true;
                     stackScrollLeft = stack.scrollLeft();
                 }
             });
-
-
 
             if ($(this).prev().hasClass('placeholder')) {
                 $('#bottom > .prev > span').addClass('disable');
@@ -387,7 +394,7 @@
 
             $('#pop-up h2').text($(this).find('h4').text());
             $('#pop-up span.author').text($(this).find('span.author').text());
-            $('#pop-up span.year').text(activeIndex == 12 ? 2014 : Math.floor(Math.random() * 28) + 1990);
+            $('#pop-up span.year').text($(this).find('span.year').text());
             $('#pop-up #detail').html($(this).find('.item-det').html());
             $('#pop-up .item-img').css('background-color', $(this).css('background-color'));
             $('#pop-up #avail').html($(this).find('.item-avl').html());
@@ -395,36 +402,47 @@
             $('#pop-up #preview').html($(this).find('.item-prv').html());
             $('#pop-up #explore').html($(this).find('.item-exp').html());
 
-
         });
 
         $('.close').click(function() {
 
             $(this).parent().parent().hide('slow');
-            btnPrev.hide()
-            btnNext.hide();
             $('.nav-left').removeClass('shrink');
             $('.placeholder').each(function() {
                 $(this).width(0);
             });
-
-
-            $('.item_selected').removeClass('item_selected');
-
             itemActive = false;
-
-            //            stack.scrollTo(items.eq(activeIndex)-580, 100);
+            $('.item_selected').removeClass('item_selected');
 
             if (items.first().position().left > 0) {
                 stack.scrollTo(items.eq(0), 100);
             }
 
             if (items.last().position().left < (1160 - items.last().width())) {
-
-                stack.scrollTo(
-                    '-=' + (1160 - $('.placeholder').last().position().left).toString + 'px', 100)
+                stack.scrollTo('-=' + (1160 - $('.placeholder').last().position().left).toString + 'px', 100)
             }
 
+        });
+
+        btnStar.click(function() {
+            if (itemActive) {
+                items.first().trigger('click');
+            } else {
+                stack.scrollTo(items.first(), 300, {
+                    axis: 'x',
+                    easing: 'easeInOutCubic'
+                });
+            }
+        });
+        btnEnd.click(function() {
+            if (itemActive) {
+                items.last().trigger('click');
+            } else {
+                stack.scrollTo($('.placeholder').last().position().left - stackWidth + 20, 300, {
+                    axis: 'x',
+                    easing: 'easeInOutCubic'
+                });
+            }
         });
 
         btnBkwd.click(function() {
@@ -435,7 +453,7 @@
                     items.eq(activeIndex - 5).trigger('click');
                 }
             } else {
-                stack.scrollTo("-=640px", 500, {
+                stack.scrollTo("-=320px", 300, {
                     axis: 'x',
                     easing: 'easeInOutCubic'
                 });
@@ -450,19 +468,18 @@
 
                 }
             } else {
-                stack.scrollTo("+=640px", 500, {
+                stack.scrollTo("+=320px", 300, {
                     axis: 'x',
                     easing: 'easeInOutCubic'
                 });
             }
-
         });
-        btnPrev.click(function() {
-            $('.item_selected').prev().trigger("click");
-        });
-        btnNext.click(function() {
-            $('.item_selected').next().trigger("click");
-        });
+        //        btnPrev.click(function() {
+        //            $('.item_selected').prev().trigger("click");
+        //        });
+        //        btnNext.click(function() {
+        //            $('.item_selected').next().trigger("click");
+        //        });
 
         $(document).keydown(function(e) {
             switch (e.which) {
@@ -476,7 +493,6 @@
                         $('.item_selected').next().trigger("click");
                     }
                     break;
-
             }
         });
 
@@ -500,12 +516,70 @@
                             $('.item_selected').prev().trigger("click");
                         } else {}
                     }
-
                 }
-
             }
-
         });
+
     });
+
+</script>
+
+<script type="text/javascript">
+    google.charts.load("current", {
+        packages: ["sankey"]
+    });
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'From');
+        data.addColumn('string', 'To');
+        data.addColumn('number', 'Weight');
+        data.addColumn({
+            type: 'string',
+            role: 'tooltip'
+        });
+        data.addRows([
+            ['Young Adult', 'This Book', 4, '75% of people found this book from Young Adult'],
+            ['Stack 842', 'This Book', 3, '75% of people found this book from Young Adult'],
+            ['Family', 'This Book', 2, '75% of people found this book from Young Adult'],
+            ['Bookclub', 'This Book', 1, '75% of people found this book from Young Adult'],
+            ['This Book', 'Little Fires Everywhere', 4, '75% of people found this book from Young Adult'],
+            ['This Book', 'Immigration', 1, '75% of people found this book from Young Adult'],
+            ['This Book', 'All the Lights We can not See', 1, '75% of people found this book from Young Adult'],
+            ['This Book', 'Young Adult + Family', 3, '75% of people found this book from Young Adult'],
+        ]);
+
+        var colors = ['#a6cee3', '#b2df8a', '#fb9a99', '#fdbf6f',
+            '#cab2d6', '#ffff99', '#1f78b4', '#33a02c'
+        ];
+
+        // Set chart options
+        var options = {
+            width: 480,
+            tooltip: {
+                isHtml: true
+            },
+            sankey: {
+                node: {
+                    interactivity: true,
+                    colors: '#0099FF',
+                    width: 5,
+                    fontSize: 16,
+                    fontWeight: 300
+
+                    //                },
+                    //                link: {
+                    //                    colorMode: 'gradient',
+                    //                    colors: ['#a6cee3', '#b2df8a', '#fb9a99', '#fdbf6f',
+                    //                  '#cab2d6', '#ffff99', '#1f78b4', '#33a02c']
+                }
+            }
+        };
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.Sankey(document.getElementById('sankey_multiple'));
+        chart.draw(data, options);
+    }
 
 </script>
