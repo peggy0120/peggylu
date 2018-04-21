@@ -33,23 +33,54 @@
         <header>
             <nav>
                 <div class="nav-left">
-                    <h1 id="">Young Adult + Mystery + Family + Immigration</h1>
+                    <h1 id="">Fiction<span class="fas fa-caret-down"></span></h1>
+                    <div class="filter">
+                        <span class="filter-title">Age</span>
+                        <span class="filter-opt">Young Adult</span>
+                        <span class="fas fa-caret-down"></span>
+                    </div>
+                    <span class="plus">+</span>
+                    <div class="filter">
+                        <span class="filter-title">Genre</span>
+                        <span class="filter-opt">Mystery</span>
+                        <span class="fas fa-caret-down"></span>
+                    </div>
+                    <span class="plus">+</span>
+
+                    <div class="filter">
+                        <span class="filter-title">Subject</span>
+                        <span class="filter-opt">Family</span>
+                        <span class="fas fa-caret-down"></span>
+                    </div>
+                    <span class="plus">+</span>
+
+                    <div class="filter">
+                        <span class="filter-title">Subject</span>
+                        <span class="filter-opt">Immigration</span>
+                        <span class="fas fa-caret-down"></span>
+                    </div>
+                    <a class="icon-btn"><span class="fas fa-plus-circle filter-add"></span></a>
+
                     <!--
-                <a class="icon-btn">
-                    <span class="far fa-edit"></span>
-                </a>
-                <a class="icon-btn">
-                    <span class="fas fa-random"></span>
-                </a>
+                    <select>
+                        <option>Young Adult</option>
+                        <option>Adult</option>
+                        <option>K-12</option>
+                    </select>
 -->
-                    <a href="">edit</a>
+
+                    <!--                    <a href="" id="editBtn">edit</a>-->
                 </div>
                 <div class="nav-right">
                     <a class="icon-btn"><span class="fas fa-user-circle"></span></a>
                 </div>
             </nav>
         </header>
-        <div id="stack">
+        <div id="filters">
+            <div class="current"></div>
+            <div class="more"></div>
+        </div>
+        <div id="stack" class="">
             <div class="ctrl ctrl-left">
                 <a class="icon-btn start"><span class="fas fa-step-backward"></span><span class="btn-text">Start</span></a>
                 <a class="icon-btn backward"><span class="fas fa-angle-double-left"></span><span class="btn-text">Last 5</span></a>
@@ -61,7 +92,9 @@
 
             <div id="stack-container">
                 <div class="placeholder">
-                    <p>You've reached the start of shelf</p>
+                    <div class="placeholder-container">
+                        <p>You've reached the start of shelf</p>
+                    </div>
                 </div>
                 <div class="item item-w-1 item-h-1">
                     <div class=item-title>
@@ -126,29 +159,7 @@
                         <h4>Supporter Without Honor</h4><span class="author"></span>
                     </div>
                 </div>
-                <div class="item item-w-1 item-h-1" style="background-color: #0D3248;">
-                    <div class=item-title style="color: #fff;">
-                        <h4>Everything I Never Told You</h4><span class="author">Celest Ng</span>
-                    </div>
-                    <div class="item-content">
-                        <div class="item-det">
-                            <img src="detail-mockup@2x.png">
-                        </div>
-                        <div class="item-avl">
-                            <p>Availability</p>
-                        </div>
-                        <div class="item-rev">
-                            <p>Review</p>
-                        </div>
-                        <div class="item-prv">
-                            <p>Preview</p>
-                        </div>
-                        <div class="item-exp">
-                            <h5>Others Also Explored...</h5>
-                            <div id="sankey_multiple" style="width: 480px; height: 300px;"></div>
-                        </div>
-                    </div>
-                </div>
+
                 <div class="item item-w-3 item-h-3">
                     <div class=item-title>
                         <h4>Armies And Assassins</h4><span class="author"></span>
@@ -172,6 +183,54 @@
                 <div class="item item-w-3 item-h-1">
                     <div class=item-title>
                         <h4>The Curious Incident of the Wolf from the North</h4><span class="author"></span>
+                    </div>
+                </div>
+                <div class="item item-w-1 item-h-1" style="background-color: #0D3248;">
+                    <div class=item-title style="">
+                        <h4>Everything I Never Told You</h4><span class="author">Celest Ng</span>
+                    </div>
+                    <div class="item-content">
+                        <div class="item-det">
+                            <img src="detail-mockup@2x.png">
+                        </div>
+                        <div class="item-avl">
+                            <p>Availability</p>
+                        </div>
+                        <div class="item-rev">
+                            <p>Review</p>
+                        </div>
+                        <div class="item-prv">
+                            <p>Preview</p>
+                        </div>
+                        <div class="item-exp">
+                            <h5>Suggestions</h5>
+                            <div>
+                                <div class="slider-container">
+                                    <input type="range" min="1" max="10" value="8" class="slider" id="sugSlider">
+                                    <span class="slider-label">Different</span>
+                                    <span class="slider-label">Similar</span>
+                                </div>
+                                <!--
+                                <div class="d-flex row" style="padding: 8px;">
+                                    <div class="col-3 sugTitle"><a href="">Little Fires Everywhere</a></div>
+                                    <div class="col-3 sugTitle"><a href="">The Light We Lost</a></div>
+                                    <div class="col-3 sugTitle"><a href="">The Last Mrs. Parrish</a></div>
+                                    <div class="col-3 sugTitle"><a href="">Before we were Yours</a></div>
+                                </div>
+-->
+                                <img src="similar.png" style="width: 480px;">
+                                <div class="d-flex row" style="padding: 8px;">
+                                    <div class="col-3 sugWhy"><span>why?</span></div>
+                                    <div class="col-3 sugWhy"><span>why?</span></div>
+                                    <div class="col-3 sugWhy"><span>why?</span></div>
+                                    <div class="col-3 sugWhy"><span>why?</span></div>
+                                </div>
+                            </div>
+                            <div class="" style="height: 30px"></div>
+                            <h5>Others Also Explored...</h5>
+                            <!--                            <div id="sankey_multiple" style="width: 480px; height: 300px;"></div>-->
+                            <img src="sankey.png" style="width: 480px;">
+                        </div>
                     </div>
                 </div>
                 <div class="item item-w-3 item-h-2">
@@ -210,73 +269,90 @@
                     </div>
                 </div>
                 <div class="placeholder">
-                    <p>You've reached the end of shelf</p>
+                    <div class="placeholder-container">
+                        <p>You've reached the end of shelf</p>
+                        <h6>More...</h6>
+                        <a href="">Young Adults + Utopia + Family</a>
+                        <a href="">Utopia + Family + Immigration</a>
+                        <h6>Or...</h6>
+                        <a href="">Another Random Shelf</a>
+                    </div>
                 </div>
             </div>
-
-
         </div>
         <div id="pop-up">
-            <header>
-                <h2></h2>
-                <a href=""><span class="author"></span></a>
-                <span class="year"></span>
-                <a class="icon-btn close"><span class="far fa-times-circle"></span></a>
-            </header>
-            <ul class="nav nav-tabs" id="item_tab" role="tablist">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#detail" data-toggle="tab" role="tab" aria-controls="detail" area-selected='true'>Detail</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#avail" data-toggle="tab" role="tab" aria-controls="avail" area-selected='false'>Availability</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#review" data-toggle="tab" role="tab" aria-controls="review" area-selected='false'>Reviews</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#preview" data-toggle="tab" role="tab" aria-controls="preview" area-selected='false'>Preview</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#explore" data-toggle="tab" role="tab" aria-controls="explore" area-selected='false'>Explore</a>
-                </li>
-            </ul>
-            <div class="item-content tab-content" id=item_tab_Content>
-                <div class="tab-pane fade show active" id="detail" role="tabpanel" aria-labelledby="detail-tab">
-                </div>
-                <div class="tab-pane fade" id="avail" role="tabpanel" aria-labelledby="avail-tab">
-                    <p>avail</p>
-                </div>
-                <div class="tab-pane fade" id="review" role="tabpanel" aria-labelledby="review-tab">
-                    <p>review</p>
-                </div>
-                <div class="tab-pane fade" id="preview" role="tabpanel" aria-labelledby="preview-tab">
-                    <p>preview</p>
-                </div>
-                <div class="tab-pane fade" id="explore" role="tabpanel" aria-labelledby="explore-tab">
-                    <p>explore</p>
+            <div id="pop-up-container">
+                <header>
+                    <h2></h2>
+                    <a href=""><span class="author"></span></a>
+                    <span class="year"></span>
+                    <a class="icon-btn close"><span class="far fa-times-circle"></span></a>
+                </header>
+                <ul class="nav nav-tabs" id="item_tab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#detail" data-toggle="tab" role="tab" aria-controls="detail" area-selected='true'>Detail</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#avail" data-toggle="tab" role="tab" aria-controls="avail" area-selected='false'>Availability</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#review" data-toggle="tab" role="tab" aria-controls="review" area-selected='false'>Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#preview" data-toggle="tab" role="tab" aria-controls="preview" area-selected='false'>Preview</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#explore" data-toggle="tab" role="tab" aria-controls="explore" area-selected='false'>Explore</a>
+                    </li>
+                </ul>
+                <div class="item-content tab-content" id=item_tab_Content>
+                    <div class="tab-pane fade show active" id="detail" role="tabpanel" aria-labelledby="detail-tab">
+                    </div>
+                    <div class="tab-pane fade" id="avail" role="tabpanel" aria-labelledby="avail-tab">
+                        <p>avail</p>
+                    </div>
+                    <div class="tab-pane fade" id="review" role="tabpanel" aria-labelledby="review-tab">
+                        <p>review</p>
+                    </div>
+                    <div class="tab-pane fade" id="preview" role="tabpanel" aria-labelledby="preview-tab">
+                        <p>preview</p>
+                    </div>
+                    <div class="tab-pane fade" id="explore" role="tabpanel" aria-labelledby="explore-tab">
+                        <p>explore</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div id="bottom" class="d-none">
-            <a class="icon-btn prev"><span class="fas fa-angle-left"></span></a>
-            <a class="icon-btn next"><span class="fas fa-angle-right"></span></a>
         </div>
     </div>
 </body>
 
 </html>
 <script type="text/javascript">
-    function getRandomColor() {
-        var letters = 'ABCDEF';
-        var color = '#';
-        //        for (var i = 0; i < 4; i++) {
-        //            color += letters[Math.floor(Math.random() * 6)];
-        //        }
-        color += 'AB' [Math.floor(Math.random() * 2)]
-        color += '6789AB' [Math.floor(Math.random() * 6)]
-        color += 'CD' [Math.floor(Math.random() * 2)]
-        color += '6789AB' [Math.floor(Math.random() * 6)]
-        color += 'E5';
+    function getRandomColor(mode, color) {
+        var color
+        if (mode == 'hsl') {
+            if (color == 'blue') {
+                color = 'hsl(204, 100%, ';
+                color += (Math.floor(Math.random() * 5) + 14) * 5;
+                color += '%)';
+
+            } else if (color == 'orange') {
+                color = 'hsl(25, 88%, ';
+                color += (Math.floor(Math.random() * 7) + 12) * 5;
+                color += '%)';
+            }
+        } else {
+            color = '#';
+            //        var letters = 'ABCDEF';
+            //        for (var i = 0; i < 4; i++) {
+            //            color += letters[Math.floor(Math.random() * 6)];
+            //        }
+            color += 'AB' [Math.floor(Math.random() * 2)]
+            color += '6789AB' [Math.floor(Math.random() * 6)]
+            color += 'CD' [Math.floor(Math.random() * 2)]
+            color += '6789AB' [Math.floor(Math.random() * 6)]
+            color += 'E5';
+        }
         return color;
     }
 
@@ -294,8 +370,8 @@
         // Loop through items to get each position, and generate bg-color, author, index.
         for (var i = 0; i < items.length; i++) {
             positLeft.push(items.eq(i).position().left);
-            if (i != 12) {
-                items.eq(i).css('background-color', getRandomColor());
+            items.eq(i).css('background-color', getRandomColor('hsl', 'blue'));
+            if (i != 17) {
                 items.eq(i).find('.author').text(
                     'ABCDEFGHIJKLMNOPQRSTUVWXYZ' [Math.floor(Math.random() * 26)] +
                     '. ' +
@@ -303,16 +379,15 @@
                 );
             }
             items.eq(i).append('<span class="item-index">' + (i + 1) + '</span>');
-            items.eq(i).append('<span class="year">' + (i == 12 ? 2014 : Math.floor(Math.random() * 28) + 1990) + '</span>');
+            items.eq(i).append('<span class="year">' + (i == 17 ? 2014 : Math.floor(Math.random() * 28) + 1990) + '</span>');
         }
 
-        stack.scrollTo(items.eq(0));
+
 
         //Buttons
+        var btnEdit = $('#editBtn');
         var btnStar = $('.ctrl > .start'),
             btnBkwd = $('.ctrl > .backward'),
-            btnPrev = $('#bottom > .prev'),
-            btnNext = $('#bottom > .next'),
             btnFrwd = $('.ctrl > .forward'),
             btnEnd = $('.ctrl > .end');
 
@@ -323,6 +398,15 @@
         var itemActive = false;
         var scrollOffset = 0;
         var nativeScroll = true;
+
+        stack.scrollTo(items.eq(0));
+        btnStar.addClass('disable');
+        btnBkwd.addClass('disable');
+
+        btnEdit.click(function() {
+            $('#filters').show();
+            btnEdit.hide();
+        });
 
 
         $('.item').click(function() {
@@ -341,56 +425,20 @@
                 btnEnd.removeClass('disable');
             }
 
-            if (activeIndex == 0) {
-                btnBkwd.addClass('disable');
-                btnStar.addClass('disable');
-            } else {
-                btnBkwd.removeClass('disable');
+            if (activeIndex > 0) {
                 btnStar.removeClass('disable');
-            }
-
-            $('.nav-left').addClass('shrink');
-            $('.item_selected').removeClass('item_selected');
-            items.eq(activeIndex).addClass('item_selected');
-            $('#pop-up').show().css('display', 'flex');
-
-            toPosition = positLeft[activeIndex] - 292;
-
-            if (toPosition < 0) {
-                $('.placeholder').first().width(Math.abs(toPosition));
+                btnBkwd.removeClass('disable');
             } else {
-                $('.placeholder').first().width(0);
+                btnStar.addClass('disable');
+                btnBkwd.addClass('disable');
             }
 
-            collWidth = positLeft[items.length - 1] + 576;
-            if (collWidth - toPosition < stackWidth) {
-                $('.placeholder').last().width(stackWidth - collWidth + toPosition);
-            } else {
-                $('.placeholder').last().width(0);
-            }
-
-            stack.scrollTo(toPosition, rmScrollDuration ? 0 : 100, {
-                axis: 'x',
-                easing: 'easeInCubic',
-                limit: false,
-                onAfter: function() {
-                    itemActive = true;
-                    rmScrollDuration = false;
-                    nativeScroll = true;
-                    stackScrollLeft = stack.scrollLeft();
-                }
+            $('.item_selected').removeClass('item_selected').css({
+                marginTop: '30px'
             });
-
-            if ($(this).prev().hasClass('placeholder')) {
-                $('#bottom > .prev > span').addClass('disable');
-            } else {
-                $('#bottom > .prev > span').removeClass('disable');
-            }
-            if ($(this).next().hasClass('placeholder')) {
-                $('#bottom > .next > span').addClass('disable');
-            } else {
-                $('#bottom > .next > span').removeClass('disable');
-            }
+            items.eq(activeIndex).addClass('item_selected').css({
+                marginTop: '15px'
+            });
 
             $('#pop-up h2').text($(this).find('h4').text());
             $('#pop-up span.author').text($(this).find('span.author').text());
@@ -402,24 +450,80 @@
             $('#pop-up #preview').html($(this).find('.item-prv').html());
             $('#pop-up #explore').html($(this).find('.item-exp').html());
 
+            $('#pop-up .nav-link').eq(0).trigger('click');
+            $('#pop-up .tab-pane').first().scrollTo(0);
+
+            $('#pop-up').show("clip", {
+                    direction: "horizontal"
+                }, 150)
+                .animate({
+                    opacity: 1
+                }, {
+                    duration: 150,
+                    queue: false
+                });
+
+            toPosition = positLeft[activeIndex] - 291.5;
+
+            //            if (toPosition < 0) {
+            //                $('.placeholder').first().width(Math.abs(toPosition));
+            //            } else {
+            //                $('.placeholder').first().width(0);
+            //            }
+            //
+            //            collWidth = positLeft[items.length - 1] + 576;
+            //            if (collWidth - toPosition < stackWidth) {
+            //                $('.placeholder').last().width(stackWidth - collWidth + toPosition);
+            //            } else {
+            //                $('.placeholder').last().width(0);
+            //            }
+
+            stack.scrollTo(toPosition, rmScrollDuration ? 0 : 150, {
+                axis: 'x',
+                easing: 'easeInCubic',
+                limit: false,
+                onAfter: function() {
+                    items.eq(activeIndex).addClass('item_selected');
+                    itemActive = true;
+                    rmScrollDuration = false;
+                    nativeScroll = true;
+                    stackScrollLeft = stack.scrollLeft();
+                }
+            });
+
         });
 
         $('.close').click(function() {
 
-            $(this).parent().parent().hide('slow');
-            $('.nav-left').removeClass('shrink');
-            $('.placeholder').each(function() {
-                $(this).width(0);
-            });
+            $('#pop-up')
+                .hide({
+                    effect: "scale",
+                    direction: "horizontal"
+                }, 150)
+                .animate({
+                    opacity: 0
+                }, {
+                    duration: 150,
+                    queue: false
+                });
+
+            //            $('.placeholder').each(function() {
+            //                $(this).width(0);
+            //            });
             itemActive = false;
-            $('.item_selected').removeClass('item_selected');
+
+            toPosition = positLeft[activeIndex] - stackWidth * 0.465;
+
+            $('.item_selected').removeClass('item_selected').css({
+                marginTop: '30px'
+            });
 
             if (items.first().position().left > 0) {
-                stack.scrollTo(items.eq(0), 100);
-            }
-
-            if (items.last().position().left < (1160 - items.last().width())) {
+                //                stack.scrollTo(items.eq(0), 100);
+            } else if (items.last().position().left < (1160 - items.last().width())) {
                 stack.scrollTo('-=' + (1160 - $('.placeholder').last().position().left).toString + 'px', 100)
+            } else {
+                stack.scrollTo(toPosition, 150);
             }
 
         });
@@ -438,13 +542,12 @@
             if (itemActive) {
                 items.last().trigger('click');
             } else {
-                stack.scrollTo($('.placeholder').last().position().left - stackWidth + 20, 300, {
+                stack.scrollTo($('.placeholder').last(), 300, {
                     axis: 'x',
                     easing: 'easeInOutCubic'
                 });
             }
         });
-
         btnBkwd.click(function() {
             if (itemActive) {
                 if (activeIndex <= 4) {
@@ -474,22 +577,16 @@
                 });
             }
         });
-        //        btnPrev.click(function() {
-        //            $('.item_selected').prev().trigger("click");
-        //        });
-        //        btnNext.click(function() {
-        //            $('.item_selected').next().trigger("click");
-        //        });
 
         $(document).keydown(function(e) {
             switch (e.which) {
                 case 37:
-                    if (itemActive) {
+                    if (itemActive && activeIndex > 0) {
                         $('.item_selected').prev().trigger("click");
                     }
                     break;
                 case 39:
-                    if (itemActive) {
+                    if (itemActive && activeIndex < items.length - 1) {
                         $('.item_selected').next().trigger("click");
                     }
                     break;
@@ -517,69 +614,17 @@
                         } else {}
                     }
                 }
+            } else {
+                //                if ($('.item').first().position().left < 50) {
+                //                    btnStar.addClass('disable');
+                //                    btnBkwd.addClass('disable');
+                //                } else {
+                //                    btnStar.removeClass('disable');
+                //                    btnBkwd.removeClass('disable');
+                //                }
             }
         });
 
     });
-
-</script>
-
-<script type="text/javascript">
-    google.charts.load("current", {
-        packages: ["sankey"]
-    });
-    google.charts.setOnLoadCallback(drawChart);
-
-    function drawChart() {
-        var data = new google.visualization.DataTable();
-        data.addColumn('string', 'From');
-        data.addColumn('string', 'To');
-        data.addColumn('number', 'Weight');
-        data.addColumn({
-            type: 'string',
-            role: 'tooltip'
-        });
-        data.addRows([
-            ['Young Adult', 'This Book', 4, '75% of people found this book from Young Adult'],
-            ['Stack 842', 'This Book', 3, '75% of people found this book from Young Adult'],
-            ['Family', 'This Book', 2, '75% of people found this book from Young Adult'],
-            ['Bookclub', 'This Book', 1, '75% of people found this book from Young Adult'],
-            ['This Book', 'Little Fires Everywhere', 4, '75% of people found this book from Young Adult'],
-            ['This Book', 'Immigration', 1, '75% of people found this book from Young Adult'],
-            ['This Book', 'All the Lights We can not See', 1, '75% of people found this book from Young Adult'],
-            ['This Book', 'Young Adult + Family', 3, '75% of people found this book from Young Adult'],
-        ]);
-
-        var colors = ['#a6cee3', '#b2df8a', '#fb9a99', '#fdbf6f',
-            '#cab2d6', '#ffff99', '#1f78b4', '#33a02c'
-        ];
-
-        // Set chart options
-        var options = {
-            width: 480,
-            tooltip: {
-                isHtml: true
-            },
-            sankey: {
-                node: {
-                    interactivity: true,
-                    colors: '#0099FF',
-                    width: 5,
-                    fontSize: 16,
-                    fontWeight: 300
-
-                    //                },
-                    //                link: {
-                    //                    colorMode: 'gradient',
-                    //                    colors: ['#a6cee3', '#b2df8a', '#fb9a99', '#fdbf6f',
-                    //                  '#cab2d6', '#ffff99', '#1f78b4', '#33a02c']
-                }
-            }
-        };
-
-        // Instantiate and draw our chart, passing in some options.
-        var chart = new google.visualization.Sankey(document.getElementById('sankey_multiple'));
-        chart.draw(data, options);
-    }
 
 </script>
