@@ -166,6 +166,31 @@ img {
     margin: 15px;
 }
 
+.nav-right .switch {
+    position: absolute;
+    right: 120px;
+    top: 0;
+    margin-top: 8px;
+}
+
+.nav-right [class^="switch-text-"] {
+    position: absolute;
+    margin-top: -5px;
+    top: 0px;
+    left: 40px;
+    width: 55px;
+    font-size: 10px;
+    color: #aaa;
+}
+
+.nav-right .switch-text-show {
+    display: none;
+}
+
+.nav-right .switch-text-hide {
+    color: var(--primary);
+}
+
 #filters {
     display: none;
     width: 100%;
@@ -303,6 +328,9 @@ img {
     -webkit-transition: all 0.15s ease-in-out;
     transition: all 0.15s ease-in-out;
 
+    background-size: cover;
+    background-position: center top;
+
 
     -webkit-box-shadow: /* The top layer shadow */
     0 1px 1px rgba(0, 0, 0, 0.15),
@@ -330,8 +358,8 @@ img {
 
 .item:hover {
     opacity: .8;
-    -webkit-transform: scaleX(1.02);
-    transform: scale(1.02);
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
 }
 
 .item-w-1 {
@@ -362,10 +390,12 @@ img {
     height: 100%;
     margin: 0;
     padding: 10px;
-    right: 0;
+    right: 5px;
+    top: 5px;
     position: absolute;
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
+    display: none;
 }
 
 .item-title h4 {
@@ -466,7 +496,7 @@ img {
     left: 27.5%;
     display: none;
     z-index: 100;
-    padding: 30px 30px 15px 30px;
+    padding: 25px 30px 15px 30px;
     -webkit-box-shadow: 0px 2px 6px rgba(200, 200, 200, 5);
     box-shadow: 0px 2px 6px rgba(200, 200, 200, 5);
     -webkit-transition: all 0.15s ease-in-out;
@@ -495,7 +525,9 @@ img {
     font-size: 18px;
     -webkit-transition: all 0.15 ease;
     transition: all 0.15 ease;
-    display: inline-block;
+    display: block;
+    width: 60%;
+    margin: 5px auto;
 }
 
 #pop-up .author {
@@ -509,15 +541,30 @@ img {
     margin-left: 20px;
 }
 
-#pop-up .close {
+#pop-up header .icon-btn {
     position: absolute;
     right: 0;
     top: 0;
     margin: 20px;
+    opacity: .5;
 }
 
-#pop-up .close span {
+
+#pop-up header .icon-btn span {
     font-size: 16px;
+}
+
+#pop-up header .icon-btn.new-window {
+    right: 40px;
+    padding-top: 7px;
+}
+
+#pop-up .preview-btn {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 30px;
+    width: 80px;
 }
 
 #pop-up .nav {
@@ -581,7 +628,7 @@ img {
 }
 
 #pop-up .item-content {
-    overflow-y: scroll;
+    overflow-y: hidden;
     overflow-x: hidden;
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
@@ -702,5 +749,62 @@ img {
     vertical-align: bottom;
     bottom: 0;
     margin-top: 80px;
+}
 
+/* Round Switch*/
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 17px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 13px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  -webkit-box-shadow: 0 0 1px #2196F3;
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(13px);
+  transform: translateX(13px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 17px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
 }

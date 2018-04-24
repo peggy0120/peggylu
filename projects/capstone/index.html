@@ -18,6 +18,7 @@
     <!-- Javascript Libraries -->
     <script type="text/javascript" src="faker.js"></script>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="//books.google.com/books/previewlib.js"></script>
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="../../css/bootstrap.min.css">
@@ -73,6 +74,12 @@
                 </div>
                 <div class="nav-right">
                     <a class="icon-btn"><span class="fas fa-user-circle"></span></a>
+                    <label class="switch">
+                        <input type="checkbox" checked>
+                        <span class="slider round"></span>
+                        <span class="switch-text-hide">Hide Spine Images</span>
+                        <span class="switch-text-show">Show Spine Images</span>
+                    </label>
                 </div>
             </nav>
         </header>
@@ -191,7 +198,7 @@
                     </div>
                     <div class="item-content">
                         <div class="item-det">
-                            <img src="detail-mockup@2x.png">
+                            <img src="mockup_v3.png" style="width: 520px;">
                         </div>
                         <div class="item-avl">
                             <p>Availability</p>
@@ -248,7 +255,7 @@
                         <h4>Street Stray</h4><span class="author"></span>
                     </div>
                 </div>
-                <div class="item item-w-3 item-h-1">
+                <div class="item item-w-3 item-h-3">
                     <div class=item-title>
                         <h4>Noah and the Moon</h4><span class="author"></span>
                     </div>
@@ -286,9 +293,18 @@
                     <h2></h2>
                     <a href=""><span class="author"></span></a>
                     <span class="year"></span>
-                    <a class="icon-btn close"><span class="far fa-times-circle"></span></a>
+                    <a class="icon-btn new-window" title="Open in a new window"><span class="fas fa-external-link-square-alt"></span></a>
+                    <a class="icon-btn close" title="close"><span class="far fa-times-circle"></span></a>
+                    <div class="preview-btn">
+                        <script type="text/javascript">
+                            GBS_insertPreviewButtonPopup('ISBN:0143127551');
+
+                        </script>
+                    </div>
+
+
                 </header>
-                <ul class="nav nav-tabs" id="item_tab" role="tablist">
+                <ul class="nav nav-tabs d-none" id="item_tab" role="tablist">
                     <li class="nav-item">
                         <a class="nav-link active" href="#detail" data-toggle="tab" role="tab" aria-controls="detail" area-selected='true'>Detail</a>
                     </li>
@@ -306,6 +322,7 @@
                     </li>
                 </ul>
                 <div class="item-content tab-content" id=item_tab_Content>
+                    <!--
                     <div class="tab-pane fade show active" id="detail" role="tabpanel" aria-labelledby="detail-tab">
                     </div>
                     <div class="tab-pane fade" id="avail" role="tabpanel" aria-labelledby="avail-tab">
@@ -320,6 +337,7 @@
                     <div class="tab-pane fade" id="explore" role="tabpanel" aria-labelledby="explore-tab">
                         <p>explore</p>
                     </div>
+-->
                 </div>
             </div>
         </div>
@@ -356,6 +374,19 @@
         return color;
     }
 
+    function loadSpineImage(items) {
+        for (var i = 0; i < items.length; i++) {
+            if (i < 9) {
+                items.eq(i).css('background-image', "url(Item-0" + (i + 1) + ".png)");
+            } else if (i == 9) {
+                items.eq(i).css('background-image', "url(Item-10.png)");
+
+            } else {
+                items.eq(i).css('background-image', "url(Item-" + (i + 1) + ".png)");
+            }
+        }
+    }
+
     $(document).ready(function() {
 
         var stackWidth = 1160;
@@ -371,6 +402,7 @@
         for (var i = 0; i < items.length; i++) {
             positLeft.push(items.eq(i).position().left);
             items.eq(i).css('background-color', getRandomColor('hsl', 'blue'));
+
             if (i != 17) {
                 items.eq(i).find('.author').text(
                     'ABCDEFGHIJKLMNOPQRSTUVWXYZ' [Math.floor(Math.random() * 26)] +
@@ -381,6 +413,7 @@
             items.eq(i).append('<span class="item-index">' + (i + 1) + '</span>');
             items.eq(i).append('<span class="year">' + (i == 17 ? 2014 : Math.floor(Math.random() * 28) + 1990) + '</span>');
         }
+        loadSpineImage(items);
 
 
 
@@ -399,6 +432,7 @@
         var scrollOffset = 0;
         var nativeScroll = true;
 
+        $('.switch').trigger('click');
         stack.scrollTo(items.eq(0));
         btnStar.addClass('disable');
         btnBkwd.addClass('disable');
@@ -408,6 +442,21 @@
             btnEdit.hide();
         });
 
+        $('.switch').change(function() {
+            if ($(this).children(":first").is(':checked')) {
+                loadSpineImage(items);
+                $('.item-title').hide();
+                $('.switch-text-show').hide();
+                $('.switch-text-hide').show();
+            } else {
+                for (var i = 0; i < items.length; i++) {
+                    items.eq(i).css('background-image', 'none');
+                }
+                $('.item-title').show();
+                $('.switch-text-show').show();
+                $('.switch-text-hide').hide();
+            }
+        })
 
         $('.item').click(function() {
 
@@ -440,15 +489,18 @@
                 marginTop: '15px'
             });
 
+
+            //            $('#pop-up').css('background-color', $(this).css('background-color'));
             $('#pop-up h2').text($(this).find('h4').text());
             $('#pop-up span.author').text($(this).find('span.author').text());
             $('#pop-up span.year').text($(this).find('span.year').text());
-            $('#pop-up #detail').html($(this).find('.item-det').html());
-            $('#pop-up .item-img').css('background-color', $(this).css('background-color'));
-            $('#pop-up #avail').html($(this).find('.item-avl').html());
-            $('#pop-up #review').html($(this).find('.item-rev').html());
-            $('#pop-up #preview').html($(this).find('.item-prv').html());
-            $('#pop-up #explore').html($(this).find('.item-exp').html());
+            $('#pop-up .item-content').html($(this).find('.item-det').html());
+            //            $('#pop-up #detail').html($(this).find('.item-det').html());
+            //            $('#pop-up .item-img').css('background-color', $(this).css('background-color'));
+            //            $('#pop-up #avail').html($(this).find('.item-avl').html());
+            //            $('#pop-up #review').html($(this).find('.item-rev').html());
+            //            $('#pop-up #preview').html($(this).find('.item-prv').html());
+            //            $('#pop-up #explore').html($(this).find('.item-exp').html());
 
             $('#pop-up .nav-link').eq(0).trigger('click');
             $('#pop-up .tab-pane').first().scrollTo(0);
