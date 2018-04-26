@@ -694,6 +694,11 @@ img {
     width: 100%;
 }
 
+img.mockup {
+    -webkit-transition: all .1s ease;
+    transition: all .1s ease;
+}
+
 #pop-up .sugWhy {
     /*    text-align: center;*/
 }

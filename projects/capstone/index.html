@@ -198,7 +198,7 @@
                     </div>
                     <div class="item-content">
                         <div class="item-det">
-                            <img src="mockup_v3.png" style="width: 520px;">
+                            <img class="mockup" src="mockup_v3.png" style="width: 520px;">
                         </div>
                         <div class="item-avl">
                             <p>Availability</p>
@@ -398,6 +398,7 @@
         var activeIndex = 0;
         var stackScrollLeft = stack.scrollLeft();
 
+        loadSpineImage(items);
         // Loop through items to get each position, and generate bg-color, author, index.
         for (var i = 0; i < items.length; i++) {
             positLeft.push(items.eq(i).position().left);
@@ -413,7 +414,7 @@
             items.eq(i).append('<span class="item-index">' + (i + 1) + '</span>');
             items.eq(i).append('<span class="year">' + (i == 17 ? 2014 : Math.floor(Math.random() * 28) + 1990) + '</span>');
         }
-        loadSpineImage(items);
+
 
 
 
@@ -432,7 +433,7 @@
         var scrollOffset = 0;
         var nativeScroll = true;
 
-        $('.switch').trigger('click');
+
         stack.scrollTo(items.eq(0));
         btnStar.addClass('disable');
         btnBkwd.addClass('disable');
@@ -457,6 +458,9 @@
                 $('.switch-text-hide').hide();
             }
         })
+
+        //        $('.switch').trigger('click');
+
 
         $('.item').click(function() {
 
@@ -495,6 +499,17 @@
             $('#pop-up span.author').text($(this).find('span.author').text());
             $('#pop-up span.year').text($(this).find('span.year').text());
             $('#pop-up .item-content').html($(this).find('.item-det').html());
+            if(activeIndex == 14) {
+                $('#pop-up .item-content').find('img').attr('src','mockup_14.png');
+            }
+            else if(activeIndex == 15) {
+                $('#pop-up .item-content').find('img').attr('src','mockup_15.png');
+            }
+            else if(activeIndex == 16) {
+                $('#pop-up .item-content').find('img').attr('src','mockup_16.png');
+            } else {
+                $('#pop-up .item-content').find('img').attr('src','mockup_v3.png');
+            }
             //            $('#pop-up #detail').html($(this).find('.item-det').html());
             //            $('#pop-up .item-img').css('background-color', $(this).css('background-color'));
             //            $('#pop-up #avail').html($(this).find('.item-avl').html());
@@ -642,6 +657,36 @@
                         $('.item_selected').next().trigger("click");
                     }
                     break;
+
+                /* For Filming */
+                case 65:
+                    $('#stack-container').scrollTo(1920, 3000);
+                    break;
+                case 66:
+                    $('#stack-container').scrollTo('-=600px', 1500);
+                    break;
+                case 67:
+                    $('#stack-container').scrollTo('+=300px', 750);
+                    break;
+                case 68:
+                    $('#pop-up').find('img.mockup').attr('src','mockup_explore-01.png');
+                    break;
+                case 69:
+                    $('#pop-up').find('img.mockup').attr('src','mockup_explore-02.png');
+                    break;
+                case 70:
+                    $('#pop-up').find('img.mockup').attr('src','mockup_explore-03.png');
+                    break;
+                case 71:
+                    $('#pop-up').find('img.mockup').attr('src','mockup_explore-04.png');
+                    break;
+                case 72:
+                    $('#pop-up').find('img.mockup').attr('src','mockup_v3.png');
+                    break;
+
+
+
+
             }
         });
 
