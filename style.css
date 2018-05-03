@@ -1687,3 +1687,22 @@ footer .icon > .label {
     top: 0px;
     z-index: 299;
 }
+
+/* Embed PDF from Onedrive */
+
+#Embed.default.F.A {
+    background: transparent !important;
+}
+
+.WACPageBorder, .WACFrameWord {
+    border: none !important;
+}
+
+/* Embed Capstone Prototype */
+
+#capstone-prototype {
+    padding: 0 !important;
+
+/*    transform: scale(calc(1080/1280));*/
+}
+
