@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, maximum-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="Peggy Pei-Ying Lu">
-    <title>Serendipitous Discovery | Peggy Lu | UX Design</title>
+    <title>VirtualShelf | Peggy Lu | UX Design</title>
 
     <!-- jQuery -->
     <script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
@@ -69,28 +69,25 @@
 
                 <header class="proj-header">
                     <div class="container">
-                        <h1>Serendipitous Discovery</h1>
+                        <h1>VirtualShelf</h1>
                         <span class="proj-label">Interaction Design | Research</span>
                     </div>
                 </header>
 
-                <div class="proj-meta">
+                <section class="proj-meta">
                     <div class="container">
-                        <div class="alert alert-primary hidden" role="alert">
-                            This is a primary alert—check it out!
-                        </div>
                         <div class="row">
                             <div class="col-lg-8 col-md-9 col-12 row">
                                 <div class="col-lg-8 col-12">
                                     <div class="proj-overview">
                                         <h2>Overview</h2>
-                                        <p>Can we imagine something more exploratary and immersive to inspire and nurture serendipity in digital environments?</p>
+                                        <p>With libraries transforming into the digital era and patrons reminiscing the experience of wandering among the physical stacks, can we imagine something <span class='highlight'>more engaging and exploratory</span> to inspire and nurture serendipity in digital environments?</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-12 row">
                                     <div class="proj-type col-lg-12 col-6">
                                         <h2>Type</h2>
-                                        <p></p>
+                                        <p>Thesis Capstone <br><span>(Individual)</span> </p>
                                     </div>
                                     <div class="proj-time col-lg-12 col-6">
                                         <h2>Duration</h2>
@@ -114,9 +111,9 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
 
-                <div class="proj-cont">
+                <section class="proj-cont">
 
                     <div id="Reading-progress" class="d-md-none">
                         <span id="Progress-bar" class="bar"></span>
@@ -124,20 +121,35 @@
 
                     <div class="container">
 
-
-
                         <div class="row d-flex">
+
+<!--
+                            <section class="d-none">
+                                <iframe src="https://onedrive.live.com/embed?cid=80119E8612D4772D&resid=80119E8612D4772D%21108109&authkey=AE1Hd1UEyFjHz9k&em=2&wdEmbedCode=0&wdPrint=0" width="100%" height="700px" frameborder="0" scrolling="no" class="onedrive" style="max-width: 900px; margin: 0 auto;"></iframe>
+
+                                <iframe src="capstone/" width="1280px" height="580px" id='capstone-prototype'></iframe>
+                            </section>
+-->
 
                             <div class="col-md-3 col-sm-12 d-sm-block">
                                 <nav id="sidenav">
                                     <span class="sn-breadcrumb">
                                         <a href="../index.html">peggylu</a>&nbsp;· projects /
                                     </span>
-                                    <span class="sn-header">Serendipitous Discovery</span>
+                                    <span class="sn-header">VirtualShelf</span>
                                     <ul class="nav">
-                                        <li><a href="#pj-bkgd" class="active nav-link">Timeline</a></li>
-                                        <li><a href="#pj-fram" class="nav-link">Framing</a></li>
-                                        <li><a href="#pj-res" class="nav-link">Research</a></li>
+                                        <li><a href="#pj-bkgd" class="active nav-link">Background</a></li>
+                                        <li><a href="#pj-desg" class="nav-link">Design</a></li>
+                                        <li><a href="#pj-proc" class="nav-link">Process</a>
+                                            <ul class="nav">
+                                                <li><a href="#pj-proc-0" class="nav-link">Early Exploration</a></li>
+                                                <li><a href="#pj-proc-1" class="nav-link">Problem Framing</a></li>
+                                                <li><a href="#pj-proc-2" class="nav-link">Concept Exploration</a></li>
+                                                <li><a href="#pj-proc-3" class="nav-link">Prototyping &amp; Evaluation</a></li>
+                                            </ul>
+                                        </li>
+
+                                        <li><a href="#pj-fut" class="nav-link">Future Direction</a></li>
                                     </ul>
 
                                     <a href="#wrapper" class="sn-top">
@@ -149,8 +161,44 @@
 
                             <article class="cont col-md-9 col-sm-12">
 
-                                <section id="pj-bkgd" class="proj-sect" style="height: 700px;">
-                                    <h2>Timeline</h2>
+                                <section id="pj-bkgd" class="proj-sect">
+                                    <h2>Background</h2>
+                                    <a href="#wrapper" class="sect-top">
+                                        back to top &nbsp;
+                                        <span class="fas fa-caret-up"></span>
+                                    </a>
+                                    <div>
+                                        <p>How do libraries stay relevant in the digital age? In contrast to online search engines, what is essential to the library experience is <span class="highlight">the kind of exploration that offers something beyond what the user is looking for</span>. Effective discovery should not only provide precise target, but also helps user to stay aware of adjacent areas of interest or potential unknown research, and to provides unsought resources that would satisfy their needs.</p>
+                                        <p>Discovery is one of the core value for libraries. However, with the transformation of physical spaces and the increasing amount of digital resources within libraries, <span class="highlight">the need of having a sophisticated digital browsing environment in library systems is greater than ever</span>.</p>
+                                        <p>Library patrons are also reminiscing the experience of wandering around the shelves, stumbling upon that perfect book for them, which is still largely missing from current discovery tools.</p>
+                                    </div>
+                                </section>
+
+                                <section id="pj-desg" class="proj-sect" style="height: 700px;">
+                                    <h2>Design</h2>
+                                    <a href="#wrapper" class="sect-top">
+                                        back to top &nbsp;
+                                        <span class="fas fa-caret-up"></span>
+                                    </a>
+<!--
+                                    <div style="padding:56.25% 0 0 0;position:relative;">
+                                        <iframe src="https://player.vimeo.com/video/266684374?byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                    </div>
+                                    <script src="https://player.vimeo.com/api/player.js"></script>
+-->
+
+                                    <div>
+                                        <p></p>
+                                        <div class="chart timeline" style="max-width: 45em;">
+                                            <object type="image/svg+xml" data="../image/capstone_design.svg"></object>
+                                        </div>
+                                        <!--                                        <img src="../image/capstone_desg-01.png">-->
+                                    </div>
+
+                                </section>
+
+                                <section id="pj-proc" class="proj-sect" style="height: 700px;">
+                                    <h2>Process</h2>
                                     <a href="#wrapper" class="sect-top">
                                         back to top &nbsp;
                                         <span class="fas fa-caret-up"></span>
@@ -159,35 +207,14 @@
                                         <h4>Project Timeline</h4>
                                         <object type="image/svg+xml" data="../image/capstone-timeline.svg"></object>
                                     </div>
-
-                                </section>
-                                <section id="pj-fram" class="proj-sect" style="height: 700px;">
-                                    <h2>Framing</h2>
-                                    <a href="#wrapper" class="sect-top">
-                                        back to top &nbsp;
-                                        <span class="fas fa-caret-up"></span>
-                                    </a>
-                                    <div>
-                                        <p></p>
-                                    </div>
-
-                                </section>
-                                <section id="pj-res" class="proj-sect" style="height: 700px;">
-                                    <h2>Research</h2>
-                                    <a href="#wrapper" class="sect-top">
-                                        back to top &nbsp;
-                                        <span class="fas fa-caret-up"></span>
-                                    </a>
                                     <div>
                                         <p></p>
                                     </div>
 
                                 </section>
 
-
-
-                                <section class="proj-sect d-none" id="pj-refl">
-                                    <h2>Takeaway</h2>
+                                <section class="proj-sect" id="pj-fut">
+                                    <h2>Future Directions</h2>
                                     <a href="#wrapper" class="sect-top">
                                         back to top &nbsp;
                                         <span class="fas fa-caret-up"></span>
@@ -198,7 +225,7 @@
                             </article>
                         </div>
                     </div>
-                </div>
+                </section>
 
             </div>
 
@@ -311,6 +338,9 @@
                 e.preventDefault()
                 $(this).tab('show')
             })
+
+
+
 
         });
 

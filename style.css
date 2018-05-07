@@ -822,8 +822,18 @@ nav .dropdown-item.dd-active {
 }
 
 #resume #main .proj-cont .container > .row > div {
-    -webkit-box-shadow: 1px 0px 4px -1px rgba(0, 0, 0, 0.24), inset 0 -1px 3px rgba(0, 0, 0, 0.06), inset 0 -1px 2px rgba(0, 0, 0, 0.12), inset 0 1px 3px rgba(0, 0, 0, 0.06), inset 0 1px 2px rgba(0, 0, 0, 0.12);
-    box-shadow: 1px 0px 4px -1px rgba(0, 0, 0, 0.24), inset 0 -1px 3px rgba(0, 0, 0, 0.06), inset 0 -1px 2px rgba(0, 0, 0, 0.12), inset 0 1px 3px rgba(0, 0, 0, 0.06), inset 0 1px 2px rgba(0, 0, 0, 0.12);
+    -webkit-box-shadow:
+        1px 0px 4px -1px rgba(0, 0, 0, 0.24),
+        inset 0 -1px 3px rgba(0, 0, 0, 0.06),
+        inset 0 -1px 2px rgba(0, 0, 0, 0.12),
+        inset 0 1px 3px rgba(0, 0, 0, 0.06),
+        inset 0 1px 2px rgba(0, 0, 0, 0.12);
+    box-shadow:
+        1px 0px 4px -1px rgba(0, 0, 0, 0.24),
+        inset 0 -1px 3px rgba(0, 0, 0, 0.06),
+        inset 0 -1px 2px rgba(0, 0, 0, 0.12),
+        inset 0 1px 3px rgba(0, 0, 0, 0.06),
+        inset 0 1px 2px rgba(0, 0, 0, 0.12);
 }
 
 .project #main .proj-cont #sidenav {
@@ -1487,6 +1497,14 @@ footer .icon > .label {
 }
 
 /* SVG Interactivity */
+
+svg text ::-moz-selection {
+    background: #ffb7b7;
+}
+
+svg text ::selection {
+    background: #ffb7b7;
+}
 
 #cvp_concept {
     margin-top: 1.5em;
