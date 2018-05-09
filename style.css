@@ -1607,7 +1607,7 @@ svg text ::selection {
         margin-right: 80px;
         padding-left: 30px;
         padding-bottom: .5em;
-        white-space: nowrap;
+/*        white-space: nowrap;*/
     }
     .project #main .proj-cont .proj-sect h4 {
         font-size: 20px;
