@@ -1186,10 +1186,6 @@ nav .dropdown-item.dd-active {
     padding: 2px 5px;
 }
 
-.project #main .proj-cont .proj-sect .rwd-break {
-    display: none;
-}
-
 .project #main .proj-cont .proj-sect .timeline span {
     color: var(--txGrey);
     display: inline-block;
@@ -1295,10 +1291,6 @@ nav .dropdown-item.dd-active {
     .project #main .proj-cont .proj-sect div[id^='pj-proc-'] > h3 {
         margin-top: -3em;
         padding-top: 5em;
-    }
-
-    .project #main .proj-cont .proj-sect .rwd-break {
-        display: block;
     }
 }
 
