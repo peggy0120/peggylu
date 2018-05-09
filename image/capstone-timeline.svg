@@ -1,6 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 857.25 166">
   <defs>
     <style>
+      @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
       .cls-1 {
         fill: #aaa;
       }
@@ -8,7 +10,7 @@
       .cls-2 {
         fill: #888;
         font-size: 12px;
-        font-family: Roboto-Regular, Roboto; Sans-serif;
+        font-family: Roboto-Regular, Roboto, Sans-serif;
       }
 
       .cls-3 {
@@ -22,7 +24,7 @@
       .cls-5 {
         fill: #f9f9f9;
         font-size: 14px;
-        font-family: Roboto-Light, Roboto; Sans-serif;
+        font-family: Roboto-Light, Roboto, Sans-serif;
         font-weight: 300;
       }
 
@@ -446,7 +448,7 @@
       <text id="Affinity_Diagram" data-name="Affinity Diagram" class="cls-5" transform="translate(616.238 -47)"><tspan x="0" y="0">Affinity Diagram</tspan></text>
       <text id="Expert_Interviews" data-name="Expert Interviews" class="cls-5" transform="translate(312.238 -34)"><tspan x="0" y="0">Expert Interviews</tspan></text>
       <text id="Problem_Framing" data-name="Problem Framing" class="cls-5" transform="translate(420 -86)"><tspan x="0" y="0">Problem Framing</tspan></text>
-      <text id="Concept_Exploration" data-name="Concept Exploration" class="cls-5" transform="translate(668 -86)"><tspan x="0" y="0">Concept Exploration</tspan></text>
+      <text id="Ideation" class="cls-5" transform="translate(668 -86)"><tspan x="0" y="0">Ideation</tspan></text>
       <text id="Prototyping_Evaluation" data-name="Prototyping &amp; Evaluation" class="cls-5" transform="translate(881 -86)"><tspan x="0" y="0">Prototyping &amp; Evaluation</tspan></text>
       <g class="cls-13" transform="matrix(1, 0, 0, 1, 229.75, -138)">
         <rect id="Rectangle_71-2" data-name="Rectangle 71" class="cls-6" width="144" height="21" rx="1" transform="translate(497.25 63)"/>
