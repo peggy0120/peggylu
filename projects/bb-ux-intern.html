@@ -181,7 +181,7 @@
 
                                             <div class="chart timeline">
                                                 <h4>Use Cases</h4>
-                                                <object type="image/svg+xml" data="../image/bb_proc-usecase.svg"></object>
+                                                <object type="image/svg+xml" data="../image/bb_proc-usecase.svg" onload="importFont(this)"></object>
                                             </div>
                                         </div>
                                     </div>
@@ -192,7 +192,7 @@
                                             <p>Due to the limited timeframe and resources, it was impossible for us to have that broad &amp; exhaustive exploration we had hoped for. Therefore, we had to strategically narrow down our focuses to something that we recognized would benefit the project and our users the most in the long term to contribute our time and efforts. We ended up <span class="highlight">constraining ourselves to the workflow of creating the marketing contents and providing a way for admins to have a more personal interaction with constituents</span> through this marketing channel. Below is the breakdown of how and why the decision was made. </p>
                                             <div class="chart timeline">
                                                 <h4>Project Focuses</h4>
-                                                <object type="image/svg+xml" data="../image/bb_proc-focus.svg"></object>
+                                                <object type="image/svg+xml" data="../image/bb_proc-focus.svg" onload="importFont(this)"></object>
                                             </div>
                                         </div>
                                     </div>
@@ -208,7 +208,7 @@
                                             <p>After 5 weeks of exploration and iterations, the final deliverables I had for this project were mockups with user flows, inVision prototype, and a slidedeck documenting my process including analysis of competitive landscape, project scope and use cases. <span class="highlight">The project received positive reactions from both the UX and PM team, and was regarded as a good foundation for the product development in the long term.</span> It also sparked discussions internally on accelerating it on the product roadmap by the end of the internship.</p>
                                             <div class="chart timeline">
                                                 <h4>Mockups</h4>
-                                                <object type="image/svg+xml" data="../image/bb_proc-userflow.svg" class="full-width"></object>
+                                                <object type="image/svg+xml" data="../image/bb_proc-userflow.svg" class="full-width" onload="importFont(this)"></object>
                                             </div>
                                         </div>
                                     </div>
@@ -272,14 +272,9 @@
 
     <script>
         function importFont(object) {
-//            var testObject = document.getElementsByTagName("object");
-//            console.log(testObject);
-            console.log(object);
-            var testSvg = object.contentDocument;
-            console.log(testSvg);
-            var testStyle = testSvg.getElementsByTagName("style");
-//            console.log(testStyle);
-            $(testStyle).prepend("@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');");
+            var svg = object.contentDocument;
+            var style = svg.getElementsByTagName("style");
+            $(style).prepend("@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');");
         }
 
         $(document).ready(function() {
