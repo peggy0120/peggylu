@@ -65,6 +65,11 @@ a:hover {
     color: var(--secondary);
 }
 
+em {
+    color: var(--primary);
+    font-style: normal;
+}
+
 .nav-tabs {
     margin-top: 30px;
     margin-left: -15px;
@@ -1149,7 +1154,7 @@ nav .dropdown-item.dd-active {
     margin-right: 0;
 }
 
-.project #main .proj-cont .proj-sect div[class^='col'] {
+.project #main .proj-cont .proj-sect [class^='col'] {
     margin-left: -5px;
     padding-left: 5px;
 }
@@ -1179,10 +1184,12 @@ nav .dropdown-item.dd-active {
     max-width: 40em;
 }
 
-.project #main .proj-cont .proj-sect p span.highlight {
+.project #main .proj-cont .proj-sect em {
     background-color: rgba(51, 181, 153, .20);
     border-bottom: .5px solid rgba(51, 181, 153, .30);
     border-radius: .125em;
+    color: inherit;
+    font-style: normal;
     padding: 2px 5px;
 }
 
@@ -1228,6 +1235,23 @@ nav .dropdown-item.dd-active {
 
 .project #main .proj-cont .proj-sect .collage .cont-desc {
     margin-top: 1em;
+}
+
+.project #main .proj-cont .proj-sect .panel h5 {
+    color: var(--primary);
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.project #main .proj-cont .proj-sect .panel p {
+    font-size: .8em;
+}
+
+.project #main .proj-cont .proj-sect .panel p > span {
+    font-size: 1.25em;
 }
 
 @media screen and (min-width: 1200px) {

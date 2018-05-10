@@ -198,8 +198,8 @@
                     </div>
                     <div class="item-content">
                         <div class="item-det">
-                            <!--                            <img class="mockup" src="mockup_v3.png" style="width: 520px;">-->
-                            <p>Detail</p>
+                                                        <img class="mockup" src="mockup_v3.png" style="width: 520px;">
+<!--                            <p>Detail</p>-->
                         </div>
                         <div class="item-avl">
                             <p>Availability</p>
@@ -323,7 +323,7 @@
                         </div>
 
                     </div>
-                    <ul class="nav nav-tabs" id="item_tab" role="tablist">
+                    <ul class="nav nav-tabs d-none" id="item_tab" role="tablist">
                         <li class="nav-item">
                             <a class="nav-link active" href="#detail" data-toggle="tab" role="tab" aria-controls="detail" area-selected='true'>Detail</a>
                         </li>
@@ -355,10 +355,15 @@
                 color = 'hsl(204, 100%, ';
                 color += (Math.floor(Math.random() * 5) + 14) * 5;
                 color += '%)';
-
-            } else if (color == 'orange') {
+            }
+            else if (color == 'orange') {
                 color = 'hsl(25, 88%, ';
                 color += (Math.floor(Math.random() * 7) + 12) * 5;
+                color += '%)';
+            }
+            else if (color == 'green') {
+                color = 'hsl(167, 56%, ';
+                color += (Math.floor(Math.random() * 7) + 11) * 5;
                 color += '%)';
             }
         } else {
@@ -404,7 +409,7 @@
         // Loop through items to get each position, and generate bg-color, author, index.
         for (var i = 0; i < items.length; i++) {
             positLeft.push(items.eq(i).position().left);
-            items.eq(i).css('background-color', getRandomColor('hsl', 'blue'));
+            items.eq(i).css('background-color', getRandomColor('hsl', 'green'));
 
             if (i != 17) {
                 items.eq(i).find('.author').text(

@@ -1,8 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 857.25 166">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 857.25 193">
   <defs>
     <style>
-      @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
-
       .cls-1 {
         fill: #aaa;
       }
@@ -10,7 +8,7 @@
       .cls-2 {
         fill: #888;
         font-size: 12px;
-        font-family: Roboto-Regular, Roboto, Sans-serif;
+        font-family: Roboto-Regular, Roboto;
       }
 
       .cls-3 {
@@ -24,7 +22,7 @@
       .cls-5 {
         fill: #f9f9f9;
         font-size: 14px;
-        font-family: Roboto-Light, Roboto, Sans-serif;
+        font-family: Roboto-Light, Roboto;
         font-weight: 300;
       }
 
@@ -33,7 +31,7 @@
       }
 
       .cls-7 {
-        filter: url(#Rectangle_80);
+        filter: url(#Rectangle_77-2);
       }
 
       .cls-8 {
@@ -41,114 +39,118 @@
       }
 
       .cls-9 {
-        filter: url(#Rectangle_82);
+        filter: url(#Rectangle_80);
       }
 
       .cls-10 {
-        filter: url(#Rectangle_76);
+        filter: url(#Rectangle_82);
       }
 
       .cls-11 {
-        filter: url(#Rectangle_75);
+        filter: url(#Rectangle_76);
       }
 
       .cls-12 {
-        filter: url(#Rectangle_81);
+        filter: url(#Rectangle_75);
       }
 
       .cls-13 {
-        filter: url(#Rectangle_71);
+        filter: url(#Rectangle_81);
       }
 
       .cls-14 {
-        filter: url(#Rectangle_73);
+        filter: url(#Rectangle_71);
       }
 
       .cls-15 {
-        filter: url(#Rectangle_74);
+        filter: url(#Rectangle_73);
       }
 
       .cls-16 {
-        filter: url(#Rectangle_43);
+        filter: url(#Rectangle_74);
       }
 
       .cls-17 {
-        filter: url(#Rectangle_79);
+        filter: url(#Rectangle_43);
       }
 
       .cls-18 {
-        filter: url(#Rectangle_78);
+        filter: url(#Rectangle_79);
       }
 
       .cls-19 {
-        filter: url(#Rectangle_72);
+        filter: url(#Rectangle_78);
       }
 
       .cls-20 {
-        filter: url(#Rectangle_42-13);
+        filter: url(#Rectangle_72);
       }
 
       .cls-21 {
-        filter: url(#Rectangle_68);
+        filter: url(#Rectangle_42-13);
       }
 
       .cls-22 {
-        filter: url(#Rectangle_69);
+        filter: url(#Rectangle_68);
       }
 
       .cls-23 {
-        filter: url(#Rectangle_70);
+        filter: url(#Rectangle_69);
       }
 
       .cls-24 {
-        filter: url(#Rectangle_67);
+        filter: url(#Rectangle_70);
       }
 
       .cls-25 {
-        filter: url(#Rectangle_42-12);
+        filter: url(#Rectangle_67);
       }
 
       .cls-26 {
-        filter: url(#Rectangle_42-11);
+        filter: url(#Rectangle_42-12);
       }
 
       .cls-27 {
-        filter: url(#Rectangle_42-10);
+        filter: url(#Rectangle_42-11);
       }
 
       .cls-28 {
-        filter: url(#Rectangle_42-9);
+        filter: url(#Rectangle_42-10);
       }
 
       .cls-29 {
-        filter: url(#Rectangle_42-8);
+        filter: url(#Rectangle_42-9);
       }
 
       .cls-30 {
-        filter: url(#Rectangle_42-7);
+        filter: url(#Rectangle_42-8);
       }
 
       .cls-31 {
-        filter: url(#Rectangle_42-6);
+        filter: url(#Rectangle_42-7);
       }
 
       .cls-32 {
-        filter: url(#Rectangle_42-5);
+        filter: url(#Rectangle_42-6);
       }
 
       .cls-33 {
-        filter: url(#Rectangle_42-4);
+        filter: url(#Rectangle_42-5);
       }
 
       .cls-34 {
-        filter: url(#Rectangle_42-3);
+        filter: url(#Rectangle_42-4);
       }
 
       .cls-35 {
-        filter: url(#Rectangle_42-2);
+        filter: url(#Rectangle_42-3);
       }
 
       .cls-36 {
+        filter: url(#Rectangle_42-2);
+      }
+
+      .cls-37 {
         filter: url(#Rectangle_42);
       }
     </style>
@@ -348,70 +350,77 @@
       <feComposite operator="in" in2="blur-28"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="Rectangle_77" x="341.25" y="137" width="118" height="27" filterUnits="userSpaceOnUse">
+    <filter id="Rectangle_80" x="587.25" y="87" width="220" height="27" filterUnits="userSpaceOnUse">
       <feOffset dy="1" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="1" result="blur-29"/>
       <feFlood flood-opacity="0.161"/>
       <feComposite operator="in" in2="blur-29"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="Rectangle_80" x="587.25" y="87" width="220" height="27" filterUnits="userSpaceOnUse">
+    <filter id="Rectangle_77" x="341.25" y="166" width="118" height="27" filterUnits="userSpaceOnUse">
       <feOffset dy="1" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="1" result="blur-30"/>
       <feFlood flood-opacity="0.161"/>
       <feComposite operator="in" in2="blur-30"/>
       <feComposite in="SourceGraphic"/>
     </filter>
+    <filter id="Rectangle_77-2" x="132.25" y="139" width="403.73" height="27" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-31"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-31"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
   </defs>
   <g id="capstone-timeline" transform="translate(-335.75 -121)">
     <g id="heading" transform="translate(3 16)">
       <g id="Group_79" data-name="Group 79">
-        <g class="cls-36" transform="matrix(1, 0, 0, 1, 332.75, 105)">
+        <g class="cls-37" transform="matrix(1, 0, 0, 1, 332.75, 105)">
           <rect id="Rectangle_42-14" data-name="Rectangle 42" class="cls-1" width="48.481" height="9" rx="1" transform="translate(53.25 16)"/>
         </g>
-        <g class="cls-35" transform="matrix(1, 0, 0, 1, 332.75, 105)">
+        <g class="cls-36" transform="matrix(1, 0, 0, 1, 332.75, 105)">
           <rect id="Rectangle_42-15" data-name="Rectangle 42" class="cls-1" width="46.226" height="9" rx="1" transform="translate(2.25 16)"/>
         </g>
-        <g class="cls-34" transform="matrix(1, 0, 0, 1, 332.75, 105)">
+        <g class="cls-35" transform="matrix(1, 0, 0, 1, 332.75, 105)">
           <rect id="Rectangle_42-16" data-name="Rectangle 42" class="cls-1" width="48.481" height="9" rx="1" transform="translate(107.25 16)"/>
         </g>
-        <g class="cls-33" transform="matrix(1, 0, 0, 1, 332.75, 105)">
+        <g class="cls-34" transform="matrix(1, 0, 0, 1, 332.75, 105)">
           <rect id="Rectangle_42-17" data-name="Rectangle 42" class="cls-1" width="48.481" height="9" rx="1" transform="translate(161.25 16)"/>
         </g>
-        <g class="cls-32" transform="matrix(1, 0, 0, 1, 332.75, 105)">
+        <g class="cls-33" transform="matrix(1, 0, 0, 1, 332.75, 105)">
           <rect id="Rectangle_42-18" data-name="Rectangle 42" class="cls-1" width="48.481" height="9" rx="1" transform="translate(215.25 16)"/>
         </g>
-        <g class="cls-31" transform="matrix(1, 0, 0, 1, 332.75, 105)">
+        <g class="cls-32" transform="matrix(1, 0, 0, 1, 332.75, 105)">
           <rect id="Rectangle_42-19" data-name="Rectangle 42" class="cls-1" width="48.481" height="9" rx="1" transform="translate(268.25 16)"/>
         </g>
-        <g class="cls-30" transform="matrix(1, 0, 0, 1, 332.75, 105)">
+        <g class="cls-31" transform="matrix(1, 0, 0, 1, 332.75, 105)">
           <rect id="Rectangle_42-20" data-name="Rectangle 42" class="cls-1" width="48.481" height="9" rx="1" transform="translate(322.25 16)"/>
         </g>
-        <g class="cls-29" transform="matrix(1, 0, 0, 1, 332.75, 105)">
+        <g class="cls-30" transform="matrix(1, 0, 0, 1, 332.75, 105)">
           <rect id="Rectangle_42-21" data-name="Rectangle 42" class="cls-1" width="48.481" height="9" rx="1" transform="translate(376.25 16)"/>
         </g>
-        <g class="cls-28" transform="matrix(1, 0, 0, 1, 332.75, 105)">
+        <g class="cls-29" transform="matrix(1, 0, 0, 1, 332.75, 105)">
           <rect id="Rectangle_42-22" data-name="Rectangle 42" class="cls-1" width="48.481" height="9" rx="1" transform="translate(430.25 16)"/>
         </g>
-        <g class="cls-27" transform="matrix(1, 0, 0, 1, 332.75, 105)">
+        <g class="cls-28" transform="matrix(1, 0, 0, 1, 332.75, 105)">
           <rect id="Rectangle_42-23" data-name="Rectangle 42" class="cls-1" width="48.481" height="9" rx="1" transform="translate(483.25 16)"/>
         </g>
-        <g class="cls-26" transform="matrix(1, 0, 0, 1, 332.75, 105)">
+        <g class="cls-27" transform="matrix(1, 0, 0, 1, 332.75, 105)">
           <rect id="Rectangle_42-24" data-name="Rectangle 42" class="cls-1" width="48.481" height="9" rx="1" transform="translate(537.25 16)"/>
         </g>
-        <g class="cls-25" transform="matrix(1, 0, 0, 1, 332.75, 105)">
+        <g class="cls-26" transform="matrix(1, 0, 0, 1, 332.75, 105)">
           <rect id="Rectangle_42-25" data-name="Rectangle 42" class="cls-1" width="48.481" height="9" rx="1" transform="translate(591.25 16)"/>
         </g>
-        <g class="cls-24" transform="matrix(1, 0, 0, 1, 332.75, 105)">
+        <g class="cls-25" transform="matrix(1, 0, 0, 1, 332.75, 105)">
           <rect id="Rectangle_67-2" data-name="Rectangle 67" class="cls-1" width="48.481" height="9" rx="1" transform="translate(645.25 16)"/>
         </g>
-        <g class="cls-23" transform="matrix(1, 0, 0, 1, 332.75, 105)">
+        <g class="cls-24" transform="matrix(1, 0, 0, 1, 332.75, 105)">
           <rect id="Rectangle_70-2" data-name="Rectangle 70" class="cls-1" width="48.481" height="9" rx="1" transform="translate(698.25 16)"/>
         </g>
-        <g class="cls-22" transform="matrix(1, 0, 0, 1, 332.75, 105)">
+        <g class="cls-23" transform="matrix(1, 0, 0, 1, 332.75, 105)">
           <rect id="Rectangle_69-2" data-name="Rectangle 69" class="cls-1" width="48.481" height="9" rx="1" transform="translate(752.25 16)"/>
         </g>
-        <g class="cls-21" transform="matrix(1, 0, 0, 1, 332.75, 105)">
+        <g class="cls-22" transform="matrix(1, 0, 0, 1, 332.75, 105)">
           <rect id="Rectangle_68-2" data-name="Rectangle 68" class="cls-1" width="48.481" height="9" rx="1" transform="translate(806.25 16)"/>
         </g>
       </g>
@@ -422,25 +431,25 @@
       </g>
     </g>
     <g id="Group_180" data-name="Group 180" transform="translate(106 259)">
-      <g class="cls-20" transform="matrix(1, 0, 0, 1, 229.75, -138)">
+      <g class="cls-21" transform="matrix(1, 0, 0, 1, 229.75, -138)">
         <rect id="Rectangle_42-26" data-name="Rectangle 42" class="cls-3" width="159" height="21" rx="1" transform="translate(22.25 37)"/>
       </g>
-      <g class="cls-19" transform="matrix(1, 0, 0, 1, 229.75, -138)">
+      <g class="cls-20" transform="matrix(1, 0, 0, 1, 229.75, -138)">
         <rect id="Rectangle_72-2" data-name="Rectangle 72" class="cls-3" width="241" height="21" rx="1" transform="translate(187.25 37)"/>
       </g>
-      <g class="cls-18" transform="matrix(1, 0, 0, 1, 229.75, -138)">
+      <g class="cls-19" transform="matrix(1, 0, 0, 1, 229.75, -138)">
         <rect id="Rectangle_78-2" data-name="Rectangle 78" class="cls-3" width="206" height="21" rx="1" transform="translate(435.25 37)"/>
       </g>
-      <g class="cls-17" transform="matrix(1, 0, 0, 1, 229.75, -138)">
+      <g class="cls-18" transform="matrix(1, 0, 0, 1, 229.75, -138)">
         <rect id="Rectangle_79-2" data-name="Rectangle 79" class="cls-3" width="206" height="21" rx="1" transform="translate(648.25 37)"/>
       </g>
-      <g class="cls-16" transform="matrix(1, 0, 0, 1, 229.75, -138)">
+      <g class="cls-17" transform="matrix(1, 0, 0, 1, 229.75, -138)">
         <rect id="Rectangle_43-2" data-name="Rectangle 43" class="cls-4" width="320" height="21" rx="1" transform="translate(54.25 63)"/>
       </g>
-      <g class="cls-15" transform="matrix(1, 0, 0, 1, 229.75, -138)">
+      <g class="cls-16" transform="matrix(1, 0, 0, 1, 229.75, -138)">
         <rect id="Rectangle_74-2" data-name="Rectangle 74" class="cls-4" width="110" height="47" rx="1" transform="translate(380.25 63)"/>
       </g>
-      <g class="cls-14" transform="matrix(1, 0, 0, 1, 229.75, -138)">
+      <g class="cls-15" transform="matrix(1, 0, 0, 1, 229.75, -138)">
         <rect id="Rectangle_73-2" data-name="Rectangle 73" class="cls-4" width="132" height="21" rx="1" transform="translate(79.25 89)"/>
       </g>
       <text id="Exploration" class="cls-5" transform="translate(255 -86)"><tspan x="0" y="0">Exploration</tspan></text>
@@ -450,36 +459,44 @@
       <text id="Problem_Framing" data-name="Problem Framing" class="cls-5" transform="translate(420 -86)"><tspan x="0" y="0">Problem Framing</tspan></text>
       <text id="Ideation" class="cls-5" transform="translate(668 -86)"><tspan x="0" y="0">Ideation</tspan></text>
       <text id="Prototyping_Evaluation" data-name="Prototyping &amp; Evaluation" class="cls-5" transform="translate(881 -86)"><tspan x="0" y="0">Prototyping &amp; Evaluation</tspan></text>
-      <g class="cls-13" transform="matrix(1, 0, 0, 1, 229.75, -138)">
+      <g class="cls-14" transform="matrix(1, 0, 0, 1, 229.75, -138)">
         <rect id="Rectangle_71-2" data-name="Rectangle 71" class="cls-6" width="144" height="21" rx="1" transform="translate(497.25 63)"/>
       </g>
-      <g class="cls-12" transform="matrix(1, 0, 0, 1, 229.75, -138)">
+      <g class="cls-13" transform="matrix(1, 0, 0, 1, 229.75, -138)">
         <rect id="Rectangle_81-2" data-name="Rectangle 81" class="cls-6" width="157" height="21" rx="1" transform="translate(697.25 115)"/>
       </g>
-      <g class="cls-11" transform="matrix(1, 0, 0, 1, 229.75, -138)">
+      <g class="cls-12" transform="matrix(1, 0, 0, 1, 229.75, -138)">
         <rect id="Rectangle_75-2" data-name="Rectangle 75" class="cls-4" width="91" height="21" rx="1" transform="translate(79.25 115)"/>
       </g>
-      <g class="cls-10" transform="matrix(1, 0, 0, 1, 229.75, -138)">
+      <g class="cls-11" transform="matrix(1, 0, 0, 1, 229.75, -138)">
         <rect id="Rectangle_76-2" data-name="Rectangle 76" class="cls-4" width="188" height="21" rx="1" transform="translate(344.25 115)"/>
       </g>
-      <g class="cls-9" transform="matrix(1, 0, 0, 1, 229.75, -138)">
+      <g class="cls-10" transform="matrix(1, 0, 0, 1, 229.75, -138)">
         <rect id="Rectangle_82-2" data-name="Rectangle 82" class="cls-4" width="214" height="21" rx="1" transform="translate(590.25 141)"/>
-      </g>
-      <g class="cls-8" transform="matrix(1, 0, 0, 1, 229.75, -138)">
-        <rect id="Rectangle_77-2" data-name="Rectangle 77" class="cls-4" width="112" height="21" rx="1" transform="translate(344.25 139)"/>
       </g>
       <text id="Observations" class="cls-5" transform="translate(312.238 -8)"><tspan x="0" y="0">Observations</tspan></text>
       <text id="Contextual_Inquiries" data-name="Contextual Inquiries" class="cls-5" transform="translate(577.238 -8)"><tspan x="0" y="0">Contextual Inquiries</tspan></text>
       <text id="User_Evaluations" data-name="User Evaluations" class="cls-5" transform="translate(825.238 18)"><tspan x="0" y="0">User Evaluations</tspan></text>
       <text id="Paper_Sketching" data-name="Paper Sketching" class="cls-5" transform="translate(730.238 -60)"><tspan x="0" y="0">Paper Sketching</tspan></text>
       <g id="Group_181" data-name="Group 181">
-        <g class="cls-7" transform="matrix(1, 0, 0, 1, 229.75, -138)">
+        <g class="cls-9" transform="matrix(1, 0, 0, 1, 229.75, -138)">
           <rect id="Rectangle_80-2" data-name="Rectangle 80" class="cls-6" width="214" height="21" rx="1" transform="translate(590.25 89)"/>
         </g>
         <text id="Static_Mockups" data-name="Static Mockups" class="cls-5" transform="translate(823.238 -34)"><tspan x="0" y="0">Static Mockups</tspan></text>
       </g>
       <text id="Interactive_Prototype" data-name="Interactive Prototype" class="cls-5" transform="translate(930.238 -8)"><tspan x="0" y="0">Interactive Prototype</tspan></text>
-      <text id="Text_Analysis" data-name="Text Analysis" class="cls-5" transform="translate(577.238 16)"><tspan x="0" y="0">Text Analysis</tspan></text>
+      <g id="Group_187" data-name="Group 187" transform="translate(0 29)">
+        <g class="cls-8" transform="matrix(1, 0, 0, 1, 229.75, -167)">
+          <rect id="Rectangle_77-3" data-name="Rectangle 77" class="cls-4" width="112" height="21" rx="1" transform="translate(344.25 168)"/>
+        </g>
+        <text id="Text_Analysis" data-name="Text Analysis" class="cls-5" transform="translate(577.238 16)"><tspan x="0" y="0">Text Analysis</tspan></text>
+      </g>
+      <g id="Group_188" data-name="Group 188" transform="translate(-209 2)">
+        <g class="cls-7" transform="matrix(1, 0, 0, 1, 438.75, -140)">
+          <rect id="Rectangle_77-4" data-name="Rectangle 77" class="cls-4" width="397.73" height="21" rx="1" transform="translate(135.25 141)"/>
+        </g>
+        <text id="Exemplar_Collections" data-name="Exemplar Collections" class="cls-5" transform="translate(577.5 16)"><tspan x="0" y="0">Exemplar Collections</tspan></text>
+      </g>
     </g>
   </g>
 </svg>
