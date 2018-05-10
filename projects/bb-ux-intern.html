@@ -154,7 +154,7 @@
                                     </div>
                                     <div class="chart timeline">
                                         <h4>Internship Timeline</h4>
-                                        <object type="image/svg+xml" data="../image/bb_timeline-2.svg"></object>
+                                        <object type="image/svg+xml" data="../image/bb_timeline-2.svg" onload="importFont()"></object>
                                     </div>
                                     <div>
                                         <p>The deliverables I had included research report synthesizing insights, competitive matrix, slide decks documenting the projects, mockups done in Sketch, and inVision prototypes. <span class="highlight">Below is the case study* of my approaches and the progress made with the VisionType project.</span></p>
@@ -271,11 +271,7 @@
     </div>
 
     <script>
-        $(document).ready(function() {
-
-            //            var svgStyle = ('svg style');
-            //            alert(svgStyle.length);
-
+        function importFont() {
             var testObject = document.getElementsByTagName("object");
             console.log(testObject);
             var testSvg = testObject[0].contentDocument;
@@ -283,6 +279,14 @@
             var testStyle = testSvg.getElementsByTagName("style");
             console.log(testStyle);
             $(testStyle).prepend("@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');");
+        }
+
+        $(document).ready(function() {
+
+            //            var svgStyle = ('svg style');
+            //            alert(svgStyle.length);
+
+
 
             /* Loading Header & Add dropdown hover state*/
 
