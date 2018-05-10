@@ -190,8 +190,8 @@
 
                                     <div>
                                         <p></p>
-                                        <div class="chart timeline" style="max-width: 45em;">
-                                            <object type="image/svg+xml" data="../image/capstone_design.svg"></object>
+                                        <div class="chart" style="max-width: 45em;">
+                                            <object type="image/svg+xml" data="../image/capstone_design.svg" onload="importFont(this)"></object>
                                         </div>
                                         <!--                                        <img src="../image/capstone_desg-01.png">-->
                                     </div>
@@ -206,7 +206,7 @@
                                     </a>
                                     <div class="chart timeline" style="max-width: 45em;">
                                         <h4>Project Timeline</h4>
-                                        <object type="image/svg+xml" data="../image/capstone-timeline.svg"></object>
+                                        <object type="image/svg+xml" data="../image/capstone-timeline.svg" onload="importFont(this)"></object>
                                     </div>
                                     <div id="pj-proc-0">
                                         <h3><span>Exploration</span>Digging Deeper into&nbsp;Discovery&nbsp;Services</h3>
@@ -289,6 +289,12 @@
     </div>
 
     <script>
+        function importFont(object) {
+            var svg = object.contentDocument;
+            var style = svg.getElementsByTagName("style");
+            $(style).prepend("@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');");
+        }
+
         $(document).ready(function() {
 
             /* Loading Header & Add dropdown hover state */
