@@ -154,7 +154,7 @@
                                     </div>
                                     <div class="chart timeline">
                                         <h4>Internship Timeline</h4>
-                                        <object type="image/svg+xml" data="../image/bb_timeline-2.svg" onload="importFont()"></object>
+                                        <object type="image/svg+xml" data="../image/bb_timeline-2.svg" onload="importFont(this)"></object>
                                     </div>
                                     <div>
                                         <p>The deliverables I had included research report synthesizing insights, competitive matrix, slide decks documenting the projects, mockups done in Sketch, and inVision prototypes. <span class="highlight">Below is the case study* of my approaches and the progress made with the VisionType project.</span></p>
@@ -271,10 +271,10 @@
     </div>
 
     <script>
-        function importFont() {
+        function importFont(object) {
 //            var testObject = document.getElementsByTagName("object");
 //            console.log(testObject);
-            var testSvg = this.contentDocument;
+            var testSvg = $(object).contentDocument;
 //            console.log(testSvg);
             var testStyle = testSvg.getElementsByTagName("style");
 //            console.log(testStyle);
