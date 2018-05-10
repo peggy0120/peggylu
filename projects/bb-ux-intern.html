@@ -273,6 +273,14 @@
     <script>
         $(document).ready(function() {
 
+            //            var svgStyle = ('svg style');
+            //            alert(svgStyle.length);
+
+            var testObject = document.getElementsByTagName("object");
+            var testSvg = testObject[0].contentDocument;
+            var testStyle = testSvg.getElementsByTagName("style");
+            $(testStyle).prepend("@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');");
+
             /* Loading Header & Add dropdown hover state*/
 
             $('#header').load('../reuseNav.html', function() {
