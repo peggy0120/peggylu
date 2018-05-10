@@ -274,8 +274,9 @@
         function importFont(object) {
 //            var testObject = document.getElementsByTagName("object");
 //            console.log(testObject);
-            var testSvg = $(object).contentDocument;
-//            console.log(testSvg);
+            console.log(object);
+            var testSvg = object.contentDocument;
+            console.log(testSvg);
             var testStyle = testSvg.getElementsByTagName("style");
 //            console.log(testStyle);
             $(testStyle).prepend("@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');");
