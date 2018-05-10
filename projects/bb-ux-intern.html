@@ -272,12 +272,12 @@
 
     <script>
         function importFont() {
-            var testObject = document.getElementsByTagName("object");
-            console.log(testObject);
-            var testSvg = testObject[0].contentDocument;
-            console.log(testSvg);
+//            var testObject = document.getElementsByTagName("object");
+//            console.log(testObject);
+            var testSvg = this.contentDocument;
+//            console.log(testSvg);
             var testStyle = testSvg.getElementsByTagName("style");
-            console.log(testStyle);
+//            console.log(testStyle);
             $(testStyle).prepend("@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');");
         }
 
