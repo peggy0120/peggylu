@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 509 159">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #51a6df;
+      }
+
+      .cls-2 {
+        fill: #f9f9f9;
+        font-size: 16px;
+      }
+
+      .cls-2, .cls-3 {
+        font-family: Roboto-Light, Roboto;
+        font-weight: 300;
+      }
+
+      .cls-3 {
+        fill: #888;
+        font-size: 12px;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke: rgba(112,112,112,0);
+      }
+
+      .cls-5 {
+        filter: url(#Rectangle_126-3);
+      }
+
+      .cls-6 {
+        filter: url(#Rectangle_126-2);
+      }
+
+      .cls-7 {
+        filter: url(#Rectangle_126);
+      }
+    </style>
+    <filter id="Rectangle_126" x="11" y="0" width="115" height="72" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_126-2" x="195" y="0" width="115" height="72" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_126-3" x="381" y="0" width="115" height="72" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="capstone-res-1" transform="translate(-370 -262)">
+    <g id="Group_189" data-name="Group 189" transform="translate(0 4)">
+      <g class="cls-7" transform="matrix(1, 0, 0, 1, 370, 258)">
+        <rect id="Rectangle_126-4" data-name="Rectangle 126" class="cls-1" width="109" height="66" rx="2" transform="translate(14 2)"/>
+      </g>
+      <text id="Literature_Review" data-name="Literature Review" class="cls-2" transform="translate(439 288)"><tspan x="-35.191" y="0">Literature </tspan><tspan x="-24.965" y="21">Review</tspan></text>
+      <text id="regarding_library_discovery_services_to_understand_trends_attitudes_and_challenges" data-name="regarding library discovery services to understand trends, attitudes, and challenges" class="cls-3" transform="translate(370 337)"><tspan x="26.119" y="11">regarding library </tspan><tspan x="13.691" y="26">discovery services to </tspan><tspan x="19.381" y="41">understand trends, </tspan><tspan x="3.332" y="56">attitudes, and challenges</tspan></text>
+    </g>
+    <g id="Group_190" data-name="Group 190" transform="translate(186 4)">
+      <g class="cls-6" transform="matrix(1, 0, 0, 1, 184, 258)">
+        <rect id="Rectangle_126-5" data-name="Rectangle 126" class="cls-1" width="109" height="66" rx="2" transform="translate(198 2)"/>
+      </g>
+      <text id="Expert_Interviews" data-name="ExpertInterviews" class="cls-2" transform="translate(437 288)"><tspan x="-22.465" y="0">Expert</tspan><tspan x="-35.844" y="21">Interviews</tspan></text>
+      <text id="with_librarians_working_within_discovery_services_to_validate_assumptions_and_to_understand_pain_points" data-name="with librarians working within discovery services to validate assumptions and to understand pain points" class="cls-3" transform="translate(355 337)"><tspan x="5.454" y="11">with librarians working within </tspan><tspan x="4.912" y="26">discovery services to validate </tspan><tspan x="29.313" y="41">assumptions and to </tspan><tspan x="21.257" y="56">understand pain points</tspan></text>
+    </g>
+    <g id="Group_191" data-name="Group 191" transform="translate(365 4)">
+      <g class="cls-5" transform="matrix(1, 0, 0, 1, 5, 258)">
+        <rect id="Rectangle_126-6" data-name="Rectangle 126" class="cls-1" width="109" height="66" rx="2" transform="translate(384 2)"/>
+      </g>
+      <text id="Exemplar_Collection" data-name="ExemplarCollection" class="cls-2" transform="translate(444 288)"><tspan x="-32.789" y="0">Exemplar</tspan><tspan x="-34.754" y="21">Collection</tspan></text>
+      <text id="to_find_patterns_among_discovery_delivery_solutions" data-name="to find patterns among discovery / delivery solutions" class="cls-3" transform="translate(373 337)"><tspan x="10.679" y="11">to find patterns among </tspan><tspan x="20.215" y="26">discovery / delivery </tspan><tspan x="46.494" y="41">solutions</tspan></text>
+    </g>
+    <line id="Line_91" data-name="Line 91" class="cls-4" x2="27" transform="translate(614.5 420.5)"/>
+  </g>
+</svg>
