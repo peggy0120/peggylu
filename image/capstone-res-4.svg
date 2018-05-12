@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 493 134">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #51a6df;
+      }
+
+      .cls-2 {
+        fill: #f9f9f9;
+        font-size: 16px;
+      }
+
+      .cls-2, .cls-3 {
+        font-family: Roboto-Light, Roboto;
+        font-weight: 300;
+      }
+
+      .cls-3 {
+        fill: #888;
+        font-size: 12px;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke: rgba(112,112,112,0);
+      }
+
+      .cls-5 {
+        filter: url(#Rectangle_126-2);
+      }
+
+      .cls-6 {
+        filter: url(#Rectangle_126);
+      }
+    </style>
+    <filter id="Rectangle_126" x="0" y="0" width="178" height="47" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_126-2" x="266" y="0" width="178" height="47" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="capstone-res-4" transform="translate(-368 -245)">
+    <g id="Group_189" data-name="Group 189" transform="translate(-13 -13)">
+      <g class="cls-6" transform="matrix(1, 0, 0, 1, 381, 258)">
+        <rect id="Rectangle_126-3" data-name="Rectangle 126" class="cls-1" width="172" height="41" rx="2" transform="translate(3 2)"/>
+      </g>
+      <text id="Heuristic_Reviews" data-name="Heuristic Reviews" class="cls-2" transform="translate(451 286)"><tspan x="-62.168" y="0">Heuristic Reviews</tspan></text>
+      <text id="Netflix_Spotify_and_Amazon_were_reviewed_to_understand_what_specific_elements_contributed_to_their_digital_browsing_experience_and_the_pros_and_cons_of_them." data-name="Netflix, Spotify and Amazon were reviewed to understand what specific elements contributed to their digital browsing experience, and the pros and cons of them." class="cls-3" transform="translate(384 311)"><tspan x="0" y="11">Netflix, Spotify and Amazon were </tspan><tspan x="0" y="26">reviewed to understand what </tspan><tspan x="0" y="41">specific elements contributed to </tspan><tspan x="0" y="56">their digital browsing experience, </tspan><tspan x="0" y="71">and the pros and cons of them.</tspan></text>
+    </g>
+    <g id="Group_192" data-name="Group 192" transform="translate(253 -13)">
+      <g class="cls-5" transform="matrix(1, 0, 0, 1, 115, 258)">
+        <rect id="Rectangle_126-4" data-name="Rectangle 126" class="cls-1" width="172" height="41" rx="2" transform="translate(269 2)"/>
+      </g>
+      <text id="Exemplar_Collections" data-name="Exemplar Collections" class="cls-2" transform="translate(465 286)"><tspan x="-73.539" y="0">Exemplar Collections</tspan></text>
+      <text id="Collected_exemplars_of_past_approaches_to_digital_shelf_browsing_to_find_patterns_" data-name="Collected exemplars of past approaches to digital shelf browsing to find patterns " class="cls-3" transform="translate(384 311)"><tspan x="0" y="11">Collected exemplars of past approaches </tspan><tspan x="0" y="26">to digital shelf browsing to find patterns </tspan></text>
+    </g>
+    <line id="Line_91" data-name="Line 91" class="cls-4" x2="27" transform="translate(614.5 378.5)"/>
+  </g>
+</svg>

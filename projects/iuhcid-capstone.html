@@ -223,9 +223,33 @@
                                             <span>Problem Framing</span>Designing for Serendipitous&nbsp;Discoveries Online
                                         </h3>
                                         <div style="">
-                                            <p>Researches has shown that <em>serendipity and browsing are essentially two sides of the same coin</em>. My goal at this stage was to understand how serendipity can be manifested under different situations, especially in a digital environment.</p>
-                                            <p>In addition to deconstruct experiences of serendipitous discovery, I’ve also identified some areas where it is most crucial for said discoveries. They are (1) academic research, (2) creative professions and (3) leisure readings.</p>
-                                            <p><em>The last one with a focus on book discovery online</em> was decided to be the direction going into the next phase due to the inevitable trend of discovery largely happening online, and accessibility of conducting further user researches.</p>
+                                            <p>Early research has shown that <em>serendipity and browsing are essentially two sides of the same coin</em>. My goal at this stage was to understand how serendipity can be manifested under different situations, especially in a digital environment. In order to do so, following researches were conducted.</p>
+                                            <div class="chart" style="max-width: 33em;">
+                                                <object type="image/svg+xml" data="../image/capstone-res-2.svg" onload="importFont(this)"></object>
+                                            </div>
+                                            <p>After creating an affinity diagram of research findings about serendipitous discoveries, it’s clear that <em>we can not engineer serendipity, but some approaches that can facilitate its happening</em> are to: </p>
+
+                                            <div class="chart timeline" style="max-width: 33em;">
+                                                <object type="image/svg+xml" data="../image/capstone_DesgForSerendipity.svg" onload="importFont(this)"></object>
+                                            </div>
+<!--
+                                            <ul>
+                                                <li>entice curiosity and prepare a state of mind to embrace exploration</li>
+                                                <li>visualize relationships between items / concepts</li>
+                                                <li>adding incongruence / randomness</li>
+                                            </ul>
+-->
+                                        </div>
+
+                                        <hr style="max-width: 35em; margin: 2rem -1rem 1rem -1rem;">
+                                        <h3>Identify Pain Points of Book Discovery Experiences</h3>
+                                        <div style="">
+
+                                            <p>In addition to deconstruct experiences of serendipitous discovery, I’ve also identified some areas where it is most crucial for said discoveries. Among them, <em>leisure reading with a focus on book discovery online</em> was decided to be the direction going into the next phase due to the inevitable trend of discovery largely happening online, and accessibility of conducting further user researches.</p>
+
+                                            <div class="chart" style="max-width: 33em;">
+                                                <object type="image/svg+xml" data="../image/capstone-res-3.svg" onload="importFont(this)"></object>
+                                            </div>
 
                                         </div>
                                     </div>
@@ -236,6 +260,9 @@
                                         <div style="">
                                             <p>What are some unique characteristics and experience of browsing physical shelves? How do we compare those to the ones that take place at some digital environment people have grown used to and based their expectation of user experience on?</p>
                                             <p>These were the questions I was trying to find answers for at the time. Moreover, the problem of browsing shelves in a digital environment is not new to the library community. <em>What were some approaches that has been adopted, and how do we improve beyond them?</em></p>
+                                            <div class="chart" style="max-width: 33em;">
+                                                <object type="image/svg+xml" data="../image/capstone-res-4.svg" onload="importFont(this)"></object>
+                                            </div>
 
                                         </div>
                                     </div>
@@ -244,7 +271,13 @@
                                             <span>Prototyping &amp; Evaluation</span>Building an Intuitive &amp; Engaging Digital&nbsp;Browsing&nbsp;Experience
                                         </h3>
                                         <div style="">
-                                            <p></p>
+                                            <p>Based on the insights gathered from previous researches and explorations, some directions I set as principles for myself to follow were:</p>
+                                            <ol>
+                                                <li style="font-weight: 300;">The system should aim to be <em>immersive, explorative, and engaging</em>.</li>
+                                                <li style="font-weight: 300;">The system needs to support moving between collection and individual items as seamless as possible.</li>
+                                                <li style="font-weight: 300;">The system should try incorporating physical characteristics of browsing the stack while capitalize on the affordance of technology
+                                                </li>
+                                            </ol>
 
                                         </div>
                                     </div>
@@ -390,6 +423,35 @@
         });
 
     </script>
+
+    <!--
+    <script type="text/javascript">
+
+        // Testing switching images to videos in SVG
+        // Results: video not shown
+        // Date: 05/12/2018
+
+        var testObj = document.getElementsByTagName('object');
+        var testSVG = testObj[0].contentDocument;
+
+        var testImage = testSVG.getElementById('Video_01');
+        var testImageWidth = testImage.getAttribute('width');
+        var testImageHeight = testImage.getAttribute('height');
+        var testImageTrans = testImage.getAttribute('transform');
+
+        var testVid = document.createElement('video');
+        testImage.parentElement.insertBefore(testVid, testImage);
+
+        testVid.setAttribute('loop', 'loop');
+        testVid.setAttribute('width', testImageWidth);
+        testVid.setAttribute('height', testImageHeight);
+        testVid.setAttribute('transform', testImageTrans);
+        testVid.setAttribute('xlink:href', 'data:image/capstone_video_01.mp4');
+
+        testImage.remove();
+
+    </script>
+-->
 
 </body>
 
