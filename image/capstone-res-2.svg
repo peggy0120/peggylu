@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 507 134">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 506 143">
   <defs>
     <style>
       .cls-1 {
@@ -21,30 +21,26 @@
       }
 
       .cls-4 {
-        font-size: 14px;
-      }
-
-      .cls-5 {
         fill: none;
         stroke: rgba(112,112,112,0);
       }
 
-      .cls-6 {
+      .cls-5 {
         filter: url(#Rectangle_126-2);
       }
 
-      .cls-7 {
+      .cls-6 {
         filter: url(#Rectangle_126);
       }
     </style>
-    <filter id="Rectangle_126" x="0" y="0" width="178" height="47" filterUnits="userSpaceOnUse">
+    <filter id="Rectangle_126" x="60" y="0" width="115" height="72" filterUnits="userSpaceOnUse">
       <feOffset dy="1" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="1" result="blur"/>
       <feFlood flood-opacity="0.161"/>
       <feComposite operator="in" in2="blur"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="Rectangle_126-2" x="266" y="0" width="241" height="47" filterUnits="userSpaceOnUse">
+    <filter id="Rectangle_126-2" x="291" y="0" width="115" height="72" filterUnits="userSpaceOnUse">
       <feOffset dy="1" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="1" result="blur-2"/>
       <feFlood flood-opacity="0.161"/>
@@ -52,21 +48,23 @@
       <feComposite in="SourceGraphic"/>
     </filter>
   </defs>
-  <g id="capstone-res-2" transform="translate(-368 -245)">
+  <g id="capstone-res-2" transform="translate(-372 -242)">
     <g id="Group_189" data-name="Group 189" transform="translate(-13 -13)">
-      <g class="cls-7" transform="matrix(1, 0, 0, 1, 381, 258)">
-        <rect id="Rectangle_126-3" data-name="Rectangle 126" class="cls-1" width="172" height="41" rx="2" transform="translate(3 2)"/>
+      <g class="cls-6" transform="matrix(1, 0, 0, 1, 385, 255)">
+        <rect id="Rectangle_126-3" data-name="Rectangle 126" class="cls-1" width="109" height="66" rx="2" transform="translate(63 2)"/>
       </g>
-      <text id="Literature_Review" data-name="Literature Review" class="cls-2" transform="translate(451 286)"><tspan x="-60.156" y="0">Literature Review</tspan></text>
-      <text id="Reviewed_and_created_affinity_diagram_of_researches_regarding_serendipitous_discovery_to_gather_insights_on_designing_for_serendipity." data-name="Reviewed and created affinity diagram of researches regarding serendipitous discovery to gather insights on designing for serendipity." class="cls-3" transform="translate(384 322)"><tspan x="0" y="0">Reviewed and created affinity </tspan><tspan x="0" y="15">diagram of researches regarding </tspan><tspan x="0" y="30">serendipitous discovery to gather </tspan><tspan x="0" y="45">insights on designing for serendipity.</tspan></text>
+      <text id="Literature_Review" data-name="Literature Review" class="cls-2" transform="translate(502 285)"><tspan x="-35.191" y="0">Literature </tspan><tspan x="-24.965" y="21">Review</tspan></text>
+      <text id="regarding_serendipitous_discovery_to_gather_insights_on_designing_for_serendipity." data-name="regarding serendipitous discovery to gather insights on designing for serendipity." class="cls-3" transform="translate(423 330)"><tspan x="19.263" y="11">regarding serendipitous </tspan><tspan x="0.794" y="26">discovery to gather insights on </tspan><tspan x="15.565" y="41">designing for serendipity.</tspan></text>
     </g>
     <g id="Group_192" data-name="Group 192" transform="translate(253 -13)">
-      <g class="cls-6" transform="matrix(1, 0, 0, 1, 115, 258)">
-        <rect id="Rectangle_126-4" data-name="Rectangle 126" class="cls-1" width="235" height="41" rx="2" transform="translate(269 2)"/>
+      <g class="cls-5" transform="matrix(1, 0, 0, 1, 119, 255)">
+        <rect id="Rectangle_126-4" data-name="Rectangle 126" class="cls-1" width="109" height="66" rx="2" transform="translate(294 2)"/>
       </g>
-      <text id="Contextual_Inquiries_-_1st_Round" data-name="Contextual Inquiries - 1st Round" class="cls-2" transform="translate(501 286)"><tspan x="-106.991" y="0">Contextual Inquiries - </tspan><tspan class="cls-4" y="0">1st Round</tspan></text>
-      <text id="Users_were_asked_to_carry_out_tasks_on_sites_such_as_Netflix_Amazon_and_library_catalog_to_understand_their_journey_of_discovery_in_a_digital_environment." data-name="Users were asked to carry out tasks on sites such as Netflix, Amazon, and library catalog to understand their journey of discovery in a digital environment." class="cls-3" transform="translate(384 311)"><tspan x="0" y="11">Users were asked to carry out tasks on </tspan><tspan x="0" y="26">sites such as Netflix, Amazon, and library </tspan><tspan x="0" y="41">catalog to understand their journey of </tspan><tspan x="0" y="56">discovery in a digital environment.</tspan></text>
+      <text id="Contextual_Inquiries" data-name="Contextual Inquiries" class="cls-2" transform="translate(467 285)"><tspan x="-39.652" y="0">Contextual </tspan><tspan x="-29.84" y="21">Inquiries</tspan></text>
+      <text id="of_users_carrying_out_tasks_on_Netflix_Amazon_and_library_catalog_to_understand_their_journey_of_discovery." data-name="of users carrying out tasks on Netflix, Amazon, and library catalog to understand their journey of discovery." class="cls-3" transform="translate(387 330)"><tspan x="3.258" y="11">of users carrying out tasks on </tspan><tspan x="9.809" y="26">Netflix, Amazon, and library </tspan><tspan x="10.377" y="41">catalog to understand their </tspan><tspan x="27.372" y="56">journey of discovery.</tspan></text>
     </g>
-    <line id="Line_91" data-name="Line 91" class="cls-5" x2="27" transform="translate(614.5 378.5)"/>
+    <line id="Line_91" data-name="Line 91" class="cls-4" x2="27" transform="translate(592.5 384.5)"/>
+    <line id="Line_92" data-name="Line 92" class="cls-4" y2="69" transform="translate(372.5 245.5)"/>
+    <line id="Line_93" data-name="Line 93" class="cls-4" y2="69" transform="translate(877.5 245.5)"/>
   </g>
 </svg>
