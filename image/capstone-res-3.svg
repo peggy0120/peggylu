@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 506 150">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 506 166">
   <defs>
     <style>
       .cls-1 {
@@ -54,7 +54,7 @@
         <rect id="Rectangle_126-3" data-name="Rectangle 126" class="cls-1" width="109" height="66" rx="2" transform="translate(88 2)"/>
       </g>
       <text id="Text_Analysis" data-name="TextAnalysis" class="cls-2" transform="translate(502 285)"><tspan x="-14.984" y="0">Text</tspan><tspan x="-29.164" y="21">Analysis</tspan></text>
-      <text id="Scrapped_reddit_posts_regarding_book_discovery_and_conducted_sentiment_analysis_to_gauge_reader_s_perception_and_behaviors_of_book_discovery_" data-name="Scrapped reddit posts regarding book discovery and conducted sentiment analysis to gauge reader’s perception and behaviors of book discovery " class="cls-3" transform="translate(414 330)"><tspan x="6.217" y="11">Scrapped reddit posts regarding </tspan><tspan x="9.973" y="26">book discovery and conducted </tspan><tspan x="16.441" y="41">sentiment analysis to gauge </tspan><tspan x="1.86" y="56">reader’s perception and behaviors </tspan><tspan x="43.758" y="71">of book discovery </tspan></text>
+      <text id="Conducted_sentiment_analysis_on_reddit_posts_from_r_books_to_gauge_reader_s_perception_and_behaviors_of_book_discovery_" data-name="Conducted sentiment analysis on reddit posts from r/books to gauge reader’s perception and behaviors of book discovery " class="cls-3" transform="translate(414 330)"><tspan x="2.646" y="11">Conducted sentiment analysis on </tspan><tspan x="16.195" y="26">reddit posts from r/books to </tspan><tspan x="11.13" y="41">gauge reader’s perception and </tspan><tspan x="16.764" y="56">behaviors of book discovery </tspan></text>
     </g>
     <g id="Group_192" data-name="Group 192" transform="translate(260 -11)">
       <g class="cls-5" transform="matrix(1, 0, 0, 1, 112, 255)">
@@ -63,7 +63,7 @@
       <text id="Contextual_Inquiries" data-name="Contextual Inquiries" class="cls-2" transform="translate(467 285)"><tspan x="-39.652" y="0">Contextual </tspan><tspan x="-29.84" y="21">Inquiries</tspan></text>
       <text id="of_participants_browsing_physical_stacks_to_discover_something_sparking_their_interests" data-name="of participants browsing physical stacks to discover something sparking their interests" class="cls-3" transform="translate(399 330)"><tspan x="5.347" y="11">of participants browsing </tspan><tspan x="22.104" y="26">physical stacks to </tspan><tspan x="17.446" y="41">discover something </tspan><tspan x="9.161" y="56">sparking their interests</tspan></text>
     </g>
-    <line id="Line_91" data-name="Line 91" class="cls-4" x2="27" transform="translate(592.5 384.5)"/>
+    <line id="Line_91" data-name="Line 91" class="cls-4" x2="27" transform="translate(613.5 409.5)"/>
     <line id="Line_92" data-name="Line 92" class="cls-4" y2="69" transform="translate(372.5 245.5)"/>
     <line id="Line_93" data-name="Line 93" class="cls-4" y2="69" transform="translate(877.5 245.5)"/>
   </g>

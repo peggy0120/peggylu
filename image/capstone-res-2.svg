@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 506 143">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 506 153">
   <defs>
     <style>
       .cls-1 {
@@ -61,9 +61,12 @@
         <rect id="Rectangle_126-4" data-name="Rectangle 126" class="cls-1" width="109" height="66" rx="2" transform="translate(294 2)"/>
       </g>
       <text id="Contextual_Inquiries" data-name="Contextual Inquiries" class="cls-2" transform="translate(467 285)"><tspan x="-39.652" y="0">Contextual </tspan><tspan x="-29.84" y="21">Inquiries</tspan></text>
-      <text id="of_users_carrying_out_tasks_on_Netflix_Amazon_and_library_catalog_to_understand_their_journey_of_discovery." data-name="of users carrying out tasks on Netflix, Amazon, and library catalog to understand their journey of discovery." class="cls-3" transform="translate(387 330)"><tspan x="3.258" y="11">of users carrying out tasks on </tspan><tspan x="9.809" y="26">Netflix, Amazon, and library </tspan><tspan x="10.377" y="41">catalog to understand their </tspan><tspan x="27.372" y="56">journey of discovery.</tspan></text>
+      <text id="of_users_carrying_out_tasks_on_Netflix_Amazon_and_library_catalog_to_understand_their_journey_of_discovery." data-name="of users carrying out tasks on
+Netflix, Amazon, and library
+catalog to understand their
+journey of discovery." class="cls-3" transform="translate(387 330)"><tspan x="3.258" y="11">of users carrying out tasks on </tspan><tspan x="9.809" y="26">Netflix, Amazon, and library </tspan><tspan x="10.377" y="41">catalog to understand their </tspan><tspan x="27.372" y="56">journey of discovery.</tspan></text>
     </g>
-    <line id="Line_91" data-name="Line 91" class="cls-4" x2="27" transform="translate(592.5 384.5)"/>
+    <line id="Line_91" data-name="Line 91" class="cls-4" x2="27" transform="translate(592.5 394.5)"/>
     <line id="Line_92" data-name="Line 92" class="cls-4" y2="69" transform="translate(372.5 245.5)"/>
     <line id="Line_93" data-name="Line 93" class="cls-4" y2="69" transform="translate(877.5 245.5)"/>
   </g>

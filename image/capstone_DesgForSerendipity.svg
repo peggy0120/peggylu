@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 486 150">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 489 149">
   <defs>
     <style>
-      .cls-1, .cls-10, .cls-8 {
+      .cls-1, .cls-6, .cls-8 {
         fill: none;
       }
 
@@ -9,67 +9,64 @@
         stroke: #33b599;
       }
 
-      .cls-2, .cls-4, .cls-6 {
+      .cls-2, .cls-3 {
         fill: #33b599;
       }
 
-      .cls-2, .cls-7 {
-        font-size: 15px;
+      .cls-2 {
+        font-size: 14px;
       }
 
-      .cls-2, .cls-3, .cls-5, .cls-6 {
+      .cls-2, .cls-4, .cls-5 {
         font-family: Roboto-Light, Roboto;
         font-weight: 300;
       }
 
-      .cls-3 {
+      .cls-4 {
+        fill: #f9f9f9;
+        font-size: 16px;
+      }
+
+      .cls-5 {
         fill: #888;
         font-size: 12px;
       }
 
-      .cls-5 {
-        fill: #f9f9f9;
-      }
-
-      .cls-5, .cls-6 {
-        font-size: 16px;
-      }
-
-      .cls-8 {
+      .cls-6 {
         stroke: rgba(112,112,112,0);
       }
 
-      .cls-9 {
+      .cls-7 {
         stroke: none;
       }
 
-      .cls-11 {
+      .cls-9 {
         filter: url(#Rectangle_123);
       }
 
-      .cls-12 {
+      .cls-10 {
         filter: url(#Rectangle_124);
       }
 
-      .cls-13 {
+      .cls-11 {
         filter: url(#Rectangle_125);
       }
     </style>
-    <filter id="Rectangle_125" x="25" y="22" width="72" height="36" filterUnits="userSpaceOnUse">
+    <filter id="Rectangle_125" x="26" y="24" width="72" height="34" filterUnits="userSpaceOnUse">
       <feOffset dy="1" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="1" result="blur"/>
       <feFlood flood-opacity="0.161"/>
       <feComposite operator="in" in2="blur"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="Rectangle_124" x="203" y="22" width="72" height="36" filterUnits="userSpaceOnUse">
+    <filter id="Rectangle_124" x="210" y="24" width="72" height="34" filterUnits="userSpaceOnUse">
       <feOffset dy="1" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="1" result="blur-2"/>
       <feFlood flood-opacity="0.161"/>
       <feComposite operator="in" in2="blur-2"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="Rectangle_123" x="386" y="23" width="72" height="36" filterUnits="userSpaceOnUse">
+    <filter id="Rectangle_123" x="391" y="25" width="72" height="34" filterUnits="userSpaceOnUse">
       <feOffset dy="1" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="1" result="blur-3"/>
       <feFlood flood-opacity="0.161"/>
@@ -77,42 +74,44 @@
       <feComposite in="SourceGraphic"/>
     </filter>
   </defs>
-  <g id="capstone_DesgForSerendipity" transform="translate(-387 -215)">
+  <g id="capstone_DesgForSerendipity" transform="translate(-382 -215)">
     <g id="prop-1" transform="translate(0 4)">
-      <g id="Ellipse_26" data-name="Ellipse 26" class="cls-1" transform="translate(388 241)">
-        <circle class="cls-9" cx="59.5" cy="59.5" r="59.5"/>
-        <circle class="cls-10" cx="59.5" cy="59.5" r="60"/>
+      <g id="Rectangle_128" data-name="Rectangle 128" class="cls-1" transform="translate(382 255)">
+        <rect class="cls-7" width="124" height="76" rx="3"/>
+        <rect class="cls-8" x="0.5" y="0.5" width="123" height="75" rx="2.5"/>
       </g>
-      <text id="Entice_Curiosity" data-name="Entice Curiosity" class="cls-2" transform="translate(394 280)"><tspan x="3.115" y="14">Entice Curiosity</tspan></text>
-      <text id="_prepare_a_state_of_mind_for_exploration" data-name="&amp; prepare a state of mind for exploration" class="cls-3" transform="translate(402 299)"><tspan x="1.521" y="11">&amp; prepare a state </tspan><tspan x="17.078" y="26">of mind for </tspan><tspan x="16.908" y="41">exploration</tspan></text>
-      <g class="cls-13" transform="matrix(1, 0, 0, 1, 387, 211)">
-        <rect id="Rectangle_125-2" data-name="Rectangle 125" class="cls-4" width="66" height="30" rx="2" transform="translate(28 24)"/>
+      <text id="Entice_Curiosity" data-name="Entice Curiosity" class="cls-2" transform="translate(444 288)"><tspan x="-47.493" y="0">Entice Curiosity</tspan></text>
+      <g class="cls-11" transform="matrix(1, 0, 0, 1, 382, 211)">
+        <rect id="Rectangle_125-2" data-name="Rectangle 125" class="cls-3" width="66" height="28" rx="2" transform="translate(29 26)"/>
       </g>
-      <text id="_1" data-name="# 1" class="cls-5" transform="translate(448 256)"><tspan x="-11.031" y="0"># 1</tspan></text>
+      <text id="_1" data-name="# 1" class="cls-4" transform="translate(444 257)"><tspan x="-11.031" y="0"># 1</tspan></text>
+      <text id="_prepare_a_state_of_mind_for_exploration" data-name="&amp; prepare a state of mind for exploration" class="cls-5" transform="translate(389 296)"><tspan x="4.716" y="11">&amp; prepare a state of </tspan><tspan x="3.333" y="23">mind for exploration</tspan></text>
     </g>
-    <g id="prop-2" transform="translate(33 4)">
-      <g id="Ellipse_27" data-name="Ellipse 27" class="cls-1" transform="translate(534 241)">
-        <circle class="cls-9" cx="59.5" cy="59.5" r="59.5"/>
-        <circle class="cls-10" cx="59.5" cy="59.5" r="60"/>
+    <g id="prop-2" transform="translate(35 4)">
+      <g id="Rectangle_129" data-name="Rectangle 129" class="cls-1" transform="translate(532 255)">
+        <rect class="cls-7" width="124" height="76" rx="3"/>
+        <rect class="cls-8" x="0.5" y="0.5" width="123" height="75" rx="2.5"/>
       </g>
-      <text id="Visualize_Relationships_" data-name="Visualize Relationships " class="cls-6" transform="translate(541 275)"><tspan x="21.996" y="15">Visualize </tspan><tspan x="5.754" y="36">Relationships </tspan></text>
-      <text id="between_items" data-name="between items" class="cls-3" transform="translate(549 317)"><tspan x="7.442" y="11">between items</tspan></text>
-      <g class="cls-12" transform="matrix(1, 0, 0, 1, 354, 211)">
-        <rect id="Rectangle_124-2" data-name="Rectangle 124" class="cls-4" width="66" height="30" rx="2" transform="translate(206 24)"/>
+      <text id="Visualize_Relationships_" data-name="Visualize Relationships " class="cls-2" transform="translate(594 286)"><tspan x="-28.831" y="0">Visualize </tspan><tspan x="-43.042" y="17">Relationships </tspan></text>
+      <g class="cls-10" transform="matrix(1, 0, 0, 1, 347, 211)">
+        <rect id="Rectangle_124-2" data-name="Rectangle 124" class="cls-3" width="66" height="28" rx="2" transform="translate(213 26)"/>
       </g>
-      <text id="_2" data-name="# 2" class="cls-5" transform="translate(593 256)"><tspan x="-11.031" y="0"># 2</tspan></text>
+      <text id="_2" data-name="# 2" class="cls-4" transform="translate(593 257)"><tspan x="-11.031" y="0"># 2</tspan></text>
+      <text id="between_items" data-name="between items" class="cls-5" transform="translate(548 309)"><tspan x="7.442" y="11">between items</tspan></text>
     </g>
     <g id="prop-3" transform="translate(9 4)">
-      <g id="Ellipse_28" data-name="Ellipse 28" class="cls-1" transform="translate(740 241)">
-        <circle class="cls-9" cx="59.5" cy="59.5" r="59.5"/>
-        <circle class="cls-10" cx="59.5" cy="59.5" r="60"/>
+      <g id="Rectangle_130" data-name="Rectangle 130" class="cls-1" transform="translate(738 255)">
+        <rect class="cls-7" width="124" height="79" rx="3"/>
+        <rect class="cls-8" x="0.5" y="0.5" width="123" height="78" rx="2.5"/>
       </g>
-      <text id="Add_Incongruence_Randomness" data-name="Add Incongruence / Randomness" class="cls-6" transform="translate(736 273)"><tspan x="50.113" y="15">Add</tspan><tspan x="12.285" y="36" xml:space="preserve"> I</tspan><tspan class="cls-7" y="36">ncongruence / </tspan><tspan class="cls-7" x="20.498" y="57">Randomness</tspan></text>
-      <g class="cls-11" transform="matrix(1, 0, 0, 1, 378, 211)">
-        <rect id="Rectangle_123-2" data-name="Rectangle 123" class="cls-4" width="66" height="30" rx="2" transform="translate(389 25)"/>
+      <text id="Add_Incongruence_Randomness" data-name="Add
+ Incongruence / Randomness" class="cls-2" transform="translate(800 287)"><tspan x="-12.151" y="0">Add</tspan><tspan x="-49.731" y="17" xml:space="preserve"> Incongruence / </tspan><tspan x="-40.602" y="34">Randomness</tspan></text>
+      <g class="cls-9" transform="matrix(1, 0, 0, 1, 373, 211)">
+        <rect id="Rectangle_123-2" data-name="Rectangle 123" class="cls-3" width="66" height="28" rx="2" transform="translate(394 27)"/>
       </g>
-      <text id="_3" data-name="# 3" class="cls-5" transform="translate(800 256)"><tspan x="-11.031" y="0"># 3</tspan></text>
+      <text id="_3" data-name="# 3" class="cls-4" transform="translate(800 257)"><tspan x="-11.031" y="0"># 3</tspan></text>
     </g>
-    <line id="Line_89" data-name="Line 89" class="cls-8" x2="27" transform="translate(614.5 215.5)"/>
+    <line id="Line_89" data-name="Line 89" class="cls-6" x2="27" transform="translate(614.5 215.5)"/>
+    <line id="Line_94" data-name="Line 94" class="cls-6" x2="27" transform="translate(614.5 363.5)"/>
   </g>
 </svg>

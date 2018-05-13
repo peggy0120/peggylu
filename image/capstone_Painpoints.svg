@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 484 150">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 486 181">
   <defs>
     <style>
-      .cls-1, .cls-7, .cls-9 {
+      .cls-1, .cls-6, .cls-8 {
         fill: none;
       }
 
@@ -9,12 +9,12 @@
         stroke: #fac339;
       }
 
-      .cls-2, .cls-3, .cls-5 {
+      .cls-2, .cls-3 {
         fill: #fac339;
       }
 
       .cls-2 {
-        font-size: 15px;
+        font-size: 14px;
       }
 
       .cls-2, .cls-4, .cls-5 {
@@ -24,52 +24,49 @@
 
       .cls-4 {
         fill: #f9f9f9;
-      }
-
-      .cls-4, .cls-5 {
         font-size: 16px;
       }
 
-      .cls-6 {
+      .cls-5 {
         fill: #888;
-        font-size: 13px;
+        font-size: 12px;
       }
 
-      .cls-7 {
+      .cls-6 {
         stroke: rgba(112,112,112,0);
       }
 
-      .cls-8 {
+      .cls-7 {
         stroke: none;
       }
 
-      .cls-10 {
-        filter: url(#Rectangle_125);
+      .cls-9 {
+        filter: url(#Rectangle_123);
       }
 
-      .cls-11 {
+      .cls-10 {
         filter: url(#Rectangle_124);
       }
 
-      .cls-12 {
-        filter: url(#Rectangle_123);
+      .cls-11 {
+        filter: url(#Rectangle_125);
       }
     </style>
-    <filter id="Rectangle_123" x="25" y="22" width="72" height="36" filterUnits="userSpaceOnUse">
+    <filter id="Rectangle_125" x="26" y="24" width="72" height="34" filterUnits="userSpaceOnUse">
       <feOffset dy="1" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="1" result="blur"/>
       <feFlood flood-opacity="0.161"/>
       <feComposite operator="in" in2="blur"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="Rectangle_124" x="205" y="22" width="72" height="36" filterUnits="userSpaceOnUse">
+    <filter id="Rectangle_124" x="207" y="24" width="72" height="34" filterUnits="userSpaceOnUse">
       <feOffset dy="1" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="1" result="blur-2"/>
       <feFlood flood-opacity="0.161"/>
       <feComposite operator="in" in2="blur-2"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="Rectangle_125" x="388" y="22" width="72" height="36" filterUnits="userSpaceOnUse">
+    <filter id="Rectangle_123" x="388" y="25" width="72" height="34" filterUnits="userSpaceOnUse">
       <feOffset dy="1" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="1" result="blur-3"/>
       <feFlood flood-opacity="0.161"/>
@@ -78,39 +75,42 @@
     </filter>
   </defs>
   <g id="capstone_Painpoints" transform="translate(-385 -215)">
-    <g id="prop-1" transform="translate(-354 3)">
-      <g id="Ellipse_28" data-name="Ellipse 28" class="cls-1" transform="translate(740 241)">
-        <circle class="cls-8" cx="59.5" cy="59.5" r="59.5"/>
-        <circle class="cls-9" cx="59.5" cy="59.5" r="60"/>
+    <g id="prop-1" transform="translate(0 4)">
+      <g id="Rectangle_128" data-name="Rectangle 128" class="cls-1" transform="translate(385 255)">
+        <rect class="cls-7" width="124" height="97" rx="3"/>
+        <rect class="cls-8" x="0.5" y="0.5" width="123" height="96" rx="2.5"/>
       </g>
-      <text id="Lack_of_Immersion_among_the_stacks" data-name="Lack of Immersion among the stacks" class="cls-2" transform="translate(745 272)"><tspan x="30.988" y="14">Lack of </tspan><tspan x="19.514" y="32.75">Immersion </tspan><tspan x="19.631" y="51.5">among the </tspan><tspan x="33.441" y="70.25">stacks</tspan></text>
-      <g class="cls-12" transform="matrix(1, 0, 0, 1, 739, 212)">
-        <rect id="Rectangle_123-2" data-name="Rectangle 123" class="cls-3" width="66" height="30" rx="2" transform="translate(28 24)"/>
+      <text id="Lack_of_Immersion_among_the_stacks" data-name="Lack of Immersion among the
+stacks" class="cls-2" transform="translate(398 273)"><tspan x="26.588" y="13">Lack of </tspan><tspan x="15.88" y="30">Immersion </tspan><tspan x="15.989" y="47">among the </tspan><tspan x="28.878" y="64">stacks</tspan></text>
+      <g class="cls-11" transform="matrix(1, 0, 0, 1, 385, 211)">
+        <rect id="Rectangle_125-2" data-name="Rectangle 125" class="cls-3" width="66" height="28" rx="2" transform="translate(29 26)"/>
       </g>
-      <text id="_1" data-name="# 1" class="cls-4" transform="translate(800 256)"><tspan x="-11.031" y="0"># 1</tspan></text>
+      <text id="_1" data-name="# 1" class="cls-4" transform="translate(447 257)"><tspan x="-11.031" y="0"># 1</tspan></text>
     </g>
-    <g id="prop-2" transform="translate(33 4)">
-      <g id="Ellipse_27" data-name="Ellipse 27" class="cls-1" transform="translate(534 241)">
-        <circle class="cls-8" cx="59.5" cy="59.5" r="59.5"/>
-        <circle class="cls-9" cx="59.5" cy="59.5" r="60"/>
+    <g id="prop-2" transform="translate(35 4)">
+      <g id="Rectangle_129" data-name="Rectangle 129" class="cls-1" transform="translate(532 255)">
+        <rect class="cls-7" width="124" height="97" rx="3"/>
+        <rect class="cls-8" x="0.5" y="0.5" width="123" height="96" rx="2.5"/>
       </g>
-      <text id="Lost_of_Tangible_Properties" data-name="Lost of Tangible Properties" class="cls-5" transform="translate(541 275)"><tspan x="26.664" y="15">Lost of </tspan><tspan x="23.395" y="36">Tangible </tspan><tspan x="16.98" y="57">Properties</tspan></text>
-      <g class="cls-11" transform="matrix(1, 0, 0, 1, 352, 211)">
-        <rect id="Rectangle_124-2" data-name="Rectangle 124" class="cls-3" width="66" height="30" rx="2" transform="translate(208 24)"/>
+      <text id="Lost_of_Tangible_Properties" data-name="Lost of Tangible Properties" class="cls-2" transform="translate(594 291)"><tspan x="-23.044" y="0">Lost of </tspan><tspan x="-27.607" y="17">Tangible </tspan><tspan x="-31.517" y="34">Properties</tspan></text>
+      <g class="cls-10" transform="matrix(1, 0, 0, 1, 350, 211)">
+        <rect id="Rectangle_124-2" data-name="Rectangle 124" class="cls-3" width="66" height="28" rx="2" transform="translate(210 26)"/>
       </g>
-      <text id="_2" data-name="# 2" class="cls-4" transform="translate(593 256)"><tspan x="-11.031" y="0"># 2</tspan></text>
+      <text id="_2" data-name="# 2" class="cls-4" transform="translate(593 257)"><tspan x="-11.031" y="0"># 2</tspan></text>
     </g>
-    <g id="prop-3" transform="translate(361 4)">
-      <g id="Ellipse_26" data-name="Ellipse 26" class="cls-1" transform="translate(388 241)">
-        <circle class="cls-8" cx="59.5" cy="59.5" r="59.5"/>
-        <circle class="cls-9" cx="59.5" cy="59.5" r="60"/>
+    <g id="prop-3" transform="translate(9 4)">
+      <g id="Rectangle_130" data-name="Rectangle 130" class="cls-1" transform="translate(738 255)">
+        <rect class="cls-7" width="124" height="97" rx="3"/>
+        <rect class="cls-8" x="0.5" y="0.5" width="123" height="96" rx="2.5"/>
       </g>
-      <text id="Lack_of_transparency_in_why_results_were_presented" data-name="Lack of transparency in why results were presented" class="cls-2" transform="translate(394 272)"><tspan x="29.988" y="14">Lack of </tspan><tspan x="11.23" y="30">transparency </tspan><tspan class="cls-6"><tspan x="15.073" y="46">in why results </tspan><tspan x="10.312" y="62">were presented</tspan></tspan></text>
-      <g class="cls-10" transform="matrix(1, 0, 0, 1, 24, 211)">
-        <rect id="Rectangle_125-2" data-name="Rectangle 125" class="cls-3" width="66" height="30" rx="2" transform="translate(391 24)"/>
+      <text id="Lack_of_Transparency" data-name="Lack of Transparency" class="cls-2" transform="translate(751 275)"><tspan x="24.886" y="13">Lack of </tspan><tspan x="7.407" y="30">Transparency</tspan></text>
+      <g class="cls-9" transform="matrix(1, 0, 0, 1, 376, 211)">
+        <rect id="Rectangle_123-2" data-name="Rectangle 123" class="cls-3" width="66" height="28" rx="2" transform="translate(391 27)"/>
       </g>
-      <text id="_3" data-name="# 3" class="cls-4" transform="translate(448 256)"><tspan x="-11.031" y="0"># 3</tspan></text>
+      <text id="_3" data-name="# 3" class="cls-4" transform="translate(800 257)"><tspan x="-11.031" y="0"># 3</tspan></text>
+      <text id="in_why_results_were_presented" data-name="in why results were presented" class="cls-5" transform="translate(800 322)"><tspan x="-37.392" y="0">in why results </tspan><tspan x="-40.327" y="16">were presented</tspan></text>
     </g>
-    <line id="Line_89" data-name="Line 89" class="cls-7" x2="27" transform="translate(614.5 215.5)"/>
+    <line id="Line_89" data-name="Line 89" class="cls-6" x2="27" transform="translate(614.5 215.5)"/>
+    <line id="Line_94" data-name="Line 94" class="cls-6" x2="27" transform="translate(614.5 395.5)"/>
   </g>
 </svg>

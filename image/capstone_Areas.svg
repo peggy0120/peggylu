@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 479 149">
+  <defs>
+    <style>
+      .cls-1, .cls-11, .cls-5, .cls-9 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #33b599;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #33b599;
+      }
+
+      .cls-2, .cls-6 {
+        font-size: 14px;
+      }
+
+      .cls-2, .cls-4 {
+        font-family: Roboto-Light, Roboto;
+        font-weight: 300;
+      }
+
+      .cls-4, .cls-8 {
+        fill: #f9f9f9;
+        font-size: 16px;
+      }
+
+      .cls-5 {
+        stroke: #fac339;
+        stroke-width: 1.5px;
+      }
+
+      .cls-6, .cls-7 {
+        fill: #fac339;
+      }
+
+      .cls-6, .cls-8 {
+        font-family: Roboto-Regular, Roboto;
+      }
+
+      .cls-9 {
+        stroke: rgba(112,112,112,0);
+      }
+
+      .cls-10 {
+        stroke: none;
+      }
+
+      .cls-12 {
+        filter: url(#Rectangle_123);
+      }
+
+      .cls-13 {
+        filter: url(#Rectangle_124);
+      }
+
+      .cls-14 {
+        filter: url(#Rectangle_125);
+      }
+    </style>
+    <filter id="Rectangle_125" x="21" y="24" width="72" height="34" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_124" x="205" y="24" width="72" height="34" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_123" x="386" y="25" width="72" height="34" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="capstone_Areas" transform="translate(-387 -215)">
+    <g id="prop-1" transform="translate(0 4)">
+      <g id="Rectangle_128" data-name="Rectangle 128" class="cls-1" transform="translate(387 255)">
+        <rect class="cls-10" width="114" height="72" rx="3"/>
+        <rect class="cls-11" x="0.5" y="0.5" width="113" height="71" rx="2.5"/>
+      </g>
+      <text id="Academic_Researches" data-name="AcademicResearches" class="cls-2" transform="translate(444 288)"><tspan x="-30.611" y="0">Academic</tspan><tspan x="-35.868" y="21">Researches</tspan></text>
+      <g class="cls-14" transform="matrix(1, 0, 0, 1, 387, 211)">
+        <rect id="Rectangle_125-2" data-name="Rectangle 125" class="cls-3" width="66" height="28" rx="2" transform="translate(24 26)"/>
+      </g>
+      <text id="_1" data-name="# 1" class="cls-4" transform="translate(444 257)"><tspan x="-11.031" y="0"># 1</tspan></text>
+    </g>
+    <g id="prop-2" transform="translate(35 4)">
+      <g id="Rectangle_129" data-name="Rectangle 129" class="cls-1" transform="translate(537 255)">
+        <rect class="cls-10" width="114" height="73" rx="3"/>
+        <rect class="cls-11" x="0.5" y="0.5" width="113" height="72" rx="2.5"/>
+      </g>
+      <text id="Creative_Professions" data-name="CreativeProfessions" class="cls-2" transform="translate(594 288)"><tspan x="-24.958" y="0">Creative</tspan><tspan x="-36.336" y="21">Professions</tspan></text>
+      <g class="cls-13" transform="matrix(1, 0, 0, 1, 352, 211)">
+        <rect id="Rectangle_124-2" data-name="Rectangle 124" class="cls-3" width="66" height="28" rx="2" transform="translate(208 26)"/>
+      </g>
+      <text id="_2" data-name="# 2" class="cls-4" transform="translate(593 257)"><tspan x="-11.031" y="0"># 2</tspan></text>
+    </g>
+    <g id="prop-3" transform="translate(9 4)">
+      <g id="Rectangle_130" data-name="Rectangle 130" class="cls-5" transform="translate(743 255)">
+        <rect class="cls-10" width="114" height="72" rx="3"/>
+        <rect class="cls-11" x="0.75" y="0.75" width="112.5" height="70.5" rx="2.25"/>
+      </g>
+      <text id="Leisure_Reading" data-name="Leisure
+Reading" class="cls-6" transform="translate(800 288)"><tspan x="-22.928" y="0">Leisure</tspan><tspan x="-25.789" y="21">Reading</tspan></text>
+      <g class="cls-12" transform="matrix(1, 0, 0, 1, 378, 211)">
+        <rect id="Rectangle_123-2" data-name="Rectangle 123" class="cls-7" width="66" height="28" rx="2" transform="translate(389 27)"/>
+      </g>
+      <text id="_3" data-name="# 3" class="cls-8" transform="translate(800 257)"><tspan x="-11.453" y="0"># 3</tspan></text>
+    </g>
+    <line id="Line_89" data-name="Line 89" class="cls-9" x2="27" transform="translate(614.5 215.5)"/>
+    <line id="Line_94" data-name="Line 94" class="cls-9" x2="27" transform="translate(614.5 363.5)"/>
+  </g>
+</svg>
