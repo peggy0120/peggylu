@@ -1,23 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 627.052 1359.838">
   <defs>
     <style>
-      .cls-1, .cls-2, .cls-4, .cls-57, .cls-65, .cls-7 {
+      .cls-1, .cls-2, .cls-4, .cls-58, .cls-66, .cls-7 {
         fill: #fff;
       }
 
-      .cls-1, .cls-11, .cls-13, .cls-15, .cls-2, .cls-27, .cls-32, .cls-33, .cls-6, .cls-62, .cls-63, .cls-7, .cls-8 {
+      .cls-1, .cls-11, .cls-13, .cls-15, .cls-2, .cls-28, .cls-33, .cls-34, .cls-6, .cls-63, .cls-64, .cls-7, .cls-8 {
         stroke: #707070;
       }
 
-      .cls-15, .cls-2, .cls-27, .cls-32, .cls-33, .cls-46, .cls-52, .cls-53, .cls-54, .cls-59 {
+      .cls-15, .cls-2, .cls-28, .cls-33, .cls-34, .cls-47, .cls-53, .cls-54, .cls-55, .cls-60 {
         stroke-width: 0.2px;
       }
 
-      .cls-3, .cls-53 {
+      .cls-3, .cls-54 {
         fill: #0d3248;
       }
 
-      .cls-21, .cls-27, .cls-5, .cls-52, .cls-59, .cls-6, .cls-98 {
+      .cls-22, .cls-28, .cls-5, .cls-53, .cls-6, .cls-60, .cls-98 {
         fill: none;
       }
 
@@ -30,7 +30,7 @@
         stroke-width: 0.5px;
       }
 
-      .cls-11, .cls-13, .cls-15, .cls-23, .cls-45, .cls-54, .cls-79, .cls-8 {
+      .cls-11, .cls-13, .cls-15, .cls-24, .cls-46, .cls-55, .cls-79, .cls-8 {
         fill: #ddd;
       }
 
@@ -38,11 +38,11 @@
         fill: #eee;
       }
 
-      .cls-45, .cls-58, .cls-9 {
+      .cls-46, .cls-59, .cls-9 {
         opacity: 0.8;
       }
 
-      .cls-10, .cls-33, .cls-89, .cls-90 {
+      .cls-10, .cls-34, .cls-89, .cls-90 {
         fill: #aaa;
       }
 
@@ -50,11 +50,11 @@
         stroke-width: 0.3px;
       }
 
-      .cls-12, .cls-16, .cls-28, .cls-29, .cls-30, .cls-31, .cls-34, .cls-36, .cls-38, .cls-40, .cls-41, .cls-42, .cls-43, .cls-47, .cls-49, .cls-50, .cls-51, .cls-56, .cls-58, .cls-62, .cls-63, .cls-66, .cls-67, .cls-78, .cls-84, .cls-88, .cls-95, .cls-99 {
+      .cls-12, .cls-16, .cls-29, .cls-30, .cls-31, .cls-32, .cls-35, .cls-37, .cls-39, .cls-41, .cls-42, .cls-43, .cls-44, .cls-48, .cls-50, .cls-51, .cls-52, .cls-57, .cls-59, .cls-63, .cls-64, .cls-67, .cls-68, .cls-78, .cls-84, .cls-88, .cls-95, .cls-99 {
         fill: #707070;
       }
 
-      .cls-12, .cls-25, .cls-29, .cls-30, .cls-31, .cls-34, .cls-37, .cls-39, .cls-62, .cls-63, .cls-76 {
+      .cls-12, .cls-26, .cls-30, .cls-31, .cls-32, .cls-35, .cls-38, .cls-40, .cls-63, .cls-64, .cls-76 {
         font-size: 2px;
       }
 
@@ -66,19 +66,19 @@
         stroke-width: 0.25px;
       }
 
-      .cls-14, .cls-25, .cls-68, .cls-76, .cls-83, .cls-92 {
+      .cls-14, .cls-26, .cls-69, .cls-76, .cls-83, .cls-92 {
         fill: #333;
       }
 
-      .cls-14, .cls-48, .cls-57, .cls-92 {
+      .cls-14, .cls-49, .cls-58, .cls-92 {
         font-size: 4px;
       }
 
-      .cls-14, .cls-25, .cls-31, .cls-37, .cls-39, .cls-47, .cls-48, .cls-50, .cls-60, .cls-63, .cls-64, .cls-67, .cls-68, .cls-77, .cls-78, .cls-94, .cls-96 {
+      .cls-14, .cls-26, .cls-32, .cls-38, .cls-40, .cls-48, .cls-49, .cls-51, .cls-61, .cls-64, .cls-65, .cls-68, .cls-69, .cls-77, .cls-78, .cls-94, .cls-96 {
         font-family: Roboto-Regular, Roboto;
       }
 
-      .cls-16, .cls-28, .cls-38, .cls-50, .cls-51, .cls-58, .cls-66, .cls-88, .cls-94 {
+      .cls-16, .cls-29, .cls-39, .cls-51, .cls-52, .cls-59, .cls-67, .cls-88, .cls-94 {
         font-size: 3px;
       }
 
@@ -91,15 +91,15 @@
         font-size: 12px;
       }
 
-      .cls-18, .cls-19, .cls-20, .cls-30, .cls-36, .cls-51, .cls-83, .cls-84, .cls-90 {
+      .cls-18, .cls-19, .cls-20, .cls-31, .cls-37, .cls-52, .cls-83, .cls-84, .cls-90 {
         font-family: Roboto-Light, Roboto;
       }
 
-      .cls-18, .cls-19, .cls-20, .cls-30, .cls-36, .cls-51, .cls-57, .cls-83, .cls-84, .cls-90 {
+      .cls-18, .cls-19, .cls-20, .cls-31, .cls-37, .cls-52, .cls-58, .cls-83, .cls-84, .cls-90 {
         font-weight: 300;
       }
 
-      .cls-19, .cls-70 {
+      .cls-19, .cls-21 {
         fill: #33b599;
       }
 
@@ -112,92 +112,92 @@
         font-size: 14px;
       }
 
-      .cls-21 {
+      .cls-22 {
         stroke: #aaa;
       }
 
-      .cls-22 {
+      .cls-23 {
         fill: #fafafa;
       }
 
-      .cls-24, .cls-32, .cls-46, .cls-61 {
+      .cls-25, .cls-33, .cls-47, .cls-62 {
         fill: #e8f8fd;
       }
 
-      .cls-26 {
+      .cls-27 {
         fill: #0cc4fd;
       }
 
-      .cls-28, .cls-34, .cls-40, .cls-76, .cls-92 {
+      .cls-29, .cls-35, .cls-41, .cls-76, .cls-92 {
         font-family: Roboto-Medium, Roboto;
         font-weight: 500;
       }
 
-      .cls-29, .cls-38, .cls-41, .cls-42, .cls-43, .cls-49, .cls-58, .cls-62, .cls-66, .cls-89 {
+      .cls-30, .cls-39, .cls-42, .cls-43, .cls-44, .cls-50, .cls-59, .cls-63, .cls-67, .cls-89 {
         font-family: FontAwesome5FreeSolid, "Font Awesome 5 Free Solid";
       }
 
-      .cls-35 {
+      .cls-36 {
         fill: #f2f2f2;
       }
 
-      .cls-36, .cls-64, .cls-67, .cls-68, .cls-83, .cls-89, .cls-90 {
+      .cls-37, .cls-65, .cls-68, .cls-69, .cls-83, .cls-89, .cls-90 {
         font-size: 1px;
       }
 
-      .cls-37, .cls-39, .cls-48, .cls-60, .cls-64, .cls-77, .cls-94 {
+      .cls-38, .cls-40, .cls-49, .cls-61, .cls-65, .cls-77, .cls-94 {
         fill: #09f;
       }
 
-      .cls-39, .cls-64 {
+      .cls-40, .cls-65 {
         text-decoration: underline;
       }
 
-      .cls-40, .cls-41, .cls-47, .cls-49, .cls-60, .cls-95 {
+      .cls-41, .cls-42, .cls-48, .cls-50, .cls-61, .cls-95 {
         font-size: 5px;
       }
 
-      .cls-42 {
+      .cls-43 {
         font-size: 7px;
       }
 
-      .cls-43 {
+      .cls-44 {
         font-size: 6px;
       }
 
-      .cls-44 {
+      .cls-45 {
         opacity: 0.7;
       }
 
-      .cls-46, .cls-52, .cls-53, .cls-54, .cls-61, .cls-79 {
+      .cls-47, .cls-53, .cls-54, .cls-55, .cls-62, .cls-79 {
         stroke: #fff;
       }
 
-      .cls-49, .cls-62, .cls-66 {
+      .cls-50, .cls-63, .cls-67 {
         opacity: 0.5;
       }
 
-      .cls-55 {
+      .cls-56 {
         fill: url(#pattern);
       }
 
-      .cls-57 {
+      .cls-58 {
         font-family: RobotoCondensed-Light, Roboto;
       }
 
-      .cls-59 {
+      .cls-60 {
         stroke: #ddd;
       }
 
-      .cls-61, .cls-79 {
+      .cls-62, .cls-79 {
         stroke-width: 2px;
       }
 
-      .cls-65 {
+      .cls-66 {
         opacity: 0.9;
       }
 
-      .cls-69 {
+      .cls-70 {
         fill: url(#pattern-2);
       }
 
@@ -978,11 +978,11 @@
           <text id="Sketching" class="cls-18" transform="translate(412 449)"><tspan x="-25.813" y="0">Sketching</tspan></text>
         </g>
         <text id="Exploring_Different_Layouts" data-name="Exploring Different Layouts" class="cls-19" transform="translate(720 505)"><tspan x="0" y="0">Exploring Different Layouts</tspan></text>
-        <text id="Early_evaluation_sessions_of_sketches_showed_that_out_of_multiple_ways_of_presenting_a_collection_book_spine_was_most_preferred_for_it_actually_entails_adequate_amount_of_information_for_users_to_decide_if_it_sparks_enough_interest_to_further_examine_the_" data-name="Early evaluation sessions of sketches showed that out of multiple ways of presenting a collection, book spine was most preferred for it actually entails adequate amount of information for users to decide if it sparks enough interest to further examine the " class="cls-20" transform="translate(720 521)"><tspan x="0" y="13">Early evaluation sessions of sketches showed </tspan><tspan x="0" y="34">that out of multiple ways of presenting a </tspan><tspan x="0" y="55">collection, book spine was most preferred for it </tspan><tspan x="0" y="76">actually entails adequate amount of </tspan><tspan x="0" y="97">information for users to decide if it sparks </tspan><tspan x="0" y="118">enough interest to further examine the item </tspan><tspan x="0" y="139">without overwhelming them visually as cover </tspan><tspan x="0" y="160">images frequently do.</tspan></text>
+        <text id="Early_evaluation_sessions_of_sketches_showed_that_out_of_multiple_ways_of_presenting_a_collection_book_spine_was_most_preferred_for_it_actually_entails_adequate_amount_of_information_for_users_to_decide_if_it_sparks_enough_interest_to_further_examine_the_" data-name="Early evaluation sessions of sketches showed that out of multiple ways of presenting a collection, book spine was most preferred for it actually entails adequate amount of information for users to decide if it sparks enough interest to further examine the " class="cls-20" transform="translate(720 521)"><tspan x="0" y="13">Early evaluation sessions of sketches showed </tspan><tspan x="0" y="34">that out of multiple ways of presenting a </tspan><tspan x="0" y="55">collection, </tspan><tspan class="cls-21" y="55">book spine was most preferred</tspan><tspan y="55" xml:space="preserve"> for it </tspan><tspan x="0" y="76">actually entails adequate amount of </tspan><tspan x="0" y="97">information for users to decide if it sparks </tspan><tspan x="0" y="118">enough interest to further examine the item </tspan><tspan x="0" y="139">without overwhelming them visually as cover </tspan><tspan x="0" y="160">images frequently do.</tspan></text>
       </g>
     </g>
     <g id="Group_197" data-name="Group 197" transform="translate(-1 15)">
-      <path id="Path_163" data-name="Path 163" class="cls-21" d="M8696.267,19851.133c-2.1,19.236,13.4,79.566-118.934,77.867s-148.383,22.9-146.783,43.707" transform="translate(-7904 -19269)"/>
+      <path id="Path_163" data-name="Path 163" class="cls-22" d="M8696.267,19851.133c-2.1,19.236,13.4,79.566-118.934,77.867s-148.383,22.9-146.783,43.707" transform="translate(-7904 -19269)"/>
       <path id="Path_164" data-name="Path 164" class="cls-10" d="M3.526,6.9,0,0,3.64,1.188l3.375-1.3Z" transform="matrix(0.995, 0.105, -0.105, 0.995, 523.566, 702.07)"/>
     </g>
     <g id="capstone-iter_02" transform="translate(0 108)">
@@ -993,50 +993,50 @@
             <rect id="Rectangle_128-2" data-name="Rectangle 128" class="cls-4" width="150" height="84.375" transform="translate(6.05 326)"/>
           </g>
           <g id="Group_20" data-name="Group 20">
-            <rect id="Rectangle_61" data-name="Rectangle 61" class="cls-22" width="50.547" height="84.375"/>
+            <rect id="Rectangle_61" data-name="Rectangle 61" class="cls-23" width="50.547" height="84.375"/>
             <g id="Stack" transform="translate(2.948)">
               <g id="Group_1" data-name="Group 1" transform="translate(1.282)">
-                <path id="Rectangle_1-37" data-name="Rectangle 1" class="cls-23" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z"/>
-                <path id="Rectangle_1-38" data-name="Rectangle 1" class="cls-23" d="M0,0H40.98a1,1,0,0,1,1,1V3.26a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 7.188)"/>
-                <path id="Rectangle_1-39" data-name="Rectangle 1" class="cls-24" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 11.641)"/>
-                <path id="Rectangle_1-40" data-name="Rectangle 1" class="cls-23" d="M0,0H35.949a1,1,0,0,1,1,1V8.842a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 18.828)"/>
-                <path id="Rectangle_1-41" data-name="Rectangle 1" class="cls-23" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 28.828)"/>
-                <path id="Rectangle_1-42" data-name="Rectangle 1" class="cls-23" d="M0,0H40.98a1,1,0,0,1,1,1V5.023a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 36.016)"/>
-                <path id="Rectangle_1-43" data-name="Rectangle 1" class="cls-23" d="M0,0H32.653a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 42.266)"/>
-                <path id="Rectangle_1-44" data-name="Rectangle 1" class="cls-23" d="M0,0H40.98a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 49.453)"/>
-                <path id="Rectangle_1-45" data-name="Rectangle 1" class="cls-23" d="M0,0H45.316a1,1,0,0,1,1,1V4.049a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 56.641)"/>
-                <path id="Rectangle_1-46" data-name="Rectangle 1" class="cls-23" d="M0,0H34.214a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 61.875)"/>
-                <text id="Angels_Of_The_Past" data-name="Angels Of The Past" class="cls-25" transform="translate(2.41 3.875)"><tspan x="0" y="0">Angels Of The Past</tspan></text>
-                <text id="Owls_Of_The_Mountain" data-name="Owls Of The Mountain" class="cls-25" transform="translate(2.41 9.656)"><tspan x="0" y="0">Owls Of The Mountain</tspan></text>
-                <text id="Angels_Of_The_Past-2" data-name="Angels Of The Past" class="cls-25" transform="translate(2.41 15.438)"><tspan x="0" y="0">Angels Of The Past</tspan></text>
-                <text id="Hidden_In_Hope" data-name="Hidden In Hope" class="cls-25" transform="translate(2.41 24.109)"><tspan x="0" y="0">Hidden In Hope</tspan></text>
-                <text id="Armies_And_Assassins" data-name="Armies And Assassins" class="cls-25" transform="translate(2.41 32.781)"><tspan x="0" y="0">Armies And Assassins</tspan></text>
-                <text id="Supporter_Without_Honor" data-name="Supporter Without Honor" class="cls-25" transform="translate(2.41 39.422)"><tspan x="0" y="0">Supporter Without Honor</tspan></text>
-                <text id="Fixed_In_Solar_Flares" data-name="Fixed In Solar Flares" class="cls-25" transform="translate(2.41 53.25)"><tspan x="0" y="0">Fixed In Solar Flares</tspan></text>
-                <text id="Scared_Of_The_End" data-name="Scared Of The End" class="cls-25" transform="translate(2.41 46.141)"><tspan x="0" y="0">Scared Of The End</tspan></text>
-                <text id="Creating_Fantasy" data-name="Creating Fantasy" class="cls-25" transform="translate(2.41 59.5)"><tspan x="0" y="0">Creating Fantasy</tspan></text>
-                <text id="Lights_In_My_Street" data-name="Lights In My Street" class="cls-25" transform="translate(2.41 65.828)"><tspan x="0" y="0">Lights In My Street</tspan></text>
+                <path id="Rectangle_1-37" data-name="Rectangle 1" class="cls-24" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z"/>
+                <path id="Rectangle_1-38" data-name="Rectangle 1" class="cls-24" d="M0,0H40.98a1,1,0,0,1,1,1V3.26a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 7.188)"/>
+                <path id="Rectangle_1-39" data-name="Rectangle 1" class="cls-25" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 11.641)"/>
+                <path id="Rectangle_1-40" data-name="Rectangle 1" class="cls-24" d="M0,0H35.949a1,1,0,0,1,1,1V8.842a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 18.828)"/>
+                <path id="Rectangle_1-41" data-name="Rectangle 1" class="cls-24" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 28.828)"/>
+                <path id="Rectangle_1-42" data-name="Rectangle 1" class="cls-24" d="M0,0H40.98a1,1,0,0,1,1,1V5.023a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 36.016)"/>
+                <path id="Rectangle_1-43" data-name="Rectangle 1" class="cls-24" d="M0,0H32.653a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 42.266)"/>
+                <path id="Rectangle_1-44" data-name="Rectangle 1" class="cls-24" d="M0,0H40.98a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 49.453)"/>
+                <path id="Rectangle_1-45" data-name="Rectangle 1" class="cls-24" d="M0,0H45.316a1,1,0,0,1,1,1V4.049a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 56.641)"/>
+                <path id="Rectangle_1-46" data-name="Rectangle 1" class="cls-24" d="M0,0H34.214a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 61.875)"/>
+                <text id="Angels_Of_The_Past" data-name="Angels Of The Past" class="cls-26" transform="translate(2.41 3.875)"><tspan x="0" y="0">Angels Of The Past</tspan></text>
+                <text id="Owls_Of_The_Mountain" data-name="Owls Of The Mountain" class="cls-26" transform="translate(2.41 9.656)"><tspan x="0" y="0">Owls Of The Mountain</tspan></text>
+                <text id="Angels_Of_The_Past-2" data-name="Angels Of The Past" class="cls-26" transform="translate(2.41 15.438)"><tspan x="0" y="0">Angels Of The Past</tspan></text>
+                <text id="Hidden_In_Hope" data-name="Hidden In Hope" class="cls-26" transform="translate(2.41 24.109)"><tspan x="0" y="0">Hidden In Hope</tspan></text>
+                <text id="Armies_And_Assassins" data-name="Armies And Assassins" class="cls-26" transform="translate(2.41 32.781)"><tspan x="0" y="0">Armies And Assassins</tspan></text>
+                <text id="Supporter_Without_Honor" data-name="Supporter Without Honor" class="cls-26" transform="translate(2.41 39.422)"><tspan x="0" y="0">Supporter Without Honor</tspan></text>
+                <text id="Fixed_In_Solar_Flares" data-name="Fixed In Solar Flares" class="cls-26" transform="translate(2.41 53.25)"><tspan x="0" y="0">Fixed In Solar Flares</tspan></text>
+                <text id="Scared_Of_The_End" data-name="Scared Of The End" class="cls-26" transform="translate(2.41 46.141)"><tspan x="0" y="0">Scared Of The End</tspan></text>
+                <text id="Creating_Fantasy" data-name="Creating Fantasy" class="cls-26" transform="translate(2.41 59.5)"><tspan x="0" y="0">Creating Fantasy</tspan></text>
+                <text id="Lights_In_My_Street" data-name="Lights In My Street" class="cls-26" transform="translate(2.41 65.828)"><tspan x="0" y="0">Lights In My Street</tspan></text>
               </g>
               <g class="cls-119" transform="matrix(1, 0, 0, 1, -9, -326)">
-                <path id="Path_1-4" data-name="Path 1" class="cls-26" d="M219.733,105.067l3.192,1.446-3.192,2.095Z" transform="translate(-210.73 234.3)"/>
+                <path id="Path_1-4" data-name="Path 1" class="cls-27" d="M219.733,105.067l3.192,1.446-3.192,2.095Z" transform="translate(-210.73 234.3)"/>
               </g>
             </g>
-            <line id="Line_11" data-name="Line 11" class="cls-27" x2="50.547" transform="translate(0.039 69.102)"/>
-            <text id="Thriller_Utopia" data-name="Thriller + Utopia" class="cls-28" transform="translate(6.25 79.031)"><tspan x="0" y="0">Thriller + Utopia</tspan></text>
-            <text id="_" data-name="" class="cls-29" transform="translate(42.813 79.266)"><tspan x="0" y="0"></tspan></text>
-            <text id="_10_out_of_248" data-name="10 out of 248" class="cls-30" transform="translate(6.25 73.25)"><tspan x="0" y="0">10 out of 248</tspan></text>
-            <line id="Line_10" data-name="Line 10" class="cls-27" y2="84.375" transform="translate(50.547)"/>
-            <text id="_2" data-name="" class="cls-29" transform="translate(38.141 79.266)"><tspan x="0" y="0"></tspan></text>
+            <line id="Line_11" data-name="Line 11" class="cls-28" x2="50.547" transform="translate(0.039 69.102)"/>
+            <text id="Thriller_Utopia" data-name="Thriller + Utopia" class="cls-29" transform="translate(6.25 79.031)"><tspan x="0" y="0">Thriller + Utopia</tspan></text>
+            <text id="_" data-name="" class="cls-30" transform="translate(42.813 79.266)"><tspan x="0" y="0"></tspan></text>
+            <text id="_10_out_of_248" data-name="10 out of 248" class="cls-31" transform="translate(6.25 73.25)"><tspan x="0" y="0">10 out of 248</tspan></text>
+            <line id="Line_10" data-name="Line 10" class="cls-28" y2="84.375" transform="translate(50.547)"/>
+            <text id="_2" data-name="" class="cls-30" transform="translate(38.141 79.266)"><tspan x="0" y="0"></tspan></text>
           </g>
-          <rect id="Rectangle_62" data-name="Rectangle 62" class="cls-24" width="34.844" height="43.047" transform="translate(57.578 7.109)"/>
-          <line id="Line_24" data-name="Line 24" class="cls-27" x2="0.391" y2="84.375" transform="translate(98.633 0.039)"/>
+          <rect id="Rectangle_62" data-name="Rectangle 62" class="cls-25" width="34.844" height="43.047" transform="translate(57.578 7.109)"/>
+          <line id="Line_24" data-name="Line 24" class="cls-28" x2="0.391" y2="84.375" transform="translate(98.633 0.039)"/>
           <g id="Group_99" data-name="Group 99" transform="translate(105.703 6.25)">
-            <rect id="Rectangle_26" data-name="Rectangle 26" class="cls-23" width="38.594" height="0.781" transform="translate(0 11.406)"/>
+            <rect id="Rectangle_26" data-name="Rectangle 26" class="cls-24" width="38.594" height="0.781" transform="translate(0 11.406)"/>
             <rect id="Rectangle_27" data-name="Rectangle 27" class="cls-10" width="3.203" height="3.359" transform="translate(10.938 10.156)"/>
-            <text id="Recommendations" class="cls-31" transform="translate(0 1)"><tspan x="0" y="0">Recommendations</tspan></text>
-            <text id="Similarity" class="cls-31" transform="translate(0 8.031)"><tspan x="0" y="0">Similarity</tspan></text>
-            <text id="low_" data-name="low " class="cls-31" transform="translate(0 15.297)"><tspan x="0" y="0">low </tspan></text>
-            <text id="high" class="cls-31" transform="translate(34.922 15.297)"><tspan x="0" y="0">high</tspan></text>
+            <text id="Recommendations" class="cls-32" transform="translate(0 1)"><tspan x="0" y="0">Recommendations</tspan></text>
+            <text id="Similarity" class="cls-32" transform="translate(0 8.031)"><tspan x="0" y="0">Similarity</tspan></text>
+            <text id="low_" data-name="low " class="cls-32" transform="translate(0 15.297)"><tspan x="0" y="0">low </tspan></text>
+            <text id="high" class="cls-32" transform="translate(34.922 15.297)"><tspan x="0" y="0">high</tspan></text>
           </g>
         </g>
         <g id="iteration_02-b" transform="translate(547 654)">
@@ -1053,7 +1053,7 @@
               <rect class="cls-97" width="39.218" height="4.259"/>
               <rect class="cls-98" x="-0.1" y="-0.1" width="39.418" height="4.459"/>
             </g>
-            <g id="Rectangle_1-49" data-name="Rectangle 1" class="cls-32" transform="translate(0 11.518)">
+            <g id="Rectangle_1-49" data-name="Rectangle 1" class="cls-33" transform="translate(0 11.518)">
               <rect class="cls-97" width="43.27" height="7"/>
               <rect class="cls-98" x="-0.1" y="-0.1" width="43.47" height="7.2"/>
             </g>
@@ -1094,9 +1094,9 @@
               <rect class="cls-98" x="-0.1" y="-0.1" width="43.47" height="7.2"/>
             </g>
           </g>
-          <rect id="Rectangle_4" data-name="Rectangle 4" class="cls-24" width="21.166" height="26.165" transform="translate(57.095 6.483)"/>
+          <rect id="Rectangle_4" data-name="Rectangle 4" class="cls-25" width="21.166" height="26.165" transform="translate(57.095 6.483)"/>
           <g class="cls-117" transform="matrix(1, 0, 0, 1, -161.05, -326)">
-            <path id="Path_1-5" data-name="Path 1" class="cls-26" d="M219.733,105.067l4.55,2.062-4.55,2.986Z" transform="translate(-54.48 233.67)"/>
+            <path id="Path_1-5" data-name="Path 1" class="cls-27" d="M219.733,105.067l4.55,2.062-4.55,2.986Z" transform="translate(-54.48 233.67)"/>
           </g>
           <g id="Group_8" data-name="Group 8" transform="translate(84.041 6.483)">
             <rect id="Rectangle_16-4" data-name="Rectangle 16" class="cls-9" width="17.964" height="2.656" rx="1.328" transform="translate(0)"/>
@@ -1109,14 +1109,14 @@
             <rect id="Rectangle_39" data-name="Rectangle 39" class="cls-9" width="46.941" height="0.547" rx="0.273" transform="translate(0 12.262)"/>
             <rect id="Rectangle_40" data-name="Rectangle 40" class="cls-9" width="46.941" height="0.547" rx="0.273" transform="translate(0 13.59)"/>
           </g>
-          <line id="Line_9" data-name="Line 9" class="cls-27" x2="99.974" transform="translate(50.026 41.122)"/>
-          <text id="Show_relationship_between_this_item_and_other_items" data-name="Show relationship between this item and other items" class="cls-31" transform="translate(78.105 49.581)"><tspan x="0" y="0">Show relationship between this item and other items</tspan></text>
-          <rect id="Rectangle_37" data-name="Rectangle 37" class="cls-23" width="38.584" height="0.781" transform="translate(80.76 71.153)"/>
+          <line id="Line_9" data-name="Line 9" class="cls-28" x2="99.974" transform="translate(50.026 41.122)"/>
+          <text id="Show_relationship_between_this_item_and_other_items" data-name="Show relationship between this item and other items" class="cls-32" transform="translate(78.105 49.581)"><tspan x="0" y="0">Show relationship between this item and other items</tspan></text>
+          <rect id="Rectangle_37" data-name="Rectangle 37" class="cls-24" width="38.584" height="0.781" transform="translate(80.76 71.153)"/>
           <rect id="Rectangle_38" data-name="Rectangle 38" class="cls-10" width="3.202" height="3.359" transform="translate(91.695 69.904)"/>
-          <text id="low_2" data-name="low " class="cls-31" transform="translate(80.76 75.043)"><tspan x="0" y="0">low </tspan></text>
-          <text id="high-2" data-name="high" class="cls-31" transform="translate(115.673 75.043)"><tspan x="0" y="0">high</tspan></text>
-          <text id="slider_controling_degree_of_relevancy_serendipity" data-name="slider controling degree of relevancy / serendipity" class="cls-31" transform="translate(79.432 65.983)"><tspan x="0" y="0">slider controling degree of relevancy / serendipity</tspan></text>
-          <g id="Rectangle_42" data-name="Rectangle 42" class="cls-33" transform="translate(49.987 35.538)">
+          <text id="low_2" data-name="low " class="cls-32" transform="translate(80.76 75.043)"><tspan x="0" y="0">low </tspan></text>
+          <text id="high-2" data-name="high" class="cls-32" transform="translate(115.673 75.043)"><tspan x="0" y="0">high</tspan></text>
+          <text id="slider_controling_degree_of_relevancy_serendipity" data-name="slider controling degree of relevancy / serendipity" class="cls-32" transform="translate(79.432 65.983)"><tspan x="0" y="0">slider controling degree of relevancy / serendipity</tspan></text>
+          <g id="Rectangle_42" data-name="Rectangle 42" class="cls-34" transform="translate(49.987 35.538)">
             <rect class="cls-97" width="15.074" height="5.624"/>
             <rect class="cls-98" x="0.1" y="0.1" width="14.874" height="5.424"/>
           </g>
@@ -1124,10 +1124,10 @@
             <rect class="cls-97" width="23.744" height="5.624"/>
             <rect class="cls-98" x="0.1" y="0.1" width="23.544" height="5.424"/>
           </g>
-          <line id="Line_95" data-name="Line 95" class="cls-27" y2="84" transform="translate(50 0.5)"/>
+          <line id="Line_95" data-name="Line 95" class="cls-28" y2="84" transform="translate(50 0.5)"/>
         </g>
         <g id="Group_204" data-name="Group 204" transform="translate(20 -69)">
-          <path id="Path_165" data-name="Path 165" class="cls-21" d="M8428.533,20081.1c-2.333,3.123-1.836,20.244,0,24.275" transform="translate(-7904 -19267.643)"/>
+          <path id="Path_165" data-name="Path 165" class="cls-22" d="M8428.533,20081.1c-2.333,3.123-1.836,20.244,0,24.275" transform="translate(-7904 -19267.643)"/>
           <g id="Symbol_1_1" data-name="Symbol 1 – 1">
             <path id="Path_166" data-name="Path 166" class="cls-10" d="M3.526,6.9,0,0,3.64,1.188l3.375-1.3Z" transform="matrix(0.988, -0.156, 0.156, 0.988, 520.403, 836.009)"/>
           </g>
@@ -1137,48 +1137,48 @@
             <rect id="Rectangle_131-2" data-name="Rectangle 131" class="cls-4" width="150" height="84.375" transform="translate(161.05 452)"/>
           </g>
           <g id="Stack-3" data-name="Stack" transform="translate(143.608 28.594) rotate(90)">
-            <path id="Rectangle_1-59" data-name="Rectangle 1" class="cls-23" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 69.063)"/>
-            <path id="Rectangle_1-60" data-name="Rectangle 1" class="cls-23" d="M0,0H40.98a1,1,0,0,1,1,1V3.26a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(4.297 76.25)"/>
-            <path id="Rectangle_1-61" data-name="Rectangle 1" class="cls-23" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 80.703)"/>
-            <path id="Rectangle_1-62" data-name="Rectangle 1" class="cls-23" d="M0,0H35.949a1,1,0,0,1,1,1V8.842a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(9.297 87.891)"/>
-            <path id="Rectangle_1-63" data-name="Rectangle 1" class="cls-23" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 97.891)"/>
-            <path id="Rectangle_1-64" data-name="Rectangle 1" class="cls-23" d="M0,0H40.98a1,1,0,0,1,1,1V5.023a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(4.297 105.078)"/>
-            <path id="Rectangle_1-65" data-name="Rectangle 1" class="cls-23" d="M0,0H32.653a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(12.656 111.328)"/>
-            <path id="Rectangle_1-66" data-name="Rectangle 1" class="cls-23" d="M0,0H40.98a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(4.297 118.516)"/>
-            <path id="Rectangle_1-67" data-name="Rectangle 1" class="cls-23" d="M0,0H45.316a1,1,0,0,1,1,1V4.049a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 125.703)"/>
-            <path id="Rectangle_1-68" data-name="Rectangle 1" class="cls-23" d="M0,0H34.214a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(11.094 130.938)"/>
-            <text id="Angels_Of_The_Past-3" data-name="Angels Of The Past" class="cls-25" transform="translate(24.219 72.813)"><tspan x="0" y="0">Angels Of The Past</tspan></text>
-            <text id="Owls_Of_The_Mountain-2" data-name="Owls Of The Mountain" class="cls-25" transform="translate(21.016 78.594)"><tspan x="0" y="0">Owls Of The Mountain</tspan></text>
-            <text id="Angels_Of_The_Past-4" data-name="Angels Of The Past" class="cls-25" transform="translate(24.219 84.375)"><tspan x="0" y="0">Angels Of The Past</tspan></text>
-            <text id="Hidden_In_Hope-2" data-name="Hidden In Hope" class="cls-25" transform="translate(28.125 93.047)"><tspan x="0" y="0">Hidden In Hope</tspan></text>
-            <text id="Armies_And_Assassins-2" data-name="Armies And Assassins" class="cls-25" transform="translate(20.625 101.719)"><tspan x="0" y="0">Armies And Assassins</tspan></text>
-            <text id="Supporter_Without_Honor-2" data-name="Supporter Without Honor" class="cls-25" transform="translate(18.125 108.359)"><tspan x="0" y="0">Supporter Without Honor</tspan></text>
-            <text id="Fixed_In_Solar_Flares-2" data-name="Fixed In Solar Flares" class="cls-25" transform="translate(22.969 122.188)"><tspan x="0" y="0">Fixed In Solar Flares</tspan></text>
-            <text id="Scared_Of_The_End-2" data-name="Scared Of The End" class="cls-25" transform="translate(24.844 115.078)"><tspan x="0" y="0">Scared Of The End</tspan></text>
-            <text id="Creating_Fantasy-2" data-name="Creating Fantasy" class="cls-25" transform="translate(26.563 128.984)"><tspan x="0" y="0">Creating Fantasy</tspan></text>
-            <text id="Lights_In_My_Street-2" data-name="Lights In My Street" class="cls-25" transform="translate(24.688 134.766)"><tspan x="0" y="0">Lights In My Street</tspan></text>
-            <path id="Rectangle_1-69" data-name="Rectangle 1" class="cls-23" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z"/>
-            <path id="Rectangle_1-70" data-name="Rectangle 1" class="cls-23" d="M0,0H40.98a1,1,0,0,1,1,1V3.26a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(4.297 7.188)"/>
-            <path id="Rectangle_1-71" data-name="Rectangle 1" class="cls-24" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 11.641)"/>
-            <path id="Rectangle_1-72" data-name="Rectangle 1" class="cls-23" d="M0,0H35.949a1,1,0,0,1,1,1V8.842a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(9.297 18.828)"/>
-            <path id="Rectangle_1-73" data-name="Rectangle 1" class="cls-23" d="M0,0H45.816a.5.5,0,0,1,.5.5v6a.5.5,0,0,1-.5.5H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 28.828)"/>
-            <path id="Rectangle_1-74" data-name="Rectangle 1" class="cls-23" d="M0,0H40.98a1,1,0,0,1,1,1V5.023a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(4.297 36.016)"/>
-            <path id="Rectangle_1-75" data-name="Rectangle 1" class="cls-23" d="M0,0H32.653a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(12.656 42.266)"/>
-            <path id="Rectangle_1-76" data-name="Rectangle 1" class="cls-23" d="M0,0H40.98a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(4.297 49.453)"/>
-            <path id="Rectangle_1-77" data-name="Rectangle 1" class="cls-23" d="M0,0H45.316a1,1,0,0,1,1,1V4.049a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 56.641)"/>
-            <path id="Rectangle_1-78" data-name="Rectangle 1" class="cls-23" d="M0,0H34.214a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(11.094 61.875)"/>
-            <text id="Angels_Of_The_Past-5" data-name="Angels Of The Past" class="cls-25" transform="translate(24.219 3.75)"><tspan x="0" y="0">Angels Of The Past</tspan></text>
-            <text id="Owls_Of_The_Mountain-3" data-name="Owls Of The Mountain" class="cls-25" transform="translate(21.016 9.531)"><tspan x="0" y="0">Owls Of The Mountain</tspan></text>
-            <text id="Angels_Of_The_Past-6" data-name="Angels Of The Past" class="cls-25" transform="translate(24.219 15.313)"><tspan x="0" y="0">Angels Of The Past</tspan></text>
-            <text id="Hidden_In_Hope-3" data-name="Hidden In Hope" class="cls-25" transform="translate(28.125 23.984)"><tspan x="0" y="0">Hidden In Hope</tspan></text>
-            <text id="Armies_And_Assassins-3" data-name="Armies And Assassins" class="cls-25" transform="translate(20.625 32.656)"><tspan x="0" y="0">Armies And Assassins</tspan></text>
-            <text id="Supporter_Without_Honor-3" data-name="Supporter Without Honor" class="cls-25" transform="translate(18.125 39.297)"><tspan x="0" y="0">Supporter Without Honor</tspan></text>
-            <text id="Fixed_In_Solar_Flares-3" data-name="Fixed In Solar Flares" class="cls-25" transform="translate(22.969 53.125)"><tspan x="0" y="0">Fixed In Solar Flares</tspan></text>
-            <text id="Scared_Of_The_End-3" data-name="Scared Of The End" class="cls-25" transform="translate(24.844 46.016)"><tspan x="0" y="0">Scared Of The End</tspan></text>
-            <text id="Creating_Fantasy-3" data-name="Creating Fantasy" class="cls-25" transform="translate(26.563 59.375)"><tspan x="0" y="0">Creating Fantasy</tspan></text>
-            <text id="Lights_In_My_Street-3" data-name="Lights In My Street" class="cls-25" transform="translate(24.688 65.703)"><tspan x="0" y="0">Lights In My Street</tspan></text>
+            <path id="Rectangle_1-59" data-name="Rectangle 1" class="cls-24" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 69.063)"/>
+            <path id="Rectangle_1-60" data-name="Rectangle 1" class="cls-24" d="M0,0H40.98a1,1,0,0,1,1,1V3.26a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(4.297 76.25)"/>
+            <path id="Rectangle_1-61" data-name="Rectangle 1" class="cls-24" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 80.703)"/>
+            <path id="Rectangle_1-62" data-name="Rectangle 1" class="cls-24" d="M0,0H35.949a1,1,0,0,1,1,1V8.842a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(9.297 87.891)"/>
+            <path id="Rectangle_1-63" data-name="Rectangle 1" class="cls-24" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 97.891)"/>
+            <path id="Rectangle_1-64" data-name="Rectangle 1" class="cls-24" d="M0,0H40.98a1,1,0,0,1,1,1V5.023a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(4.297 105.078)"/>
+            <path id="Rectangle_1-65" data-name="Rectangle 1" class="cls-24" d="M0,0H32.653a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(12.656 111.328)"/>
+            <path id="Rectangle_1-66" data-name="Rectangle 1" class="cls-24" d="M0,0H40.98a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(4.297 118.516)"/>
+            <path id="Rectangle_1-67" data-name="Rectangle 1" class="cls-24" d="M0,0H45.316a1,1,0,0,1,1,1V4.049a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 125.703)"/>
+            <path id="Rectangle_1-68" data-name="Rectangle 1" class="cls-24" d="M0,0H34.214a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(11.094 130.938)"/>
+            <text id="Angels_Of_The_Past-3" data-name="Angels Of The Past" class="cls-26" transform="translate(24.219 72.813)"><tspan x="0" y="0">Angels Of The Past</tspan></text>
+            <text id="Owls_Of_The_Mountain-2" data-name="Owls Of The Mountain" class="cls-26" transform="translate(21.016 78.594)"><tspan x="0" y="0">Owls Of The Mountain</tspan></text>
+            <text id="Angels_Of_The_Past-4" data-name="Angels Of The Past" class="cls-26" transform="translate(24.219 84.375)"><tspan x="0" y="0">Angels Of The Past</tspan></text>
+            <text id="Hidden_In_Hope-2" data-name="Hidden In Hope" class="cls-26" transform="translate(28.125 93.047)"><tspan x="0" y="0">Hidden In Hope</tspan></text>
+            <text id="Armies_And_Assassins-2" data-name="Armies And Assassins" class="cls-26" transform="translate(20.625 101.719)"><tspan x="0" y="0">Armies And Assassins</tspan></text>
+            <text id="Supporter_Without_Honor-2" data-name="Supporter Without Honor" class="cls-26" transform="translate(18.125 108.359)"><tspan x="0" y="0">Supporter Without Honor</tspan></text>
+            <text id="Fixed_In_Solar_Flares-2" data-name="Fixed In Solar Flares" class="cls-26" transform="translate(22.969 122.188)"><tspan x="0" y="0">Fixed In Solar Flares</tspan></text>
+            <text id="Scared_Of_The_End-2" data-name="Scared Of The End" class="cls-26" transform="translate(24.844 115.078)"><tspan x="0" y="0">Scared Of The End</tspan></text>
+            <text id="Creating_Fantasy-2" data-name="Creating Fantasy" class="cls-26" transform="translate(26.563 128.984)"><tspan x="0" y="0">Creating Fantasy</tspan></text>
+            <text id="Lights_In_My_Street-2" data-name="Lights In My Street" class="cls-26" transform="translate(24.688 134.766)"><tspan x="0" y="0">Lights In My Street</tspan></text>
+            <path id="Rectangle_1-69" data-name="Rectangle 1" class="cls-24" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z"/>
+            <path id="Rectangle_1-70" data-name="Rectangle 1" class="cls-24" d="M0,0H40.98a1,1,0,0,1,1,1V3.26a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(4.297 7.188)"/>
+            <path id="Rectangle_1-71" data-name="Rectangle 1" class="cls-25" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 11.641)"/>
+            <path id="Rectangle_1-72" data-name="Rectangle 1" class="cls-24" d="M0,0H35.949a1,1,0,0,1,1,1V8.842a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(9.297 18.828)"/>
+            <path id="Rectangle_1-73" data-name="Rectangle 1" class="cls-24" d="M0,0H45.816a.5.5,0,0,1,.5.5v6a.5.5,0,0,1-.5.5H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 28.828)"/>
+            <path id="Rectangle_1-74" data-name="Rectangle 1" class="cls-24" d="M0,0H40.98a1,1,0,0,1,1,1V5.023a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(4.297 36.016)"/>
+            <path id="Rectangle_1-75" data-name="Rectangle 1" class="cls-24" d="M0,0H32.653a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(12.656 42.266)"/>
+            <path id="Rectangle_1-76" data-name="Rectangle 1" class="cls-24" d="M0,0H40.98a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(4.297 49.453)"/>
+            <path id="Rectangle_1-77" data-name="Rectangle 1" class="cls-24" d="M0,0H45.316a1,1,0,0,1,1,1V4.049a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 56.641)"/>
+            <path id="Rectangle_1-78" data-name="Rectangle 1" class="cls-24" d="M0,0H34.214a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(11.094 61.875)"/>
+            <text id="Angels_Of_The_Past-5" data-name="Angels Of The Past" class="cls-26" transform="translate(24.219 3.75)"><tspan x="0" y="0">Angels Of The Past</tspan></text>
+            <text id="Owls_Of_The_Mountain-3" data-name="Owls Of The Mountain" class="cls-26" transform="translate(21.016 9.531)"><tspan x="0" y="0">Owls Of The Mountain</tspan></text>
+            <text id="Angels_Of_The_Past-6" data-name="Angels Of The Past" class="cls-26" transform="translate(24.219 15.313)"><tspan x="0" y="0">Angels Of The Past</tspan></text>
+            <text id="Hidden_In_Hope-3" data-name="Hidden In Hope" class="cls-26" transform="translate(28.125 23.984)"><tspan x="0" y="0">Hidden In Hope</tspan></text>
+            <text id="Armies_And_Assassins-3" data-name="Armies And Assassins" class="cls-26" transform="translate(20.625 32.656)"><tspan x="0" y="0">Armies And Assassins</tspan></text>
+            <text id="Supporter_Without_Honor-3" data-name="Supporter Without Honor" class="cls-26" transform="translate(18.125 39.297)"><tspan x="0" y="0">Supporter Without Honor</tspan></text>
+            <text id="Fixed_In_Solar_Flares-3" data-name="Fixed In Solar Flares" class="cls-26" transform="translate(22.969 53.125)"><tspan x="0" y="0">Fixed In Solar Flares</tspan></text>
+            <text id="Scared_Of_The_End-3" data-name="Scared Of The End" class="cls-26" transform="translate(24.844 46.016)"><tspan x="0" y="0">Scared Of The End</tspan></text>
+            <text id="Creating_Fantasy-3" data-name="Creating Fantasy" class="cls-26" transform="translate(26.563 59.375)"><tspan x="0" y="0">Creating Fantasy</tspan></text>
+            <text id="Lights_In_My_Street-3" data-name="Lights In My Street" class="cls-26" transform="translate(24.688 65.703)"><tspan x="0" y="0">Lights In My Street</tspan></text>
           </g>
-          <line id="Line_12" data-name="Line 12" class="cls-27" x2="150" transform="translate(0 74.844)"/>
+          <line id="Line_12" data-name="Line 12" class="cls-28" x2="150" transform="translate(0 74.844)"/>
         </g>
         <g id="iteration_02-d" transform="translate(392 780)">
           <g class="cls-115" transform="matrix(1, 0, 0, 1, -6.05, -452)">
@@ -1187,78 +1187,78 @@
           <g id="Group_25" data-name="Group 25" transform="translate(12.266 4.297)">
             <g id="Group_21" data-name="Group 21">
               <line id="Line_13" data-name="Line 13" class="cls-6" x2="21.875" transform="translate(0 11.055)"/>
-              <text id="Genre" class="cls-34" transform="translate(0.039 2)"><tspan x="0" y="0">Genre</tspan></text>
+              <text id="Genre" class="cls-35" transform="translate(0.039 2)"><tspan x="0" y="0">Genre</tspan></text>
               <path id="Path_8" data-name="Path 8" class="cls-10" d="M-3648.059-4833.5h2.261l-1.122,1.528Z" transform="translate(3666.219 4840.844)"/>
-              <text id="Sci-fi-2" data-name="Sci-fi" class="cls-30" transform="translate(0.742 8.094)"><tspan x="0" y="0">Sci-fi</tspan></text>
+              <text id="Sci-fi-2" data-name="Sci-fi" class="cls-31" transform="translate(0.742 8.094)"><tspan x="0" y="0">Sci-fi</tspan></text>
             </g>
             <g id="Group_22" data-name="Group 22" transform="translate(34.531)">
               <line id="Line_13-2" data-name="Line 13" class="cls-6" x2="21.875" transform="translate(0 11.055)"/>
-              <text id="Subject" class="cls-34" transform="translate(0.039 2)"><tspan x="0" y="0">Subject</tspan></text>
+              <text id="Subject" class="cls-35" transform="translate(0.039 2)"><tspan x="0" y="0">Subject</tspan></text>
               <path id="Path_8-2" data-name="Path 8" class="cls-10" d="M-3648.059-4833.5h2.261l-1.122,1.528Z" transform="translate(3666.219 4840.844)"/>
-              <text id="Utopia" class="cls-30" transform="translate(0.742 8.094)"><tspan x="0" y="0">Utopia</tspan></text>
+              <text id="Utopia" class="cls-31" transform="translate(0.742 8.094)"><tspan x="0" y="0">Utopia</tspan></text>
             </g>
             <g id="Group_23" data-name="Group 23" transform="translate(69.063)">
               <line id="Line_13-3" data-name="Line 13" class="cls-6" x2="21.875" transform="translate(0 11.055)"/>
-              <text id="Tone" class="cls-34" transform="translate(0.039 2)"><tspan x="0" y="0">Tone</tspan></text>
+              <text id="Tone" class="cls-35" transform="translate(0.039 2)"><tspan x="0" y="0">Tone</tspan></text>
               <path id="Path_8-3" data-name="Path 8" class="cls-10" d="M-3648.059-4833.5h2.261l-1.122,1.528Z" transform="translate(3666.219 4840.844)"/>
-              <text id="Melancholy" class="cls-30" transform="translate(0.742 8.094)"><tspan x="0" y="0">Melancholy</tspan></text>
+              <text id="Melancholy" class="cls-31" transform="translate(0.742 8.094)"><tspan x="0" y="0">Melancholy</tspan></text>
             </g>
             <g id="Group_24" data-name="Group 24" transform="translate(103.594)">
               <line id="Line_13-4" data-name="Line 13" class="cls-6" x2="21.875" transform="translate(0 11.055)"/>
-              <text id="Age" class="cls-34" transform="translate(0.039 2)"><tspan x="0" y="0">Age</tspan></text>
+              <text id="Age" class="cls-35" transform="translate(0.039 2)"><tspan x="0" y="0">Age</tspan></text>
               <path id="Path_8-4" data-name="Path 8" class="cls-10" d="M-3648.059-4833.5h2.261l-1.122,1.528Z" transform="translate(3666.219 4840.844)"/>
-              <text id="Young_Adult" data-name="Young Adult" class="cls-30" transform="translate(0.742 8.094)"><tspan x="0" y="0">Young Adult</tspan></text>
+              <text id="Young_Adult" data-name="Young Adult" class="cls-31" transform="translate(0.742 8.094)"><tspan x="0" y="0">Young Adult</tspan></text>
             </g>
           </g>
           <g id="Stack-4" data-name="Stack" transform="translate(143.999 19.233) rotate(90)">
             <g id="Group_1-3" data-name="Group 1" transform="translate(1.282)">
-              <path id="Rectangle_1-79" data-name="Rectangle 1" class="cls-23" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z"/>
-              <path id="Rectangle_1-80" data-name="Rectangle 1" class="cls-23" d="M0,0H40.98a1,1,0,0,1,1,1V3.26a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 7.188)"/>
-              <path id="Rectangle_1-81" data-name="Rectangle 1" class="cls-24" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 11.641)"/>
-              <path id="Rectangle_1-82" data-name="Rectangle 1" class="cls-23" d="M0,0H35.949a1,1,0,0,1,1,1V8.842a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 18.828)"/>
-              <path id="Rectangle_1-83" data-name="Rectangle 1" class="cls-23" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 28.828)"/>
-              <path id="Rectangle_1-84" data-name="Rectangle 1" class="cls-23" d="M0,0H40.98a1,1,0,0,1,1,1V5.023a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 36.016)"/>
-              <path id="Rectangle_1-85" data-name="Rectangle 1" class="cls-23" d="M0,0H32.653a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 42.266)"/>
-              <path id="Rectangle_1-86" data-name="Rectangle 1" class="cls-23" d="M0,0H40.98a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 49.453)"/>
-              <path id="Rectangle_1-87" data-name="Rectangle 1" class="cls-23" d="M0,0H45.316a1,1,0,0,1,1,1V4.049a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 56.641)"/>
-              <path id="Rectangle_1-88" data-name="Rectangle 1" class="cls-23" d="M0,0H34.214a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 61.875)"/>
-              <text id="Angels_Of_The_Past-7" data-name="Angels Of The Past" class="cls-25" transform="translate(2.41 4.141)"><tspan x="0" y="0">Angels Of The Past</tspan></text>
-              <text id="Owls_Of_The_Mountain-4" data-name="Owls Of The Mountain" class="cls-25" transform="translate(2.41 9.922)"><tspan x="0" y="0">Owls Of The Mountain</tspan></text>
-              <text id="Angels_Of_The_Past-8" data-name="Angels Of The Past" class="cls-25" transform="translate(2.41 15.703)"><tspan x="0" y="0">Angels Of The Past</tspan></text>
-              <text id="Hidden_In_Hope-4" data-name="Hidden In Hope" class="cls-25" transform="translate(2.41 24.375)"><tspan x="0" y="0">Hidden In Hope</tspan></text>
-              <text id="Armies_And_Assassins-4" data-name="Armies And Assassins" class="cls-25" transform="translate(2.41 33.047)"><tspan x="0" y="0">Armies And Assassins</tspan></text>
-              <text id="Supporter_Without_Honor-4" data-name="Supporter Without Honor" class="cls-25" transform="translate(2.41 39.688)"><tspan x="0" y="0">Supporter Without Honor</tspan></text>
-              <text id="Fixed_In_Solar_Flares-4" data-name="Fixed In Solar Flares" class="cls-25" transform="translate(2.41 53.516)"><tspan x="0" y="0">Fixed In Solar Flares</tspan></text>
-              <text id="Scared_Of_The_End-4" data-name="Scared Of The End" class="cls-25" transform="translate(2.41 46.406)"><tspan x="0" y="0">Scared Of The End</tspan></text>
-              <text id="Creating_Fantasy-4" data-name="Creating Fantasy" class="cls-25" transform="translate(2.41 59.766)"><tspan x="0" y="0">Creating Fantasy</tspan></text>
-              <text id="Lights_In_My_Street-4" data-name="Lights In My Street" class="cls-25" transform="translate(2.41 66.094)"><tspan x="0" y="0">Lights In My Street</tspan></text>
+              <path id="Rectangle_1-79" data-name="Rectangle 1" class="cls-24" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z"/>
+              <path id="Rectangle_1-80" data-name="Rectangle 1" class="cls-24" d="M0,0H40.98a1,1,0,0,1,1,1V3.26a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 7.188)"/>
+              <path id="Rectangle_1-81" data-name="Rectangle 1" class="cls-25" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 11.641)"/>
+              <path id="Rectangle_1-82" data-name="Rectangle 1" class="cls-24" d="M0,0H35.949a1,1,0,0,1,1,1V8.842a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 18.828)"/>
+              <path id="Rectangle_1-83" data-name="Rectangle 1" class="cls-24" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 28.828)"/>
+              <path id="Rectangle_1-84" data-name="Rectangle 1" class="cls-24" d="M0,0H40.98a1,1,0,0,1,1,1V5.023a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 36.016)"/>
+              <path id="Rectangle_1-85" data-name="Rectangle 1" class="cls-24" d="M0,0H32.653a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 42.266)"/>
+              <path id="Rectangle_1-86" data-name="Rectangle 1" class="cls-24" d="M0,0H40.98a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 49.453)"/>
+              <path id="Rectangle_1-87" data-name="Rectangle 1" class="cls-24" d="M0,0H45.316a1,1,0,0,1,1,1V4.049a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 56.641)"/>
+              <path id="Rectangle_1-88" data-name="Rectangle 1" class="cls-24" d="M0,0H34.214a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 61.875)"/>
+              <text id="Angels_Of_The_Past-7" data-name="Angels Of The Past" class="cls-26" transform="translate(2.41 4.141)"><tspan x="0" y="0">Angels Of The Past</tspan></text>
+              <text id="Owls_Of_The_Mountain-4" data-name="Owls Of The Mountain" class="cls-26" transform="translate(2.41 9.922)"><tspan x="0" y="0">Owls Of The Mountain</tspan></text>
+              <text id="Angels_Of_The_Past-8" data-name="Angels Of The Past" class="cls-26" transform="translate(2.41 15.703)"><tspan x="0" y="0">Angels Of The Past</tspan></text>
+              <text id="Hidden_In_Hope-4" data-name="Hidden In Hope" class="cls-26" transform="translate(2.41 24.375)"><tspan x="0" y="0">Hidden In Hope</tspan></text>
+              <text id="Armies_And_Assassins-4" data-name="Armies And Assassins" class="cls-26" transform="translate(2.41 33.047)"><tspan x="0" y="0">Armies And Assassins</tspan></text>
+              <text id="Supporter_Without_Honor-4" data-name="Supporter Without Honor" class="cls-26" transform="translate(2.41 39.688)"><tspan x="0" y="0">Supporter Without Honor</tspan></text>
+              <text id="Fixed_In_Solar_Flares-4" data-name="Fixed In Solar Flares" class="cls-26" transform="translate(2.41 53.516)"><tspan x="0" y="0">Fixed In Solar Flares</tspan></text>
+              <text id="Scared_Of_The_End-4" data-name="Scared Of The End" class="cls-26" transform="translate(2.41 46.406)"><tspan x="0" y="0">Scared Of The End</tspan></text>
+              <text id="Creating_Fantasy-4" data-name="Creating Fantasy" class="cls-26" transform="translate(2.41 59.766)"><tspan x="0" y="0">Creating Fantasy</tspan></text>
+              <text id="Lights_In_My_Street-4" data-name="Lights In My Street" class="cls-26" transform="translate(2.41 66.094)"><tspan x="0" y="0">Lights In My Street</tspan></text>
             </g>
             <g class="cls-114" transform="matrix(0, -1, 1, 0, -471.23, 150.05)">
-              <path id="Path_1-6" data-name="Path 1" class="cls-26" d="M0,0,3.192,1.446,0,3.541Z" transform="translate(136.69 471.23) rotate(90)"/>
+              <path id="Path_1-6" data-name="Path 1" class="cls-27" d="M0,0,3.192,1.446,0,3.541Z" transform="translate(136.69 471.23) rotate(90)"/>
             </g>
           </g>
           <g id="Stack-5" data-name="Stack" transform="translate(74.936 20.515) rotate(90)">
             <g id="Group_1-4" data-name="Group 1">
-              <path id="Rectangle_1-89" data-name="Rectangle 1" class="cls-23" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z"/>
-              <path id="Rectangle_1-90" data-name="Rectangle 1" class="cls-23" d="M0,0H40.98a1,1,0,0,1,1,1V3.26a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 7.188)"/>
-              <path id="Rectangle_1-91" data-name="Rectangle 1" class="cls-23" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 11.641)"/>
-              <path id="Rectangle_1-92" data-name="Rectangle 1" class="cls-23" d="M0,0H35.949a1,1,0,0,1,1,1V8.842a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 18.828)"/>
-              <path id="Rectangle_1-93" data-name="Rectangle 1" class="cls-23" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 28.828)"/>
-              <path id="Rectangle_1-94" data-name="Rectangle 1" class="cls-23" d="M0,0H40.98a1,1,0,0,1,1,1V5.023a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 36.016)"/>
-              <path id="Rectangle_1-95" data-name="Rectangle 1" class="cls-23" d="M0,0H32.653a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 42.266)"/>
-              <path id="Rectangle_1-96" data-name="Rectangle 1" class="cls-23" d="M0,0H40.98a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 49.453)"/>
-              <path id="Rectangle_1-97" data-name="Rectangle 1" class="cls-23" d="M0,0H45.316a1,1,0,0,1,1,1V4.049a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 56.641)"/>
-              <path id="Rectangle_1-98" data-name="Rectangle 1" class="cls-23" d="M0,0H34.214a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 61.875)"/>
-              <text id="Angels_Of_The_Past-9" data-name="Angels Of The Past" class="cls-25" transform="translate(2.41 4.141)"><tspan x="0" y="0">Angels Of The Past</tspan></text>
-              <text id="Owls_Of_The_Mountain-5" data-name="Owls Of The Mountain" class="cls-25" transform="translate(2.41 9.922)"><tspan x="0" y="0">Owls Of The Mountain</tspan></text>
-              <text id="Angels_Of_The_Past-10" data-name="Angels Of The Past" class="cls-25" transform="translate(2.41 15.703)"><tspan x="0" y="0">Angels Of The Past</tspan></text>
-              <text id="Hidden_In_Hope-5" data-name="Hidden In Hope" class="cls-25" transform="translate(2.41 24.375)"><tspan x="0" y="0">Hidden In Hope</tspan></text>
-              <text id="Armies_And_Assassins-5" data-name="Armies And Assassins" class="cls-25" transform="translate(2.41 33.047)"><tspan x="0" y="0">Armies And Assassins</tspan></text>
-              <text id="Supporter_Without_Honor-5" data-name="Supporter Without Honor" class="cls-25" transform="translate(2.41 39.688)"><tspan x="0" y="0">Supporter Without Honor</tspan></text>
-              <text id="Fixed_In_Solar_Flares-5" data-name="Fixed In Solar Flares" class="cls-25" transform="translate(2.41 53.516)"><tspan x="0" y="0">Fixed In Solar Flares</tspan></text>
-              <text id="Scared_Of_The_End-5" data-name="Scared Of The End" class="cls-25" transform="translate(2.41 46.406)"><tspan x="0" y="0">Scared Of The End</tspan></text>
-              <text id="Creating_Fantasy-5" data-name="Creating Fantasy" class="cls-25" transform="translate(2.41 59.766)"><tspan x="0" y="0">Creating Fantasy</tspan></text>
-              <text id="Lights_In_My_Street-5" data-name="Lights In My Street" class="cls-25" transform="translate(2.41 66.094)"><tspan x="0" y="0">Lights In My Street</tspan></text>
+              <path id="Rectangle_1-89" data-name="Rectangle 1" class="cls-24" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z"/>
+              <path id="Rectangle_1-90" data-name="Rectangle 1" class="cls-24" d="M0,0H40.98a1,1,0,0,1,1,1V3.26a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 7.188)"/>
+              <path id="Rectangle_1-91" data-name="Rectangle 1" class="cls-24" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 11.641)"/>
+              <path id="Rectangle_1-92" data-name="Rectangle 1" class="cls-24" d="M0,0H35.949a1,1,0,0,1,1,1V8.842a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 18.828)"/>
+              <path id="Rectangle_1-93" data-name="Rectangle 1" class="cls-24" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 28.828)"/>
+              <path id="Rectangle_1-94" data-name="Rectangle 1" class="cls-24" d="M0,0H40.98a1,1,0,0,1,1,1V5.023a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 36.016)"/>
+              <path id="Rectangle_1-95" data-name="Rectangle 1" class="cls-24" d="M0,0H32.653a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 42.266)"/>
+              <path id="Rectangle_1-96" data-name="Rectangle 1" class="cls-24" d="M0,0H40.98a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 49.453)"/>
+              <path id="Rectangle_1-97" data-name="Rectangle 1" class="cls-24" d="M0,0H45.316a1,1,0,0,1,1,1V4.049a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 56.641)"/>
+              <path id="Rectangle_1-98" data-name="Rectangle 1" class="cls-24" d="M0,0H34.214a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 61.875)"/>
+              <text id="Angels_Of_The_Past-9" data-name="Angels Of The Past" class="cls-26" transform="translate(2.41 4.141)"><tspan x="0" y="0">Angels Of The Past</tspan></text>
+              <text id="Owls_Of_The_Mountain-5" data-name="Owls Of The Mountain" class="cls-26" transform="translate(2.41 9.922)"><tspan x="0" y="0">Owls Of The Mountain</tspan></text>
+              <text id="Angels_Of_The_Past-10" data-name="Angels Of The Past" class="cls-26" transform="translate(2.41 15.703)"><tspan x="0" y="0">Angels Of The Past</tspan></text>
+              <text id="Hidden_In_Hope-5" data-name="Hidden In Hope" class="cls-26" transform="translate(2.41 24.375)"><tspan x="0" y="0">Hidden In Hope</tspan></text>
+              <text id="Armies_And_Assassins-5" data-name="Armies And Assassins" class="cls-26" transform="translate(2.41 33.047)"><tspan x="0" y="0">Armies And Assassins</tspan></text>
+              <text id="Supporter_Without_Honor-5" data-name="Supporter Without Honor" class="cls-26" transform="translate(2.41 39.688)"><tspan x="0" y="0">Supporter Without Honor</tspan></text>
+              <text id="Fixed_In_Solar_Flares-5" data-name="Fixed In Solar Flares" class="cls-26" transform="translate(2.41 53.516)"><tspan x="0" y="0">Fixed In Solar Flares</tspan></text>
+              <text id="Scared_Of_The_End-5" data-name="Scared Of The End" class="cls-26" transform="translate(2.41 46.406)"><tspan x="0" y="0">Scared Of The End</tspan></text>
+              <text id="Creating_Fantasy-5" data-name="Creating Fantasy" class="cls-26" transform="translate(2.41 59.766)"><tspan x="0" y="0">Creating Fantasy</tspan></text>
+              <text id="Lights_In_My_Street-5" data-name="Lights In My Street" class="cls-26" transform="translate(2.41 66.094)"><tspan x="0" y="0">Lights In My Street</tspan></text>
             </g>
           </g>
         </g>
@@ -1271,11 +1271,11 @@
           <text id="Static_Mockups" data-name="Static Mockups" class="cls-18" transform="translate(426 449)"><tspan x="-40.758" y="0">Static Mockups</tspan></text>
         </g>
         <text id="Horizontal_vs._Vertical" data-name="Horizontal vs. Vertical" class="cls-19" transform="translate(720 486)"><tspan x="0" y="0">Horizontal vs. Vertical</tspan></text>
-        <text id="While_vertical_scrolling_seems_to_be_more_native_in_a_digital_platform_a_horizontal_scrolling_stack_would_better_resemble_the_eye_movement_of_physical_stack_browsing_from_item_to_item_and_enable_a_greater_area_for_displaying_items." data-name="While vertical scrolling seems to be more native in a digital platform, a horizontal scrolling stack would better resemble the eye movement of physical stack browsing from item to item and enable a greater area for displaying items." class="cls-20" transform="translate(720 502)"><tspan x="0" y="13">While vertical scrolling seems to be more </tspan><tspan x="0" y="34">native in a digital platform, a horizontal </tspan><tspan x="0" y="55">scrolling stack would better resemble the </tspan><tspan x="0" y="76">eye movement of physical stack browsing </tspan><tspan x="0" y="97">from item to item and enable a greater area </tspan><tspan x="0" y="118">for displaying items.</tspan></text>
+        <text id="While_vertical_scrolling_seems_to_be_more_native_in_a_digital_platform_a_horizontal_scrolling_stack_would_better_resemble_the_eye_movement_of_physical_stack_browsing_and_enable_a_greater_area_for_displaying_items." data-name="While vertical scrolling seems to be more native in a digital platform, a horizontal scrolling stack would better resemble the eye movement of physical stack browsing and enable a greater area for displaying items." class="cls-20" transform="translate(720 502)"><tspan x="0" y="13">While vertical scrolling seems to be more </tspan><tspan x="0" y="34">native in a digital platform, a horizontal </tspan><tspan x="0" y="55">scrolling stack would </tspan><tspan class="cls-21" y="55">better resemble the </tspan><tspan class="cls-21" x="0" y="76">eye movement of physical stack browsing </tspan><tspan class="cls-21" x="0" y="97">and enable a greater area for displaying </tspan><tspan class="cls-21" x="0" y="118">items</tspan><tspan y="118">.</tspan></text>
       </g>
     </g>
     <g id="Group_198" data-name="Group 198" transform="matrix(0.999, 0.035, -0.035, 0.999, 70.543, 272.057)">
-      <path id="Path_163-2" data-name="Path 163" class="cls-21" d="M8304.939,19930.773s2.713,37.934,152.525,23.309,160.755,12.711,160.33,23.156" transform="translate(-7827.893 -19257.953)"/>
+      <path id="Path_163-2" data-name="Path 163" class="cls-22" d="M8304.939,19930.773s2.713,37.934,152.525,23.309,160.755,12.711,160.33,23.156" transform="translate(-7827.893 -19257.953)"/>
       <g id="Group_205" data-name="Group 205">
         <path id="Path_164-2" data-name="Path 164" class="cls-10" d="M5.17,0,.707,8.585,4.85,7.245,9.14,8.732Z" transform="matrix(-0.998, 0.07, -0.07, -0.998, 795.082, 725.597)"/>
       </g>
@@ -1287,98 +1287,98 @@
           <g class="cls-112" transform="matrix(1, 0, 0, 1, -319.05, -629)">
             <rect id="Rectangle_132-2" data-name="Rectangle 132" class="cls-4" width="149.965" height="84.355" transform="translate(318.64 629)"/>
           </g>
-          <rect id="Rectangle_72" data-name="Rectangle 72" class="cls-35" width="149.497" height="12.966" transform="translate(-0.409)"/>
+          <rect id="Rectangle_72" data-name="Rectangle 72" class="cls-36" width="149.497" height="12.966" transform="translate(-0.409)"/>
           <g id="Group_32" data-name="Group 32" transform="translate(3.73 2.109)">
-            <text id="Age-2" data-name="Age" class="cls-36" transform="translate(2 1)"><tspan x="-1.696" y="0">Age</tspan></text>
-            <text id="Genre-2" data-name="Genre" class="cls-36" transform="translate(19.761 1)"><tspan x="0" y="0">Genre</tspan></text>
-            <text id="Subject-2" data-name="Subject" class="cls-36" transform="translate(32.727 1)"><tspan x="0" y="0">Subject</tspan></text>
-            <text id="Young_Adults_Mystery_Family" data-name="Young Adults + Mystery + Family" class="cls-28" transform="translate(0 2.812)"><tspan x="0" y="3">Young Adults + Mystery + Family</tspan></text>
-            <text id="_3" data-name="" class="cls-29" transform="translate(50.77 4.968)"><tspan x="0" y="0"></tspan></text>
-            <text id="_4" data-name="" class="cls-29" transform="translate(56.862 4.968)"><tspan x="0" y="0"></tspan></text>
+            <text id="Age-2" data-name="Age" class="cls-37" transform="translate(2 1)"><tspan x="-1.696" y="0">Age</tspan></text>
+            <text id="Genre-2" data-name="Genre" class="cls-37" transform="translate(19.761 1)"><tspan x="0" y="0">Genre</tspan></text>
+            <text id="Subject-2" data-name="Subject" class="cls-37" transform="translate(32.727 1)"><tspan x="0" y="0">Subject</tspan></text>
+            <text id="Young_Adults_Mystery_Family" data-name="Young Adults + Mystery + Family" class="cls-29" transform="translate(0 2.812)"><tspan x="0" y="3">Young Adults + Mystery + Family</tspan></text>
+            <text id="_3" data-name="" class="cls-30" transform="translate(50.77 4.968)"><tspan x="0" y="0"></tspan></text>
+            <text id="_4" data-name="" class="cls-30" transform="translate(56.862 4.968)"><tspan x="0" y="0"></tspan></text>
           </g>
           <g id="Stack-6" data-name="Stack" transform="translate(149.102 12.856) rotate(90)">
             <g id="Group_1-5" data-name="Group 1" transform="translate(0)">
-              <path id="Rectangle_1-99" data-name="Rectangle 1" class="cls-23" d="M0,0H45.306a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z"/>
-              <path id="Rectangle_63" data-name="Rectangle 63" class="cls-23" d="M0,0H45.306a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 28.9)"/>
-              <path id="Rectangle_1-100" data-name="Rectangle 1" class="cls-23" d="M0,0H40.97a1,1,0,0,1,1,1V3.259a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 7.186)"/>
-              <path id="Rectangle_64" data-name="Rectangle 64" class="cls-23" d="M0,0H40.97a1,1,0,0,1,1,1V8.414a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 36.164)"/>
-              <path id="Rectangle_1-101" data-name="Rectangle 1" class="cls-23" d="M0,0H45.306a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 11.638)"/>
-              <path id="Rectangle_79" data-name="Rectangle 79" class="cls-23" d="M0,0H45.306a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 45.849)"/>
-              <path id="Rectangle_1-102" data-name="Rectangle 1" class="cls-23" d="M0,0H35.94a1,1,0,0,1,1,1V8.84a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 18.824)"/>
-              <path id="Rectangle_80" data-name="Rectangle 80" class="cls-23" d="M0,0H35.94a1,1,0,0,1,1,1V8.84a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 53.035)"/>
-              <path id="Rectangle_1-103" data-name="Rectangle 1" class="cls-23" d="M0,0H45.306a1,1,0,0,1,1,1V9.047a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 106.46)"/>
-              <path id="Rectangle_73" data-name="Rectangle 73" class="cls-23" d="M0,0H45.306a1,1,0,0,1,1,1V9.047a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 63.032)"/>
-              <path id="Rectangle_1-104" data-name="Rectangle 1" class="cls-23" d="M0,0H40.97a1,1,0,0,1,1,1V5.021a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 116.692)"/>
-              <path id="Rectangle_74" data-name="Rectangle 74" class="cls-23" d="M0,0H40.97a1,1,0,0,1,1,1V5.021a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 73.264)"/>
-              <path id="Rectangle_1-105" data-name="Rectangle 1" class="cls-23" d="M0,0H32.645a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 122.94)"/>
-              <path id="Rectangle_75" data-name="Rectangle 75" class="cls-23" d="M0,0H32.645a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 79.513)"/>
-              <path id="Rectangle_1-106" data-name="Rectangle 1" class="cls-23" d="M0,0H40.97a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 130.126)"/>
-              <path id="Rectangle_76" data-name="Rectangle 76" class="cls-23" d="M0,0H40.97a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 86.699)"/>
-              <path id="Rectangle_1-107" data-name="Rectangle 1" class="cls-23" d="M0,0H45.306a1,1,0,0,1,1,1V4.048a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 137.312)"/>
-              <path id="Rectangle_77" data-name="Rectangle 77" class="cls-23" d="M0,0H45.306a1,1,0,0,1,1,1V4.048a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 93.885)"/>
-              <path id="Rectangle_1-108" data-name="Rectangle 1" class="cls-23" d="M0,0H34.206a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 142.545)"/>
-              <path id="Rectangle_78" data-name="Rectangle 78" class="cls-23" d="M0,0H34.206a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 99.118)"/>
-              <text id="Angels_Of_The_Past-11" data-name="Angels Of The Past" class="cls-25" transform="translate(2.409 4.14)"><tspan x="0" y="0">Angels Of The Past</tspan></text>
-              <text id="Owls_Of_The_Mountain-6" data-name="Owls Of The Mountain" class="cls-25" transform="translate(2.409 9.92)"><tspan x="0" y="0">Owls Of The Mountain</tspan></text>
-              <text id="Kicking_The_River" data-name="Kicking The River" class="cls-25" transform="translate(2.409 15.699)"><tspan x="0" y="0">Kicking The River</tspan></text>
-              <text id="Roots_of_the_Star" data-name="Roots of the Star" class="cls-25" transform="translate(2.409 32.883)"><tspan x="0" y="0">Roots of the Star</tspan></text>
-              <text id="Everything_I_Never_Told_You" data-name="Everything I Never Told You" class="cls-25" transform="translate(2.409 49.91)"><tspan x="0" y="0">Everything I Never Told You</tspan></text>
-              <text id="Hidden_In_Hope-6" data-name="Hidden In Hope" class="cls-25" transform="translate(2.409 24.369)"><tspan x="0" y="0">Hidden In Hope</tspan></text>
-              <text id="Birth_Of_Twilight" data-name="Birth Of Twilight" class="cls-25" transform="translate(2.409 41.553)"><tspan x="0" y="0">Birth Of Twilight</tspan></text>
-              <text id="Swindlers_Of_The_Stars" data-name="Swindlers Of The Stars" class="cls-25" transform="translate(2.409 111.771)"><tspan x="0" y="0">Swindlers Of The Stars</tspan></text>
-              <text id="Armies_And_Assassins-6" data-name="Armies And Assassins" class="cls-25" transform="translate(2.409 57.955)"><tspan x="0" y="0">Armies And Assassins</tspan></text>
-              <text id="Watcherborn" class="cls-25" transform="translate(2.409 120.363)"><tspan x="0" y="0">Watcherborn</tspan></text>
-              <text id="Supporter_Without_Honor-6" data-name="Supporter Without Honor" class="cls-25" transform="translate(2.409 67.953)"><tspan x="0" y="0">Supporter Without Honor</tspan></text>
-              <text id="The_Drapes_for_the_Guest" data-name="The Drapes for the Guest" class="cls-25" transform="translate(2.409 134.188)"><tspan x="0" y="0">The Drapes for the Guest</tspan></text>
-              <text id="Fixed_In_Solar_Flares-6" data-name="Fixed In Solar Flares" class="cls-25" transform="translate(2.409 83.809)"><tspan x="0" y="0">Fixed In Solar Flares</tspan></text>
-              <text id="Dimensional_Things" data-name="Dimensional Things" class="cls-25" transform="translate(2.409 127.08)"><tspan x="0" y="0">Dimensional Things</tspan></text>
-              <text id="Scared_Of_The_End-6" data-name="Scared Of The End" class="cls-25" transform="translate(2.409 76.701)"><tspan x="0" y="0">Scared Of The End</tspan></text>
-              <text id="The_Vermorid_Castle" data-name="The Vermorid Castle" class="cls-25" transform="translate(2.409 140.436)"><tspan x="0" y="0">The Vermorid Castle</tspan></text>
-              <text id="Creating_Fantasy-6" data-name="Creating Fantasy" class="cls-25" transform="translate(2.409 90.135)"><tspan x="0" y="0">Creating Fantasy</tspan></text>
-              <text id="Eons_and_Rabbit" data-name="Eons and Rabbit" class="cls-25" transform="translate(2.409 146.763)"><tspan x="0" y="0">Eons and Rabbit</tspan></text>
-              <text id="Lights_In_My_Street-6" data-name="Lights In My Street" class="cls-25" transform="translate(2.409 97.243)"><tspan x="0" y="0">Lights In My Street</tspan></text>
-              <text id="Death_At_The_South" data-name="Death At The South" class="cls-25" transform="translate(2.409 103.179)"><tspan x="0" y="0">Death At The South</tspan></text>
+              <path id="Rectangle_1-99" data-name="Rectangle 1" class="cls-24" d="M0,0H45.306a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z"/>
+              <path id="Rectangle_63" data-name="Rectangle 63" class="cls-24" d="M0,0H45.306a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 28.9)"/>
+              <path id="Rectangle_1-100" data-name="Rectangle 1" class="cls-24" d="M0,0H40.97a1,1,0,0,1,1,1V3.259a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 7.186)"/>
+              <path id="Rectangle_64" data-name="Rectangle 64" class="cls-24" d="M0,0H40.97a1,1,0,0,1,1,1V8.414a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 36.164)"/>
+              <path id="Rectangle_1-101" data-name="Rectangle 1" class="cls-24" d="M0,0H45.306a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 11.638)"/>
+              <path id="Rectangle_79" data-name="Rectangle 79" class="cls-24" d="M0,0H45.306a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 45.849)"/>
+              <path id="Rectangle_1-102" data-name="Rectangle 1" class="cls-24" d="M0,0H35.94a1,1,0,0,1,1,1V8.84a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 18.824)"/>
+              <path id="Rectangle_80" data-name="Rectangle 80" class="cls-24" d="M0,0H35.94a1,1,0,0,1,1,1V8.84a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 53.035)"/>
+              <path id="Rectangle_1-103" data-name="Rectangle 1" class="cls-24" d="M0,0H45.306a1,1,0,0,1,1,1V9.047a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 106.46)"/>
+              <path id="Rectangle_73" data-name="Rectangle 73" class="cls-24" d="M0,0H45.306a1,1,0,0,1,1,1V9.047a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 63.032)"/>
+              <path id="Rectangle_1-104" data-name="Rectangle 1" class="cls-24" d="M0,0H40.97a1,1,0,0,1,1,1V5.021a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 116.692)"/>
+              <path id="Rectangle_74" data-name="Rectangle 74" class="cls-24" d="M0,0H40.97a1,1,0,0,1,1,1V5.021a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 73.264)"/>
+              <path id="Rectangle_1-105" data-name="Rectangle 1" class="cls-24" d="M0,0H32.645a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 122.94)"/>
+              <path id="Rectangle_75" data-name="Rectangle 75" class="cls-24" d="M0,0H32.645a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 79.513)"/>
+              <path id="Rectangle_1-106" data-name="Rectangle 1" class="cls-24" d="M0,0H40.97a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 130.126)"/>
+              <path id="Rectangle_76" data-name="Rectangle 76" class="cls-24" d="M0,0H40.97a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 86.699)"/>
+              <path id="Rectangle_1-107" data-name="Rectangle 1" class="cls-24" d="M0,0H45.306a1,1,0,0,1,1,1V4.048a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 137.312)"/>
+              <path id="Rectangle_77" data-name="Rectangle 77" class="cls-24" d="M0,0H45.306a1,1,0,0,1,1,1V4.048a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 93.885)"/>
+              <path id="Rectangle_1-108" data-name="Rectangle 1" class="cls-24" d="M0,0H34.206a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 142.545)"/>
+              <path id="Rectangle_78" data-name="Rectangle 78" class="cls-24" d="M0,0H34.206a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 99.118)"/>
+              <text id="Angels_Of_The_Past-11" data-name="Angels Of The Past" class="cls-26" transform="translate(2.409 4.14)"><tspan x="0" y="0">Angels Of The Past</tspan></text>
+              <text id="Owls_Of_The_Mountain-6" data-name="Owls Of The Mountain" class="cls-26" transform="translate(2.409 9.92)"><tspan x="0" y="0">Owls Of The Mountain</tspan></text>
+              <text id="Kicking_The_River" data-name="Kicking The River" class="cls-26" transform="translate(2.409 15.699)"><tspan x="0" y="0">Kicking The River</tspan></text>
+              <text id="Roots_of_the_Star" data-name="Roots of the Star" class="cls-26" transform="translate(2.409 32.883)"><tspan x="0" y="0">Roots of the Star</tspan></text>
+              <text id="Everything_I_Never_Told_You" data-name="Everything I Never Told You" class="cls-26" transform="translate(2.409 49.91)"><tspan x="0" y="0">Everything I Never Told You</tspan></text>
+              <text id="Hidden_In_Hope-6" data-name="Hidden In Hope" class="cls-26" transform="translate(2.409 24.369)"><tspan x="0" y="0">Hidden In Hope</tspan></text>
+              <text id="Birth_Of_Twilight" data-name="Birth Of Twilight" class="cls-26" transform="translate(2.409 41.553)"><tspan x="0" y="0">Birth Of Twilight</tspan></text>
+              <text id="Swindlers_Of_The_Stars" data-name="Swindlers Of The Stars" class="cls-26" transform="translate(2.409 111.771)"><tspan x="0" y="0">Swindlers Of The Stars</tspan></text>
+              <text id="Armies_And_Assassins-6" data-name="Armies And Assassins" class="cls-26" transform="translate(2.409 57.955)"><tspan x="0" y="0">Armies And Assassins</tspan></text>
+              <text id="Watcherborn" class="cls-26" transform="translate(2.409 120.363)"><tspan x="0" y="0">Watcherborn</tspan></text>
+              <text id="Supporter_Without_Honor-6" data-name="Supporter Without Honor" class="cls-26" transform="translate(2.409 67.953)"><tspan x="0" y="0">Supporter Without Honor</tspan></text>
+              <text id="The_Drapes_for_the_Guest" data-name="The Drapes for the Guest" class="cls-26" transform="translate(2.409 134.188)"><tspan x="0" y="0">The Drapes for the Guest</tspan></text>
+              <text id="Fixed_In_Solar_Flares-6" data-name="Fixed In Solar Flares" class="cls-26" transform="translate(2.409 83.809)"><tspan x="0" y="0">Fixed In Solar Flares</tspan></text>
+              <text id="Dimensional_Things" data-name="Dimensional Things" class="cls-26" transform="translate(2.409 127.08)"><tspan x="0" y="0">Dimensional Things</tspan></text>
+              <text id="Scared_Of_The_End-6" data-name="Scared Of The End" class="cls-26" transform="translate(2.409 76.701)"><tspan x="0" y="0">Scared Of The End</tspan></text>
+              <text id="The_Vermorid_Castle" data-name="The Vermorid Castle" class="cls-26" transform="translate(2.409 140.436)"><tspan x="0" y="0">The Vermorid Castle</tspan></text>
+              <text id="Creating_Fantasy-6" data-name="Creating Fantasy" class="cls-26" transform="translate(2.409 90.135)"><tspan x="0" y="0">Creating Fantasy</tspan></text>
+              <text id="Eons_and_Rabbit" data-name="Eons and Rabbit" class="cls-26" transform="translate(2.409 146.763)"><tspan x="0" y="0">Eons and Rabbit</tspan></text>
+              <text id="Lights_In_My_Street-6" data-name="Lights In My Street" class="cls-26" transform="translate(2.409 97.243)"><tspan x="0" y="0">Lights In My Street</tspan></text>
+              <text id="Death_At_The_South" data-name="Death At The South" class="cls-26" transform="translate(2.409 103.179)"><tspan x="0" y="0">Death At The South</tspan></text>
             </g>
           </g>
-          <text id="exploratory_trail" data-name="exploratory trail" class="cls-37" transform="translate(132.157 6.999)"><tspan x="-13.994" y="0">exploratory trail</tspan></text>
-          <text id="_5" data-name="" class="cls-29" transform="translate(141.433 7.077)"><tspan x="0" y="0"></tspan></text>
-          <rect id="Rectangle_82" data-name="Rectangle 82" class="cls-35" width="149.965" height="12.966" transform="translate(-0.41 71.39)"/>
+          <text id="exploratory_trail" data-name="exploratory trail" class="cls-38" transform="translate(132.157 6.999)"><tspan x="-13.994" y="0">exploratory trail</tspan></text>
+          <text id="_5" data-name="" class="cls-30" transform="translate(141.433 7.077)"><tspan x="0" y="0"></tspan></text>
+          <rect id="Rectangle_82" data-name="Rectangle 82" class="cls-36" width="149.965" height="12.966" transform="translate(-0.41 71.39)"/>
           <rect id="Rectangle_83" data-name="Rectangle 83" class="cls-10" width="18.199" height="0.391" rx="0.195" transform="translate(10.135 71.234)"/>
-          <text id="_6" data-name="" class="cls-38" transform="translate(140.964 78.92)"><tspan x="0" y="0"></tspan></text>
-          <text id="_7" data-name="" class="cls-38" transform="translate(5.292 78.92)"><tspan x="0" y="0"></tspan></text>
-          <text id="_16_-_35_out_of_248" data-name="16 - 35 out of 248" class="cls-30" transform="translate(67 76.28)"><tspan x="0" y="0">16 - 35 out of 248</tspan></text>
-          <text id="Shuffle" class="cls-39" transform="translate(75 80.497)"><tspan x="-3.204" y="0">Shuffle</tspan></text>
+          <text id="_6" data-name="" class="cls-39" transform="translate(140.964 78.92)"><tspan x="0" y="0"></tspan></text>
+          <text id="_7" data-name="" class="cls-39" transform="translate(5.292 78.92)"><tspan x="0" y="0"></tspan></text>
+          <text id="_16_-_35_out_of_248" data-name="16 - 35 out of 248" class="cls-31" transform="translate(67 76.28)"><tspan x="0" y="0">16 - 35 out of 248</tspan></text>
+          <text id="Shuffle" class="cls-40" transform="translate(75 80.497)"><tspan x="-3.204" y="0">Shuffle</tspan></text>
         </g>
         <g id="iteration_03-b" transform="translate(398 1001)">
           <g class="cls-111" transform="matrix(1, 0, 0, 1, -319.05, -723)">
             <rect id="Rectangle_133-2" data-name="Rectangle 133" class="cls-4" width="305" height="171.562" transform="translate(319.05 723)"/>
           </g>
-          <rect id="Rectangle_72-2" data-name="Rectangle 72" class="cls-35" width="304.047" height="26.37" transform="translate(0)"/>
-          <text id="Young_Adults_Mystery_..." data-name="Young Adults + Mystery + ..." class="cls-40" transform="translate(8.419 11.354)"><tspan x="0" y="0">Young Adults </tspan><tspan x="0" y="6">+ Mystery + ...</tspan></text>
-          <text id="_8" data-name="" class="cls-41" transform="translate(76.091 14.326)"><tspan x="0" y="0"></tspan></text>
-          <text id="_9" data-name="" class="cls-41" transform="translate(63.7 13.849)"><tspan x="0" y="0"></tspan></text>
+          <rect id="Rectangle_72-2" data-name="Rectangle 72" class="cls-36" width="304.047" height="26.37" transform="translate(0)"/>
+          <text id="Young_Adults_Mystery_..." data-name="Young Adults + Mystery + ..." class="cls-41" transform="translate(8.419 11.354)"><tspan x="0" y="0">Young Adults </tspan><tspan x="0" y="6">+ Mystery + ...</tspan></text>
+          <text id="_8" data-name="" class="cls-42" transform="translate(76.091 14.326)"><tspan x="0" y="0"></tspan></text>
+          <text id="_9" data-name="" class="cls-42" transform="translate(63.7 13.849)"><tspan x="0" y="0"></tspan></text>
           <g id="bottom" transform="translate(0 144.875)">
-            <rect id="Rectangle_81" data-name="Rectangle 81" class="cls-35" width="305" height="26.37" transform="translate(0 0.318)"/>
-            <text id="_10" data-name="" class="cls-42" transform="translate(287.526 15.531)"><tspan x="0" y="0"></tspan></text>
-            <text id="_11" data-name="" class="cls-42" transform="translate(11.596 15.531)"><tspan x="0" y="0"></tspan></text>
-            <text id="_12" data-name="" class="cls-43" transform="translate(80.38 14.531)"><tspan x="0" y="0"></tspan></text>
-            <text id="_13" data-name="" class="cls-43" transform="translate(225.891 14.531)"><tspan x="0" y="0"></tspan></text>
+            <rect id="Rectangle_81" data-name="Rectangle 81" class="cls-36" width="305" height="26.37" transform="translate(0 0.318)"/>
+            <text id="_10" data-name="" class="cls-43" transform="translate(287.526 15.531)"><tspan x="0" y="0"></tspan></text>
+            <text id="_11" data-name="" class="cls-43" transform="translate(11.596 15.531)"><tspan x="0" y="0"></tspan></text>
+            <text id="_12" data-name="" class="cls-44" transform="translate(80.38 14.531)"><tspan x="0" y="0"></tspan></text>
+            <text id="_13" data-name="" class="cls-44" transform="translate(225.891 14.531)"><tspan x="0" y="0"></tspan></text>
             <rect id="Rectangle_84" data-name="Rectangle 84" class="cls-10" width="37.013" height="0.794" rx="0.397" transform="translate(21.445)"/>
           </g>
           <g id="Stack-7" data-name="Stack" transform="translate(304.146 26.147) rotate(90)">
-            <g id="Group_1-6" data-name="Group 1" class="cls-44" transform="translate(0 0)">
-              <path id="Rectangle_1-109" data-name="Rectangle 1" class="cls-45" d="M0,0H93.176a1,1,0,0,1,1,1V13.238a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z"/>
-              <path id="Rectangle_63-2" data-name="Rectangle 63" class="cls-45" d="M0,0H93.176a1,1,0,0,1,1,1V13.238a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 59.412)"/>
-              <path id="Rectangle_1-110" data-name="Rectangle 1" class="cls-45" d="M0,0H84.358a1,1,0,0,1,1,1V7.662a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 14.789)"/>
-              <path id="Rectangle_64-2" data-name="Rectangle 64" class="cls-45" d="M0,0H84.358a1,1,0,0,1,1,1v9.839a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 74.519)"/>
-              <path id="Rectangle_1-111" data-name="Rectangle 1" class="cls-45" d="M0,0H93.176a1,1,0,0,1,1,1V13.238a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 24.146)"/>
-              <path id="Rectangle_1-112" data-name="Rectangle 1" class="cls-45" d="M0,0H74.13a1,1,0,0,1,1,1V19.013a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 38.863)"/>
-              <path id="Rectangle_1-113" data-name="Rectangle 1" class="cls-45" d="M0,0H93.176a1,1,0,0,1,1,1V19.433a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 215.247)"/>
-              <path id="Rectangle_1-114" data-name="Rectangle 1" class="cls-45" d="M0,0H84.358a1,1,0,0,1,1,1V11.246a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 236.937)"/>
-              <path id="Rectangle_1-115" data-name="Rectangle 1" class="cls-45" d="M0,0H67.428a1,1,0,0,1,1,1V13.238a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 249.719)"/>
-              <path id="Rectangle_1-116" data-name="Rectangle 1" class="cls-45" d="M0,0H84.358a1,1,0,0,1,1,1V13.238a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 264.492)"/>
-              <path id="Rectangle_1-117" data-name="Rectangle 1" class="cls-45" d="M0,0H93.176a1,1,0,0,1,1,1V9.266a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 279.266)"/>
-              <path id="Rectangle_1-118" data-name="Rectangle 1" class="cls-45" d="M0,0H70.6a1,1,0,0,1,1,1V13.238a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 289.909)"/>
+            <g id="Group_1-6" data-name="Group 1" class="cls-45" transform="translate(0 0)">
+              <path id="Rectangle_1-109" data-name="Rectangle 1" class="cls-46" d="M0,0H93.176a1,1,0,0,1,1,1V13.238a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z"/>
+              <path id="Rectangle_63-2" data-name="Rectangle 63" class="cls-46" d="M0,0H93.176a1,1,0,0,1,1,1V13.238a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 59.412)"/>
+              <path id="Rectangle_1-110" data-name="Rectangle 1" class="cls-46" d="M0,0H84.358a1,1,0,0,1,1,1V7.662a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 14.789)"/>
+              <path id="Rectangle_64-2" data-name="Rectangle 64" class="cls-46" d="M0,0H84.358a1,1,0,0,1,1,1v9.839a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 74.519)"/>
+              <path id="Rectangle_1-111" data-name="Rectangle 1" class="cls-46" d="M0,0H93.176a1,1,0,0,1,1,1V13.238a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 24.146)"/>
+              <path id="Rectangle_1-112" data-name="Rectangle 1" class="cls-46" d="M0,0H74.13a1,1,0,0,1,1,1V19.013a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 38.863)"/>
+              <path id="Rectangle_1-113" data-name="Rectangle 1" class="cls-46" d="M0,0H93.176a1,1,0,0,1,1,1V19.433a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 215.247)"/>
+              <path id="Rectangle_1-114" data-name="Rectangle 1" class="cls-46" d="M0,0H84.358a1,1,0,0,1,1,1V11.246a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 236.937)"/>
+              <path id="Rectangle_1-115" data-name="Rectangle 1" class="cls-46" d="M0,0H67.428a1,1,0,0,1,1,1V13.238a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 249.719)"/>
+              <path id="Rectangle_1-116" data-name="Rectangle 1" class="cls-46" d="M0,0H84.358a1,1,0,0,1,1,1V13.238a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 264.492)"/>
+              <path id="Rectangle_1-117" data-name="Rectangle 1" class="cls-46" d="M0,0H93.176a1,1,0,0,1,1,1V9.266a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 279.266)"/>
+              <path id="Rectangle_1-118" data-name="Rectangle 1" class="cls-46" d="M0,0H70.6a1,1,0,0,1,1,1V13.238a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 289.909)"/>
               <text id="Angels_Of_The_Past-12" data-name="Angels Of The Past" class="cls-14" transform="translate(4.9 8.49)"><tspan x="0" y="0">Angels Of The Past</tspan></text>
               <text id="Owls_Of_The_Mountain-7" data-name="Owls Of The Mountain" class="cls-14" transform="translate(4.9 20.245)"><tspan x="0" y="0">Owls Of The Mountain</tspan></text>
               <text id="Kicking_The_River-2" data-name="Kicking The River" class="cls-14" transform="translate(4.9 32)"><tspan x="0" y="0">Kicking The River</tspan></text>
@@ -1394,151 +1394,151 @@
             </g>
           </g>
           <g id="Pop-out" transform="translate(88.64)">
-            <g id="Rectangle_67" data-name="Rectangle 67" class="cls-46">
+            <g id="Rectangle_67" data-name="Rectangle 67" class="cls-47">
               <rect class="cls-97" width="129.148" height="171.562"/>
               <rect class="cls-98" x="0.1" y="0.1" width="128.948" height="171.362"/>
             </g>
             <g id="Pop-out_header" transform="translate(6.672 5.242)">
-              <text id="Everything_I_Never_Told_You_" data-name="Everything I Never Told You " class="cls-47" transform="translate(0 5)"><tspan x="0" y="0">Everything I Never Told You </tspan></text>
-              <text id="Celeste_Ng" data-name="Celeste Ng" class="cls-48" transform="translate(77.044 4.794)"><tspan x="0" y="0">Celeste Ng</tspan></text>
-              <text id="_14" data-name="" class="cls-49" transform="translate(112.786 4.635)"><tspan x="0" y="0"></tspan></text>
+              <text id="Everything_I_Never_Told_You_" data-name="Everything I Never Told You " class="cls-48" transform="translate(0 5)"><tspan x="0" y="0">Everything I Never Told You </tspan></text>
+              <text id="Celeste_Ng" data-name="Celeste Ng" class="cls-49" transform="translate(77.044 4.794)"><tspan x="0" y="0">Celeste Ng</tspan></text>
+              <text id="_14" data-name="" class="cls-50" transform="translate(112.786 4.635)"><tspan x="0" y="0"></tspan></text>
             </g>
             <g id="menu-tabs" transform="translate(0.079 19.221)">
               <g id="Group_40" data-name="Group 40" transform="translate(15.012)">
                 <path id="Rectangle_91" data-name="Rectangle 91" class="cls-4" d="M1,0H17.9a1,1,0,0,1,1,1V6.99a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V1A1,1,0,0,1,1,0Z" transform="translate(0)"/>
-                <text id="Overview" class="cls-50" transform="translate(7.589 4.271)"><tspan x="-6.16" y="0">Overview</tspan></text>
+                <text id="Overview" class="cls-51" transform="translate(7.589 4.271)"><tspan x="-6.16" y="0">Overview</tspan></text>
               </g>
               <g id="Group_41" data-name="Group 41" transform="translate(35.186)">
-                <path id="Rectangle_91-2" data-name="Rectangle 91" class="cls-23" d="M1,0H17.9a1,1,0,0,1,1,1V6.99a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V1A1,1,0,0,1,1,0Z" transform="translate(0)"/>
-                <text id="Details" class="cls-51" transform="translate(7.654 4.271)"><tspan x="-4.474" y="0">Details</tspan></text>
+                <path id="Rectangle_91-2" data-name="Rectangle 91" class="cls-24" d="M1,0H17.9a1,1,0,0,1,1,1V6.99a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V1A1,1,0,0,1,1,0Z" transform="translate(0)"/>
+                <text id="Details" class="cls-52" transform="translate(7.654 4.271)"><tspan x="-4.474" y="0">Details</tspan></text>
               </g>
               <g id="Group_42" data-name="Group 42" transform="translate(55.202)">
-                <path id="Rectangle_91-3" data-name="Rectangle 91" class="cls-23" d="M1,0H17.9a1,1,0,0,1,1,1V6.99a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V1A1,1,0,0,1,1,0Z"/>
-                <text id="Reviews" class="cls-51" transform="translate(7.383 4.271)"><tspan x="-5.44" y="0">Reviews</tspan></text>
+                <path id="Rectangle_91-3" data-name="Rectangle 91" class="cls-24" d="M1,0H17.9a1,1,0,0,1,1,1V6.99a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V1A1,1,0,0,1,1,0Z"/>
+                <text id="Reviews" class="cls-52" transform="translate(7.383 4.271)"><tspan x="-5.44" y="0">Reviews</tspan></text>
               </g>
               <g id="Group_43" data-name="Group 43" transform="translate(75.376)">
-                <path id="Rectangle_91-4" data-name="Rectangle 91" class="cls-23" d="M1,0H17.9a1,1,0,0,1,1,1V6.99a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V1A1,1,0,0,1,1,0Z"/>
-                <text id="Preview" class="cls-51" transform="translate(7.859 4.271)"><tspan x="-5.143" y="0">Preview</tspan></text>
+                <path id="Rectangle_91-4" data-name="Rectangle 91" class="cls-24" d="M1,0H17.9a1,1,0,0,1,1,1V6.99a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V1A1,1,0,0,1,1,0Z"/>
+                <text id="Preview" class="cls-52" transform="translate(7.859 4.271)"><tspan x="-5.143" y="0">Preview</tspan></text>
               </g>
               <g id="Group_44" data-name="Group 44" transform="translate(95.392)">
-                <path id="Rectangle_91-5" data-name="Rectangle 91" class="cls-23" d="M1,0H17.9a1,1,0,0,1,1,1V6.99a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V1A1,1,0,0,1,1,0Z"/>
-                <text id="Explore" class="cls-51" transform="translate(8.177 4.271)"><tspan x="-4.856" y="0">Explore</tspan></text>
+                <path id="Rectangle_91-5" data-name="Rectangle 91" class="cls-24" d="M1,0H17.9a1,1,0,0,1,1,1V6.99a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V1A1,1,0,0,1,1,0Z"/>
+                <text id="Explore" class="cls-52" transform="translate(8.177 4.271)"><tspan x="-4.856" y="0">Explore</tspan></text>
               </g>
-              <line id="Line_15" data-name="Line 15" class="cls-52" x2="129.148" transform="translate(0 6.91)"/>
+              <line id="Line_15" data-name="Line 15" class="cls-53" x2="129.148" transform="translate(0 6.91)"/>
             </g>
             <g id="Group_28" data-name="Group 28" transform="translate(8.334 31.771)">
               <g id="The_Book" data-name="The Book">
-                <g id="Rectangle_69-4" data-name="Rectangle 69" class="cls-53">
+                <g id="Rectangle_69-4" data-name="Rectangle 69" class="cls-54">
                   <rect class="cls-97" width="50.631" height="76.091"/>
                   <rect class="cls-98" x="-0.1" y="-0.1" width="50.831" height="76.291"/>
                 </g>
-                <g id="Rectangle_70" data-name="Rectangle 70" class="cls-54" transform="translate(60.42)">
+                <g id="Rectangle_70" data-name="Rectangle 70" class="cls-55" transform="translate(60.42)">
                   <rect class="cls-97" width="50.631" height="76.091"/>
                   <rect class="cls-98" x="-0.1" y="-0.1" width="50.831" height="76.291"/>
                 </g>
-                <g id="Rectangle_71" data-name="Rectangle 71" class="cls-53" transform="translate(50.125)">
+                <g id="Rectangle_71" data-name="Rectangle 71" class="cls-54" transform="translate(50.125)">
                   <rect class="cls-97" width="10.801" height="76.091"/>
                   <rect class="cls-98" x="-0.1" y="-0.1" width="11.001" height="76.291"/>
                 </g>
-                <g id="Path_162" data-name="Path 162" class="cls-55" transform="translate(61.403 0.159)">
+                <g id="Path_162" data-name="Path 162" class="cls-56" transform="translate(61.403 0.159)">
                   <path class="cls-97" d="M 49.58840179443359 75.83228302001953 L 0.1000020429491997 75.83228302001953 L 0.1000020429491997 0.1000007465481758 L 49.58840179443359 0.1000007465481758 L 49.58840179443359 75.83228302001953 Z"/>
                   <path class="cls-99" d="M 49.4884033203125 75.73228454589844 L 49.4884033203125 0.2000007480382919 L 0.2000020444393158 0.2000007480382919 L 0.2000020444393158 75.73228454589844 L 49.4884033203125 75.73228454589844 M 49.68840026855469 75.93228149414063 L 2.041625975834904e-06 75.93228149414063 L 2.041625975834904e-06 7.470703167200554e-07 L 49.68840026855469 7.470703167200554e-07 L 49.68840026855469 75.93228149414063 Z"/>
                 </g>
               </g>
               <g id="Group_26" data-name="Group 26" transform="translate(0.086 81.333)">
-                <rect id="Rectangle_85" data-name="Rectangle 85" class="cls-56" width="28.052" height="7.943" rx="1" transform="translate(0 0)"/>
-                <text id="Ebook_Available" data-name="Ebook Available" class="cls-57" transform="translate(1.589 5.43)"><tspan x="0" y="0">Ebook Available</tspan></text>
+                <rect id="Rectangle_85" data-name="Rectangle 85" class="cls-57" width="28.052" height="7.943" rx="1" transform="translate(0 0)"/>
+                <text id="Ebook_Available" data-name="Ebook Available" class="cls-58" transform="translate(1.589 5.43)"><tspan x="0" y="0">Ebook Available</tspan></text>
               </g>
               <g id="Group_27" data-name="Group 27" transform="translate(70.617 82.763)">
-                <text id="Penguin_Press_HC_2014" data-name="Penguin Press HC, 2014" class="cls-51" transform="translate(0 3)"><tspan x="0" y="0">Penguin Press HC, 2014</tspan></text>
+                <text id="Penguin_Press_HC_2014" data-name="Penguin Press HC, 2014" class="cls-52" transform="translate(0 3)"><tspan x="0" y="0">Penguin Press HC, 2014</tspan></text>
               </g>
             </g>
             <g id="Group_33" data-name="Group 33" transform="translate(8.34 127.719)">
-              <text id="Call_Number" data-name="Call Number" class="cls-50" transform="translate(33.915 3)"><tspan x="0" y="0">Call Number</tspan></text>
-              <text id="Location" class="cls-50" transform="translate(1.35 3)"><tspan x="0" y="0">Location</tspan></text>
-              <text id="FIC_Ng" data-name="FIC Ng" class="cls-51" transform="translate(33.915 10.943)"><tspan x="0" y="0">FIC Ng</tspan></text>
-              <text id="_15" data-name="" class="cls-58" transform="translate(48.053 11.419)"><tspan x="0" y="0"></tspan></text>
-              <text id="Main_Library" data-name="Main Library" class="cls-51" transform="translate(1.35 10.943)"><tspan x="0" y="0">Main Library</tspan></text>
-              <text id="Due:_4_18_2018" data-name="Due: 4/18/2018" class="cls-51" transform="translate(73.47 10.943)"><tspan x="0" y="0">Due: 4/18/2018</tspan></text>
-              <text id="Status" class="cls-50" transform="translate(73.47 3)"><tspan x="0" y="0">Status</tspan></text>
-              <line id="Line_14" data-name="Line 14" class="cls-59" x2="103.573" transform="translate(0 6.275)"/>
+              <text id="Call_Number" data-name="Call Number" class="cls-51" transform="translate(33.915 3)"><tspan x="0" y="0">Call Number</tspan></text>
+              <text id="Location" class="cls-51" transform="translate(1.35 3)"><tspan x="0" y="0">Location</tspan></text>
+              <text id="FIC_Ng" data-name="FIC Ng" class="cls-52" transform="translate(33.915 10.943)"><tspan x="0" y="0">FIC Ng</tspan></text>
+              <text id="_15" data-name="" class="cls-59" transform="translate(48.053 11.419)"><tspan x="0" y="0"></tspan></text>
+              <text id="Main_Library" data-name="Main Library" class="cls-52" transform="translate(1.35 10.943)"><tspan x="0" y="0">Main Library</tspan></text>
+              <text id="Due:_4_18_2018" data-name="Due: 4/18/2018" class="cls-52" transform="translate(73.47 10.943)"><tspan x="0" y="0">Due: 4/18/2018</tspan></text>
+              <text id="Status" class="cls-51" transform="translate(73.47 3)"><tspan x="0" y="0">Status</tspan></text>
+              <line id="Line_14" data-name="Line 14" class="cls-60" x2="103.573" transform="translate(0 6.275)"/>
             </g>
           </g>
-          <text id="_16" data-name="" class="cls-41" transform="translate(288.479 14.326)"><tspan x="0" y="0"></tspan></text>
-          <text id="exploratory_trail-2" data-name="exploratory trail" class="cls-60" transform="translate(276.14 15.167)"><tspan x="-34.985" y="0">exploratory trail</tspan></text>
+          <text id="_16" data-name="" class="cls-42" transform="translate(288.479 14.326)"><tspan x="0" y="0"></tspan></text>
+          <text id="exploratory_trail-2" data-name="exploratory trail" class="cls-61" transform="translate(276.14 15.167)"><tspan x="-34.985" y="0">exploratory trail</tspan></text>
         </g>
         <g id="iteration_03-c" transform="translate(553 907)">
           <g class="cls-110" transform="matrix(1, 0, 0, 1, -474.05, -629)">
             <rect id="Rectangle_134-2" data-name="Rectangle 134" class="cls-4" width="150" height="84.375" transform="translate(474.05 629)"/>
           </g>
-          <rect id="Rectangle_72-3" data-name="Rectangle 72" class="cls-35" width="149.531" height="12.969" transform="translate(0)"/>
-          <text id="Young_Adults_Mystery_...-2" data-name="Young Adults + Mystery + ..." class="cls-28" transform="translate(4.14 5.125)"><tspan x="0" y="0">Young Adults </tspan><tspan x="0" y="4">+ Mystery + ...</tspan></text>
-          <text id="_17" data-name="" class="cls-29" transform="translate(37.422 7.078)"><tspan x="0" y="0"></tspan></text>
-          <text id="_18" data-name="" class="cls-29" transform="translate(31.328 6.844)"><tspan x="0" y="0"></tspan></text>
+          <rect id="Rectangle_72-3" data-name="Rectangle 72" class="cls-36" width="149.531" height="12.969" transform="translate(0)"/>
+          <text id="Young_Adults_Mystery_...-2" data-name="Young Adults + Mystery + ..." class="cls-29" transform="translate(4.14 5.125)"><tspan x="0" y="0">Young Adults </tspan><tspan x="0" y="4">+ Mystery + ...</tspan></text>
+          <text id="_17" data-name="" class="cls-30" transform="translate(37.422 7.078)"><tspan x="0" y="0"></tspan></text>
+          <text id="_18" data-name="" class="cls-30" transform="translate(31.328 6.844)"><tspan x="0" y="0"></tspan></text>
           <g id="bottom-2" data-name="bottom" transform="translate(0 71.25)">
-            <rect id="Rectangle_81-2" data-name="Rectangle 81" class="cls-35" width="150" height="12.969" transform="translate(0 0.156)"/>
-            <text id="_19" data-name="" class="cls-38" transform="translate(141.406 7.687)"><tspan x="0" y="0"></tspan></text>
-            <text id="_20" data-name="" class="cls-38" transform="translate(5.703 7.687)"><tspan x="0" y="0"></tspan></text>
-            <text id="_21" data-name="" class="cls-38" transform="translate(39.531 7.687)"><tspan x="0" y="0"></tspan></text>
-            <text id="_22" data-name="" class="cls-38" transform="translate(111.094 7.687)"><tspan x="0" y="0"></tspan></text>
+            <rect id="Rectangle_81-2" data-name="Rectangle 81" class="cls-36" width="150" height="12.969" transform="translate(0 0.156)"/>
+            <text id="_19" data-name="" class="cls-39" transform="translate(141.406 7.687)"><tspan x="0" y="0"></tspan></text>
+            <text id="_20" data-name="" class="cls-39" transform="translate(5.703 7.687)"><tspan x="0" y="0"></tspan></text>
+            <text id="_21" data-name="" class="cls-39" transform="translate(39.531 7.687)"><tspan x="0" y="0"></tspan></text>
+            <text id="_22" data-name="" class="cls-39" transform="translate(111.094 7.687)"><tspan x="0" y="0"></tspan></text>
             <rect id="Rectangle_84-2" data-name="Rectangle 84" class="cls-10" width="18.203" height="0.391" rx="0.195" transform="translate(10.547)"/>
           </g>
-          <g id="Stack-8" data-name="Stack" class="cls-44" transform="translate(149.58 12.859) rotate(90)">
+          <g id="Stack-8" data-name="Stack" class="cls-45" transform="translate(149.58 12.859) rotate(90)">
             <g id="Group_1-7" data-name="Group 1" transform="translate(0 0)">
-              <path id="Rectangle_1-119" data-name="Rectangle 1" class="cls-23" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z"/>
-              <path id="Rectangle_63-3" data-name="Rectangle 63" class="cls-23" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 29.219)"/>
-              <path id="Rectangle_1-120" data-name="Rectangle 1" class="cls-23" d="M0,0H40.98a1,1,0,0,1,1,1V3.26a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 7.273)"/>
-              <path id="Rectangle_64-3" data-name="Rectangle 64" class="cls-23" d="M0,0H40.98a1,1,0,0,1,1,1V4.822a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 36.492)"/>
-              <path id="Rectangle_1-121" data-name="Rectangle 1" class="cls-23" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 11.875)"/>
-              <path id="Rectangle_1-122" data-name="Rectangle 1" class="cls-23" d="M0,0H35.949a1,1,0,0,1,1,1V8.842a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 19.113)"/>
-              <path id="Rectangle_1-123" data-name="Rectangle 1" class="cls-23" d="M0,0H45.316a1,1,0,0,1,1,1V9.049a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 106.172)"/>
-              <path id="Rectangle_1-124" data-name="Rectangle 1" class="cls-23" d="M0,0H40.98a1,1,0,0,1,1,1V5.023a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 116.526)"/>
-              <path id="Rectangle_1-125" data-name="Rectangle 1" class="cls-23" d="M0,0H32.653a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 122.812)"/>
-              <path id="Rectangle_1-126" data-name="Rectangle 1" class="cls-23" d="M0,0H40.98a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 130.078)"/>
-              <path id="Rectangle_1-127" data-name="Rectangle 1" class="cls-23" d="M0,0H45.316a1,1,0,0,1,1,1V4.049a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 137.344)"/>
-              <path id="Rectangle_1-128" data-name="Rectangle 1" class="cls-23" d="M0,0H34.214a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 142.578)"/>
-              <text id="Angels_Of_The_Past-13" data-name="Angels Of The Past" class="cls-25" transform="translate(2.41 4.175)"><tspan x="0" y="0">Angels Of The Past</tspan></text>
-              <text id="Owls_Of_The_Mountain-8" data-name="Owls Of The Mountain" class="cls-25" transform="translate(2.41 9.957)"><tspan x="0" y="0">Owls Of The Mountain</tspan></text>
-              <text id="Kicking_The_River-3" data-name="Kicking The River" class="cls-25" transform="translate(2.41 15.738)"><tspan x="0" y="0">Kicking The River</tspan></text>
-              <text id="Hidden_In_Hope-8" data-name="Hidden In Hope" class="cls-25" transform="translate(2.41 24.41)"><tspan x="0" y="0">Hidden In Hope</tspan></text>
-              <text id="Armies_And_Assassins-8" data-name="Armies And Assassins" class="cls-25" transform="translate(2.41 111.832)"><tspan x="0" y="0">Armies And Assassins</tspan></text>
-              <text id="Supporter_Without_Honor-8" data-name="Supporter Without Honor" class="cls-25" transform="translate(2.41 120.425)"><tspan x="0" y="0">Supporter Without Honor</tspan></text>
-              <text id="Fixed_In_Solar_Flares-8" data-name="Fixed In Solar Flares" class="cls-25" transform="translate(2.41 134.253)"><tspan x="0" y="0">Fixed In Solar Flares</tspan></text>
-              <text id="Scared_Of_The_End-8" data-name="Scared Of The End" class="cls-25" transform="translate(2.41 127.144)"><tspan x="0" y="0">Scared Of The End</tspan></text>
-              <text id="Creating_Fantasy-8" data-name="Creating Fantasy" class="cls-25" transform="translate(2.41 140.503)"><tspan x="0" y="0">Creating Fantasy</tspan></text>
-              <text id="Lights_In_My_Street-8" data-name="Lights In My Street" class="cls-25" transform="translate(2.41 146.832)"><tspan x="0" y="0">Lights In My Street</tspan></text>
+              <path id="Rectangle_1-119" data-name="Rectangle 1" class="cls-24" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z"/>
+              <path id="Rectangle_63-3" data-name="Rectangle 63" class="cls-24" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 29.219)"/>
+              <path id="Rectangle_1-120" data-name="Rectangle 1" class="cls-24" d="M0,0H40.98a1,1,0,0,1,1,1V3.26a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 7.273)"/>
+              <path id="Rectangle_64-3" data-name="Rectangle 64" class="cls-24" d="M0,0H40.98a1,1,0,0,1,1,1V4.822a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 36.492)"/>
+              <path id="Rectangle_1-121" data-name="Rectangle 1" class="cls-24" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 11.875)"/>
+              <path id="Rectangle_1-122" data-name="Rectangle 1" class="cls-24" d="M0,0H35.949a1,1,0,0,1,1,1V8.842a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 19.113)"/>
+              <path id="Rectangle_1-123" data-name="Rectangle 1" class="cls-24" d="M0,0H45.316a1,1,0,0,1,1,1V9.049a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 106.172)"/>
+              <path id="Rectangle_1-124" data-name="Rectangle 1" class="cls-24" d="M0,0H40.98a1,1,0,0,1,1,1V5.023a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 116.526)"/>
+              <path id="Rectangle_1-125" data-name="Rectangle 1" class="cls-24" d="M0,0H32.653a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 122.812)"/>
+              <path id="Rectangle_1-126" data-name="Rectangle 1" class="cls-24" d="M0,0H40.98a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 130.078)"/>
+              <path id="Rectangle_1-127" data-name="Rectangle 1" class="cls-24" d="M0,0H45.316a1,1,0,0,1,1,1V4.049a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 137.344)"/>
+              <path id="Rectangle_1-128" data-name="Rectangle 1" class="cls-24" d="M0,0H34.214a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 142.578)"/>
+              <text id="Angels_Of_The_Past-13" data-name="Angels Of The Past" class="cls-26" transform="translate(2.41 4.175)"><tspan x="0" y="0">Angels Of The Past</tspan></text>
+              <text id="Owls_Of_The_Mountain-8" data-name="Owls Of The Mountain" class="cls-26" transform="translate(2.41 9.957)"><tspan x="0" y="0">Owls Of The Mountain</tspan></text>
+              <text id="Kicking_The_River-3" data-name="Kicking The River" class="cls-26" transform="translate(2.41 15.738)"><tspan x="0" y="0">Kicking The River</tspan></text>
+              <text id="Hidden_In_Hope-8" data-name="Hidden In Hope" class="cls-26" transform="translate(2.41 24.41)"><tspan x="0" y="0">Hidden In Hope</tspan></text>
+              <text id="Armies_And_Assassins-8" data-name="Armies And Assassins" class="cls-26" transform="translate(2.41 111.832)"><tspan x="0" y="0">Armies And Assassins</tspan></text>
+              <text id="Supporter_Without_Honor-8" data-name="Supporter Without Honor" class="cls-26" transform="translate(2.41 120.425)"><tspan x="0" y="0">Supporter Without Honor</tspan></text>
+              <text id="Fixed_In_Solar_Flares-8" data-name="Fixed In Solar Flares" class="cls-26" transform="translate(2.41 134.253)"><tspan x="0" y="0">Fixed In Solar Flares</tspan></text>
+              <text id="Scared_Of_The_End-8" data-name="Scared Of The End" class="cls-26" transform="translate(2.41 127.144)"><tspan x="0" y="0">Scared Of The End</tspan></text>
+              <text id="Creating_Fantasy-8" data-name="Creating Fantasy" class="cls-26" transform="translate(2.41 140.503)"><tspan x="0" y="0">Creating Fantasy</tspan></text>
+              <text id="Lights_In_My_Street-8" data-name="Lights In My Street" class="cls-26" transform="translate(2.41 146.832)"><tspan x="0" y="0">Lights In My Street</tspan></text>
             </g>
           </g>
           <g id="Pop-out-2" data-name="Pop-out" transform="translate(43.594)">
-            <g id="Rectangle_67-2" data-name="Rectangle 67" class="cls-61">
+            <g id="Rectangle_67-2" data-name="Rectangle 67" class="cls-62">
               <rect class="cls-97" width="63.516" height="84.375"/>
               <rect class="cls-98" x="1" y="1" width="61.516" height="82.375"/>
             </g>
-            <text id="_23" data-name="" class="cls-62" transform="translate(58.75 5.047)"><tspan x="0" y="0"></tspan></text>
-            <text id="Everything_I_Never_Told_You_2" data-name="Everything I Never Told You " class="cls-63" transform="translate(3.281 4.578)"><tspan x="0" y="0">Everything I Never Told You </tspan></text>
-            <text id="Celeste_Ng-2" data-name="Celeste Ng" class="cls-64" transform="translate(41.172 3.969)"><tspan x="0" y="0">Celeste Ng</tspan></text>
-            <rect id="Rectangle_86" data-name="Rectangle 86" class="cls-65" width="63.516" height="4.375" transform="translate(0 8.437)"/>
-            <text id="Explore-2" data-name="Explore" class="cls-36" transform="translate(30.281 10.297)"><tspan x="-1.619" y="0">Explore</tspan></text>
-            <text id="_24" data-name="" class="cls-66" transform="translate(61.562 11.328) rotate(-90)"><tspan x="0" y="0"></tspan></text>
-            <text id="Others_exploratory_trails" data-name="Others&apos; exploratory trails" class="cls-67" transform="translate(24.844 15.922)"><tspan x="-5.458" y="0">Others&apos; exploratory trails</tspan></text>
+            <text id="_23" data-name="" class="cls-63" transform="translate(58.75 5.047)"><tspan x="0" y="0"></tspan></text>
+            <text id="Everything_I_Never_Told_You_2" data-name="Everything I Never Told You " class="cls-64" transform="translate(3.281 4.578)"><tspan x="0" y="0">Everything I Never Told You </tspan></text>
+            <text id="Celeste_Ng-2" data-name="Celeste Ng" class="cls-65" transform="translate(41.172 3.969)"><tspan x="0" y="0">Celeste Ng</tspan></text>
+            <rect id="Rectangle_86" data-name="Rectangle 86" class="cls-66" width="63.516" height="4.375" transform="translate(0 8.437)"/>
+            <text id="Explore-2" data-name="Explore" class="cls-37" transform="translate(30.281 10.297)"><tspan x="-1.619" y="0">Explore</tspan></text>
+            <text id="_24" data-name="" class="cls-67" transform="translate(61.562 11.328) rotate(-90)"><tspan x="0" y="0"></tspan></text>
+            <text id="Others_exploratory_trails" data-name="Others&apos; exploratory trails" class="cls-68" transform="translate(24.844 15.922)"><tspan x="-5.458" y="0">Others&apos; exploratory trails</tspan></text>
             <g id="Group_30" data-name="Group 30" transform="translate(26.172 24.844)">
               <g class="cls-109" transform="matrix(1, 0, 0, 1, -543.82, -653.84)">
-                <rect id="Rectangle_41-2" data-name="Rectangle 41" class="cls-23" width="11.109" height="13.789" transform="translate(543.82 653.84)"/>
+                <rect id="Rectangle_41-2" data-name="Rectangle 41" class="cls-24" width="11.109" height="13.789" transform="translate(543.82 653.84)"/>
               </g>
             </g>
-            <text id="More_Books" data-name="More Books" class="cls-67" transform="translate(28.937 47.25)"><tspan x="-2.678" y="0">More Books</tspan></text>
+            <text id="More_Books" data-name="More Books" class="cls-68" transform="translate(28.937 47.25)"><tspan x="-2.678" y="0">More Books</tspan></text>
             <g id="Group_31" data-name="Group 31" transform="translate(11.25 51.641)">
-              <rect id="Rectangle_87" data-name="Rectangle 87" class="cls-23" width="35.156" height="0.625" transform="translate(3.516 0.937)"/>
+              <rect id="Rectangle_87" data-name="Rectangle 87" class="cls-24" width="35.156" height="0.625" transform="translate(3.516 0.937)"/>
               <rect id="Rectangle_88" data-name="Rectangle 88" class="cls-10" width="1.875" height="2.5" transform="translate(33.359)"/>
-              <text id="different" class="cls-67" transform="translate(0 3.5)"><tspan x="0" y="0">different</tspan></text>
-              <text id="similar" class="cls-67" transform="translate(35.234 3.5)"><tspan x="0" y="0">similar</tspan></text>
+              <text id="different" class="cls-68" transform="translate(0 3.5)"><tspan x="0" y="0">different</tspan></text>
+              <text id="similar" class="cls-68" transform="translate(35.234 3.5)"><tspan x="0" y="0">similar</tspan></text>
             </g>
           </g>
-          <text id="_25" data-name="" class="cls-29" transform="translate(141.875 7.078)"><tspan x="0" y="0"></tspan></text>
-          <text id="exploratory_trail-3" data-name="exploratory trail" class="cls-39" transform="translate(132.594 7)"><tspan x="-13.994" y="0">exploratory trail</tspan></text>
-          <text id="Roots_of_the_Star-3" data-name="Roots of the Star" class="cls-68" transform="translate(116.655 15.269) rotate(90)"><tspan x="0" y="0">Roots of the Star</tspan></text>
-          <text id="Birth_Of_Twilight-3" data-name="Birth Of Twilight" class="cls-68" transform="translate(109.467 15.269) rotate(90)"><tspan x="0" y="0">Birth Of Twilight</tspan></text>
-          <path id="Pop-out_2x" data-name="Pop-out@2x" class="cls-69" d="M0,0H63.555V84.375H0Z" transform="translate(43.125)"/>
+          <text id="_25" data-name="" class="cls-30" transform="translate(141.875 7.078)"><tspan x="0" y="0"></tspan></text>
+          <text id="exploratory_trail-3" data-name="exploratory trail" class="cls-40" transform="translate(132.594 7)"><tspan x="-13.994" y="0">exploratory trail</tspan></text>
+          <text id="Roots_of_the_Star-3" data-name="Roots of the Star" class="cls-69" transform="translate(116.655 15.269) rotate(90)"><tspan x="0" y="0">Roots of the Star</tspan></text>
+          <text id="Birth_Of_Twilight-3" data-name="Birth Of Twilight" class="cls-69" transform="translate(109.467 15.269) rotate(90)"><tspan x="0" y="0">Birth Of Twilight</tspan></text>
+          <path id="Pop-out_2x" data-name="Pop-out@2x" class="cls-70" d="M0,0H63.555V84.375H0Z" transform="translate(43.125)"/>
         </g>
       </g>
       <g id="iter_03_descs" transform="translate(-339 450)">
@@ -1550,11 +1550,11 @@
         </g>
         <text id="Showing_Individual_Items" data-name="Showing Individual Items" class="cls-19" transform="translate(720 491)"><tspan x="0" y="0">Showing Individual Items</tspan></text>
         <text id="Another_downside_of_vertical_scrolling_is_that_the_item_would_have_to_be_shown_in_a_separated_section_that_disrupt_users_flow_of_scanning." data-name="Another downside of vertical scrolling is that the item would have to be shown in a separated section that disrupt users’ flow of scanning." class="cls-20" transform="translate(720 520)"><tspan x="0" y="0">Another downside of vertical scrolling is that </tspan><tspan x="0" y="21">the item would have to be shown in a separated </tspan><tspan x="0" y="42">section that disrupt users’ flow of scanning.</tspan></text>
-        <text id="Rather_than_opening_the_item_in_a_different_page_expanding_it_while_retaining_its_position_relative_to_other_items_maintains_the_flow_of_browsing_and_simulates_the_action_of_user_opening_a_book_right_in_front_of_a_physical_shelf." data-name="Rather than opening the item in a different page, expanding it while retaining its position relative to other items maintains the flow of browsing and simulates the action of user opening a book right in front of a physical shelf." class="cls-20" transform="translate(720 579)"><tspan x="0" y="13">Rather than opening the item in a different </tspan><tspan x="0" y="34">page, expanding it while retaining its position </tspan><tspan x="0" y="55">relative to other items maintains the flow of </tspan><tspan x="0" y="76">browsing and </tspan><tspan class="cls-70" y="76">simulates the action of user </tspan><tspan class="cls-70" x="0" y="97">opening a book right in front of a physical shelf</tspan><tspan y="97">.</tspan></text>
+        <text id="Rather_than_opening_the_item_in_a_different_page_expanding_it_while_retaining_its_position_relative_to_other_items_maintains_the_flow_of_browsing_and_simulates_the_action_of_user_opening_a_book_right_in_front_of_a_physical_shelf." data-name="Rather than opening the item in a different page, expanding it while retaining its position relative to other items maintains the flow of browsing and simulates the action of user opening a book right in front of a physical shelf." class="cls-20" transform="translate(720 579)"><tspan x="0" y="13">Rather than opening the item in a different </tspan><tspan x="0" y="34">page, expanding it while retaining its position </tspan><tspan x="0" y="55">relative to other items maintains the flow of </tspan><tspan x="0" y="76">browsing and </tspan><tspan class="cls-21" y="76">simulates the action of user </tspan><tspan class="cls-21" x="0" y="97">opening a book right in front of a physical shelf</tspan><tspan y="97">.</tspan></text>
       </g>
     </g>
     <g id="Group_199" data-name="Group 199" transform="translate(44 658)">
-      <path id="Path_163-3" data-name="Path 163" class="cls-21" d="M8611.007,19929.268s1.213,49.934-147.212,31.266-159.265,16.225-158.844,29.559" transform="translate(-7822.94 -19269)"/>
+      <path id="Path_163-3" data-name="Path 163" class="cls-22" d="M8611.007,19929.268s1.213,49.934-147.212,31.266-159.265,16.225-158.844,29.559" transform="translate(-7822.94 -19269)"/>
       <g id="Symbol_1_2" data-name="Symbol 1 – 2" transform="matrix(0.978, 0.208, -0.208, 0.978, 143.539, -210.128)">
         <path id="Path_166-2" data-name="Path 166" class="cls-10" d="M3.526,6.9,0,0,3.64,1.188l3.375-1.3Z" transform="matrix(0.988, -0.156, 0.156, 0.988, 520.403, 836.009)"/>
       </g>
@@ -1587,7 +1587,7 @@
           </g>
         </g>
         <g id="Group_206" data-name="Group 206" transform="translate(19 505.541)">
-          <path id="Path_165-2" data-name="Path 165" class="cls-21" d="M8428.533,20081.1c-2.333,3.123-1.836,20.244,0,24.275" transform="translate(-7904 -19267.643)"/>
+          <path id="Path_165-2" data-name="Path 165" class="cls-22" d="M8428.533,20081.1c-2.333,3.123-1.836,20.244,0,24.275" transform="translate(-7904 -19267.643)"/>
           <g id="Symbol_1_3" data-name="Symbol 1 – 3">
             <path id="Path_166-3" data-name="Path 166" class="cls-10" d="M3.526,6.9,0,0,3.64,1.188l3.375-1.3Z" transform="matrix(0.988, -0.156, 0.156, 0.988, 520.403, 836.009)"/>
           </g>
@@ -1623,18 +1623,18 @@
               <text id="A_profoundly_moving_story_of_family_secrets_and_longing_Everything_I_Never_Told_You_is_both_a_gripping_page-turner_and_a_sensitive_family_portrait_uncovering_the_ways_in_which_mothers_and_daughters_fathers_and_sons_and_husbands_and_wives_struggle_al" data-name="A profoundly moving story of family, secrets, and longing, Everything I Never Told You is both a gripping page-turner and a sensitive family portrait, uncovering the ways in which mothers and daughters, fathers and sons, and husbands and wives struggle, al" class="cls-83" transform="translate(51.563 51.094)"><tspan x="0" y="1">A profoundly moving story of family, secrets, and longing, Everything I Never Told You is both a gripping </tspan><tspan x="0" y="3.5">page-turner and a sensitive family portrait, uncovering the ways in which mothers and daughters, fathers </tspan><tspan x="0" y="6">and sons, and husbands and wives struggle, all their lives, to understand one another.</tspan></text>
               <g id="Group_58" data-name="Group 58" transform="translate(52.031 60.094)">
                 <text id="Age-3" data-name="Age" class="cls-84" transform="translate(0 1)"><tspan x="0" y="0">Age</tspan></text>
-                <text id="Young_Adult-2" data-name="Young Adult" class="cls-37" transform="translate(0 4.266)"><tspan x="0" y="0">Young Adult</tspan></text>
+                <text id="Young_Adult-2" data-name="Young Adult" class="cls-38" transform="translate(0 4.266)"><tspan x="0" y="0">Young Adult</tspan></text>
                 <text id="Genre-3" data-name="Genre" class="cls-84" transform="translate(18.984 1)"><tspan x="0" y="0">Genre</tspan></text>
-                <text id="Mystery_Phychological" data-name="MysteryPhychological" class="cls-37" transform="translate(18.984 4.266)"><tspan x="0" y="0">Mystery</tspan><tspan x="0" y="3">Phychological</tspan></text>
+                <text id="Mystery_Phychological" data-name="MysteryPhychological" class="cls-38" transform="translate(18.984 4.266)"><tspan x="0" y="0">Mystery</tspan><tspan x="0" y="3">Phychological</tspan></text>
                 <text id="Dewey" class="cls-84" transform="translate(41.25 1)"><tspan x="0" y="0">Dewey</tspan></text>
-                <text id="_813.6" data-name="813.6" class="cls-37" transform="translate(41.25 4.266)"><tspan x="0" y="0">813.6</tspan></text>
+                <text id="_813.6" data-name="813.6" class="cls-38" transform="translate(41.25 4.266)"><tspan x="0" y="0">813.6</tspan></text>
               </g>
               <text id="Detail" class="cls-78" transform="translate(51.484 80.375)"><tspan x="0" y="0">Detail</tspan></text>
               <text id="Availability" class="cls-78" transform="translate(60.156 80.375)"><tspan x="0" y="0">Availability</tspan></text>
               <text id="Review" class="cls-78" transform="translate(72.734 80.375)"><tspan x="0" y="0">Review</tspan></text>
               <text id="Preview-2" data-name="Preview" class="cls-78" transform="translate(82.578 80.375)"><tspan x="0" y="0">Preview</tspan></text>
               <text id="Explore-3" data-name="Explore" class="cls-78" transform="translate(92.891 80.375)"><tspan x="0" y="0">Explore</tspan></text>
-              <line id="Line_18" data-name="Line 18" class="cls-27" x2="66.875" transform="translate(41.758 77.539)"/>
+              <line id="Line_18" data-name="Line 18" class="cls-28" x2="66.875" transform="translate(41.758 77.539)"/>
             </g>
           </g>
         </g>
@@ -1674,26 +1674,26 @@
                 <text id="Dewey-2" data-name="Dewey" class="cls-84" transform="translate(41.25 1)"><tspan x="0" y="0">Dewey</tspan></text>
                 <text id="_813.6-2" data-name="813.6" class="cls-77" transform="translate(41.25 3.266)"><tspan x="0" y="0">813.6</tspan></text>
               </g>
-              <line id="Line_18-2" data-name="Line 18" class="cls-27" x2="57.969" transform="translate(1.055 39.586)"/>
+              <line id="Line_18-2" data-name="Line 18" class="cls-28" x2="57.969" transform="translate(1.055 39.586)"/>
               <g id="Group_66" data-name="Group 66" transform="translate(7.344 42.578)">
                 <g id="Group_61" data-name="Group 61" transform="translate(0 -1)">
-                  <text id="Detail-2" data-name="Detail" class="cls-67" transform="translate(1.156 4.984)"><tspan x="-1.283" y="0">Detail</tspan></text>
-                  <text id="_26" data-name="" class="cls-38" transform="translate(-0.344 3)"><tspan x="0" y="0"></tspan></text>
+                  <text id="Detail-2" data-name="Detail" class="cls-68" transform="translate(1.156 4.984)"><tspan x="-1.283" y="0">Detail</tspan></text>
+                  <text id="_26" data-name="" class="cls-39" transform="translate(-0.344 3)"><tspan x="0" y="0"></tspan></text>
                 </g>
                 <g id="Group_62" data-name="Group 62" transform="translate(9.984 -1)">
-                  <text id="Availability-2" data-name="Availability" class="cls-67" transform="translate(-0.328 5.063)"><tspan x="0" y="0">Availability</tspan></text>
-                  <text id="_27" data-name="" class="cls-38" transform="translate(0.672 3)"><tspan x="0" y="0"></tspan></text>
+                  <text id="Availability-2" data-name="Availability" class="cls-68" transform="translate(-0.328 5.063)"><tspan x="0" y="0">Availability</tspan></text>
+                  <text id="_27" data-name="" class="cls-39" transform="translate(0.672 3)"><tspan x="0" y="0"></tspan></text>
                 </g>
                 <g id="Group_65" data-name="Group 65" transform="translate(20.172 -0.844)">
-                  <text id="Review-2" data-name="Review" class="cls-67" transform="translate(0.484 4.906)"><tspan x="0" y="0">Review</tspan></text>
+                  <text id="Review-2" data-name="Review" class="cls-68" transform="translate(0.484 4.906)"><tspan x="0" y="0">Review</tspan></text>
                   <text id="_28" data-name="" class="cls-88" transform="translate(0.484)"><tspan x="0" y="3"></tspan></text>
                 </g>
                 <g id="Group_64" data-name="Group 64" transform="translate(29.859 -0.688)">
-                  <text id="Preview-3" data-name="Preview" class="cls-67" transform="translate(0.797 4.75)"><tspan x="0" y="0">Preview</tspan></text>
-                  <text id="_29" data-name="" class="cls-38" transform="translate(1.297 2.846)"><tspan x="0" y="0"></tspan></text>
+                  <text id="Preview-3" data-name="Preview" class="cls-68" transform="translate(0.797 4.75)"><tspan x="0" y="0">Preview</tspan></text>
+                  <text id="_29" data-name="" class="cls-39" transform="translate(1.297 2.846)"><tspan x="0" y="0"></tspan></text>
                 </g>
                 <g id="Group_63" data-name="Group 63" transform="translate(41.172 -0.766)">
-                  <text id="Explore-4" data-name="Explore" class="cls-67" transform="translate(0.484 4.828)"><tspan x="0" y="0">Explore</tspan></text>
+                  <text id="Explore-4" data-name="Explore" class="cls-68" transform="translate(0.484 4.828)"><tspan x="0" y="0">Explore</tspan></text>
                   <text id="_30" data-name="" class="cls-88" transform="translate(0.484 2.924)"><tspan x="0" y="0"></tspan></text>
                 </g>
               </g>
@@ -1702,12 +1702,12 @@
                 <text id="Read_Synopsis" data-name="Read Synopsis" class="cls-90" transform="translate(0 3.734)"><tspan x="0" y="0">Read </tspan><tspan x="0" y="2">Synopsis</tspan></text>
               </g>
               <text id="_297_pages_7.8_in" data-name="297 pages
-7.8 in" class="cls-36" transform="translate(8.547 2.641)"><tspan x="-1.906" y="0">297 </tspan><tspan x="-2.911" y="1">pages </tspan><tspan x="0" y="2"></tspan><tspan x="-2.364" y="3">7.8 in</tspan></text>
+7.8 in" class="cls-37" transform="translate(8.547 2.641)"><tspan x="-1.906" y="0">297 </tspan><tspan x="-2.911" y="1">pages </tspan><tspan x="0" y="2"></tspan><tspan x="-2.364" y="3">7.8 in</tspan></text>
             </g>
           </g>
         </g>
         <g id="Group_207" data-name="Group 207" transform="translate(19 614.541)">
-          <path id="Path_165-3" data-name="Path 165" class="cls-21" d="M8428.533,20081.1c-2.333,3.123-1.836,20.244,0,24.275" transform="translate(-7904 -19267.643)"/>
+          <path id="Path_165-3" data-name="Path 165" class="cls-22" d="M8428.533,20081.1c-2.333,3.123-1.836,20.244,0,24.275" transform="translate(-7904 -19267.643)"/>
           <g id="Symbol_1_4" data-name="Symbol 1 – 4">
             <path id="Path_166-4" data-name="Path 166" class="cls-10" d="M3.526,6.9,0,0,3.64,1.188l3.375-1.3Z" transform="matrix(0.988, -0.156, 0.156, 0.988, 520.403, 836.009)"/>
           </g>
@@ -1724,8 +1724,8 @@
             </g>
             <g id="Group_57-3" data-name="Group 57" transform="translate(126.448 24.464)">
               <text id="Everything_I_Never_Told_You-4" data-name="Everything I Never Told You" class="cls-92" transform="translate(0 4)"><tspan x="0" y="0">Everything I Never Told You</tspan></text>
-              <text id="Celest_Ng-3" data-name="Celest Ng" class="cls-37" transform="translate(9.214 10.102)"><tspan x="0" y="0">Celest Ng</tspan></text>
-              <text id="_2014-3" data-name="2014" class="cls-31" transform="translate(30.659 10.102)"><tspan x="0" y="0">2014</tspan></text>
+              <text id="Celest_Ng-3" data-name="Celest Ng" class="cls-38" transform="translate(9.214 10.102)"><tspan x="0" y="0">Celest Ng</tspan></text>
+              <text id="_2014-3" data-name="2014" class="cls-32" transform="translate(30.659 10.102)"><tspan x="0" y="0">2014</tspan></text>
             </g>
             <g id="mockup_v3" transform="translate(89.594 37.807)">
               <rect id="Rectangle_111-2" data-name="Rectangle 111" class="cls-4" width="123.906" height="101.031"/>
@@ -1741,41 +1741,41 @@
                 <rect id="Image_37-3" data-name="Image 37" class="cls-82" width="36.089" height="55.238" transform="translate(44.797)"/>
               </g>
               <g id="Group_58-3" data-name="Group 58" transform="translate(4.766 4.13)">
-                <text id="Age-5" data-name="Age" class="cls-30" transform="translate(0 2)"><tspan x="0" y="0">Age</tspan></text>
+                <text id="Age-5" data-name="Age" class="cls-31" transform="translate(0 2)"><tspan x="0" y="0">Age</tspan></text>
                 <text id="Young_Adult-4" data-name="Young Adult" class="cls-94" transform="translate(0 7.607)"><tspan x="0" y="0">Young Adult</tspan></text>
-                <text id="Genre-5" data-name="Genre" class="cls-30" transform="translate(0 15.661)"><tspan x="0" y="0">Genre</tspan></text>
+                <text id="Genre-5" data-name="Genre" class="cls-31" transform="translate(0 15.661)"><tspan x="0" y="0">Genre</tspan></text>
                 <text id="Mystery_Phychological_Thriller" data-name="MysteryPhychological
 Thriller" class="cls-94" transform="translate(0 21.268)"><tspan x="0" y="0">Mystery</tspan><tspan x="0" y="5">Phychological</tspan><tspan x="0" y="10">Thriller</tspan></text>
-                <text id="Dewey-3" data-name="Dewey" class="cls-30" transform="translate(0 40.76)"><tspan x="0" y="0">Dewey</tspan></text>
+                <text id="Dewey-3" data-name="Dewey" class="cls-31" transform="translate(0 40.76)"><tspan x="0" y="0">Dewey</tspan></text>
                 <text id="_813.6-3" data-name="813.6" class="cls-94" transform="translate(0 46.367)"><tspan x="0" y="0">813.6</tspan></text>
               </g>
               <g id="bottom-nav" transform="translate(4.051 78.553)">
-                <line id="Line_18-3" data-name="Line 18" class="cls-27" x2="117.87" transform="translate(0 0)"/>
+                <line id="Line_18-3" data-name="Line 18" class="cls-28" x2="117.87" transform="translate(0 0)"/>
                 <g id="Group_66-2" data-name="Group 66" transform="translate(12.788 4.051)">
                   <g id="Group_61-2" data-name="Group 61" transform="translate(0 0)">
-                    <text id="Detail-3" data-name="Detail" class="cls-31" transform="translate(0.568 10.102)"><tspan x="0" y="0">Detail</tspan></text>
-                    <text id="_32" data-name="" class="cls-43" transform="translate(0.568 5)"><tspan x="0" y="0"></tspan></text>
+                    <text id="Detail-3" data-name="Detail" class="cls-32" transform="translate(0.568 10.102)"><tspan x="0" y="0">Detail</tspan></text>
+                    <text id="_32" data-name="" class="cls-44" transform="translate(0.568 5)"><tspan x="0" y="0"></tspan></text>
                   </g>
                   <g id="Group_62-2" data-name="Group 62" transform="translate(20.268 0)">
-                    <text id="Availability-3" data-name="Availability" class="cls-31" transform="translate(0.299 10.26)"><tspan x="0" y="0">Availability</tspan></text>
-                    <text id="_33" data-name="" class="cls-43" transform="translate(2.299 5)"><tspan x="0" y="0"></tspan></text>
+                    <text id="Availability-3" data-name="Availability" class="cls-32" transform="translate(0.299 10.26)"><tspan x="0" y="0">Availability</tspan></text>
+                    <text id="_33" data-name="" class="cls-44" transform="translate(2.299 5)"><tspan x="0" y="0"></tspan></text>
                   </g>
                   <g id="Group_65-2" data-name="Group 65" transform="translate(43.526 0.318)">
-                    <text id="Review-3" data-name="Review" class="cls-31" transform="translate(1.041 9.943)"><tspan x="0" y="0">Review</tspan></text>
-                    <text id="_34" data-name="" class="cls-43" transform="translate(0.041)"><tspan x="0" y="5"></tspan></text>
+                    <text id="Review-3" data-name="Review" class="cls-32" transform="translate(1.041 9.943)"><tspan x="0" y="0">Review</tspan></text>
+                    <text id="_34" data-name="" class="cls-44" transform="translate(0.041)"><tspan x="0" y="5"></tspan></text>
                   </g>
                   <g id="Group_64-2" data-name="Group 64" transform="translate(64.336 0.318)">
-                    <text id="Rate" class="cls-31" transform="translate(1.231 9.943)"><tspan x="0" y="0">Rate</tspan></text>
-                    <text id="_35" data-name="" class="cls-41" transform="translate(0.231 4)"><tspan x="0" y="0"></tspan></text>
+                    <text id="Rate" class="cls-32" transform="translate(1.231 9.943)"><tspan x="0" y="0">Rate</tspan></text>
+                    <text id="_35" data-name="" class="cls-42" transform="translate(0.231 4)"><tspan x="0" y="0"></tspan></text>
                   </g>
                   <g id="Group_63-2" data-name="Group 63" transform="translate(83.716 0.477)">
-                    <text id="Explore-5" data-name="Explore" class="cls-31" transform="translate(-0.148 9.784)"><tspan x="0" y="0">Explore</tspan></text>
+                    <text id="Explore-5" data-name="Explore" class="cls-32" transform="translate(-0.148 9.784)"><tspan x="0" y="0">Explore</tspan></text>
                     <text id="_36" data-name="" class="cls-95" transform="translate(0.852 4)"><tspan x="0" y="0"></tspan></text>
                   </g>
                 </g>
               </g>
-              <text id="New_York:_Penguin_Press_297_pages_7.8_in" data-name="New York: Penguin Press297 pages; 7.8 in" class="cls-34" transform="translate(36.854 63.383)"><tspan x="0" y="2">New York: Penguin Press</tspan><tspan class="cls-96" y="2"></tspan><tspan class="cls-96"><tspan x="0" y="5">297 pages; 7.8 in</tspan></tspan></text>
-              <text id="Read_Synopsis-2" data-name="Read Synopsis" class="cls-37" transform="translate(98.013 63.383)"><tspan x="4.17" y="2">Read Synopsis</tspan></text>
+              <text id="New_York:_Penguin_Press_297_pages_7.8_in" data-name="New York: Penguin Press297 pages; 7.8 in" class="cls-35" transform="translate(36.854 63.383)"><tspan x="0" y="2">New York: Penguin Press</tspan><tspan class="cls-96" y="2"></tspan><tspan class="cls-96"><tspan x="0" y="5">297 pages; 7.8 in</tspan></tspan></text>
+              <text id="Read_Synopsis-2" data-name="Read Synopsis" class="cls-38" transform="translate(98.013 63.383)"><tspan x="4.17" y="2">Read Synopsis</tspan></text>
             </g>
           </g>
         </g>
@@ -1788,7 +1788,7 @@ Thriller" class="cls-94" transform="translate(0 21.268)"><tspan x="0" y="0">Myst
           <text id="Interactive_Prototype" data-name="Interactive Prototype" class="cls-18" transform="translate(439 449)"><tspan x="-54.252" y="0">Interactive Prototype</tspan></text>
         </g>
         <text id="Density_of_Information" data-name="Density of Information" class="cls-19" transform="translate(710 523)"><tspan x="0" y="0">Density of Information</tspan></text>
-        <text id="The_amount_of_info_being_shown_about_an_individual_item_was_minimized_after_results_from_evaluations_showed_that_participants_appreciated_having_access_to_those_information_but_found_it_too_much_to_glance_through_visually_and_suggested_that_they_did_not_" data-name="The amount of info being shown about an individual item was minimized after results from evaluations showed that participants appreciated having access to those information, but found it too much to glance through visually, and suggested that they did not " class="cls-20" transform="translate(710 539)"><tspan x="0" y="13">The amount of</tspan><tspan class="cls-70" y="13" xml:space="preserve"> info being shown about an </tspan><tspan class="cls-70" x="0" y="34">individual item was minimized</tspan><tspan y="34" xml:space="preserve"> after results </tspan><tspan x="0" y="55">from evaluations showed that participants </tspan><tspan x="0" y="76">appreciated having access to those </tspan><tspan x="0" y="97">information, but found it too much to glance </tspan><tspan x="0" y="118">through visually, and suggested that they did </tspan><tspan x="0" y="139">not need that amount of metadata when just </tspan><tspan x="0" y="160">browsing from item to item.</tspan></text>
+        <text id="The_amount_of_info_being_shown_about_an_individual_item_was_minimized_after_results_from_evaluations_showed_that_participants_appreciated_having_access_to_those_information_but_found_it_too_much_to_glance_through_visually_and_suggested_that_they_did_not_" data-name="The amount of info being shown about an individual item was minimized after results from evaluations showed that participants appreciated having access to those information, but found it too much to glance through visually, and suggested that they did not " class="cls-20" transform="translate(710 539)"><tspan x="0" y="13">The amount of</tspan><tspan class="cls-21" y="13" xml:space="preserve"> info being shown about an </tspan><tspan class="cls-21" x="0" y="34">individual item was minimized</tspan><tspan y="34" xml:space="preserve"> after results </tspan><tspan x="0" y="55">from evaluations showed that participants </tspan><tspan x="0" y="76">appreciated having access to those </tspan><tspan x="0" y="97">information, but found it too much to glance </tspan><tspan x="0" y="118">through visually, and suggested that they did </tspan><tspan x="0" y="139">not need that amount of metadata when just </tspan><tspan x="0" y="160">browsing from item to item.</tspan></text>
       </g>
     </g>
   </g>

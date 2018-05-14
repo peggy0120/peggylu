@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 513 60">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #888;
+      }
+
+      .cls-2 {
+        fill: #f9f9f9;
+        font-size: 16px;
+        font-family: Roboto-Light, Roboto;
+        font-weight: 300;
+      }
+
+      .cls-3 {
+        fill: #33b599;
+      }
+
+      .cls-4 {
+        fill: #fac339;
+      }
+
+      .cls-5 {
+        fill: #51a6df;
+      }
+
+      .cls-6 {
+        fill: none;
+        stroke: #707070;
+        opacity: 0;
+      }
+
+      .cls-7 {
+        filter: url(#Rectangle_144-4);
+      }
+
+      .cls-8 {
+        filter: url(#Path_169);
+      }
+
+      .cls-9 {
+        filter: url(#Rectangle_144-3);
+      }
+
+      .cls-10 {
+        filter: url(#Path_168);
+      }
+
+      .cls-11 {
+        filter: url(#Rectangle_144-2);
+      }
+
+      .cls-12 {
+        filter: url(#Path_167);
+      }
+
+      .cls-13 {
+        filter: url(#Rectangle_144);
+      }
+    </style>
+    <filter id="Rectangle_144" x="0" y="0" width="101" height="45" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_167" x="106.196" y="12.406" width="23.893" height="19.402" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_144-2" x="135" y="0" width="101" height="45" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_168" x="242.196" y="12.406" width="23.893" height="19.402" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_144-3" x="271" y="0" width="110" height="45" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_169" x="387.196" y="12.406" width="23.893" height="19.402" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_144-4" x="415" y="0" width="98" height="45" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-7"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="capstone-path" transform="translate(-368 -356)">
+    <g id="Group_209" data-name="Group 209" transform="translate(-20 10)">
+      <g class="cls-13" transform="matrix(1, 0, 0, 1, 388, 346)">
+        <rect id="Rectangle_144-5" data-name="Rectangle 144" class="cls-1" width="95" height="39" rx="2" transform="translate(3 2)"/>
+      </g>
+      <text id="Library" class="cls-2" transform="translate(415 373)"><tspan x="0" y="0">Library</tspan></text>
+    </g>
+    <g class="cls-12" transform="matrix(1, 0, 0, 1, 368, 356)">
+      <path id="Path_167-2" data-name="Path 167" class="cls-3" d="M1461.054,19637.881h10.409v-4.326l7.484,6.9-7.484,6.5v-3.893h-10.409Z" transform="translate(-1351.86 -19619.15)"/>
+    </g>
+    <g id="Group_210" data-name="Group 210" transform="translate(115 10)">
+      <g class="cls-11" transform="matrix(1, 0, 0, 1, 253, 346)">
+        <rect id="Rectangle_144-6" data-name="Rectangle 144" class="cls-3" width="95" height="39" rx="2" transform="translate(138 2)"/>
+      </g>
+      <text id="Discovery" class="cls-2" transform="translate(405 373)"><tspan x="0" y="0">Discovery</tspan></text>
+    </g>
+    <g class="cls-10" transform="matrix(1, 0, 0, 1, 368, 356)">
+      <path id="Path_168-2" data-name="Path 168" class="cls-4" d="M1461.054,19637.881h10.409v-4.326l7.484,6.9-7.484,6.5v-3.893h-10.409Z" transform="translate(-1215.86 -19619.15)"/>
+    </g>
+    <g id="Group_211" data-name="Group 211" transform="translate(251 10)">
+      <g class="cls-9" transform="matrix(1, 0, 0, 1, 117, 346)">
+        <rect id="Rectangle_144-7" data-name="Rectangle 144" class="cls-4" width="104" height="39" rx="2" transform="translate(274 2)"/>
+      </g>
+      <text id="Serendipity" class="cls-2" transform="translate(404 373)"><tspan x="0" y="0">Serendipity</tspan></text>
+    </g>
+    <g class="cls-8" transform="matrix(1, 0, 0, 1, 368, 356)">
+      <path id="Path_169-2" data-name="Path 169" class="cls-5" d="M1461.054,19637.881h10.409v-4.326l7.484,6.9-7.484,6.5v-3.893h-10.409Z" transform="translate(-1070.86 -19619.15)"/>
+    </g>
+    <g id="Group_212" data-name="Group 212" transform="translate(395 10)">
+      <g class="cls-7" transform="matrix(1, 0, 0, 1, -27, 346)">
+        <rect id="Rectangle_144-8" data-name="Rectangle 144" class="cls-5" width="92" height="39" rx="2" transform="translate(418 2)"/>
+      </g>
+      <text id="Browsing" class="cls-2" transform="translate(404 373)"><tspan x="0" y="0">Browsing</tspan></text>
+    </g>
+    <line id="Line_101" data-name="Line 101" class="cls-6" x2="18" transform="translate(612.5 415.5)"/>
+  </g>
+</svg>
