@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 508 257">
+  <defs>
+    <style>
+      .cls-1, .cls-6, .cls-9 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #33b599;
+      }
+
+      .cls-2, .cls-3, .cls-5 {
+        fill: #33b599;
+      }
+
+      .cls-2, .cls-7 {
+        font-size: 14px;
+      }
+
+      .cls-2, .cls-4, .cls-5, .cls-7 {
+        font-family: Roboto-Light, Roboto;
+        font-weight: 300;
+      }
+
+      .cls-4 {
+        fill: #f9f9f9;
+        font-size: 16px;
+      }
+
+      .cls-5 {
+        font-size: 13px;
+      }
+
+      .cls-6 {
+        stroke: rgba(112,112,112,0);
+      }
+
+      .cls-7 {
+        fill: #888;
+      }
+
+      .cls-8 {
+        stroke: none;
+      }
+
+      .cls-10 {
+        filter: url(#Rectangle_123);
+      }
+
+      .cls-11 {
+        filter: url(#Rectangle_124);
+      }
+
+      .cls-12 {
+        filter: url(#Rectangle_125);
+      }
+    </style>
+    <filter id="Rectangle_125" x="39" y="74" width="72" height="34" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_124" x="217" y="74" width="72" height="34" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_123" x="397" y="74" width="72" height="34" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="capstone_DesignDirections" transform="translate(-374 -165)">
+    <g id="prop-1" transform="translate(5 4)">
+      <g id="Rectangle_128" data-name="Rectangle 128" class="cls-1" transform="translate(369 255)">
+        <rect class="cls-8" width="150" height="126" rx="3"/>
+        <rect class="cls-9" x="0.5" y="0.5" width="149" height="125" rx="2.5"/>
+      </g>
+      <text id="Be_Immersive_Explorative_Engaging" data-name="Be Immersive,Explorative,&amp; Engaging" class="cls-2" transform="translate(444 303)"><tspan x="-43.241" y="0">Be Immersive,</tspan><tspan x="-34.819" y="19">Explorative,</tspan><tspan x="-34.648" y="38">&amp; Engaging</tspan></text>
+      <g class="cls-12" transform="matrix(1, 0, 0, 1, 369, 161)">
+        <rect id="Rectangle_125-2" data-name="Rectangle 125" class="cls-3" width="66" height="28" rx="2" transform="translate(42 76)"/>
+      </g>
+      <text id="_1" data-name="# 1" class="cls-4" transform="translate(444 257)"><tspan x="-11.031" y="0"># 1</tspan></text>
+    </g>
+    <g id="prop-2" transform="translate(34 4)">
+      <g id="Rectangle_129" data-name="Rectangle 129" class="cls-1" transform="translate(519 255)">
+        <rect class="cls-8" width="150" height="126" rx="3"/>
+        <rect class="cls-9" x="0.5" y="0.5" width="149" height="125" rx="2.5"/>
+      </g>
+      <text id="Support_Seamless_Flow_of_Moving_between_Collections_and_Individual_Items" data-name="Support Seamless Flow of Moving between Collections and Individual Items" class="cls-5" transform="translate(537 276)"><tspan x="4.873" y="12">Support Seamless </tspan><tspan x="13.417" y="30">Flow of Moving </tspan><tspan x="32.765" y="48">between </tspan><tspan x="13.227" y="66">Collections and </tspan><tspan x="12.119" y="84">Individual Items</tspan></text>
+      <g class="cls-11" transform="matrix(1, 0, 0, 1, 340, 161)">
+        <rect id="Rectangle_124-2" data-name="Rectangle 124" class="cls-3" width="66" height="28" rx="2" transform="translate(220 76)"/>
+      </g>
+      <text id="_2" data-name="# 2" class="cls-4" transform="translate(593 257)"><tspan x="-11.031" y="0"># 2</tspan></text>
+    </g>
+    <g id="prop-3" transform="translate(7 3)">
+      <g id="Rectangle_130" data-name="Rectangle 130" class="cls-1" transform="translate(725 255)">
+        <rect class="cls-8" width="150" height="126" rx="3"/>
+        <rect class="cls-9" x="0.5" y="0.5" width="149" height="125" rx="2.5"/>
+      </g>
+      <text id="Incorporate_Physical_Characteristics_while_Capitalize_on_the_Affordance_of_Technology" data-name="Incorporate Physical Characteristics while Capitalize on the Affordance of Technology" class="cls-5" transform="translate(735 277)"><tspan x="7.021" y="12">Incorporate Physical </tspan><tspan x="5.954" y="30">Characteristics while </tspan><tspan x="17.9" y="48">Capitalize on the </tspan><tspan x="24.546" y="66">Affordance of </tspan><tspan x="32.157" y="84">Technology</tspan></text>
+      <g class="cls-10" transform="matrix(1, 0, 0, 1, 367, 162)">
+        <rect id="Rectangle_123-2" data-name="Rectangle 123" class="cls-3" width="66" height="28" rx="2" transform="translate(400 76)"/>
+      </g>
+      <text id="_3" data-name="# 3" class="cls-4" transform="translate(800 258)"><tspan x="-11.031" y="0"># 3</tspan></text>
+    </g>
+    <line id="Line_100" data-name="Line 100" class="cls-6" x2="27" transform="translate(614.5 421.5)"/>
+    <text id="Based_on_insights_gathered_from_previous_researches_and_explorations_the_system_should_aim_to_..." data-name="Based on insights gathered from previous researches and explorations, the system should aim to ..." class="cls-7" transform="translate(433 165)"><tspan x="19.135" y="13">Based on insights gathered from previous researches and </tspan><tspan x="70.524" y="34">explorations, the system should aim to ...</tspan></text>
+  </g>
+</svg>

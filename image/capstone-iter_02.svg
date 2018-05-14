@@ -1,0 +1,457 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 626.052 222.375">
+  <defs>
+    <style>
+      .cls-1, .cls-19, .cls-24, .cls-8 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #fd79a8;
+        opacity: 0;
+      }
+
+      .cls-18, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #fafafa;
+      }
+
+      .cls-14, .cls-4 {
+        fill: #ddd;
+      }
+
+      .cls-15, .cls-5 {
+        fill: #e8f8fd;
+      }
+
+      .cls-6 {
+        fill: #333;
+      }
+
+      .cls-10, .cls-11, .cls-13, .cls-20, .cls-6 {
+        font-size: 2px;
+      }
+
+      .cls-13, .cls-6 {
+        font-family: Roboto-Regular, Roboto;
+      }
+
+      .cls-7 {
+        fill: #0cc4fd;
+      }
+
+      .cls-14, .cls-15, .cls-17, .cls-18, .cls-19, .cls-8 {
+        stroke: #707070;
+      }
+
+      .cls-14, .cls-15, .cls-17, .cls-18, .cls-8 {
+        stroke-width: 0.2px;
+      }
+
+      .cls-10, .cls-11, .cls-13, .cls-20, .cls-9 {
+        fill: #707070;
+      }
+
+      .cls-9 {
+        font-size: 3px;
+      }
+
+      .cls-20, .cls-9 {
+        font-family: Roboto-Medium, Roboto;
+        font-weight: 500;
+      }
+
+      .cls-10 {
+        font-family: FontAwesome5FreeSolid, "Font Awesome 5 Free Solid";
+      }
+
+      .cls-11, .cls-21, .cls-22 {
+        font-family: Roboto-Light, Roboto;
+        font-weight: 300;
+      }
+
+      .cls-12, .cls-17 {
+        fill: #aaa;
+      }
+
+      .cls-16 {
+        fill: #eee;
+        opacity: 0.8;
+      }
+
+      .cls-19 {
+        stroke-width: 0.5px;
+      }
+
+      .cls-21 {
+        fill: #33b599;
+        font-size: 18px;
+      }
+
+      .cls-22 {
+        fill: #888;
+        font-size: 14px;
+      }
+
+      .cls-23 {
+        stroke: none;
+      }
+
+      .cls-25 {
+        filter: url(#Path_1-3);
+      }
+
+      .cls-26 {
+        filter: url(#Rectangle_130);
+      }
+
+      .cls-27 {
+        filter: url(#Rectangle_131);
+      }
+
+      .cls-28 {
+        filter: url(#Path_1-2);
+      }
+
+      .cls-29 {
+        filter: url(#Rectangle_129);
+      }
+
+      .cls-30 {
+        filter: url(#Path_1);
+      }
+
+      .cls-31 {
+        filter: url(#Rectangle_128);
+      }
+    </style>
+    <filter id="Rectangle_128" x="2.052" y="29" width="156" height="90.375" filterUnits="userSpaceOnUse">
+      <feOffset dx="-1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_1" x="0" y="38.365" width="21.192" height="21.541" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_129" x="157.052" y="29" width="155.961" height="90.354" filterUnits="userSpaceOnUse">
+      <feOffset dx="-1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_1-2" x="156.249" y="37.736" width="22.551" height="23.049" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_131" x="157.052" y="132" width="156" height="90.375" filterUnits="userSpaceOnUse">
+      <feOffset dx="-1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_130" x="2.052" y="132" width="156" height="90.375" filterUnits="userSpaceOnUse">
+      <feOffset dx="-1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_1-3" x="124.146" y="147.232" width="21.541" height="21.191" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-7"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="capstone-iter_02" transform="translate(-364.948 -611)">
+    <line id="_guide-h-1" class="cls-1" x2="620" transform="translate(370.5 611.5)"/>
+    <g id="iter_02_mocks" transform="translate(-21 -24)">
+      <g id="iteration_02-a" transform="translate(392 666)">
+        <g class="cls-31" transform="matrix(1, 0, 0, 1, -6.05, -31)">
+          <rect id="Rectangle_128-2" data-name="Rectangle 128" class="cls-2" width="150" height="84.375" transform="translate(6.05 31)"/>
+        </g>
+        <g id="Group_20" data-name="Group 20">
+          <rect id="Rectangle_61" data-name="Rectangle 61" class="cls-3" width="50.547" height="84.375"/>
+          <g id="Stack" transform="translate(2.948)">
+            <g id="Group_1" data-name="Group 1" transform="translate(1.282)">
+              <path id="Rectangle_1" data-name="Rectangle 1" class="cls-4" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z"/>
+              <path id="Rectangle_1-2" data-name="Rectangle 1" class="cls-4" d="M0,0H40.98a1,1,0,0,1,1,1V3.26a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 7.188)"/>
+              <path id="Rectangle_1-3" data-name="Rectangle 1" class="cls-5" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 11.641)"/>
+              <path id="Rectangle_1-4" data-name="Rectangle 1" class="cls-4" d="M0,0H35.949a1,1,0,0,1,1,1V8.842a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 18.828)"/>
+              <path id="Rectangle_1-5" data-name="Rectangle 1" class="cls-4" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 28.828)"/>
+              <path id="Rectangle_1-6" data-name="Rectangle 1" class="cls-4" d="M0,0H40.98a1,1,0,0,1,1,1V5.023a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 36.016)"/>
+              <path id="Rectangle_1-7" data-name="Rectangle 1" class="cls-4" d="M0,0H32.653a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 42.266)"/>
+              <path id="Rectangle_1-8" data-name="Rectangle 1" class="cls-4" d="M0,0H40.98a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 49.453)"/>
+              <path id="Rectangle_1-9" data-name="Rectangle 1" class="cls-4" d="M0,0H45.316a1,1,0,0,1,1,1V4.049a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 56.641)"/>
+              <path id="Rectangle_1-10" data-name="Rectangle 1" class="cls-4" d="M0,0H34.214a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 61.875)"/>
+              <text id="Angels_Of_The_Past" data-name="Angels Of The Past" class="cls-6" transform="translate(2.41 3.875)"><tspan x="0" y="0">Angels Of The Past</tspan></text>
+              <text id="Owls_Of_The_Mountain" data-name="Owls Of The Mountain" class="cls-6" transform="translate(2.41 9.656)"><tspan x="0" y="0">Owls Of The Mountain</tspan></text>
+              <text id="Angels_Of_The_Past-2" data-name="Angels Of The Past" class="cls-6" transform="translate(2.41 15.438)"><tspan x="0" y="0">Angels Of The Past</tspan></text>
+              <text id="Hidden_In_Hope" data-name="Hidden In Hope" class="cls-6" transform="translate(2.41 24.109)"><tspan x="0" y="0">Hidden In Hope</tspan></text>
+              <text id="Armies_And_Assassins" data-name="Armies And Assassins" class="cls-6" transform="translate(2.41 32.781)"><tspan x="0" y="0">Armies And Assassins</tspan></text>
+              <text id="Supporter_Without_Honor" data-name="Supporter Without Honor" class="cls-6" transform="translate(2.41 39.422)"><tspan x="0" y="0">Supporter Without Honor</tspan></text>
+              <text id="Fixed_In_Solar_Flares" data-name="Fixed In Solar Flares" class="cls-6" transform="translate(2.41 53.25)"><tspan x="0" y="0">Fixed In Solar Flares</tspan></text>
+              <text id="Scared_Of_The_End" data-name="Scared Of The End" class="cls-6" transform="translate(2.41 46.141)"><tspan x="0" y="0">Scared Of The End</tspan></text>
+              <text id="Creating_Fantasy" data-name="Creating Fantasy" class="cls-6" transform="translate(2.41 59.5)"><tspan x="0" y="0">Creating Fantasy</tspan></text>
+              <text id="Lights_In_My_Street" data-name="Lights In My Street" class="cls-6" transform="translate(2.41 65.828)"><tspan x="0" y="0">Lights In My Street</tspan></text>
+            </g>
+            <g class="cls-30" transform="matrix(1, 0, 0, 1, -9, -31)">
+              <path id="Path_1-4" data-name="Path 1" class="cls-7" d="M219.733,105.067l3.192,1.446-3.192,2.095Z" transform="translate(-210.73 -60.7)"/>
+            </g>
+          </g>
+          <line id="Line_11" data-name="Line 11" class="cls-8" x2="50.547" transform="translate(0.039 69.102)"/>
+          <text id="Thriller_Utopia" data-name="Thriller + Utopia" class="cls-9" transform="translate(6.25 79.031)"><tspan x="0" y="0">Thriller + Utopia</tspan></text>
+          <text id="_" data-name="" class="cls-10" transform="translate(42.813 79.266)"><tspan x="0" y="0"></tspan></text>
+          <text id="_10_out_of_248" data-name="10 out of 248" class="cls-11" transform="translate(6.25 73.25)"><tspan x="0" y="0">10 out of 248</tspan></text>
+          <line id="Line_10" data-name="Line 10" class="cls-8" y2="84.375" transform="translate(50.547)"/>
+          <text id="_2" data-name="" class="cls-10" transform="translate(38.141 79.266)"><tspan x="0" y="0"></tspan></text>
+        </g>
+        <rect id="Rectangle_62" data-name="Rectangle 62" class="cls-5" width="34.844" height="43.047" transform="translate(57.578 7.109)"/>
+        <line id="Line_24" data-name="Line 24" class="cls-8" x2="0.391" y2="84.375" transform="translate(98.633 0.039)"/>
+        <g id="Group_99" data-name="Group 99" transform="translate(105.703 6.25)">
+          <rect id="Rectangle_26" data-name="Rectangle 26" class="cls-4" width="38.594" height="0.781" transform="translate(0 11.406)"/>
+          <rect id="Rectangle_27" data-name="Rectangle 27" class="cls-12" width="3.203" height="3.359" transform="translate(10.938 10.156)"/>
+          <text id="Recommendations" class="cls-13" transform="translate(0 1)"><tspan x="0" y="0">Recommendations</tspan></text>
+          <text id="Similarity" class="cls-13" transform="translate(0 8.031)"><tspan x="0" y="0">Similarity</tspan></text>
+          <text id="low_" data-name="low " class="cls-13" transform="translate(0 15.297)"><tspan x="0" y="0">low </tspan></text>
+          <text id="high" class="cls-13" transform="translate(34.922 15.297)"><tspan x="0" y="0">high</tspan></text>
+        </g>
+      </g>
+      <g id="iteration_02-b" transform="translate(547 666)">
+        <g class="cls-29" transform="matrix(1, 0, 0, 1, -161.05, -31)">
+          <rect id="Rectangle_129-2" data-name="Rectangle 129" class="cls-2" width="149.961" height="84.353" transform="translate(161.05 31)"/>
+        </g>
+        <rect id="Rectangle_2" data-name="Rectangle 2" class="cls-2" width="49.987" height="84.353"/>
+        <g id="Group_1-2" data-name="Group 1" transform="translate(6.639)">
+          <g id="Rectangle_1-11" data-name="Rectangle 1" class="cls-14">
+            <rect class="cls-23" width="43.27" height="7"/>
+            <rect class="cls-24" x="-0.1" y="-0.1" width="43.47" height="7.2"/>
+          </g>
+          <g id="Rectangle_1-12" data-name="Rectangle 1" class="cls-14" transform="translate(0 7.13)">
+            <rect class="cls-23" width="39.218" height="4.259"/>
+            <rect class="cls-24" x="-0.1" y="-0.1" width="39.418" height="4.459"/>
+          </g>
+          <g id="Rectangle_1-13" data-name="Rectangle 1" class="cls-15" transform="translate(0 11.518)">
+            <rect class="cls-23" width="43.27" height="7"/>
+            <rect class="cls-24" x="-0.1" y="-0.1" width="43.47" height="7.2"/>
+          </g>
+          <g id="Rectangle_1-14" data-name="Rectangle 1" class="cls-14" transform="translate(0 18.648)">
+            <rect class="cls-23" width="34.519" height="9.84"/>
+            <rect class="cls-24" x="-0.1" y="-0.1" width="34.719" height="10.04"/>
+          </g>
+          <g id="Rectangle_1-15" data-name="Rectangle 1" class="cls-14" transform="translate(0 28.52)">
+            <rect class="cls-23" width="43.27" height="7"/>
+            <rect class="cls-24" x="-0.1" y="-0.1" width="43.47" height="7.2"/>
+          </g>
+          <g id="Rectangle_1-16" data-name="Rectangle 1" class="cls-14" transform="translate(0 35.65)">
+            <rect class="cls-23" width="39.218" height="6.021"/>
+            <rect class="cls-24" x="-0.1" y="-0.1" width="39.418" height="6.221"/>
+          </g>
+          <g id="Rectangle_1-17" data-name="Rectangle 1" class="cls-14" transform="translate(0 41.801)">
+            <rect class="cls-23" width="31.44" height="7"/>
+            <rect class="cls-24" x="-0.1" y="-0.1" width="31.64" height="7.2"/>
+          </g>
+          <g id="Rectangle_1-18" data-name="Rectangle 1" class="cls-14" transform="translate(0 48.931)">
+            <rect class="cls-23" width="39.218" height="7"/>
+            <rect class="cls-24" x="-0.1" y="-0.1" width="39.418" height="7.2"/>
+          </g>
+          <g id="Rectangle_1-19" data-name="Rectangle 1" class="cls-14" transform="translate(0 55.963)">
+            <rect class="cls-23" width="35.653" height="7"/>
+            <rect class="cls-24" x="-0.1" y="-0.1" width="35.853" height="7.2"/>
+          </g>
+          <g id="Rectangle_1-20" data-name="Rectangle 1" class="cls-14" transform="translate(0 63.093)">
+            <rect class="cls-23" width="43.27" height="7"/>
+            <rect class="cls-24" x="-0.1" y="-0.1" width="43.47" height="7.2"/>
+          </g>
+          <g id="Rectangle_1-21" data-name="Rectangle 1" class="cls-14" transform="translate(0 70.223)">
+            <rect class="cls-23" width="32.898" height="7"/>
+            <rect class="cls-24" x="-0.1" y="-0.1" width="33.098" height="7.2"/>
+          </g>
+          <g id="Rectangle_1-22" data-name="Rectangle 1" class="cls-14" transform="translate(0 77.353)">
+            <rect class="cls-23" width="43.27" height="7"/>
+            <rect class="cls-24" x="-0.1" y="-0.1" width="43.47" height="7.2"/>
+          </g>
+        </g>
+        <rect id="Rectangle_4" data-name="Rectangle 4" class="cls-5" width="21.166" height="26.165" transform="translate(57.095 6.483)"/>
+        <g class="cls-28" transform="matrix(1, 0, 0, 1, -161.05, -31)">
+          <path id="Path_1-5" data-name="Path 1" class="cls-7" d="M219.733,105.067l4.55,2.062-4.55,2.986Z" transform="translate(-54.48 -61.33)"/>
+        </g>
+        <g id="Group_8" data-name="Group 8" transform="translate(84.041 6.483)">
+          <rect id="Rectangle_16" data-name="Rectangle 16" class="cls-16" width="17.964" height="2.656" rx="1.328" transform="translate(0)"/>
+          <rect id="Rectangle_17" data-name="Rectangle 17" class="cls-16" width="11.169" height="1.796" rx="0.898" transform="translate(0 3.437)"/>
+          <rect id="Rectangle_18" data-name="Rectangle 18" class="cls-16" width="46.941" height="0.547" rx="0.273" transform="translate(0 6.951)"/>
+          <rect id="Rectangle_19" data-name="Rectangle 19" class="cls-16" width="46.941" height="0.547" rx="0.273" transform="translate(0 8.279)"/>
+          <rect id="Rectangle_20" data-name="Rectangle 20" class="cls-16" width="46.941" height="0.547" rx="0.273" transform="translate(0 9.607)"/>
+          <rect id="Rectangle_21" data-name="Rectangle 21" class="cls-16" width="46.941" height="0.547" rx="0.273" transform="translate(0 10.935)"/>
+          <rect id="Rectangle_23" data-name="Rectangle 23" class="cls-16" width="10.232" height="0.703" rx="0.351" transform="translate(0.078 18.745)"/>
+          <rect id="Rectangle_39" data-name="Rectangle 39" class="cls-16" width="46.941" height="0.547" rx="0.273" transform="translate(0 12.262)"/>
+          <rect id="Rectangle_40" data-name="Rectangle 40" class="cls-16" width="46.941" height="0.547" rx="0.273" transform="translate(0 13.59)"/>
+        </g>
+        <line id="Line_9" data-name="Line 9" class="cls-8" x2="99.974" transform="translate(50.026 41.122)"/>
+        <text id="Show_relationship_between_this_item_and_other_items" data-name="Show relationship between this item and other items" class="cls-13" transform="translate(78.105 49.581)"><tspan x="0" y="0">Show relationship between this item and other items</tspan></text>
+        <rect id="Rectangle_37" data-name="Rectangle 37" class="cls-4" width="38.584" height="0.781" transform="translate(80.76 71.153)"/>
+        <rect id="Rectangle_38" data-name="Rectangle 38" class="cls-12" width="3.202" height="3.359" transform="translate(91.695 69.904)"/>
+        <text id="low_2" data-name="low " class="cls-13" transform="translate(80.76 75.043)"><tspan x="0" y="0">low </tspan></text>
+        <text id="high-2" data-name="high" class="cls-13" transform="translate(115.673 75.043)"><tspan x="0" y="0">high</tspan></text>
+        <text id="slider_controling_degree_of_relevancy_serendipity" data-name="slider controling degree of relevancy / serendipity" class="cls-13" transform="translate(79.432 65.983)"><tspan x="0" y="0">slider controling degree of relevancy / serendipity</tspan></text>
+        <g id="Rectangle_42" data-name="Rectangle 42" class="cls-17" transform="translate(49.987 35.538)">
+          <rect class="cls-23" width="15.074" height="5.624"/>
+          <rect class="cls-24" x="0.1" y="0.1" width="14.874" height="5.424"/>
+        </g>
+        <g id="Rectangle_43" data-name="Rectangle 43" class="cls-18" transform="translate(65.061 35.538)">
+          <rect class="cls-23" width="23.744" height="5.624"/>
+          <rect class="cls-24" x="0.1" y="0.1" width="23.544" height="5.424"/>
+        </g>
+        <line id="Line_95" data-name="Line 95" class="cls-8" y2="84" transform="translate(50 0.5)"/>
+      </g>
+      <g id="iteration_02-c" transform="translate(547 769)">
+        <g class="cls-27" transform="matrix(1, 0, 0, 1, -161.05, -134)">
+          <rect id="Rectangle_131-2" data-name="Rectangle 131" class="cls-2" width="150" height="84.375" transform="translate(161.05 134)"/>
+        </g>
+        <g id="Stack-3" data-name="Stack" transform="translate(143.608 28.594) rotate(90)">
+          <path id="Rectangle_1-23" data-name="Rectangle 1" class="cls-4" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 69.063)"/>
+          <path id="Rectangle_1-24" data-name="Rectangle 1" class="cls-4" d="M0,0H40.98a1,1,0,0,1,1,1V3.26a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(4.297 76.25)"/>
+          <path id="Rectangle_1-25" data-name="Rectangle 1" class="cls-4" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 80.703)"/>
+          <path id="Rectangle_1-26" data-name="Rectangle 1" class="cls-4" d="M0,0H35.949a1,1,0,0,1,1,1V8.842a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(9.297 87.891)"/>
+          <path id="Rectangle_1-27" data-name="Rectangle 1" class="cls-4" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 97.891)"/>
+          <path id="Rectangle_1-28" data-name="Rectangle 1" class="cls-4" d="M0,0H40.98a1,1,0,0,1,1,1V5.023a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(4.297 105.078)"/>
+          <path id="Rectangle_1-29" data-name="Rectangle 1" class="cls-4" d="M0,0H32.653a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(12.656 111.328)"/>
+          <path id="Rectangle_1-30" data-name="Rectangle 1" class="cls-4" d="M0,0H40.98a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(4.297 118.516)"/>
+          <path id="Rectangle_1-31" data-name="Rectangle 1" class="cls-4" d="M0,0H45.316a1,1,0,0,1,1,1V4.049a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 125.703)"/>
+          <path id="Rectangle_1-32" data-name="Rectangle 1" class="cls-4" d="M0,0H34.214a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(11.094 130.938)"/>
+          <text id="Angels_Of_The_Past-3" data-name="Angels Of The Past" class="cls-6" transform="translate(24.219 72.813)"><tspan x="0" y="0">Angels Of The Past</tspan></text>
+          <text id="Owls_Of_The_Mountain-2" data-name="Owls Of The Mountain" class="cls-6" transform="translate(21.016 78.594)"><tspan x="0" y="0">Owls Of The Mountain</tspan></text>
+          <text id="Angels_Of_The_Past-4" data-name="Angels Of The Past" class="cls-6" transform="translate(24.219 84.375)"><tspan x="0" y="0">Angels Of The Past</tspan></text>
+          <text id="Hidden_In_Hope-2" data-name="Hidden In Hope" class="cls-6" transform="translate(28.125 93.047)"><tspan x="0" y="0">Hidden In Hope</tspan></text>
+          <text id="Armies_And_Assassins-2" data-name="Armies And Assassins" class="cls-6" transform="translate(20.625 101.719)"><tspan x="0" y="0">Armies And Assassins</tspan></text>
+          <text id="Supporter_Without_Honor-2" data-name="Supporter Without Honor" class="cls-6" transform="translate(18.125 108.359)"><tspan x="0" y="0">Supporter Without Honor</tspan></text>
+          <text id="Fixed_In_Solar_Flares-2" data-name="Fixed In Solar Flares" class="cls-6" transform="translate(22.969 122.188)"><tspan x="0" y="0">Fixed In Solar Flares</tspan></text>
+          <text id="Scared_Of_The_End-2" data-name="Scared Of The End" class="cls-6" transform="translate(24.844 115.078)"><tspan x="0" y="0">Scared Of The End</tspan></text>
+          <text id="Creating_Fantasy-2" data-name="Creating Fantasy" class="cls-6" transform="translate(26.563 128.984)"><tspan x="0" y="0">Creating Fantasy</tspan></text>
+          <text id="Lights_In_My_Street-2" data-name="Lights In My Street" class="cls-6" transform="translate(24.688 134.766)"><tspan x="0" y="0">Lights In My Street</tspan></text>
+          <path id="Rectangle_1-33" data-name="Rectangle 1" class="cls-4" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z"/>
+          <path id="Rectangle_1-34" data-name="Rectangle 1" class="cls-4" d="M0,0H40.98a1,1,0,0,1,1,1V3.26a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(4.297 7.188)"/>
+          <path id="Rectangle_1-35" data-name="Rectangle 1" class="cls-5" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 11.641)"/>
+          <path id="Rectangle_1-36" data-name="Rectangle 1" class="cls-4" d="M0,0H35.949a1,1,0,0,1,1,1V8.842a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(9.297 18.828)"/>
+          <path id="Rectangle_1-37" data-name="Rectangle 1" class="cls-4" d="M0,0H45.816a.5.5,0,0,1,.5.5v6a.5.5,0,0,1-.5.5H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 28.828)"/>
+          <path id="Rectangle_1-38" data-name="Rectangle 1" class="cls-4" d="M0,0H40.98a1,1,0,0,1,1,1V5.023a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(4.297 36.016)"/>
+          <path id="Rectangle_1-39" data-name="Rectangle 1" class="cls-4" d="M0,0H32.653a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(12.656 42.266)"/>
+          <path id="Rectangle_1-40" data-name="Rectangle 1" class="cls-4" d="M0,0H40.98a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(4.297 49.453)"/>
+          <path id="Rectangle_1-41" data-name="Rectangle 1" class="cls-4" d="M0,0H45.316a1,1,0,0,1,1,1V4.049a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 56.641)"/>
+          <path id="Rectangle_1-42" data-name="Rectangle 1" class="cls-4" d="M0,0H34.214a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(11.094 61.875)"/>
+          <text id="Angels_Of_The_Past-5" data-name="Angels Of The Past" class="cls-6" transform="translate(24.219 3.75)"><tspan x="0" y="0">Angels Of The Past</tspan></text>
+          <text id="Owls_Of_The_Mountain-3" data-name="Owls Of The Mountain" class="cls-6" transform="translate(21.016 9.531)"><tspan x="0" y="0">Owls Of The Mountain</tspan></text>
+          <text id="Angels_Of_The_Past-6" data-name="Angels Of The Past" class="cls-6" transform="translate(24.219 15.313)"><tspan x="0" y="0">Angels Of The Past</tspan></text>
+          <text id="Hidden_In_Hope-3" data-name="Hidden In Hope" class="cls-6" transform="translate(28.125 23.984)"><tspan x="0" y="0">Hidden In Hope</tspan></text>
+          <text id="Armies_And_Assassins-3" data-name="Armies And Assassins" class="cls-6" transform="translate(20.625 32.656)"><tspan x="0" y="0">Armies And Assassins</tspan></text>
+          <text id="Supporter_Without_Honor-3" data-name="Supporter Without Honor" class="cls-6" transform="translate(18.125 39.297)"><tspan x="0" y="0">Supporter Without Honor</tspan></text>
+          <text id="Fixed_In_Solar_Flares-3" data-name="Fixed In Solar Flares" class="cls-6" transform="translate(22.969 53.125)"><tspan x="0" y="0">Fixed In Solar Flares</tspan></text>
+          <text id="Scared_Of_The_End-3" data-name="Scared Of The End" class="cls-6" transform="translate(24.844 46.016)"><tspan x="0" y="0">Scared Of The End</tspan></text>
+          <text id="Creating_Fantasy-3" data-name="Creating Fantasy" class="cls-6" transform="translate(26.563 59.375)"><tspan x="0" y="0">Creating Fantasy</tspan></text>
+          <text id="Lights_In_My_Street-3" data-name="Lights In My Street" class="cls-6" transform="translate(24.688 65.703)"><tspan x="0" y="0">Lights In My Street</tspan></text>
+        </g>
+        <line id="Line_12" data-name="Line 12" class="cls-8" x2="150" transform="translate(0 74.844)"/>
+      </g>
+      <g id="iteration_02-d" transform="translate(392 769)">
+        <g class="cls-26" transform="matrix(1, 0, 0, 1, -6.05, -134)">
+          <rect id="Rectangle_130-2" data-name="Rectangle 130" class="cls-2" width="150" height="84.375" transform="translate(6.05 134)"/>
+        </g>
+        <g id="Group_25" data-name="Group 25" transform="translate(12.266 4.297)">
+          <g id="Group_21" data-name="Group 21">
+            <line id="Line_13" data-name="Line 13" class="cls-19" x2="21.875" transform="translate(0 11.055)"/>
+            <text id="Genre" class="cls-20" transform="translate(0.039 2)"><tspan x="0" y="0">Genre</tspan></text>
+            <path id="Path_8" data-name="Path 8" class="cls-12" d="M-3648.059-4833.5h2.261l-1.122,1.528Z" transform="translate(3666.219 4840.844)"/>
+            <text id="Sci-fi" class="cls-11" transform="translate(0.742 8.094)"><tspan x="0" y="0">Sci-fi</tspan></text>
+          </g>
+          <g id="Group_22" data-name="Group 22" transform="translate(34.531)">
+            <line id="Line_13-2" data-name="Line 13" class="cls-19" x2="21.875" transform="translate(0 11.055)"/>
+            <text id="Subject" class="cls-20" transform="translate(0.039 2)"><tspan x="0" y="0">Subject</tspan></text>
+            <path id="Path_8-2" data-name="Path 8" class="cls-12" d="M-3648.059-4833.5h2.261l-1.122,1.528Z" transform="translate(3666.219 4840.844)"/>
+            <text id="Utopia" class="cls-11" transform="translate(0.742 8.094)"><tspan x="0" y="0">Utopia</tspan></text>
+          </g>
+          <g id="Group_23" data-name="Group 23" transform="translate(69.063)">
+            <line id="Line_13-3" data-name="Line 13" class="cls-19" x2="21.875" transform="translate(0 11.055)"/>
+            <text id="Tone" class="cls-20" transform="translate(0.039 2)"><tspan x="0" y="0">Tone</tspan></text>
+            <path id="Path_8-3" data-name="Path 8" class="cls-12" d="M-3648.059-4833.5h2.261l-1.122,1.528Z" transform="translate(3666.219 4840.844)"/>
+            <text id="Melancholy" class="cls-11" transform="translate(0.742 8.094)"><tspan x="0" y="0">Melancholy</tspan></text>
+          </g>
+          <g id="Group_24" data-name="Group 24" transform="translate(103.594)">
+            <line id="Line_13-4" data-name="Line 13" class="cls-19" x2="21.875" transform="translate(0 11.055)"/>
+            <text id="Age" class="cls-20" transform="translate(0.039 2)"><tspan x="0" y="0">Age</tspan></text>
+            <path id="Path_8-4" data-name="Path 8" class="cls-12" d="M-3648.059-4833.5h2.261l-1.122,1.528Z" transform="translate(3666.219 4840.844)"/>
+            <text id="Young_Adult" data-name="Young Adult" class="cls-11" transform="translate(0.742 8.094)"><tspan x="0" y="0">Young Adult</tspan></text>
+          </g>
+        </g>
+        <g id="Stack-4" data-name="Stack" transform="translate(143.999 19.233) rotate(90)">
+          <g id="Group_1-3" data-name="Group 1" transform="translate(1.282)">
+            <path id="Rectangle_1-43" data-name="Rectangle 1" class="cls-4" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z"/>
+            <path id="Rectangle_1-44" data-name="Rectangle 1" class="cls-4" d="M0,0H40.98a1,1,0,0,1,1,1V3.26a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 7.188)"/>
+            <path id="Rectangle_1-45" data-name="Rectangle 1" class="cls-5" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 11.641)"/>
+            <path id="Rectangle_1-46" data-name="Rectangle 1" class="cls-4" d="M0,0H35.949a1,1,0,0,1,1,1V8.842a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 18.828)"/>
+            <path id="Rectangle_1-47" data-name="Rectangle 1" class="cls-4" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 28.828)"/>
+            <path id="Rectangle_1-48" data-name="Rectangle 1" class="cls-4" d="M0,0H40.98a1,1,0,0,1,1,1V5.023a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 36.016)"/>
+            <path id="Rectangle_1-49" data-name="Rectangle 1" class="cls-4" d="M0,0H32.653a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 42.266)"/>
+            <path id="Rectangle_1-50" data-name="Rectangle 1" class="cls-4" d="M0,0H40.98a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 49.453)"/>
+            <path id="Rectangle_1-51" data-name="Rectangle 1" class="cls-4" d="M0,0H45.316a1,1,0,0,1,1,1V4.049a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 56.641)"/>
+            <path id="Rectangle_1-52" data-name="Rectangle 1" class="cls-4" d="M0,0H34.214a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 61.875)"/>
+            <text id="Angels_Of_The_Past-7" data-name="Angels Of The Past" class="cls-6" transform="translate(2.41 4.141)"><tspan x="0" y="0">Angels Of The Past</tspan></text>
+            <text id="Owls_Of_The_Mountain-4" data-name="Owls Of The Mountain" class="cls-6" transform="translate(2.41 9.922)"><tspan x="0" y="0">Owls Of The Mountain</tspan></text>
+            <text id="Angels_Of_The_Past-8" data-name="Angels Of The Past" class="cls-6" transform="translate(2.41 15.703)"><tspan x="0" y="0">Angels Of The Past</tspan></text>
+            <text id="Hidden_In_Hope-4" data-name="Hidden In Hope" class="cls-6" transform="translate(2.41 24.375)"><tspan x="0" y="0">Hidden In Hope</tspan></text>
+            <text id="Armies_And_Assassins-4" data-name="Armies And Assassins" class="cls-6" transform="translate(2.41 33.047)"><tspan x="0" y="0">Armies And Assassins</tspan></text>
+            <text id="Supporter_Without_Honor-4" data-name="Supporter Without Honor" class="cls-6" transform="translate(2.41 39.688)"><tspan x="0" y="0">Supporter Without Honor</tspan></text>
+            <text id="Fixed_In_Solar_Flares-4" data-name="Fixed In Solar Flares" class="cls-6" transform="translate(2.41 53.516)"><tspan x="0" y="0">Fixed In Solar Flares</tspan></text>
+            <text id="Scared_Of_The_End-4" data-name="Scared Of The End" class="cls-6" transform="translate(2.41 46.406)"><tspan x="0" y="0">Scared Of The End</tspan></text>
+            <text id="Creating_Fantasy-4" data-name="Creating Fantasy" class="cls-6" transform="translate(2.41 59.766)"><tspan x="0" y="0">Creating Fantasy</tspan></text>
+            <text id="Lights_In_My_Street-4" data-name="Lights In My Street" class="cls-6" transform="translate(2.41 66.094)"><tspan x="0" y="0">Lights In My Street</tspan></text>
+          </g>
+          <g class="cls-25" transform="matrix(0, -1, 1, 0, -153.23, 150.05)">
+            <path id="Path_1-6" data-name="Path 1" class="cls-7" d="M0,0,3.192,1.446,0,3.541Z" transform="translate(136.69 153.23) rotate(90)"/>
+          </g>
+        </g>
+        <g id="Stack-5" data-name="Stack" transform="translate(74.936 20.515) rotate(90)">
+          <g id="Group_1-4" data-name="Group 1">
+            <path id="Rectangle_1-53" data-name="Rectangle 1" class="cls-4" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z"/>
+            <path id="Rectangle_1-54" data-name="Rectangle 1" class="cls-4" d="M0,0H40.98a1,1,0,0,1,1,1V3.26a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 7.188)"/>
+            <path id="Rectangle_1-55" data-name="Rectangle 1" class="cls-4" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 11.641)"/>
+            <path id="Rectangle_1-56" data-name="Rectangle 1" class="cls-4" d="M0,0H35.949a1,1,0,0,1,1,1V8.842a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 18.828)"/>
+            <path id="Rectangle_1-57" data-name="Rectangle 1" class="cls-4" d="M0,0H45.316a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 28.828)"/>
+            <path id="Rectangle_1-58" data-name="Rectangle 1" class="cls-4" d="M0,0H40.98a1,1,0,0,1,1,1V5.023a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 36.016)"/>
+            <path id="Rectangle_1-59" data-name="Rectangle 1" class="cls-4" d="M0,0H32.653a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 42.266)"/>
+            <path id="Rectangle_1-60" data-name="Rectangle 1" class="cls-4" d="M0,0H40.98a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 49.453)"/>
+            <path id="Rectangle_1-61" data-name="Rectangle 1" class="cls-4" d="M0,0H45.316a1,1,0,0,1,1,1V4.049a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(0 56.641)"/>
+            <path id="Rectangle_1-62" data-name="Rectangle 1" class="cls-4" d="M0,0H34.214a1,1,0,0,1,1,1V6a1,1,0,0,1-1,1H0A0,0,0,0,1,0,7V0A0,0,0,0,1,0,0Z" transform="translate(0 61.875)"/>
+            <text id="Angels_Of_The_Past-9" data-name="Angels Of The Past" class="cls-6" transform="translate(2.41 4.141)"><tspan x="0" y="0">Angels Of The Past</tspan></text>
+            <text id="Owls_Of_The_Mountain-5" data-name="Owls Of The Mountain" class="cls-6" transform="translate(2.41 9.922)"><tspan x="0" y="0">Owls Of The Mountain</tspan></text>
+            <text id="Angels_Of_The_Past-10" data-name="Angels Of The Past" class="cls-6" transform="translate(2.41 15.703)"><tspan x="0" y="0">Angels Of The Past</tspan></text>
+            <text id="Hidden_In_Hope-5" data-name="Hidden In Hope" class="cls-6" transform="translate(2.41 24.375)"><tspan x="0" y="0">Hidden In Hope</tspan></text>
+            <text id="Armies_And_Assassins-5" data-name="Armies And Assassins" class="cls-6" transform="translate(2.41 33.047)"><tspan x="0" y="0">Armies And Assassins</tspan></text>
+            <text id="Supporter_Without_Honor-5" data-name="Supporter Without Honor" class="cls-6" transform="translate(2.41 39.688)"><tspan x="0" y="0">Supporter Without Honor</tspan></text>
+            <text id="Fixed_In_Solar_Flares-5" data-name="Fixed In Solar Flares" class="cls-6" transform="translate(2.41 53.516)"><tspan x="0" y="0">Fixed In Solar Flares</tspan></text>
+            <text id="Scared_Of_The_End-5" data-name="Scared Of The End" class="cls-6" transform="translate(2.41 46.406)"><tspan x="0" y="0">Scared Of The End</tspan></text>
+            <text id="Creating_Fantasy-5" data-name="Creating Fantasy" class="cls-6" transform="translate(2.41 59.766)"><tspan x="0" y="0">Creating Fantasy</tspan></text>
+            <text id="Lights_In_My_Street-5" data-name="Lights In My Street" class="cls-6" transform="translate(2.41 66.094)"><tspan x="0" y="0">Lights In My Street</tspan></text>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="iter_02_descs" transform="translate(-21 181)">
+      <text id="Horizontal_vs._Vertical" data-name="Horizontal vs. Vertical" class="cls-21" transform="translate(720 486)"><tspan x="0" y="0">Horizontal vs. Vertical</tspan></text>
+      <text id="Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit._Etiam_mollis_eget_magna_eu_faucibus._Ut_ut_tincidunt_magna_rhoncus_bibendum_massa._Nullam_bibendum_porta_mauris_et_bibendum._Phasellus_eleifen" data-name="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mollis eget magna eu faucibus. Ut ut tincidunt magna, rhoncus bibendum massa. Nullam bibendum porta mauris et bibendum. Phasellus eleifen" class="cls-22" transform="translate(720 502)"><tspan x="0" y="13">Lorem ipsum dolor sit amet, consectetur </tspan><tspan x="0" y="34">adipiscing elit. Etiam mollis eget magna eu </tspan><tspan x="0" y="55">faucibus. Ut ut tincidunt magna, rhoncus </tspan><tspan x="0" y="76">bibendum massa. Nullam bibendum porta </tspan><tspan x="0" y="97">mauris et bibendum. Phasellus eleifen</tspan></text>
+    </g>
+  </g>
+</svg>
