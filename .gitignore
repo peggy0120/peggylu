@@ -43,4 +43,8 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Ignored Files #
+#################
 /projects/capstone/sankey.txt
+docs/PrototypesSample_PeggyLu.pptx
