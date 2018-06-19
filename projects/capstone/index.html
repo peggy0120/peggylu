@@ -444,13 +444,6 @@
         var scrollOffset = 0;
         var nativeScroll = true;
 
-
-
-
-
-
-
-
         stack.scrollTo(items.eq(0));
         btnStar.addClass('disable');
         btnBkwd.addClass('disable');
@@ -522,12 +515,22 @@
             $('#mockup_exp-1').empty();
             $('#mockup_exp-2').empty();
             $('#mockup').load('mockup_v3.svg', function() {
+                var svg = $(this).children();
+                var style = svg.find('style');
+                style.prepend("@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');");
                 $("#click_area_2").mouseup(function() {
                     $('#mockup').empty();
                     $('#mockup_exp-1').load('mockup_explore-01.svg', function() {
+                        var svg = $(this).children();
+                        var style = svg.find('style');
+                        style.prepend("@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');");
                         $("#click_area_slider").mouseup(function() {
                             $('#mockup_exp-1').empty();
-                            $('#mockup_exp-2').load('mockup_explore-02.svg', function(){});
+                            $('#mockup_exp-2').load('mockup_explore-02.svg', function() {
+                                var svg = $(this).children();
+                                var style = svg.find('style');
+                                style.prepend("@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');");
+                            });
                         });
                     });
                 });

@@ -184,7 +184,7 @@
                                         <span class="fas fa-caret-up"></span>
                                     </a>
                                     <div class="chart" style="max-width: 768px">
-                                        <object type="image/svg+xml" data="../image/cvp_R-I.svg" ></object>
+                                        <object type="image/svg+xml" data="../image/cvp_R-I.svg"></object>
                                     </div>
                                 </section>
 
@@ -342,6 +342,11 @@
             /* Load Concept SVG & interactivity */
 
             $('#cvp_concept').load('../image/cvp_concept.svg', function() {
+
+                var svg = $(this).children();
+                var style = svg.find('style');
+                style.prepend("@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');");
+
                 $("[id^=ctrl-n]").mouseup(function() {
                     $("[id^=cvp_cpt-]").hide();
                     $("#cvp_cpt-network").show();
