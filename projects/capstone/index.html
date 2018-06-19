@@ -198,8 +198,9 @@
                     </div>
                     <div class="item-content">
                         <div class="item-det">
-                                                        <img class="mockup" src="mockup_v3.png" style="width: 520px;">
-<!--                            <p>Detail</p>-->
+                            <!--                            <img class="mockup" src="mockup_v3.png" style="width: 520px;">-->
+                            <!--                            <p>Detail</p>-->
+
                         </div>
                         <div class="item-avl">
                             <p>Availability</p>
@@ -305,6 +306,13 @@
                 </header>
                 <section class="item-data">
                     <div></div>
+                    <div id="mockup"></div>
+                    <div id="mockup_exp-1"></div>
+                    <div id="mockup_exp-2"></div>
+                    <!--
+                    <div id="mockup"></div>
+                    <div id="mockup"></div>
+-->
                     <div class="item-content tab-content" id=item_tab_Content>
 
                         <div class="tab-pane fade show active" id="detail" role="tabpanel" aria-labelledby="detail-tab">
@@ -355,13 +363,11 @@
                 color = 'hsl(204, 100%, ';
                 color += (Math.floor(Math.random() * 5) + 14) * 5;
                 color += '%)';
-            }
-            else if (color == 'orange') {
+            } else if (color == 'orange') {
                 color = 'hsl(25, 88%, ';
                 color += (Math.floor(Math.random() * 7) + 12) * 5;
                 color += '%)';
-            }
-            else if (color == 'green') {
+            } else if (color == 'green') {
                 color = 'hsl(167, 56%, ';
                 color += (Math.floor(Math.random() * 7) + 11) * 5;
                 color += '%)';
@@ -439,6 +445,12 @@
         var nativeScroll = true;
 
 
+
+
+
+
+
+
         stack.scrollTo(items.eq(0));
         btnStar.addClass('disable');
         btnBkwd.addClass('disable');
@@ -505,6 +517,21 @@
             $('#pop-up h2').text($(this).find('h4').text());
             $('#pop-up span.author').text($(this).find('span.author').text());
             $('#pop-up span.year').text($(this).find('span.year').text());
+
+            //Load mockup image
+            $('#mockup_exp-1').empty();
+            $('#mockup_exp-2').empty();
+            $('#mockup').load('mockup_v3.svg', function() {
+                $("#click_area_2").mouseup(function() {
+                    $('#mockup').empty();
+                    $('#mockup_exp-1').load('mockup_explore-01.svg', function() {
+                        $("#click_area_slider").mouseup(function() {
+                            $('#mockup_exp-1').empty();
+                            $('#mockup_exp-2').load('mockup_explore-02.svg', function(){});
+                        });
+                    });
+                });
+            });
             //            $('#pop-up .item-content').html($(this).find('.item-det').html());
 
             //            if(activeIndex == 14) {
@@ -677,7 +704,7 @@
                     }
                     break;
 
-                /* For Filming */
+                    /* For Filming */
                 case 65:
                     $('#stack-container').scrollTo(1920, 3000);
                     break;

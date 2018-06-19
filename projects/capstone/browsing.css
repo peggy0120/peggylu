@@ -702,6 +702,10 @@ img.mockup {
     transition: all .1s ease;
 }
 
+[id^="click_area_"] {
+    cursor: pointer;
+}
+
 #pop-up .sugWhy {
     /*    text-align: center;*/
 }

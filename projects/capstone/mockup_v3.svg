@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 636">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #ddd;
+      }
+
+      .cls-10, .cls-11, .cls-12, .cls-13, .cls-3, .cls-5, .cls-8, .cls-9 {
+        fill: #707070;
+      }
+
+      .cls-3 {
+        font-size: 18px;
+      }
+
+      .cls-14, .cls-15, .cls-3, .cls-6, .cls-8 {
+        font-family: Roboto-Regular, Roboto;
+      }
+
+      .cls-18, .cls-4, .cls-7 {
+        fill: none;
+      }
+
+      .cls-4, .cls-7 {
+        stroke: #707070;
+      }
+
+      .cls-4 {
+        stroke-width: 0.5px;
+      }
+
+      .cls-13, .cls-15, .cls-5, .cls-8 {
+        font-size: 16px;
+      }
+
+      .cls-5 {
+        font-family: Roboto-Light, Roboto;
+        font-weight: 300;
+      }
+
+      .cls-15, .cls-6 {
+        fill: #09f;
+      }
+
+      .cls-6 {
+        font-size: 24px;
+      }
+
+      .cls-9 {
+        font-size: 40px;
+      }
+
+      .cls-10, .cls-11, .cls-9 {
+        font-family: FontAwesome5FreeSolid, "Font Awesome 5 Free Solid";
+      }
+
+      .cls-10 {
+        font-size: 38px;
+      }
+
+      .cls-11, .cls-12 {
+        font-size: 36px;
+      }
+
+      .cls-12 {
+        font-family: FontAwesome5FreeRegular, "Font Awesome 5 Free";
+      }
+
+      .cls-13 {
+        font-family: Roboto-Medium, Roboto;
+        font-weight: 500;
+      }
+
+      .cls-14 {
+        font-weight: 400;
+      }
+
+      .cls-16 {
+        fill: rgba(232,248,253,0.2);
+        stroke: #fff;
+      }
+
+      .cls-17 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="mockup_v3" transform="translate(-564 -238)">
+    <rect id="Rectangle_111" data-name="Rectangle 111" class="cls-1" width="780" height="636" transform="translate(564 238)"/>
+    <g id="The_Book" data-name="The Book" transform="translate(164.539 99.794)">
+      <rect id="Rectangle_142" data-name="Rectangle 142" class="cls-2" width="510" height="349" transform="translate(616.461 164.206)"/>
+      <text id="book_cover_front_" data-name="book cover (front)" class="cls-3" transform="translate(1021.461 326.206)"><tspan x="-46.455" y="0">book cover </tspan><tspan x="-25.15" y="22">(front)</tspan></text>
+      <text id="book_cover_back_" data-name="book cover (back)" class="cls-3" transform="translate(723.461 326.206)"><tspan x="-46.455" y="0">book cover </tspan><tspan x="-25.326" y="22">(back)</tspan></text>
+      <line id="Line_25" data-name="Line 25" class="cls-4" y2="342" transform="translate(849.961 166.706)"/>
+      <line id="Line_26" data-name="Line 26" class="cls-4" y2="342" transform="translate(894.961 167.706)"/>
+    </g>
+    <g id="Group_58" data-name="Group 58" transform="translate(30 -527)">
+      <text id="Age" class="cls-5" transform="translate(564 806)"><tspan x="0" y="0">Age</tspan></text>
+      <text id="Young_Adult" data-name="Young Adult" class="cls-6" transform="translate(564 843)"><tspan x="0" y="0">Young Adult</tspan></text>
+      <text id="Genre" class="cls-5" transform="translate(564 892)"><tspan x="0" y="0">Genre</tspan></text>
+      <text id="Mystery_Phychological_Thriller" data-name="MysteryPhychological
+Thriller" class="cls-6" transform="translate(564 929)"><tspan x="0" y="0">Mystery</tspan><tspan x="0" y="36">Phychological</tspan><tspan x="0" y="72">Thriller</tspan></text>
+      <text id="Dewey" class="cls-5" transform="translate(564 1050)"><tspan x="0" y="0">Dewey</tspan></text>
+      <text id="_813.6" data-name="813.6" class="cls-6" transform="translate(564 1087)"><tspan x="0" y="0">813.6</tspan></text>
+    </g>
+    <g id="bottom-nav" transform="translate(0 -15)">
+      <line id="Line_18" data-name="Line 18" class="cls-7" x2="742" transform="translate(589.5 747.5)"/>
+      <g id="Group_66" data-name="Group 66" transform="translate(8 -107)">
+        <g id="Group_61" data-name="Group 61">
+          <text id="Detail" class="cls-8" transform="translate(662 946)"><tspan x="0" y="0">Detail</tspan></text>
+          <text id="_" data-name="" class="cls-9" transform="translate(663 916)"><tspan x="0" y="0"></tspan></text>
+        </g>
+        <g id="Group_62" data-name="Group 62" transform="translate(-8)">
+          <text id="Availability" class="cls-8" transform="translate(785 947)"><tspan x="0" y="0">Availability</tspan></text>
+          <text id="_2" data-name="" class="cls-9" transform="translate(802 916)"><tspan x="0" y="0"></tspan></text>
+        </g>
+        <g id="Group_65" data-name="Group 65" transform="translate(3)">
+          <text id="Review" class="cls-8" transform="translate(933 947)"><tspan x="0" y="0">Review</tspan></text>
+          <text id="_3" data-name="" class="cls-10" transform="translate(937 882)"><tspan x="0" y="34"></tspan></text>
+        </g>
+        <g id="Group_64" data-name="Group 64" transform="translate(-6)">
+          <text id="Rate" class="cls-8" transform="translate(1077 947)"><tspan x="0" y="0">Rate</tspan></text>
+          <text id="_4" data-name="" class="cls-11" transform="translate(1073 914)"><tspan x="0" y="0"></tspan></text>
+        </g>
+        <g id="Group_63" data-name="Group 63">
+          <text id="Explore" class="cls-8" transform="translate(1189 947)"><tspan x="0" y="0">Explore</tspan></text>
+          <text id="_5" data-name="" class="cls-12" transform="translate(1198 915)"><tspan x="0" y="0"></tspan></text>
+        </g>
+      </g>
+    </g>
+    <text id="New_York:_Penguin_Press_297_pages_7.8_in" data-name="New York: Penguin Press297 pages; 7.8 in" class="cls-13" transform="translate(796 637)"><tspan x="0" y="15">New York: Penguin Press</tspan><tspan class="cls-14" y="15"></tspan><tspan class="cls-14"><tspan x="0" y="39">297 pages; 7.8 in</tspan></tspan></text>
+    <text id="Read_Synopsis" data-name="Read Synopsis" class="cls-15" transform="translate(1181 637)"><tspan x="3.57" y="15">Read Synopsis</tspan></text>
+    <g id="click_area_2" class="cls-16" transform="translate(1176 733)">
+      <rect class="cls-17" width="92" height="102"/>
+      <rect class="cls-18" x="0.5" y="0.5" width="91" height="101"/>
+    </g>
+  </g>
+</svg>
