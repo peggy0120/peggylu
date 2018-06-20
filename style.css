@@ -444,7 +444,7 @@ nav .dropdown-item.dd-active {
 
 #main .project-item {
     border-radius: 2px;
-/*    height: 200px;*/
+    /*    height: 200px;*/
     opacity: 0;
     overflow: hidden;
     margin-bottom: 15px;
@@ -494,13 +494,13 @@ nav .dropdown-item.dd-active {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.24), 0 1px 2px rgba(0, 0, 0, 0.36);
     color: #fff;
     font-weight: 300;
-/*    line-height: 40px;*/
+    /*    line-height: 40px;*/
     padding: 8px 12px 8px 20px;
     position: absolute;
     opacity: 1!important;
-/*    text-align: center;*/
-/*    transform: rotate(-45deg);*/
-/*    width: 200px;*/
+    /*    text-align: center;*/
+    /*    transform: rotate(-45deg);*/
+    /*    width: 200px;*/
     top: 20px;
     left: -5px;
     z-index: 101;
@@ -509,7 +509,7 @@ nav .dropdown-item.dd-active {
 #main .project-ribbon:after {
     content: "";
     border-style: solid;
-/*    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.24), 0 1px 2px rgba(0, 0, 0, 0.36);*/
+    /*    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.24), 0 1px 2px rgba(0, 0, 0, 0.36);*/
     height: calc(1.5em + 16px);
     position: absolute;
     width: 0;
@@ -586,7 +586,7 @@ nav .dropdown-item.dd-active {
 
 @media screen and (min-width: 1200px) {
     #main .project-item {
-/*        height: 230px;*/
+        /*        height: 230px;*/
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -827,18 +827,16 @@ nav .dropdown-item.dd-active {
 }
 
 #resume #main .proj-cont .container > .row > div {
-    -webkit-box-shadow:
-        1px 0px 4px -1px rgba(0, 0, 0, 0.24),
-        inset 0 -1px 3px rgba(0, 0, 0, 0.06),
-        inset 0 -1px 2px rgba(0, 0, 0, 0.12),
-        inset 0 1px 3px rgba(0, 0, 0, 0.06),
-        inset 0 1px 2px rgba(0, 0, 0, 0.12);
-    box-shadow:
-        1px 0px 4px -1px rgba(0, 0, 0, 0.24),
-        inset 0 -1px 3px rgba(0, 0, 0, 0.06),
-        inset 0 -1px 2px rgba(0, 0, 0, 0.12),
-        inset 0 1px 3px rgba(0, 0, 0, 0.06),
-        inset 0 1px 2px rgba(0, 0, 0, 0.12);
+    -webkit-box-shadow: 1px 0px 4px -1px rgba(0, 0, 0, 0.24),
+    inset 0 -1px 3px rgba(0, 0, 0, 0.06),
+    inset 0 -1px 2px rgba(0, 0, 0, 0.12),
+    inset 0 1px 3px rgba(0, 0, 0, 0.06),
+    inset 0 1px 2px rgba(0, 0, 0, 0.12);
+    box-shadow: 1px 0px 4px -1px rgba(0, 0, 0, 0.24),
+    inset 0 -1px 3px rgba(0, 0, 0, 0.06),
+    inset 0 -1px 2px rgba(0, 0, 0, 0.12),
+    inset 0 1px 3px rgba(0, 0, 0, 0.06),
+    inset 0 1px 2px rgba(0, 0, 0, 0.12);
 }
 
 .project #main .proj-cont #sidenav {
@@ -1356,17 +1354,22 @@ nav .dropdown-item.dd-active {
 }
 
 .project #main section[id^='cv-'] .cv-time {
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.25;
-    margin-top: 3px;
+    /*    margin-top: 3px;*/
+    text-align: right;
+    margin-right: -15px;
 }
 
 .project #main section[id^='cv-'] ul {
+    margin-top: 1em;
+    padding-left: 12px;
     line-height: 1.5;
 }
 
 .project #main section[id^='cv-'] .cv-desc li {
     margin-bottom: 0.5em;
+    list-style: none;
 }
 
 .project #main #cv-skl.proj-sect img {
@@ -1631,7 +1634,7 @@ svg text ::selection {
         margin-right: 80px;
         padding-left: 30px;
         padding-bottom: .5em;
-/*        white-space: nowrap;*/
+        /*        white-space: nowrap;*/
     }
     .project #main .proj-cont .proj-sect h4 {
         font-size: 20px;
@@ -1736,7 +1739,8 @@ svg text ::selection {
     background: transparent !important;
 }
 
-.WACPageBorder, .WACFrameWord {
+.WACPageBorder,
+.WACFrameWord {
     border: none !important;
 }
 
@@ -1745,6 +1749,5 @@ svg text ::selection {
 #capstone-prototype {
     padding: 0 !important;
 
-/*    transform: scale(calc(1080/1280));*/
+    /*    transform: scale(calc(1080/1280));*/
 }
-
