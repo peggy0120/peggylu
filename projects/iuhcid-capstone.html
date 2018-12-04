@@ -17,6 +17,7 @@
     <script>
         $(function() {
             $('#footer').load('../reuseFooter.html');
+            $('#copyright').load('../reuseCopyrights.html');
         });
 
     </script>
@@ -369,18 +370,7 @@
 
         </div>
 
-        <div class="copyright">
-            <span>Design and code by Peggy (Pei-Ying) Lu <br> with Bootstrap 4 &copy; 2017. All rights reserved.</span>
-            <div class="d-flex justify-content-center">
-                <a href="../index.html" class="btm-top">
-                    Homepage &nbsp;
-                    <span class="fas fa-home"></span>
-                </a>
-                <a href="#wrapper" class="btm-top">
-                    back to top &nbsp;
-                    <span class="fas fa-caret-up"></span>
-                </a>
-            </div>
+        <div id="copyright">
         </div>
 
     </div>
@@ -397,7 +387,7 @@
             /* Loading Header & Add dropdown hover state */
 
             $('#header').load('../reuseNav.html', function() {
-                $('.dropdown-item').eq(0).addClass('dd-active');
+                $('.dropdown-item').eq(1).addClass('dd-active');
                 $('.dropdown-menu').mouseenter(function() {
                     $('.dropdown-toggle').addClass('active');
                 });

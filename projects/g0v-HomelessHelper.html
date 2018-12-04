@@ -6,19 +6,18 @@
     <meta name="viewport" content="width=device-width, maximum-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="Peggy Pei-Ying Lu">
-    <title>Prioritization Strategy for IUOS | Peggy Lu | UX Design</title>
+    <title>Homeless Helper | Peggy Lu | UX Design</title>
 
     <!-- jQuery -->
     <script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 
-
     <!-- Load Header & Footer-->
     <script>
         $(function() {
             $('#footer').load('../reuseFooter.html');
+            $('#copyright').load('../reuseCopyrights.html');
         });
-
     </script>
 
     <!-- Bootstrap Core JavaScript -->
@@ -30,7 +29,7 @@
     <link rel="stylesheet" href="../style.css">
 
     <!-- FontAwesome -->
-    <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet">
+    <link type="text/css" href="https://use.fontawesome.com/releases/v5.0.2/css/all.css?v=1234" rel="stylesheet">
 
     <!-- Google Analytics -->
     <script>
@@ -46,9 +45,50 @@
         })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
         ga('create', 'UA-61994680-2', 'auto');
         ga('send', 'pageview');
-
     </script>
+
+    <style>
+        #prototype {
+            position: relative;
+            text-align: center;
+            background-image: url(../image/hh_screens.jpg);
+            background-position: left;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding-top: 100px;
+            padding-bottom: 100px;
+            color: white;
+            border-radius: 3px;
+        }
+        #prototype > h3 {
+            margin-bottom: 50px;
+        }
+        #prototype a {
+            font-size: 1.2em;
+            color: white;
+            border: 1px white solid;
+            padding: 15px;
+          border-radius: 3px;
+        }
+        #prototype a:hover {
+            color: var(--txBlack);
+            background-color: white;
+        }
+        #prototype p.footnote {
+
+        }
+        @media screen and (max-device-width: 767px) {
+            .proj-sect #prototype > h3 {
+                border-bottom: none;
+                padding: 0;
+                margin:0;
+                margin-bottom: 50px;
+            }
+        }
+    </style>
+
 </head>
+
 
 <body data-spy="scroll" data-target="#sidenav" data-offset="60">
 
@@ -60,55 +100,50 @@
             <header id="header"></header>
 
             <!-- Main -->
-            <div id="main" class="proj-iuos">
-
+            <div id="main" class="proj-hh">
                 <header class="proj-header">
                     <div class="container">
-                        <h1>Prioritization Strategy for IUOS</h1>
-                        <span class="proj-label">Design Strategy | Research</span>
+                        <h1>Homeless Helper</h1>
+                        <span class="proj-label">Web Design</span>
                     </div>
                 </header>
 
-                <section class="proj-meta">
+                <section class="proj-meta" style="">
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-8 col-md-9 col-12 row">
-                                <div class="col-lg-8 col-12">
+                            <div class="col-lg-9 col-md-9 col-12 row">
+                                <div class="col-lg-6 col-12">
                                     <div class="proj-overview">
                                         <h2>Overview</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet dolor hendrerit, sollicitudin lorem vitae, laoreet lorem. Sed velit tortor, laoreet eget aliquam vel, iaculis at dolor. Nunc ligula erat, commodo nec suscipit sed, fringilla eu diam.</p>
+                                        <p>A responsive web platform to address the problem of uneven distribution of donated resources for homeless people</p>
                                     </div>
                                 </div>
-                                <div class="col-lg-4 col-12 row">
-                                    <div class="proj-type col-lg-12 col-6">
+                                <div class="col-lg-6 col-12 row">
+                                    <div class="proj-type col-lg-12 col-md-6 col-5">
                                         <h2>Type</h2>
-                                        <p>Class Project<br><span>(Design Strategy)</span></p>
+                                        <p>Community Project | Real&#8209;world Implementation</p>
                                     </div>
-                                    <div class="proj-time col-lg-12 col-6">
+                                    <div class="proj-time col-lg-12 col-md-6 col-4">
                                         <h2>Duration</h2>
-                                        <p>3 weeks<br><span>(Nov. - Dec. 2017)</span></p>
+                                        <p>2 months<br><span>(May - Jul, 2018)</span></p>
+                                    </div>
+                                    <div class="proj-role d-lg-none d-md-none col-3">
+                                        <h2>Role</h2>
+                                        <ul>
+                                            <li>Conceptualizing</li>
+                                            <li>Interaction Design</li>
+                                            <li>Visual Design</li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-3 col-12 row">
+                            <div class="col-lg-3 col-md-3 d-lg-block d-md-block d-sm-none row">
                                 <div class="proj-role col-lg-6 col-md-12 col-6">
                                     <h2>Role</h2>
                                     <ul>
-                                        <li>Research
-                                            <br><span>Data Analysis</span>
-                                            <br><span>Scope Analysis</span>
-                                            <br><span>Case Studies</span>
-                                        </li>
-                                        <li>Documentation</li>
-                                    </ul>
-                                </div>
-                                <div class="proj-team col-lg-6 col-md-12 col-6">
-                                    <h2>Team</h2>
-                                    <ul>
-                                        <li><a href="http://www.nyahbell.com/" target="_blank" class="ext-link">Nyah Bell</a></li>
-                                        <li><a href="https://www.patrickhermiller.us" target="_blank" class="ext-link">Patrick Hermiller</a></li>
-                                        <li>Peggy Lu</li>
-                                        <li><a href="http://sanchitsoni.co" target="_blank" class="ext-link">Sanchit Soni</a></li>
+                                        <li>Conceptualizing</li>
+                                        <li>Interaction Design</li>
+                                        <li>Visual Design</li>
                                     </ul>
                                 </div>
                             </div>
@@ -124,24 +159,17 @@
 
                     <div class="container">
                         <div class="row d-flex">
-                            <object data="i590_SD4_team1_deliverable.pdf" type="application/pdf" width="100%" height="600px">
-                                <p>: This browser does not support PDFs. Please download the PDF to view it: <a href="i590_SD4_team1_deliverable.pdf">Download PDF</a>.
-                                </p>
-                            </object>
-                        </div>
-                        <div class="row d-none">
 
-                            <div class="col-md-3 d-md-block d-none">
+                            <div class="col-md-3 col-sm-12 d-sm-block">
                                 <nav id="sidenav">
                                     <span class="sn-breadcrumb">
                                         <a href="../index.html">peggylu</a>&nbsp;· projects /
                                     </span>
-                                    <span class="sn-header">Prioritization Strategy for IUOS</span>
+                                    <span class="sn-header">Homeless Helper</span>
                                     <ul class="nav">
                                         <li><a href="#pj-bkgd" class="active nav-link">Background</a></li>
-                                        <li><a href="#pj-proc" class="nav-link">Process</a></li>
-                                        <li><a href="#pj-res" class="nav-link">Research</a></li>
-                                        <li><a href="#pj-refl" class="nav-link">Takeaway</a></li>
+                                        <li><a href="#pj-desg" class="nav-link">Design</a></li>
+                                        <li><a href="#pj-rslt" class="nav-link d-none">Result</a></li>
                                     </ul>
                                     <a href="#wrapper" class="sn-top">
                                         back to top &nbsp;
@@ -158,80 +186,55 @@
                                         back to top &nbsp;
                                         <span class="fas fa-caret-up"></span>
                                     </a>
-                                    <div></div>
-                                    <div class="chart timeline">
-                                        <h4>Goals</h4>
-                                        <object type="image/svg+xml" data="../image/iuos_goals.svg" class="d-md-block d-none"></object>
-                                        <object type="image/svg+xml" data="../image/iuos_goals_mobile.svg" class="d-md-none d-sm-block full-width"></object>
+                                    <div class="quote">
+                                        <p>Although there's a high number of resources being donated overall, the <em>uneven distribution</em> of those resources in time, location, and type still makes it challenging for homeless people in Taipei.</p>
                                     </div>
-                                </section>
-
-                                <section class="proj-sect" id="pj-proc">
-                                    <h2>Process</h2>
-                                    <a href="#wrapper" class="sect-top">
-                                        back to top &nbsp;
-                                        <span class="fas fa-caret-up"></span>
-                                    </a>
-                                    <div class="chart timeline">
-                                        <h4>Project Timeline</h4>
-                                        <object type="image/svg+xml" data="../image/iuos_timeline.svg" class="full-width"></object>
-
-                                    </div>
-
-                                    <div id="pj-proc-0">
-                                        <h3><span>Phase 0</span>Crafting a Toolkit</h3>
-                                        <div>
-                                            <p></p>
-                                        </div>
-
-                                    </div>
-                                    <div id="pj-proc-1">
-                                        <h3><span>Phase 1</span>Choosing a Success Metric</h3>
-                                        <div>
-                                            <p></p>
-                                        </div>
+                                    <div>
+                                        <p>Homeless Helper is a web platform created with the goal of <em>better coordinating donated resources from different organizations and individuals for homeless people in Taipei City</em>. It was one of the six projects funded by <a href="https://grants.g0v.tw/power/en/" class="ext-link">g0v Civic Tech Prototype Grant</a> in 2018. The organization which initiated the project, <a href="http://www.doyouaflavor.tw/" class="ext-link">DoYouAFlavor (人生百味)</a>, is a social enterprise in Taiwan aiding disadvantaged individuals with the mission of breaking down stereotypes about street people and creating new possibilities for people living in poverty.</p>
+                                        <p>I was involved in the first phase of the project to conceptualize and to deploy the MVP version of the design and to plan out the release of the next version along with a team of volunteered developers and project managers.</p>
+                                        <p>Below is an overview of the problem this project addressed with the following stakeholder groups: donors, homeless people, and DoYouAFlavor as the coordinator between the two.</p>
                                         <div class="chart timeline">
-                                            <h4>Decision Tree</h4>
-                                            <object type="image/svg+xml" data="../image/iuos_tree-01.svg"></object>
+                                            <h4>Stakeholders &amp; Problems</h4>
+                                            <object type="image/svg+xml" data="../image/hh_stakeholders.svg" onload="importFont(this)"></object>
                                         </div>
-                                    </div>
-                                    <div id="pj-proc-2">
-                                        <h3><span>Phase 2</span>Exploring Waste Education</h3>
-                                        <div>
-                                            <p></p>
-                                        </div>
-                                        <div class="chart timeline">
-                                            <h4></h4>
-                                            <object type="image/svg+xml" data="../image/iuos_tree-02.svg"></object>
-                                        </div>
-
-                                    </div>
-                                    <div id="pj-proc-3">
-                                        <h3><span>Phase 3</span>Augmenting Recyclemania</h3>
-                                        <div>
-                                            <p></p>
-                                        </div>
-
-
+                                        <p class="footnote">See article from g0v.news for full description of the project [in Mandarin]: <a href="https://g0v.news/2018-g0v-獎助金-無家者小幫手-homeless-2eef6d80f3b0" class="ext-link">【2018 g0v 獎助金】無家者小幫手 Homeless Helper</a></p>
                                     </div>
                                 </section>
 
-                                <section class="proj-sect" id="pj-res">
-                                    <h2>Research &amp; Insights</h2>
+                                <section class="proj-sect" id="pj-desg">
+                                    <h2>Design</h2>
                                     <a href="#wrapper" class="sect-top">
                                         back to top &nbsp;
                                         <span class="fas fa-caret-up"></span>
                                     </a>
-                                    <div style="height: 200px"></div>
+
+                                    <div style="text-align: center; background-color: #FFD46C; border-radius: 5px; padding: 25px;">
+                                        <h3 style="font-weight: 700; margin-top: 15px; border-bottom: none; margin-left: 0; margin-right: 0; padding: 0;">Homeless Helper</h3>
+                                        <p style="max-width: 70%; margin: 0 auto; margin-bottom: 20px;">an open calendar system to collect and show donation efforts as public information </p>
+                                        <img src="../image/hh_mockup.png" style="width: 75%;" />
+
+                                    </div>
+                                    <div id="prototype" style="">
+                                        <h3 style="font-weight: 700; border-bottom: none; margin-left: 0; margin-right: 0; padding: 0;">Prototype*</h3>
+                                        <a href="https://invis.io/Y2M8F457CHQ" target="_blank">Open in Invision
+                                        </a>
+                                        <p class="footnote" style="color: white; margin: 0 auto; margin-top: 40px;">*The site was only built in Mandarin, so was the prototype. Sorry to English speakers!</p>
+                                    </div>
+
+                                    <div>
+
+                                    </div>
                                 </section>
 
-                                <section class="proj-sect" id="pj-refl">
-                                    <h2>Takeaway</h2>
+                                <section class="proj-sect d-none" id="pj-rslt">
+                                    <h2>Result</h2>
                                     <a href="#wrapper" class="sect-top">
                                         back to top &nbsp;
                                         <span class="fas fa-caret-up"></span>
                                     </a>
-                                    <div style="height: 200px"></div>
+                                    <div>
+
+                                    </div>
                                 </section>
 
                             </article>
@@ -254,48 +257,51 @@
 
         </div>
 
-        <div id="copyright">
-            <span>Design and code by Peggy (Pei-Ying) Lu <br> with Bootstrap 4 &copy; 2017. All rights reserved.</span>
-            <div class="d-flex justify-content-center">
-                <a href="../index.html" class="btm-top">
-                    Homepage &nbsp;
-                    <span class="fas fa-home"></span>
-                </a>
-                <a href="#wrapper" class="btm-top">
-                    back to top &nbsp;
-                    <span class="fas fa-caret-up"></span>
-                </a>
-            </div>
-        </div>
-
+        <div id="copyright"></div>
     </div>
 
     <script>
+        function importFont(object) {
+            var svg = object.contentDocument;
+            var style = svg.getElementsByTagName("style");
+            $(style).prepend("@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');");
+        }
+
         $(document).ready(function() {
 
-            /* Loading Header & Add dropdown hover state*/
+            /* Loading Header & Add dropdown hover state */
 
             $('#header').load('../reuseNav.html', function() {
-                $('.dropdown-item').eq(3).addClass('dd-active');
+                $('.dropdown-item').eq(0).addClass('dd-active');
                 $('.dropdown-menu').mouseenter(function() {
                     $('.dropdown-toggle').addClass('active');
                 });
                 $('.dropdown-menu').mouseleave(function() {
                     $('.dropdown-toggle').removeClass('active');
                 });
-                $('nav.navbar').css({'opacity': '0'});
-                $('nav.navbar').delay(300).animate({opacity: 1}, 1200, 'easeInOutBack');
-                $('#main').delay(300).animate({opacity: 1,}, 1200, 'easeInOutBack');
+                $('nav.navbar').css({
+                    'opacity': '0'
+                });
+                $('nav.navbar').delay(300).animate({
+                    opacity: 1
+                }, 1200, 'easeInOutBack');
+                $('#main').delay(300).animate({
+                    opacity: 1,
+                }, 1200, 'easeInOutBack');
             });
 
             /* Loading & Choosing which projs to show in More */
 
             $('#more-content').load('../index.html #main.homepage', function() {
                 $('.project-item').addClass('d-none');
-                $('.blackbaud').removeClass('d-none');
+                $('.ntulis').removeClass('d-none');
                 $('.gogreen').removeClass('d-none');
-                $('.project-item').css({'opacity': '1', 'top': '0'});
-
+                $('.project-item').css({
+                    'opacity': '1',
+                    'top': '0'
+                });
+                $('<div class="more-subtitle">... about working with real-world client</div>').insertBefore('.ntulis a.project-url');
+                $('<div class="more-subtitle-2">... about designing for social good</div>').insertBefore('.gogreen a.project-url');
             });
 
             /* Implementing Scrollspy */
@@ -328,8 +334,8 @@
                 string = string.replace(/ ([^ ]*)$/, '&nbsp;$1');
                 $(this).html(string);
             });
-        });
 
+        });
     </script>
 
     <script type="text/javascript">
@@ -344,9 +350,8 @@
             var position = (s / (d - c)) * 100;
             document.getElementById('Progress-bar').setAttribute('style', 'width: ' + position + '%');
         });
-
     </script>
-
 </body>
+
 
 </html>

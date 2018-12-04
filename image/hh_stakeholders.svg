@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 507.5 308.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ddd;
+      }
+
+      .cls-2, .cls-3, .cls-5 {
+        fill: #fac339;
+      }
+
+      .cls-10, .cls-12, .cls-2, .cls-7 {
+        font-size: 16px;
+      }
+
+      .cls-11, .cls-12, .cls-14, .cls-15, .cls-2, .cls-4, .cls-5, .cls-7 {
+        font-family: Roboto-Light, Roboto;
+        font-weight: 300;
+      }
+
+      .cls-10, .cls-14, .cls-4, .cls-9 {
+        fill: #f9f9f9;
+      }
+
+      .cls-11, .cls-15, .cls-4, .cls-5, .cls-9 {
+        font-size: 12px;
+      }
+
+      .cls-16, .cls-6 {
+        fill: none;
+      }
+
+      .cls-6 {
+        stroke: #ddd;
+      }
+
+      .cls-13, .cls-6 {
+        stroke-width: 0.5px;
+      }
+
+      .cls-11, .cls-7, .cls-8 {
+        fill: #33b599;
+      }
+
+      .cls-9 {
+        font-family: Roboto-Regular, Roboto;
+      }
+
+      .cls-10 {
+        font-family: FontAwesome5FreeSolid, "Font Awesome 5 Free Solid";
+      }
+
+      .cls-12, .cls-13, .cls-15 {
+        fill: #51a6df;
+      }
+
+      .cls-13 {
+        stroke: #f9f9f9;
+      }
+
+      .cls-14 {
+        font-size: 13px;
+      }
+
+      .cls-17 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="hh_stakeholders" transform="translate(-371 -136)">
+    <rect id="Rectangle_145" data-name="Rectangle 145" class="cls-1" width="507" height="45" transform="translate(371 237)"/>
+    <g id="recipient">
+      <text id="Recipient-2" data-name="Recipient" class="cls-2" transform="translate(769 163)"><tspan x="0" y="0">Recipient</tspan></text>
+      <g id="Group_217" data-name="Group 217" transform="translate(211 18)">
+        <circle id="Ellipse_28" data-name="Ellipse 28" class="cls-3" cx="53.5" cy="53.5" r="53.5" transform="translate(537 188)"/>
+        <text id="Homeless_People" data-name="HomelessPeople" class="cls-4" transform="translate(591 239)"><tspan x="-26.543" y="0">Homeless</tspan><tspan x="-17.886" y="14">People</tspan></text>
+      </g>
+      <text id="There_s_not_a_straightforward_way_for_homeless_people_to_expect_when_where_and_what_resources_would_be_distributed." data-name="There&apos;s not a straightforward way for homeless people to expect when, where and what resources would be distributed." class="cls-5" transform="translate(736 344)"><tspan x="0" y="11">There&apos;s not a </tspan><tspan x="0" y="25">straightforward way for </tspan><tspan x="0" y="39">homeless people to </tspan><tspan x="0" y="53">expect when, where and </tspan><tspan x="0" y="67">what resources would </tspan><tspan x="0" y="81">be distributed.</tspan></text>
+    </g>
+    <line id="Line_102" data-name="Line 102" class="cls-6" y2="258" transform="translate(540.5 186.5)"/>
+    <g id="coordinator" transform="translate(-4)">
+      <text id="Coordinator-2" data-name="Coordinator" class="cls-7" transform="translate(590 163)"><tspan x="0" y="0">Coordinator</tspan></text>
+      <g id="Group_213" data-name="Group 213" transform="translate(41 18)">
+        <circle id="Ellipse_28-2" data-name="Ellipse 28" class="cls-8" cx="52.5" cy="52.5" r="52.5" transform="translate(538 189)"/>
+        <text id="DoYouAFlavor" class="cls-9" transform="translate(552 257)"><tspan x="0" y="0">DoYouAFlavor</tspan></text>
+        <text id="star" class="cls-10" transform="translate(582 237)"><tspan x="0" y="0">star</tspan></text>
+      </g>
+      <text id="It_s_impossible_to_manually_collect_info_and_coordinate_across_different_donation_efforts_and_needs." data-name="It&apos;s impossible to manually collect info and coordinate across different donation efforts and needs." class="cls-11" transform="translate(566 344)"><tspan x="0" y="11">It&apos;s impossible to </tspan><tspan x="0" y="25">manually collect info and </tspan><tspan x="0" y="39">coordinate across </tspan><tspan x="0" y="53">different donation </tspan><tspan x="0" y="67">efforts and needs.</tspan></text>
+    </g>
+    <line id="Line_103" data-name="Line 103" class="cls-6" y2="258" transform="translate(714.5 186.5)"/>
+    <g id="donors">
+      <text id="Donors-2" data-name="Donors" class="cls-12" transform="translate(428 163)"><tspan x="0" y="0">Donors</tspan></text>
+      <g id="Group_218" data-name="Group 218" transform="translate(1)">
+        <g id="Group_216" data-name="Group 216" transform="translate(-171 -25)">
+          <g id="Ellipse_28-3" data-name="Ellipse 28" class="cls-13" transform="translate(560 211)">
+            <circle class="cls-17" cx="34.5" cy="34.5" r="34.5"/>
+            <circle class="cls-16" cx="34.5" cy="34.5" r="34.25"/>
+          </g>
+          <text id="Individuals" class="cls-4" transform="translate(595 250)"><tspan x="-28.028" y="0">Individuals</tspan></text>
+        </g>
+        <g id="Group_214" data-name="Group 214" transform="translate(-156.244 37.756)">
+          <g id="Ellipse_28-4" data-name="Ellipse 28" class="cls-13" transform="translate(552 203)">
+            <circle class="cls-17" cx="46.244" cy="46.244" r="46.244"/>
+            <circle class="cls-16" cx="46.244" cy="46.244" r="45.994"/>
+          </g>
+          <text id="Charity_Groups" data-name="CharityGroups" class="cls-14" transform="translate(597 245.999)"><tspan x="-20.09" y="0">Charity</tspan><tspan x="-20.671" y="15">Groups</tspan></text>
+        </g>
+        <g id="Group_215" data-name="Group 215" transform="translate(-111 3)">
+          <g id="Ellipse_28-5" data-name="Ellipse 28" class="cls-13" transform="translate(560 211)">
+            <circle class="cls-17" cx="33.5" cy="33.5" r="33.5"/>
+            <circle class="cls-16" cx="33.5" cy="33.5" r="33.25"/>
+          </g>
+          <text id="Small_Business" data-name="SmallBusiness" class="cls-4" transform="translate(594 240)"><tspan x="-14.774" y="0">Small</tspan><tspan x="-23.827" y="14">Business</tspan></text>
+        </g>
+      </g>
+      <text id="Lots_of_resources_are_wasted_when_donors_do_not_know_when_where_and_what_resources_are_already_issued_or_most_needed." data-name="Lots of resources are wasted when donors do not know when, where and what resources are already issued or most needed." class="cls-15" transform="translate(388 344)"><tspan x="0" y="11">Lots of resources are </tspan><tspan x="0" y="25">wasted when donors do </tspan><tspan x="0" y="39">not know when, where </tspan><tspan x="0" y="53">and what resources are </tspan><tspan x="0" y="67">already issued or most </tspan><tspan x="0" y="81">needed.</tspan></text>
+    </g>
+    <line id="Line_104" data-name="Line 104" class="cls-16" x2="507" transform="translate(371.5 136)"/>
+  </g>
+</svg>

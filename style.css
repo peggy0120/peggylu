@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC');
 /*@import url('https://use.fontawesome.com/releases/v5.0.2/css/all.css');*/
 
 /*
@@ -24,7 +25,7 @@
 
 body {
     background-color: var(--bgDarkgreen);
-    font-family: "Roboto";
+    font-family: 'Roboto', 'Noto Sans TC', sans-serif;
     font-size: 100%;
     margin: 0 auto;
     min-width: 576px;
@@ -662,6 +663,10 @@ nav .dropdown-item.dd-active {
     background-image: url(image/cvp_banner.jpg);
 }
 
+.project #main.proj-hh .proj-header {
+    background-image: url(image/hh_banner.jpg);
+}
+
 .project #main.proj-iuos .proj-header {
     background-image: url(image/iuos_banner.jpg);
     background-position: 50% 35%;
@@ -1161,6 +1166,23 @@ nav .dropdown-item.dd-active {
     padding-right: 0;
 }
 
+.project #main .proj-cont .proj-sect .quote {
+    padding-right: 15px;
+}
+
+.project #main .proj-cont .proj-sect .quote > p{
+/*    font-size: 1.2em;*/
+    padding-left: 15px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-left: var(--primary) 4px solid;
+    background-color: white;
+/*    max-width: 28em;*/
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
 .project #main .proj-cont .proj-sect img {
     border-radius: 2px;
     margin-bottom: 1.5em;
@@ -1488,7 +1510,7 @@ footer .icon > .label {
     }
 }
 
-.copyright {
+#copyright {
     background-color: #45635c;
     bottom: 0;
     color: #fff;
@@ -1502,12 +1524,12 @@ footer .icon > .label {
     width: 100%;
 }
 
-.copyright > span {
+#copyright > span {
     display: block;
 }
 
 @media screen and (min-width: 1512px) {
-    .copyright {
+    #copyright {
         background-color: var(--bgDarkgreen);
     }
 }
