@@ -18,6 +18,7 @@
             $('#footer').load('../reuseFooter.html');
             $('#copyright').load('../reuseCopyrights.html');
         });
+
     </script>
 
     <!-- Bootstrap Core JavaScript -->
@@ -48,6 +49,50 @@
     </script>
 
     <style>
+        .desg-block {
+            border-radius: 5px;
+            padding: 25px;
+/*            text-align: center;*/
+        }
+        .desg-block h3 {
+
+        }
+        .desg-block img, .desg-block p, .desg-block h3 {
+            text-align: center;
+        }
+        .desg-block div[class^='col-'] {
+            padding: 15px;
+            margin-bottom: 10px;
+        }
+        /*  Overwrite global stylesheet */
+        .project #main .proj-cont .proj-sect #support [class^='col'] {
+/*            margin-left: 5px;*/
+            padding-left: 15px;
+
+        }
+        .desg-block div[class^='col-'] > div {
+            border: 1.5px #fff solid;
+            padding: 10px;
+            padding-bottom: 40px;
+            border-radius: 3px;
+            height: 100%;
+            position: relative;
+            line-height: 1;
+        }
+        .desg-block span {
+            font-weight: 300;
+            text-align: left;
+            font-size: 0.9em;
+        }
+        .desg-block span.status-tag {
+            font-style: italic;
+            color: var(--txGrey);
+            padding-right: 10px;
+            padding-bottom: 10px;
+            right:0;
+            bottom: 0;
+            position: absolute;
+        }
         #prototype {
             position: relative;
             text-align: center;
@@ -190,14 +235,14 @@
                                         <p>Although there's a high number of resources being donated overall, the <em>uneven distribution</em> of those resources in time, location, and type still makes it challenging for homeless people in Taipei.</p>
                                     </div>
                                     <div>
-                                        <p>Homeless Helper is a web platform created with the goal of <em>better coordinating donated resources from different organizations and individuals for homeless people in Taipei City</em>. It was one of the six projects funded by <a href="https://grants.g0v.tw/power/en/" class="ext-link">g0v Civic Tech Prototype Grant</a> in 2018. The organization which initiated the project, <a href="http://www.doyouaflavor.tw/" class="ext-link">DoYouAFlavor (人生百味)</a>, is a social enterprise in Taiwan aiding disadvantaged individuals with the mission of breaking down stereotypes about street people and creating new possibilities for people living in poverty.</p>
-                                        <p>I was involved in the first phase of the project to conceptualize and to deploy the MVP version of the design and to plan out the release of the next version along with a team of volunteered developers and project managers.</p>
+                                        <p>Homeless Helper is a web platform created with the goal of <em>better coordinating donated resources from different organizations and individuals for homeless people in Taipei City</em>. It was one of the six projects funded by <a href="https://grants.g0v.tw/power/en/" class="ext-link" target="_blank">g0v Civic Tech Prototype Grant</a> in 2018. The organization which initiated the project, <a href="http://www.doyouaflavor.tw/" class="ext-link" target="_blank">DoYouAFlavor (人生百味)</a>, is a social enterprise in Taiwan aiding disadvantaged individuals with the mission of breaking down stereotypes about street people and creating new possibilities for people living in poverty.</p>
+                                        <p><em>I was involved in the first phase of the project to conceptualize and to deploy the MVP version of the design</em> and to plan out the release of the next version along with a team of volunteered developers and project managers.</p>
                                         <p>Below is an overview of the problem this project addressed with the following stakeholder groups: donors, homeless people, and DoYouAFlavor as the coordinator between the two.</p>
                                         <div class="chart timeline">
                                             <h4>Stakeholders &amp; Problems</h4>
                                             <object type="image/svg+xml" data="../image/hh_stakeholders.svg" onload="importFont(this)"></object>
                                         </div>
-                                        <p class="footnote">See article from g0v.news for full description of the project [in Mandarin]: <a href="https://g0v.news/2018-g0v-獎助金-無家者小幫手-homeless-2eef6d80f3b0" class="ext-link">【2018 g0v 獎助金】無家者小幫手 Homeless Helper</a></p>
+                                        <p class="footnote">See article from g0v.news for full description of the project [in Mandarin]: <a href="https://g0v.news/2018-g0v-獎助金-無家者小幫手-homeless-2eef6d80f3b0" class="ext-link" target="_blank">【2018 g0v 獎助金】無家者小幫手 Homeless Helper</a></p>
                                     </div>
                                 </section>
 
@@ -208,11 +253,61 @@
                                         <span class="fas fa-caret-up"></span>
                                     </a>
 
-                                    <div style="text-align: center; background-color: #FFD46C; border-radius: 5px; padding: 25px;">
+                                    <div style="background-color: #FFD46C;" class="desg-block">
                                         <h3 style="font-weight: 700; margin-top: 15px; border-bottom: none; margin-left: 0; margin-right: 0; padding: 0;">Homeless Helper</h3>
                                         <p style="max-width: 70%; margin: 0 auto; margin-bottom: 20px;">an open calendar system to collect and show donation efforts as public information </p>
+                                        <div style="text-align: center;">
                                         <img src="../image/hh_mockup.png" style="width: 75%;" />
 
+                                        </div>
+
+                                    </div>
+                                    <div class="desg-block">
+                                        <div class="row" style="max-width: none;">
+                                            <div class="col-12 col-lg-6">
+                                                <p style="font-weight: 400;  text-align: left;">By making donation needs and efforts public and easily accessible information, it</p>
+                                                <ol style="font-weight: 300; padding-left: 1em; padding-right: 1em; margin-top:-1em;">
+                                                    <li>lowers the barrier of participation for donors; </li>
+                                                    <li>reduces the cost of coordination;</li>
+                                                    <li>better matches the efforts to the needs of homeless people;</li>
+                                                    <li>establishes a stable and more coordinated distribution of efforts in the long run.</li>
+                                                </ol>
+                                            </div>
+                                            <div class="col-12 col-lg-6">
+                                                <p style=" text-align: left;">Ultimately, Homeless Helper hopes that <em>through improving the experience of participation</em>, it would help to raise public awareness and to correct false perception of issues around homeless people. </p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div style="background-color: #FFD46C;" class="desg-block" id="support">
+                                        <p style="max-width: 70%; margin: 0 auto; margin-bottom: 20px; font-size: 1.25em;">Overall, Homeless Helper supports </p>
+                                        <div class="row" style="max-width: none;">
+                                            <div class="col-6 col-lg-3 col-md-6">
+                                                <div><h5>Browsing</h5><span>the calendar to know current donation efforts</span>
+                                                <span class="status-tag">MVP built</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-lg-3 col-md-6">
+                                                <div><h5>Disclosing</h5><span>donation efforts by donors themselves</span>
+                                                <span class="status-tag">MVP built</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-lg-3 col-md-6">
+                                                <div style="border-style: dashed;"><h5>Matching</h5><span>voluteers to distribute donated reources</span>
+                                                <span class="status-tag">under construction</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-lg-3 col-md-6">
+                                                <div style="border-style: dashed;"><h5>Educating</h5><span>the public about homeless people</span>
+                                                <span class="status-tag">under construction</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="desg-block" style="text-align: center;">
+                                       <h3 style="margin-top: 15px; border-bottom: none; margin-left: 0; margin-right: 0; padding: 0;">Site Structure (MVP)</h3>
+                                        <img src="../image/hh_siteflow.png" style="width:100%; max-width: none; margin: 0 auto;">
                                     </div>
                                     <div id="prototype" style="">
                                         <h3 style="font-weight: 700; border-bottom: none; margin-left: 0; margin-right: 0; padding: 0;">Prototype*</h3>
@@ -300,8 +395,8 @@
                     'opacity': '1',
                     'top': '0'
                 });
-                $('<div class="more-subtitle">... about working with real-world client</div>').insertBefore('.ntulis a.project-url');
-                $('<div class="more-subtitle-2">... about designing for social good</div>').insertBefore('.gogreen a.project-url');
+                $('<div class="more-subtitle">').insertBefore('.ntulis a.project-url');
+                $('<div class="more-subtitle-2"></div>').insertBefore('.gogreen a.project-url');
             });
 
             /* Implementing Scrollspy */
@@ -336,6 +431,7 @@
             });
 
         });
+
     </script>
 
     <script type="text/javascript">
@@ -350,6 +446,7 @@
             var position = (s / (d - c)) * 100;
             document.getElementById('Progress-bar').setAttribute('style', 'width: ' + position + '%');
         });
+
     </script>
 </body>
 
