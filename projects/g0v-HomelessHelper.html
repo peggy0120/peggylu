@@ -46,9 +46,27 @@
         })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
         ga('create', 'UA-61994680-2', 'auto');
         ga('send', 'pageview');
+
     </script>
 
     <style>
+        #pj-proc .row {
+            margin-bottom: 2em;
+        }
+        #pj-proc h5 {
+            margin-top: 1em;
+            margin-bottom: 1.5em;
+        }
+        #pj-proc img {
+            object-fit: cover;
+            height: 100%;
+        }
+        #pj-proc ul {
+            padding-left: 1em;
+        }
+        #pj-proc ul li {
+            margin-bottom: 10px;
+        }
         .desg-block {
             border-radius: 5px;
             padding: 25px;
@@ -213,6 +231,7 @@
                                     <span class="sn-header">Homeless Helper</span>
                                     <ul class="nav">
                                         <li><a href="#pj-bkgd" class="active nav-link">Background</a></li>
+                                        <li><a href="#pj-proc" class="nav-link">Process</a></li>
                                         <li><a href="#pj-desg" class="nav-link">Design</a></li>
                                         <li><a href="#pj-rslt" class="nav-link d-none">Result</a></li>
                                     </ul>
@@ -231,19 +250,115 @@
                                         back to top &nbsp;
                                         <span class="fas fa-caret-up"></span>
                                     </a>
-                                    <div class="quote">
+
+                                    <div class="">
+                                        <h3>Challenge</h3>
                                         <p>Although there's a high number of resources being donated overall, the <em>uneven distribution</em> of those resources in time, location, and type still makes it challenging for homeless people in Taipei.</p>
+
                                     </div>
                                     <div>
-                                        <p>Homeless Helper is a web platform created with the goal of <em>better coordinating donated resources from different organizations and individuals for homeless people in Taipei City</em>. It was one of the six projects funded by <a href="https://grants.g0v.tw/power/en/" class="ext-link" target="_blank">g0v Civic Tech Prototype Grant</a> in 2018. The organization which initiated the project, <a href="http://www.doyouaflavor.tw/" class="ext-link" target="_blank">DoYouAFlavor (人生百味)</a>, is a social enterprise in Taiwan aiding disadvantaged individuals with the mission of breaking down stereotypes about street people and creating new possibilities for people living in poverty.</p>
-                                        <p><em>I was involved in the first phase of the project to conceptualize and to deploy the MVP version of the design</em> and to plan out the release of the next version along with a team of volunteered developers and project managers.</p>
-                                        <p>Below is an overview of the problem this project addressed with the following stakeholder groups: donors, homeless people, and DoYouAFlavor as the coordinator between the two.</p>
-                                        <div class="chart timeline">
-                                            <h4>Stakeholders &amp; Problems</h4>
-                                            <object type="image/svg+xml" data="../image/hh_stakeholders.svg" onload="importFont(this)"></object>
-                                        </div>
+                                        <h3>Goal</h3>
+                                        <p>To better coordinating donated resources from different organizations and individuals for homeless people in Taipei City</p>
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <p>Homeless Helper is a web application made by <a href="http://www.doyouaflavor.tw/" class="ext-link" target="_blank">DoYouAFlavor (人生百味)</a>, a social enterprise in Taiwan aiding disadvantaged individuals with the mission of breaking down stereotypes about street people and creating new possibilities for people living in poverty. It was one of the six projects funded by <a href="https://grants.g0v.tw/power/en/" class="ext-link" target="_blank">g0v Civic Tech Prototype Grant</a> in 2018.</p>
+                                        <p>The project spun off from a hackathon hosted by and taken place at DoYouAFlavor, with a team of volunteered developers, product managers, and me <em>leading the design efforts</em>. I was involved in the first phase of the project to conceptualize and to deploy the MVP version of the design and to plan out the release of the next version.</p>
+
                                         <p class="footnote">See article from g0v.news for full description of the project [in Mandarin]: <a href="https://g0v.news/2018-g0v-獎助金-無家者小幫手-homeless-2eef6d80f3b0" class="ext-link" target="_blank">【2018 g0v 獎助金】無家者小幫手 Homeless Helper</a></p>
                                     </div>
+                                </section>
+
+                                <section class="proj-sect" id="pj-proc">
+                                    <h2>Process</h2>
+                                    <a href="#wrapper" class="sect-top">
+                                        back to top &nbsp;
+                                        <span class="fas fa-caret-up"></span>
+                                    </a>
+                                    <div id="pj-proc-0">
+                                        <h3>Understanding</h3>
+                                        <p>Starting with interviewing staffs about their experience of issuing resources on the street, as well as extracting insights from previous ethnographic researches that was conducted with donors and homeless people, we discovered following pain points for different stakeholders.</p>
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <img src="https://images.unsplash.com/photo-1489082432991-b392330ded31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1344&q=80">
+                                            </div>
+                                            <div class="col-8">
+                                                <h5>For Donors<span style="font-size: 0.8em; font-weight: 300;"><br />including individuals, small businesses, and charity groups</span></h5>
+                                                <ul>
+                                                    <li>Donors don’t necessarily know when / where / what resources are needed the most.</li>
+                                                    <li>Therefore, lots of resources are wasted and donors are less motivated to donate.</li>
+                                                </ul>
+                                            </div>
+
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <img src="https://cdn.pixabay.com/photo/2017/08/18/01/16/homeless-man-2653445_1280.jpg">
+                                            </div>
+                                            <div class="col-8">
+                                                <h5>For Homeless People</h5>
+                                                <ul>
+                                                    <li>It’s hard for them to expect when, where, and what resources would be distributed.</li>
+                                                    <li>When there’s an overflow of donated resources and they inevitably have to discard what they can not keep, it makes them seem ungrateful to the public that do not know the reasons behind. </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <img src="https://images.unsplash.com/photo-1461532257246-777de18cd58b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1655&q=80">
+                                            </div>
+                                            <div class="col-8">
+                                                <h5>For DoYouAFlavor<span style="font-size: 0.8em; font-weight: 300;"><br />as the coordinator between donors and homeless peoples</span></h5>
+                                                <ul>
+                                                    <li>As a small social enterprise, it’s impossible for them to manually coordinate across different donation efforts and needs across the city.</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div id="pj-proc-1">
+                                        <h3>Exploring</h3>
+                                        <p>Brainstorming and group sketch sessions were conducted to explore different concepts that can help DoYouAFlavor to have a clearer idea and to better coordinate different donation efforts.</p>
+
+                                        <p>After comparing different ideas ranging from a dedicated google sheet, sms reporting system, chat-bot etc., the solution we saw most appropriate was a responsive web calendar system to collect and display donation efforts publicly. Donors can disclose what / when / where they would like to issue the resources on their own. DoYouAFlavor can assist and coordinate the efforts if needed with the collected information. </p>
+                                        <img src="../image/hh_papersketch.jpg">
+                                    </div>
+
+                                    <div id="pj-proc-2">
+                                        <h3>Strategizing</h3>
+                                        <p>Going with the pain points, along with consideration of feasibility under a limited timeline and resources, our priority and targeted users at different stages were determined as the following:</p>
+                                        <div class="row">
+                                            <div class="col-12 col-md-3"><h5>Short-term (MVP)</h5></div>
+                                            <div class="col-12 col-md-9"><p>Collect and display existing donation efforts from charity groups that usually issue certain amount of resources on an established schedule.</p></div>
+                                            <div class="col-12 col-md-3"><h5>Mid-term</h5></div>
+                                            <div class="col-12 col-md-9"><p>Collect and display sporadic donation efforts from individuals and small business. Admin from DoYouAFlavor will have dedicated interface to better manage user entries.</p></div>
+                                            <div class="col-12 col-md-3"><h5>Long-term</h5></div>
+                                            <div class="col-12 col-md-9"><p>Be able to highlight gaps in needs and efforts, and to further motivate the public to distribute resources at the time and place that will maximize the outcome.</p></div>
+                                        </div>
+                                    </div>
+
+                                    <div id="pj-proc-3">
+                                        <h3>Iterating</h3>
+                                        <p>
+                                            Following team meetings with the staffs from DoYouAFlavor were held while different levels of wireframes and mockups were created for different purposes.
+                                        </p>
+                                        <div class="chart timeline">
+                                            <h4>Low-fi Wireframe</h4>
+                                            <span>created to confirm idea and facilitate discussion with client and the team</span>
+                                            <img src="../image/hh_lowfi.jpg">
+                                        </div>
+
+                                    </div>
+
+
+                                    <!--
+                                    <div class="chart timeline">
+                                        <h4>Stakeholders &amp; Problems</h4>
+                                        <object type="image/svg+xml" data="../image/hh_stakeholders.svg" onload="importFont(this)"></object>
+                                    </div>
+-->
+
+
                                 </section>
 
                                 <section class="proj-sect" id="pj-desg">
@@ -257,7 +372,7 @@
                                         <h3 style="font-weight: 700; margin-top: 15px; border-bottom: none; margin-left: 0; margin-right: 0; padding: 0;">Homeless Helper</h3>
                                         <p style="max-width: 70%; margin: 0 auto; margin-bottom: 20px;">an open calendar system to collect and show donation efforts as public information </p>
                                         <div style="text-align: center;">
-                                        <img src="../image/hh_mockup.png" style="width: 75%;" />
+                                            <img src="../image/hh_mockup.png" style="width: 75%;" />
 
                                         </div>
 
@@ -283,30 +398,34 @@
                                         <p style="max-width: 70%; margin: 0 auto; margin-bottom: 20px; font-size: 1.25em;">Overall, Homeless Helper supports </p>
                                         <div class="row" style="max-width: none;">
                                             <div class="col-6 col-lg-3 col-md-6">
-                                                <div><h5>Browsing</h5><span>the calendar to know current donation efforts</span>
-                                                <span class="status-tag">MVP built</span>
+                                                <div>
+                                                    <h5>Browsing</h5><span>the calendar to know current donation efforts</span>
+                                                    <span class="status-tag">MVP built</span>
                                                 </div>
                                             </div>
                                             <div class="col-6 col-lg-3 col-md-6">
-                                                <div><h5>Disclosing</h5><span>donation efforts by donors themselves</span>
-                                                <span class="status-tag">MVP built</span>
+                                                <div>
+                                                    <h5>Disclosing</h5><span>donation efforts by donors themselves</span>
+                                                    <span class="status-tag">MVP built</span>
                                                 </div>
                                             </div>
                                             <div class="col-6 col-lg-3 col-md-6">
-                                                <div style="border-style: dashed;"><h5>Matching</h5><span>voluteers to distribute donated reources</span>
-                                                <span class="status-tag">under construction</span>
+                                                <div style="border-style: dashed;">
+                                                    <h5>Matching</h5><span>voluteers to distribute donated reources</span>
+                                                    <span class="status-tag">under construction</span>
                                                 </div>
                                             </div>
                                             <div class="col-6 col-lg-3 col-md-6">
-                                                <div style="border-style: dashed;"><h5>Educating</h5><span>the public about homeless people</span>
-                                                <span class="status-tag">under construction</span>
+                                                <div style="border-style: dashed;">
+                                                    <h5>Educating</h5><span>the public about homeless people</span>
+                                                    <span class="status-tag">under construction</span>
                                                 </div>
                                             </div>
                                         </div>
 
                                     </div>
                                     <div class="desg-block" style="text-align: center;">
-                                       <h3 style="margin-top: 15px; border-bottom: none; margin-left: 0; margin-right: 0; padding: 0;">Site Structure (MVP)</h3>
+                                        <h3 style="margin-top: 15px; border-bottom: none; margin-left: 0; margin-right: 0; padding: 0;">Site Structure (MVP)</h3>
                                         <img src="../image/hh_siteflow.png" style="width:100%; max-width: none; margin: 0 auto;">
                                     </div>
                                     <div id="prototype" style="">
