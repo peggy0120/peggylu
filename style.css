@@ -443,6 +443,10 @@ nav .dropdown-item.dd-active {
     }
 }
 
+#main .project-category {
+    opacity: 0;
+}
+
 #main .project-item {
     border-radius: 2px;
     /*    height: 200px;*/

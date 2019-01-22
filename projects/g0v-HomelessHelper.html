@@ -547,14 +547,15 @@
 
             $('#more-content').load('../index.html #main.homepage', function() {
                 $('.project-item').addClass('d-none');
+                $('.project-category').addClass('d-none');
                 $('.ntulis').removeClass('d-none');
-                $('.gogreen').removeClass('d-none');
+                $('.blackbaud').removeClass('d-none');
                 $('.project-item').css({
                     'opacity': '1',
                     'top': '0'
                 });
-                $('<div class="more-subtitle">').insertBefore('.ntulis a.project-url');
-                $('<div class="more-subtitle-2"></div>').insertBefore('.gogreen a.project-url');
+//                $('<div class="more-subtitle">').insertBefore('.ntulis a.project-url');
+//                $('<div class="more-subtitle-2"></div>').insertBefore('.gogreen a.project-url');
             });
 
             /* Implementing Scrollspy */

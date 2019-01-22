@@ -48,6 +48,18 @@
         ga('send', 'pageview');
 
     </script>
+
+    <style>
+        .project-category {
+            padding: 20px;
+            text-align: center;
+        }
+        .project-category > h2 {
+            text-transform: none;
+            font-size: 1.5em;
+            font-weight: 300;
+        }
+    </style>
 </head>
 
 <body>
@@ -63,9 +75,13 @@
                 <div class="container">
                     <div class="row justify-content-start no-gutters">
 
+                        <div class="project-category col-12">
+                            <h2>Industry / Community Projects</h2>
+                        </div>
+
                         <div onclick="" class="project-item hh col-lg-6 col-12 justify-content-center" on-click="void(0)">
                             <a onclick="" href="/projects/g0v-HomelessHelper.html" class="project-url d-flex">
-                                   <div class="project-img">
+                                <div class="project-img">
                                     <img src="/image/hh_thumb.jpg">
                                 </div>
                                 <div class="project-meta d-flex flex-column justify-content-around">
@@ -92,24 +108,6 @@
                             </a>
                         </div>
 
-
-                        <div onclick="" class="project-item capstone col-lg-6 col-12 justify-content-center" on-click="void(0)">
-                            <a onclick="" href="/projects/iuhcid-capstone.html" class="project-url d-flex">
-<!--
-                                <div class="project-ribbon">
-                                    <span>On-going project</span>
-                                </div>
--->
-                                <div class="project-img">
-                                    <img src="/image/capstone_thumb.jpg">
-                                </div>
-                                <div class="project-meta d-flex flex-column justify-content-around">
-                                    <span class="project-label">HCI/d Degree Capstone</span>
-                                    <h2 class="project-title">VirtualShelf</h2>
-                                    <p class="project-desc">A digital browsing environment for library systems nurturing serendipitous discoveries</p>
-                                </div>
-                            </a>
-                        </div>
 
 
                         <div class="project-item blackbaud col-lg-6 col-12 justify-content-center" onclick="">
@@ -138,6 +136,28 @@
                             </a>
                         </div>
 
+                        <div class="project-category col-12">
+                            <h2>Academy Projects</h2>
+                        </div>
+
+
+                        <div onclick="" class="project-item capstone col-lg-6 col-12 justify-content-center" on-click="void(0)">
+                            <a onclick="" href="/projects/iuhcid-capstone.html" class="project-url d-flex">
+                                <!--
+                                <div class="project-ribbon">
+                                    <span>On-going project</span>
+                                </div>
+-->
+                                <div class="project-img">
+                                    <img src="/image/capstone_thumb.jpg">
+                                </div>
+                                <div class="project-meta d-flex flex-column justify-content-around">
+                                    <span class="project-label">HCI/d Degree Capstone</span>
+                                    <h2 class="project-title">VirtualShelf</h2>
+                                    <p class="project-desc">A digital browsing environment for library systems nurturing serendipitous discoveries</p>
+                                </div>
+                            </a>
+                        </div>
                         <div onclick="" class="project-item gogreen col-lg-6 col-12 justify-content-center" on-click="void(0)">
                             <a onclick="" href="/projects/iuhcid-gogreen.html" class="project-url d-flex">
                                 <div class="project-img">
@@ -226,6 +246,10 @@
                 $('nav.navbar').delay(300).animate({
                     opacity: 1,
                     top: '+=1vh'
+                }, 1200, 'easeInOutBack');
+                $('.project-category').delay(300).animate({
+                    opacity: 1,
+                    top: '-=2vh'
                 }, 1200, 'easeInOutBack');
                 $('.project-item').delay(300).animate({
                     opacity: 1,
