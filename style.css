@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC');
+@import url("https://use.typekit.net/qsi4ppk.css");
 /*@import url('https://use.fontawesome.com/releases/v5.0.2/css/all.css');*/
 
 /*
@@ -25,7 +26,7 @@
 
 body {
     background-color: var(--bgDarkgreen);
-    font-family: 'Roboto', 'Noto Sans TC', sans-serif;
+    font-family: 'Acumin Pro', 'Roboto', 'Noto Sans TC', sans-serif;
     font-size: 100%;
     margin: 0 auto;
     min-width: 576px;
