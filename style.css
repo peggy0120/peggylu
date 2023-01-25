@@ -31,10 +31,35 @@
 body {
     background-color: var(--bgLightPurple);
     font-family: 'Acumin Pro', 'Roboto', 'Noto Sans TC', sans-serif;
-    font-size: 100%;
+    font-size: 1.25rem;
+    font-weight: 300;
+    letter-spacing: 0.15px;
+    line-height: 1.5;
     margin: 0 auto;
     min-width: 576px;
     position: relative;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 300;
+    line-height: 1.25;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.25;
+    margin: 0.5em 0 0.25em 0;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.subtitle {
+    font-size: 1.5rem;
 }
 
 a {
@@ -73,8 +98,10 @@ a:hover {
 }
 
 em {
-    color: var(--primary);
     font-style: normal;
+    font-weight: 600;
+    background: linear-gradient(180deg,rgba(255,255,255,0) 40%, #FFE359 60%);
+    border-radius: 2px;
 }
 
 .nav-tabs {
@@ -151,23 +178,7 @@ em {
     display: none!important;
 }
 
-h1 {
-    font-size: 2.5em;
-    font-weight: 700;
-    line-height: 1.3;
-}
 
-h2 {
-    font-size: 1em;
-    font-weight: 700;
-    line-height: 1.5;
-    margin: 0.5em 0 0.25em 0;
-    text-transform: uppercase;
-}
-
-h3 {
-    font-size: 1.2em;
-}
 
 ul.style-dash {
     list-style: none;
@@ -271,14 +282,10 @@ nav .title-inner {
 }
 
 nav .name {
-    font-size: 24px;
-    font-weight: 700;
+    font-family: "Acumin Pro Condensed";
+    font-weight: 600;
+    font-size: 2rem;
     margin-right: 1rem;
-}
-
-nav .subtitle {
-    font-size: 16px;
-    font-weight: 300;
 }
 
 @media screen and (max-width: 767px) {
@@ -324,12 +331,12 @@ nav .navbar-nav {
 }
 
 nav .nav-item {
-    font-size: 1rem;
     margin: 0 1rem 0 0.5rem;
 }
 
 nav .nav-item a.nav-link {
-    color: var(--txGrey);
+    color: var(--txBlack);
+    font-size: 1.25rem;
     font-weight: 300;
 }
 
@@ -337,7 +344,7 @@ nav .nav-item a.nav-link:hover,
 nav .nav-item a.nav-link.active {
     border: none;
     color: var(--primary);
-    font-weight: 700;
+    font-weight: 600;
 }
 
 nav .nav-item a.nav-link.disabled {
@@ -379,16 +386,15 @@ nav .dropdown-menu {
     border-radius: 2px;
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.12), 0 1px 0px rgba(0, 0, 0, 0.24);
     -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.12), 0 1px 0px rgba(0, 0, 0, 0.24);
-    font-size: 0.8em;
     margin: 0;
     padding: 0;
 }
 
 nav .dropdown-item {
+    font-weight: 300;
+    font-size: 1.25rem;
     border-left: 3px solid transparent;
     border-bottom: 1px solid #fff;
-    color: var(--txGrey);
-    font-weight: 300;
     overflow: hidden;
     padding: 1.25rem 1rem;
 }
@@ -406,14 +412,14 @@ nav .dropdown-item:hover {
     background-color: var(--bgLightgrey);
     border-left-color: var(--primary);
     color: var(--primary);
-    font-weight: 700;
+    font-weight: 600;
 }
 
 nav .dropdown-item.dd-active {
     background-color: var(--bgLightgrey);
     border-left-color: var(--txBlack);
     color: var(--txBlack);
-    font-weight: 700;
+    font-weight: 600;
     pointer-events: none;
 }
 
@@ -548,19 +554,10 @@ nav .dropdown-item.dd-active {
 }
 
 #main .project-title {
-    color: black;
-    font-size: 1rem;
-    font-weight: 700;
-    line-height: 1.25;
     margin: 0.5rem 0;
-    text-transform: capitalize;
 }
 
 #main .project-desc {
-    /*    color: var(--txGrey);*/
-    font-size: 0.8rem;
-    font-weight: 300;
-    line-height: 1.25;
 }
 
 
@@ -595,27 +592,12 @@ nav .dropdown-item.dd-active {
     #main .project-meta {
         height: 230px;
     }
-    #main .project-title {
-        font-size: 1.25rem;
-    }
 }
 
 .project > #main,
 #about > #main {
-    line-height: 1.75;
     opacity: 0;
     z-index: 101;
-}
-
-.project #main h2 {
-    text-transform: uppercase;
-}
-
-.project #main p,
-.project #main ul,
-.project #main a,
-.project #main p span {
-    font-weight: 300;
 }
 
 .project #main .container {
@@ -649,20 +631,18 @@ nav .dropdown-item.dd-active {
     padding: 0;
 }
 
+.project #main .proj-meta h2 {
+    font-family: "Acumin Pro SemiCondensed";
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
 .project #main .proj-meta ul {
     list-style: none;
     padding-left: 0;
     white-space: nowrap;
-}
-
-.project #main .proj-meta span {
-    font-size: 0.8em;
-    margin-top: -5px;
-}
-
-.project #main .proj-meta span.highlight {
-    font-size: inherit;
-    font-weight: normal;
 }
 
 @media screen and (min-width: 768px) {
@@ -759,7 +739,6 @@ nav .dropdown-item.dd-active {
 
 .project #main .proj-cont #sidenav ul.nav {
     display: block;
-    font-weight: 300;
     list-style: none;
     margin: 15px 0;
     padding-left: 0.3em;
@@ -781,14 +760,14 @@ nav .dropdown-item.dd-active {
     border-left: 1.5px solid;
     color: var(--txBlack);
     cursor: inherit;
-    font-weight: normal;
+    font-weight: 600;
     pointer-events: none;
 }
 
 .project #main .proj-cont #sidenav li:hover > a {
     border-left: 1.5px solid;
     color: var(--primary);
-    font-weight: normal;
+    font-weight: 600;
 }
 
 .project #main .proj-cont #sidenav li:hover > a.active {
@@ -855,13 +834,10 @@ nav .dropdown-item.dd-active {
 .project #main .proj-cont #sidenav a.sn-top:hover {
     border: none;
     color: var(--primary);
-    font-weight: normal;
+    font-weight: 600;
 }
 
 @media screen and (min-width: 992px) {
-    .project #main .proj-cont #sidenav .sn-header {
-        font-size: 1.2em;
-    }
     .project #main .proj-cont #sidenav ul.nav {
         padding-left: 0.5em;
     }
@@ -949,9 +925,6 @@ nav .dropdown-item.dd-active {
     position: relative;
 }
 
-.project #main .proj-cont article p {
-    line-height: 1.75;
-}
 
 .project #main .proj-cont article object {
     margin-right: 0.5em;
@@ -970,11 +943,6 @@ nav .dropdown-item.dd-active {
     margin-left: -5px;
     padding-top: 4em;
     padding-left: 5px;
-}
-
-.project #main .proj-cont .proj-sect h3 {
-    font-size: 1.25em;
-    font-weight: 300;
 }
 
 .project #main .proj-cont .proj-sect div[id^='pj-proc-'] {
@@ -1073,32 +1041,20 @@ nav .dropdown-item.dd-active {
 
 .project #main .proj-cont .proj-sect .img-caption {
     font-size: 0.8em;
-    font-weight: 300;
     margin: 5px auto;
     /*    text-align: center;*/
 }
 
 .project #main .proj-cont .proj-sect p.footnote {
     color: var(--txGrey);
-    font-size: .8em;
-    /*    font-style: italic;*/
+    font-size: 0.8em;
     max-width: 40em;
-}
-
-.project #main .proj-cont .proj-sect em {
-    background-color: rgba(51, 181, 153, .20);
-    border-bottom: .5px solid rgba(51, 181, 153, .30);
-    border-radius: .125em;
-    color: inherit;
-    font-style: normal;
-    padding: 2px 5px;
 }
 
 .project #main .proj-cont .proj-sect .timeline span {
     color: var(--txGrey);
     display: inline-block;
     font-size: 0.8em;
-    font-weight: 300;
     text-align: center;
     width: 100%;
 }
@@ -1138,22 +1094,6 @@ nav .dropdown-item.dd-active {
     margin-top: 1em;
 }
 
-.project #main .proj-cont .proj-sect .panel h5 {
-    color: var(--primary);
-    font-size: 1.25rem;
-    font-weight: 300;
-    margin-top: 3rem;
-    margin-bottom: 2rem;
-    text-align: center;
-}
-
-.project #main .proj-cont .proj-sect .panel p {
-    font-size: .8em;
-}
-
-.project #main .proj-cont .proj-sect .panel p > span {
-    font-size: 1.25em;
-}
 
 @media screen and (min-width: 1200px) {
     .project #main .proj-cont .proj-sect {
@@ -1299,16 +1239,11 @@ nav .dropdown-item.dd-active {
 
 .project #more h1 {
     color: #fff;
-    font-weight: 300;
     text-align: center;
 }
 
 .project #more #more-content {
     margin-top: -1.5rem;
-}
-
-.project #more h2 {
-    text-transform: capitalize;
 }
 
 .project #more #main {
@@ -1318,7 +1253,6 @@ nav .dropdown-item.dd-active {
 
 div[class^='more-subtitle'] {
     color: var(--borderGrey);
-    font-weight: 300;
     font-size: 0.8em;
     margin-top: -2em;
     margin-bottom: 1em;
@@ -1348,7 +1282,7 @@ footer .footer-links {
 
 footer .icon {
     background-color: transparent;
-    color: var(--txGrey);
+    color: var(--txBlack);
     line-height: 1.5;
 }
 
@@ -1364,28 +1298,16 @@ footer .icon:hover {
 }
 
 footer .icon > .label {
-    font-size: 12px;
     display: block;
-    font-family: Roboto;
+    font-family: sans-serif;
     font-weight: 300;
     white-space: nowrap;
     width: 100%;
 }
 
-@media screen and (min-width: 768px) {
-    footer .icon:before {
-        font-size: 2.5em;
-    }
-    footer .icon > .label {
-        font-size: 1em;
-    }
-}
-
 #copyright {
     bottom: 0;
-    color: #fff;
-    font-size: 0.8rem;
-    font-weight: 300;
+    font-size: 0.8em;
     height: 15em;
     width: 100%;
 }
@@ -1401,14 +1323,13 @@ footer .icon > .label {
 }
 
 .btm-top {
-    color: var(--txGrey);
+    color: var(--txBlack);
     display: inline-block;
     margin: 2.5em 1.5em 0 1.5em;
 }
 
 .btm-top:hover {
-    color: #fff;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, .48);
+    color: var(--primary);
 }
 
 /* SVG Interactivity */
