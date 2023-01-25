@@ -12,16 +12,20 @@
 */
 
 :root {
-    --primary: #33b599;
-    --secondary: #fac339;
-    --teritary: #51a6df;
+    --primary: #463EA8;
+    --secondary: #bf395d;
+    --teritary: #2e87c3;
+    --bgLightPurple: #F6F5FF;
+
     --bgDarkgreen: #0a231e;
     --bgLightgreen: #45635c;
     --bgLightgrey: #f9f9f9;
+
     --borderGrey: #dddddd;
     --shadowGrey: #aaaaaa;
-    --txBlack: #212529;
-    --txGrey: #888888;
+
+    --txBlack: #1A1A1A;
+    --txGrey: #4F4F50;
 }
 
 body {
