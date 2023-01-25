@@ -50,12 +50,24 @@ h2 {
     font-size: 2.5rem;
     font-weight: 300;
     line-height: 1.25;
-    margin: 0.5em 0 0.25em 0;
+    margin: 1rem 0 1rem 0;
 }
 
 h3 {
     font-size: 1.5em;
     font-weight: 300;
+    margin: 1rem 0 1rem 0;
+}
+
+h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 .subtitle {
@@ -105,39 +117,37 @@ em {
 }
 
 .nav-tabs {
-    margin-top: 30px;
-    margin-left: -15px;
-    margin-right: -15px;
-    padding-left: 15px;
+    margin-top: 40px;
+    margin-left: -16px;
+    margin-right: -16px;
+/*    padding-left: 16px;*/
 }
 
 .nav-tabs a.nav-link {
-    color: var(--txGrey);
+    color: var(--txBlack);
+    background-color: transparent;
+    border-color: transparent;
+    padding: .5rem 24px;
 }
 
+.nav-tabs a.nav-link:hover,
 .nav-tabs .nav-item.show a.nav-link,
 .nav-tabs a.nav-link.active,
 .nav-tabs a.nav-link.active:hover {
-    background-color: transparent;
-    border-top-color: #ddd;
-    border-right-color: #ddd;
-    border-bottom-color: var(--bgLightgrey);
-    border-left-color: #ddd;
+    border-color: transparent;
+    border-bottom: 1px solid;
     color: var(--txBlack);
-    font-weight: normal!important;
+    font-weight: 600;
+}
+
+.nav-tabs a.nav-link:hover {
+    color: var(--primary);
 }
 
 .nav-tabs a.nav-link.active:hover {
     pointer-events: none;
 }
 
-.nav-tabs a.nav-link:hover {
-    border-top-color: var(--bgLightgrey);
-    border-right-color: var(--bgLightgrey);
-    border-left-color: var(--bgLightgrey);
-    color: var(--primary);
-    font-weight: normal!important;
-}
 
 .disabled {
     color: var(--txBlack);
@@ -224,10 +234,20 @@ ul.style-dash li:before {
 
 }
 
+@media screen and (max-width: 992px) {
+    .container {
+        padding: 0 40px;
+    }
+}
+
 @media screen and (max-width: 575px) {
     .container {
         padding: 0 24px;
     }
+}
+
+.row {
+    margin: 0 auto;
 }
 
 
@@ -602,7 +622,7 @@ nav .dropdown-item.dd-active {
 
 .project #main .container {
     margin: 0px auto;
-    max-width: 960px;
+    max-width: 1088px;
     padding-top: 80px;
     padding-bottom: 80px;
 }
@@ -674,50 +694,22 @@ nav .dropdown-item.dd-active {
     z-index: 110;
 }
 
-.project #main .proj-cont .container {
-    padding-bottom: 0;
-    padding-top: 0;
-}
-
-.project #main .proj-cont .container > .row {
-    padding: 0 30px;
-}
-
-.project #main .proj-cont .container > .row > * {
-    padding-bottom: 3rem;
-    padding-top: 3rem;
-}
-
-.project #main .proj-cont .container > .row > div {
-    margin-left: -30px;
-}
-
-#resume #main .proj-cont .container > .row > div {
-    -webkit-box-shadow: 1px 0px 4px -1px rgba(0, 0, 0, 0.24),
-    inset 0 -1px 3px rgba(0, 0, 0, 0.06),
-    inset 0 -1px 2px rgba(0, 0, 0, 0.12),
-    inset 0 1px 3px rgba(0, 0, 0, 0.06),
-    inset 0 1px 2px rgba(0, 0, 0, 0.12);
-    box-shadow: 1px 0px 4px -1px rgba(0, 0, 0, 0.24),
-    inset 0 -1px 3px rgba(0, 0, 0, 0.06),
-    inset 0 -1px 2px rgba(0, 0, 0, 0.12),
-    inset 0 1px 3px rgba(0, 0, 0, 0.06),
-    inset 0 1px 2px rgba(0, 0, 0, 0.12);
-}
-
 .project #main .proj-cont #sidenav {
-    margin-top: -1.5em;
-    margin-left: 15px;
-    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     position: sticky;
     position: -webkit-sticky;
-    top: 20px;
-
+    top: 40px;
+    height: 80vh;
+    min-height: 320px;
+    text-align: right;
 }
 
 .project #main .proj-cont #sidenav .sn-breadcrumb {
     font-size: 0.8em;
     font-weight: 300;
+    display: none;
 }
 
 .project #main .proj-cont #sidenav .sn-breadcrumb > a {
@@ -730,7 +722,7 @@ nav .dropdown-item.dd-active {
 }
 
 .project #main .proj-cont #sidenav .sn-header {
-    display: block;
+    display: none;
     font-weight: 300;
     line-height: 1.5;
     margin-top: 5px;
@@ -740,24 +732,18 @@ nav .dropdown-item.dd-active {
 .project #main .proj-cont #sidenav ul.nav {
     display: block;
     list-style: none;
-    margin: 15px 0;
-    padding-left: 0.3em;
 }
 
 .project #main .proj-cont #sidenav ul > li {
-    max-width: 150px;
-    white-space: nowrap;
-}
-
-.project #main .proj-cont #sidenav li > a {
-    border-left: 0.5px solid;
-    color: var(--txGrey);
-    padding: 10px;
     width: 100%;
 }
 
+.project #main .proj-cont #sidenav li > a {
+    color: var(--txBlack);
+    padding: 16px;
+}
+
 .project #main .proj-cont #sidenav li > a.active {
-    border-left: 1.5px solid;
     color: var(--txBlack);
     cursor: inherit;
     font-weight: 600;
@@ -765,7 +751,6 @@ nav .dropdown-item.dd-active {
 }
 
 .project #main .proj-cont #sidenav li:hover > a {
-    border-left: 1.5px solid;
     color: var(--primary);
     font-weight: 600;
 }
@@ -775,23 +760,19 @@ nav .dropdown-item.dd-active {
 }
 
 .project #main .proj-cont #sidenav ul.nav ul.nav {
-    border-left: solid 0.5px var(--txGrey);
-    height: calc(100% + 10px);
-    margin-top: -5px;
-    margin-bottom: 0;
-    padding-left: 0;
-    padding-bottom: 1px;
-    /* for Firefox & Edge */
-}
+    border-right: solid 0.5px var(--txGrey);
+    margin-top: -8px;
+    margin-right: 16px;
 
+}
 
 .project #main .proj-cont #sidenav ul.nav ul.nav:hover,
 .project #main .proj-cont #sidenav li > a:hover + ul.nav {
-    border-left: 1.5px solid var(--primary);
+    border-right: 1.5px solid var(--primary);
 }
 
 .project #main .proj-cont #sidenav li > a.active + ul.nav {
-    border-left: 1.5px solid;
+    border-right: 0.5px solid;
 }
 
 .project #main .proj-cont #sidenav li > a.active + ul.nav:hover {
@@ -800,6 +781,8 @@ nav .dropdown-item.dd-active {
 
 .project #main .proj-cont #sidenav ul.nav ul.nav li {
     font-size: 0.9em;
+    display: flex;
+    justify-content: end;
 }
 
 .project #main .proj-cont #sidenav ul.nav ul.nav li:last-of-type {
@@ -811,6 +794,7 @@ nav .dropdown-item.dd-active {
     margin-left: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
+    max-width: 160px;
 }
 
 .project #main .proj-cont #sidenav ul.nav ul.nav li a.active {
@@ -819,7 +803,7 @@ nav .dropdown-item.dd-active {
 
 .project #main .proj-cont #sidenav ul.nav ul.nav li:hover a {
     border-color: var(--primary);
-    border-width: 1.5px;
+/*    border-width: 1.5px;*/
 }
 
 .project #main .proj-cont #sidenav ul.nav ul.nav li:hover a.active {
@@ -835,12 +819,6 @@ nav .dropdown-item.dd-active {
     border: none;
     color: var(--primary);
     font-weight: 600;
-}
-
-@media screen and (min-width: 992px) {
-    .project #main .proj-cont #sidenav ul.nav {
-        padding-left: 0.5em;
-    }
 }
 
 @media screen and (max-width: 767px) {
@@ -921,10 +899,10 @@ nav .dropdown-item.dd-active {
 }
 
 .project #main .proj-cont article {
-    margin-top: -4.5em;
     position: relative;
+    margin-top: -40px;
+    padding: 0;
 }
-
 
 .project #main .proj-cont article object {
     margin-right: 0.5em;
@@ -935,14 +913,12 @@ nav .dropdown-item.dd-active {
 }
 
 .project #main .proj-cont .proj-sect {
-    margin-bottom: 2.5em;
-    padding-top: 0.5em;
+    margin-bottom: 80px;
+    padding-top: 40px;
 }
 
 .project #main .proj-cont .proj-sect > h2 {
-    margin-left: -5px;
-    padding-top: 4em;
-    padding-left: 5px;
+/*    margin-top: 1rem;*/
 }
 
 .project #main .proj-cont .proj-sect div[id^='pj-proc-'] {
@@ -950,55 +926,36 @@ nav .dropdown-item.dd-active {
 }
 
 .project #main .proj-cont .proj-sect div[id^='pj-'] > h3 {
-    margin-bottom: 1.5em;
-    padding-top: 2em;
+    margin-bottom: 1.5rem;
+    padding-top: 40px;
 }
 
 .project #main .proj-cont .proj-sect h3 > span {
-    color: var(--txGrey);
     display: block;
-    font-size: 0.8em;
-    margin-bottom: 5px;
+    font-size: 1rem;
+    margin-bottom: 4px;
+    padding-top: 1rem;
 }
 
 .project #main .proj-cont .proj-sect h4 {
-    color: var(--txGrey);
-    font-size: 1.25em;
-    font-weight: 300;
-    margin-top: 0.5em;
+    margin-top: 1rem;
     margin-bottom: 0;
+    border-bottom: .5px solid;
+    padding-bottom: .5rem;
 }
 
-.project #main .proj-cont .proj-sect .timeline h4 {
-    text-align: center;
-}
-
-.project #main .proj-cont .proj-sect h5 {
-    font-size: inherit;
-    font-weight: inherit;
-}
-
-.project #main .proj-cont .proj-sect > .sect-top {
-    color: var(--txGrey);
-    display: none;
-    float: right;
-    font-size: 0.8em;
-    margin-top: -2.5em;
-    margin-right: 15px;
-    top: calc(2em + 8px);
-}
-
-.project #main .proj-cont .proj-sect > .sect-top:hover {
-    color: var(--primary);
+.project #main .proj-cont .proj-sect p,
+.project #main .proj-cont .proj-sect ol {
+    margin-bottom: 1.5rem;
+    max-width: 35em;
 }
 
 .project #main .proj-cont .proj-sect > div {
-    margin: 15px 0;
-    /*    min-height: 120px;*/
+    margin: 1rem 0;
 }
 
 .project #main .proj-cont .proj-sect > div:first-of-type {
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .project #main .proj-cont .proj-sect div.row {
@@ -1015,34 +972,16 @@ nav .dropdown-item.dd-active {
     padding-right: 0;
 }
 
-.project #main .proj-cont .proj-sect .quote {
-    padding-right: 15px;
-}
-
-.project #main .proj-cont .proj-sect .quote > p{
-/*    font-size: 1.2em;*/
-    padding-left: 15px;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    border-left: var(--primary) 4px solid;
-    background-color: white;
-/*    max-width: 28em;*/
-    border-radius: 3px;
-    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
-}
-
 .project #main .proj-cont .proj-sect img {
     border-radius: 2px;
-    margin-bottom: 1.5em;
+    margin-bottom: 40px;
     padding: 0;
     width: 100%;
 }
 
 .project #main .proj-cont .proj-sect .img-caption {
-    font-size: 0.8em;
-    margin: 5px auto;
-    /*    text-align: center;*/
+    font-size: 1rem;
+    margin: .5rem auto;
 }
 
 .project #main .proj-cont .proj-sect p.footnote {
@@ -1061,12 +1000,10 @@ nav .dropdown-item.dd-active {
 
 .project #main .proj-cont .proj-sect .scrollable {
     border-radius: 1px;
-    margin-bottom: 3em;
+/*    margin-bottom: 40px;*/
     overflow-x: scroll;
-    padding-top: 0.5em;
-    padding-bottom: 15px;
     position: relative;
-    width: calc(100% + 30px);
+    width: calc(100% + 40px);
 }
 
 .project #main .proj-cont .proj-sect .scrollable h4 {
@@ -1094,41 +1031,7 @@ nav .dropdown-item.dd-active {
     margin-top: 1em;
 }
 
-
-@media screen and (min-width: 1200px) {
-    .project #main .proj-cont .proj-sect {
-        padding-left: 30px;
-    }
-}
-
 @media screen and (min-width: 768px) {
-    .project #main .proj-cont article {
-        margin-top: -2.5em;
-    }
-    .project #main .proj-cont article object {
-        margin-right: 0;
-    }
-    .project #main .proj-cont .proj-sect {
-        padding-left: 30px;
-    }
-    .project #main .proj-cont .proj-sect > h2 {
-        /*
-        border: none;
-        box-shadow: none;
-        -webkit-box-shadow: none;
-*/
-        padding-top: 2em;
-        padding-bottom: 0;
-        /*        position: relative;*/
-    }
-    .project #main .proj-cont .proj-sect > .sect-top {
-        display: none;
-    }
-    .project #main .proj-cont .proj-sect p,
-    .project #main .proj-cont .proj-sect ol {
-        margin-bottom: 1.5em;
-        max-width: 33em;
-    }
     .project #main .proj-cont .proj-sect div.row,
     .project #main .proj-cont .proj-sect img {
         max-width: 35em;
@@ -1140,7 +1043,7 @@ nav .dropdown-item.dd-active {
         max-width: 35em;
     }
     .project #main .proj-cont .proj-sect .nav-tabs {
-        max-width: calc(35em + 15px);
+        max-width: calc(35em + 16px);
     }
     .project #main .proj-cont .proj-sect .tab-content > .tab-pane {
         margin-top: -2em;
@@ -1158,8 +1061,6 @@ nav .dropdown-item.dd-active {
         padding-top: 5em;
     }
 }
-
-
 
 .project #main section[id^='cv-'] .row {
     margin-left: 0;
