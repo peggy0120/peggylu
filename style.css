@@ -308,7 +308,7 @@ nav .logo {
     width: 80px;
 }
 
-nav .name {
+h1.name {
     font-family: "Acumin Pro Condensed";
     font-weight: 600;
     font-size: 2.25rem;
@@ -427,6 +427,10 @@ nav .dropdown-item.dd-active {
 
 #main #home-hero h1 {
     color: var(--primary);
+}
+
+#main #home-hero .home-desc {
+    margin-bottom: 40px;
 }
 
 #main .h-proj-item {
@@ -1058,12 +1062,19 @@ div[class^='more-subtitle'] {
 
 
 footer {
+    border-top: 1px #fff solid;
+    padding: 40px 0 80px 0;
+    font-size: 1rem;
+}
 
+footer .ft-heading h1 {
+    font-size: 2.25rem;
 }
 
 #contact {
-    margin-top: 40px;
     color: var(--primary);
+    font-size: 1.25rem;
+    margin: 16px 0;
 }
 
 #contact .cont-unit {
@@ -1078,56 +1089,16 @@ footer {
     white-space: nowrap;
 }
 
-footer .footer-links {
-    margin: 0 auto;
-}
-
-footer .icon {
-    background-color: transparent;
-    color: var(--txBlack);
-    line-height: 1.5;
-}
-
-footer .icon:before {
-    font-size: 2rem;
-    font-style: normal;
-    text-transform: none !important;
-}
-
-footer .icon:hover {
-    border: none;
-    color: var(--primary);
-}
-
-footer .icon > .label {
-    display: block;
-    font-family: sans-serif;
-    font-weight: 300;
-    white-space: nowrap;
-    width: 100%;
-}
-
 #copyright {
-    bottom: 0;
-    font-size: 0.8em;
-    height: 15em;
-    width: 100%;
+    margin-top: 1rem;
+    margin-right: 8px;
 }
 
-#copyright > span {
-    display: block;
-}
-
-@media screen and (min-width: 1512px) {
-    #copyright {
-        background-color: var(--bgLightPurple);
-    }
-}
 
 .btm-top {
     color: var(--txBlack);
     display: inline-block;
-    margin: 2.5em 1.5em 0 1.5em;
+/*    margin: 2.5em 1.5em 0 1.5em;*/
 }
 
 .btm-top:hover {
