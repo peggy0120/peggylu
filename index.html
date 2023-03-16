@@ -16,13 +16,12 @@
     <script>
         $(function() {
             $('#footer').load('reuseFooter.html');
-            $('#copyright').load('../reuseCopyrights.html');
         });
     </script>
 
     <!-- Bootstrap Core JavaScript -->
     <script type="text/javascript" src="js/bootstrap.js"></script>
-    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+<!--    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>-->
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -67,7 +66,7 @@
                         <h1>Design Researcher &amp; Strategist</h1>
                         <p class="home-desc">Hi, I’m a human-centered &amp; data-driven design researcher &amp; strategist. I'm skilled in breaking down complexities, making sense of ambiguities, and eliciting actionable insights. With a background in information &amp; social science, I strive to approach each problem with a deep understanding of the people and the context. Some of my interest areas include but are not limited to, information design, behavior science, human-AI interaction, and design justice.</p>
 
-                        <div id="contact" class="d-flex">
+                        <div id="contact" class="d-flex flex-column flex-md-row">
                             <div class="cont-unit">
                                 <span class="icon fas fa-envelope"></span>
                                 <a href="mailto:peggy.py.lu@gmail.com" class="ext-link" target="_blank">
@@ -202,8 +201,6 @@
 
         </div>
 
-<!--        <div id="copyright"></div>-->
-
     </div>
 
     <script>
@@ -226,10 +223,6 @@
                 $('nav.navbar').delay(300).animate({
                     opacity: 1,
                     top: '+=1vh'
-                }, 1200, 'easeInOutBack');
-                $('.project-category').delay(300).animate({
-                    opacity: 1,
-                    top: '-=2vh'
                 }, 1200, 'easeInOutBack');
                 $('.h-proj-item').delay(300).animate({
                     opacity: 1,
