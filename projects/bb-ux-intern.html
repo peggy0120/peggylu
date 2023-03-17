@@ -16,14 +16,12 @@
     <script>
         $(function() {
             $('#footer').load('../reuseFooter.html');
-            $('#copyright').load('../reuseCopyrights.html');
         });
-
     </script>
 
     <!-- Bootstrap Core JavaScript -->
     <script type="text/javascript" src="../js/bootstrap.js"></script>
-    <script type="text/javascript" src="../js/bootstrap.bundle.min.js"></script>
+    <!--    <script type="text/javascript" src="../js/bootstrap.bundle.min.js"></script>-->
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="../css/bootstrap.min.css">
@@ -46,7 +44,6 @@
         })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
         ga('create', 'UA-61994680-2', 'auto');
         ga('send', 'pageview');
-
     </script>
 
 </head>
@@ -65,46 +62,51 @@
 
                 <header class="proj-header">
                     <div class="container">
+                        <span class="proj-label">Interaction Design | UX Research</span>
                         <h1>Blackbaud UX Intern</h1>
-                        <span class="proj-label">Interaction Design | Research</span>
+                        <p class="proj-desc">Envision &amp; design future marketing solution for nonprofit organizations to power social good</p>
                     </div>
                 </header>
 
-                <section class="proj-meta" style="">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6 col-12 row">
-                                <div class="col-12 row">
-                                    <div class="proj-type  col-6">
-                                        <h2>Type</h2>
-                                        <p>Summer Internship</p>
-                                    </div>
-                                    <div class="proj-time  col-6">
-                                        <h2>Duration</h2>
-                                        <p>12 weeks<br><span>(May - Aug 2017)</span></p>
-                                    </div>
-                                </div>
+                <section class="proj-meta">
+                    <div class="container d-flex">
+                        <div class="">
+                            <div class="proj-type">
+                                <h2>Type</h2>
+                                <p>Internship</p>
                             </div>
-                            <div class="col-md-6 col-12 row">
-                                <div class="proj-role col-6">
-                                    <h2>Responsibility</h2>
-                                    <ul style="">
-                                        <li>Interaction Design</li>
-                                        <li>User Research</li>
-                                        <li>Competitive Analysis</li>
-                                        <li class="d-none">Scope Analysis</li>
-                                    </ul>
-                                </div>
-                                <div class="proj-loc col-6">
-                                    <h2>Areas</h2>
-                                    <ul>
-                                        <li>Marketing Solutions</li>
-                                        <li>B2B SaaS User Onboarding</li>
-                                    </ul>
-                                </div>
+                            <div class="proj-time">
+                                <h2>Duration</h2>
+                                <p>12 weeks (May - Aug 2017)</p>
                             </div>
+                            <div class="proj-role">
+                                <h2>Responsibility</h2>
+                                <p>Interaction Design, User Research, Competitive Analysis</p>
+<!--
+                                <ul style="">
+                                    <li>Interaction Design</li>
+                                    <li>User Research</li>
+                                    <li>Competitive Analysis</li>
+                                    <li class="d-none">Scope Analysis</li>
+                                </ul>
+-->
+                            </div>
+                            <!--
+                        <div class="proj-loc">
+                            <h2>Areas</h2>
+                            <ul>
+                                <li>Marketing Solutions</li>
+                                <li>B2B SaaS User Onboarding</li>
+                            </ul>
+                        </div>
+-->
+                        </div>
+
+                        <div class="proj-img">
+                            <img src="../image/blackbaud.jpg">
                         </div>
                     </div>
+
                 </section>
 
                 <section class="proj-cont">
@@ -116,7 +118,7 @@
                     <div class="container">
                         <div class="row d-flex flex-row-reverse">
 
-                            <div class="col-md-3 d-md-block d-sm-none">
+                            <div class="col-md-3 d-md-block d-none">
                                 <nav id="sidenav">
                                     <span class="sn-breadcrumb">
                                         <a href="../index.html">peggylu</a>&nbsp;· projects /
@@ -231,20 +233,20 @@
             </div>
 
             <!-- More Projects -->
+            <!--
             <div id="more">
                 <div class="container">
                     <h1>More Projects</h1>
                     <div id="more-content"></div>
                 </div>
             </div>
+-->
 
             <!-- Footer -->
             <footer id="footer"></footer>
 
         </div>
 
-        <div id="copyright">
-        </div>
 
     </div>
 
@@ -265,7 +267,7 @@
             /* Loading Header & Add dropdown hover state*/
 
             $('#header').load('../reuseNav.html', function() {
-                $('.dropdown-item').eq(1).addClass('dd-active');
+                $('.dropdown-item').eq(4).addClass('dd-active');
                 $('.dropdown-menu').mouseenter(function() {
                     $('.dropdown-toggle').addClass('active');
                 });
@@ -330,7 +332,6 @@
             });
 
         });
-
     </script>
 
     <script type="text/javascript">
@@ -345,9 +346,6 @@
             var position = (s / (d - c)) * 100;
             document.getElementById('Progress-bar').setAttribute('style', 'width: ' + position + '%');
         });
-
     </script>
 
-</body>
-
-</html>
+</body></html>

@@ -571,65 +571,66 @@ nav button.navbar-toggler:hover .navbar-toggler-icon {
     padding-bottom: 80px;
 }
 
-.project #main .proj-header {}
-
-.project #main .proj-header .container {
-    /*    padding: 2.5em 0px;*/
+.project #main .proj-header .proj-label {
+    margin-top: -24px;
+    margin-bottom: 24px;
 }
 
 .project #main .proj-header h1 {
-    /*    font-weight: 300;*/
+    color: var(--primary);
+}
+
+.project #main .proj-header .proj-desc {
+    font-size: 1.5rem;
 }
 
 .project #main .proj-meta {
-    position: relative;
+    margin-top: -80px;
 }
 
-.project #main .proj-meta .container .row {
-    margin: 0;
+.project #main .proj-meta .container {
+    width: 100%;
+    display: flex;
+    gap: 24px;
 }
 
-.project #main .proj-meta .container .row > .row .row {
-    padding: 0;
+.project #main .proj-meta .container > div {
+    padding-right: 8px;
+}
+
+.project #main .proj-meta [class^="proj-"] {
+    margin-bottom: 32px;
 }
 
 .project #main .proj-meta h2 {
     font-family: "Acumin Pro SemiCondensed";
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1.5;
     text-transform: uppercase;
+    margin: 0;
 }
 
 .project #main .proj-meta ul {
     list-style: none;
     padding-left: 0;
-    white-space: nowrap;
+    line-height: 1.25;
 }
 
-@media screen and (min-width: 768px) {
-    .project #main.proj-bb .proj-meta {
-        background-color: transparent;
-    }
-
-    .project #main .proj-meta .container > .row > .row:nth-of-type(2) {
-        margin-left: -30px;
-        padding-left: 0;
-    }
+.project #main .proj-meta ul li {
+    margin-bottom: 8px;
 }
 
-@media screen and (max-width: 767px) {
+.project #main .proj-meta .proj-img {
+    flex-grow: 1;
+    margin: 0;
+}
 
-    .project #main .proj-meta .proj-overview {
-        background-color: rgba(0, 0, 0, .4);
-        -webkit-box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.12), 0 -1px 2px rgba(0, 0, 0, 0.24), inset 0 -1px 3px rgba(0, 0, 0, 0.24), inset 0 -1px 2px rgba(0, 0, 0, 0.36);
-        box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.12), 0 -1px 2px rgba(0, 0, 0, 0.24), inset 0 -1px 3px rgba(0, 0, 0, 0.24), inset 0 -1px 2px rgba(0, 0, 0, 0.36);
-        color: #fff;
-        height: 180px;
-        margin: -1.5em auto 1em -45px;
-        padding: 1em 45px;
-        width: calc(100% + 90px);
-    }
+.project #main .proj-img img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 300px;
+    border-radius: 4px;
 }
 
 .project #main .proj-cont {
@@ -1256,10 +1257,6 @@ svg text ::selection {
         font-size: 1rem;
     }
 
-    .project #main .proj-meta {
-        text-align: center;
-    }
-
     .project #main .proj-cont .container > .row > div {
         width: calc(100% + 45px);
     }
@@ -1288,9 +1285,9 @@ svg text ::selection {
     }
 
     .project #main .proj-cont .proj-sect h2 {
-        font-size: 20px;
+/*        font-size: 20px;*/
         margin-left: -15px;
-        padding-top: 3.5em;
+/*        padding-top: 3.5em;*/
         padding-left: 15px;
         width: calc(100% + 30px);
     }
@@ -1336,8 +1333,6 @@ svg text ::selection {
     .project #main .proj-cont .proj-sect div.chart.timeline {
         background-color: #fff;
         border-radius: 1px;
-        -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
-        box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
         margin-left: -30px;
         margin-bottom: 3em;
         overflow-x: scroll;
