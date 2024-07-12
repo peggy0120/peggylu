@@ -3,23 +3,21 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, maximum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="Peggy Pei-Ying Lu">
-    <title>Résumé | Peggy Lu | UX Design</title>
+    <title>Resume | Peggy Lu | Design Research &amp; Strategy</title>
 
     <!-- jQuery -->
-    <script src="/js/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
 
 
     <!-- Load Header-->
     <script>
         $(function() {
-
             $('#footer').load('/reuseFooter.html');
         });
-
     </script>
 
     <!-- Bootstrap Core JavaScript -->
@@ -48,20 +46,7 @@
         })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
         ga('create', 'UA-61994680-2', 'auto');
         ga('send', 'pageview');
-
     </script>
-
-    <style>
-        .project #main section[id^='cv-'].proj-sect h3 {
-            font-weight: 400;
-        }
-        .project #main section[id^='cv-'].proj-sect img {
-            display: none;
-        }
-
-
-
-    </style>
 </head>
 
 <body data-spy="scroll" data-target="#sidenav" data-offset="60">
@@ -74,294 +59,169 @@
 
             <!-- Main -->
             <div id="main" class="">
-                <header class="proj-header" style="height: 220px;">
+                <header class="proj-header">
                     <div class="container">
-                        <h1>Résumé</h1>
-                        <a href="https://iu.box.com/shared/static/r3z66cbedadw3n8kikdiw16maqnqaro4.pdf" role="button" class="btn btn-primary" style="margin-top: 1.5em;">Download PDF</a>
+                        <div class="">
+                            <h1>Resume</h1>
+                            <a href="https://drive.google.com/file/d/1ClBYxgNVXU19by9SgfY-cbkICreyDsTS/view" class="ext-link">View PDF</a>
+                        </div>
                     </div>
                 </header>
                 <section class="proj-cont">
                     <div class="container">
-                        <div class="row d-flex">
+                        <article class="row">
+                            <section id="cv-exp">
+                                <h2>Experience</h2>
 
-                            <div class="col-md-3 d-none">
-                                <nav id="sidenav">
-                                    <span class="sn-breadcrumb">
-                                        <a href="../index.html">peggylu</a>&nbsp;/
-                                    </span>
-                                    <span class="sn-header">Résumé</span>
-                                    <ul class="nav">
-                                        <li><a href="#cv-exp" class="active nav-link">Experience</a></li>
-                                        <li><a href="#cv-edu" class="nav-link">Education</a></li>
-                                        <li><a href="#cv-skl" class="nav-link">Skill</a></li>
-                                        <li><a href="#cv-pub" class="nav-link d-none">Publication</a></li>
+                                <div class="cv-unit">
+                                    <div class="cv-row d-flex">
+                                        <div class="cv-org">Institute for Creative Integration </div>
+                                        <div class="cv-loc">(SF Bay Area)</div>
+                                    </div>
+                                    <div class="cv-row d-flex justify-content-between">
+                                        <div class="cv-title">Sr. Design Researcher</div>
+                                        <div class="cv-time">Mar, 22–Feb, 23</div>
+                                    </div>
+                                    <div class="cv-row d-flex justify-content-between">
+                                        <div class="cv-title">Design Researcher</div>
+                                        <div class="cv-time">Jan, 21–Mar, 22</div>
+                                    </div>
+
+                                    <ul class="cv-desc">
+                                        <li>Designed, managed, and executed various mix-method research projects from start to finish.</li>
+                                        <li>Streamlined research operations involving participant recruitment, survey design, data analysis, presentation and internal documentation.</li>
+                                        <li>Delivered insights and strategies with organization-wide impacts for large corporate clients that accelerated their development roadmap.</li>
                                     </ul>
-                                    <a href="#wrapper" class="sn-top">
-                                        back to top &nbsp;
-                                        <span class="fas fa-caret-up"></span>
-                                    </a>
-                                </nav>
-                            </div>
 
-                            <article class="cont col-12 row">
-
-                                <div class="col-lg-8 col-12">
-
-                                    <section id="cv-exp" class="proj-sect">
-                                        <h2>Experience</h2>
-                                        <a href="#wrapper" class="sect-top">
-                                            back to top &nbsp;
-                                            <span class="fas fa-caret-up"></span>
-                                        </a>
-                                        <div>
-                                           <div class="row">
-                                                <div class="col-0"><img src="/image/cv_icon-bb.svg"></div>
-                                                <div class="col-8">
-                                                    <h3>Design Contributor</h3>
-                                                    <div class="cv-org">We Vote</div>
-<!--                                                    <div class="cv-loc">(Remote)</div>-->
-                                                </div>
-                                                <div class="col-4">
-                                                    <div class="cv-time">Sep, 18 - Present</div>
-                                                </div>
-                                                <div class="col-12">
-                                                    <ul class="cv-desc">
-                                                        <li>Reviewing current sites for design opportunitites and painpoints.</li>
-                                                        <li>Exploring redesign options for onboarding and network building.</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-0"><img src="/image/cv_icon-bb.svg"></div>
-                                                <div class="col-8">
-                                                    <h3>UI/UX Designer (Volunteer)</h3>
-                                                    <div class="cv-org">DoYouAFlavor</div>
-                                                    <div class="cv-loc">(Remote)</div>
-                                                </div>
-                                                <div class="col-4">
-                                                    <div class="cv-time">May - Aug, 18</div>
-                                                </div>
-                                                <div class="col-12">
-                                                    <ul class="cv-desc">
-                                                        <li>Collaborate with developers from conceptualizing to implementing a web platform to redistribute donated resources for homeless people with a streamlined process for donors to sign up.</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-0"><img src="/image/cv_tools_icon/IU.svg"></div>
-                                                <div class="col-8">
-                                                    <h3>Associate Instructor</h3>
-                                                    <div class="cv-org">Indiana University Bloomington</div>
-                                                    <div class="cv-loc"></div>
-                                                </div>
-                                                <div class="col-4">
-                                                    <div class="cv-time">Aug, 16 - May, 18</div>
-                                                </div>
-                                                <div class="col-12">
-                                                    <ul class="cv-desc">
-                                                        <li>Mentoring project teams and individual undergraduate students in facilitating their understandings of design thinking and process.</li>
-                                                        <li>Leading lab sessions on GitHub practices and to analyze information systems from an orgnizational perspective.</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-0"><img src="/image/cv_icon-bb.svg"></div>
-                                                <div class="col-8">
-                                                    <h3>UX Design Intern</h3>
-                                                    <div class="cv-org">Blackbaud.</div>
-                                                    <div class="cv-loc">Austin,&nbsp;TX</div>
-                                                </div>
-                                                <div class="col-4">
-                                                    <div class="cv-time">May - Aug, 17</div>
-                                                </div>
-                                                <div class="col-12">
-                                                    <ul class="cv-desc">
-                                                        <li>Collaborated with PM intern on scoping, strategizing, and visioning next-gen marketing solution for non-profit organizations that accelerated product roadmap.</li>
-                                                        <li>Delivered insights from research on B2B / SaaS user onboarding techniques and patterns.</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-0"><img src="/image/cv_tools_icon/ntu.gif"></div>
-                                                <div class="col-8">
-                                                    <h3>UX Designer (Volunteer)</h3>
-                                                    <div class="cv-org">Dept. of Library &amp; Information Science at National Taiwan University</div>
-                                                    <div class="cv-loc"></div>
-                                                </div>
-                                                <div class="col-4">
-                                                    <div class="cv-time">Jul, 14 - Jul, 15</div>
-                                                </div>
-                                                <div class="col-12">
-                                                    <ul class="cv-desc">
-                                                        <li>Redesigned the department's digital image including website, marketing materials, and strategies.</li>
-                                                        <li>Assisted in founding and served as a full-stack designer on the team contributing to information architecture, interaction design, visual design, front-end development, and content strategies.</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="row d-none">
-                                                <div class="col-0"><img src="/image/cv_icon-hyweb.svg"></div>
-                                                <div class="col-8">
-                                                    <h3>PT (Digital Content Management Division)</h3>
-                                                    <div class="cv-org">Hyweb Technology Co., Ltd.</div>
-                                                    <div class="cv-loc">Taipei, Taiwan</div>
-                                                </div>
-                                                <div class="col-4">
-                                                    <div class="cv-time">Jan - Dec, 14</div>
-                                                </div>
-                                                <div class="col-12">
-                                                    <ul class="cv-desc">
-                                                        <li>Managed electronic resources on the backend of integrated library systems.</li>
-                                                        <li>Designed user manuals of library system for librarians.</li>
-                                                        <li>Conducted market research on integrated library system in Taiwan.</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-0"><img src="/image/cv_tools_icon/ntu.gif"></div>
-                                                <div class="col-8">
-                                                    <h3>Exhibit Designer</h3>
-                                                    <div class="cv-org">National Taiwan University Agri&shy;cultural Exhibit Hall</div>
-                                                    <div class="cv-loc"></div>
-                                                </div>
-                                                <div class="col-4">
-                                                    <div class="cv-time">Feb - May, 14</div>
-                                                </div>
-                                                <div class="col-12">
-                                                    <ul class="cv-desc">
-                                                        <li>Led workshop team designing food educational exhibit &amp; activities for kindergarden and elementary school students.</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </section>
-
-                                    <section class="proj-sect" id="cv-edu">
-                                        <h2>Education</h2>
-                                        <a href="#wrapper" class="sect-top">
-                                        back to top &nbsp;
-                                        <span class="fas fa-caret-up"></span>
-                                    </a>
-                                        <div>
-                                            <div class="row">
-                                                <div class="col-0"><img src="/image/cv_tools_icon/IU.svg"></div>
-                                                <div class="col-9">
-                                                    <h3>M.S., Human Computer Interaction Design</h3>
-                                                    <div class="cv-org">Indiana University Bloomington</div>
-                                                    <div class="cv-loc">, IN, USA</div>
-                                                </div>
-                                                <div class="col-3">
-                                                    <div class="cv-time">Aug, 16 - May, 18</div>
-                                                </div>
-                                                <div class="col-md-7 col-8 d-none">
-                                                    <ul class="cv-desc style-dash">
-                                                        <li></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-0"><img src="/image/cv_icon-umea.svg"></div>
-                                                <div class="col-9">
-                                                    <h3>Non-degree Exchange Program <span>Focus: Social Geography</span></h3>
-                                                    <div class="cv-org">Umeå University</div>
-                                                    <div class="cv-loc">, Umeå, Sweden</div>
-                                                </div>
-                                                <div class="col-3">
-                                                    <div class="cv-time">Aug, 15 - Jun, 16</div>
-                                                </div>
-                                                <div class="col-md-7 col-8 d-none">
-                                                    <ul class="cv-desc style-dash">
-                                                        <li></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-0"><img src="/image/cv_tools_icon/ntu.gif"></div>
-                                                <div class="col-9">
-                                                    <h3>B.A., Library and Information Science</h3>
-                                                    <div class="cv-org">National Taiwan University</div>
-                                                    <div class="cv-loc">, Taipei City, Taiwan</div>
-                                                </div>
-                                                <div class="col-3">
-                                                    <div class="cv-time">Aug, 11 - Jun, 16</div>
-
-                                                </div>
-                                                <div class="col-md-7 col-8 d-none">
-                                                    <ul class="cv-desc style-dash">
-                                                        <li></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </section>
-
+                                    <div class="cv-row d-flex justify-content-between">
+                                        <div class="cv-title">Interaction Designer (Contract)</div>
+                                        <div class="cv-time">Mar, 19–Dec, 20</div>
+                                    </div>
+                                    <ul class="cv-desc">
+                                        <li>Designed, managed, and supported development of several public tours showcasing Toyota’s next-gen in-car AI agent featuring multimodal interactions.</li>
+                                    </ul>
                                 </div>
 
-                                <div class="col-lg-4 col-12">
-                                    <section class="proj-sect" id="cv-skl">
-                                        <h2>Skill</h2>
-                                        <a href="#wrapper" class="sect-top">
-                                            back to top &nbsp;
-                                            <span class="fas fa-caret-up"></span>
-                                        </a>
-                                        <div>
-                                            <h3>Design Methods</h3>
-                                            <ul class="" style="list-style: none;">
-                                                <li>Customer Journey Mapping</li>
-                                                <li>Contextual Inquiry</li>
-                                                <li>Competitive Analysis</li>
-                                                <li>Affinity Diagrams</li>
-                                                <li>Storyboards</li>
-                                                <li>Prototype</li>
-                                                <li>Usability Test</li>
-                                                <li>Wireframe</li>
-                                            </ul>
-                                        </div>
-                                        <div class="">
-                                            <h3>Design Tools</h3>
-                                            <ul class="" style="list-style: none;">
-                                                <li>Sketch</li>
-                                                <li>Axure</li>
-                                                <li>Adobe Xd</li>
-                                                <li>InVision</li>
-                                                <li>Figma</li>
-                                                <li>Photoshop</li>
-                                                <li>Illustrator</li>
-                                                <li>HTML5/CSS3</li>
-                                                <li>JavaScript</li>
-                                            </ul>
-                                            <div class="row d-none">
-                                                <div class="col-lg-4 col-2"><img src="/image/cv_icon-axure.svg"><span class="icon-title">Axure</span></div>
-                                                <div class="col-lg-4 col-2"><img src="/image/cv_tools_icon/sketch.svg"><span class="icon-title">Sketch</span></div>
-                                                <div class="col-lg-4 col-2"><img src="/image/cv_tools_icon/adobe_xd.svg"><span class="icon-title">Adobe XD</span></div>
-                                                <div class="col-lg-4 col-2"><img src="/image/cv_tools_icon/adobe_photoshop.svg"><span class="icon-title">Photoshop</span></div>
-                                                <div class="col-lg-4 col-2"><img src="/image/cv_tools_icon/adobe_illustrator.svg"><span class="icon-title">Illustrator</span></div>
-                                                <div class="col-lg-4 col-2"><img src="/image/cv_tools_icon/adobe_indesign.svg"><span class="icon-title">InDesign</span></div>
-                                                <div class="col-lg-4 col-2"><img src="/image/cv_tools_icon/invision.svg"><span class="icon-title">InVision</span></div>
-                                                <div class="col-lg-4 col-2"><img src="/image/cv_icon-visio.svg"><span class="icon-title">MS Visio</span></div>
-                                                <div class="w-100"></div>
-                                                <div class="col-lg-4 col-2"><img src="/image/cv_tools_icon/html5.svg"><span class="icon-title"></span></div>
-                                                <div class="col-lg-4 col-2"><img src="/image/cv_tools_icon/css3.svg"><span class="icon-title"></span></div>
-                                                <div class="col-lg-4 col-2"><img src="/image/cv_icon-js.svg"><span class="icon-title"></span></div>
-                                                <div class="col-lg-4 col-2"><img src="/image/cv_tools_icon/jquery.gif"><span class="icon-title"></span></div>
-                                                <div class="col-lg-4 col-2"><img src="/image/cv_tools_icon/bootstrap.svg"><span class="icon-title">Bootstrap</span></div>
-                                                <div class="col-lg-4 col-2"></div>
-                                            </div>
-                                        </div>
-                                    </section>
+                                <div class="cv-unit">
+                                    <div class="cv-row d-flex justify-content-between">
+                                        <div class="cv-title">Freelance UI / UX Designer</div>
+                                        <div class="cv-time">May, 18 to date</div>
+                                    </div>
 
-                                    <section class="proj-sect d-none" id="cv-pub">
-                                        <h2>Publication</h2>
-                                        <a href="#wrapper" class="sect-top">
-                                        back to top &nbsp;
-                                        <span class="fas fa-caret-up"></span>
-                                    </a>
-                                        <div style="height: 450px;">
-                                        </div>
-                                    </section>
+                                    <ul class="cv-desc">
+                                        <li>Empowering non-profit organizations with design services, including web/mobile design, ux audit, usability testing, and design operation.</li>
+                                    </ul>
                                 </div>
 
-                            </article>
-                        </div>
+                                <div class="cv-unit">
+                                    <div class="cv-row d-flex">
+                                        <div class="cv-org">Indiana University Bloomington</div>
+                                    </div>
+                                    <div class="cv-row d-flex justify-content-between">
+                                        <div class="cv-title">Associate Instructor - HCI/Interaction Design</div>
+                                        <div class="cv-time">Aug, 16–May, 18</div>
+                                    </div>
+                                    <ul class="cv-desc">
+                                        <li>Mentored undergraduate students in understanding and adopting human-centered design practices.</li>
+                                    </ul>
+                                </div>
+
+                                <div class="cv-unit">
+                                    <div class="cv-row d-flex">
+                                        <div class="cv-org">Blackbaud</div>
+                                        <div class="cv-loc">Austin,&nbsp;TX</div>
+                                    </div>
+                                    <div class="cv-row d-flex justify-content-between">
+                                        <div class="cv-title">UX Design Intern</div>
+                                        <div class="cv-time">May–Aug, 17</div>
+                                    </div>
+                                    <ul class="cv-desc">
+                                        <li>Accelerated product roadmap through close collaboration with PM on scoping, strategizing, and visioning next-gen marketing solution for non-profit organizations.</li>
+                                    </ul>
+                                </div>
+
+                            </section>
+
+                            <section id="cv-edu">
+                                <h2>Education</h2>
+                                <div class="cv-unit">
+                                    <div class="cv-row d-flex">
+                                        <div class="cv-org">Indiana University Bloomington</div>
+                                        <!-- <div class="cv-loc">, IN, USA</div>-->
+                                    </div>
+                                    <div class="cv-row d-flex justify-content-between">
+                                        <div class="cv-title">M.S., Human Computer Interaction Design</div>
+                                        <div class="cv-time">Aug, 16–May, 18</div>
+                                    </div>
+                                </div>
+
+                                <div class="cv-unit">
+                                    <div class="cv-row d-flex">
+                                        <div class="cv-org">Umeå University</div>
+                                        <!-- <div class="cv-loc">, Umeå, Sweden</div>-->
+                                    </div>
+                                    <div class="cv-row d-flex justify-content-between">
+                                        <div class="cv-title">
+                                            <div>Non-degree Exchange Program </div>
+                                            <div>Focus: Social Geography</div>
+                                        </div>
+                                        <div class="cv-time">Aug, 15–Jun, 16</div>
+                                    </div>
+                                </div>
+                                <div class="cv-unit">
+                                    <div class="cv-row d-flex">
+                                        <div class="cv-org">National Taiwan University</div>
+                                        <!-- <div class="cv-loc">, Taipei City, Taiwan</div>-->
+                                    </div>
+                                    <div class="cv-row d-flex justify-content-between">
+                                        <div class="cv-title">B.A., Library and Information Science
+                                        </div>
+                                        <div class="cv-time">Aug, 11–Jun, 16</div>
+                                    </div>
+                                </div>
+                            </section>
+
+
+                            <section id="cv-skl" class="row">
+                                <h2>Skill</h2>
+                                <div class="col-md-8 row">
+                                    <h3>Research &amp; Strategy </h3>
+                                    <ul class="col-md-6" style="list-style: none;">
+                                        <li>Research planning</li>
+                                        <li>System thinking</li>
+                                        <li>Concept mapping</li>
+                                        <li>Cognitive mapping</li>
+                                        <li>Thematic analysis</li>
+                                        <li>Persona development</li>
+                                    </ul>
+                                    <ul class="col-md-6" style="list-style: none;">
+                                        <li>Survey design</li>
+                                        <li>Contextual inquiry</li>
+                                        <li>Card sorting</li>
+                                        <li>Desirability testing</li>
+                                        <li>Usability testing</li>
+                                        <li>Heuristic evaluation</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4">
+                                    <h3>Design &amp; Research Tools</h3>
+                                    <ul class="" style="list-style: none;">
+                                        <li>User Interviews</li>
+                                        <li>SurveyMonkey</li>
+                                        <li>Dovetail</li>
+                                        <li>Miro</li>
+                                        <li>R</li>
+                                        <li>Tableau</li>
+                                        <!--
+                                        <li>Figma</li>
+                                        <li>Axure</li>
+-->
+                                    </ul>
+                                </div>
+                            </section>
+
+
+                        </article>
                     </div>
                 </section>
 
@@ -372,19 +232,9 @@
 
         </div>
 
-        <div id="copyright">
-            <span>Design and code by Peggy (Pei-Ying) Lu <br> with Bootstrap 4 &copy; 2017. All rights reserved.</span>
-            <a href="#wrapper" class="btm-top">
-                back to top &nbsp;
-                <span class="fas fa-caret-up"></span>
-            </a>
-        </div>
-
     </div>
 
     <script>
-        //window.location.replace("https://iu.app.box.com/v/peggylu-ux-resume");
-
         $(document).ready(function() {
 
             $('.dropdown-toggle').dropdown();
@@ -442,8 +292,5 @@
                 $(this).html(string);
             });
         });
-
     </script>
-</body>
-
-</html>
+</body></html>

@@ -3,27 +3,25 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, maximum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="Peggy Pei-Ying Lu">
-    <title>Peggy Lu | UX Design</title>
+    <title>Peggy Lu | Design Research &amp; Strategy</title>
 
     <!-- jQuery -->
-    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
 
     <!-- Load Header-->
     <script>
         $(function() {
             $('#footer').load('reuseFooter.html');
-            $('#copyright').load('../reuseCopyrights.html');
         });
-
     </script>
 
     <!-- Bootstrap Core JavaScript -->
     <script type="text/javascript" src="js/bootstrap.js"></script>
-    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+<!--    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>-->
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -46,19 +44,9 @@
         })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
         ga('create', 'UA-61994680-2', 'auto');
         ga('send', 'pageview');
-
     </script>
 
     <style>
-        .project-category {
-            padding: 20px;
-            text-align: center;
-        }
-        .project-category > h2 {
-            text-transform: none;
-            font-size: 1.5em;
-            font-weight: 300;
-        }
     </style>
 </head>
 
@@ -72,187 +60,140 @@
 
             <!-- Main -->
             <div id="main" class="homepage">
-                <div class="container">
-                    <div class="row justify-content-start no-gutters">
 
-<!--
-                        <div class="project-category col-12">
-                            <h2>Industry / Community Projects</h2>
+                <header id="home-hero">
+                    <div class="container">
+                        <h1>Design Researcher &amp; Strategist</h1>
+                        <p class="home-desc">Hi, I’m a human-centered design researcher &amp; strategist. I'm skilled in breaking down complexities, making sense of ambiguities, and eliciting actionable insights. My approaches are evidence-based and rooted in a deep understanding of the people and the larger organizational and societal context. I’ve worked on areas such as design equity, information design, mobility, and human-AI interactions.</p> 
+                        <p class="home-desc">I also provide pro-bono design services to non-profit organizations in my free time.</p>
+
+                        <div id="contact" class="d-flex flex-column flex-md-row">
+                            <div class="cont-unit">
+                                <span class="icon fas fa-envelope"></span>
+                                <a href="mailto:peggy.py.lu@gmail.com" class="ext-link" target="_blank">
+                                    <span class="label">peggy.py.lu@gmail.com</span>
+                                </a>
+                            </div>
+                            <div class="cont-unit">
+                                <span class="icon fab fa-linkedin"></span>
+                                <a href="https://www.linkedin.com/in/peggy-lu" class="ext-link" target="_blank">
+                                    <span class="label">linkedin.com/in/peggy-lu</span>
+                                </a>
+                            </div>
                         </div>
--->
+                    </div>
+                </header>
 
-<!--
-                         <div onclick="" class="project-item wevote col-lg-6 col-12 justify-content-center disabled hidden" on-click="void(0)">
-                            <a onclick="" href="https://paper.dropbox.com/doc/DesignDoc-Measures-We-Vote--AXyPEElQoOVzgy5duOVAqKHcAQ-ANuqEQTNa7RTr93zUpYJU" target="_blank" class="project-url d-flex ">
-                                <div class="project-ribbon">
-                                    <span>On-going project</span>
+                <section id="home-projects">
+                    <div class="container">
+                        <h1>Projects</h1>
+                    </div>
+
+                    <div class="h-proj-item">
+                        <div class="container row">
+                            <div class="h-proj-img col-3 order-sm-last">
+                                <a onclick="" href="/projects/ici-inclusive.html" class="project-url"><img class="" src="/image/id_hero.jpg"></a>
+                            </div>
+                            <div class="h-proj-meta col-9 d-flex flex-column justify-content-around">
+                                <div>
+                                    <a onclick="" href="/projects/ici-inclusive.html" class="project-url">
+                                        <h2 class="h-proj-title">Implementing Inclusive Design</h2></a>
+                                    <p class="h-proj-desc">Co-creating design guidelines and strategies to steer a large organization toward a more inclusive development process and working environment</p>
                                 </div>
-                                <div class="project-img">
-                                    <img src="/image/wevote_thumb.svg">
-                                </div>
-                                <div class="project-meta d-flex flex-column justify-content-around">
-                                    <span class="project-label">Design Strategy | Visual Design</span>
-                                    <h2 class="project-title">We Vote - Design System</h2>
-                                    <p class="project-desc">Building &amp; maintaining a design system for a voluneered design team to ensure consistency and efficiency</p>
-                                </div>
-                            </a>
+                                <span class="h-proj-label">Design Strategy • Design Guideline • Toolkit Design</span>
+                            </div>
                         </div>
--->
+                    </div>
 
-<!--
-                         <div onclick="" class="project-item wevote col-lg-6 col-12 justify-content-center " on-click="void(0)">
-                            <a onclick="" href="https://paper.dropbox.com/doc/DesignDoc-Measures-We-Vote--AXyPEElQoOVzgy5duOVAqKHcAQ-ANuqEQTNa7RTr93zUpYJU" target="_blank" class="project-url d-flex">
-                                <div class="project-ribbon">
-                                    <span>On-going project</span>
+                    <div class="h-proj-item">
+                        <div class="container row">
+                            <div class="h-proj-img col-3 order-sm-last">
+                                <img class="" src="/image/trust_hero.jpg">
+                            </div>
+                            <div class="h-proj-meta col-9 d-flex flex-column justify-content-around">
+                                <div>
+                                    <h2 class="h-proj-title">Trust in Human-AI Interaction</h2>
+                                    <p class="h-proj-desc">A deep dive into existing research and future opportunities for a vehicle design team to better human-AI collaborations.</p>
                                 </div>
-                                <div class="project-img">
-                                    <img src="/image/wevote_thumb.jpg">
-                                </div>
-                                <div class="project-meta d-flex flex-column justify-content-around">
-                                    <span class="project-label">UI &amp; UX Design</span>
-                                    <h2 class="project-title">We Vote - Measures</h2>
-                                    <p class="project-desc">Redesigning the ux of understanding contents and opinions associated with a ballot measure</p>
-                                    <span style="font-size: 0.75em; color: var(--primary); text-decoration: underline">WIP - See Working Design Doc<span  style="text-decoration: none">&nbsp;&nbsp;<i class="fas fa-external-link-alt" ></i></span></span>
-                                </div>
-                            </a>
+                                <span class="h-proj-label">User Research • Trend Research • Design Strategy</span>
+                            </div>
                         </div>
--->
+                    </div>
 
-                        <div onclick="" class="project-item hh col-lg-6 col-12 justify-content-center" on-click="void(0)">
-                            <a onclick="" href="/projects/g0v-HomelessHelper.html" class="project-url d-flex">
-                                <div class="project-img">
-                                    <img src="/image/hh_thumb.jpg">
+                    <div class="h-proj-item">
+                        <div class="container row">
+                            <div class="h-proj-img col-3 order-sm-last">
+                                <img class="" src="/image/yui_hero.jpg">
+                            </div>
+                            <div class="h-proj-meta col-9 d-flex flex-column justify-content-around">
+                                <div>
+                                    <h2 class="h-proj-title">Toyota’s Next-gen AI Companion</h2>
+                                    <p class="h-proj-desc">Bridge the gap between vision and implementation to co-develop a multimodal AI agent experience</p>
                                 </div>
-                                <div class="project-meta d-flex flex-column justify-content-around">
-                                    <span class="project-label">Product Design</span>
-                                    <h2 class="project-title">Homeless Helper</h2>
-                                    <p class="project-desc">Web platform collecting donation efforts as public information to better resource coordination for homeless people</p>
-                                    <span class="project-year">2018</span>
-                                </div>
-                            </a>
+                                <span class="h-proj-label">Interaction Design • Design Strategy • Design Operation</span>
+                            </div>
                         </div>
+                    </div>
 
-                        <div class="project-item blackbaud col-lg-6 col-12 justify-content-center" onclick="">
-                            <a onclick="" href="/projects/bb-ux-intern.html" class="project-url d-flex">
-                                <div class="project-img">
-                                    <img src="/image/blackbaud.jpg">
+                    <div class="h-proj-item">
+                        <div class="container row">
+                            <div class="h-proj-img col-3 order-sm-last">
+                                <img class="" src="/image/shared-mobility_hero.jpg">
+                            </div>
+                            <div class="h-proj-meta col-9 d-flex flex-column justify-content-around">
+                                <div>
+                                    <h2 class="h-proj-title">Future Shared Mobility Services</h2>
+                                    <p class="h-proj-desc">Mixed-method research to guide and inspire future vehicle design and mobility services</p>
                                 </div>
-                                <div class="project-meta d-flex flex-column justify-content-around">
-                                    <span class="project-label">Interaction Design | Research</span>
-                                    <h2 class="project-title">UX Intern @ Blackbaud</h2>
-                                    <p class="project-desc">Envision &amp; design future marketing solution for nonprofit organizations to power social good</p>
-                                    <span class="project-year">2017</span>
-                                </div>
-                            </a>
+                                <span class="h-proj-label">User Research</span>
+                            </div>
                         </div>
+                    </div>
 
-                        <div onclick="" class="project-item ntulis col-lg-6 col-12 justify-content-center" on-click="void(0)">
-                            <a onclick="" href="/projects/ntulis-IA.html" class="project-url d-flex">
-                                <div class="project-img">
-                                    <img src="/image/NTULIS_thumb.jpg">
+
+                    <div class="h-proj-item blackbaud">
+
+                        <div class="container row">
+                            <div class="h-proj-img col-3 order-sm-last">
+                                <img class="" src="/image/blackbaud.jpg">
+                            </div>
+                            <div class="h-proj-meta col-9 d-flex flex-column justify-content-around">
+                                <div>
+                                    <a onclick="" href="/projects/bb-ux-intern.html" class="project-url">
+                                        <h2 class="h-proj-title">Blackbauld UX Intern</h2>
+                                    </a>
+                                    <p class="h-proj-desc">Envision &amp; design future marketing solution for nonprofit organizations to power social good</p>
                                 </div>
-                                <div class="project-meta d-flex flex-column justify-content-around">
-                                    <span class="project-label">Information Architecture <span style="white-space: nowrap;">| Visual Design</span></span>
-                                    <h2 class="project-title">NTULIS Redesign</h2>
-                                    <p class="project-desc">Redesign university website addressing student needs &amp; the organization's vision</p>
-                                    <span class="project-year">2014</span>
-                                </div>
-                            </a>
+                                <span class="h-proj-label">Interaction Design | Research</span>
+                            </div>
                         </div>
+                    </div>
 
-<!--
-                        <div class="project-category col-12">
-                            <h2>Academy Projects</h2>
-                        </div>
--->
-
-
-                        <div onclick="" class="project-item capstone col-lg-6 col-12 justify-content-center" on-click="void(0)">
-                            <a onclick="" href="/projects/iuhcid-capstone.html" class="project-url d-flex">
-                                <!--
-                                <div class="project-ribbon">
-                                    <span>On-going project</span>
-                                </div>
--->
-                                <div class="project-img">
+                    <div class="h-proj-item capstone">
+                        <a onclick="" href="/projects/iuhcid-capstone.html" class="project-url">
+                            <div class="container row">
+                                <div class="h-proj-img col-3 order-sm-last">
                                     <img src="/image/capstone_thumb.jpg">
                                 </div>
-                                <div class="project-meta d-flex flex-column justify-content-around">
-                                    <span class="project-label">HCI/d Degree Capstone</span>
-                                    <h2 class="project-title">VirtualShelf</h2>
-                                    <p class="project-desc">A digital browsing environment for library systems nurturing serendipitous discoveries</p>
-                                    <span class="project-year">2018</span>
+                                <div class="h-proj-meta col-9 d-flex flex-column justify-content-around">
+                                    <div>
+                                        <h2 class="h-proj-title">HCI Degree Capstone — VirtualShelf</h2>
+                                        <p class="h-proj-desc">A digital browsing environment for library systems nurturing serendipitous discoveries</p>
+                                    </div>
+                                    <span class="h-proj-label">HCI/d Degree Capstone</span>
                                 </div>
-                            </a>
-                        </div>
-                        <div onclick="" class="project-item gogreen col-lg-6 col-12 justify-content-center" on-click="void(0)">
-                            <a onclick="" href="/projects/iuhcid-gogreen.html" class="project-url d-flex">
-                                <div class="project-img">
-                                    <img src="/image/gogreen_thumb.jpg">
-                                </div>
-                                <div class="project-meta d-flex flex-column justify-content-around">
-                                    <span class="project-label">Service Design | User Research</span>
-                                    <h2 class="project-title">Community Waste Education</h2>
-                                    <p class="project-desc">Informing &amp; promoting waste management practices in a smart &amp; connected community</p>
-                                    <span class="project-year">2017</span>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div onclick="" class="d-none project-item iuos col-lg-6 col-12 justify-content-center disabled" on-click="void(0)">
-                            <a onclick="" href="/projects/iuhcid-iuos.html" class="project-url d-flex">
-                                <div class="project-ribbon">
-                                    <span>Coming soon</span>
-                                </div>
-                                <div class="project-img">
-                                    <img src="/image/iuos_thumb.jpg">
-                                </div>
-                                <div class="project-meta d-flex flex-column justify-content-around">
-                                    <span class="project-label">Design Strategy | Research</span>
-                                    <h2 class="project-title">Prioritization Strategy for IUOS</h2>
-                                    <p class="project-desc">A strategic design process for the sustainability office on campus to prioritize initiatives and resources</p>
-                                    <span class="project-year">2018</span>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div onclick="" class="project-item cvp col-lg-6 col-12 justify-content-center" on-click="void(0)">
-                            <a onclick="" href="/projects/iuhcid-cvp.html" class="project-url d-flex">
-                                <div class="project-img">
-                                    <img src="/image/cvp_thumb.jpg">
-                                </div>
-                                <div class="project-meta d-flex flex-column justify-content-around">
-                                    <span class="project-label">User Research | Prototyping</span>
-                                    <h2 class="project-title">Campus Veteran Portal</h2>
-                                    <p class="project-desc">Empowering student veterans by connecting them to relevant resources and community during transitions</p>
-                                    <span class="project-year">2016</span>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div onclick="" class="project-item equi col-lg-6 col-12 justify-content-center d-none" on-click="void(0)">
-                            <a onclick="" href="#" class="project-url d-flex">
-                                <div class="project-img">
-                                    <!--                                    <img src="/image/Equi-table_thumb.png">-->
-                                </div>
-                                <div class="project-meta d-flex flex-column justify-content-around">
-                                    <span class="project-label"></span>
-                                    <h2 class="project-title">Equi-table</h2>
-                                    <p class="project-desc">Redesign university website addressing student needs &amp; the organization's vision</p>
-                                </div>
-                            </a>
-                        </div>
-
+                            </div>
+                        </a>
                     </div>
-                </div>
+
+                </section>
+
             </div>
 
             <!-- Footer -->
             <footer id="footer"></footer>
 
         </div>
-
-        <div id="copyright"></div>
 
     </div>
 
@@ -277,11 +218,7 @@
                     opacity: 1,
                     top: '+=1vh'
                 }, 1200, 'easeInOutBack');
-                $('.project-category').delay(300).animate({
-                    opacity: 1,
-                    top: '-=2vh'
-                }, 1200, 'easeInOutBack');
-                $('.project-item').delay(300).animate({
+                $('.h-proj-item').delay(300).animate({
                     opacity: 1,
                     top: '-=2vh'
                 }, 1200, 'easeInOutBack');
@@ -315,8 +252,5 @@
             });
 
         });
-
     </script>
-</body>
-
-</html>
+</body></html>
