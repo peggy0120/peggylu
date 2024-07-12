@@ -17,13 +17,12 @@
     <script>
         $(function() {
             $('#footer').load('../reuseFooter.html');
-            $('#copyright').load('../reuseCopyrights.html');
         });
     </script>
 
     <!-- Bootstrap Core JavaScript -->
     <script type="text/javascript" src="../js/bootstrap.js"></script>
-    <script type="text/javascript" src="../js/bootstrap.bundle.min.js"></script>
+<!--    <script type="text/javascript" src="../js/bootstrap.bundle.min.js"></script>-->
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="../css/bootstrap.min.css">
@@ -74,27 +73,23 @@
                 </header>
 
                 <section class="proj-meta">
-                    <div class="container">
-                        <div class="proj-overview">
-                            <h2>Overview</h2>
-                            <p>With libraries transforming into the digital era and patrons reminiscing the experience of wandering among the physical stacks, can we imagine something <em>more engaging and exploratory</em> to inspire and nurture serendipity in digital&nbsp;environments?</p>
-                        </div>
-                        <div class="row">
+                    <div class="container d-flex">
+                        <div class="">
                             <div class="col-12 row">
-                                <div class="col-lg-6 col-12">
-
+                                <div class="col-12 proj-overview">
+                                    <h2>Overview</h2>
+                                    <p>With libraries transforming into the digital era and patrons reminiscing the experience of wandering among the physical stacks, can we imagine something <em>more engaging and exploratory</em> to inspire and nurture serendipity in digital&nbsp;environments?</p>
                                 </div>
-                                <div class="col-lg-2 col-8 row">
-                                    <div class="proj-type col-lg-12 col-6">
-                                        <h2>Type</h2>
-                                        <p>Thesis Capstone <br><span>(Individual)</span>&nbsp;</p>
-                                    </div>
-                                    <div class="proj-time col-lg-12 col-6">
-                                        <h2>Duration</h2>
-                                        <p>14 weeks<br><span>(Jan - May&nbsp;2017)</span></p>
-                                    </div>
+                                <div class="proj-type col-md-4 col-6">
+                                    <h2>Type</h2>
+                                    <p>Thesis Capstone <br><span>(Individual)</span>&nbsp;</p>
                                 </div>
-                                <div class="proj-role col-4">
+                                <div class="proj-time col-md-4 col-6">
+                                    <h2>Duration</h2>
+                                    <p>14 weeks<br><span>(Jan - May&nbsp;2017)</span></p>
+                                </div>
+                               
+                                <div class="proj-role col-md-4">
                                     <h2>Skills</h2>
                                     <ul>
                                         <li>User Research</li>
@@ -116,10 +111,9 @@
                     </div>
 
                     <div class="container">
-
                         <div class="row d-flex flex-row-reverse">
 
-                            <div class="col-md-3 d-md-block d-sm-none">
+                            <div class="col-md-3 d-md-block d-none">
                                 <nav id="sidenav">
                                     <span class="sn-breadcrumb">
                                         <a href="../index.html">peggylu</a>&nbsp;· projects /
@@ -333,12 +327,14 @@
             </div>
 
             <!-- More Projects -->
+<!--
             <div id="more">
                 <div class="container">
                     <h1>More Projects</h1>
                     <div id="more-content"></div>
                 </div>
             </div>
+-->
 
             <!-- Footer -->
             <footer id="footer"></footer>
