@@ -157,7 +157,7 @@ em {
 .btn {
     border: none;
     border-radius: 16px;
-    font-family: "Acumin Pro SemiCondensed";
+    font-family: acumin-pro-semi-condensed, sans-serif;
     font-size: 1.25rem;
     font-weight: 600;
     /*    line-height: 1.25;*/
@@ -308,7 +308,7 @@ nav .logo {
 }
 
 h1.name {
-    font-family: "Acumin Pro Condensed";
+    font-family: acumin-pro-condensed, sans-serif;
     font-weight: 600;
     font-size: 2.25rem;
     margin: 0 1rem 0 0;
@@ -493,7 +493,6 @@ nav button.navbar-toggler:hover .navbar-toggler-icon {
     margin-top: 16vh;
     margin-right: 16px;
     margin-bottom: 80px;
-    max-width: 1080px;
 }
 
 #main #home-hero h1 {
@@ -501,6 +500,7 @@ nav button.navbar-toggler:hover .navbar-toggler-icon {
 }
 
 #main #home-hero .home-desc {
+    max-width: 1080px;
     margin-bottom: 40px;
 }
 
@@ -604,7 +604,7 @@ nav button.navbar-toggler:hover .navbar-toggler-icon {
 }
 
 .project #main .proj-meta h2 {
-    font-family: "Acumin Pro SemiCondensed";
+    font-family: acumin-pro-semi-condensed, sans-serif;
     font-weight: 600;
     font-size: 1.2rem;
     line-height: 1.5;
